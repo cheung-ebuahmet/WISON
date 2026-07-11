@@ -1,0 +1,106 @@
+contract:
+  id: "EPC-ADNOC-RSGP"
+  name: "ADNOC RSGP EPC Agreement"
+  type: EPC
+  status: active
+  vendor: null                  # Wison is Contractor
+  discipline: null              # All disciplines
+  package: null                 # Entire project
+  contract_ref: "6000066707"
+  parent_contract: null         # Top of hierarchy
+  execution_date: null          # 待提取
+  revision: "FIDIC Silver Book (ADNOC-CICV-505A v6)"
+  risk_level: high
+
+  commercial:
+    currency: "AED"
+    contract_value: null        # 待从 EPC Agreement 提取
+    provisional_sum: null
+    advance_payment_pct: null
+    performance_bond_pct: null
+    retention_pct: null
+    defects_liability_months: null
+    warranty_months: null
+
+    advance_payment_guarantee:
+      required: null
+      amount: null
+      expiry_condition: null
+
+    performance_bond:
+      required: null
+      amount: null
+      expiry_condition: null
+
+    retention:
+      release_upon_completion_pct: null
+      release_upon_final_pct: null
+
+  liquidated_damages:
+    delay:
+      per_day: null             # 待从 ANX 05 Exh A.09 提取
+      cap_pct: null
+      cap_amount: null
+      trigger: null
+
+    key_personnel:
+      per_day: null             # EPC 层可能不设 Key Personnel LD
+      count: null
+      positions: []
+      trigger: null
+
+    performance:
+      applicable: true
+      per_day: null             # 待从 ANX 05 Exh A.09 + ANX 10 Exh A.11 提取
+      cap_pct: null
+
+  payment_terms:
+    milestone_based: null
+    monthly_ipc: null
+    payment_days: null
+    invoicing_format: null
+
+  insurance:
+    required_types: null        # ANX 07
+    contractor_provides: null
+    subcontractor_provides: null
+
+  documents:
+    part_i_dir: "01_EPC Agrmt/"
+    part_ii_dir: "ANX 01-14/"
+    attachment_count: 14
+    amendment_dirs: []
+    key_files:
+      - path: "FOA - ANX 1-13 CoverPages_Bilingual_ocred.pdf"
+        description: "EPC Form of Agreement + Annexures 1-13 (Bilingual, 199pp)"
+      - path: "ANX 05_Pricing Schedule/ANX05_Exh A.09_Liquidated Damages - Bonus Provisions_Signed_ocred.pdf"
+        description: "LD & Bonus Provisions"
+      - path: "ANX 05_Pricing Schedule/ANX05_Exh A.07_Pricing Invoicing - Variation Rates.docx"
+        description: "Pricing & Variation Rates"
+      - path: "ANX 10_Execution Requirements/ANX10_Exh A.11_Performance Guarantees_Signed_ocred.pdf"
+        description: "Performance Guarantees"
+      - path: "ANX 12_HSE Requirements/"
+        description: "HSE Standards (200+ files)"
+
+  linked:
+    ocr_markdown: "kb/FOA - ANX 1-13 CoverPages_Bilingual.md"
+    clauses: []
+    wiki_pages:
+      - page: "EPC-Contract-Structure"
+        path: "wiki/EPC-Contract-Structure.md"
+      - page: "Liquidated-Damages"
+        path: "wiki/Liquidated-Damages.md"
+      - page: "Performance-Guarantee"
+        path: "wiki/Performance-Guarantee.md"
+    correspondence_dir: "Main_Contract/Corres/"
+    payment_dir: "Main_Contract/Pymt/"
+
+  variation:
+    amendment_count: 0
+    total_variation_value: null
+    final_account_status: null
+
+  payment_status:
+    total_paid: null
+    total_outstanding: null
+    last_ipc_no: null

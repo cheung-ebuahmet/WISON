@@ -1,0 +1,18 @@
+company:
+  id: "TCC"
+  full_name: "China National Chemical Engineering Third Construction Co., Ltd. - Abu Dhabi"
+  type: subcontractor
+  country: "UAE (Abu Dhabi)"
+  participates_in: ["10.2", "12.2"]
+  key_personnel: []         # 待提取
+  correspondence_count: 0
+  claims_count: 0
+  risk_summary: "10.2: IPC 005 reached, Part II 完整; 12.2: Part II 全缺 — 高风险"
+
+  completeness:
+    ocr: 0
+    metadata: 30
+    clause_mapped: 0
+    payment: 10
+    correspondence_indexed: 0
+    risk_reviewed: 10

@@ -1,27 +1,39 @@
-# Binary "cold files" — ignored by git
-# These are the source of truth on disk but git only tracks
-# their text-format derivatives (.md, .csv, .txt)
+# ============================================================================
+# D:\Wison  —  文控风控 .gitignore
+# 原则：只版本化「自产知识层 L2」(_Ref 的文本 + _tools + index.md)；
+#       彻底隔离「证据层 L1」(Main_Contract / Subcon_Payments / Project_Info)
+#       及一切二进制/扫描件/临时文件，证据层靠只读快照 + 哈希清单保护，不入 Git。
+# ============================================================================
+
+# 1) 默认忽略仓库根目录下的一切
+/*
+
+# 2) 仅放行自产 IP 与导航入口
+!/_Ref/
+!/_tools/
+!/index.md
+!/.gitignore
+
+# 3) _Ref 内的缓存/中间层不版本化（index.md 已注明可安全删除）
+/_Ref/cache/
+
+# 4) 即使在放行目录内，也排除二进制/扫描件/办公文档/临时文件（保持仓库精简、防误纳证据）
 *.pdf
-*.docx
 *.doc
-*.xlsx
+*.docx
 *.xls
-*.zip
-*.rar
-*.7z
+*.xlsx
+*.ppt
+*.pptx
+*.png
 *.jpg
 *.jpeg
-*.png
+*.webp
 *.gif
-*.bmp
-*.tiff
-*.tif
-
-# OS junk
-Thumbs.db
-.DS_Store
-desktop.ini
-
-# Temp files
-~$*
+*.zip
+*.7z
+*.rar
 *.tmp
+*.pyc
+__pycache__/
+~$*

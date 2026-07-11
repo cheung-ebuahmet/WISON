@@ -1,0 +1,121 @@
+contract:
+  id: "10.2"
+  name: "TCC - Civil Pkg I & III"
+  type: subcontract
+  status: active
+  vendor: "TCC"
+  discipline: "Civil"
+  package: "Pkg I & III"
+  contract_ref: "WISON24108C25007"
+  parent_contract: "EPC-ADNOC-RSGP"
+  execution_date: null
+  revision: "1.0"
+
+  structure:
+    loa:
+      exists: true
+      source_file: "Part I FOA_LOA_CF_COC/LOA_Civil Pkg I - III_Signed.pdf"
+      summary: "Letter of Award for Package I & III of Civil Works"
+    part_i:
+      exists: true
+      source_dir: "Part I FOA_LOA_CF_COC/"
+      components: ["Form of Agreement", "Letter of Award", "Conditions of Contract"]
+    part_ii:
+      exists: true
+      source_dir: "Part II Atchments/"
+    exhibits:
+      - exhibit_ref: "Attachment 1"
+        title: "Communication Procedures"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["administrative"]}
+        primary_topics: ["communication"]
+      - exhibit_ref: "Attachment 2"
+        title: "Change Management"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["variation", "claim"]}
+        primary_topics: ["change order", "variation", "EOT"]
+      - exhibit_ref: "Attachment 3"
+        title: "HSE Requirements"
+        exists: true
+        commercial_relevance: {level: low, reason: ["hse"]}
+        primary_topics: ["hse"]
+      - exhibit_ref: "Attachment 4"
+        title: "Quality Management"
+        exists: true
+        commercial_relevance: {level: low, reason: ["quality"]}
+        primary_topics: ["quality"]
+      - exhibit_ref: "Attachment 5"
+        title: "Scope of Work"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["scope", "ld", "schedule"]}
+        primary_topics: ["scope", "schedule", "key personnel", "delay ld", "kp ld"]
+        note: "Delay LD 按 Pkg 分列：Att 05 (Pkg I)、Att 06 (Pkg III)"
+      - exhibit_ref: "Attachment 6"
+        title: "Commercials"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["boq", "rates", "payment", "bond format"]
+      - exhibit_ref: "Attachment 7"
+        title: "Owner's Special Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["back-to-back"]}
+        primary_topics: ["owner requirements", "back-to-back"]
+
+  commercial:
+    currency: "AED"
+    contract_value: 162119509.74        # 不含 Provisional Sum
+    provisional_sum: 42880490.34
+    with_vat: 170225485.23              # 含 5% VAT
+    unit_price_basis: true              # assume same COC template
+    advance_payment_pct: 10             # assume same COC
+    performance_bond_pct: 10
+    retention_pct: 10
+    retention_additional_warranty_pct: 5
+    defects_liability_months: 12
+    warranty_months: 12
+    payment_days: 45
+    advance_payment_guarantee:
+      required: true
+      amount: 16211950.97
+      maturity: "Work Completion + 30 days"
+    performance_bond:
+      required: true
+      amount: 16211950.97
+      maturity: "Work Completion + 30 days"
+
+  liquidated_damages:
+    delay:
+      per_day: 162119.51                 # 1‰ of contract price (Att 05/06)
+      per_day_pct: 0.1                   # % of contract price
+      cap_pct: 10
+      cap_amount: 16211950.97
+    key_personnel:
+      per_day: 10000
+      count: 7
+      positions:
+        - {position: "Project Manager", name: "Luo Jingbo", ld_per_day: 10000}
+        - {position: "Construction Manager", name: "Cao Fei", ld_per_day: 10000}
+        - {position: "Control Manager", name: "Zhang Shi", ld_per_day: 10000}
+        - {position: "Contract Manager/Commercial Manager", name: "Cheng Hui", ld_per_day: 10000}
+        - {position: "HSE Manager", name: "Sun Shuwen", ld_per_day: 10000}
+        - {position: "Quality Manager", name: "Zhang Zhan", ld_per_day: 10000}
+        - {position: "Procurement Manager", name: "Hu Zhongkui", ld_per_day: 10000}
+    performance:
+      applicable: false
+
+  variation:
+    amendment_count: 0
+    final_account_status: pending
+
+  payment_status:
+    total_paid: null
+    last_ipc_no: "005"
+
+  linked:
+    clauses:
+      - {clause_ref: "Sub-Clause 4.2.4", topic: "ld", ko: "data/clause-library/Key-Personnel-LD.md"}
+      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: null}
+    correspondence_dir: "Subcon_Payments/10.2 TCC - Civil I_III/Corres/"
+    payment_dir: "Subcon_Payments/10.2 TCC - Civil I_III/Pymt/"
+
+  issues: []

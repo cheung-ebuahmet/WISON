@@ -1,0 +1,62 @@
+# correspondence-schema.yaml — 函件统一数据模型
+# 版本: 1.0 | 2026-07-09
+
+correspondence:
+  id:                 # 唯一编号（信函编号，如 "SLT-5312-WSN-CCE-0020"）
+  type:               # letter | RFI | NCR | SI | EOT | claim | IPC | MOM | variation | notice
+  direction:          # incoming | outgoing
+  date:               # YYYY-MM-DD
+  ref_number:         # 我方/对方编号
+  subject:            # 主题
+  summary:            # 2-3 句摘要（Claude 可检索的描述）
+  language:           # CN | EN | CN/EN
+
+  # ----------------------------------------------------------
+  # 关联（核心 — 链接到知识图谱其他节点）
+  # ----------------------------------------------------------
+  related:
+    contract:         # 关联合同 ID（如 "10.1"）
+    clauses:          # 引用的条款编号列表
+      - clause_ref:   # 如 "Sub-Clause 4.3.7"
+        topic:        # LD | Payment | Personnel | HSE | Insurance | Change | Termination
+    entities:         # 关联实体
+      companies: []   # 如 ["CCECC", "WSN"]
+      people: []      # 如 ["Zhiming Chen"]
+      packages: []    # 如 ["Pkg II"]
+
+  # ----------------------------------------------------------
+  # 行动追踪
+  # ----------------------------------------------------------
+  action:
+    required:         # true | false
+    deadline:         # YYYY-MM-DD 或 null
+    status:           # pending | responded | escalated | closed
+    escalated_to:     # 升级对象（如 "ADNOC" 或 null）
+
+  # ----------------------------------------------------------
+  # 触发事件
+  # ----------------------------------------------------------
+  trigger_event:      # 导致此函件的事件简述（如 "PM absence since 2026-05-25"）
+
+  # ----------------------------------------------------------
+  # 证据
+  # ----------------------------------------------------------
+  evidence:
+    source_file:      # 原始文件路径（相对于 D:\Wison）
+    ocr_file:         # OCR 文本路径（如存在）
+    attachments: []   # 附件文件名列表
+
+  # ----------------------------------------------------------
+  # 关联的索赔/后续函件
+  # ----------------------------------------------------------
+  linked_claims: []   # 关联索赔 ID
+  linked_correspondence: []  # 相关函件 ID（如回复、跟进、升级）
+
+  # ----------------------------------------------------------
+  # 成熟度
+  # ----------------------------------------------------------
+  completeness:
+    metadata:         # 0-100
+    reviewed:         # 0-100 (是否已人工审阅)
+    clause_mapped:    # 0-100 (条款是否已关联)
+    actioned:         # 0-100 (行动是否已完成)

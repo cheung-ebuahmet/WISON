@@ -1,0 +1,53 @@
+﻿Company Clarifications for implementation,,Date : 20/12/2024
+Sl.No.,Company clarification,Bidder Response
+1,"In reference to the TB-R018 issued to Bidders, Company provided the necessary utilities & its interface required from adjacent facilities.
+-Further note that company will provide tentative tie-in location/ length for utilities from existing Borouge & RHST-2 for estimation purpose. However, it is
+Bidder responsibility to consider appropriate additional margins during this proposal stage.
+Based on the above, Company requested Bidder to consider tentative scope and cost during this proposal submission.
+1)Extension of utilities tie-in from adjacent facilities to new RSGP facility.
+2)Necessary infrastructure (for e.g., pipe rack extension from adjacent facility, pipe routing, cable routing ...etc).
+Additional utility equipment systems/interfaces, monitoring, control & safeguard systems required inside the new RSGP based on conditions available from adjacent utilities shall be considered.
+Integration with existing system, controls & safeguards.",Confirmed
+2,"Regarding Power supply Tie in point, it is the total responsibility of EPC bidder to finalize the Tie-in point including extension in existing 11KV substation, switchgear, associated modification and cable routing between B3 and RSGP proposed plant (approx. 2500m). This shall be validated through ETAP by EPC Contractor: based on the outcome of necessary studies (including but not limited to adequacy, ETAP etc.) in Borouge 3.is Bidder responsibility without any
+schedule impact.",Confirmed
+3,"Bidder to Confirm that all EPC HSE Studies and Workshop shall use APPROVED ADNOC software, list of all software shall be included in the TORs and
+Assumption Register, all software HSE workshop and HSE studies simulation models shall be submitted with each revision cycle of the deliverables",Confirmed
+4,"In the absence of as-built native file, suitable image file compatible with AUTOCAD to be used to superimpose the new drawing.
+However, after post-award successful Bidder shall need to submit the need list to company to provide latest as-built drawings for the system/units required.",Confirmed
+5,"CP system shall be provided for the bottom external surface of the liquid Sulphur storage tanks. If any utility / fire / potable water tanks, CP system shall be provided for the internal and external surfaces.
+CP system shall be provided for all buried steel piping / vessel / fire hydrant.
+Bidders to note that AGES is the basis of any consideration related to CP and/or CMS. For the clarity, all onshore reinforced concrete foundations shall have
+Corrosion monitoring system only.",Confirmed
+6,Follow DGS-0000-023 requirement for steam trap monitoring.,Confirmed
+7,"Bidder to confirm that, new operator shelters same as RSHT-1 RFT package is required as part of this project is included in bidders lumpsum price.
+Bidder to confirm compliance without exceptions.",Confirmed
+8,"Dynamic simulation & transient analysis;
+Bidder to note that, this requirement shall be assessed during EPC phase in discussion with adjacent facility where steam is supplying. However, the Bidder is requested to consider dynamic simulations work as an optional scope during this bidding proposal.
+And also transient/surge analysis for liquid supply & return lines (for.e.g, water & condensate)",Confirmed
+9,"As clarified in Company TB-R016, for RSGP design in RSHT-2, waste water from treatment system shall be routed to evaporation pond. The evaporation pond should be sized the retention time(2 hrs for fire fighting & 4hrs for cooling) based on AGES with no overflow.
+-Bidder to note that there is no outfall to be considered in RSHT-2 design.
+Based on the above, all the necessary engineering efforts needs to be considered & included in the Bidders proposal. The same shall be executed during
+EPC phase.",Confirmed
+10,"All necessary as-built document for existing RSHT-2 sewer system are provided to Bidder. Bidder to note that, for RSGP design in RSHT-2, sewer lift system design similar to exiting RSHT-2 facility to be considered. The number of sewer lifts stations to be finalised based on layout for sewer system and occupancy based on personnel (101 no’s). The discharge of sewer water from new RSGP shall be routed to new sanitary/effluent treatment system in RSGP.",Confirmed
+11,"Bidder to consider the information provided in existing geotechnical reports as guidance only and shall base their lumpsum quote based on the following,
+-Bidder to note that only the stockpile/temporary lay-down items found during site visit (along with bidder) shall be removed before handing over to the successful bidder.
+Successful bidder shall consider all other associated site preparation works including backfilling to meet new developed plant elevation (elevation not to
+be less than RSHT-2 plant elevation), replacement of Loose soil, demolition / relocation / rerouting of other affected existing above & underground facilities based on finalized finished ground level in their lumpsum quote without exceptions based on the bidders site visit observations, provided documentation and EPC stage site surveys & studies outcome.
+- Bidder to note that all critical foundations to be founded on piles and other minor equipment / miscellaneous structure foundations may be founded on shallow foundations. Bidder to include the list of all equipment / structures that are proposed to be founded on pile foundations and the ones to be founded on open foundations as part of their lumpsum quote. Allowable bearing capacity for shallow foundations and capacity of the piles will be based on EPC stage geotechnical investigation outcome.
+-Bidder may use the excavated material as backfill / structural fill if it confirms to project specification requirement based on EPC stage material testing results and geotechnical investigation recommendations. Bidder may consider imported fill (if deemed necessary) and include the basis in their bid.",Confirmed
+12,"Based on further operation inputs received and to minimize modifications w.r.t existing RSHT-2 transfer systems, Company advised instead of connecting
+to existing TT-04, new conveyor to be extended from TT-X(new tag as per PFD) by running parallel route to existing transfer towers (TT-04,05,06) and connect to new Transfer tower (TT-X). This new TT-X to be installed after existing TT-06 and diverted gates to be provided in this new TT-X to facilitate the solid sulphur dumping to existing conveyors going to ship loader-3 & ship loader-4.",Confirmed
+13,"Based on RSHT-1 Feed package, Bidder to confirm whether the number & locations of dust suppression & collection packages required for solid handling &
+transfer system are accounted part of bid proposal.",Confirmed
+14,"Snuffing Steam Consumptions to Liquid storage tanks shall be based on NFPA 655 standards(volume of the tank) for new storage tank dimensions. Bidder
+shall verify steam consumptions for the same along with other steam normal consumptions.",Confirmed
+15,Company clarified that the additonal space provision for granulators is only for space without considering any power and any other utility.,Information
+16,"Company clarified that the plant is required to be commissioned by December 2027 and ready to receive liquid sulphur from H&G, store, granulation
+process, store, and trasnport to berths for export by that time.",Information
+17,"Company has no objection in principle to the submited plot plan, however, final approval shall be obtained during the detailed engineering phase and after
+completing the HSE studies.",Information
+18,Software and project technical standards to be considered based on latest contractual award date.,Information
+19,HVAC system needs to be provided with sulphur dust control system.,Information
+20,"Bidder to follow ITT requirements, Denso Mastic to be applied on Tank Chime as well as Drip Ring area all around the Tank.",Information
+21,"BIDDER to consider Lead sheath for instrument cables/FOC & instrument power cables which are laid in underground trenches.
+Soil condition to be verified during EPC to validate type of cable to be used.",Information

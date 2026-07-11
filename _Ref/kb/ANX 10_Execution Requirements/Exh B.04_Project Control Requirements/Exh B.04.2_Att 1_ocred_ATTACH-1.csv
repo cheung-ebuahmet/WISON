@@ -1,0 +1,230 @@
+﻿Progress Measurement System,,,,,,,,,,,
+RUWAIS SULPHUR GRANULATION PLANT(RSGP) DEVELOPMENT AT RSHT-2 FOR HAIL & GHASHA,,,,,,,,,,,
+,,,,,,,,,,,
+Activity Description,,,,,,Weightage Level,,,,,Basis of Measurement for Individual Discipline/ Activity
+,,,,,,Level-1,Level-2,Level-3,Level-4,Level-5,
+,A),Home Office Services,,,,0.08,,,,,
+,,a),Detail Engineering,,,,0.7,,,,
+,,,-,Common,,,,By Contractor,,,Man-hours
+,,,-,Process,,,,By Contractor,,,Man-hours
+,,,-,Piping,,,,By Contractor,,,Man-hours
+,,,-,Mechanical - Transfer Towers,,,,,,,
+,,,-,Mechanical - Static,,,,By Contractor,,,Man-hours
+,,,-,Mechanical - Rotating,,,,By Contractor,,,Man-hours
+,,,-,Mechanical - Conveyors,,,,By Contractor,,,Man-hours
+,,,-,Mechanical - HVAC,,,,By Contractor,,,Man-hours
+,,,-,Material & Corrosion,,,,By Contractor,,,Man-hours
+,,,-,Electrical,,,,By Contractor,,,Man-hours
+,,,-,Instrumentation & Control,,,,By Contractor,,,Man-hours
+,,,-,Telecom,,,,By Contractor,,,Man-hours
+,,,-,Civil / Structural / Archtectural,,,,By Contractor,,,Man-hours
+,,,-,HSE,,,,By Contractor,,,Man-hours
+,,,-,Others (if any),,,,By Contractor,,,Man-hours
+,,b),Procurement Services,,,,0.25,,,,
+,,,,Equipment & Packages,,,,0.65,,,
+,,,,- Granulators,,,,,By Contractor,,Man-hours
+,,,,- Belt Conveyor,,,,,By Contractor,,Man-hours
+,,,,- Stacker / Reclaimer (New),,,,,By Contractor,,Man-hours
+,,,,- Stacker / Reclaimer (Refurbishment),,,,,By Contractor,,Man-hours
+,,,,- Liquid Sulphur Transfer Pump,,,,,By Contractor,,Man-hours
+,,,,- Sulphur Remelter,,,,,By Contractor,,Man-hours
+,,,,- Dust Collection Package,,,,,By Contractor,,Man-hours
+,,,,- Dust Suppression System,,,,,By Contractor,,Man-hours
+,,,,- Granulator Feeding Pump,,,,,By Contractor,,Man-hours
+,,,,- Granulator Feeding Pump,,,,,By Contractor,,Man-hours
+,,,,- Inline Sulphur Filter,,,,,By Contractor,,Man-hours
+,,,,- Liquid Sulphur day Vessel,,,,,By Contractor,,Man-hours
+,,,,- Liquid Sulphur Filter,,,,,By Contractor,,Man-hours
+,,,,- New granulation Area Floor Sump Pump,,,,,By Contractor,,Man-hours
+,,,,- Process Water Discharge Filters,,,,,By Contractor,,Man-hours
+,,,,- Process Water Pump,,,,,By Contractor,,Man-hours
+,,,,- Process Water tank,,,,,By Contractor,,Man-hours
+,,,,- Wet Scrubber,,,,,By Contractor,,Man-hours
+,,,,- Wet Scrubber Recycle Pump,,,,,By Contractor,,Man-hours
+,,,,- Condensate Return Pump,,,,,By Contractor,,Man-hours
+,,,,- Process Water Pump,,,,,By Contractor,,Man-hours
+,,,,- Waster Water Pump,,,,,By Contractor,,Man-hours
+,,,,- Liquid Sulphur Storage Tank,,,,,By Contractor,,Man-hours
+,,,,- 11 kV Switchgear,,,,,By Contractor,,Man-hours
+,,,,- 11/0.433kV 2.5MVA Transformers,,,,,By Contractor,,Man-hours
+,,,,- Transfer Tower,,,,,By Contractor,,Man-hours
+,,,,"- Control Valve, On-Off Valve &Shutdown Valve",,,,,By Contractor,,Man-hours
+,,,,Bulk Materials,,,,0.35,,,
+,,,,- Piping,,,,,,,Man-hours
+,,,,- Electrical,,,,,,,Man-hours
+,,,,- Instrumentation & Control,,,,,,,Man-hours
+,,,,- Civil / Structural,,,,,,,Man-hours
+,,,,- Safety and Risk,,,,0.05,By Contractor,,Man-hours
+,,c),Subcontracting Services,,,,0.05,,,,
+,,,-,"OEM Studies ( Stacker / Reclaimer, Conveyors)",,,,By Contractor,,,Man-hours
+,,,-,OEM Studies (Sulphur Granulation),,,,By Contractor,,,Man-hours
+,,,-,OEM Studies ( F&G system-2),,,,By Contractor,,,Man-hours
+,,,-,"OEM Studies (DCS, ESD & F&G System-1)",,,,By Contractor,,,Man-hours
+,,,-,Geotechnical Investigation,,,,By Contractor,,,Man-hours
+,,,-,Topographic & Underground survey,,,,By Contractor,,,Man-hours
+,,,-,NDT Works,,,,By Contractor,,,Man-hours
+,,,-,Heavy Lifts & Logic Study,,,,By Contractor,,,Man-hours
+,,,-,Catodic Protection,,,,By Contractor,,,Man-hours
+,,,-,CRAS,,,,By Contractor,,,Man-hours
+,,,-,HSE Studies,,,,By Contractor,,,Man-hours
+,,,-,Coverage Study,,,,By Contractor,,,Man-hours
+,,,-,Real Time Navigation Simulations,,,,By Contractor,,,Man-hours
+,,,-,RBI,,,,By Contractor,,,Man-hours
+,,,-,Others (if any),,,,By Contractor,,,Man-hours
+,B),Manufacturing & Delivery,,,,0.42,,,,,
+,,a),Equipment & Packages,,,,0.8,,,,
+,,,- Granulators,,,,,By Contractor,,,Cost
+,,,- Belt Conveyor,,,,,By Contractor,,,Cost
+,,,- Stacker / Reclaimer (New),,,,,By Contractor,,,Cost
+,,,- Liquid Sulphur Transfer Pump,,,,,By Contractor,,,Cost
+,,,- Sulphur Remelter,,,,,By Contractor,,,Cost
+,,,- Dust Collection Package,,,,,By Contractor,,,Cost
+,,,- Dust Suppression System,,,,,By Contractor,,,Cost
+,,,- Granulator Feeding Pump,,,,,By Contractor,,,Cost
+,,,- Granulator Feeding Pump,,,,,By Contractor,,,Cost
+,,,- Inline Sulphur Filter,,,,,By Contractor,,,Cost
+,,,- Liquid Sulphur day Vessel,,,,,By Contractor,,,Cost
+,,,- Liquid Sulphur Filter,,,,,By Contractor,,,Cost
+,,,- New granulation Area Floor Sump Pump,,,,,By Contractor,,,Cost
+,,,- Process Water Discharge Filters,,,,,By Contractor,,,Cost
+,,,- Process Water Pump,,,,,By Contractor,,,Cost
+,,,- Process Water tank,,,,,By Contractor,,,Cost
+,,,- Wet Scrubber,,,,,By Contractor,,,Cost
+,,,- Wet Scrubber Recycle Pump,,,,,By Contractor,,,Cost
+,,,- Condensate Return Pump,,,,,By Contractor,,,Cost
+,,,- Process Water Pump,,,,,By Contractor,,,Cost
+,,,- Waster Water Pump,,,,,By Contractor,,,Cost
+,,,- Liquid Sulphur Storage Tank,,,,,By Contractor,,,Cost
+,,,- 11 kV Switchgear,,,,,By Contractor,,,Cost
+,,,- 11/0.433kV 2.5MVA Transformers,,,,,By Contractor,,,Cost
+,,,- Transfer Towers,,,,,By Contractor,,,Cost
+,,,"- Control Valve, On-Off Valve &Shutdown Valve",,,,,By Contractor,,,Cost
+,,b),Bulk Materials,,,,0.2,,,,
+,,,- Piping,,,,,By Contractor,,,Cost
+,,,- Electrical,,,,,By Contractor,,,Cost
+,,,- Instrumentation & Control,,,,,By Contractor,,,Cost
+,,,- Civil / Structural,,,,,By Contractor,,,Cost
+,,,- Safety and Risk,,,,,By Contractor,,,Cost
+,C),Construction and Pre- Commissioning,,,,0.4,,,,,
+,,a),Construction ,,,,0.75,,,,Man-hours
+,,,1),Unit 100- Common & Utilities,,,,0.25,,,
+,,,,-,Common Works,,,,0.1,,
+,,,,,- Common Works,,,,,By Contractor,Man-hours
+,,,,,- Project Site Office for Company,,,,,By Contractor,Man-hours
+,,,,,- Project Site Office for EPC Contractor,,,,,By Contractor,Man-hours
+,,,,,- Laydown Areas,,,,,By Contractor,Man-hours
+,,,,,- Others (If any),,,,,By Contractor,Man-hours
+,,,,-,Stacker Reclaimer,,,,0.28,,
+,,,,,- Installment of Stacker reclaimer (Linear Storage Building),,,,,By Contractor,Man-hours
+,,,,,- Others (If any),,,,,By Contractor,Man-hours
+,,,,-,Linear Storage Building,,,,0.4,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- HVAC,,,,,By Contractor,Man-hours
+,,,,,- Fire Fighting,,,,,By Contractor,Man-hours
+,,,,,- Others (If any),,,,,By Contractor,Man-hours
+,,,,-,Operating Building,,,,0.15,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- HVAC,,,,,By Contractor,Man-hours
+,,,,,- Fire Fighting,,,,,By Contractor,Man-hours
+,,,,-,Operator Shelter,,,,0.07,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- HVAC,,,,,By Contractor,Man-hours
+,,,2),Unit 10 - Solid Sulphur (Material) Handling,,,,0.25,,,
+,,,,-,Piperack,,,,0.25,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,-,Conveyors,,,,0.4,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Equipment Works,,,,,By Contractor,Man-hours
+,,,,,- Piping Works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,-,Transfer Tower,,,,0.35,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,4),"Unit 30 - Sulphur granulation, Transfer, Storage and Substation",,,,0.3,,,
+,,,,-,Granulator GX-1 Thru GX-10,,,,0.45,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Equipment Works,,,,,By Contractor,Man-hours
+,,,,,- Piping Works,,,,,By Contractor,Man-hours
+,,,,,- Gup Process Water Works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,-,Substation,,,,0.25,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Building Works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- HVAC Works,,,,,By Contractor,Man-hours
+,,,,-,Interface of New Area with Existing Area,,,,0.3,,
+,,,,,- 11 kV Power Supply from SS2 to SS5,,,,,By Contractor,Man-hours
+,,,,,- 11kVA power Supply from New Stacker Reclaimer in Linear Storage from SS5,,,,,By Contractor,Man-hours
+,,,,,- Sulphur Piping tie-ins of New Area with existing Electrically Traced Lines,,,,,By Contractor,Man-hours
+,,,,,- Sulphur piping Tie-ins f new Area with Hail & Ghasha Sulphur Supply Lines,,,,,By Contractor,Man-hours
+,,,,,- Sulphur piping Tie-ins from New Sulphur tanks to existing Area New tank 54140-tk-4002,,,,,By Contractor,Man-hours
+,,,,,- Utilities Tie-ins near sulphur tank 54140-tk-4002,,,,,By Contractor,Man-hours
+,,,,,- Solid Sulphur Transfer interface at Tt-10,,,,,By Contractor,Man-hours
+,,,,,- Tie-in of Instrument & Telecom Cables,,,,,By Contractor,Man-hours
+,,,,,- Construction of Drains,,,,,By Contractor,Man-hours
+,,,,,- Construction of Roads,,,,,By Contractor,Man-hours
+,,,5),Unit 40 - Liquid Sulphur Handling,,,,0.2,,,
+,,,,-,Grading & Fencing,,,,0.15,,
+,,,,,- Grading and Leveling of new Sulphur Tank & Granulation Area,,,,,By Contractor,Man-hours
+,,,,,- Concrete works - Bund Wall around new liquid storage tanks,,,,,By Contractor,Man-hours
+,,,,-,"New Sulphur Tanks 
+(40-tk-0001/0002/0003)",,,,0.45,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Equipment Works,,,,,By Contractor,Man-hours
+,,,,,- Piping Works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,-,"New Liquid Sulphur Pumps
+(40-p-0001a/B/C/S)",,,,0.15,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Equipment Works,,,,,By Contractor,Man-hours
+,,,,,- Piping Works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- Firefighting Works,,,,,By Contractor,Man-hours
+,,,,-,Sulphur Unloading Pipeline upto Tk-XXXX,,,,0.25,,
+,,,,,- Civil works,,,,,By Contractor,Man-hours
+,,,,,- Structural Works,,,,,By Contractor,Man-hours
+,,,,,- Piping Works,,,,,By Contractor,Man-hours
+,,,,,- I&C and Telcommunication works,,,,,By Contractor,Man-hours
+,,,,,- Electrical Works,,,,,By Contractor,Man-hours
+,,b),Precommissioning,,,,0.25,,,,
+,,,- Unit 100 Common & Utilities,,,,,,,By Contractor,Man-hours
+,,,- Unit 10 Sulphur Material Handling,,,,,,,By Contractor,Man-hours
+,,,- Unit 30 Sulphur granulation,,,,,,,By Contractor,Man-hours
+,,,- Unit 40 Liquid Sulphur Handling,,,,,,,By Contractor,Man-hours
+,D),Commissioning & As-Built Documentation,,,,0.1,,,,,
+,,-,Commissioning & Start-up,,,,1.0,,,,
+,,,- Unit 100 Common & Utilities,,,,,,,By Contractor,Man-hours
+,,,- Unit 10 Sulphur Material Handling,,,,,,,By Contractor,Man-hours
+,,,- Unit 30 Sulphur granulation,,,,,,,By Contractor,Man-hours
+,,,- Unit 40 Liquid Sulphur Handling,,,,,,,By Contractor,Man-hours
+Overall Project ,,,,,,1.0,,,,,
+,,,,,,,,,,,
+,Note:,,,"Weight factors indicated above shall remain ""Fixed"" for the duration of the Project. Weight factors for the other activities shall be proposed by Contractor after award of Contract,  for  COMPANY review and approval.",,,,,,,

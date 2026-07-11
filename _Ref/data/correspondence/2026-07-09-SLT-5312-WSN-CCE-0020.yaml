@@ -1,0 +1,54 @@
+correspondence:
+  id: "SLT-5312-WSN-CCE-0020"
+  type: notice
+  direction: outgoing
+  date: "2026-07-09"
+  ref_number: "SLT-5312-WSN-CCE-0020"
+  subject: "NOTICE OF MATERIAL BREACH: UNAPPROVED ABSENCE OF PROJECT MANAGER"
+  summary: >
+    致 CCECC 催告函：项目经理陈志明自 2026-05-25 离岗休假，30天假期届满后未返岗，
+    至今已缺位 45 日。期间无书面通知、无替代提名人选，构成 Sub-Clause 4.3.7 根本违约。
+    要求 7 日内更换项目经理；自 2026-06-24 起按 AED 10,000/天计收 Key Personnel LD。
+  language: "CN/EN"
+
+  related:
+    contract: "10.1"
+    clauses:
+      - clause_ref: "Sub-Clause 4.3.3"
+        topic: "Personnel"
+      - clause_ref: "Sub-Clause 4.3.6"
+        topic: "Personnel"
+      - clause_ref: "Sub-Clause 4.3.7"
+        topic: "Personnel"
+      - clause_ref: "Sub-Clause 4.2.4"
+        topic: "LD"
+      - clause_ref: "Sub-Clause 10.7"
+        topic: "LD"
+      - clause_ref: "Article 21.2"
+        topic: "Termination"
+    entities:
+      companies: ["CCECC", "WSN"]
+      people: ["Zhiming Chen", "Feng Guoling"]
+      packages: ["Pkg II"]
+
+  action:
+    required: true
+    deadline: "2026-07-16"
+    status: pending
+    escalated_to: null
+
+  trigger_event: "Project Manager Zhiming Chen absent since 2026-05-25; 30-day leave expired on 2026-06-24; no return, no replacement nominated, no written notice received."
+
+  evidence:
+    source_file: "Subcon_Payments/10.1 CCECC - Civil II/Corres/拟发中土催函-项目经理缺位 - Copy.docx"
+    ocr_file: null
+    attachments: []
+
+  linked_claims: []
+  linked_correspondence: []
+
+  completeness:
+    metadata: 100
+    reviewed: 100
+    clause_mapped: 100
+    actioned: 0

@@ -1,0 +1,61 @@
+﻿,,,,,,,,,,,,,,,,,,,,ATTACHMENT - 14,
+,Manufacturing & Delivery Register (Equipment & Packages),,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,Sl,,,Name,,,,P V F A,"Receive
+Vendor Docs. (Critical)
+P/V/F/A",Subordering,Subordering,"Approve
+Vendor Docs. (Critical)
+P/V/F/A","Receive
+sub-ordered
+Materials","Receive
+sub-ordered
+Materials","Ready for 
+Final ",Final,"
+FOB","
+Receipt ",ROS Date,,
+,No.,"Item Description
+& MR Number","Activity ID
+(Baseline Plan)","of
+Vendor",Unit,Qty. Ordered,Wt. %,,,"(Major)
+P/V/F/A","(Balance)
+P/V/F/A",,"(Major)
+P/V/F/A","(Balance)
+P/V/F/A","Inspection
+P/V/F/A","Acceptance 
+P/V/F/A","Delivery 
+P/V/F/A","at Site 
+P/V/F/A",,"Weightage
+Achieved",Remarks / Status
+,,,,,,,,,(3%),(10%),(15%),(20%),(35%),(40%),(75%),(85%),(95%),(100%),,(Plan / Act.),
+,1.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,2.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,3.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,4.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,5.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,6.0,,,,,,,P,,,,,,,,,,,,,
+,,,,,,,,V,,,,,,,,,,,,,
+,,,,,,,,F,,,,,,,,,,,,,
+,,,,,,,,A,,,,,,,,,,,,,
+,,Overall,,,,,100.0,,,,,,,,,,,Overall (Plan %),,,
+,,,,,,,,,,,,,,,,,,Overall (Actual %),,,
+,Note:,1. Weightages shall be based on the estimated cost of each Item / Material Requisition (MR / PR).,,,,,,,,,,,,,,,,,,,
+,,"2. Figures in brackets in the ""Header Row"" indicate proposed weightages for progress computation on completion of each Control Point. If any Control Point is not applicable,
+    progress will be claimed only after achievement of the next applicable Control Point.",,,,,,,,,,,,,,,,,,,
+,,3. Plan dates shall be in line with the Baseline Plan,,,,,,,,,,,,,,,,,,,
+,,4. Vendor Schedule  dates shall be in line with the dates agreed by CONTRACTOR with the Vendor based on Purchase order.,,,,,,,,,,,,,,,,,,,
+,Legend :,P/V/F/A :  Baseline Plan / Vendor Schedule / Forecast / Actual dates,,,,,,,,,,,,,,,,,,,

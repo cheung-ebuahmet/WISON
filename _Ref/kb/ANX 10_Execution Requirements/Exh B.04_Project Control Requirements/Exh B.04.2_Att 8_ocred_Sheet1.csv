@@ -1,0 +1,70 @@
+﻿,,,,,,,ATTACHMENT-8,,
+PROGRESS WEIGHTINGS FOR CONSTRUCTION  WORKS,,,,,,,,,
+,,,,,,,,,
+WBS,DESCIPLINE/ACTIVITY,L3,L4,L5,UoM,UNIT RATE MHS/UNIT QTY.,QUANTITY,MANHOURS,ACTIVITY WT%
+,,,,,,,,,
+C,CONSTRUCTION & PRE-COMMISSIONING,,,,,,,378500.0,
+C.A1,STATIONS,0.25,,,,,,133500.0,
+C.A1.01,HABSHAN LAUNCHER STATION,,0.16,,,,,83500.0,
+C.A1.01.CS,CIVIL,,,0.38922155688622756,,,,32500.0,
+X.A1.01.CS.xx,Foundation,,,,M3,25.0,1000.0,25000.0,0.7692307692307693
+,a)  Excavate (5%),,,,,,Note-1,,Note-2
+,b)  Blinding (5%),,,,,,"""",,""""
+,c)  Form Work (20%),,,,,,"""",,""""
+,d)  Reinforcement (30%),,,,,,"""",,""""
+,e)  Concreting (15%),,,,,,"""",,""""
+,f)  Strip & Finish (15%),,,,,,"""",,""""
+,g)  Backfill (5%),,,,,,"""",,""""
+,h)  Acceptance (5%),,,,,,"""",,""""
+X.A1.01.CS.xx,Walls,,,,M3,15.0,500.0,7500.0,0.23076923076923078
+,a)  Form Work (30%),,,,,,Note-1,,Note-2
+,b)  Reinforcement (25%),,,,,,"""",,""""
+,c)  Concreting (15%),,,,,,"""",,""""
+,d)  Strip & Finish (25%),,,,,,"""",,""""
+,e)  Acceptance (5%),,,,,,"""",,""""
+C.A1.01.MP,EQUIPMENT,,,0.0718562874251497,,,,6000.0,
+C.A1.01.MP.xx,Pumps,,,,EA,200.0,5.0,1000.0,0.16666666666666666
+,a)  Setup / Install (25%),,,,,,Note-1,,Note-2
+,b)  Align (Ready for Grout) (20%),,,,,,"""",,""""
+,c)  Final Alignment (35%),,,,,,"""",,""""
+,d)  Uncoupled Motor Runing (10%),,,,,,"""",,""""
+,e)  Coupling (5%),,,,,,"""",,""""
+,f)  Pre-commissioning (5%),,,,,,"""",,""""
+C.A1.01.MP.xx,Cranes & Hoists,,,,EA,1000.0,5.0,5000.0,0.8333333333333334
+,a)  Assemble (50%),,,,,,Note-1,,Note-2
+,b)  Setup / Install (30%),,,,,,"""",,""""
+,c)  Final Alignment (10%),,,,,,"""",,""""
+,d)  Load Test (5%),,,,,,"""",,""""
+,e)  Acceptance / Pre-commissioning (5%),,,,,,"""",,""""
+C.A1.01.SS,STRUCTURAL STEEL,,,0.25149700598802394,,,,21000.0,
+C.A1.01.SS.xx,Major Structure,,,,MT,70.0,300.0,21000.0,1.0
+,a)  Preassemble (20%),,,,,,Note-1,,Note-2
+,b)  Erect (40%),,,,,,"""",,""""
+,c)  Bolt-up (20%),,,,,,"""",,""""
+,d)  Align/Hard Bolt (15%),,,,,,"""",,""""
+,e)  Acceptance (5%),,,,,,"""",,""""
+C.A1.01.PI,PIPING,,,0.2874251497005988,,,,24000.0,
+C.A1.01.P1.xx,A/G Piping Shop Fabrication,,,,1.D,10.0,5000.0,50000.0,2.380952380952381
+,a)  Setup (20%),,,,,,Note-1,,Note-2
+,b)  Welding (70%),,,,,,"""",,""""
+,c)  NDT & PWHT (10%),,,,,,"""",,""""
+C.A1.01.PI.xx,"Install. A/G CS Pipe (2"")",,,,LM,8.0,3000.0,24000.0,1.0
+,a)  Erect/Install (30%),,,,,,Note-1,,Note-2
+,b)  Weld/Bolt (40%),,,,,,"""",,""""
+,c)  Install Supports (10%),,,,,,"""",,""""
+,d)  Pre-Test  Puch (10%),,,,,,"""",,""""
+,e)  Hydrotesting (10%),,,,,,"""",,""""
+,Sub-Total (Unit 1),,,1.0,,,,,
+C.A1.02,SV STATION - 1,,0.06,,,,,50000.0,
+,(Add Similar details as C.A1.01),,,,,,,,
+,Sub-total (Area1),,0.22,,,,,,
+C.A2,PIPELINES,0.75,,,,,,180000.0,
+C.A2.01,HABSHAN - SV STATION NO 1,,0.13,,,,,52000.0,
+C.A2.02,SV STATION NO 1 - SV STATION NO 2,,0.14,,,,,65000.0,
+,(Add Similar details as C.A2.01),,,,,,,,
+,TOTAL - CONSTRUCTION & PRE-COMMISSIONING,1.0,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Note:  Progress Weights at all levels shall be as specified in the Agreement (WBS).,,,,,,,,
+,Note-1: Quantity for each construction item to be indicated.,,,,,,,,
+,Note-2: Weighting against each construction item to be distributed as per the specified weight % for the respective Construction item based on the estimated man-hours.,,,,,,,,

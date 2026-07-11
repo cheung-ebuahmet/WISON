@@ -1,0 +1,135 @@
+contract:
+  id: "10.1"
+  name: "CCECC - Civil Pkg II"
+  type: subcontract
+  status: active
+  vendor: "CCECC"
+  discipline: "Civil"
+  package: "Pkg II"
+  contract_ref: "WISON24108C25006"
+  parent_contract: "EPC-ADNOC-RSGP"
+  execution_date: "2025-12-04"
+  revision: "1.0"
+
+  structure:
+    loa:
+      exists: true
+      source_file: "Part I FOA_LOA_CF_COC/LOA/"
+      summary: "Letter of Award for Package II of Civil Works"
+    part_i:
+      exists: true
+      source_dir: "Part I FOA_LOA_CF_COC/"
+      components: ["Form of Agreement", "Letter of Award", "Clarification Form Signed", "Conditions of Contract"]
+    part_ii:
+      exists: true
+      source_dir: "Part II_Exhibits/"
+    exhibits:
+      - exhibit_ref: "Attachment 1"
+        title: "Communication Procedures"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["administrative"]}
+        primary_topics: ["communication"]
+        summary: "通信流程、报告格式、传单管理"
+      - exhibit_ref: "Attachment 2"
+        title: "Change Management"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["variation", "claim"]}
+        primary_topics: ["change order", "variation", "EOT"]
+        summary: "CAN → CP → CO 全流程"
+      - exhibit_ref: "Attachment 3"
+        title: "HSE Requirements"
+        exists: true
+        commercial_relevance: {level: low, reason: ["hse"]}
+        primary_topics: ["hse"]
+      - exhibit_ref: "Attachment 4"
+        title: "Quality Management"
+        exists: true
+        commercial_relevance: {level: low, reason: ["quality"]}
+        primary_topics: ["quality"]
+      - exhibit_ref: "Attachment 5"
+        title: "Scope of Work"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["scope", "ld", "schedule"]}
+        primary_topics: ["scope", "schedule", "key personnel", "delay ld", "kp ld"]
+        summary: "SOW + 工期 + KP 名单 + Delay LD + KP LD"
+      - exhibit_ref: "Attachment 6"
+        title: "Commercials"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["boq", "rates", "payment", "bond format"]
+        summary: "BOQ + 计价 + 保函格式"
+      - exhibit_ref: "Attachment 7"
+        title: "Owner's Special Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["back-to-back"]}
+        primary_topics: ["owner requirements", "back-to-back"]
+
+  commercial:
+    currency: "AED"
+    contract_value: 149832038.65
+    provisional_sum: 10850170.06
+    unit_price_basis: true
+    advance_payment_pct: 10
+    advance_payment_repay_pct: 10       # per IPC deduction
+    performance_bond_pct: 10
+    retention_pct: 10                   # 7.5% interim + 2.5% accumulated, 100% release at Work Completion
+    retention_additional_warranty_pct: 5   # 5% extra as Warranty Bond / Defects Liability Retention
+    defects_liability_months: 12
+    warranty_months: 12
+    warranty_extended_months: 18         # Additional Warranty Period upon rectification
+    payment_days: 45                     # from receipt of correct invoice
+    advance_payment_guarantee:
+      required: true
+      amount: 14983203.87               # 10% of contract price
+      maturity: "Work Completion + 30 days"
+    performance_bond:
+      required: true
+      amount: 14983203.87               # 10% of contract price
+      maturity: "Work Completion + 30 days"
+      increase_on_change_pct: 5          # if COs exceed 5% of original price
+
+  liquidated_damages:
+    delay:
+      per_day: 149832.04                 # 1‰ of contract price (Att 04_Delay LD - Civil Pkg II)
+      per_day_pct: 0.1                   # % of contract price
+      cap_pct: 10
+      cap_amount: 14983203.87
+      trigger: "Key Milestones missed"
+    key_personnel:
+      per_day: 10000
+      count: 7
+      positions:
+        - {position: "Project Manager", name: "Zhiming Chen", ld_per_day: 10000}
+        - {position: "Construction Manager", name: "Li Jianhu", ld_per_day: 10000}
+        - {position: "Control Manager", name: "Lawrence", ld_per_day: 10000}
+        - {position: "Contract Manager/Commercial Manager", name: "Quzhao", ld_per_day: 10000}
+        - {position: "HSE Manager", name: "Sajith N.G.", ld_per_day: 10000}
+        - {position: "Quality Manager", name: "Muhammad Khalid", ld_per_day: 10000}
+        - {position: "Procurement Manager", name: "Xue Xiaodong", ld_per_day: 10000}
+      trigger: "KP absent/replaced without approval; not mobilized within 30 days"
+    performance:
+      applicable: false
+
+  variation:
+    amendment_count: 0
+    final_account_status: pending
+
+  payment_status:
+    total_paid: null
+    total_outstanding: null
+    last_ipc_no: null
+
+  linked:
+    clauses:
+      - {clause_ref: "Sub-Clause 4.2.4", topic: "ld", ko: "data/clause-library/Key-Personnel-LD.md"}
+      - {clause_ref: "Sub-Clause 4.3.7", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: null}
+      - {clause_ref: "Article 21.2", topic: "termination", ko: null}
+    correspondence_dir: "Subcon_Payments/10.1 CCECC - Civil II/Corres/"
+    payment_dir: "Subcon_Payments/10.1 CCECC - Civil II/Pymt/"
+
+  issues:
+    - {title: "PM 缺位 — Material Breach", status: open,
+       cost_impact: "AED 10,000/day from 2026-06-24",
+       deadline: "2026-07-16",
+       next_action: "Await CCECC response; escalate to ADNOC if no compliance"}

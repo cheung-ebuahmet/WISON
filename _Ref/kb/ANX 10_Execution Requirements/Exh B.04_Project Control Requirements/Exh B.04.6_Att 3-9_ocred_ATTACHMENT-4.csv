@@ -1,0 +1,60 @@
+﻿,PROGESS MEASUREMENT CHART FOR CIVIL MODELING,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Area Description :,,,,,,,,,,,,,,,,,Progress as on :,,
+,,,,,,,,,,,,,,,,,,,,
+S.No.,"ACTIVITY / 
+MODELING ITEMS",Weight (Note 1),"Work Volume
+",,"Initial Set-up
+(10%)",,"Ready for Discipline Check
+(30%)",,"Complete Discipline Check  & Incorporate Comments
+(40%)",,"Complete Modeling
+(60%)",,"Complete Internal Check and Submit to Company for Review
+(75%)",,Receive Company Comments        (-),,"Complete Company Comments & Final Issue
+(100%)",,"Plan
+Progress","Actual
+Progress"
+,,"(%)
+
+",Unit,Total Q'ty,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"(%)
+
+","(%)
+
+"
+1.,30% Modeling Stage (25 to 30%) ,aa%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Initial Set Up,0.02,lot,1.0,,,,,,,,,,,,,,,,
+b),Foundations (Initial),0.08,nos,,,,,,,,,,,,,,,,,
+c),Steel Stuctures (Initial),0.1,nos,,,,,,,,,,,,,,,,,
+d),Roads (Initial),0.03,lot,,,,,,,,,,,,,,,,,
+e),Paving (Initial),0.02,lot,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+2.,60% Modeling Stage (65 to 70% cumm.) ,bb%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Foundations ,0.1,nos,,,,,,,,,,,,,,,,,
+b),Steel Stuctures,0.1,nos,,,,,,,,,,,,,,,,,
+c),Roads ,0.03,lot,,,,,,,,,,,,,,,,,
+d),Paving ,0.03,lot,,,,,,,,,,,,,,,,,
+e),"Follow up of 30% Model  Review Comments
+(10% of Item 2 weighting)",0.04,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+3.,90% Modeling Stage (about 90 to 95% cum.),cc%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Miscellaneous Foundations,0.1,nos,,,,,,,,,,,,,,,,,
+b),Miscellaneous Structures,0.1,nos,,,,,,,,,,,,,,,,,
+c),Other,0.05,nos,,,,,,,,,,,,,,,,,
+d),"Follow up of 30% Model  Review Comments
+(10% of Item 3 weighting)",0.05,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+4.,Final Modeling Stage (100 % Cum.),dd%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Finalization of Model incorporating 90 % Review,0.15,lot,1.0,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Total Actual Progress,1.0,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Note:  1)  Based on Estimated Man-hours,,,,,,,,,,,,,,,,,,,
+,          2)  Contractor shall prepare separate charts for each area (as per WBS) and summarize the details for each discipline.,,,,,,,,,,,,,,,,,,,
+,          3)  10% weighting shall be assigned for the follow-up activities at 60% and 90% stages respectively (Refer Item 2(e) and 3(d) above),,,,,,,,,,,,,,,,,,,

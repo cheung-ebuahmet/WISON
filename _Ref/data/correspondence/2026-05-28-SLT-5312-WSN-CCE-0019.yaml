@@ -1,0 +1,49 @@
+correspondence:
+  id: "SLT-5312-WSN-CCE-0019"
+  type: letter
+  direction: outgoing
+  date: "2026-05-28"
+  ref_number: "SLT-5312-WSN-CCE-0019"
+  subject: "Adjustment to Procurement Scope for Grating Covers"
+  summary: >
+    致陈志明：正式指令，变更格栅盖板采购范围，附 BOQ 单价明细表。
+    要求 CCECC 协调工程团队确保固定角铁与主格栅盖板尺寸匹配。
+  language: "EN"
+
+  related:
+    contract: "10.1"
+    clauses:
+      - clause_ref: "Attachment 5"
+        topic: "scope"
+    entities:
+      companies: ["CCECC", "WSN"]
+      people: ["Zhiming Chen"]
+      packages: ["Pkg II"]
+
+  action:
+    required: true
+    deadline: null
+    status: closed
+    escalated_to: null
+
+  trigger_event: "Procurement scope optimization for grating covers under Attachment 5."
+
+  evidence:
+    source_file: "Subcon_Payments/10.1 CCECC - Civil II/Corres/SLT-5312-WSN-CCE-0019_Grating Covers Re-scope_ocred.pdf"
+    ocr_file: "Subcon_Payments/10.1 CCECC - Civil II/Corres/SLT-5312-WSN-CCE-0019_Grating Covers Re-scope_ocred.pdf"
+    attachments: ["BOQ Extract for Rate Breakdown"]
+
+  linked_claims: []
+  linked_correspondence:
+    - "SLT-5312-WSN-CCE-0020"
+
+  completeness:
+    metadata: 100
+    reviewed: 50
+    clause_mapped: 50
+    actioned: 100
+
+  notes: >
+    ⚠️ 此信函收件人为陈志明，日期为 2026-05-28，但他本人宣称离岗自 2026-05-25 起。
+    可能情形：(a) 离岗起始日实际晚于 5-25；(b) 发函人当时不知他已离岗；(c) 仍在交接过渡。
+    如进入 dispute 阶段，此日期差异需核实。

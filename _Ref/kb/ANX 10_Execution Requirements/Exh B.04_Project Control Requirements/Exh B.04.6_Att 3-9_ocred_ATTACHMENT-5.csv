@@ -1,0 +1,57 @@
+﻿,PROGESS MEASUREMENT CHART FOR  ELECTRICAL MODELING,,,,,,,,,,,,,,,,,,,
+,Area Description :,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Progress as on :,,
+,,,,,,,,,,,,,,,,,,,,
+S.No.,"ACTIVITY / 
+MODELING ITEMS",Weight (Note 1),"Work Volume
+",,"Initial Set-up
+(10%)",,"Ready for Discipline Check
+(30%)",,"Complete Discipline Check  & Incorporate Comments
+(40%)",,"Complete Modeling
+(60%)",,"Complete Internal Check and Submit to Company for Review
+(75%)",,Receive Company Comments        (-),,"Complete Company Comments & Final Issue
+(100%)",,"Plan
+Progress","Actual
+Progress"
+,,"(%)
+
+",Unit,Total Q'ty,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"(%)
+
+","(%)
+
+"
+1.,30% Modeling Stage (25 to 30%) ,aa%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Initial Set Up,,lot,1.0,,,,,,,,,,,,,,,,
+b),U/G Cable Route,,M,,,,,,,,,,,,,,,,,
+c),A/G Cable Route,,M,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+2.,60% Modeling Stage (65 to 70% cum.) ,bb%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),U/G Cable Route ,,M,,,,,,,,,,,,,,,,,
+b),A/G Cable Route,,M,,,,,,,,,,,,,,,,,
+c),"Local Control Stations, Panels and others",,pcs,,,,,,,,,,,,,,,,,
+d),Lighting Fixures & Receptacles ,,pcs,,,,,,,,,,,,,,,,,
+e),"Follow up of 30% Model Review Comments
+(10% of Item 2 weighting)",,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+3.0,90% Modeling Stage (about 90 to 95% cum.),cc%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),"Local Control Stations & Panels, etc. ",,pcs,,,,,,,,,,,,,,,,,
+b),Lighting Fixures & Receptacles ,,pcs,,,,,,,,,,,,,,,,,
+c),"Follow up of 60% Model Review Comments
+(10% of Item 3 weighting)",,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+4.0,Final Modeling Stage (100 % Cum.),dd%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+,Finalization of Model incorporating 90 % Review,,lot,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Total Actual Progress,1.0,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Note:  1)  Based on Estimated Man-hours,,,,,,,,,,,,,,,,,,,
+,          2)  Contractor shall prepare separate charts for each area (as per WBS) and summarize the details for each discipline.,,,,,,,,,,,,,,,,,,,
+,          3)  10% weighting shall be assigned for the follow-up activities at 60% and 90% stages respectively (Refer Item 2(e) and 3(c) above),,,,,,,,,,,,,,,,,,,

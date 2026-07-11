@@ -1,0 +1,66 @@
+﻿,PROGESS MEASUREMENT CHART FOR PIPING MODELING,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Area Description :,,,,,,,,,,,,,,,,,Progress as on :,,
+,,,,,,,,,,,,,,,,,,,,
+S.No.,ACTIVITY / MODELING ITEMS,Weight (Note 1),"Work Volume
+",,"Initial Set-up
+(10%)",,"Ready for Discipline Check
+(30%)",,"Complete Discipline Check  & Incorporate Comments
+(40%)",,"Complete Modeling
+(60%)",,"Complete Internal Check and Submit to Company for Review
+(75%)",,Receive Company Comments        (-),,"Complete Company Comments & Final Issue
+(100%)",,"Plan
+Progress","Actual
+Progress"
+,,"(%)
+
+",Unit,Total Q'ty,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"(%)
+
+","(%)
+
+"
+1.,30% Modeling Stage (25 to 30%) ,aa%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Initial Set Up,,lot,,,,,,,,,,,,,,,,,
+b),Equipment Modeling,,Nos.,,,,,,,,,,,,,,,,,
+c),Line Modeling,,Nos.,,,,,,,,,,,,,,,,,
+d),Piping,,M,,,,,,,,,,,,,,,,,
+e),Fittings,,Nos.,,,,,,,,,,,,,,,,,
+f),Flanges,,Nos.,,,,,,,,,,,,,,,,,
+g),Valves & Other Misc Components,,Nos.,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+2.,60% Modeling Stage (55 to 60% cummulative) ,bb%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Line Modeling,,Nos.,,,,,,,,,,,,,,,,,
+b),Piping,,M,,,,,,,,,,,,,,,,,
+c),Fittings,,Nos.,,,,,,,,,,,,,,,,,
+d),Flanges,,Nos.,,,,,,,,,,,,,,,,,
+e),Valves & Other Misc Components ,,Nos.,,,,,,,,,,,,,,,,,
+f),Vendor Packages,,Nos.,,,,,,,,,,,,,,,,,
+g),"Follow up of 30% Model Company Review Comments
+(10% of Item 2 weighting)",,Lot,,,,,,,,,,,,,,,,,
+3.,90% Modeling Stage (about 80 to 85% cumm.),cc%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Line Modeling,,Nos.,,,,,,,,,,,,,,,,,
+b),Pipe Length ,,M,,,,,,,,,,,,,,,,,
+c),Fittings,,Nos.,,,,,,,,,,,,,,,,,
+d),Flanges,,Nos.,,,,,,,,,,,,,,,,,
+e),Valves & Other Misc Components (Update),,Nos.,,,,,,,,,,,,,,,,,
+f),"Follow up of 60% Model Company Review Comments
+(10% of Item 3 weighting)",,Lot,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+4.,Final Modeling Stage (100 % Cummulative),dd%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Finalization of Model incorporating 90 % Review,,lot,,,,,,,,,,,,,,,,,
+b),ISO Drawing,,Nos.,,,,,,,,,,,,,,,,,
+c),Piping General Arrangement Drawings,,Nos.,,,,,,,,,,,,,,,,,
+d),Support Summary,,Nos.,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Total Actual Progress,1.0,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Note:  1)  Based on Estimated Man-hours,,,,,,,,,,,,,,,,,,,
+,          2)  Contractor shall prepare separate charts for each area (as per WBS) and summarize the details for each discipline.,,,,,,,,,,,,,,,,,,,
+,          3)  10% weighting shall be assigned for the follow-up activities at 60% and 90% stages respectively (Refer Item 2(g) and 3(f) above),,,,,,,,,,,,,,,,,,,

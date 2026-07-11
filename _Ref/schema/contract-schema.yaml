@@ -1,0 +1,142 @@
+# contract-schema.yaml — 商业合同数据模型 v2.0
+# 面向合同管理（Commercial/Contract Administration），非全项目工程管理
+# 版本: 2.0 | 2026-07-09
+
+contract:
+  # ---- 基础 ----
+  id:                 # "10.1"
+  name:               # "CCECC - Civil Pkg II"
+  type:               # subcontract | EPC | amendment
+  status:             # active | completed | terminated | draft
+  vendor:             # CCECC | TCC | METS | Burjeel | LONGTAIDI | WSN | ADNOC
+  discipline:         # Civil | MEI | Lab | Medical
+  package:            # Pkg I | Pkg II | Pkg III | null
+  contract_ref:       # "WISON24108C25006"
+  parent_contract:    # 上级合同 ID
+  execution_date:     # YYYY-MM-DD
+  revision:
+
+  # ---- 合同结构（LOA → Part I → Part II → Exhibits） ----
+  structure:
+    loa:
+      exists:          # true | false
+      source_file:
+      summary:         # 一句话
+    part_i:
+      exists:
+      source_dir:
+      components:      # ["Agreement", "Conditions of Contract", "Clarification Form"]
+    part_ii:
+      exists:
+      source_dir:
+    exhibits:          # 逐 Exhibit 标注，照搬原合同编号体系
+      - exhibit_ref:   # "Attachment 1" / "Exh A" / "Atch. 1"
+        title:
+        exists:        # true | false | partial
+        source_file:   # 相对路径
+        ocr:           # true | false
+        commercial_relevance:
+          level:       # critical | high | medium | low | archive
+          reason:      # [payment, variation, claim, ld, scope, schedule, hse, quality, administrative]
+        primary_topics: # ["payment", "boq", "rates"]  — Claude 导航用
+        summary:       # 一句话
+
+  # ---- 商业相关性（合同级别汇总） ----
+  commercial_relevance:
+    level:             # critical | high | medium
+    reason:            # [payment, variation, claim, ld, personnel, back-charge, guarantee]
+
+  # ---- 商务条款 ----
+  commercial:
+    currency:          # AED | USD
+    contract_value:
+    provisional_sum:
+    advance_payment_pct:
+    performance_bond_pct:
+    retention_pct:
+    defects_liability_months:
+    warranty_months:
+
+    advance_payment_guarantee:
+      required:
+      amount:
+      expiry_condition:
+      expiry_date:     # YYYY-MM-DD（保函到期追踪）
+
+    performance_bond:
+      required:
+      amount:
+      expiry_condition:
+      expiry_date:
+
+    retention:
+      release_upon_completion_pct:
+      release_upon_final_pct:
+
+  # ---- Liquidated Damages ----
+  liquidated_damages:
+    delay:
+      per_day:
+      cap_pct:
+      cap_amount:
+      trigger:
+    key_personnel:
+      per_day:
+      count:
+      positions:
+        - position:
+          name:
+          ld_per_day:
+      trigger:
+    performance:
+      applicable:
+      per_day:
+      cap_pct:
+
+  # ---- 付款 ----
+  payment_terms:
+    milestone_based:
+    monthly_ipc:
+    payment_days:
+    invoicing_format:
+
+  # ---- 保险（仅商业条款部分） ----
+  insurance:           # 仅记录与商业/索赔相关，HSE 技术标准不入
+    required_types:
+    subcontractor_provides:
+
+  # ---- 变更 & 结算 ----
+  variation:
+    amendment_count:
+    total_variation_value:
+    final_account_status:  # pending | submitted | agreed | closed
+
+  payment_status:
+    total_paid:
+    total_outstanding:
+    last_ipc_no:
+
+  # ---- 关联 ----
+  linked:
+    ocr_markdown:
+    clauses:
+      - clause_ref:
+        topic:         # payment | ld | variation | eot | claims | termination | security | retention | warranty
+        library_link:
+    wiki_pages:
+      - page:
+        path:
+    correspondence_dir:
+    payment_dir:
+
+  # ---- 商业问题（Commercial Issues） ----
+  issues:              # 非 Claim / 非 Variation，但已有商业影响的未决事项
+    - title:
+      status:          # open | escalated | resolved | closed
+      related_clauses: []
+      related_correspondence: []
+      potential_cost:
+      potential_eot:
+      owner_position:
+      wison_position:
+      next_action:

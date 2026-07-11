@@ -1,0 +1,44 @@
+# entity-schema.yaml — 实体统一数据模型
+# 版本: 1.0 | 2026-07-09
+
+# ============================================================
+# 实体类型
+# ============================================================
+# entity.type: company | person | package | employer | contractor | consultant
+
+# ============================================================
+# Company 实体
+# ============================================================
+company:
+  id:                # 简称（CCECC / TCC / WSN / ADNOC / BRJ / METS）
+  full_name:         # 完整注册名
+  type:              # subcontractor | contractor | employer | consultant | supplier
+  country:           # 注册国
+  participates_in:   # 参与的合同 ID 列表（如 ["10.1", "12.1"]）
+  key_personnel:     # 关联的人员 ID 列表
+  correspondence_count:  # 往来函件数
+  claims_count:      # 关联索赔数
+  risk_summary:      # 一句话风险概述
+
+# ============================================================
+# Person 实体
+# ============================================================
+person:
+  id:                # 姓名（如 "Zhiming Chen"）
+  role:              # Project Manager | Construction Manager | etc.
+  company:           # 所属公司 ID
+  contract:          # 所属合同 ID
+  is_key_personnel:  # true | false
+  status:            # active | absent | replaced | resigned
+  absence_since:     # 离岗日期（如适用）
+  related_correspondence: []  # 关联函件 ID
+
+# ============================================================
+# Package 实体
+# ============================================================
+package:
+  id:                # 如 "Pkg II"
+  discipline:        # Civil | MEI | Lab
+  scope_summary:     # 工作范围简述
+  contracts:         # 关联合同 ID 列表
+  status:            # active | completed

@@ -1,0 +1,56 @@
+correspondence:
+  id: "SLT-5312-WSN-CCE-0021"
+  type: notice
+  direction: outgoing
+  date: "2026-07-09"
+  ref_number: "SLT-5312-WSN-CCE-0021"
+  subject: "NOTICE OF DELAY: KEY MILESTONE 'CONSTRUCTION PREPARATION READY FOR COMMENCEMENT' OVERDUE — RESERVATION OF DELAY LD RIGHTS"
+  summary: >
+    致 CCECC MEI Pkg I 延误通知：Exhibit A.2 第 2 号里程碑"施工准备就绪"两子包均已逾期。
+    Pkg 1 (due 2026-06-15) 逾期 24 天；Pkg 3 (due 2026-06-01) 逾期 38 天。
+    保留按 0.1%/天 (AED 160,892/day) 计收 Delay LD 的权利，
+    Pkg 1 累计约 AED 3.86M，Pkg 3 累计约 AED 6.11M。
+    要求 7 日内提交 CPM 赶工计划 + 书面说明。
+  language: "CN/EN"
+
+  related:
+    contract: "12.1"
+    clauses:
+      - clause_ref: "SCS Clause 17"
+        topic: "ld"
+      - clause_ref: "Exhibit A.2"
+        topic: "schedule"
+      - clause_ref: "SCS Clause 33"
+        topic: "termination"
+      - clause_ref: "SCS Clause 5.6"
+        topic: "variation"
+    entities:
+      companies: ["CCECC", "WSN"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: true
+    deadline: "2026-07-16"
+    status: pending
+    escalated_to: null
+
+  trigger_event: >
+    Milestone No. 2 "Construction preparation is ready for commencement" overdue
+    for both MEI Pkg 1 (due 2026-06-15, 24d late) and MEI Pkg 3 (due 2026-06-01, 38d late).
+    No Force Majeure or EOT notice received from Subcontractor.
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/Your-Letter-Number Letter-Title.docx"
+    ocr_file: null
+    attachments:
+      - "Exhibit A.2 Work Schedule (MEI Pkg 1 & 3)"
+
+  linked_claims: []
+  linked_correspondence: []
+
+  completeness:
+    metadata: 100
+    reviewed: 100
+    clause_mapped: 100
+    actioned: 0

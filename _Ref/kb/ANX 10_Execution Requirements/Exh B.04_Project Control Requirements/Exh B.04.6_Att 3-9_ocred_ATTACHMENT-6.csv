@@ -1,0 +1,61 @@
+﻿,PROGESS MEASUREMENT OF INSTRUMENTATION MODELING,,,,,,,,,,,,,,,,,,,
+,Area Description:,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,Progress as on :,,
+,,,,,,,,,,,,,,,,,,,,
+S.No.,"ACTIVITY / 
+MODELING ITEMS",Weight (Note 1),"Work Volume
+",,"Initial Set-up
+(10%)",,"Ready for Discipline Check
+(30%)",,"Complete Discipline Check  & Incorporate Comments
+(40%)",,"Complete Modeling
+(60%)",,"Complete Internal Check and Submit to Company for Review
+(75%)",,Receive Company Comments        (-),,"Complete Company Comments & Final Issue
+(100%)",,"Plan
+Progress","Actual
+Progress"
+,,"(%)
+
+",Unit,Total Q'ty,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"Q'ty Completed
+",Progress Achieved %,"(%)
+
+","(%)
+
+"
+1.,30% Modeling Stage (20 to 25%) ,aa%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Initial Set Up,,lot,1.0,,,,,,,,,,,,,,,,
+b),U/G Cable Route,,M,,,,,,,,,,,,,,,,,
+c),A/G Cable Route (only majour item ),,M,,,,,,,,,,,,,,,,,
+d),Local Panels /Junction Box (Pleliminary),,pcs,,,,,,,,,,,,,,,,,
+e),F&G Detectors (Prelininary for Mapping),,pcs,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+2.0,60% Modeling Stage (60 to 70% cum.) ,bb%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),U/G Cable Route,,M,,,,,,,,,,,,,,,,,
+b),A/G Cable Route,,M,,,,,,,,,,,,,,,,,
+c),Local Panels / Junction Boxes,,pcs,,,,,,,,,,,,,,,,,
+d),In-Line Field Instrument ( back-check),,pcs,,,,,,,,,,,,,,,,,
+e),Off-Line Field Instruments and others,,pcs,,,,,,,,,,,,,,,,,
+f),F&G Detectors,,pcs,,,,,,,,,,,,,,,,,
+g),"Follow up of 30% Model Review Comments
+(10% of Item 2 weighting)",,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+3.0,90% Modeling Stage (about 85 to 95% cum.),cc%,Schedule Activity ID (xxxxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Field Instruments and others,,pcs,,,,,,,,,,,,,,,,,
+b),F&G Detectors,,pcs,,,,,,,,,,,,,,,,,
+c),"Follow up of 60% Model Review Comments
+(10% of Item 3 weighting)",,item,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+4.0,Final Modeling Stage (100 % Cum.),dd%,Schedule Activity ID (xxxxxxxxx),,,,,,,,,,,,,,,,,
+a),Finalization of Model incorporating 90 % Review,,lot,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Total Actual Progress,1.0,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,Note:  1)  Based on Estimated Man-hours,,,,,,,,,,,,,,,,,,,
+,          2)  Contractor shall prepare separate charts for each area (as per WBS) and summarize the details for each discipline.,,,,,,,,,,,,,,,,,,,
+,          3)  10% weighting shall be assigned for the follow-up activities at 60% and 90% stages respectively (Refer Item 2(g) and 3(c) above),,,,,,,,,,,,,,,,,,,

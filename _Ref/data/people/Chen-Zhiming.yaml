@@ -1,0 +1,14 @@
+person:
+  id: "Zhiming Chen"
+  role: "Project Manager"
+  company: "CCECC"
+  contract: "10.1"
+  is_key_personnel: true
+  status: absent
+  absence_since: "2026-05-25"
+  related_correspondence:
+    - "SLT-5312-WSN-CCE-0020"
+
+  completeness:
+    verified: true
+    source: "Att 05_Key Personnel - LD.docx"

@@ -1,0 +1,162 @@
+contract:
+  id: "12.1"
+  name: "CCECC - MEI Pkg I"
+  type: subcontract
+  status: active
+  vendor: "CCECC"
+  discipline: "MEI"
+  package: "Pkg I"
+  contract_ref: "WISON24108C26005"
+  parent_contract: "EPC-ADNOC-RSGP"
+  execution_date: null
+  revision: "Amdt 01"
+  note_contract_form: "SCS (Special Conditions of Subcontract) — not COC; clause numbering differs"
+
+  structure:
+    loa:
+      exists: true
+      source_file: "Part I_Agrmt - LOA - GCS - SCS/LOA/"
+      summary: "LOA for MEI Package I"
+    part_i:
+      exists: true
+      source_dir: "Part I_Agrmt - LOA - GCS - SCS/"
+      components: ["Agreement (Agrmt)", "GCS", "SCS", "LOA"]
+    part_ii:
+      exists: true
+      source_dir: "Part II_Exhibits/"
+    amendment_dirs: ["02_Amdt 01"]
+    exhibits:
+      - exhibit_ref: "Exh A"
+        title: "Work Scope - Schedule"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["scope", "schedule"]}
+        primary_topics: ["scope", "schedule", "milestones"]
+      - exhibit_ref: "Exh B"
+        title: "Method of Measurement"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["measurement", "boq", "rates"]
+      - exhibit_ref: "Exh D"
+        title: "Subcontract Price"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["boq", "rates"]
+      - exhibit_ref: "Exh E"
+        title: "Quality Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["quality", "ld"]}
+        primary_topics: ["quality", "kp ld"]
+        note: "KP-LD 表在 Quality 而非 Scope"
+      - exhibit_ref: "Exh F"
+        title: "Administrative Procedure"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["administrative"]}
+        primary_topics: ["communication", "reporting"]
+      - exhibit_ref: "Exh G"
+        title: "(Not Applicable)"
+        exists: false
+        commercial_relevance: {level: archive, reason: []}
+      - exhibit_ref: "Exh H"
+        title: "HSE Requirements"
+        exists: true
+        commercial_relevance: {level: low, reason: ["hse"]}
+        primary_topics: ["hse"]
+      - exhibit_ref: "Exh I"
+        title: "(Not Applicable)"
+        exists: false
+        commercial_relevance: {level: archive, reason: []}
+      - exhibit_ref: "Exh J"
+        title: "Scheduling and Reporting"
+        exists: true
+        commercial_relevance: {level: high, reason: ["schedule"]}
+        primary_topics: ["schedule", "reporting"]
+      - exhibit_ref: "Exh K"
+        title: "Owner's Special Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["back-to-back"]}
+        primary_topics: ["owner requirements", "back-to-back", "icv", "insurance"]
+
+  commercial:
+    currency: "AED"
+    contract_value: 160891988.19
+    provisional_sum: 42677500.00
+    with_vat: 168936587.60
+    vat_pct: 5
+    unit_price_basis: false      # MEI: lump sum + unit rates for direct price
+    advance_payment_pct: 10
+    advance_payment_installments: 2     # 50% on APG+PB receipt, 50% on mobilization
+    advance_payment_days: 30            # within 30 days of invoice+conditions
+    advance_payment_repay_pct: 10
+    performance_bond_pct: 10
+    performance_bond_expiry: "45 days after last Guarantee Period"  # differs from Civil (Work Completion+30d)
+    performance_bond_increase_pct: 10   # increase if CO/Amdt > 10% of original price
+    retention_pct: 10                   # withheld from each IPC
+    retention_release: "Provisional Acceptance + unconditional bank guarantee"  # differs from Civil
+    retention_early_release_pct: "0.5-1% if qualified CDCE submitted within 45 days of IFC"
+    icv_target_pct: 60
+    icv_penalty_pct: 5
+    payment_days: 45                    # calendar days
+    payment_invoice_cutoff: "5th of following month"
+    payment_system: "Contractor SM system (mandatory)"
+    procurement_assistance_fee_pct: 5
+    defects_liability_months: 12        # "Guarantee Period" from Provisional Acceptance
+    warranty_months: 12
+
+  liquidated_damages:
+    management_system:
+      per_failure: 10000               # unique to 12.1: non-use of SM system
+      trigger: "Failure to use Management Systems after written instruction"
+    delay:
+      per_day: 160891.99                # 1‰ of contract price (per A 2 Work Schedule)
+      per_day_pct: 0.1                  # % of contract price
+      cap_pct: 10
+      cap_amount: 16089198.82
+      mechanical_completion_relief: true  # if MC on time, prior Delay LD refunded
+    key_personnel:
+      per_day: 10000
+      count: 7
+      positions:
+        - {position: "Project Manager", name: null, ld_per_day: 10000}
+        - {position: "Construction Manager", name: null, ld_per_day: 10000}
+        - {position: "Control Manager", name: null, ld_per_day: 10000}
+        - {position: "Contract Manager/Commercial Manager", name: null, ld_per_day: 10000}
+        - {position: "HSE Manager", name: null, ld_per_day: 10000}
+        - {position: "Quality Manager", name: null, ld_per_day: 10000}
+        - {position: "Procurement Manager", name: null, ld_per_day: 10000}
+    performance:
+      applicable: true
+      per_day: null
+      cap_pct: null
+
+  claims:
+    variation_notice_days: 5           # working days
+    variation_submission_days: 10      # working days
+    eot_notice_days: 10               # from occurrence
+    claim_notice_days: 5              # working days
+    dispute_negotiation_days: 14      # calendar days
+    final_account_audit_days: 90       # >AED 50M
+
+  variation:
+    amendment_count: 1
+    total_variation_value: null
+    final_account_status: pending
+
+  payment_status:
+    total_paid: null
+    last_ipc_no: null
+
+  linked:
+    clauses:
+      - {clause_ref: "SCS Clause 17", topic: "ld", ko: null}
+      - {clause_ref: "SCS Clause 19", topic: "payment", ko: null}
+      - {clause_ref: "SCS Clause 28", topic: "security", ko: null}
+      - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "SCS Clause 27", topic: "warranty", ko: null}
+    correspondence_dir: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/"
+    payment_dir: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Pymt/"
+
+  issues:
+    - {title: "里程碑 No.2 逾期 — Delay LD 保留", status: open,
+       cost_impact: "AED 160,892/day; accrued ~AED 3.86M (Pkg1) + ~AED 6.11M (Pkg3)",
+       deadline: "2026-07-16",
+       next_action: "Await recovery schedule; if no response → LD deduction + ADNOC escalation"}
