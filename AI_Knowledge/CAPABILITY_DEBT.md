@@ -21,7 +21,7 @@
 | ~~CD-008~~ | ~~C1 Authority~~ | — | ✅ **REPAID v0.3.0** — KP_Mapping: 10.1/10.2 KP 人名+LD 条件已映射 | — | — | — |
 | CD-009 | C4 B2B | Data Gap | 实际分包合同文本未读取——B2B 检查停留在主合同 side | 无法验证任何真实 Gap | 读取首份 External Contract | 🔴 A |
 | ~~CD-010~~ | ~~DNA-9 Insurance~~ | — | ✅ **REPAID v0.3.2** — Insurance_Mapping: Art 41 + ANX7 + 5 subs verbatim | — | — | — |
-| CD-011 | DNA-15 Acceptance | Full Gap | Art 15/17 + ANX11 未读 | 验收触发付款/质保/担保降档无法推理 | 制造 Art 15/17 + ANX11 | 🔴 A |
+| ~~CD-011~~ | ~~DNA-15 Acceptance~~ | — | ✅ **REPAID v0.3.3** — Acceptance_Mapping: Art 15+17+ANX11+ANX11D+分包验收全参数 | — | — | — |
 
 ---
 

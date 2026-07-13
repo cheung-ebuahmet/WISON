@@ -38,7 +38,7 @@ Dispute          █████████░  90%  DNA🟢 · ICC/Abu Dhabi/E
 Insurance        ████████░░  78%  DNA🟢 · Art 41+ANX7+5 subs 全读 · B2B 100% Covered
 Quality          ██░░░░░░░░  17%  DNA⚪ · Art 13 未读 · ANX10 B.10 未读
 HSE              ███░░░░░░░  30%  DNA🟡 · Art 21 框架已知 · 细则未读
-Acceptance       ██░░░░░░░░  15%  DNA🟡 · MC/RFSU/PAC 框架 · Art 15/17 未读
+Acceptance       ██████░░░░  62%  DNA🟢 · Art 15+17+ANX11 全读 · Event→Effect 链 · 5 跨域冲突
 Testing          █░░░░░░░░░   5%  Art 16 Performance Tests 未读
 Authority        ███░░░░░░░  30%  权限结构已立 · Profile 阈值得分包/现场数据
 Sanctions/Export █████████░  92%  DNA🟢 · Art 51 + ANX14 · 定义全

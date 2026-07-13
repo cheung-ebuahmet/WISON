@@ -91,12 +91,12 @@ Risk Closure Rate: 50% (6/12 closed)
 
 | 域 | Layer 1 | Layer 2 | Layer 3 | Layer 4 | 状态 |
 |---|---|---|---|---|---|
-| **Insurance** | ✅ Art 42 | ✅ Art 20/41.11 | ✅ Art 30 | ✅ Art 41/ANX7 | 🟢 Active |
-| Warranty | ✅ Art 17/22 | 🟡 已映射 | ✅ Art 30 | ❌ 无保险覆盖 | 🟡 v0.3.3 |
-| Performance | ✅ Art 16 | ⚪ 待映射 | ✅ Art 30 | ⚪ | ⚪ v0.3.4 |
-| Testing | ✅ Art 13/16 | ⚪ | ❌ | ⚪ | ⚪ v0.3.5 |
-| Acceptance | ✅ Art 15/17 | ⚪ | ✅ Art 30 | ⚪ | ⚪ v0.3.5 |
-| Delay LD | ✅ Art 18 | ✅ RULE-002 | ❌ | ❌ (LD is not insurable) | 🟢 Active |
+| **Insurance** | ✅ Art 42 | ✅ Art 20/41.11 | ✅ Art 30 | ✅ Art 41/ANX7 | 🟢 Active (v0.3.2) |
+| **Acceptance** | ✅ Art 15/17 | 🟡 Civil WC≠EPC PAC | ✅ Art 30 | ⚠ CAR transition gap | 🟡 Active (v0.3.3) |
+| Warranty | ✅ Art 17/22 | 🟡 已映射 · 时间差敞口 | ✅ Art 30 | ❌ 无保险覆盖 | 🟡 |
+| Performance | ✅ Art 16 | ⚪ 待映射 | ✅ Art 30 | ⚪ | ⚪ |
+| Testing | ✅ Art 13/16 | ⚪ | ❌ | ⚪ | ⚪ |
+| Delay LD | ✅ Art 18 | ✅ RULE-002 | ❌ | ❌ | 🟢 Active |
 
 ---
 
@@ -119,11 +119,9 @@ THEN
 
 ---
 
-## v0.3.2 门 / Gate
-- [x] Insurance_Mapping 完成 — Coverage 78% · Confidence 71%
-- [x] Risk Transfer Engine 框架建立 — 四层链模型
-- [x] Risk Transfer Matrix — 12 项保险风险全追踪
-- [x] 保险 Back-to-Back 全验证 — 12/12 clauses Covered
-- [x] CD-010 + CF-005 偿还
-- [ ] 实际保险凭证验证（v0.3.x 证据层）
-- [ ] CAR 免赔额具体数值提取（等待 ADNOC tender 结果 or ANX7-1 schedule）
+## v0.3.3 门 / Gate (Stage 2: Acceptance)
+- [x] Acceptance_Mapping 完成 — Event→Effect chain · PAC/FAC blocker analysis
+- [x] 分包验收对比 — Civil WC vs MEI PA vs EPC PAC timing gaps quantified
+- [x] Cross-Domain Conflict Engine 启用 — 5 个冲突识别
+- [ ] CF-AC-001/004 Mitigation Strategy（v0.3.x）
+- [ ] Civil WC→PAC gap 实际时长数据（需项目进度数据）

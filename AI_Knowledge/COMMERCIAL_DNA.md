@@ -107,11 +107,12 @@
 - **Deviation**：里程碑用 **MC/RFSU/PA/FA**（非 PAC/FAC 术语；PA=Provisional、FA=Final Acceptance）。
 - **Status**：🟢结构；**具体日期待 ANX4/FOA**。
 
-### 15. Acceptance / Completion｜🟢结构
-- **Intent**：完工判据；触发付款/质保/担保降档。
-- **Impl**：**Provisional Acceptance(Art 17.1)**→PBG 降 50%、需 Claims Release Letter；**Final Acceptance(Art 17.2)**→PBG 返还、未扣回预付可提 APG、需 Final Release Letter；Early Taking Over Certificate(Art 17.1(e))；证书格式在 ANX11。
-- **Clause**：GTC Art 17 · ANX11。
-- **Status**：🟢结构；细节待 Art 17 精读。
+### 15. Acceptance / Completion｜🟢
+- **Intent**：项目生命周期中**风险正式转移**的节点——每个事件（MC→RFSU→PAC→FAC）改变 Insurance/Warranty/Payment/Security/LD 五域的状态。
+- **Impl**：**MC**=ANX11 B.38.1 + 15 天出证（可 deemed）→ 仅开启 Commissioning · **RFSU**=Art 15.3 + 21 天出证 · Partial RFSU→LD 费率降 · **PAC**=Art 17.1 + Claims Release Letter + Insurance Declaration → ★ Warranty 起算 · Care/custody 转移 · PBG→50% · LD 退还(若按期) · Insurance 施工→运营过渡 · **ETC**(Early Taking Over)=Company 酌情 · **FAC**=Art 17.2—11 条件 + Final Release Letter → PBG 返还 · APG 可提。**Critical Gap**：Civil 分包 WC→EPC PAC 有 ~4 月时间差（Warranty 未对齐）+ PBG 到期差约 2 年。
+- **Clause**：**GTC Art 15/17 · ANX11 B.38 · ANX11D-1~7 · ANX11E** · Civil COC · SCS Clause 27
+- **Deviation**：Civil 分包"Work Completion"早于 EPC PAC——引发 CF-AC-001(Warranty Gap)·CF-AC-004(PBG Gap)。
+- **Status**：🟢（条款已全读 · 冲突已识别 · 证据层置信度 55%——待真实 PAC 事件验证）。
 
 ## E. 质量·安全·法律
 ### 16. Quality｜⚪
