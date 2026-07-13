@@ -92,7 +92,8 @@ v0.3.2   **Risk Transfer Engine — Stage 1: Insurance** ............. ✅
          Insurance_Mapping 🟢 78% · Risk Transfer Matrix 12 风险 · 4 层链
 v0.3.3   **Handover Risk Transfer (Stage 2: Acceptance)** ........ ✅
          Acceptance_Mapping 🟡 55% · 5 跨域冲突 · Cross-Domain Engine
-v0.3.5   Validation Expansion ....................................... → next
+v0.3.5   **Commercial Intelligence Calibration** ................... ✅
+         Scored · Registered · Corpus(2) · Debt(VD×10) · Calibrated 69%
 v0.4     Decision Corpus → Decision Engine .......................... 待（≥30 案例）
 
 ## 里程碑与提交 / Milestone & Commit

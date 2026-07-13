@@ -76,4 +76,26 @@
 | C6 | 55% | 中（CD-007） | 45% |
 | C7 | **85%** | 中（CD-009） | **65%** |
 
-> **v0.3.0 偿还 4 条债务 (CD-003/004/005/008)。C7 Net 从 40% → 65%（+25%）。C7 Gross 从 75% → 85%。** 剩余最大债务：CD-009（External Contract 逐包验证）。
+> **v0.3.0–v0.3.3 偿还 7 条债务 (CD-003/004/005/008/010/011 + CF-005 + U-001/U-002)。C7 Net 40%→65%。Insurance 25%→78%。Acceptance 15%→62%。** 剩余 CD: 6 条 · CF: 3 条 · **VD: 10 条（新增 v0.3.5）**。
+
+---
+
+## Validation Debt / 验证债（新增 v0.3.5 → 详见 [`VALIDATION_DEBT.md`](VALIDATION_DEBT.md)）
+> "逻辑正确但未经实测"——共 10 条。偿还=Rule/Mapping/Conflict 的 Validation Level 上升。
+
+| VD-ID | 对象 | 缺什么验证 | 当前 L | 优先 |
+|---|---|---|---|---|
+| VD-001 | RULE-003 Warranty | 真实 Warranty Claim 事件 | L0 | 🔴 |
+| VD-002 | RULE-004 Payment | 真实 IPC 执行记录 | L0 | 🔴 |
+| VD-003 | CF-AC-001 | WC→PAC 时间差量化 | L1 | 🔴 |
+| VD-004 | CF-AC-004 | PBG 空窗期时长量化 | L1 | 🔴 |
+| VD-005~010 | 其余 | 见 VALIDATION_DEBT.md | — | 🟡🟢 |
+
+## 三重全景
+```
+Capability Debt (CD):  6  ← 偿还=新能力（广度）
+Confidence Debt (CF):  3  ← 偿还=可信度↑（深度）
+Validation Debt (VD):  10 ← 偿还=可验证性↑（硬度）
+─────────────────────────────────
+TOTAL:                19  → 三重全清 = v1.0
+```
