@@ -53,6 +53,6 @@
 | Retention | 未见（ADNOC 以 PBG+里程碑替代） | — |
 | Advance Payment | **YES — USD 68,620,528.60（10%）**；按发票 % 回扣；APG(ANX8-C) | **FOA p.5 · Art 23.5/30.1** |
 | 保函 Bonds | **PBG=USD 68,620,528.60(10%)**；PA 降 50%；**PCG=Required**；APG=预付额 | **FOA p.5-6 · Art 30 · ANX8** |
-| Insurance | Art 41 · ANX7 Company Provided Insurances ⚑待读 | Art 41 · ANX7 |
+| Insurance | Company CAR (Full AgP + TPL $20M + Prop $20M) · Contractor WC $1M + TPL $10M + Pollution $10M + Motor $1M + Equipment AR · Deductible=Wison · Subcon 100% B2B | **Art 41 · ANX7-1 · ANX7-3 · 分包 Insurance Requirements** |
 | 适用法 | **Abu Dhabi 法 + UAE 联邦法** | **Art 46.1** |
 | 争议解决 | **ICC 仲裁 · Abu Dhabi seat · 英文 · 3 仲裁员** · 60d 友好和解 · 终局 · 严格保密 | **Art 46.2** |

@@ -20,7 +20,7 @@
 | CD-007 | C6 Claim | Modeling Gap | Claim 实体未建模；Detailed Claim 的合同要求结构未定义 | 无法判断 Claim 是否"合格提交" | 精读 Art 25 + 建立 Claim 实体（v0.3） | 🟡 B |
 | ~~CD-008~~ | ~~C1 Authority~~ | — | ✅ **REPAID v0.3.0** — KP_Mapping: 10.1/10.2 KP 人名+LD 条件已映射 | — | — | — |
 | CD-009 | C4 B2B | Data Gap | 实际分包合同文本未读取——B2B 检查停留在主合同 side | 无法验证任何真实 Gap | 读取首份 External Contract | 🔴 A |
-| CD-010 | DNA-9 Insurance | Full Gap | Art 41 + ANX7 全文未读 | Insurance Exposure 完全无法评估 | 制造 Art 41 + ANX7 | 🔴 A |
+| ~~CD-010~~ | ~~DNA-9 Insurance~~ | — | ✅ **REPAID v0.3.2** — Insurance_Mapping: Art 41 + ANX7 + 5 subs verbatim | — | — | — |
 | CD-011 | DNA-15 Acceptance | Full Gap | Art 15/17 + ANX11 未读 | 验收触发付款/质保/担保降档无法推理 | 制造 Art 15/17 + ANX11 | 🔴 A |
 
 ---
@@ -34,7 +34,7 @@
 | CF-002 | Warranty | Validation 45% | 无 Warranty Claim 事件验证 PBG 空窗期 | 等待/搜索 Warranty 信函 |
 | CF-003 | KP | Coverage 72% | 12.1/12.2 MEI KP 名单缺失 | 提取 12.1/12.2 Exh E KP 名单 |
 | CF-004 | Payment | Validation 55% | 无 IPC 执行记录 | 提取 IPC 记录 |
-| CF-005 | Insurance | Coverage <20% | 整个域近空白 | 制造 Art 41/ANX7 |
+| ~~CF-005~~ | ~~Insurance~~ | — | ✅ **REPAID v0.3.2** — Coverage <20%→78% · Confidence 71% | — | — |
 
 ---
 

@@ -1,5 +1,9 @@
 # LD_Mapping — 误期损害赔偿 主合同⇄分包映射
-`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-002 · 偿还 CD-003]`
+`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-002 · Confidence: 92% · 偿还 CD-003]`
+
+> **Coverage 93%** █████████░ · **Confidence 92%** █████████░ · **Validation 85%** ████████░░
+> EPC 15 里程碑全 · 3/4 分包全参数 · 2 个真实 Issue 触发 (MEI Milestone #2 + PM KP-LD)
+> 未覆盖：12.2 TCC MEI II LD 参数 · MC Relief 实际执行后果 · LD Notice 模板
 
 ---
 

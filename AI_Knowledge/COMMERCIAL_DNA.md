@@ -66,11 +66,12 @@
 - **Deviation**：无。
 - **Status**：🟢。
 
-### 9. Insurance｜⚪
-- **Intent**：向保险人转移风险；未保=Insurance Exposure。
-- **Impl**：GTC Art 41（未精读）；ANX7 有 **Company Provided Insurances**（示例 Al Ain Ahlia）；indemnity 与 insurance 相互独立(Art 42.12)。
-- **Clause**：GTC Art 41 · ANX7。
-- **Status**：⚪ **待读 Art 41 + ANX7**。
+### 9. Insurance｜🟢
+- **Intent**：Risk Allocation 最终保障层——保险是四层风险转移链（Indemnity→Flow-down→Security→Insurance）的最后一环。
+- **Impl**：**Company 提供 CAR**（ANX7-1：Full Agreement Price + TPL USD 20M + Existing Property USD 20M + Transit CIF+10% + Terrorism + LEG 3 design cover）——但**免赔额全由 Contractor 承担**（Art 41.16(c)）。**Contractor 提供 5 种保险**：Workmen's Comp USD 1M · Motor TPL USD 1M · Equipment All Risk full value · TPL USD 10M · Pollution USD 10M。全部须 Additional Insured + Waiver of Subrogation。Insurer S&P/AM Best ≥ A−。PAC 时须提交 Insurance Declaration 完成施工→运营险过渡。**分包合同 100% Back-to-Back**——全部 5 个分包逐字复制 Art 41。**最大敞口**：Art 41.16(d)——Wison 的 vitiating act 导致 CAR 失效→全额赔偿 ADNOC（USD 686M 级别）。
+- **Clause**：**GTC Art 41.1–41.19 · ANX7-1 · ANX7-3 · 分包 Insurance Requirements（verbatim Art 41）**
+- **Deviation**：无——保险域 Back-to-Back 完整度最高。
+- **Status**：🟢（条款已全读 + B2B 已验证；实际保险凭证未收集——Confidence 71%）
 
 ### 10. Warranty / DLP｜🟢
 - **Intent**：验收后缺陷责任。
@@ -153,12 +154,9 @@
 ---
 
 ## 待办清单 / Pending evidence（下一读取批次）
-1. **Art 41 + ANX7**：保险（区 9）。
-2. **Art 13 + ANX10 B.10**：质量（区 16）。
-3. **Art 21 精读 + Art 15/16/17**：HSE + MC/RFSU/验收细节。
-4. **ANX4 Att-2**：付款里程碑具体日期。
-5. **ANX5 Exh A.07**：Pricing/Invoicing/Variation Rates 精读。
-6. **ANX10C**：Subcontractor/Vendor 批准程序（B2B 程序层）。
+1. **Art 13 + ANX10 B.10**：质量（区 16）。
+2. **Art 15/17 + ANX11**：验收细节（区 15）。
+3. **ANX5 Exh A.07**：Pricing/Variation Rates 精读。
 
 ---
 ## 补充记录 / Supplemental records

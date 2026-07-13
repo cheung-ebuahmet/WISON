@@ -1,5 +1,9 @@
 # Payment_Mapping — 付款机制 主合同⇄分包映射
-`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-004 · 偿还 CD-005]`
+`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-004 · Confidence: 85% · 偿还 CD-005]`
+
+> **Coverage 88%** █████████░░ · **Confidence 85%** ████████░░ · **Validation 55%** ██████░░░░
+> EPC + 3/4 分包全参数映射 · 15d float 已量化 · Advance 10% 全覆盖
+> 未验证：无真实 IPC 执行记录 · ANX5 A.07 Pricing 细则未读 · AED/USD peg 情景未建模
 
 ---
 

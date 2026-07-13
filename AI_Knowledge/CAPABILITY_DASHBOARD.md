@@ -35,7 +35,7 @@ Warranty         ██████░░░░  63%  DNA🟢 + RULE-003 · 期�
 Security         ████████░░  80%  DNA🟢 · PBG/PCG/APG 已全·ANX8 格式待精读
 Liability        ████████░░  85%  DNA🟢 · Cap 100% + Uncapped carve-outs 已全
 Dispute          █████████░  90%  DNA🟢 · ICC/Abu Dhabi/English/3 arb 已全
-Insurance        ███░░░░░░░  25%  DNA⚪ · Art 41/ANX7 未读
+Insurance        ████████░░  78%  DNA🟢 · Art 41+ANX7+5 subs 全读 · B2B 100% Covered
 Quality          ██░░░░░░░░  17%  DNA⚪ · Art 13 未读 · ANX10 B.10 未读
 HSE              ███░░░░░░░  30%  DNA🟡 · Art 21 框架已知 · 细则未读
 Acceptance       ██░░░░░░░░  15%  DNA🟡 · MC/RFSU/PAC 框架 · Art 15/17 未读

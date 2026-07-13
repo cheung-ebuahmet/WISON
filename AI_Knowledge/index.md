@@ -88,8 +88,10 @@ v0.3     **Mapping Engine** — Canonical⇄Operational ................. ✅ 4 
          LD · Warranty · Payment · KP — Rule Runtime Ready · C7 Net 40→65%
 v0.3.1   Notice_Mapping + Confidence Layer + Validation Engine ........ ✅
          Confidence meta-properties on all 5 mappings · 4 rules scored
-v0.3.2   Insurance_Mapping（Art 41 + ANX7）............................ → next
-v0.4     Decision Corpus → Decision Engine ............................. 待（需 ≥30 案例）
+v0.3.2   **Risk Transfer Engine — Stage 1: Insurance** ............. ✅
+         Insurance_Mapping 🟢 78% · Risk Transfer Matrix 12 风险 · 4 层链
+v0.3.3   Warranty Risk Transfer · Acceptance Mapping ................ → next
+v0.4     Decision Corpus → Decision Engine .......................... 待（≥30 案例）
 
 ## 里程碑与提交 / Milestone & Commit
 

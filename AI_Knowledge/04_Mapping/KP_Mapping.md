@@ -1,5 +1,9 @@
 # KP_Mapping — 关键人员 主合同⇄分包映射
-`[v0.3 首批映射 · 🟢 Active · 偿还 CD-008 · 驱动 C1 Authority Data]`
+`[v0.3 首批映射 · 🟢 Active · Confidence: 62% · 偿还 CD-008 · 驱动 C1 Authority Data]`
+
+> **Coverage 72%** ███████░░░ · **Confidence 62%** ██████░░░░ · **Validation 70%** ███████░░░
+> 2/4 分包 KP 名单全（具名+LD 条件）· 1 个真实 Issue (PM 缺位) · 信函链完整
+> 未覆盖：12.1/12.2 KP 名单 · 替换时限 · EPC 侧 Wison 自身 KP 风险
 
 > **特殊映射**：EPC 主合同**无 KP-LD 机制**（ADNOC 通过 PBG + 终止条款管理 Contractor 人员履约）。KP-LD 是 Wison 自行在分包合同中创设的**下行管控工具**——这是典型的 Contractor 商业智慧：从主合同学到的管理需求，转化为对下的合同条款，即使主合同本身没有要求。
 

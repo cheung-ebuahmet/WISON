@@ -17,10 +17,13 @@
 - [x] Notice_Mapping — 5 域映射完成 🟡 68%
 - [x] CONFIDENCE_LAYER.md — Coverage/Confidence/Validation 三层元属性
 - [x] VALIDATION_ENGINE.md — 4 Rules scored · Exception Discovery 5 条
-- [ ] Insurance_Mapping (→ v0.3.2 · 须先制造 Art 41 + ANX7)
+- [x] Insurance_Mapping — 🟢 78% Coverage · 71% Confidence · B2B 100% Covered
+- [x] **RISK_TRANSFER_ENGINE.md** — 四层风险转移链 (Indemnity→Flow-down→Security→Insurance)
+- [x] **Risk Transfer Matrix** — 12 项保险风险全追踪 (6✅ Closed / 3⚠ Partial / 3❌ Retained)
+- [x] CD-010 + CF-005 偿还 · U-001 消除
+- [ ] Acceptance Mapping (→ v0.3.3 · Art 15/17 + ANX11)
 - [ ] Risk Taxonomy 正式分类框架
-- [ ] Event Library 枚举 + 路由
-- [ ] Obligation Matrix (→ v0.3.3) — Who·Must Do·When·Condition·Evidence·Consequence
+- [ ] Obligation Matrix (→ v0.3.4)
 
 ## 从 v0.1.0 到 v1.0：十层能力栈
 ```

@@ -1,5 +1,9 @@
 # Warranty_Mapping — 质保期 主合同⇄分包映射
-`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-003 · 偿还 CD-004]`
+`[v0.3 首批映射 · 🟢 Active · Rule Runtime for RULE-003 · Confidence: 78% · 偿还 CD-004]`
+
+> **Coverage 85%** ████████░░ · **Confidence 78%** ████████░░ · **Validation 45%** █████░░░░░
+> 期限全映射 · 起算点已知 · 维修延长/Gap 已知
+> 未验证：无真实 Warranty Claim 案例 · 性能保证细则 (Art 16) 未读 · PBG 空窗期未量化
 
 ---
 

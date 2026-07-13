@@ -12,7 +12,7 @@
 ### 商业核心缺口
 | ID | Unknown | 阻塞能力 | 答案在 | 优先级 | 状态 |
 |---|---|---|---|---|---|
-| U-001 | Insurance：险种(CAR/TPL…)、保额、免赔额、Waiver of Subrogation、谁投保 | C3·C4·C7 | **Art 41 · ANX7** | 🔴 A | Open |
+| ~~U-001~~ | ~~Insurance：险种/保额/免赔/Waiver~~ | — | ✅ **CLEARED v0.3.2** — Art 41 + ANX7 全读；保险 Back-to-Back 全验证（12/12 Covered） | — | — |
 | U-002 | Acceptance：PA/FA 详细流程、Punch List、证书格式、Claims Release Letter 内容 | C2·C3·C6 | **Art 15/17 · ANX11** | 🔴 A | Open |
 | U-003 | Quality：QRC/ITP 框架、NCR 关闭流程、Company 质量审核权限 | C3·C5 | **Art 13 · ANX10 B.10** | 🟡 B | Open |
 | U-004 | HSE 细则：具体合规义务、违规后果层次（警告→暂停→终止） | C3 | **Art 21** | 🟡 B | Open |
