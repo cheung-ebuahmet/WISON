@@ -8,13 +8,16 @@
 
 ---
 
-## v0.3 基础设施层（当前）— Supply Chain + Dashboard
-- [x] CAPABILITY_DASHBOARD.md — 能力覆盖率（非 OCR 率）
-- [x] KNOWLEDGE_SUPPLY_CHAIN.md — 供给链 + 四问闸门 + 优先级算法
-- [x] UNKNOWN_REGISTRY.md — 24 项开放未知 + 14 项已消除
-- [ ] Risk Taxonomy 正式分类框架 (v0.2.1)
+## v0.3 基础设施层 — Supply Chain + Dashboard ✅ → v0.3.0 Mapping Engine 🟢
+- [x] CAPABILITY_DASHBOARD.md · KNOWLEDGE_SUPPLY_CHAIN.md · UNKNOWN_REGISTRY.md
+- [x] **04_Mapping/** — Mapping Engine（Canonical ⇄ Operational）
+- [x] LD_Mapping · Warranty_Mapping · Payment_Mapping · KP_Mapping — 4 份 Active
+- [x] RULE-002/003/004 Runtime Ready — C7 Net 40%→65%（+25%）
+- [x] 偿还 CD-003/004/005/008（4 条 Capability Debt）
+- [ ] Risk Taxonomy 正式分类框架 (→ v0.3.1)
+- [ ] Notice_Mapping · Insurance_Mapping (→ v0.3.1)
 - [ ] Event Library 枚举 + 路由 (v0.2.2)
-- [ ] Obligation Matrix (v0.3) — Who·Must Do·When·Condition·Evidence·Consequence
+- [ ] Obligation Matrix (→ v0.3.2) — Who·Must Do·When·Condition·Evidence·Consequence
 
 ## 从 v0.1.0 到 v1.0：十层能力栈
 ```

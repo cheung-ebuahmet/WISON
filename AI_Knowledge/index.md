@@ -39,6 +39,7 @@
 | `01_Entities` | 知识对象：Contract / Subcontract / Variation / Claim / Payment / Party / Insurance / Guarantee / Notice | "这份合同的 LD 是多少？" |
 | `02_Relationships` | 知识图谱：governs / includes / affects / impacts / flows-down | "这个 VO 影响哪笔付款？" |
 | `03_Rules` | 规则引擎：IF/THEN 条款规则（付款、变更、EOT、索赔时效、Back-to-Back） | "满足付款条件了吗？" |
+| **`04_Mapping`** | **Mapping Engine**：主合同⇄分包 商业参数逐项映射 + Gap 自动判定 + Rule Runtime Data | "LD 是否 Covered？Gap 多大？" |
 | `04_Processes` | 流程图：Variation / Payment / Claim / EOT 的步骤与审批权限 | "VO 走到哪一步了？" |
 | `05_Playbooks` | 行动手册：推理链模板（如"VO 为何不能付款"） | "现在该发什么通知、补什么证据？" |
 | `06_Case_Studies` | 真实案例：RFI/TQ/VO/Claim/NCR + 处理 + 结果 | "上次类似情况怎么处理的？" |
@@ -83,8 +84,10 @@ Phase 6  案例库（真实 VO/Claim/付款/争议）...................... → 
 - [ ] v0.2     Rule Engine + Reasoning Protocol + Supply Chain ........ ✅
 v0.2.1   供给链基础设施：Dashboard · Supply Chain · Unknown Registry .. ✅
 v0.2.2   制造基础设施：Checklist · Heat Map · Debt Register · Mfg Log ✅（工厂上线）
-v0.2.3   Risk Taxonomy（统一风险分类）.............................. → next
-v0.3     Obligation Matrix + Decision Tree .......................... 待
+v0.3     **Mapping Engine** — Canonical⇄Operational ................. ✅ 4 份映射 Active
+         LD · Warranty · Payment · KP — Rule Runtime Ready · C7 Net 40→65%
+v0.3.1   Notice_Mapping · Insurance_Mapping ........................... → next
+v0.4     Decision Engine（Issue→Decision Pattern）..................... 待
 
 ## 里程碑与提交 / Milestone & Commit
 
