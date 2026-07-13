@@ -11,11 +11,11 @@
 |---|---|---|---|---|
 | C1 | 识别谁有权限（who holds Authority） | Party · Role · Authority · Delegation | ✅ | C2 问答可定位：Company Rep 直接行使 All Authority，无独立 Engineer → Profile 实例化已可查；Authority 阈值待分包/现场数据（v0.2） |
 | C2 | 判断 Decision 是否有效 | Decision · Authority · Constraint · Delegation | ✅ | C3 问答隐含验证：Variation 须 Company 出 VO/ITP 方产生商业效力，未获即无效；规则尚未形式化写入 03_Rules（v0.2） |
-| C3 | 验证 Requirement 是否满足 | Requirement(Satisfied/Outstanding) · Event | ◐ | 设计责任/付款先决等核心 Requirement 已可从 DNA+Clause 查询；Requirement 超类实体细化与判定规则待 v0.2 |
+| C3 | 验证 Requirement 是否满足 | Requirement · Event · **RULE-004** | ◐→🟡 | Payment precondition 已规则化（RULE-004）；其余 Requirement 待 v0.3 Obligation Matrix |
 | C4 | 检查 Back-to-Back 是否完整 | `flows-down` · Contract · External Contract | ✅ | Art 20 法律基础已读：须 Company 批准、强制 flows-downs(IP/保密/道德/novation)、pay-when-paid、全责归 Contractor；逐包比对待 v0.2 |
-| C5 | 分析 Event 是否触发 Notice（含 Time-bar） | Event · Rule · Notice · Time | ✅ | CVR 14 天刚性时限 + Art 9.2(c) 视同批准已证据绑定；形式化 Time-bar 规则待 v0.2 |
+| C5 | 分析 Event 是否触发 Notice（含 Time-bar） | Event · Rule · Notice · Time · **RULE-001** | ✅→🟢 | CVR 14d Time-bar 已规则化（RULE-001）；其余 Event 待 Event Library (v0.2.2) |
 | C6 | 判断 Claim 是否具备合同依据 | Claim · Clause · Evidence · Decision | ◐ | Variation→Claim 链路可追踪（CVR+EOT）；Claim 实体与正式规则待 v0.2 |
-| C7 ★ | **Risk Pass-through 验证**（主合同风险是否被 Back-to-Back 覆盖） | Exposure · flows-down · External Contract · Rule | ✅ | 概念+法据+Exposure 模型就位；C4/C7 问答给出完整 LD-Warranty-Security 暴露场景；逐包比对待 v0.2 |
+| C7 ★ | **Risk Pass-through 验证** | Exposure · flows-down · External Contract · **RULE-002 · RULE-003** | ✅→🟢 | LD Flow-down + Warranty Gap 已规则化；逐包数据待外部合同读取 |
 
 ## M1 门 / Gate status
 | 条件 | 状态 |
