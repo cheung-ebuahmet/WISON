@@ -1,11 +1,20 @@
 # ROADMAP — 能力演进路线 / Capability Roadmap
-`[v0.1.0 → v1.0 · 每版增加一种能力，而非补文档 · 2026-07-13]`
+`[v0.1.0 → v1.0 · 每版增加一种能力 · 知识供给链驱动 · 2026-07-13]`
 
-> **核心原则**：后续所有提交以**增加一种 Capability** 为目标，而非"补文档/填区域"。每次提交让系统变得更聪明，而非更大。
-> 当前基线：`v0.1.0 – Foundation`（M1 冻结，C1–C7 全验 PASS）。
-> 目标：`v1.0 – Commercial Expert System`（十层全通）。
+> **核心原则**：后续所有提交以**增加一种 Capability** 为目标。每次提交让系统变得更聪明，而非更大。
+> **供给哲学**：OCR/结构化不是"补资料"——是给 Rule Engine 和 Reasoning Engine **供燃料**。每次供给过四问闸门（[`KNOWLEDGE_SUPPLY_CHAIN.md`](KNOWLEDGE_SUPPLY_CHAIN.md)）。
+> **驾驶舱**：[`CAPABILITY_DASHBOARD.md`](CAPABILITY_DASHBOARD.md) — 系统的智商计，不是进度表。
+> **未知驱动**：[`UNKNOWN_REGISTRY.md`](UNKNOWN_REGISTRY.md) — Unknown 越少，Capability 越高。
 
 ---
+
+## v0.3 基础设施层（当前）— Supply Chain + Dashboard
+- [x] CAPABILITY_DASHBOARD.md — 能力覆盖率（非 OCR 率）
+- [x] KNOWLEDGE_SUPPLY_CHAIN.md — 供给链 + 四问闸门 + 优先级算法
+- [x] UNKNOWN_REGISTRY.md — 24 项开放未知 + 14 项已消除
+- [ ] Risk Taxonomy 正式分类框架 (v0.2.1)
+- [ ] Event Library 枚举 + 路由 (v0.2.2)
+- [ ] Obligation Matrix (v0.3) — Who·Must Do·When·Condition·Evidence·Consequence
 
 ## 从 v0.1.0 到 v1.0：十层能力栈
 ```
@@ -36,28 +45,26 @@ Reasoning Protocol    ── 横切所有层：统一推理路径（任何模型
 
 ---
 
-## v0.2 — Rule Engine + Event Library + Risk Taxonomy
-`目标：系统从"解释合同"升级为"运行合同"`
+## v0.2 — Rule Engine + Reasoning Protocol + Supply Chain ✅
+`系统从"解释合同"→"运行合同"→"供给驱动"`
 
-### v0.2.0 Rule Engine（第一优先级）
-- [ ] Rule Template 定型（Rule ID · Trigger · Condition · Evidence Required · Decision · Risk Level · Output · Follow-up · Clause Ref）
-- [ ] 首批可执行规则：CVR Time-bar (RULE-001) · LD Flow-down (RULE-002) · Warranty Gap (RULE-003) · Payment Precondition (RULE-004)
-- [ ] 与 CAPABILITIES C5/C7 挂钩：每条规则激活一项能力
+### v0.2.0 Rule Engine ✅
+- [x] Rule Template 定型 + 首批 4 条可执行规则
+- [x] C5🟢 C7🟢 C3🟡
 
-### v0.2.1 Risk Taxonomy
+### v0.2.1 Supply Chain Infrastructure ✅
+- [x] **CAPABILITY_DASHBOARD.md** — 能力驾驶舱（系统的智商计，非进度表）
+- [x] **KNOWLEDGE_SUPPLY_CHAIN.md** — 供给链 + 四问闸门 + 优先级算法
+- [x] **UNKNOWN_REGISTRY.md** — 24 项开放未知 + 14 项已消除
+
+### v0.2.2 Risk Taxonomy（→ next）
 - [ ] 统一分类：Commercial · Contractual · Financial · Schedule · Quality · Insurance · HSE · Legal · Interface · Supply Chain · Authority · Tax
-- [ ] 每条 Clause → 自动绑定 Risk Category
+- [ ] 每条 Rule/DNA → 绑定 Risk Category
 - [ ] Risk Filter：按类别筛选所有敞口
 
-### v0.2.2 Contract Event Library
-- [ ] 事件枚举：Instruction · Delay · Drawing Revision · Late Approval · Suspension · Access Restriction · Acceleration · Variation · Defect · Claim · Payment Delay · NCR · Force Majeure
-- [ ] Event → Applicable Articles → Commercial Risk → Required Notice → Evidence → Strategy 链
+### v0.2.3 Contract Event Library（→ next）
+- [ ] 事件枚举 + Event → Articles → Risk → Notice → Evidence → Strategy 链
 - [ ] 与 Reasoning Protocol 联动：事件输入→自动路由
-
-### v0.2.3 Reasoning Protocol（元能力，横切）
-- [ ] 七步推理路径：问题类型 → 事件识别 → 规则调用 → 条款引用 → 证据引用 → 风险评估 → 建议行动
-- [ ] 模型无关：GPT/Claude/Gemini/本地模型均沿同一路径
-- [ ] 回答模板：确保每次输出可复现
 
 ---
 

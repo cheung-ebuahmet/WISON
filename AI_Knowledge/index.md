@@ -80,7 +80,11 @@ Phase 6  案例库（真实 VO/Claim/付款/争议）...................... → 
 - [✅] M1 验收 — **C1–C7 七问全验 PASS**（[`M1_VALIDATION.md`](M1_VALIDATION.md)）
 - [🟢] DNA — 17/21 区证据绑定；剩余 v0.2
 - [◐] Philosophy — 随用演化，等案例沉淀后红线整理
-- [ ] v0.2     Rule Engine 启动 — 4 条规则 + Reasoning Protocol + Roadmap
+- [ ] v0.2     Rule Engine + Reasoning Protocol + Supply Chain ........ ✅ 已提交
+v0.2.1   供给链基础设施：Dashboard · Supply Chain · Unknown Registry .. ✅ 已提交
+v0.2.2   Risk Taxonomy（统一风险分类）.............................. → next
+v0.2.3   Event Library（事件→条款→通知→证据→策略）.................. → next
+v0.3     Obligation Matrix + Decision Tree .......................... 待
 
 ## 里程碑与提交 / Milestone & Commit
 
