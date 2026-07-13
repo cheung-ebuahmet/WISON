@@ -1,8 +1,9 @@
 # CAPABILITY_DASHBOARD — 能力驾驶舱 / Capability Dashboard
-`[v0.3 基础设施 · 活文档 · 每次能力增量后更新 · 回答"系统什么时候真正变聪明"]`
+`[v0.2.2 · 活文档 · Gross − Debt = Net · 每次制造后更新 · 回答"系统什么时候真正变聪明"]`
 
-> **这不是进度表。这是系统的智商计。** 每一根进度条不是"做了多少文件"，而是"这项商业能力有多完整"。
-> 更新原则：每次 commit 后回填。驾驶舱数据驱动所有 Knowledge Supply 优先级。
+> **这不是进度表。这是系统的智商计。** 每根进度条 = 这项商业能力的真实覆盖率（Gross）与扣除能力债后的可用能力（Net）。
+> 驾驶舱数据直接驱动制造优先级（→ [`CAPABILITY_HEATMAP`](CAPABILITY_HEATMAP.md) + [`CAPABILITY_DEBT`](CAPABILITY_DEBT.md)）。
+> 制造产出登记在 [`MANUFACTURING_LOG`](MANUFACTURING_LOG.md)。
 
 ---
 
@@ -45,17 +46,19 @@ Sanctions/Export █████████░  92%  DNA🟢 · Art 51 + ANX14 
 
 ---
 
-## 按能力 / By Capability
+## 按能力 / By Capability (Gross → Net)
 
-| Cap | 名称 | 覆盖 | 规则化 | 证据绑定 |
-|---|---|---|---|---|
-| C1 | Authority | 🟡 60% | ❌ | Profile 名录 ✅ · 阈值 ❌ |
-| C2 | Decision 有效性 | 🟡 65% | ❌ | VO 机制 ✅ · 校验规则 ❌ |
-| C3 | Requirement | 🟡 50% | RULE-004 ✅ | 其余 Requirement ❌ |
-| C4 | B2B 完整性 | 🟢 70% | RULE-002/003 ✅ | 逐包 ❌ |
-| C5 | Notice/Time-bar | 🟢 78% | RULE-001 ✅ | CVR ✅ · 其余 Event ❌ |
-| C6 | Claim 依据 | 🟡 55% | ❌ | 链路可查 · 正式规则 ❌ |
-| C7 | Risk Pass-through | 🟢 75% | RULE-002/003 ✅ | 逐包 ❌ |
+| Cap | 名称 | Gross | Debt | Net | 规则化 |
+|---|---|---|---|---|---|
+| C1 | Authority | 60% | 低 (CD-008) | 55% | ❌ |
+| C2 | Decision 有效性 | 65% | 低 | 60% | ❌ |
+| C3 | Requirement | 50% | 中 (CD-006) | 40% | RULE-004 ✅ |
+| C4 | B2B 完整性 | 70% | 高 (CD-009) | 45% | RULE-002/003 ✅ |
+| C5 | Notice/Time-bar | 78% | 中 (CD-001/002) | 65% | RULE-001 ✅ |
+| C6 | Claim 依据 | 55% | 中 (CD-007) | 45% | ❌ |
+| C7 | Risk Pass-through | 75% | 高 (CD-003/004/009) | 40% | RULE-002/003 ✅ |
+
+> **C7 的 Gross 75% vs Net 40% 差距最大**——规则已可执行，但缺分包数据供其运行。偿还 CD-003+CD-004+CD-009 是最高优先级。
 
 ---
 
@@ -81,6 +84,7 @@ Sanctions/Export █████████░  92%  DNA🟢 · Art 51 + ANX14 
 |---|---|
 | v0.1.0 | C1–C7 全验 PASS（Foundation：架构+DNA+证据绑定） |
 | v0.2.0 | +Rule Engine（4 rules active）· +Reasoning Protocol（七步）· C5🟢 C7🟢 |
-| v0.2.1 | _next: Risk Taxonomy_ |
-| v0.2.2 | _next: Event Library_ |
-| v0.3 | _next: Obligation Matrix_ |
+| v0.2.1 | +Supply Chain（Dashboard + 四问闸门 + Unknown Registry）——元能力 |
+| v0.2.2 | +Manufacturing（Checklist + Heat Map + Debt Register + Mfg Log）——元元能力：制造可计量 |
+| v0.2.3 | _next: Risk Taxonomy_ |
+| v0.3.0 | _next: Obligation Matrix + Decision Tree_ |
