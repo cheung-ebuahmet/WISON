@@ -25,6 +25,19 @@
 
 ---
 
+## Confidence Debt / 可信度债（新增 v0.3.1）
+> 区别于 Capability Debt——系统"能做"但"有多可靠"不确定。
+
+| CF-ID | 映射 | 缺口维度 | 影响 | 偿还途径 |
+|---|---|---|---|---|
+| CF-001 | Notice | Issue Validation 42% | 无法验证 14d vs 5WD 在实际信函中的运作 | 结构化剩余 12 封函件 |
+| CF-002 | Warranty | Validation 45% | 无 Warranty Claim 事件验证 PBG 空窗期 | 等待/搜索 Warranty 信函 |
+| CF-003 | KP | Coverage 72% | 12.1/12.2 MEI KP 名单缺失 | 提取 12.1/12.2 Exh E KP 名单 |
+| CF-004 | Payment | Validation 55% | 无 IPC 执行记录 | 提取 IPC 记录 |
+| CF-005 | Insurance | Coverage <20% | 整个域近空白 | 制造 Art 41/ANX7 |
+
+---
+
 ## 债务统计 / Debt Summary
 
 | 类别 | 数量 | 优先级分布 |

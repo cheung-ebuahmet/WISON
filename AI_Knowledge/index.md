@@ -86,8 +86,10 @@ v0.2.1   供给链基础设施：Dashboard · Supply Chain · Unknown Registry .
 v0.2.2   制造基础设施：Checklist · Heat Map · Debt Register · Mfg Log ✅（工厂上线）
 v0.3     **Mapping Engine** — Canonical⇄Operational ................. ✅ 4 份映射 Active
          LD · Warranty · Payment · KP — Rule Runtime Ready · C7 Net 40→65%
-v0.3.1   Notice_Mapping · Insurance_Mapping ........................... → next
-v0.4     Decision Engine（Issue→Decision Pattern）..................... 待
+v0.3.1   Notice_Mapping + Confidence Layer + Validation Engine ........ ✅
+         Confidence meta-properties on all 5 mappings · 4 rules scored
+v0.3.2   Insurance_Mapping（Art 41 + ANX7）............................ → next
+v0.4     Decision Corpus → Decision Engine ............................. 待（需 ≥30 案例）
 
 ## 里程碑与提交 / Milestone & Commit
 

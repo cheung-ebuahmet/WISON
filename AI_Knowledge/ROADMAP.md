@@ -14,10 +14,13 @@
 - [x] LD_Mapping · Warranty_Mapping · Payment_Mapping · KP_Mapping — 4 份 Active
 - [x] RULE-002/003/004 Runtime Ready — C7 Net 40%→65%（+25%）
 - [x] 偿还 CD-003/004/005/008（4 条 Capability Debt）
-- [ ] Risk Taxonomy 正式分类框架 (→ v0.3.1)
-- [ ] Notice_Mapping · Insurance_Mapping (→ v0.3.1)
-- [ ] Event Library 枚举 + 路由 (v0.2.2)
-- [ ] Obligation Matrix (→ v0.3.2) — Who·Must Do·When·Condition·Evidence·Consequence
+- [x] Notice_Mapping — 5 域映射完成 🟡 68%
+- [x] CONFIDENCE_LAYER.md — Coverage/Confidence/Validation 三层元属性
+- [x] VALIDATION_ENGINE.md — 4 Rules scored · Exception Discovery 5 条
+- [ ] Insurance_Mapping (→ v0.3.2 · 须先制造 Art 41 + ANX7)
+- [ ] Risk Taxonomy 正式分类框架
+- [ ] Event Library 枚举 + 路由
+- [ ] Obligation Matrix (→ v0.3.3) — Who·Must Do·When·Condition·Evidence·Consequence
 
 ## 从 v0.1.0 到 v1.0：十层能力栈
 ```
