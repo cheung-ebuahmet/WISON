@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADNOC Gas &mdash; Sulfur Processing Pipeline &bull; Civil + MEI Integrated Master Guidebook</title>
+<style>
+/* ========================================================================
+   DESIGN TOKENS — ADNOC Gas Industrial Palette
+   ======================================================================== */
+:root {
+    /* Civil Partition fills */
+    --cp1:  #2563EB; --cp1-bg: rgba(37,99,235,0.14);   /* Blue   — Solid Logistics       */
+    --cp2:  #DC2626; --cp2-bg: rgba(220,38,38,0.14);     /* Red    — Storage/Granulation   */
+    --cp3:  #7C3AED; --cp3-bg: rgba(124,58,237,0.14);    /* Purple — Blast-Resistant MCR   */
+    /* MEI Package strokes */
+    --mei1: #059669; --mei1-bg: rgba(5,150,105,0.13);    /* Green  — Mechanical Package I  */
+    --mei2: #D97706; --mei2-bg: rgba(217,119,6,0.13);    /* Amber  — E&I / HV Package II   */
+    /* Pipeline route */
+    --pipe-gold: #F59E0B; --pipe-gold-glow: rgba(245,158,11,0.35);
+    /* Greenfield / Brownfield */
+    --gf-fill: #065F46; --gf-stroke: #34D399;
+    --bf-fill: #7C2D12; --bf-stroke: #FBBF24;
+    /* UI surfaces */
+    --bg-root:   #060910; --bg-card: #0D1320; --bg-sidebar: #040810;
+    --bg-raised: #131C2E; --border: #1A2740;  --border-lit: #253655;
+    --text:      #E8EDF5; --text-dim: #889BB5; --text-sub: #556885;
+    --accent:    #38BDF8; --warn: #F97316;     --danger: #EF4444;
+    --adnoc-blue:#0C4A6E; --adnoc-teal:#0D9488;
+    /* Typography */
+    --radius:    10px; --radius-sm: 6px; --transition: 200ms ease;
+    --font:      'Segoe UI','Inter',system-ui,-apple-system,sans-serif;
+    --mono:      'Cascadia Code','Fira Code','JetBrains Mono','Consolas',monospace;
+    --sidebar-w: 345px;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:15px}
+body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+
+/* ═════════════════════════════════════════════════════════════════════
+   PREMIUM CORPORATE HEADER — ADNOC Gas Brand
+   ═════════════════════════════════════════════════════════════════════ */
+.corp-header {
+    background: linear-gradient(180deg, #0C1A2B 0%, #081220 60%, var(--bg-root) 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.corp-header-inner {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 10px 28px 8px;
+}
+/* ADNOC Gas brand strip */
+.corp-brand-strip {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+.corp-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.corp-logo .adnoc-mark {
+    width: 38px; height: 38px;
+    background: linear-gradient(135deg, var(--adnoc-blue) 0%, #155E75 50%, var(--adnoc-teal) 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: -.02em;
+    box-shadow: 0 0 18px rgba(14,165,233,0.20);
+}
+.corp-logo-text { line-height: 1.15; }
+.corp-logo-text .corp-owner {
+    font-size: .95rem;
+    font-weight: 800;
+    letter-spacing: .14em;
+    color: #E8EDF5;
+    text-transform: uppercase;
+}
+.corp-logo-text .corp-project {
+    font-size: .68rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    color: #38BDF8;
+}
+.corp-divider {
+    width: 1px; height: 38px;
+    background: linear-gradient(180deg, transparent, var(--border-lit), transparent);
+    margin: 0 8px;
+}
+.corp-meta { line-height: 1.3; }
+.corp-meta .meta-title {
+    font-size: .82rem;
+    font-weight: 700;
+    color: #E8EDF5;
+    letter-spacing: .03em;
+}
+.corp-meta .meta-sub {
+    font-size: .64rem;
+    color: var(--text-sub);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.corp-status {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.corp-status .status-dot {
+    width: 8px; height: 8px;
+    background: #22C55E;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(34,197,94,.5);
+    animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+.corp-status .status-text {
+    font-size: .62rem;
+    color: var(--text-sub);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+.corp-badge {
+    font-size: .58rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    padding: 3px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.corp-badge.rev { background: rgba(248,113,113,.15); color: #FCA5A5; border: 1px solid rgba(248,113,113,.2); }
+.corp-hr { height: 3px; background: linear-gradient(90deg, var(--adnoc-blue), var(--accent), var(--adnoc-teal), var(--warn)); border: none; }
+
+/* ═════════════════════════════════════════════════════════════════════
+   BODY LAYOUT (below header)
+   ═════════════════════════════════════════════════════════════════════ */
+.body-wrap { display: flex; flex: 1; min-height: 0; }
+
+/* ── SIDEBAR ─────────────────────────────────────────────────────── */
+.sidebar{width:var(--sidebar-w);min-width:var(--sidebar-w);height:calc(100vh - 110px);position:sticky;top:110px;background:var(--bg-sidebar);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow-y:auto;z-index:5}
+.sidebar-hd{padding:18px 18px 12px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(56,189,248,.04) 0%,transparent 100%)}
+.sidebar-hd h1{font-size:.92rem;font-weight:700;letter-spacing:.02em;line-height:1.3}
+.sidebar-hd .sub{font-size:.64rem;color:var(--text-sub);text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+.sidebar-legend{display:flex;flex-wrap:wrap;gap:6px;padding:8px 18px;border-bottom:1px solid var(--border);font-size:.62rem}
+.ldot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:3px;vertical-align:middle;position:relative;top:-1px}
+.litem{display:inline-flex;align-items:center;gap:2px;white-space:nowrap}
+.litem span{color:var(--text-dim)}
+.stage-nav{flex:1;padding:4px 0}
+.nav-item{display:flex;align-items:flex-start;gap:10px;padding:12px 18px;cursor:pointer;border-left:3px solid transparent;transition:background var(--transition),border-color var(--transition);text-decoration:none;color:inherit}
+.nav-item:hover{background:rgba(255,255,255,.02)}
+.nav-item.active{background:rgba(56,189,248,.04);border-left-color:var(--accent)}
+.nav-badge{flex-shrink:0;width:32px;height:32px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.78rem;color:#fff}
+.nav-info{flex:1;min-width:0}
+.nav-info .t{font-weight:600;font-size:.78rem;line-height:1.3}
+.nav-info .m{font-size:.62rem;color:var(--text-sub);margin-top:2px;line-height:1.3}
+.nav-pkgs{display:flex;gap:4px;margin-top:4px;flex-wrap:wrap}
+.pchip{font-size:.56rem;font-weight:700;letter-spacing:.04em;padding:2px 6px;border-radius:3px;color:#fff;white-space:nowrap}
+.sidebar-ft{padding:10px 18px;border-top:1px solid var(--border);font-size:.6rem;color:var(--text-sub);display:flex;justify-content:space-between}
+
+/* ── MAIN ────────────────────────────────────────────────────────── */
+.main{flex:1;min-width:0;padding:24px 30px 80px;overflow-y:auto;max-height:calc(100vh - 110px)}
+
+/* ── Section headers ─────────────────────────────────────────────── */
+.sec-title{font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.sec-title::before{content:'';display:inline-block;width:7px;height:7px;border-radius:2px}
+.sec-title.accent::before{background:var(--accent)}
+.sec-title.warn::before{background:var(--warn)}
+.sec-title.danger::before{background:var(--danger)}
+
+/* ── Blueprint wraps ─────────────────────────────────────────────── */
+.bp-wrap{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px 6px;margin-bottom:20px}
+.bp-wrap h2{font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-dim);margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.bp-wrap h2::before{content:'';display:inline-block;width:7px;height:7px;background:var(--accent);border-radius:2px}
+.svg-outer{width:100%;overflow-x:auto;display:flex;justify-content:center}
+.svg-outer svg{max-width:100%;height:auto}
+.gb-key{display:flex;gap:14px;justify-content:center;padding:4px 0 6px;font-size:.64rem;color:var(--text-dim);flex-wrap:wrap}
+.gb-key i{display:inline-block;width:22px;height:11px;border-radius:3px;border:1px solid var(--border);vertical-align:middle;margin-right:4px}
+.gb-key i.gf{background:var(--gf-fill)}
+.gb-key i.bf{background:repeating-linear-gradient(-45deg,var(--bf-fill),var(--bf-fill) 3px,var(--bf-stroke) 3px,var(--bf-stroke) 6px)}
+
+/* ── Volume bar ──────────────────────────────────────────────────── */
+.vol-bar{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}
+.vol-card{flex:1;min-width:165px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;display:flex;align-items:center;gap:10px}
+.vol-card .vbar{width:5px;height:40px;border-radius:3px;flex-shrink:0}
+.vol-card .vnum{font-family:var(--mono);font-size:1.2rem;font-weight:800}
+.vol-card .vlbl{font-size:.6rem;color:var(--text-sub);text-transform:uppercase;letter-spacing:.04em}
+.vol-card .vsub{font-size:.6rem;color:var(--text-dim);margin-top:1px}
+.vol-total{text-align:right;font-size:.64rem;color:var(--text-sub);margin:-8px 0 16px}
+
+/* ── Cards ───────────────────────────────────────────────────────── */
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:14px;overflow:hidden}
+.card-hd{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;transition:background var(--transition)}
+.card-hd:hover{background:rgba(255,255,255,.01)}
+.card-num{width:36px;height:36px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;color:#fff;flex-shrink:0}
+.card-info{flex:1}
+.card-info .ctitle{font-weight:700;font-size:.84rem}
+.card-info .csub{font-size:.64rem;color:var(--text-sub);margin-top:2px}
+.card-chev{font-size:.72rem;color:var(--text-sub);transition:transform var(--transition)}
+.card.open .card-chev{transform:rotate(180deg)}
+.card-body{display:none;padding:16px}
+.card.open .card-body{display:block}
+
+/* ── Info grid / tiles ───────────────────────────────────────────── */
+.igrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:8px;margin-bottom:12px}
+.itile{background:var(--bg-raised);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 12px}
+.itile .ilbl{font-size:.58rem;text-transform:uppercase;letter-spacing:.06em;color:var(--text-sub);margin-bottom:2px}
+.itile .ival{font-size:.95rem;font-weight:700}
+.itile .idet{font-size:.62rem;color:var(--text-dim);margin-top:2px}
+.itile .ival.mono{font-family:var(--mono);font-size:1.1rem;color:var(--accent)}
+.pkg-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.pkg-tag{display:inline-flex;align-items:center;gap:4px;font-size:.64rem;font-weight:600;padding:4px 8px;border-radius:4px;border:1px solid}
+.pkg-tag .pdot{width:8px;height:8px;border-radius:50%}
+.narr{font-size:.76rem;color:var(--text-dim);line-height:1.7;margin-bottom:10px}
+.narr strong{color:var(--text)}
+.narr em{color:var(--warn);font-style:normal;font-weight:600}
+
+/* ── Hotspots ────────────────────────────────────────────────────── */
+.hs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px;margin-bottom:18px}
+.hs{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;border-left:4px solid var(--warn)}
+.hs .hs-n{font-family:var(--mono);font-size:.64rem;color:var(--warn);font-weight:700;margin-bottom:3px}
+.hs .hs-t{font-weight:700;font-size:.76rem;margin-bottom:5px}
+.hs .hs-d{font-size:.68rem;color:var(--text-dim);line-height:1.6}
+
+/* ── Gatekeeper ──────────────────────────────────────────────────── */
+.gate-block{background:var(--bg-card);border:2px solid var(--danger);border-radius:var(--radius);padding:18px;margin-bottom:18px;text-align:center}
+.gate-block h3{font-size:.88rem;color:var(--danger);margin-bottom:7px}
+.gate-block p{font-size:.74rem;color:var(--text-dim);line-height:1.6;max-width:700px;margin:0 auto}
+
+/* ── Risk table ──────────────────────────────────────────────────── */
+.rtbl-wrap{overflow-x:auto;margin-bottom:18px}
+.rtbl{width:100%;border-collapse:collapse;font-size:.7rem;background:var(--bg-card);border-radius:var(--radius);overflow:hidden;border:1px solid var(--border)}
+.rtbl thead th{background:var(--bg-raised);color:var(--text-dim);font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.6rem;padding:9px 10px;text-align:left;border-bottom:2px solid var(--border)}
+.rtbl tbody td{padding:9px 10px;border-bottom:1px solid var(--border);color:var(--text-dim);vertical-align:top;line-height:1.5}
+.rtbl tbody tr:last-child td{border-bottom:none}
+.rtbl tbody tr:hover td{background:rgba(255,255,255,.008)}
+.sev{display:inline-block;padding:2px 6px;border-radius:3px;font-weight:700;font-size:.58rem;letter-spacing:.03em}
+.sev.crit{background:rgba(239,68,68,.18);color:#FCA5A5}
+.sev.high{background:rgba(245,158,11,.18);color:#FCD34D}
+.sev.med{background:rgba(59,130,246,.18);color:#93C5FD}
+
+/* ── Legal ───────────────────────────────────────────────────────── */
+.legal-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}
+@media(max-width:900px){.legal-grid{grid-template-columns:1fr}}
+.legal-block{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px}
+.legal-block .clbl{font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text-sub);margin-bottom:4px}
+.legal-block h3.cn{font-size:.7rem;color:#F87171;margin-bottom:7px}
+.legal-block h3.en{font-size:.7rem;color:#60A5FA;margin-bottom:7px}
+.legal-block .cbody{font-size:.7rem;color:var(--text-dim);line-height:1.7;text-align:justify}
+
+/* ── GF/BF summary ───────────────────────────────────────────────── */
+.gfbf-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+@media(max-width:700px){.gfbf-grid{grid-template-columns:1fr}}
+.gfbf-card{padding:14px;border-radius:var(--radius);border:1px solid var(--border)}
+.gfbf-card.gf{border-left:4px solid var(--gf-stroke);background:rgba(6,95,70,.10)}
+.gfbf-card.bf{border-left:4px solid var(--bf-stroke);background:rgba(124,45,18,.10)}
+.gfbf-card h4{font-size:.72rem;font-weight:700;margin-bottom:5px}
+.gfbf-card p{font-size:.68rem;color:var(--text-dim);line-height:1.6}
+
+/* ── Scrollbar ───────────────────────────────────────────────────── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:10px}
+::-webkit-scrollbar-thumb:hover{background:var(--border-lit)}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media(max-width:900px){
+    .body-wrap{flex-direction:column}
+    .corp-header{position:relative;top:auto}
+    .corp-header-inner{flex-wrap:wrap;padding:8px 14px}
+    .corp-status{margin-left:0;margin-top:6px}
+    .sidebar{width:100%;min-width:100%;height:auto;position:relative;top:auto;border-right:none;border-bottom:1px solid var(--border);flex-direction:row;flex-wrap:wrap;overflow-x:auto}
+    .sidebar-hd{flex:1 0 100%}
+    .stage-nav{display:flex;flex-direction:row;overflow-x:auto}
+    .nav-item{flex-direction:column;min-width:100px;border-left:none;border-top:3px solid transparent}
+    .nav-item.active{border-left:none;border-top-color:var(--accent)}
+    .main{padding:16px;max-height:none}
+}
+@media print{
+    .sidebar,.corp-header{display:none}
+    .main{max-height:none;overflow:visible}
+    .body-wrap{display:block}
+    .card-body{display:block!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     PREMIUM CORPORATE HEADER — ADNOC Gas Brand
+     ═════════════════════════════════════════════════════════════════════ -->
+<header class="corp-header">
+    <div class="corp-header-inner">
+        <div class="corp-brand-strip">
+            <div class="corp-logo">
+                <div class="adnoc-mark">AG</div>
+                <div class="corp-logo-text">
+                    <div class="corp-owner">ADNOC Gas</div>
+                    <div class="corp-project">Ruwais Sulphur Granulation Plant &bull; RSHT &#x2013; 2</div>
+                </div>
+            </div>
+            <div class="corp-divider"></div>
+            <div class="corp-meta">
+                <div class="meta-title">Civil &amp; MEI Integrated Pipeline Guidebook</div>
+                <div class="meta-sub">Multi-Disciplinary Master Reference &bull; For Project Management, Legal &amp; Site Execution</div>
+            </div>
+        </div>
+        <div class="corp-status">
+            <span class="corp-badge rev">For Internal Use</span>
+            <span class="status-dot"></span>
+            <span class="status-text">Live Document &bull; 2026-07-17</span>
+        </div>
+    </div>
+    <hr class="corp-hr">
+</header>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     BODY LAYOUT
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="body-wrap">
+
+<!-- ─── SIDEBAR ──────────────────────────────────────────────────────── -->
+<aside class="sidebar" id="sidebar">
+<div class="sidebar-hd">
+    <h1>&#x26A1; Pipeline Stage Tracker</h1>
+    <div class="sub">5-Stage Sulfur Lifeline &bull; Civil + MEI Packages</div>
+</div>
+<div class="sidebar-legend">
+    <span class="litem"><span class="ldot" style="background:var(--cp1)"></span><span>CP1</span></span>
+    <span class="litem"><span class="ldot" style="background:var(--cp2)"></span><span>CP2</span></span>
+    <span class="litem"><span class="ldot" style="background:var(--cp3)"></span><span>CP3</span></span>
+    <span class="litem"><span class="ldot" style="background:var(--mei1)"></span><span>MEI-I</span></span>
+    <span class="litem"><span class="ldot" style="background:var(--mei2)"></span><span>MEI-II</span></span>
+</div>
+<nav class="stage-nav">
+    <a class="nav-item active" href="#s1" data-stage="1">
+        <div class="nav-badge" style="background:var(--accent)">1</div>
+        <div class="nav-info"><div class="t">&#x29D7; Inflow &mdash; Molten Entry</div><div class="m">~140&#xB0;C &bull; ADNOC Upstream Feed</div><div class="nav-pkgs"><span class="pchip" style="background:var(--mei2)">MEI-II</span></div></div>
+    </a>
+    <a class="nav-item" href="#s2" data-stage="2">
+        <div class="nav-badge" style="background:var(--cp2)">2</div>
+        <div class="nav-info"><div class="t">&#x1F4E6; Molten Storage</div><div class="m">3&#xD7; Tanks &bull; Zone 210 &bull; Unit 20</div><div class="nav-pkgs"><span class="pchip" style="background:var(--cp2)">CP2</span><span class="pchip" style="background:var(--mei2)">MEI-II</span></div></div>
+    </a>
+    <a class="nav-item" href="#s3" data-stage="3">
+        <div class="nav-badge" style="background:var(--cp2)">3</div>
+        <div class="nav-info"><div class="t">&#x1F9CA; Granulation</div><div class="m">Rotary Units &bull; Zone 220 &bull; Unit 30/50</div><div class="nav-pkgs"><span class="pchip" style="background:var(--cp2)">CP2</span><span class="pchip" style="background:var(--mei1)">MEI-I</span></div></div>
+    </a>
+    <a class="nav-item" href="#s4" data-stage="4">
+        <div class="nav-badge" style="background:var(--cp1)">4</div>
+        <div class="nav-info"><div class="t">&#x1F69C; Solid Logistics</div><div class="m">Conveyors &bull; Zone 230 &bull; Unit 40</div><div class="nav-pkgs"><span class="pchip" style="background:var(--cp1)">CP1</span><span class="pchip" style="background:var(--mei1)">MEI-I</span><span class="pchip" style="background:var(--mei2)">MEI-II</span></div></div>
+    </a>
+    <a class="nav-item" href="#s5" data-stage="5">
+        <div class="nav-badge" style="background:var(--accent)">5</div>
+        <div class="nav-info"><div class="t">&#x1F6A2; Maritime Dispatch</div><div class="m">Bulk Loading &bull; Ruwais Terminal</div><div class="nav-pkgs"><span class="pchip" style="background:var(--mei2)">MEI-II</span></div></div>
+    </a>
+    <a class="nav-item" href="#fig2" data-stage="pp">
+        <div class="nav-badge" style="background:linear-gradient(135deg,var(--cp1),var(--cp3))">&#x1F4CD;</div>
+        <div class="nav-info"><div class="t">Master Plot Plan</div><div class="m">Unit 10&#x2013;50 Spatial Map</div><div class="nav-pkgs"><span class="pchip" style="background:var(--warn)">HOTSPOTS</span></div></div>
+    </a>
+</nav>
+<div class="sidebar-ft"><span>2026-07-17</span><span>ADNOC Gas &bull; Ruwais</span></div>
+</aside>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     MAIN CONTENT
+     ═════════════════════════════════════════════════════════════════════ -->
+<main class="main" id="main-content">
+
+<!-- ── CONCRETE VOLUME SUMMARY ────────────────────────────────────── -->
+<div class="vol-bar">
+    <div class="vol-card"><div class="vbar" style="background:var(--cp1)"></div><div>
+        <div class="vnum" style="color:var(--cp1)">42,271 M&#xB3;</div>
+        <div class="vlbl">Civil Partition 1 &bull; Blue</div>
+        <div class="vsub">Solid Logistics: Transfer Towers &bull; Conveyor A-Frames &bull; Anti-Settling Slabs</div>
+    </div></div>
+    <div class="vol-card"><div class="vbar" style="background:var(--cp2)"></div><div>
+        <div class="vnum" style="color:var(--cp2)">28,158 M&#xB3;</div>
+        <div class="vlbl">Civil Partition 2 &bull; Red</div>
+        <div class="vsub">Storage Ring-Beams &bull; Granulator Slabs &bull; Underground Piping Excavations</div>
+    </div></div>
+    <div class="vol-card"><div class="vbar" style="background:var(--cp3)"></div><div>
+        <div class="vnum" style="color:var(--cp3)">8,092 M&#xB3;</div>
+        <div class="vlbl">Civil Partition 3 &bull; Purple</div>
+        <div class="vsub">Blast-Resistant MCR &bull; Substation Shells &bull; LCR Protective Roofs</div>
+    </div></div>
+</div>
+<div class="vol-total">&#x1F4E6; Total Joint Concrete: <strong style="color:var(--text);font-family:var(--mono);">78,521 M&#xB3;</strong> across three Civil Partitions</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     FIGURE 1 — THE SOUL LIFELINE
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="bp-wrap" id="fig1">
+    <h2>&#x1F3AD; Figure 1 &mdash; The Soul Lifeline: Horizontal Macro Pipeline Flow</h2>
+    <div class="svg-outer">
+        <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Inter',sans-serif">
+            <defs>
+                <linearGradient id="gfGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#047857"/><stop offset="100%" stop-color="#065F46"/></linearGradient>
+                <pattern id="bfHatch" width="10" height="10" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#7C2D12"/><line x1="0" y1="0" x2="0" y2="10" stroke="#FBBF24" stroke-width="3" stroke-opacity="0.45"/></pattern>
+                <marker id="arr" markerWidth="8" markerHeight="5" refX="8" refY="2.5" orient="auto"><polygon points="0 0, 8 2.5, 0 5" fill="#889BB5"/></marker>
+                <marker id="arrW" markerWidth="8" markerHeight="5" refX="8" refY="2.5" orient="auto"><polygon points="0 0, 8 2.5, 0 5" fill="#F97316"/></marker>
+                <filter id="sh"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.45"/></filter>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#131C2E" stroke-width="0.5"/></pattern>
+            </defs>
+            <rect width="1200" height="420" fill="url(#grid)" opacity="0.4"/>
+            <!-- Greenfield backdrop -->
+            <rect x="20" y="30" width="1140" height="340" rx="8" fill="url(#gfGrad)" opacity="0.09" stroke="#34D399" stroke-width="1.5" stroke-dasharray="6,3"/>
+            <text x="590" y="50" fill="#34D399" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.2" opacity="0.6">GREENFIELD &mdash; NEW CONSTRUCTION</text>
+            <!-- Brownfield inset -->
+            <rect x="970" y="260" width="200" height="110" rx="6" fill="url(#bfHatch)" stroke="#FBBF24" stroke-width="2" stroke-dasharray="4,2"/>
+            <text x="1070" y="282" fill="#FBBF24" font-size="9" font-weight="700" text-anchor="middle">BROWNFIELD</text>
+            <text x="1070" y="296" fill="#FDE68A" font-size="7.5" text-anchor="middle">Live-Line Tie-Ins</text>
+            <text x="1070" y="310" fill="#FDE68A" font-size="7.5" text-anchor="middle">ADNOC Battery Limits</text>
+            <!-- Stage 1 -->
+            <rect x="45" y="95" width="130" height="75" rx="6" fill="#0D1320" stroke="#38BDF8" stroke-width="2" filter="url(#sh)"/>
+            <text x="110" y="122" fill="#38BDF8" font-size="12" font-weight="700" text-anchor="middle">STAGE 1</text>
+            <text x="110" y="142" fill="#E8EDF5" font-size="10" font-weight="600" text-anchor="middle">Molten Sulfur In</text>
+            <text x="110" y="158" fill="#889BB5" font-size="8" text-anchor="middle">~140&#xB0;C &bull; ADNOC Feed</text>
+            <line x1="180" y1="132" x2="220" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
+            <!-- Stage 2 -->
+            <rect x="230" y="80" width="175" height="105" rx="6" fill="#0D1320" stroke="#DC2626" stroke-width="2" filter="url(#sh)"/>
+            <rect x="230" y="80" width="175" height="22" rx="6" fill="#DC2626" opacity="0.22"/>
+            <text x="317" y="95" fill="#FCA5A5" font-size="9" font-weight="700" text-anchor="middle">STAGE 2 &mdash; MOLTEN STORAGE</text>
+            <text x="317" y="117" fill="#E8EDF5" font-size="10" font-weight="600" text-anchor="middle">3&#xD7; Liquid Sulfur Tanks</text>
+            <text x="317" y="134" fill="#889BB5" font-size="8" text-anchor="middle">Zone 210 | Unit 20 Base</text>
+            <text x="317" y="149" fill="#93C5FD" font-size="7.5" text-anchor="middle">Steam-Jacketed Piping Loops</text>
+            <rect x="240" y="160" width="75" height="17" rx="3" fill="#DC2626" opacity="0.75"/><text x="277" y="172" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP2 &bull; DEEP EXC</text>
+            <rect x="322" y="160" width="75" height="17" rx="3" fill="#D97706" opacity="0.75"/><text x="359" y="172" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-II &bull; INSTR</text>
+            <line x1="410" y1="132" x2="450" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
+            <!-- Stage 3 -->
+            <rect x="460" y="75" width="195" height="115" rx="6" fill="#0D1320" stroke="#DC2626" stroke-width="2" filter="url(#sh)"/>
+            <rect x="460" y="75" width="195" height="22" rx="6" fill="#DC2626" opacity="0.22"/>
+            <text x="557" y="90" fill="#FCA5A5" font-size="9" font-weight="700" text-anchor="middle">STAGE 3 &mdash; GRANULATION</text>
+            <text x="557" y="112" fill="#E8EDF5" font-size="10" font-weight="600" text-anchor="middle">Rotary Granulator Units</text>
+            <text x="557" y="129" fill="#889BB5" font-size="8" text-anchor="middle">Zone 220 | Unit 30/40/50</text>
+            <text x="557" y="144" fill="#93C5FD" font-size="7.5" text-anchor="middle">Water-Cooled Steel Belts &#x2192; Pellets</text>
+            <rect x="470" y="158" width="85" height="17" rx="3" fill="#DC2626" opacity="0.75"/><text x="512" y="170" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP2 &bull; 28,158 M&#xB3;</text>
+            <rect x="562" y="158" width="85" height="17" rx="3" fill="#059669" opacity="0.75"/><text x="604" y="170" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-I &bull; RIGGING</text>
+            <line x1="660" y1="132" x2="700" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
+            <!-- Stage 4 -->
+            <rect x="710" y="70" width="210" height="125" rx="6" fill="#0D1320" stroke="#2563EB" stroke-width="2" filter="url(#sh)"/>
+            <rect x="710" y="70" width="210" height="22" rx="6" fill="#2563EB" opacity="0.22"/>
+            <text x="815" y="85" fill="#93C5FD" font-size="9" font-weight="700" text-anchor="middle">STAGE 4 &mdash; SOLID LOGISTICS</text>
+            <text x="815" y="107" fill="#E8EDF5" font-size="10" font-weight="600" text-anchor="middle">Conveyors &amp; Storage Sheds</text>
+            <text x="815" y="124" fill="#889BB5" font-size="8" text-anchor="middle">Zone 230 | Unit 40</text>
+            <text x="815" y="139" fill="#93C5FD" font-size="7.5" text-anchor="middle">Belts &bull; Elevators &bull; Trippers &#x2192; 3&#xD7; Sheds</text>
+            <rect x="720" y="152" width="90" height="17" rx="3" fill="#2563EB" opacity="0.75"/><text x="765" y="164" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP1 &bull; 42,271 M&#xB3;</text>
+            <rect x="818" y="152" width="90" height="17" rx="3" fill="#059669" opacity="0.75"/><text x="863" y="164" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-I &bull; DRIVES</text>
+            <rect x="720" y="172" width="90" height="15" rx="3" fill="#7C3AED" opacity="0.6"/><text x="765" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3;</text>
+            <rect x="818" y="172" width="90" height="15" rx="3" fill="#D97706" opacity="0.6"/><text x="863" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-II &bull; HV NET</text>
+            <!-- PTW-gated transition -->
+            <line x1="925" y1="132" x2="985" y2="132" stroke="#F97316" stroke-width="2.5" marker-end="url(#arrW)" stroke-dasharray="5,3"/>
+            <text x="955" y="124" fill="#F97316" font-size="7.5" text-anchor="middle" font-weight="700">&#x26A0; PTW</text><text x="955" y="146" fill="#F97316" font-size="7" text-anchor="middle">GATE</text>
+            <!-- Stage 5 -->
+            <rect x="1000" y="275" width="155" height="82" rx="6" fill="#0D1320" stroke="#38BDF8" stroke-width="2" filter="url(#sh)"/>
+            <text x="1077" y="300" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="middle">STAGE 5</text>
+            <text x="1077" y="318" fill="#E8EDF5" font-size="9" font-weight="600" text-anchor="middle">Bulk Vessel Loading</text>
+            <text x="1077" y="334" fill="#889BB5" font-size="8" text-anchor="middle">Ruwais Marine Terminal</text>
+            <text x="1077" y="350" fill="#FBBF24" font-size="7.5" text-anchor="middle">&#x1F30D; Global + Borouge 3/4</text>
+            <!-- Digital Nervous System -->
+            <rect x="45" y="235" width="225" height="115" rx="6" fill="#0D1320" stroke="#7C3AED" stroke-width="2.5" filter="url(#sh)"/>
+            <rect x="45" y="235" width="225" height="22" rx="6" fill="#7C3AED" opacity="0.22"/>
+            <text x="157" y="250" fill="#C4B5FD" font-size="9" font-weight="700" text-anchor="middle">&#x1F9E0; DIGITAL NERVOUS SYSTEM &amp; POWER HUB</text>
+            <text x="157" y="269" fill="#E8EDF5" font-size="10" font-weight="600" text-anchor="middle">Unit 10 Core &bull; MCR &bull; LCRs</text>
+            <text x="157" y="287" fill="#889BB5" font-size="8" text-anchor="middle">Substations &bull; HV PP5 Cable Network</text>
+            <text x="157" y="303" fill="#C4B5FD" font-size="7.5" text-anchor="middle">DCS Cabinets &bull; Transformers &bull; Switchgear</text>
+            <rect x="55" y="316" width="95" height="17" rx="3" fill="#7C3AED" opacity="0.75"/><text x="102" y="328" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP3 &bull; BLAST-RES</text>
+            <rect x="157" y="316" width="100" height="17" rx="3" fill="#D97706" opacity="0.75"/><text x="207" y="328" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-II &bull; DCS/HV</text>
+            <line x1="157" y1="350" x2="157" y2="370" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="4,3"/>
+            <line x1="157" y1="370" x2="317" y2="370" stroke="#7C3AED" stroke-width="1" stroke-dasharray="3,3"/>
+            <line x1="317" y1="370" x2="317" y2="185" stroke="#7C3AED" stroke-width="1" stroke-dasharray="3,3"/>
+            <circle cx="317" cy="185" r="3" fill="#C4B5FD"/>
+            <!-- Hotspot callout -->
+            <rect x="410" y="205" width="320" height="44" rx="4" fill="none" stroke="#F97316" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.55"/>
+            <text x="570" y="220" fill="#F97316" font-size="7.5" font-weight="700" text-anchor="middle">&#x26A0; CP2 Foundation Handover &#x2192; MEI-I Rigging (Stage 3 Critical Path)</text>
+            <text x="570" y="236" fill="#FDBA74" font-size="7" text-anchor="middle">28,158 M&#xB3; Slab Cure = Granulator Skid Bolt-Down Gate</text>
+            <!-- Legend -->
+            <rect x="970" y="50" width="205" height="150" rx="6" fill="#0D1320" stroke="#1A2740" stroke-width="1"/>
+            <text x="1072" y="68" fill="#889BB5" font-size="9" font-weight="700" text-anchor="middle">LEGEND</text>
+            <rect x="982" y="78" width="14" height="10" rx="2" fill="url(#gfGrad)"/><text x="1004" y="87" fill="#889BB5" font-size="7.5">Greenfield Construction</text>
+            <rect x="982" y="95" width="14" height="10" rx="2" fill="url(#bfHatch)"/><text x="1004" y="104" fill="#889BB5" font-size="7.5">Brownfield Tie-Ins</text>
+            <line x1="982" y1="116" x2="996" y2="116" stroke="#F97316" stroke-width="2" stroke-dasharray="5,3"/><text x="1004" y="120" fill="#889BB5" font-size="7.5">PTW-Gated Interface</text>
+            <rect x="982" y="129" width="14" height="8" rx="2" fill="#2563EB" opacity="0.5"/><text x="1004" y="137" fill="#889BB5" font-size="7">CP1 Blue &bull; Solid Logistics</text>
+            <rect x="982" y="143" width="14" height="8" rx="2" fill="#DC2626" opacity="0.5"/><text x="1004" y="151" fill="#889BB5" font-size="7">CP2 Red &bull; Storage/Granul.</text>
+            <rect x="982" y="157" width="14" height="8" rx="2" fill="#7C3AED" opacity="0.5"/><text x="1004" y="165" fill="#889BB5" font-size="7">CP3 Purple &bull; MCR/Blast-Res</text>
+            <rect x="982" y="171" width="14" height="8" rx="2" fill="#059669" opacity="0.5"/><text x="1004" y="179" fill="#889BB5" font-size="7">MEI-I Green &bull; Mechanical</text>
+            <rect x="982" y="185" width="14" height="8" rx="2" fill="#D97706" opacity="0.5"/><text x="1004" y="193" fill="#889BB5" font-size="7">MEI-II Amber &bull; E&amp;I/HV</text>
+        </svg>
+    </div>
+    <div class="gb-key"><span><i class="gf"></i> Greenfield</span><span><i class="bf"></i> Brownfield</span><span style="color:var(--warn);font-weight:700;">&#x26A0;</span> PTW-Gated</div>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     FIGURE 2 — MASTER PLOT PLAN (WIDE HORIZONTAL, ADNOC GAS LAYOUT STYLE)
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="bp-wrap" id="fig2">
+    <h2>&#x1F4CD; Figure 2 &mdash; Master Plot Plan: ADNOC Gas General Layout (Unit 10&#x2013;50 Spatial Grid)</h2>
+    <div class="svg-outer">
+        <svg viewBox="0 0 1400 620" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Inter',sans-serif">
+            <defs>
+                <!-- Civil Partition translucent fills -->
+                <pattern id="cp1f" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="rgba(37,99,235,0.10)"/><circle cx="10" cy="10" r="1.2" fill="rgba(37,99,235,0.20)"/></pattern>
+                <pattern id="cp2f" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="18" height="18" fill="rgba(220,38,38,0.10)"/><circle cx="9" cy="9" r="1" fill="rgba(220,38,38,0.20)"/></pattern>
+                <pattern id="cp3f" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="rgba(124,58,237,0.10)"/><circle cx="8" cy="8" r="1" fill="rgba(124,58,237,0.20)"/></pattern>
+                <!-- Brownfield hatch -->
+                <pattern id="bfm" width="12" height="12" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="rgba(124,45,18,0.22)"/><line x1="0" y1="0" x2="0" y2="12" stroke="#FBBF24" stroke-width="2.5" stroke-opacity="0.25"/></pattern>
+                <!-- Pipeline route markers -->
+                <marker id="aFlow" markerWidth="9" markerHeight="6" refX="9" refY="3" orient="auto"><polygon points="0 0, 9 3, 0 6" fill="#F59E0B"/></marker>
+                <marker id="aSolid" markerWidth="9" markerHeight="6" refX="9" refY="3" orient="auto"><polygon points="0 0, 9 3, 0 6" fill="#34D399"/></marker>
+                <!-- Filters -->
+                <filter id="sh2"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="#000" flood-opacity="0.5"/></filter>
+                <filter id="gW"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                <!-- Gold pipeline glow -->
+                <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+
+            <!-- Dark background -->
+            <rect width="1400" height="620" fill="#060910"/>
+            <pattern id="grd2" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M 25 0 L 0 0 0 25" fill="none" stroke="#131C2E" stroke-width="0.35"/></pattern>
+            <rect width="1400" height="620" fill="url(#grd2)"/>
+
+            <!-- =========================================================
+                 SITE BOUNDARY FRAME
+                 ========================================================= -->
+            <rect x="30" y="25" width="1340" height="575" rx="4" fill="none" stroke="#253655" stroke-width="2" stroke-dasharray="10,5"/>
+            <text x="700" y="16" fill="#556885" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="3">SITE BATTERY LIMIT &mdash; RUWAIS DOWNSTREAM SULFUR COMPLEX</text>
+
+            <!-- =========================================================
+                 GREENFIELD / BROWNFIELD REDLINE
+                 ========================================================= -->
+            <!-- Brownfield: northeast quadrant (MCR + Terminal approach) -->
+            <polygon points="30,25 1370,25 1370,160 1100,160 1080,240 1370,240 1370,600 30,600 30,540 900,540 880,420 30,420" fill="url(#bfm)" stroke="#FBBF24" stroke-width="2.5" stroke-dasharray="6,3"/>
+            <text x="1240" y="55" fill="#FBBF24" font-size="8" font-weight="700" text-anchor="middle">BROWNFIELD</text>
+            <text x="1240" y="69" fill="#FDE68A" font-size="7" text-anchor="middle">Existing ADNOC Lines</text>
+
+            <!-- Greenfield label -->
+            <text x="420" y="100" fill="#34D399" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2" opacity="0.55">GREENFIELD &mdash; NEW DEVELOPMENT</text>
+
+            <!-- BF redline annotations -->
+            <line x1="1100" y1="240" x2="1370" y2="240" stroke="#FBBF24" stroke-width="2" stroke-dasharray="8,3"/>
+            <text x="1260" y="258" fill="#FBBF24" font-size="7.5" font-weight="700" text-anchor="middle">&#x26A0; BROWNFIELD REDLINE</text>
+
+            <!-- =========================================================
+                 UNIT 20 — Molten Storage (SOUTH-CENTRAL)
+                 ========================================================= -->
+            <rect x="460" y="370" width="360" height="200" rx="3" fill="url(#cp2f)" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <text x="640" y="386" fill="#FCA5A5" font-size="8" font-weight="700" text-anchor="middle">Civil Partition 2 (Red) &mdash; Storage Zone</text>
+
+            <rect x="500" y="400" width="280" height="140" rx="6" fill="#0D1320" stroke="#DC2626" stroke-width="2.5" filter="url(#sh2)"/>
+            <text x="640" y="432" fill="#E8EDF5" font-size="14" font-weight="800" text-anchor="middle">UNIT 20</text>
+            <text x="640" y="452" fill="#FCA5A5" font-size="10" font-weight="600" text-anchor="middle">Molten Sulfur Storage</text>
+            <text x="640" y="470" fill="#889BB5" font-size="8.5" text-anchor="middle">3&#xD7; Massive Liquid Tanks &bull; Steam-Jacketed Piping Loops</text>
+            <text x="640" y="488" fill="#556885" font-size="7.5" text-anchor="middle">Zone 210 &bull; Ring-Beam Foundations &bull; Underground Piping</text>
+            <rect x="510" y="504" width="130" height="18" rx="3" fill="#DC2626" opacity="0.7"/><text x="575" y="517" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP2 &bull; Deep Excavation</text>
+            <rect x="648" y="504" width="120" height="18" rx="3" fill="#D97706" opacity="0.7"/><text x="708" y="517" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-II &bull; Instruments</text>
+
+            <!-- ═══ GOLD PIPELINE: Southern Entry → Unit 20 ═══ -->
+            <circle cx="640" cy="585" r="9" fill="#F59E0B" stroke="#060910" stroke-width="2" filter="url(#goldGlow)"/>
+            <text x="640" y="610" fill="#F59E0B" font-size="9" font-weight="700" text-anchor="middle">&#x2B07; ADNOC UPSTREAM FEED</text>
+            <text x="640" y="623" fill="#94A3B8" font-size="7.5" text-anchor="middle">Molten Sulfur ~140&#xB0;C</text>
+            <path d="M 640 576 L 640 545" stroke="#F59E0B" stroke-width="4.5" stroke-dasharray="10,5" marker-end="url(#aFlow)" filter="url(#goldGlow)"/>
+            <text x="695" y="565" fill="#F59E0B" font-size="7.5" font-weight="700">&#x1F6E7; Underground Molten Piping (Gold Route)</text>
+
+            <!-- ═══ GOLD PIPELINE: Unit 20 → Unit 30/50 (northbound liquid) ═══ -->
+            <path d="M 640 400 L 640 355" stroke="#F59E0B" stroke-width="4.5" stroke-dasharray="10,5" marker-end="url(#aFlow)" filter="url(#goldGlow)"/>
+
+            <!-- =========================================================
+                 UNIT 10 — Power Hub / MCR (WEST)
+                 ========================================================= -->
+            <rect x="65" y="200" width="310" height="210" rx="3" fill="url(#cp3f)" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <text x="220" y="216" fill="#C4B5FD" font-size="8" font-weight="700" text-anchor="middle">Civil Partition 3 (Purple) &mdash; Blast-Resistant Zone</text>
+
+            <rect x="90" y="232" width="260" height="148" rx="6" fill="#0D1320" stroke="#7C3AED" stroke-width="2.5" filter="url(#sh2)"/>
+            <text x="220" y="262" fill="#E8EDF5" font-size="14" font-weight="800" text-anchor="middle">UNIT 10</text>
+            <text x="220" y="282" fill="#C4B5FD" font-size="10" font-weight="600" text-anchor="middle">Power Hub &amp; MCR</text>
+            <text x="220" y="300" fill="#889BB5" font-size="8.5" text-anchor="middle">Main Control Room &bull; Substations &bull; LCRs</text>
+            <text x="220" y="318" fill="#556885" font-size="7.5" text-anchor="middle">Blast-Resistant Reinforced Concrete Shells</text>
+            <rect x="100" y="338" width="110" height="18" rx="3" fill="#7C3AED" opacity="0.7"/><text x="155" y="351" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3;</text>
+            <rect x="218" y="338" width="122" height="18" rx="3" fill="#D97706" opacity="0.7"/><text x="279" y="351" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-II &bull; HV/DCS</text>
+
+            <!-- Unit 10A annex -->
+            <rect x="95" y="398" width="140" height="55" rx="5" fill="#0D1320" stroke="#7C3AED" stroke-width="2" stroke-dasharray="6,2" filter="url(#sh2)"/>
+            <text x="165" y="422" fill="#C4B5FD" font-size="10" font-weight="700" text-anchor="middle">UNIT 10A</text>
+            <text x="165" y="440" fill="#889BB5" font-size="7.5" text-anchor="middle">Substation Annex</text>
+
+            <!-- ═══ GOLD PIPELINE: Liquid arrives at Unit 30 ═══ -->
+            <!-- Connection from Unit 20 underground pipe to Unit 30 inlet -->
+            <path d="M 520 300 L 480 300 L 480 400 L 500 400" stroke="#F59E0B" stroke-width="3" stroke-dasharray="6,3" fill="none" marker-end="url(#aFlow)" opacity="0.7"/>
+
+            <!-- =========================================================
+                 UNIT 30 — Granulation (CENTRAL)
+                 ========================================================= -->
+            <rect x="455" y="190" width="300" height="170" rx="3" fill="url(#cp2f)" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+            <!-- MEI-I outer bold boundary frame (Green) -->
+            <rect x="435" y="175" width="420" height="200" rx="8" fill="none" stroke="#059669" stroke-width="3.5" stroke-dasharray="12,5"/>
+            <text x="645" y="190" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">MEI Package I Boundary (Green)</text>
+
+            <rect x="485" y="205" width="240" height="130" rx="6" fill="#0D1320" stroke="#DC2626" stroke-width="2.5" filter="url(#sh2)"/>
+            <text x="605" y="235" fill="#E8EDF5" font-size="14" font-weight="800" text-anchor="middle">UNIT 30</text>
+            <text x="605" y="255" fill="#FCA5A5" font-size="10" font-weight="600" text-anchor="middle">Sulfur Granulation</text>
+            <text x="605" y="274" fill="#889BB5" font-size="8.5" text-anchor="middle">Rotary Granulator Units &bull; Water-Cooled Belts</text>
+            <text x="605" y="292" fill="#556885" font-size="7.5" text-anchor="middle">Zone 220 &bull; Liquid &#x2192; Solid "Yellow Beans"</text>
+            <rect x="495" y="306" width="105" height="17" rx="3" fill="#DC2626" opacity="0.7"/><text x="547" y="318" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP2 &bull; 28,158 M&#xB3;</text>
+            <rect x="608" y="306" width="105" height="17" rx="3" fill="#059669" opacity="0.7"/><text x="660" y="318" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-I &bull; Rigging</text>
+
+            <!-- =========================================================
+                 UNIT 50 — Collision Corridor (CENTRAL-EAST)
+                 ========================================================= -->
+            <rect x="735" y="205" width="160" height="130" rx="6" fill="#0D1320" stroke="#D97706" stroke-width="2.5" filter="url(#sh2)"/>
+            <text x="815" y="235" fill="#E8EDF5" font-size="14" font-weight="800" text-anchor="middle">UNIT 50</text>
+            <text x="815" y="255" fill="#FCD34D" font-size="10" font-weight="600" text-anchor="middle">Collision Corridor</text>
+            <text x="815" y="274" fill="#889BB5" font-size="8" text-anchor="middle">MEI-I + MEI-II Overlap</text>
+            <text x="815" y="292" fill="#556885" font-size="7.5" text-anchor="middle">Storage + Granulation Ext.</text>
+            <rect x="745" y="306" width="140" height="17" rx="3" fill="#D97706" opacity="0.7"/><text x="815" y="318" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-II &bull; HV + Instruments</text>
+
+            <!-- Collision hotspot marker (Unit 30/50 border) -->
+            <circle cx="735" cy="240" r="16" fill="none" stroke="#F97316" stroke-width="3" filter="url(#gW)"/>
+            <text x="735" y="245" fill="#F97316" font-size="14" font-weight="900" text-anchor="middle">!</text>
+            <text x="815" y="365" fill="#F97316" font-size="8" font-weight="700" text-anchor="middle">&#x26A0; HOTSPOT: CP2 + MEI-I + MEI-II Triple Clash</text>
+            <text x="815" y="380" fill="#FDBA74" font-size="7" text-anchor="middle">Congested: Crane paths &#x2022; Cable trays &#x2022; Pipe racks compete</text>
+
+            <!-- ═══ Transition: LIQUID → SOLID at Unit 30 ═══ -->
+            <rect x="555" y="340" width="105" height="16" rx="3" fill="#F59E0B" opacity="0.2"/>
+            <text x="607" y="351" fill="#F59E0B" font-size="7.5" font-weight="700" text-anchor="middle">&#x1F4A7; LIQUID &#x2192; SOLID &#x1F9CA;</text>
+
+            <!-- ═══ GOLD → GREEN: Solid conveyor route Unit 30/50 → Unit 40 ═══ -->
+            <path d="M 605 205 L 605 148" stroke="#34D399" stroke-width="5" marker-end="url(#aSolid)"/>
+            <text x="665" y="180" fill="#34D399" font-size="8" font-weight="700">&#x1F69C; Elevated Conveyor Galleries</text>
+            <text x="665" y="194" fill="#6EE7B7" font-size="7">Solid Pellets Northbound</text>
+
+            <!-- =========================================================
+                 UNIT 40 — Solid Logistics (NORTH, LARGEST AREA)
+                 ========================================================= -->
+            <rect x="400" y="30" width="800" height="145" rx="3" fill="url(#cp1f)" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <text x="800" y="45" fill="#93C5FD" font-size="8.5" font-weight="700" text-anchor="middle">Civil Partition 1 (Blue) &mdash; 42,271 M&#xB3; Solid Logistics Zone</text>
+
+            <!-- MEI-I frame around Unit 40 -->
+            <rect x="380" y="18" width="840" height="170" rx="8" fill="none" stroke="#059669" stroke-width="3.5" stroke-dasharray="12,5"/>
+            <text x="800" y="60" fill="#34D399" font-size="8" font-weight="700" text-anchor="middle">MEI Package I (Green) &mdash; Conveyor Drives, Take-Up Systems, Belt Sensors</text>
+
+            <rect x="460" y="72" width="580" height="90" rx="6" fill="#0D1320" stroke="#2563EB" stroke-width="3" filter="url(#sh2)"/>
+            <text x="750" y="98" fill="#E8EDF5" font-size="14" font-weight="800" text-anchor="middle">UNIT 40 &mdash; SOLID LOGISTICS &amp; HANDLING</text>
+            <text x="750" y="118" fill="#93C5FD" font-size="9.5" font-weight="600" text-anchor="middle">Enclosed Belt Conveyors &#x2022; Bucket Elevators &#x2022; Tripper Systems &#x2022; 3&#xD7; Space-Frame Sheds</text>
+            <text x="750" y="138" fill="#889BB5" font-size="8" text-anchor="middle">Zone 230 &bull; Transfer Tower T2 &bull; Long-Distance Conveyor A-Frames</text>
+            <rect x="475" y="146" width="130" height="12" rx="2" fill="#2563EB" opacity="0.65"/><text x="540" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">CP1 &bull; 42,271 M&#xB3;</text>
+            <rect x="612" y="146" width="130" height="12" rx="2" fill="#059669" opacity="0.65"/><text x="677" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-I &bull; Drives/Sensors</text>
+            <rect x="749" y="146" width="130" height="12" rx="2" fill="#D97706" opacity="0.65"/><text x="814" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-II &bull; Power/DCS</text>
+            <rect x="886" y="146" width="130" height="12" rx="2" fill="#7C3AED" opacity="0.5"/><text x="951" y="155" fill="#E8EDF5" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3; LCR</text>
+
+            <!-- ═══ GREEN SOLID PATH: through Unit 40 → north ═══ -->
+            <path d="M 750 72 L 750 40" stroke="#34D399" stroke-width="5" marker-end="url(#aSolid)"/>
+
+            <!-- =========================================================
+                 MARINE TERMINAL (NORTHERN TIP)
+                 ========================================================= -->
+            <rect x="530" y="2" width="400" height="30" rx="5" fill="url(#bfm)" stroke="#FBBF24" stroke-width="2.5" filter="url(#sh2)"/>
+            <text x="730" y="16" fill="#FBBF24" font-size="9" font-weight="700" text-anchor="middle">BROWNFIELD &mdash; Ruwais Marine Terminal + Borouge 3/4</text>
+
+            <!-- Shipping arrows -->
+            <text x="730" y="43" fill="#38BDF8" font-size="9" font-weight="700" text-anchor="middle">&#x2B06; Bulk Vessel Loading &#x2B06; &#x1F30D; Global Export</text>
+
+            <!-- =========================================================
+                 BF TIE-IN CALLOUTS
+                 ========================================================= -->
+            <rect x="970" y="48" width="280" height="55" rx="4" fill="none" stroke="#FBBF24" stroke-width="2" stroke-dasharray="3,2"/>
+            <text x="1110" y="66" fill="#FBBF24" font-size="8" font-weight="700" text-anchor="middle">&#x26A0; Brownfield PTW Zone</text>
+            <text x="1110" y="80" fill="#FDE68A" font-size="7.5" text-anchor="middle">MCR Modifications + PP5 HV Tie-Ins</text>
+            <text x="1110" y="96" fill="#FDE68A" font-size="7" text-anchor="middle">ADNOC QRC/IRN Gatekeeper Active</text>
+
+            <!-- Power feed arrows from Unit 10 → across site -->
+            <line x1="350" y1="280" x2="480" y2="280" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <line x1="480" y1="280" x2="480" y2="400" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <line x1="350" y1="310" x2="455" y2="310" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <text x="400" y="268" fill="#A78BFA" font-size="7" text-anchor="middle" opacity="0.6">Control / Power Feed</text>
+
+            <!-- =========================================================
+                 LEGEND PANEL
+                 ========================================================= -->
+            <rect x="950" y="480" width="380" height="126" rx="6" fill="#0D1320" stroke="#1A2740" stroke-width="1.5"/>
+            <text x="1140" y="498" fill="#889BB5" font-size="9" font-weight="700" text-anchor="middle">PLOT PLAN LEGEND</text>
+            <rect x="966" y="506" width="16" height="10" rx="2" fill="url(#cp1f)" stroke="#2563EB" stroke-width="1"/><text x="990" y="515" fill="#889BB5" font-size="7">CP1 Blue &bull; Solid Logistics (42,271 M&#xB3;)</text>
+            <rect x="966" y="522" width="16" height="10" rx="2" fill="url(#cp2f)" stroke="#DC2626" stroke-width="1"/><text x="990" y="531" fill="#889BB5" font-size="7">CP2 Red &bull; Storage + Granulation (28,158 M&#xB3;)</text>
+            <rect x="966" y="538" width="16" height="10" rx="2" fill="url(#cp3f)" stroke="#7C3AED" stroke-width="1"/><text x="990" y="547" fill="#889BB5" font-size="7">CP3 Purple &bull; MCR/Blast-Res (8,092 M&#xB3;)</text>
+            <rect x="1146" y="506" width="16" height="10" rx="2" fill="none" stroke="#059669" stroke-width="2.5"/><text x="1170" y="515" fill="#889BB5" font-size="7">MEI-I Green Boundary</text>
+            <rect x="1146" y="522" width="16" height="10" rx="2" fill="none" stroke="#D97706" stroke-width="2.5"/><text x="1170" y="531" fill="#889BB5" font-size="7">MEI-II Amber Boundary</text>
+            <line x1="966" y1="554" x2="982" y2="554" stroke="#F59E0B" stroke-width="4" stroke-dasharray="8,4" filter="url(#goldGlow)"/><text x="990" y="558" fill="#889BB5" font-size="7">Gold Pipeline &bull; Liquid (Underground)</text>
+            <line x1="966" y1="568" x2="982" y2="568" stroke="#34D399" stroke-width="3"/><text x="990" y="572" fill="#889BB5" font-size="7">Green Pipeline &bull; Solid Conveyor (Elevated)</text>
+            <rect x="966" y="580" width="16" height="10" rx="2" fill="url(#bfm)" stroke="#FBBF24" stroke-width="1"/><text x="990" y="589" fill="#889BB5" font-size="7">Brownfield &bull; Live-Line / PTW-Gated</text>
+            <circle cx="1146" cy="557" r="6" fill="none" stroke="#F97316" stroke-width="2.5"/><text x="1158" y="561" fill="#F97316" font-size="7.5" font-weight="700">! Collision Hotspot</text>
+            <text x="1146" y="580" fill="#556885" font-size="6.5">&#x2191; N</text>
+
+            <!-- =========================================================
+                 NORTH ARROW + SCALE
+                 ========================================================= -->
+            <polygon points="50,80 62,115 38,115" fill="#556885"/>
+            <text x="50" y="130" fill="#556885" font-size="9" font-weight="700" text-anchor="middle">N</text>
+            <line x1="45" y1="170" x2="175" y2="170" stroke="#556885" stroke-width="2.5"/>
+            <line x1="45" y1="165" x2="45" y2="175" stroke="#556885" stroke-width="2.5"/>
+            <line x1="175" y1="165" x2="175" y2="175" stroke="#556885" stroke-width="2.5"/>
+            <text x="110" y="164" fill="#556885" font-size="7.5" text-anchor="middle">~150 m</text>
+
+        </svg>
+    </div>
+    <div class="gb-key">
+        <span style="color:var(--cp1);font-weight:700;">&#x25A0; CP1 Blue</span>
+        <span style="color:var(--cp2);font-weight:700;">&#x25A0; CP2 Red</span>
+        <span style="color:var(--cp3);font-weight:700;">&#x25A0; CP3 Purple</span>
+        <span style="color:var(--mei1);font-weight:700;">&#x25A3; MEI-I</span>
+        <span style="color:var(--mei2);font-weight:700;">&#x25A3; MEI-II</span>
+        <span><i class="bf"></i> Brownfield</span>
+        <span style="color:var(--pipe-gold);font-weight:700;filter:drop-shadow(0 0 4px rgba(245,158,11,.4));">&#x2501; Gold Pipeline</span>
+        <span style="color:var(--warn);font-weight:700;">&#x26A0; Hotspot</span>
+    </div>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     SUPREME GATEKEEPER — QRC / IRN
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="gate-block" id="gatekeeper">
+    <h3>&#x1F6AB; THE SUPREME GATEKEEPER</h3>
+    <p>
+        <strong style="color:var(--danger);font-size:1rem;">ADNOC Quality Release Certificate (QRC) / Inspection Release Notice (IRN)</strong>
+        <br><br>
+        This document is the <em>ultimate commercial choke point</em>.
+        Without ADNOC&rsquo;s official QRC/IRN sign-off, every downstream milestone billing application
+        and IPC (Interim Payment Certificate) is <strong style="color:var(--danger);">legally frozen</strong>.
+        No QRC = No Payment. No exceptions.
+        <br><br>
+        <span style="font-size:.68rem;color:var(--text-sub);">
+        &#x26A0; Documentation gaps, incomplete test packs, or missing owner inspection signatures
+        create a payment blockade that cascades across all Civil and MEI packages simultaneously.
+        </span>
+    </p>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     STAGE DETAIL CARDS
+     ═════════════════════════════════════════════════════════════════════ -->
+<!-- Stage 1 -->
+<div class="card open" id="s1">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--accent)">1</div><div class="card-info"><div class="ctitle">&#x29D7; Stage 1 &mdash; Upstream Inflow: Molten Sulfur Entry</div><div class="csub">ADNOC Refining Byproduct &bull; ~140&#xB0;C Molten State &bull; Entry Manifold</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">Material State</div><div class="ival mono">~140&#xB0;C</div><div class="idet">High-temperature molten fluid sulfur</div></div>
+        <div class="itile"><div class="ilbl">Source</div><div class="ival">ADNOC Upstream</div><div class="idet">Mainline refining byproduct &bull; continuously fed</div></div>
+        <div class="itile"><div class="ilbl">Core Area</div><div class="ival">Entry Manifold</div><div class="idet">Single-point battery-limit interface flange</div></div>
+        <div class="itile"><div class="ilbl">Zone Classification</div><div class="ival" style="color:var(--bf-stroke);">Brownfield</div><div class="idet">Existing ADNOC piping corridors &bull; PTW required Day 1</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--mei2);color:var(--mei2);"><span class="pdot" style="background:var(--mei2)"></span> MEI-II: Flow metering, temperature TX, automated diverter valve logic</span></div>
+    <div class="narr">&#x1F4E5; <strong>What happens here:</strong> Continuously-fed molten sulfur enters the complex at ~140&#xB0;C from the adjacent ADNOC refinery. This is the <strong>single-point entry</strong> for everything downstream. No civil scope &mdash; but the tie-in crosses <em>existing operational piping corridors</em>, activating ADNOC PTW requirements immediately.</div>
+</div></div>
+
+<!-- Stage 2 -->
+<div class="card" id="s2">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--cp2)">2</div><div class="card-info"><div class="ctitle">&#x1F4E6; Stage 2 &mdash; Molten Storage &amp; Holding</div><div class="csub">3&#xD7; Liquid Sulfur Tanks &bull; Zone 210 &bull; Unit 20 Base &bull; Steam-Jacketed Piping</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">Facility Assets</div><div class="ival">3&#xD7; Large Tanks</div><div class="idet">Massive liquid sulfur storage tanks at Unit 20</div></div>
+        <div class="itile"><div class="ilbl">Infrastructure</div><div class="ival">Steam-Jacketed Piping</div><div class="idet">Insulated loops prevent freezing/clogging below ~119&#xB0;C</div></div>
+        <div class="itile"><div class="ilbl">Civil Scope</div><div class="ival mono" style="color:var(--cp2);">CP2 &bull; Red</div><div class="idet">Deep excavation for underground piping + heavy ring-beam tank foundations</div></div>
+        <div class="itile"><div class="ilbl">MEI Scope</div><div class="ival mono" style="color:var(--mei2);">MEI-II &bull; Amber</div><div class="idet">Tank level radar gauges, distributed temperature TX, heat-tracing control panels</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--cp2);color:var(--cp2);"><span class="pdot" style="background:var(--cp2)"></span> CP2: Deep excavation + ring-beam foundations</span><span class="pkg-tag" style="border-color:var(--mei2);color:var(--mei2);"><span class="pdot" style="background:var(--mei2)"></span> MEI-II: Tank instrumentation + heat-trace + temp TX</span></div>
+    <div class="narr">&#x1F4E6; <strong>What happens here:</strong> Incoming liquid sulfur is distributed into three massive storage tanks via steam-jacketed piping loops. <em>Cold spot = instant clog = production stop.</em> CP2 executes deep excavation and ring-beam foundations first; MEI-II follows with tank-level instruments and heat-tracing controls. Civil works are prerequisite &mdash; no foundation, no instrument installation.</div>
+</div></div>
+
+<!-- Stage 3 -->
+<div class="card" id="s3">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--cp2)">3</div><div class="card-info"><div class="ctitle">&#x1F9CA; Stage 3 &mdash; Solidification &amp; Granulation</div><div class="csub">Rotary Granulators &bull; Zone 220 &bull; Unit 30/40/50 &bull; 28,158 M&#xB3; Joint Concrete</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">Facility Assets</div><div class="ival">Rotary Granulators</div><div class="idet">Rotating sprayer heads + water-cooled continuous steel belts</div></div>
+        <div class="itile"><div class="ilbl">Process Magic</div><div class="ival">Liquid &#x2192; Solid Pellets</div><div class="idet">Molten "chocolate" becomes dust-free hard yellow "beans" in seconds</div></div>
+        <div class="itile"><div class="ilbl">Civil Scope</div><div class="ival mono" style="color:var(--cp2);">CP2 &bull; 28,158 M&#xB3;</div><div class="idet">Heavy slab-on-grade + vibrating machinery foundations</div></div>
+        <div class="itile"><div class="ilbl">MEI Scope</div><div class="ival mono" style="color:var(--mei1);">MEI-I &bull; Green</div><div class="idet">Rigging + mechanical alignment of granulator skids, pipe racks, tie-ins</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--cp2);color:var(--cp2);"><span class="pdot" style="background:var(--cp2)"></span> CP2: Slab-on-grade floors, machinery foundations (28,158 M&#xB3;)</span><span class="pkg-tag" style="border-color:var(--mei1);color:var(--mei1);"><span class="pdot" style="background:var(--mei1)"></span> MEI-I: Skid rigging, mechanical alignment, pipe rack tie-ins</span></div>
+    <div class="narr">&#x1F9CA; <strong>What happens here:</strong> Molten sulfur is pumped onto rotating sprayers inside the granulator units. Dispersed across <em>water-cooled steel belts</em>, it solidifies instantly into <strong>dust-free, hard yellow pellets</strong> (&#x9EC4;&#x8C46;&#x786B;&#x78FA; / "yellow beans"). &#x26A0; <em>This is the single most critical Civil-to-MEI handover point in the entire pipeline.</em> CP2 must pour and cure the high-strength slabs before MEI-I can bolt down the granulator skids. These units produce <strong>intense vibrational dynamic loads</strong> &mdash; undersized or improperly cured foundations cause equipment misalignment and premature bearing failure.</div>
+</div></div>
+
+<!-- Stage 4 -->
+<div class="card" id="s4">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--cp1)">4</div><div class="card-info"><div class="ctitle">&#x1F69C; Stage 4 &mdash; Solid Logistics &amp; Handling</div><div class="csub">Conveyors &bull; 3&#xD7; Storage Sheds &bull; Zone 230 &bull; Unit 40 &bull; 42,271 M&#xB3; Concrete</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">Facility Assets</div><div class="ival">Conveyors + 3&#xD7; Sheds</div><div class="idet">Enclosed belt conveyors, bucket elevators, tripper systems, space-truss storage sheds</div></div>
+        <div class="itile"><div class="ilbl">Civil Scope</div><div class="ival mono" style="color:var(--cp1);">CP1 &bull; 42,271 M&#xB3;</div><div class="idet">Deep structural foundations for T2 transfer towers, long-distance conveyor A-frames</div></div>
+        <div class="itile"><div class="ilbl">MEI Scope (Mechanical)</div><div class="ival mono" style="color:var(--mei1);">MEI-I &bull; Green</div><div class="idet">Conveyor motor drives, take-up tensioners, belt misalignment sensors</div></div>
+        <div class="itile"><div class="ilbl">MEI Scope (E&amp;I)</div><div class="ival mono" style="color:var(--mei2);">MEI-II &bull; Amber</div><div class="idet">Power distribution, DCS integration, substation feeds from Unit 10</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--cp1);color:var(--cp1);"><span class="pdot" style="background:var(--cp1)"></span> CP1: Transfer tower foundations, conveyor A-frames (42,271 M&#xB3;)</span><span class="pkg-tag" style="border-color:var(--mei1);color:var(--mei1);"><span class="pdot" style="background:var(--mei1)"></span> MEI-I: Conveyor drives, take-up systems, belt sensors</span><span class="pkg-tag" style="border-color:var(--mei2);color:var(--mei2);"><span class="pdot" style="background:var(--mei2)"></span> MEI-II: Power, DCS cabinets, substation feeds</span></div>
+    <div class="narr">&#x1F69C; <strong>What happens here:</strong> Solid pellets are mechanically conveyed via enclosed belt networks through bucket elevators and tripper systems into <strong>three heavy space-frame storage sheds</strong>. CP1 carries the <strong>largest single concrete volume at 42,271 M&#xB3;</strong> &mdash; deep foundations for the massive Transfer Tower T2 and long-distance conveyor A-frames. MEI-I installs and aligns all conveyor drives and sensors; MEI-II routes power and integrates conveyor logic into the central DCS. CP3 (8,092 M&#xB3;) provides blast-resistant LCR shells within this zone.</div>
+</div></div>
+
+<!-- Stage 5 -->
+<div class="card" id="s5">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--accent)">5</div><div class="card-info"><div class="ctitle">&#x1F6A2; Stage 5 &mdash; Final Dispatch &amp; Maritime Export</div><div class="csub">Bulk Vessel Loading &bull; Ruwais Marine Terminal &bull; Global + Borouge 3/4</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">Facility Assets</div><div class="ival">Bulk Vessel Loaders</div><div class="idet">High-capacity ship-loading systems at Ruwais Marine Terminal</div></div>
+        <div class="itile"><div class="ilbl">Alternative Route</div><div class="ival">Strategic Reserves</div><div class="idet">Diversion loops to stockpiles when shipping schedules dictate</div></div>
+        <div class="itile"><div class="ilbl">Destinations</div><div class="ival">Global + Borouge 3/4</div><div class="idet">International export markets + subset distribution lines</div></div>
+        <div class="itile"><div class="ilbl">Zone Classification</div><div class="ival" style="color:var(--bf-stroke);">Brownfield</div><div class="idet">Existing terminal/jetty &bull; full PTW, hot-work permits, gas monitoring</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--mei2);color:var(--mei2);"><span class="pdot" style="background:var(--mei2)"></span> MEI-II: Loading automation, draft sensors, custody-transfer metering</span></div>
+    <div class="narr">&#x1F6A2; <strong>What happens here:</strong> Solid sulfur pellets arrive at high-capacity bulk vessel loading systems. Diversion loops allow routing to strategic reserve stockpiles when shipping schedules require. <em>This entire stage operates within Brownfield conditions.</em> <strong>All schedule risk from PTW approval latency, gas-exceedance stoppages, and hot-work restrictions is contractually borne by the Subcontractor under Clause (d).</strong></div>
+</div></div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     DIGITAL NERVOUS SYSTEM — UNIT 10 CORE
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="card">
+<div class="card-hd" onclick="toggleCard(this)"><div class="card-num" style="background:var(--cp3)">&#x26A1;</div><div class="card-info"><div class="ctitle">&#x1F9E0; Digital Nervous System &amp; Power Hub &mdash; Unit 10 Core</div><div class="csub">MCR + Substations + LCRs &bull; 8,092 M&#xB3; Blast-Resistant Concrete &bull; HV PP5 Cable Network</div></div><div class="card-chev">&#x25BC;</div></div>
+<div class="card-body">
+    <div class="igrid">
+        <div class="itile"><div class="ilbl">System Assets</div><div class="ival">MCR + Substations + LCR</div><div class="idet">Main Control Room, Local Control Rooms, substation buildings</div></div>
+        <div class="itile"><div class="ilbl">Civil Scope</div><div class="ival mono" style="color:var(--cp3);">CP3 &bull; 8,092 M&#xB3;</div><div class="idet">Blast-resistant reinforced concrete structural walls + protective roofs</div></div>
+        <div class="itile"><div class="ilbl">MEI Scope</div><div class="ival mono" style="color:var(--mei2);">MEI-II &bull; Amber</div><div class="idet">HV cable-pulling (PP5), DCS cabinets, transformers, switchgear</div></div>
+        <div class="itile"><div class="ilbl">Criticality</div><div class="ival" style="color:var(--danger);">Single Point of Failure</div><div class="idet">All Stages 2&#x2013;5 depend on Unit 10 power + DCS logic</div></div>
+    </div>
+    <div class="pkg-row"><span class="pkg-tag" style="border-color:var(--cp3);color:var(--cp3);"><span class="pdot" style="background:var(--cp3)"></span> CP3: Blast-resistant shells (8,092 M&#xB3;)</span><span class="pkg-tag" style="border-color:var(--mei2);color:var(--mei2);"><span class="pdot" style="background:var(--mei2)"></span> MEI-II: HV PP5 network, DCS cabinets, transformers, switchgear</span></div>
+    <div class="narr">&#x1F9E0; <strong>What happens here:</strong> Unit 10 Core is the <em>central nervous system</em> of the entire sulfur processing pipeline. CP3 delivers 8,092 M&#xB3; of blast-resistant concrete for the MCR, substations, and LCRs. These enclosures must pass ADNOC blast-resistance testing before any internal fit-out. MEI-II then executes the HV PP5 cable-pulling network, installs DCS cabinets, transformers, and switchgear.<br><br>&#x26A0; <em>Single most consequential dependency in the project.</em> If the civil housing leaks or fails owner blast-testing, <strong>all downstream cold-commission workflows remain dark</strong>, freezing the entire pipeline regardless of progress at Stages 2&#x2013;5.</div>
+</div></div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     COLLISION HOTSPOTS
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="sec-title warn">&#x26A0; Critical Interdisciplinary Collision Hotspots</div>
+<div class="hs-grid">
+    <div class="hs"><div class="hs-n">HOTSPOT #1</div><div class="hs-t">28,158 M&#xB3; CP2 &#x2192; MEI-I Mechanical Rigging (Stage 3)</div><div class="hs-d">Rotary granulator units (Zone 220) generate <strong>intense vibrational loads</strong>. If CP2 lags in pouring the high-strength slabs, MEI-I <strong>cannot bolt down machinery skids</strong>, halting the entire midpoint line. Concrete cure time is on the <em>critical path</em>.</div></div>
+    <div class="hs"><div class="hs-n">HOTSPOT #2</div><div class="hs-t">Unit 10 Power CNS (Stages 4 &amp; 5 Power Feed)</div><div class="hs-d">CP3 must build blast-resistant shells (8,092 M&#xB3;) before MEI-II can lay down PP5 transformers and route cables. If the civil housing <strong>leaks or fails blast testing</strong>, critical logic circuitry stays dark. <em>Single-point failure for all DCS processes.</em></div></div>
+    <div class="hs"><div class="hs-n">HOTSPOT #3</div><div class="hs-t">Greenfield vs. Brownfield PTW Minefields</div><div class="hs-d">Erecting space-frame sheds in the Greenfield is straightforward. But <strong>Live-Line Tie-ins</strong> (underground piping) cross into <em>operational ADNOC lines</em>. Clauses (c) and (d) insulate the Contractor from standby losses when hot-work restrictions are imposed.</div></div>
+    <div class="hs"><div class="hs-n">HOTSPOT #4</div><div class="hs-t">Unit 30/50 Corridor &mdash; Triple-Package Collision Zone</div><div class="hs-d">The most congested lane on site: <strong>CP2 (Red) + MEI-I (Green) + MEI-II (Amber)</strong> overlap spatially at the Unit 30/50 interface. Crane paths, cable trays, and pipe racks all compete for the same physical space. <em>Clause (c) mandates unconditional adherence to Contractor unified scheduling.</em></div></div>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     RISK MATRIX
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="sec-title warn">&#x1F4CA; Civil &#x2194; MEI Interface Risk Matrix</div>
+<div class="rtbl-wrap">
+<table class="rtbl">
+    <thead><tr><th>#</th><th>Interface</th><th>Civil</th><th>MEI</th><th>Risk Description</th><th>Severity</th><th>Contract Shield</th></tr></thead>
+    <tbody>
+        <tr><td>R1</td><td>Stage 2&#x2192;3: Tank foundation &#x2192; instrumentation</td><td><span class="pchip" style="background:var(--cp2)">CP2</span></td><td><span class="pchip" style="background:var(--mei2)">MEI-II</span></td><td>Ring-beam curing delay blocks tank level TX; heat-trace cannot commission until handover</td><td><span class="sev high">HIGH</span></td><td>Clause (c)</td></tr>
+        <tr><td>R2</td><td>Stage 3: Slab cure &#x2192; granulator rigging</td><td><span class="pchip" style="background:var(--cp2)">CP2</span></td><td><span class="pchip" style="background:var(--mei1)">MEI-I</span></td><td>28,158 M&#xB3; slab delay = skid bolt-down halted; vibrational load dependency on concrete strength</td><td><span class="sev crit">CRITICAL</span></td><td>Clause (c)</td></tr>
+        <tr><td>R3</td><td>Stage 4: Foundation &#x2192; conveyor drives</td><td><span class="pchip" style="background:var(--cp1)">CP1</span></td><td><span class="pchip" style="background:var(--mei1)">MEI-I</span></td><td>42,271 M&#xB3; deep foundations for T2 + A-frames; MEI-I drive alignment dependent on as-built civil tolerances</td><td><span class="sev high">HIGH</span></td><td>Clause (c)</td></tr>
+        <tr><td>R4</td><td>Unit 10: Blast shell &#x2192; HV transformer laydown</td><td><span class="pchip" style="background:var(--cp3)">CP3</span></td><td><span class="pchip" style="background:var(--mei2)">MEI-II</span></td><td>8,092 M&#xB3; blast-resistant enclosure must pass owner testing; failure blacks out all downstream DCS</td><td><span class="sev crit">CRITICAL</span></td><td>Clause (c) + (d)</td></tr>
+        <tr><td>R5</td><td>Stage 1&#x2192;5: Underground tie-in at battery limit</td><td><span class="pchip" style="background:var(--cp2)">CP2</span></td><td><span class="pchip" style="background:var(--mei2)">MEI-II</span></td><td>Brownfield piping tie-ins within existing ADNOC battery limits; hot-work restrictions, gas-exceedance, PTW latency</td><td><span class="sev crit">CRITICAL</span></td><td>Clause (d)</td></tr>
+        <tr><td>R6</td><td>Unit 30/50: MEI-I &#x2194; MEI-II spatial clash</td><td>N/A</td><td><span class="pchip" style="background:var(--mei1)">MEI-I</span> + <span class="pchip" style="background:var(--mei2)">MEI-II</span></td><td>Crane paths, cable trays, pipe racks compete for same spatial corridor; highly congested lane prone to sequence clash</td><td><span class="sev high">HIGH</span></td><td>Clause (c)</td></tr>
+        <tr><td>R7</td><td>All stages: QRC/IRN documentation gap</td><td><span class="pchip" style="background:var(--cp1)">CP1</span>/<span class="pchip" style="background:var(--cp2)">2</span>/<span class="pchip" style="background:var(--cp3)">3</span></td><td><span class="pchip" style="background:var(--mei1)">MEI-I</span>/<span class="pchip" style="background:var(--mei2)">II</span></td><td>Missing QRC/IRN owner sign-off freezes milestone billing + IPC payments across all packages</td><td><span class="sev crit">CRITICAL</span></td><td>Commercial &bull; ADNOC QRC/IRN Gatekeeper</td></tr>
+    </tbody>
+</table>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     BILINGUAL LEGAL DEFENSE
+     ═════════════════════════════════════════════════════════════════════ -->
+<div class="sec-title danger">&#x2696; Commercial Risk Shields &mdash; Bilingual Legal Parity</div>
+
+<div style="margin-bottom:16px;">
+    <h3 style="font-size:.76rem;font-weight:700;color:var(--warn);margin-bottom:9px;">Clause (c) &mdash; MEI Package I &amp; II Spatial / Sequential Interference</h3>
+    <div class="legal-grid">
+        <div class="legal-block"><div class="clbl">&#x4E2D;&#x6587; (Chinese Original)</div><h3 class="cn">(c) &#x673A;&#x7535;&#x5DE5;&#x7A0B;&#x754C;&#x9762;&#x91CD;&#x53E0;&#x4E0E;&#x65BD;&#x5DE5;&#x534F;&#x8C03;</h3><div class="cbody">(c) &#x673A;&#x7535;&#x5DE5;&#x7A0B;&#x754C;&#x9762;&#x91CD;&#x53E0;&#x4E0E;&#x65BD;&#x5DE5;&#x534F;&#x8C03;&#xFF1A;&#x5206;&#x5305;&#x5546;&#x660E;&#x786E;&#x77E5;&#x6089;&#x5E76;&#x540C;&#x610F;&#xFF0C;MEI Package I&#xFF08;&#x542B; Unit 30/40/50 &#x4E4B;&#x786B;&#x78FA;&#x9020;&#x7C92;&#x53CA;&#x56FA;&#x4F53;&#x786B;&#x78FA;&#x8F93;&#x9001;&#x7CFB;&#x7EDF;&#xFF09;&#x4E0E; MEI Package II&#xFF08;&#x542B; Unit 10/10A/20/50 &#x4E4B;&#x53D8;&#x7535;&#x7AD9;&#x3001;LCR &#x53CA;&#x9AD8;&#x538B;&#x7535;&#x7F06;&#x5DE5;&#x7A0B;&#xFF09;&#x5728;&#x5730;&#x7406;&#x7A7A;&#x95F4;&#x4E0E;&#x65BD;&#x5DE5;&#x5DE5;&#x5E8F;&#x4E0A;&#x5B58;&#x5728;&#x9AD8;&#x5EA6;&#x91CD;&#x53E0;&#x4E0E;&#x4EA4;&#x53C9;&#x4F5C;&#x4E1A;&#x3002;&#x5206;&#x5305;&#x5546;&#x987B;&#x65E0;&#x6761;&#x4EF6;&#x670D;&#x4ECE;&#x627F;&#x5305;&#x5546;&#x5BF9;&#x4E0A;&#x8FF0;&#x4E24;&#x4E2A;&#x673A;&#x7535;&#x6807;&#x6BB5;&#x7684;&#x7EDF;&#x4E00;&#x8C03;&#x5EA6;&#x3001;&#x65BD;&#x5DE5;&#x964D;&#x6548;&#x534F;&#x8C03;&#x53CA;&#x73B0;&#x573A;&#x4EA4;&#x63A5;&#x5B89;&#x6392;&#x3002;&#x5206;&#x5305;&#x5546;&#x786E;&#x8BA4;&#xFF0C;&#x4EFB;&#x4F55;&#x56E0; Package I &#x4E0E; Package II &#x65BD;&#x5DE5;&#x5E72;&#x6270;&#x3001;&#x5DE5;&#x5E8F;&#x51B2;&#x7A81;&#x6216;&#x5DE5;&#x4F5C;&#x9762;&#x4EA4;&#x63A5;&#x5F15;&#x53D1;&#x7684;&#x73B0;&#x573A;&#x964D;&#x6548;&#xFF0C;&#x5747;&#x5DF2;&#x5B8C;&#x5168;&#x5305;&#x542B;&#x5728;&#x5408;&#x540C;&#x603B;&#x4EF7;&#x4E2D;&#xFF0C;&#x5206;&#x5305;&#x5546;&#x65E0;&#x6743;&#x5411;&#x627F;&#x5305;&#x5546;&#x63D0;&#x51FA;&#x4EFB;&#x4F55;&#x989D;&#x5916;&#x7684;&#x8D39;&#x7528;&#x7D22;&#x8D54;&#x6216;&#x5DE5;&#x671F;&#x5EF6;&#x957F;&#x3002;</div></div>
+        <div class="legal-block"><div class="clbl">English (Official Translation)</div><h3 class="en">(c) MEI Interface Overlap and Construction Coordination</h3><div class="cbody">(c) MEI Interface Overlap and Construction Coordination: The Subcontractor expressly acknowledges and agrees that there exists a high degree of spatial and sequential overlap and concurrent operations between MEI Package I (including the sulfur granulation and solid sulfur handling systems across Units 30/40/50) and MEI Package II (including the substation, LCR, and HV cable works across Units 10/10A/20/50). The Subcontractor shall unconditionally adhere to the Contractor&rsquo;s unified scheduling, construction inefficiency mitigation, and site handover arrangements for both MEI packages. The Subcontractor confirms that any and all site inefficiencies resulting from construction interference, sequence conflicts, or work-front handovers between Package I and Package II have been fully priced into the Subcontract Price, and the Subcontractor shall have no right to advance any additional financial claims or extensions of time against the Contractor.</div></div>
+    </div>
+</div>
+
+<div>
+    <h3 style="font-size:.76rem;font-weight:700;color:var(--warn);margin-bottom:9px;">Clause (d) &mdash; Brownfield Safety and Live-Line Tie-in Liability Exemption</h3>
+    <div class="legal-grid">
+        <div class="legal-block"><div class="clbl">&#x4E2D;&#x6587; (Chinese Original)</div><h3 class="cn">(d) &#x88C5;&#x7F6E;&#x754C;&#x533A;&#x5185;&#x5730;&#x4E0B;&#x7BA1;&#x9053;&#x78B0;&#x53E3;&#xFF08;Tie-in&#xFF09;&#x53CA;MCR&#x6539;&#x9020;&#x4E4B;&#x68D5;&#x5730;&#x9AD8;&#x5371;&#x514D;&#x8D23;</h3><div class="cbody">(d) &#x88C5;&#x7F6E;&#x754C;&#x533A;&#x5185;&#x5730;&#x4E0B;&#x7BA1;&#x9053;&#x78B0;&#x53E3;&#xFF08;Tie-in&#xFF09;&#x53CA;&#x4E3B;&#x63A7;&#x5236;&#x5BA4;&#xFF08;MCR&#xFF09;&#x6539;&#x9020;&#x4E4B;&#x68D5;&#x5730;&#x9AD8;&#x5371;&#x514D;&#x8D23;&#xFF1A;&#x5206;&#x5305;&#x5546;&#x5728;&#x6B64;&#x786E;&#x8BA4;&#x5E76;&#x540C;&#x610F;&#xFF0C;&#x6240;&#x6709;&#x6D89;&#x53CA;&#x73B0;&#x6709;&#x88C5;&#x7F6E;&#x533A;&#x57DF;&#x5185;&#x7684;&#x5730;&#x4E0B;&#x7BA1;&#x9053;&#x78B0;&#x53E3;&#x3001;MCR &#x6539;&#x9020;&#x53CA;&#x9AD8;&#x538B;&#x7535;&#x7F06;&#x62C9;&#x7EBF;&#x7B49;&#x5DE5;&#x4F5C;&#x5747;&#x5C5E;&#x4E8E;&#x68D5;&#x5730;&#x9879;&#x76EE;&#xFF08;Brownfield&#xFF09;&#xFF0C;&#x5177;&#x6709;&#x6781;&#x9AD8;&#x7684;&#x5DE5;&#x4E1A;&#x5B89;&#x5168;&#x98CE;&#x9669;&#x3002;&#x5206;&#x5305;&#x5546;&#x987B;&#x4E25;&#x683C;&#x9075;&#x5B88;&#x963F;&#x8054;&#x914B;&#x672C;&#x5730;&#x6CD5;&#x89C4;&#x53CA;&#x4E1A;&#x4E3B;&#xFF08;ADNOC&#xFF09;&#x7684; PTW&#xFF08;&#x5DE5;&#x4F5C;&#x8BB8;&#x53EF;&#x8BC1;&#xFF09;&#x5B89;&#x5168;&#x5BA1;&#x6279;&#x7A0B;&#x5E8F;&#x3002;&#x627F;&#x5305;&#x5546;&#x5BF9;&#x56E0; ADNOC &#x4E1A;&#x4E3B; PTW &#x5BA1;&#x6279;&#x5EF6;&#x8BEF;&#x3001;&#x73B0;&#x573A;&#x6C14;&#x4F53;&#x8D85;&#x6807;&#x505C;&#x5DE5;&#x3001;&#x52A8;&#x706B;&#x7BA1;&#x63A7;&#x6216;&#x5176;&#x4ED6;&#x51FA;&#x4E8E;&#x68D5;&#x5730;&#x5B89;&#x5168;&#x5408;&#x89C4;&#x539F;&#x56E0;&#x5BFC;&#x81F4;&#x7684;&#x4EFB;&#x4F55;&#x5DE5;&#x671F;&#x6EDE;&#x540E;&#x53CA;&#x505C;&#x5DE5;&#x635F;&#x5931;&#x4E0D;&#x627F;&#x62C5;&#x4EFB;&#x4F55;&#x6CD5;&#x5F8B;&#x4E0E;&#x7ECF;&#x6D4E;&#x8D23;&#x4EFB;&#xFF1B;&#x8BE5;&#x7B49;&#x6EDE;&#x540E;&#x7531;&#x5206;&#x5305;&#x5546;&#x81EA;&#x884C;&#x627F;&#x62C5;&#xFF0C;&#x4E14;&#x4E0D;&#x6784;&#x6210;&#x672C;&#x5408;&#x540C;&#x9879;&#x4E0B;&#x7684;&#x53EF;&#x539F;&#x8C05;&#x5EF6;&#x8BEF;&#x3002;</div></div>
+        <div class="legal-block"><div class="clbl">English (Official Translation)</div><h3 class="en">(d) Exemption of Liability for High-Risk Brownfield Tie-ins and MCR Modifications</h3><div class="cbody">(d) Exemption of Liability for High-Risk Brownfield Tie-ins and Main Control Room (MCR) Modifications: The Subcontractor hereby acknowledges and agrees that all works involving underground piping tie-ins within the existing battery limits, MCR modifications, and HV cable pulling constitute Brownfield operations, which carry extreme industrial safety risks. The Subcontractor shall strictly comply with all UAE local regulations and the Owner&rsquo;s (ADNOC) Permit to Work (PTW) safety clearance procedures. The Contractor shall bear no legal or financial liability whatsoever for any schedule delays or standby losses resulting from ADNOC&rsquo;s PTW approval latency, gas-exceedance work stoppages on-site, hot-work restrictions, or any other brownfield safety compliance measures; all such delays shall be borne solely by the Subcontractor and shall not constitute an excusable delay under this Subcontract.</div></div>
+    </div>
+</div>
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     GREENFIELD / BROWNFIELD SUMMARY
+     ═════════════════════════════════════════════════════════════════════ -->
+<div style="margin-top:24px;">
+<div class="sec-title accent">&#x1F3D7; Greenfield vs. Brownfield &mdash; Boundary Classification</div>
+<div class="gfbf-grid">
+    <div class="gfbf-card gf"><h4 style="color:var(--gf-stroke);">&#x2705; Greenfield Sector</h4><p>&#x2022; Area within designated <strong>new development battery limits</strong><br>&#x2022; Unobstructed footprint, minimal asset interference<br>&#x2022; Clean, straightforward construction workflow<br>&#x2022; Covers: Tank foundations, granulator slabs, conveyor A-frames, space-frame sheds<br>&#x2022; <strong>Stages 2&#x2013;4 main works</strong> fall primarily in Greenfield</p></div>
+    <div class="gfbf-card bf"><h4 style="color:var(--bf-stroke);">&#x26A0; Brownfield High-Risk Sector</h4><p>&#x2022; Area <strong>intersecting or outside green lines</strong> within existing operational refinery<br>&#x2022; Includes: MCR modifications, PP5 HV connections, live-line pipe tie-ins<br>&#x2022; <strong>Full ADNOC PTW compliance mandatory</strong> (hot-work permits, gas monitoring, clearances)<br>&#x2022; Affects: Stage 1 entry manifold, Stage 5 marine terminal, Unit 10 MCR tie-ins<br>&#x2022; <em>All PTW delays are Subcontractor risk under Clause (d)</em></p></div>
+</div>
+</div>
+
+</main>
+</div><!-- /body-wrap -->
+
+<!-- ═════════════════════════════════════════════════════════════════════
+     JAVASCRIPT
+     ═════════════════════════════════════════════════════════════════════ -->
+<script>
+(function(){
+    'use strict';
+    window.toggleCard=function(h){var c=h.closest('.card');if(c)c.classList.toggle('open');};
+    var items=document.querySelectorAll('.nav-item');
+    var anchors=document.querySelectorAll('#s1,#s2,#s3,#s4,#s5,#fig2');
+    var obs=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;items.forEach(function(i){i.classList.toggle('active',i.getAttribute('href')==='#'+e.target.id);});});},{rootMargin:'-8% 0px -72% 0px',threshold:0});
+    anchors.forEach(function(a){obs.observe(a);});
+    items.forEach(function(l){l.addEventListener('click',function(ev){ev.preventDefault();var t=document.getElementById(this.getAttribute('href').substring(1));if(t){t.scrollIntoView({behavior:'smooth',block:'start'});history.pushState(null,null,'#'+t.id);}});});
+    if(!document.querySelector('.card.open')){var fc=document.querySelector('.card');if(fc)fc.classList.add('open');}
+    console.log('%cADNOC Gas %cSulfur Pipeline Guidebook %cready. %c78,521 M³ %c| %c2 SVGs %c| %cClauses (c)+(d) %c| %cQRC/IRN Active','font-weight:bold;color:#38BDF8;','color:#E8EDF5;','','color:#38BDF8;','','color:#34D399;','','color:#FBBF24;','','color:#EF4444;');
+})();
+</script>
+</body>
+</html>
