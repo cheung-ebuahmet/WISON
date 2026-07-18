@@ -1,0 +1,61 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-3 Rev. D.xlsx
+# Sheet: Package Summary
+"# Rows: 47, Cols: 19"
+
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-1,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026",
+NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,Qty by WBS,,,,"MANHOURS
+A","LABOR COST
+B","MATERIAL COST
+C","TOOLS& CONSUMABLE
+COST D","EQUIPMENT COST
+E","DIRECT COST
+F",REMARK,
+,,,,,,,UNIT 30,"UNIT 40 
+SSB","UNIT 40 
+General","Day 
+Vessel",Amout,Amout,Amout,Amout,Amout,Amout,,
+,,,,,,Q,,,,,=Q*a,=Q*b,=Q*c,=Q*d,=Q*e,=Q*f,,
+PK-0001,Sulphur Remelter Package,Refer to Package-001,Refer to Package-001,Contractor,Package,1,1,,,,,,,,,,,
+PK-0002,Granulator Package,Refer to Package-002,Refer to Package-002,Contractor,Package,10,10,,,,,,,,,,,
+PK-0003,Portal Stacker Reclaimer,Refer to Package-003,Refer to Package-003,Contractor,Package,2,,2,,,0,0,0,0,0,0,,
+PK-0004,DUST SUPPRESSION SYSTEM,Refer to Package-004,Refer to Package-004,Contractor,Package,1,,,1,,,,,,,,,
+PK-0005,Belt Conveyor,Refer to Package-005,Refer to Package-005,Contractor,Package,1,,,1,,0,0,0,0,0,0,,
+PK-0006,DUST COLLECTION SYSTEM,Refer to Package-006,Refer to Package-006,Contractor,Package,1,,,1,,,,,,,,,
+,,Package Equipment (Green) TOTAL,,,,,,,,,0,0,0,0,0,0,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,78 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Package-004
+"# Rows: 50, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 40 
+General",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+,4015-DS-0002,,"- Chemical Storage Tank (2.3m³), 
+- Pumps, control valves, instruments (PIT, FIT, LT), etc.- Flow Splitting Manifolds for headboxes
+- Nozzle Plate Assemblies (NPAs), and Nozzles (Foaming)
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,1,1,13,13,,0,,0,,0,,0,,0,0,0,
+,4015-DS-0003,,"- Pumps, control valves, instruments (PIT, FIT, LT), etc.
+- Flow Splitting Manifolds for headboxes
+- Nozzle Plate Assemblies (NPAs), and Nozzles (Hydraulic)
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,1,1,11,11,,0,,0,,0,,0,,0,0,0,
+,4015-TK-0015,,"- 25m³ chemical storage tank for (4015-DS-0003)
+- Structural and piping as per design within skid battery limits
+- Chemical unlaoding pumps
+- Level Transmitters",,Contractor,Package,1,1,5,5,,0,,0,,0,,0,,0,0,0,
+,Reclaimer Manifolds,,"- Pneumatic On/Off valve, pre-wired to JB, Instrument Air connections
+- Isolation valves, Pressure Gauge, flow indicators
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,1,1,1,1,,0,,0,,0,,0,,0,0,0,
+,Flow Splitting Manifolds,,"- Isolation valves, Pressure Gauge, flow indicators
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,1,1,0.7,0.7,,0,,0,,0,,0,,0,0,0,
+,Nozzle Plate Assemblies (NPA),,"- Isolation valves, fittings, flexible hose (1m)
+ - Nozzles",,Contractor,Package,1,1,0.01,0.01,,0,,0,,0,,0,,0,0,0,
+,Spray Bars,,"- Piping, fittings and nozzles",,Contractor,Package,1,1,TBC,TBC,,0,,0,,0,,0,,0,0,0,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",,Contractor,Lot,1,,,,,0,,0,,0,,0,,0,0,0,Refer to Vendor Document as attached
+,,,Package Equipment 004 TOTAL,,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

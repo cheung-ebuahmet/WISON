@@ -1,0 +1,24 @@
+﻿,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Sulfur Granulator Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,CODE:24108-25100-
+SUBCONTRACT:CIVIL AND BLDG WORKS PACKAGE II,,,,,,,,,,,,,,,,,
+Item,Category,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST TOTAL
+F",,Remarks
+,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+NO.1,,Corrosion Monitoring System,,,,,,,,,,,,,,,
+1.1,"CMS for Non-Critical Structure
+Supply by Wison","Corrosion Monitoring System and Provision for Future Cathodic Protection – Non-Critical as per AGES-STD-01-107.
+Installation of Ag/AgCl reference electrodes, including threaded bosses, monitoring connectors, test stations, UPVC conduits, etc., as shown on the above standard drawing.",EA,65,950,61750,1026,66690,0,0,0,0,0,0,1026,66690,
+1.2,"CMS for Critical Structure
+Supply by Wison","Corrosion Monitoring System and Provsion for future Cathodic protection-critical structure as per AGES-STD-01-108
+Corrosion monitoring probe installation, including threaded boss, clamps,wire ropes etc., as shown on the above standard drawing.",EA,15,1200,18000,1296,19440,0,0,0,0,0,0,1296,19440,
+,,SUBTOTAL-CMS WORKS (Brown),,,,79750,,86130,,0,,0,,0,,86130,

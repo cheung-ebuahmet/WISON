@@ -1,0 +1,69 @@
+# Source: Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5 .xlsx
+# Sheet: Package-008
+"# Rows: 48, Cols: 23"
+
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,0
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,,,,,,,,,,,,,,,,,,,,"REV. C, DATE: 30/DEC/2025"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",规格参数,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,Air Compressor,UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,
+PK-0008,1031-ME-0001,AIR COMPRESSOR PACKAGE,"Capacity：1730Nm3/h 
+Package including:",Contractor,Package,1,1,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+,1031-C-0001A/S ,,"1031-C-0001A/S AIR COMPRESSOR
+Size:3500 x 2200 x 2500",Contractor,set,2,2,8.5,17,973.82,1947.64,42887.0328,85774.0656,,0,7497.63254470588,14995.2650894118,6349.36985294118,12698.7397058824,56734.0351976471,113468.070395294,
+,1031-ME-0002 ,,"1031-ME-0002 AIR DRYER PACKAGE
+Size:2800x2000x3200",Contractor,set,2,2,3.6,7.2,356.96,713.92,15720.5184,31441.0368,,0,4122.48595764706,8244.97191529412,2717.95882352941,5435.91764705882,22560.9631811765,45121.9263623529,
+,1031-V-0001,,"1031-V-0001  WET AIR RECEIVER
+Size:3000x11800
+Volume:90m3",Contractor,set,1,1,,,520.06864,520.06864,22903.8229056,22903.8229056,,0,5945.14876820706,5945.14876820706,20884.7200411765,20884.7200411765,49733.6917149836,49733.6917149836,
+,1031-V-0002 ,,"1031-V-0002 INSTRUMENT AIR RECEIVER
+Size：3600x14500
+Volume:160m3",Contractor,set,1,1,,,535.23484,535.23484,23571.7423536,23571.7423536,,0,6796.66065271294,6796.66065271294,20902.5141441176,20902.5141441176,51270.9171504305,51270.9171504305,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",Contractor,Lot,1,1,,,3495.26952,3495.26952,153931.6696608,153931.6696608,,0,32607.9949484329,32607.9949484329,13125.7576985294,13125.7576985294,199665.422307762,199665.422307762,
+,,,Package Equipment-008 (Green) TOTAL,,,,,,,,7212.133,,317622.33732,,0,,68590.0413740588,,73047.6492367647,,459260.027930823,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,

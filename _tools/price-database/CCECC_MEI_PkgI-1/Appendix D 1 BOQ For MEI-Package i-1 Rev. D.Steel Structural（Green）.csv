@@ -1,0 +1,76 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Steel Structural（Green）
+"# Rows: 57, Cols: 19"
+
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+No.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,Material Supplied By,UNIT,Qty.,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+SS-01,,Structural Steel,,,,,,,,,,,,,,,,
+SS-01-0001,Light sections (less than 10kg/m),"HM HN HW TM TN TW Q355B GBT1591 or ASTM GRADE A36 / A36M or S275JR TO BS EN 10025-1 T0 6
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed )  ----- (GB and ASTM ,BS Optional quotation)",Contractor,T,11.13,,0,,0,,0,,0,,0,0,0,
+SS-01-0002,Medium sections (10- 50 kg/m),"HM HN HW TM TN TW Q355B GBT1591 or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed) /-----(GB and ASTM ,BS Optional quotation)",Contractor,T,355.5,,0,,0,,0,,0,,0,0,0,
+SS-01-0003,Heavy sections (50~150 kg/m),"HM HN HW TM TN TW Q355B GBT1591 and Welded section steel or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed ) / (GB and ASTM ,BS Optional quotation) ",Contractor,T,351,,0,,0,,0,,0,,0,0,0,
+SS-01-0004,Extra heavy built-up sections (greater than150 kg/m),"HM HN HW TM TN TW Q355B GBT1591 and Welded section steel or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed )  ----- (GB and ASTM ,BS Optional quotation)",Contractor,T,622,,0,,0,,0,,0,,0,0,0,
+SS-01-0005,Monorail of stacker/reclaimer,ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2 Note (not inculded in CV packge in quote stage),Contractor,T,0,,0,,0,,0,,0,,0,0,0,
+SS-01-0006,Steel for Ladders &Cage& Miscelaneous&Stairs,"Ladder and rungs shall conform to BS EN 10025 Grade S275JR or ASTM Grade A36/A36M.Ladder rungs shall be of 20mm diameter, hot dip galvanized and detail refer to COMPANY standard drawing AGES-STD-01/----(GB and ASTM ,BS Optional quotation)",Contractor,T,9.32,,0,,0,,0,,0,,0,0,0,
+SS-01-0007,Steel for Handrails,"Handrail shall be hot dip galvanized  as per ASTM A53 /A53M Grade B or ASTM A500 /A500M Grade B or BS EN10210 Grade S275 JR and size and detail as per COMPANY standard drawing AGES-STD-01-206/207--- (GB and ASTM ,BS Optional quotation)",Contractor,T,6.98,,0,,0,,0,,0,,0,0,0,
+SS-01-0008,GRATING -WELDED ,"ASTM A36 / A36M OR ASTMA1011/A1011M galavanized ,size and detial refer to SPEC and standard drawing AGES-STD-01-215 and  AGES-SP-01-002--- (GB and ASTM ,BS Optional quotation)",Contractor,T,32.22,,0,,0,,0,,0,,0,0,0,
+SS-01-0009,Purlins,"Cold formed shapes and  minimum thickness shall be 2mm 
+material refer to AGES-SP-01-002 and standard drawing AGES-STD-01",Contractor,T,104.46,,0,,0,,0,,0,,0,0,0,
+SS-01-0010,Roof,prepainted profiled steel sheet (0.9mm thk.)  ；material requirements refer to AGES-SP-01-002 -Clause 12.2,Contractor,M2,6200,,0,,0,,0,,0,,0,0,0,
+SS-01-0011,Roof,single skin aluminium sheeting (0.9mm thk.)；material requirements refer to AGES-SP-01-002 -Clause 12.2,Contractor,M2,0,,0,,0,,0,,0,,0,0,0,
+SS-01-0012,Crane Runways and monirail,"HM HN HW TM TN TWQ 355B GBT1591
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed)  ---- (GB and ASTM ,BS Optional quotation)",Contractor,T,28,,0,,0,,0,,0,,0,0,0,
+SS-01-0013,Checked plate,"ASTM A786/786M, PATTERN 4OR PATTERN 5 AND ASTM GRADE A36/A36M
+HOT DIP GALVANIZED AS PER ASTM A123/A123MA123M, material refer to AGES-SP-01-002 and standard drawing AGES-STD-01",Contractor,T,97.6,,0,,0,,0,,0,,0,0,0,
+SS-01-0014,Miscellaneous,Downspout Ø 100mm，pre-coated galvanized sheet according to ASTM 123/A123M and A143/143M,Contractor,M,280,,0,,0,,0,,0,,0,0,0,
+SS-01-0015,Miscellaneous,gutter(3mm thick pre-coated galvanized sheet according to ASTM 123/A123M and A143/143M),Contractor,M,280,,0,,0,,0,,0,,0,0,0,
+SS-01-0016,Miscellaneous,"Structural steel fabrication, regardless of light, medium or heavy steel, in accordance with the IFC Drawings and Project Specifications (painting and galvanizing excluded).",Contractor,T,1,,0,,0,,0,,0,,0,0,0,Updated new item
+SS-02,,"SS for Sulpher Storage Building
+Steel Space Frame Structure",,,,,,,,,,,,,,,,
+SS-02-0001,Supports and Embedded Parts of Space Frame,Q355B,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0002,Main Members of Space Frame,Q355B,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0003,Bolted Spherical Nodes and Cone-End Accessories of Space Frame,45# Steel,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0004,High-Strength Bolts for Space Frame,10.9S,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0005,Roof Purlins and Connection Fittings,Q355,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0006,Wall Purlins and Connection Fittings,Q355,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0007,H-Shaped Steel Beams and Columns (50~150 kg/m),Q355B,Contractor,T,,,0,,0,,0,,0,,,,,
+SS-02-0008,Al-Mg-Mn Alloy Roof Panels,0.9mm，PVDF，ARC65,Contractor,M2,,,0,,0,,0,,0,,,,,
+SS-02-0009,Translucent Panels,1.5mm，FRP,Contractor,M2,,,0,,0,,0,,0,,,,,
+SS-02-0010,Wall Cladding Panels,0.9mm，PVDF，ARC65,Contractor,M2,,,0,,0,,0,,0,,,,,
+SS-02-0011,Color Steel Sheet Flashing,0.9mm，PVDF,Contractor,M,,,0,,0,,0,,0,,,,,
+SS-02-0012,Rolling Shutter Door,As per project spec and requirements,Contractor,M2,,,0,,0,,0,,0,,,,,
+SS-02-0013,Ridge Ventilator,As per project spec and requirements,Contractor,M2,,,0,,0,,0,,0,,,,,
+SS-02-0014, Steel Gutter and Gutter Brackets,"Q345B Hot-Dip Galvanized, Pre-coated Galvanized Metal per ASTM A123/A123M and A143/A143M Standards",Contractor,M,,,0,,0,,0,,0,,,,,
+SS-02-0015,Rainwater Downpipe,φ150 (Pre-coated Galvanized Steel Sheet),Contractor,M,,,0,,0,,0,,0,,,,,
+,,Steel Structural (Green) TOTAL,,,,,0,,0,,0,,0,,0,,0,
+NOTES:,,,,,,,,,,,,,,,,,,
+1,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,
+1.1,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,
+1.2,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,
+1.3,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,
+2,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,
+3,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

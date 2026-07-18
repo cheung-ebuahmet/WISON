@@ -1,0 +1,85 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Package-001
+"# Rows: 59, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,UNIT 30,UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,
+PK-0001,3035-ME-0001,Sulphur Remelter Package,"Capacity:30 tpd
+Package including:",,Contractor,Package,1,1,60,60,,,,,,,,,,,,,Refer to Vendor Document as attached
+,,Seperate Part,"Infeed Hopper （Tag No.3035-BN-0001)
+Size(L*W*H mm): 4900*3800*3600",316/316L duple certificate SS,Contractor,1EA,1,1,7,7,,0,,0,,0,,0,,0,0,0,
+,,Seperate Part,"Infeed Conveyor（Tag No.3035-CV-0001)
+Size(L*W*H mm): 12000*250*250",316/316L dual certificate SS,Contractor,1EA,1,1,2.5,2.5,,0,,0,,0,,0,,0,0,0,
+,,"Skid 1, Weigth 25T","Melting Vessel （Tag No.3035-MX-0001)
+Size(φ*H mm): 600*1600",316/316L dual certificate SS,Contractor,1EA,1,1,25,25,,0,,0,,0,,0,,0,0,0,
+,,,Melting Tank（Tag No.3035-TK-0001) Size(L*W*H mm): Ø2000 x 2500H,316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,,Agitator（Tag No.3035-AG-0001) Size(mm): Ø2000 x 2500H,316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,,"Heat Exchanger （Tag No.3035-HX-0001)
+Size(L*W*H mm): 4000*1000*1000",Shell: 316/316L / Tube: 316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,,"Screw Conveyor (for melting tank/ Clarifier tanks) （Tag No.3035-CV-0002)
+Size(L*W*H mm): 4000*250*250",316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,,"Pump Tank（Tag No.3035-TK-0003)
+Size(L*W*H mm): Ø2000 x 1500H",316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,,"Settlement tank（Tag No.3035-TK-0002)
+Size(L*W*H mm): 3200*3000*4000",316/316L dual certificate SS,Contractor,1EA,,,,,,,,,,,,,,,,,
+,,"Skid 2, Weight 10T","Sulphur Filter（Tag No.3035-F-0001A/B)
+Size(L*W*H mm): Ø400 x 1350H",Shell: CS / Screen Mesh: 316/316L duple certificate SS,Contractor,2EA,1,1,10,10,,0,,0,,0,,0,,0,0,0,
+,,,"Sulphur Filter（Tag No.3035-F-0002A/B)
+Size(L*W*H mm): Ø400 x 1350H",Shell: CS / Screen Mesh: 316/316L duple certificate SS,Contractor,2EA,,,,,,,,,,,,,,,,,
+,,"Skid 3, Weight 13T","Recirculation Pump （Tag No.3035-P-0001A/B)
+Size(L*W*H mm): 1800*2400*600",316/316L dual certificate SS,Contractor,2EA,1,1,13,13,,0,,0,,0,,0,,0,0,0,
+,,,"Transfer Pump（Tag No.3035-P-0002A/B)
+Size(L*W*H mm): 1800*2000*600",316/316L dual certificate SS,Contractor,2EA,,,,,,,,,,,,,,,,,
+,,,"3035-Z-0001,  Desuperheater, Water Bath Type, 9.8 kg/cm2g @190℃ steam to 5 barg & 2 barg saturated steam",CS,Contractor,1Package,,,,,,,,,,,,,,,,,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",,Contractor,Lot,1,,,,,0,,0,,0,,0,,0,0,0,Refer to Vendor Document as attached
+,,,"Insulation for all piping, vessels, and pumps within the skid are required to be insulated， refer to attached layout  drawings",,Contractor,Lot,1,,,,,0,,0,,0,,0,,0,0,0,Refer to Vendor Document as attached
+,,,Package Equipment 001 TOTAL,,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

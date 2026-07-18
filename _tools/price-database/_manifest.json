@@ -1,0 +1,322 @@
+[
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\A-Summary.csv",
+    "rows": 22,
+    "cols": 13
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\A.1-INDIRECTS_BREAKDOWN.csv",
+    "rows": 58,
+    "cols": 4
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "PLOT PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN（Green）.csv",
+    "rows": 158,
+    "cols": 29
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "PLOT PLAN (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN_(Brown).csv",
+    "rows": 75,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CIVIL（Green）.csv",
+    "rows": 191,
+    "cols": 29
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "CIVIL（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CIVIL（Brown).csv",
+    "rows": 118,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP_（Green）.csv",
+    "rows": 29,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "UG PIP（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP（Brown).csv",
+    "rows": 26,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "CMS (Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CMS_(Green).csv",
+    "rows": 13,
+    "cols": 18
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Provisional Sum",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Provisional_Sum.csv",
+    "rows": 108,
+    "cols": 29
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Labor_Rates.csv",
+    "rows": 98,
+    "cols": 6
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Equipment_Rates.csv",
+    "rows": 258,
+    "cols": 5
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\A-Summary.csv",
+    "rows": 26,
+    "cols": 8
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\A.1-INDIRECTS_BREAKDOWN.csv",
+    "rows": 58,
+    "cols": 6
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\PLOT_PLAN（Green）.csv",
+    "rows": 104,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\PLOT_PLAN_(Brown).csv",
+    "rows": 137,
+    "cols": 20
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CIVIL（Green）.csv",
+    "rows": 188,
+    "cols": 27
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "CIVIL（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CIVIL（Brown).csv",
+    "rows": 118,
+    "cols": 20
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "BLDG （Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\BLDG_（Green).csv",
+    "rows": 211,
+    "cols": 27
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\UG_PIP_（Green）.csv",
+    "rows": 29,
+    "cols": 21
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "UG PIP（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\UG_PIP（Brown).csv",
+    "rows": 26,
+    "cols": 21
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "CMS (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CMS_(Green）.csv",
+    "rows": 13,
+    "cols": 19
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Labor_Rates.csv",
+    "rows": 98,
+    "cols": 4
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Equipment_Rates.csv",
+    "rows": 258,
+    "cols": 5
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\A-Summary.csv",
+    "rows": 22,
+    "cols": 4
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\A.1-INDIRECTS_BREAKDOWN.csv",
+    "rows": 58,
+    "cols": 4
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\PLOT_PLAN（Green）.csv",
+    "rows": 83,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\CIVIL（Green）.csv",
+    "rows": 188,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "BLDG （Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\BLDG_（Green).csv",
+    "rows": 210,
+    "cols": 25
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\UG_PIP_（Green）.csv",
+    "rows": 30,
+    "cols": 21
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Labor_Rates.csv",
+    "rows": 98,
+    "cols": 6
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Equipment_Rates.csv",
+    "rows": 258,
+    "cols": 5
+  }
+]

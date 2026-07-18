@@ -1,0 +1,61 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Steel Structural (Brown)
+"# Rows: 37, Cols: 20"
+
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+No.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,Material Supplied By,UNIT,Qty.,WBS,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,"UNIT 40 
+General",U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,Q,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+SS-00,,Structural Steel-Demolition and Modification,,,,,,,,,,,,,,,,,
+SS-00-0001,Demolition,"Demolition of Steel Structures, from exsisting Plant (above10 kg/m, up to150 Kg/m)",,T,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-00-0002,Modification and Installation,"Installation of Steel Structures, using exsisting steel dismantled from exsisting Plant (above10 kg/m, up to150 Kg/m)",,T,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-00-0003,Medium sections (10- 50 kg/m)new,"HM HN HW TM TN TW Q355B GBT1591 or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed) /-----(GB and ASTM ,BS Optional quotation)",Contractor,T,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-00-0004,Heavy sections (50~150 kg/m),"HM HN HW TM TN TW Q355B GBT1591 and Welded section steel or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed ) / (GB and ASTM ,BS Optional quotation)",Contractor,T,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-00-0005,Extra heavy built-up sections (greater than150 kg/m),"HM HN HW TM TN TW Q355B GBT1591 and Welded section steel or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed )  ----- (GB and ASTM ,BS Optional quotation)",Contractor,T,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-01,,New Structural Steel Installation,,,,,,,,,,,,,,,,,
+SS-01-0001,Light sections (less than 10kg/m),"HM HN HW TM TN TW Q355B GBT1591 or ASTM GRADE A36 / A36M or S275JR TO BS EN 10025-1 T0 6
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed )  ----- (GB and ASTM ,BS Optional quotation)",Contractor,T,10,10,,0,,0,,0,,0,,0,0,0,
+SS-01-0002,Medium sections (10- 50 kg/m),"HM HN HW TM TN TW Q355B GBT1591 or ASTM A501/A5O1M GRADE AOR B or S275J0H/ 5275J2H 0R 5355J0H/S355J2H TO BS EN 10210-1&2
+ (All corrosion protection painting and gravaning is done in workshop, including primer, intermediate & top coat ---to be confirmed) /-----(GB and ASTM ,BS Optional quotation)",Contractor,T,100,100,,0,,0,,0,,0,,0,0,0,
+SS-01-0003,Roof,Prepainted profiled steel sheet (0.9mm thk.)  ；material requirements refer to AGES-SP-01-002 -Clause 12.2,Contractor,M2,200,200,,0,,0,,0,,0,,0,0,0,
+SS-02,,Coating,,,,,,,,,,,,,,,,,
+SS-02-001,STEEL GALVANISED,"Min. weight of zinc：
+Under 1.6 mm (1/16”) thick：320 grams/m2
+1.6 mm (1/16”) to < 3.2 mm (1/8”) thick：460grams/m2
+3.2 mm (1/8”) to 6.4 mm (1/4”) thick：530grams/m2
+> = 6.4 mm (1/4”) thick：705grams/m2",Subcontractor,m2,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+SS-02-002,STEEL PAINTING,"Primer Epoxy：40μm
+Polyamide MIO epoxy：40μm
+Modified aliphatic polyurethane：75μm,
+Total  Dry Film Thickness Microns：150μm",Subcontractor,m2,1,1,,0,,0,,0,,0,,0,0,,RATE ONLY
+,,Steel Structural (Brown) TOTAL,,,,,,0,,0,,0,,0,,0,,0,
+NOTES:,,,,,,,,,,,,,,,,,,,
+1,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,
+1.1,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,
+1.2,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,
+1.3,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,
+2,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,
+3,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

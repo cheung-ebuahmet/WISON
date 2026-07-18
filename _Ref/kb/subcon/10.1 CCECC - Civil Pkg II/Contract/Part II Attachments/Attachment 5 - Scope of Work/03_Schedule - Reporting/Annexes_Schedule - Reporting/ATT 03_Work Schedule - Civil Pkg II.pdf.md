@@ -1,0 +1,913 @@
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+| AADDNNOOCC  GGAASS  EEPPCC  WWOORRKKSS  FFOORR  SSGGPP  AATT  RRSSHHTT  22  FFOORR  HH&&GG  __  AApppprroovveedd  --  BB22 |     | 929 07-Jul-25 | 21-Jan-28 | 82  |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| HHoommee  OOffffiiccee  SSeerrvviiccee                                                                                     |     | 274 07-Jul-25 | 14-Aug-26 | 275 |     |     |     |     |     |
+| EEnnggiinneeeerriinngg                                                                                                     |     | 274 07-Jul-25 | 14-Aug-26 | 275 |     |     |     |     |     |
+| CCiivviill  &&  SSttrruuccttuurraall                                                                                       |     | 274 07-Jul-25 | 14-Aug-26 | 275 |     |     |     |     |     |
+| 1100  --  CCoommmmoonn  &&  UUttiilliittiieess                                                                             |     | 272 07-Jul-25 | 12-Aug-26 | 208 |     |     |     |     |     |
+| RROOAADD  AANNDD  PPAAVVIINNGG                                                                                             |     | 159 07-Jul-25 | 27-Feb-26 | 258 |     |     |     |     |     |
+| RROOAADD  AANNDD  PPAAVVIINNGG  KKEEYY  PPLLAANN  --  CCllaassss  22                                                       |     | 77 07-Jul-25  | 28-Oct-25 | 310 |     |     |     |     |     |
+HEN10CI2370 ROAD AND PAVING KEY PLAN - IFR 10 07-Jul-25 18-Jul-25 213 ROAD AND PAVING KEY PLAN - IFR
+HEN10CI2380 ROAD AND PAVING KEY PLAN - ICR 3 31-Jul-25 04-Aug-25 333 ROAD AND PAVING KEY PLAN - ICR
+HEN10CI2390 ROAD AND PAVING KEY PLAN - Receive COMPANY Comments 10 05-Aug-25 18-Aug-25 333 ROAD AND PAVING KEY PLAN - Receive COMPANY Comments
+HEN10CI2400 ROAD AND PAVING KEY PLAN - IFC 5 22-Oct-25 28-Oct-25 310 ROAD AND PAVING KEY PLAN - IFC
+| RROOAADD  PPLLAANN  AARREEAA  ""FF11""  --  CCllaassss  22 |     | 81 19-Aug-25 | 16-Dec-25 | 280 |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2410 ROAD PLAN AREA "F1" - IFR 10 19-Aug-25 01-Sep-25 333 ROAD PLAN AREA "F1" - IFR
+HEN10CI2420 ROAD PLAN AREA "F1" - ICR 3 02-Sep-25 04-Sep-25 333 ROAD PLAN AREA "F1" - ICR
+HEN10CI2430 ROAD PLAN AREA "F1" - Receive COMPANY Comments 10 05-Sep-25 18-Sep-25 333 ROAD PLAN AREA "F1" - Receive COMPANY Comments
+HEN10CI2450 ROAD PLAN AREA "F1" - IFC 5 10-Dec-25 16-Dec-25 280 ROAD PLAN AREA "F1" - IFC
+| RROOAADD  PPLLAANN  AARREEAA  ""FF22""  --  CCllaassss  22 |     | 86 19-Aug-25 | 23-Dec-25 | 280 |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2460 ROAD PLAN AREA "F2" - IFR 10 19-Aug-25 01-Sep-25 338 ROAD PLAN AREA "F2" - IFR
+HEN10CI2470 ROAD PLAN AREA "F2" - ICR 3 02-Sep-25 04-Sep-25 338 ROAD PLAN AREA "F2" - ICR
+HEN10CI2480 ROAD PLAN AREA "F2" - Receive COMPANY Comments 10 05-Sep-25 18-Sep-25 338 ROAD PLAN AREA "F2" - Receive COMPANY Comments
+HEN10CI2490 ROAD PLAN AREA "F2" - IFC 5 17-Dec-25 23-Dec-25 280 ROAD PLAN AREA "F2" - IFC
+| PPAAVVIINNGG  PPLLAANN  AARREEAA  ""FF11""  --  CCllaassss  22 |     | 72 22-Oct-25 | 30-Jan-26 | 258 |     |     |     |     |     |
+| -------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2500 PAVING PLAN AREA "F1" - IFR 10 22-Oct-25 04-Nov-25 302 PAVING PLAN AREA "F1" - IFR
+HEN10CI2510 PAVING PLAN AREA "F1" - ICR 3 05-Nov-25 07-Nov-25 302 PAVING PLAN AREA "F1" - ICR
+HEN10CI2520 PAVING PLAN AREA "F1" - Receive COMPANY Comments 10 10-Nov-25 21-Nov-25 302 PAVING PLAN AREA "F1" - Receive COMPANY Comments
+HEN10CI2540 PAVING PLAN AREA "F1" - IFC 5 26-Jan-26 30-Jan-26 258 PAVING PLAN AREA "F1" - IFC
+| PPAAVVIINNGG  PPLLAANN  AARREEAA  ""FF22""  --  CCllaassss  22 |     | 77 22-Oct-25 | 06-Feb-26 | 258 |     |     |     |     |     |
+| -------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2550 PAVING PLAN AREA "F2" - IFR 10 22-Oct-25 04-Nov-25 307 PAVING PLAN AREA "F2" - IFR
+HEN10CI2560 PAVING PLAN AREA "F2" - ICR 3 05-Nov-25 07-Nov-25 307 PAVING PLAN AREA "F2" - ICR
+HEN10CI2570 PAVING PLAN AREA "F2" - Receive COMPANY Comments 10 10-Nov-25 21-Nov-25 307 PAVING PLAN AREA "F2" - Receive COMPANY Comments
+HEN10CI2580 PAVING PLAN AREA "F2" - IFC 5 02-Feb-26 06-Feb-26 258 PAVING PLAN AREA "F2" - IFC
+| RROOAADD  SSEECCTTIIOONN  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 123 19-Aug-25 | 13-Feb-26 | 258 |     |     |     |     |     |
+| ---------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2590 ROAD SECTION & DETAILS - IFR 10 19-Aug-25 01-Sep-25 353 ROAD SECTION & DETAILS - IFR
+HEN10CI2600 ROAD SECTION & DETAILS - ICR 3 02-Sep-25 04-Sep-25 353 ROAD SECTION & DETAILS - ICR
+HEN10CI2610 ROAD SECTION & DETAILS - Receive COMPANY Comments 10 05-Sep-25 18-Sep-25 353 ROAD SECTION & DETAILS - Receive COMPANY Comments
+HEN10CI2630 ROAD SECTION & DETAILS - IFC 5 09-Feb-26 13-Feb-26 258 ROAD SECTION & DETAILS - IFC
+| PPAAVVIINNGG  SSEECCTTIIOONN  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 87 22-Oct-25 | 27-Feb-26 | 258 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2640 PAVING SECTION & DETAILS - IFR 15 22-Oct-25 11-Nov-25 312 PAVING SECTION & DETAILS - IFR
+HEN10CI2650 PAVING SECTION & DETAILS - ICR 3 12-Nov-25 14-Nov-25 312 PAVING SECTION & DETAILS - ICR
+HEN10CI2660 PAVING SECTION & DETAILS - Receive COMPANY Comments 10 17-Nov-25 28-Nov-25 312 PAVING SECTION & DETAILS - Receive COMPANY Comments
+HEN10CI2670 PAVING SECTION & DETAILS - IFC 5 23-Feb-26 27-Feb-26 258 PAVING SECTION & DETAILS - IFC
+| FFEENNCCEE                               |     | 68 26-Jan-26 | 12-May-26 | 210 |     |     |     |     |     |
+| ---------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| FFEENNCCEE  PPLLAANN  --  CCllaassss  22 |     | 48 26-Jan-26 | 09-Apr-26 | 215 |     |     |     |     |     |
+HEN10CI2680 FENCE PLAN - IFR 20 26-Jan-26 27-Feb-26 210 FENCE PLAN - IFR
+HEN10CI2690 FENCE PLAN - ICR 3 02-Mar-26 04-Mar-26 215 FENCE PLAN - ICR
+HEN10CI2700 FENCE PLAN - Receive COMPANY Comments 10 05-Mar-26 18-Mar-26 215 FENCE PLAN - Receive COMPANY Comments
+HEN10CI2720 FENCE PLAN - IFC 15 19-Mar-26 09-Apr-26 215 FENCE PLAN - IFC
+| FFEENNCCEE  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 02-Mar-26 | 12-May-26 | 210 |     |     |     |     |     |
+| ---------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2730 FENCE DETAILS - IFR 20 02-Mar-26 27-Mar-26 210 FENCE DETAILS - IFR
+HEN10CI2740 FENCE DETAILS - ICR 3 30-Mar-26 01-Apr-26 210 FENCE DETAILS - ICR
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 1 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+HEN10CI2750 FENCE DETAILS - Receive COMPANY Comments 10 02-Apr-26 16-Apr-26 210 FENCE DETAILS - Receive COMPANY Comments
+HEN10CI2760 FENCE DETAILS - IFC 15 17-Apr-26 12-May-26 210 FENCE DETAILS - IFC
+| RROOAADD  MMAARRKKIINNGG  LLAAYYOOUUTT  --  CCllaassss  22 |     | 48 02-Jun-26 | 07-Aug-26 | 148 |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6110 ROAD MARKING LAYOUT - IFR 20 02-Jun-26 30-Jun-26 145 ROAD MARKING LAYOUT - IFR
+HEN10CI6120 ROAD MARKING LAYOUT - ICR 3 01-Jul-26 03-Jul-26 145 ROAD MARKING LAYOUT - ICR
+HEN10CI6130 ROAD MARKING LAYOUT - Receive COMPANY Comments 10 06-Jul-26 17-Jul-26 148 ROAD MARKING LAYOUT - Receive COMPANY Comments
+HEN10CI6140 ROAD MARKING LAYOUT - IFC 15 20-Jul-26 07-Aug-26 148 ROAD MARKING LAYOUT - IFC
+|     |     | 48 05-Jun-26 | 12-Aug-26 | 145 |     |     |     |     |     |
+| --- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+OOUUTTLLIINNEE  SSIIGGNNAAGGEE  RROOAADDSS  --  CCllaassss  22
+HEN10CI6150 OUTLINE SIGNAGE ROADS - IFR 20 05-Jun-26 03-Jul-26 145 OUTLINE SIGNAGE ROADS - IFR
+HEN10CI6160 OUTLINE SIGNAGE ROADS - ICR 3 06-Jul-26 08-Jul-26 145 OUTLINE SIGNAGE ROADS - ICR
+HEN10CI6170 OUTLINE SIGNAGE ROADS - Receive COMPANY Comments 10 09-Jul-26 22-Jul-26 145 OUTLINE SIGNAGE ROADS - Receive COMPANY Comments
+HEN10CI6180 OUTLINE SIGNAGE ROADS - IFC 15 23-Jul-26 12-Aug-26 145 OUTLINE SIGNAGE ROADS - IFC
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN                                                 |     | 48 26-Jan-26 | 09-Apr-26 | 117 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN  PPLLAANN  KKEEYY  PPLLAANN  --  CCllaassss  33 |     | 33 26-Jan-26 | 18-Mar-26 | 61  |     |     |     |     |     |
+HEN10CI6190 COMPOSITE FOUNDATION PLAN KEY PLAN - IFR 15 26-Jan-26 13-Feb-26 61 COMPOSITE FOUNDATION PLAN KEY PLAN - IFR
+HEN10CI6200 COMPOSITE FOUNDATION PLAN KEY PLAN - IFI 3 23-Feb-26 25-Feb-26 61 COMPOSITE FOUNDATION PLAN KEY PLAN - IFI
+HEN10CI6210 COMPOSITE FOUNDATION PLAN KEY PLAN - IFC 15 26-Feb-26 18-Mar-26 61 COMPOSITE FOUNDATION PLAN KEY PLAN - IFC
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN  PPLLAANN  AARREEAA  ""AA11""  --  CCllaassss  33 |     | 33 23-Feb-26 | 09-Apr-26 | 117 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6220 COMPOSITE FOUNDATION PLAN AREA "A1" - IFR 15 23-Feb-26 13-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "A1" - IFR
+HEN10CI6230 COMPOSITE FOUNDATION PLAN AREA "A1" - IFI 3 16-Mar-26 18-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "A1" - IFI
+HEN10CI6240 COMPOSITE FOUNDATION PLAN AREA "A1" - IFC 15 19-Mar-26 09-Apr-26 117 COMPOSITE FOUNDATION PLAN AREA "A1" - IFC
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN  PPLLAANN  AARREEAA  ""BB11""  --  CCllaassss  33 |     | 33 23-Feb-26 | 09-Apr-26 | 117 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6250 COMPOSITE FOUNDATION PLAN AREA "B1" - IFR 15 23-Feb-26 13-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "B1" - IFR
+HEN10CI6260 COMPOSITE FOUNDATION PLAN AREA "B1" - IFI 3 16-Mar-26 18-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "B1" - IFI
+HEN10CI6270 COMPOSITE FOUNDATION PLAN AREA "B1" - IFC 15 19-Mar-26 09-Apr-26 117 COMPOSITE FOUNDATION PLAN AREA "B1" - IFC
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN  PPLLAANN  AARREEAA  ""CC11""  --  CCllaassss  33 |     | 33 23-Feb-26 | 09-Apr-26 | 117 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6280 COMPOSITE FOUNDATION PLAN AREA "C1"  - IFR 15 23-Feb-26 13-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "C1"  - IFR
+HEN10CI6290 COMPOSITE FOUNDATION PLAN AREA "C1"  - IFI 3 16-Mar-26 18-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "C1"  - IFI
+HEN10CI6300 COMPOSITE FOUNDATION PLAN AREA "C1" - IFC 15 19-Mar-26 09-Apr-26 117 COMPOSITE FOUNDATION PLAN AREA "C1" - IFC
+| CCOOMMPPOOSSIITTEE  FFOOUUNNDDAATTIIOONN  PPLLAANN  AARREEAA  ""DD11""    --  CCllaassss  33 |     | 33 23-Feb-26 | 09-Apr-26 | 117 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6310 COMPOSITE FOUNDATION PLAN AREA "D1" - IFR 15 23-Feb-26 13-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "D1" - IFR
+HEN10CI6320 COMPOSITE FOUNDATION PLAN AREA "D1" - IFI 3 16-Mar-26 18-Mar-26 117 COMPOSITE FOUNDATION PLAN AREA "D1" - IFI
+HEN10CI6330 COMPOSITE FOUNDATION PLAN AREA "D1" - IFC 15 19-Mar-26 09-Apr-26 117 COMPOSITE FOUNDATION PLAN AREA "D1" - IFC
+| PPOONNDD |     | 74 26-Feb-26 | 15-Jun-26 | 75  |     |     |     |     |     |
+| -------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+|          |     | 48 03-Mar-26 | 13-May-26 | 83  |     |     |     |     |     |
+EEVVAAPPOORRAATTIIOONN  PPOONNDD  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22
+HEN10CI6030 EVAPORATION POND FOUNDATION CALCULATION REPORT - IFR 20 03-Mar-26 30-Mar-26 75 EVAPORATION POND FOUNDATION CALCULATION REPORT - IFR
+HEN10CI6040 EVAPORATION POND FOUNDATION CALCULATION REPORT - ICR 3 31-Mar-26 02-Apr-26 75 EVAPORATION POND FOUNDATION CALCULATION REPORT - ICR
+HEN10CI6050 EVAPORATION POND FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 03-Apr-26 17-Apr-26 83 EVAPORATION POND FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI6060 EVAPORATION POND FOUNDATION CALCULATION REPORT - IFC 15 20-Apr-26 13-May-26 83 EVAPORATION POND FOUNDATION CALCULATION REPORT - IFC
+| RREETTEENNTTIIOONN  PPOONNDDPPOONNDD  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 48 26-Feb-26 | 08-May-26 | 86  |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI6070 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - IFR 20 26-Feb-26 25-Mar-26 81 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - IFR
+HEN10CI6080 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - ICR 3 26-Mar-26 30-Mar-26 86 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - ICR
+HEN10CI6090 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 31-Mar-26 14-Apr-26 86 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI6100 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - IFC 15 15-Apr-26 08-May-26 86 RETENTION PONDPOND FOUNDATION CALCULATION REPORT - IFC
+| EEVVAAPPOORRAATTIIOONN  PPOONNDD  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 03-Apr-26 | 15-Jun-26 | 75  |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5150 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 03-Apr-26 06-May-26 75 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5160 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 07-May-26 11-May-26 75 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5170 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 12-May-26 25-May-26 75 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5180 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 26-May-26 15-Jun-26 75 EVAPORATION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| RREETTEENNTTIIOONN  PPOONNDD  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 26-Mar-26 | 05-Jun-26 | 81  |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5990 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 26-Mar-26 23-Apr-26 81 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 2 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+HEN10CI6000 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 24-Apr-26 28-Apr-26 81 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI6010 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 29-Apr-26 15-May-26 81 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI6020 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 18-May-26 05-Jun-26 81 RETENTION POND FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| PPOOTTAABBLLEE  &&  UUTTIILLIITTYY    WWAATTEERR  SSYYSSTTEEMM                                                                                 |     | 93 03-Dec-25 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| PPOOTTAABBLLEE  &&  UUTTIILLIITTYY    WWAATTEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 58 24-Dec-25 | 23-Mar-26 | 243 |     |     |     |     |     |
+HEN10CI5910 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - IFR 30 24-Dec-25 04-Feb-26 155 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - IFR
+HEN10CI5920 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - ICR 3 05-Feb-26 09-Feb-26 243 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - ICR
+HEN10CI5930 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments10 10-Feb-26 02-Mar-26 243 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5940 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - IFC 15 03-Mar-26 23-Mar-26 243 POTABLE & UTILITY  WATER SYSTEM FOUNDATION CALCULATION REPORT - IFC
+| PPOOTTAABBLLEE  &&  UUTTIILLIITTYY    WWAATTEERR  SSYYSSTTEEMM  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 93 03-Dec-25 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5950 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR 65 03-Dec-25 11-Mar-26 160 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN10CI5960 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - ICR 3 12-Mar-26 16-Mar-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - ICR
+HEN10CI5970 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Co1m0me1n7t-sMar-26 30-Mar-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5980 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC 15 31-Mar-26 21-Apr-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC
+| PPOOTTAABBLLEE  &&  UUTTIILLIITTYY    WWAATTEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 08-Jan-26 | 23-Mar-26 | 155 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5830 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 08-Jan-26 04-Feb-26 155 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5840 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 05-Feb-26 09-Feb-26 155 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5850 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Com1m0en1ts0-Feb-26 02-Mar-26 155 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5860 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 03-Mar-26 23-Mar-26 155 POTABLE & UTILITY  WATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| PPOOTTAABBLLEE  &&  UUTTIILLIITTYY    WWAATTEERR  SSYYSSTTEEMM  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 05-Feb-26 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5870 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 05-Feb-26 11-Mar-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5880 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 12-Mar-26 16-Mar-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5890 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPA1N0Y C1o7m-Mmaer-n2ts6 30-Mar-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5900 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 31-Mar-26 21-Apr-26 285 POTABLE & UTILITY  WATER SYSTEM STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| AAIIRR  CCOOMMPPRREESSSSOORR  PPAACCKKAAGGEE                                                                                 |     | 88 24-Dec-25 | 08-May-26 | 175 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| AAIIRR  CCOOMMPPRREESSSSOORR  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 58 08-Jan-26 | 07-Apr-26 | 175 |     |     |     |     |     |
+HEN10CI5750 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - IFR 30 08-Jan-26 25-Feb-26 148 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - IFR
+HEN10CI5760 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - ICR 3 26-Feb-26 02-Mar-26 175 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - ICR
+HEN10CI5770 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 03-Mar-26 16-Mar-26 175 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5780 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - IFC 15 17-Mar-26 07-Apr-26 175 AIR COMPRESSOR PACKAGE FOUNDATION CALCULATION REPORT - IFC
+| AAIIRR  CCOOMMPPRREESSSSOORR  PPAACCKKAAGGEE  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 88 24-Dec-25 | 08-May-26 | 175 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5790 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFR 60 24-Dec-25 25-Mar-26 148 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN10CI5800 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - ICR 3 26-Mar-26 30-Mar-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - ICR
+HEN10CI5810 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments10 31-Mar-26 14-Apr-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5820 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFC 15 15-Apr-26 08-May-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFC
+| AAIIRR  CCOOMMPPRREESSSSOORR  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 22-Jan-26 | 07-Apr-26 | 148 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5670 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS- IFR 20 22-Jan-26 25-Feb-26 148 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS- IFR
+HEN10CI5680 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 26-Feb-26 02-Mar-26 148 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5690 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 03-Mar-26 16-Mar-26 148 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5700 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 17-Mar-26 07-Apr-26 148 AIR COMPRESSOR PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| AAIIRR  CCOOMMPPRREESSSSOORR  PPAACCKKAAGGEE  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 26-Feb-26 | 08-May-26 | 175 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5710 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 26-Feb-26 25-Mar-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5720 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 26-Mar-26 30-Mar-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5730 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Com1m0e3n1ts-Mar-26 14-Apr-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5740 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 15-Apr-26 08-May-26 175 AIR COMPRESSOR PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| PPRROOCCEESSSS  WWAATTEERR  TTRREEAATTMMEENNTT                                                                                                 |     | 88 10-Dec-25 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| PPRROOCCEESSSS  WWAATTEERR  TTRREEAATTMMEENNTT  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 58 24-Dec-25 | 23-Mar-26 | 261 |     |     |     |     |     |
+HEN10CI5590 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - IFR 30 24-Dec-25 04-Feb-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - IFR
+HEN10CI5600 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - ICR 3 05-Feb-26 09-Feb-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - ICR
+HEN10CI5610 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comm10ent1s0-Feb-26 02-Mar-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5620 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - IFC 15 03-Mar-26 23-Mar-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION CALCULATION REPORT - IFC
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 3 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+| PPRROOCCEESSSS  WWAATTEERR  TTRREEAATTMMEENNTT  PPAACCKKAAGGEE  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 88 10-Dec-25 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5630 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFR 60 10-Dec-25 11-Mar-26 261 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN10CI5640 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - ICR 3 12-Mar-26 16-Mar-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - ICR
+HEN10CI5650 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - Receive COMPAN1Y0 C1o7m-Mmaern-2ts6 30-Mar-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5660 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFC 15 31-Mar-26 21-Apr-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL CALCULATION REPORT - IFC
+| PPRROOCCEESSSS  WWAATTEERR  TTRREEAATTMMEENNTT  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 08-Jan-26 | 23-Mar-26 | 261 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5510 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 08-Jan-26 04-Feb-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5520 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 05-Feb-26 09-Feb-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5530 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY1 C0om10m-Feenbts-26 02-Mar-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5540 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 03-Mar-26 23-Mar-26 261 PROCESS WATER TREATMENT PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| PPRROOCCEESSSS  WWAATTEERR  TTRREEAATTMMEENNTT  PPAACCKKAAGGEE  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 05-Feb-26 | 21-Apr-26 | 285 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5550 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 05-Feb-26 11-Mar-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5560 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 12-Mar-26 16-Mar-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5570 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive CO1M0PA17N-YM Caor-m26ments30-Mar-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5580 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 31-Mar-26 21-Apr-26 285 PROCESS WATER TREATMENT PACKAGE STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| DDRRAAIINNAAGGEE  AANNDD  SSEEWWEERR  SSYYSSTTEEMM                                                                                 |     | 91 23-Dec-25 | 12-May-26 | 173 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| DDRRAAIINNAAGGEE  AANNDD  SSEEWWEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 58 07-Jan-26 | 03-Apr-26 | 169 |     |     |     |     |     |
+HEN10CI5430 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - IFR 30 07-Jan-26 24-Feb-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - IFR
+HEN10CI5440 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - ICR 3 25-Feb-26 27-Feb-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - ICR
+HEN10CI5450 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 02-Mar-26 13-Mar-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5460 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - IFC 15 16-Mar-26 03-Apr-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION CALCULATION REPORT - IFC
+| DDRRAAIINNAAGGEE  AANNDD  SSEEWWEERR  SSYYSSTTEEMM  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 91 23-Dec-25 | 12-May-26 | 173 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5470 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR 40 23-Dec-25 24-Feb-26 169 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN10CI5480 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - ICR 3 25-Feb-26 27-Feb-26 196 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - ICR
+HEN10CI5490 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comme1n0ts02-Mar-26 13-Mar-26 196 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5500 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC 15 17-Apr-26 12-May-26 173 DRAINAGE AND SEWER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC
+| DDRRAAIINNAAGGEE  AANNDD  SSEEWWEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 21-Jan-26 | 03-Apr-26 | 169 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5350 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 21-Jan-26 24-Feb-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5360 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 25-Feb-26 27-Feb-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5370 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Commen1ts0 02-Mar-26 13-Mar-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5380 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 16-Mar-26 03-Apr-26 169 DRAINAGE AND SEWER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| DDRRAAIINNAAGGEE  AANNDD  SSEEWWEERR  SSYYSSTTEEMM    SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 02-Mar-26 | 12-May-26 | 173 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5390 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 02-Mar-26 27-Mar-26 173 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5400 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 30-Mar-26 01-Apr-26 173 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5410 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY C10om0m2e-Anptsr-26 16-Apr-26 173 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5420 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 17-Apr-26 12-May-26 173 DRAINAGE AND SEWER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| WWAASSTTEEWWAATTEERR  SSYYSSTTEEMM                                                                                 |     | 88 24-Dec-25 | 08-May-26 | 222 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| WWAASSTTEEWWAATTEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 58 08-Jan-26 | 07-Apr-26 | 168 |     |     |     |     |     |
+HEN10CI5270 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - IFR 30 08-Jan-26 25-Feb-26 168 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - IFR
+HEN10CI5280 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - ICR 3 26-Feb-26 02-Mar-26 168 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - ICR
+HEN10CI5290 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 03-Mar-26 16-Mar-26 168 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5300 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - IFC 15 17-Mar-26 07-Apr-26 168 WASTEWATER SYSTEM FOUNDATION CALCULATION REPORT - IFC
+| WWAASSTTEEWWAATTEERR  SSYYSSTTEEMM  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 88 24-Dec-25 | 08-May-26 | 222 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5310 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR 40 24-Dec-25 25-Feb-26 168 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN10CI5320 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT- ICR 3 26-Feb-26 02-Mar-26 242 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT- ICR
+HEN10CI5330 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments 10 03-Mar-26 16-Mar-26 242 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN10CI5340 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC 15 15-Apr-26 08-May-26 222 WASTEWATER SYSTEM STRUCTURAL STEEL CALCULATION REPORT - IFC
+| WWAASSTTEEWWAATTEERR  SSYYSSTTEEMM  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 22-Jan-26 | 07-Apr-26 | 168 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5190 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 22-Jan-26 25-Feb-26 168 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5200 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 26-Feb-26 02-Mar-26 168 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5210 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 03-Mar-26 16-Mar-26 168 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 4 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+HEN10CI5220 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 17-Mar-26 07-Apr-26 168 WASTEWATER SYSTEM FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| WWAASSTTEEWWAATTEERR  SSYYSSTTEEMM    SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 48 26-Feb-26 | 08-May-26 | 222 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI5230 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 26-Feb-26 25-Mar-26 222 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI5240 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 26-Mar-26 30-Mar-26 222 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN10CI5250 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Commen1ts0 31-Mar-26 14-Apr-26 222 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN10CI5260 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 15-Apr-26 08-May-26 222 WASTEWATER SYSTEM  STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| MMIISSCC.. |     | 73 26-Jan-26 | 19-May-26 | 205 |     |     |     |     |     |
+| ---------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+|            |     | 58 02-Feb-26 | 30-Apr-26 | 215 |     |     |     |     |     |
+MMIISSCC..  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33
+HEN10CI2130 MISC. FOUNDATION CALCULATION REPORT - IFR 40 02-Feb-26 03-Apr-26 205 MISC. FOUNDATION CALCULATION REPORT - IFR
+HEN10CI4390 MISC. FOUNDATION CALCULATION REPORT - IFI 3 07-Apr-26 09-Apr-26 230 MISC. FOUNDATION CALCULATION REPORT - IFI
+HEN10CI4400 MISC. FOUNDATION CALCULATION REPORT - IFC 15 10-Apr-26 30-Apr-26 215 MISC. FOUNDATION CALCULATION REPORT - IFC
+| MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL    CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33 |     | 73 26-Jan-26 | 19-May-26 | 205 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2150 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR 45 26-Jan-26 03-Apr-26 205 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR
+HEN10CI4430 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI 3 07-Apr-26 09-Apr-26 215 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI
+HEN10CI4440 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC 15 24-Apr-26 19-May-26 205 MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC
+| MMIISSCC..  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 48 23-Feb-26 | 30-Apr-26 | 215 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2120 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR 30 23-Feb-26 03-Apr-26 205 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN10CI4370 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI 3 07-Apr-26 09-Apr-26 215 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI
+HEN10CI4380 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 10-Apr-26 30-Apr-26 215 MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 48 09-Mar-26 | 19-May-26 | 205 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN10CI2140 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 30 09-Mar-26 20-Apr-26 205 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN10CI4410 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI 3 21-Apr-26 23-Apr-26 205 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI
+HEN10CI4420 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 24-Apr-26 19-May-26 205 MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| 2200  --  LLiiqquuiidd  SSuullpphhuurr  HHaannddlliinngg                                                                               |     | 265 18-Jul-25 | 14-Aug-26 | 275 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| LLIIQQUUIIDD  SSUULLPPHHUURR  SSTTOORRAAGGEE  TTAANNKK  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 68 18-Jul-25  | 28-Oct-25 | 340 |     |     |     |     |     |
+HEN20CI1130 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - IFR 40 18-Jul-25 11-Sep-25 65 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - IFR
+HEN20CI1140 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - ICR 3 12-Sep-25 16-Sep-25 345 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - ICR
+HEN20CI1150 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 17-Sep-25 30-Sep-25 345 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN20CI1190 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - IFC 10 15-Oct-25 28-Oct-25 340 LIQUID SULPHUR STORAGE TANK FOUNDATION CALCULATION REPORT - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  PPUUMMPPSS  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 68 25-Aug-25 | 03-Dec-25 | 314 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1070 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - IFR 40 25-Aug-25 24-Oct-25 225 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - IFR
+HEN20CI1080 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - ICR 3 27-Oct-25 29-Oct-25 314 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - ICR
+HEN20CI1090 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 30-Oct-25 12-Nov-25 314 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN20CI1170 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - IFC 15 13-Nov-25 03-Dec-25 314 LIQUID SULPHUR PUMPS FOUNDATION CALCULATION REPORT - IFC
+|     |     | 48 26-Jan-26 | 09-Apr-26 | 230 |     |     |     |     |     |
+| --- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  MMIISSCC..  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33
+HEN20CI1010 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFR 30 26-Jan-26 13-Mar-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFR
+HEN20CI1220 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFI 3 16-Mar-26 18-Mar-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFI
+HEN20CI1230 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFC 15 19-Mar-26 09-Apr-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION CALCULATION REPORT - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  SSTTOORRAAGGEE  TTAANNKK  DDIIKKEE  WWAALLLL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 109 24-Jul-25 | 30-Dec-25 | 427 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1075 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - IFR 30 24-Jul-25 03-Sep-25 341 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - IFR
+HEN20CI1085 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - ICR 3 04-Sep-25 08-Sep-25 483 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - ICR
+HEN20CI1095 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - Receive COMPANY Comments 10 09-Sep-25 22-Sep-25 483 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - Receive COMPANY Comments
+HEN20CI2005 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - IFC 10 17-Dec-25 30-Dec-25 427 LIQUID SULPHUR STORAGE TANK DIKE WALL CALCULATION REPORT - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33 |     | 53 12-Nov-25 | 26-Jan-26 | 277 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI2100 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFR 30 12-Nov-25 23-Dec-25 247 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN20CI2110 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFI 3 24-Dec-25 26-Dec-25 282 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFI
+HEN20CI2120 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFC 15 06-Jan-26 26-Jan-26 277 LIQUID SULPHUR HANDLING STRUCTURAL STEEL CALCULATION REPORT - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL    CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33 |     | 53 02-Jun-26 | 14-Aug-26 | 143 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1030 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR 40 02-Jun-26 28-Jul-26 143 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR
+HEN20CI1260 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI 3 29-Jul-26 31-Jul-26 143 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 5 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+HEN20CI1270 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC 10 03-Aug-26 14-Aug-26 143 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  SSTTOORRAAGGEE  TTAANNKK  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 55 06-Aug-25 | 28-Oct-25 | 158 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1100 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - IFR 25 06-Aug-25 09-Sep-25 62 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN20CI1110 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 10-Sep-25 12-Sep-25 165 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN20CI1120 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comme1n0ts 15-Sep-25 26-Sep-25 165 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN20CI1180 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - IFC 10 15-Oct-25 28-Oct-25 158 LIQUID SULPHUR STORAGE TANK FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  TTRRAANNSSFFEERR  PPUUMMPPSS  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 57 08-Sep-25 | 02-Dec-25 | 216 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1040 LIQUID SULPHUR TRANSFER PUMPS FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 08-Sep-25 11-Oct-25 225 LIQUID SULPHUR TRANSFER PUMPS FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN20CI1050 LIQUID SULPHUR  TRANSFER PUMPS FOUNDATION  PLANS, SECTIONS & DETAILS - ICR 3 13-Oct-25 15-Oct-25 225 LIQUID SULPHUR  TRANSFER PUMPS FOUNDATION  PLANS, SECTIONS & DETAILS - ICR
+HEN20CI1060 LIQUID SULPHUR  TRANSFER PUMPS  FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Com1m0e1n6ts-Oct-25 29-Oct-25 225 LIQUID SULPHUR  TRANSFER PUMPS  FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN20CI1160 LIQUID SULPHUR  TRANSFER PUMPS  FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 12-Nov-25 02-Dec-25 216 LIQUID SULPHUR  TRANSFER PUMPS  FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  MMIISSCC..  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 38 09-Feb-26 | 09-Apr-26 | 230 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1000 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 09-Feb-26 13-Mar-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN20CI1200 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI 3 16-Mar-26 18-Mar-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI
+HEN20CI1210 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 19-Mar-26 09-Apr-26 230 LIQUID SULPHUR HANDLING MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  SSTTOORRAAGGEE  TTAANNKK  DDIIKKEE  WWAALLLL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 99 07-Aug-25 | 30-Dec-25 | 295 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI2180 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - IFR 20 07-Aug-25 03-Sep-25 341 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - IFR
+HEN20CI2190 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - ICR 3 04-Sep-25 08-Sep-25 341 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - ICR
+HEN20CI2200 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments10 09-Sep-25 22-Sep-25 341 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN20CI2220 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - IFC 20 03-Dec-25 30-Dec-25 295 LIQUID SULPHUR STORAGE TANK DIKE WALL PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  SSTTOORRAAGGEE  DDRRAAIINN  PPIITT  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 122 03-Sep-25 | 06-Mar-26 | 253 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI2170 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - IFR 20 03-Sep-25 30-Sep-25 332 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - IFR
+HEN20CI2210 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - ICR 3 09-Oct-25 11-Oct-25 332 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - ICR
+HEN20CI2230 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 13-Oct-25 24-Oct-25 332 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN20CI2240 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - IFC 10 23-Feb-26 06-Mar-26 253 LIQUID SULPHUR STORAGE DRAIN PIT PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 43 26-Nov-25 | 26-Jan-26 | 277 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI2130 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 26-Nov-25 23-Dec-25 277 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN20CI2140 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 24-Dec-25 26-Dec-25 277 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN20CI2150 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comm1e0nts29-Dec-25 12-Jan-26 277 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN20CI2160 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 10 13-Jan-26 26-Jan-26 277 LIQUID SULPHUR HANDLING STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| LLIIQQUUIIDD  SSUULLPPHHUURR  HHAANNDDLLIINNGG  MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 38 02-Jun-26 | 24-Jul-26 | 158 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN20CI1020 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 02-Jun-26 30-Jun-26 158 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN20CI1240 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI 3 01-Jul-26 03-Jul-26 158 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI
+HEN20CI1250 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 06-Jul-26 24-Jul-26 158 LIQUID SULPHUR HANDLING MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+|     |     | 197 04-Aug-25 | 26-May-26 | 200 |     |     |     |     |     |
+| --- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+3300  --  SSuullpphhuurr  GGrraannuullaattiioonn
+| SSUULLPPHHUURR    GGRRAANNUULLAATTOORR                                                                                 |     | 107 01-Sep-25 | 04-Feb-26 | 121 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| SSUULLFFUURR    GGRRAANNUULLAATTOORR    FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 77 15-Sep-25  | 07-Jan-26 | 121 |     |     |     |     |     |
+HEN30CI1220 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - IFR 30 15-Sep-25 31-Oct-25 125 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - IFR
+HEN30CI1230 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - ICR 3 03-Nov-25 05-Nov-25 140 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - ICR
+HEN30CI1240 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 06-Nov-25 19-Nov-25 140 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1520 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - IFC 15 17-Dec-25 07-Jan-26 121 SULFUR  GRANULATOR  FOUNDATION CALCULATION REPORT - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSTTRRUUCCTTUURREE  SSTTEEEELL  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT--  CCllaassss  22 |     | 107 01-Sep-25 | 04-Feb-26 | 121 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1250 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - IFR 40 01-Sep-25 31-Oct-25 125 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - IFR
+HEN30CI1260 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - ICR 3 03-Nov-25 05-Nov-25 160 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - ICR
+HEN30CI1270 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - Receive COMPANY Comments 10 06-Nov-25 19-Nov-25 160 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1530 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - IFC 15 15-Jan-26 04-Feb-26 121 SULFUR  GRANULATOR  STRUCTURE STEEL CALCULATION REPORT - IFC
+| SSUULLFFUURR    GGRRAANNUULLAATTOORR  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 67 29-Sep-25 | 07-Jan-26 | 121 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1160 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 29-Sep-25 31-Oct-25 125 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1170 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 03-Nov-25 05-Nov-25 135 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1180 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 06-Nov-25 19-Nov-25 135 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1500 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - IFC 20 10-Dec-25 07-Jan-26 121 SULFUR  GRANULATOR FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 6 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+| SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 67 03-Nov-25 | 04-Feb-26 | 121 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1190 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 30 03-Nov-25 12-Dec-25 125 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1200 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 15-Dec-25 17-Dec-25 125 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1210 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments10 18-Dec-25 31-Dec-25 125 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1510 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 20 08-Jan-26 04-Feb-26 121 SULFUR GRANULATOR STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| PPIIPPEERRAACCKK                                                                                 |     | 174 07-Aug-25 | 23-Apr-26 | 70  |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| PPIIPPEERRAACCKK  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 71 23-Sep-25  | 07-Jan-26 | 140 |     |     |     |     |     |
+HEN30CI1400 PIPERACK FOUNDATION CALCULATION REPORT - IFR 30 23-Sep-25 10-Nov-25 128 PIPERACK FOUNDATION CALCULATION REPORT - IFR
+HEN30CI1410 PIPERACK FOUNDATION CALCULATION REPORT - ICR 3 11-Nov-25 13-Nov-25 153 PIPERACK FOUNDATION CALCULATION REPORT - ICR
+HEN30CI1420 PIPERACK FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 14-Nov-25 27-Nov-25 153 PIPERACK FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1580 PIPERACK FOUNDATION CALCULATION REPORT - IFC 15 17-Dec-25 07-Jan-26 140 PIPERACK FOUNDATION CALCULATION REPORT - IFC
+| PPIIPPEERRAACCKK  SSTTRRUUCCTTUURRAALL  SSTTEEEELL    CCAALLCCUULLAATTIIOONN  RREEPPOORRTT--  CCllaassss  22 |     | 99 07-Aug-25 | 30-Dec-25 | 125 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1430 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - IFR 30 07-Aug-25 17-Sep-25 88 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - IFR
+HEN30CI1440 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - ICR 3 18-Sep-25 22-Sep-25 88 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - ICR
+HEN30CI1450 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments 10 23-Sep-25 13-Oct-25 143 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1590 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - IFC 15 10-Dec-25 30-Dec-25 125 PIPERACK STRUCTURAL STEEL CALCULATION REPORT - IFC
+| PPIIPPEERRAACCKK  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 55 22-Oct-25 | 07-Jan-26 | 120 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1340 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 22-Oct-25 18-Nov-25 122 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1350 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 19-Nov-25 21-Nov-25 122 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1360 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 24-Nov-25 05-Dec-25 122 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1560 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - IFC 20 10-Dec-25 07-Jan-26 120 PIPERACK FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| PPIIPPEERRAACCKK  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 58 26-Jan-26 | 23-Apr-26 | 70  |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1370 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 25 26-Jan-26 06-Mar-26 70 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1380 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 3 09-Mar-26 11-Mar-26 70 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1390 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments 10 12-Mar-26 25-Mar-26 70 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1570 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 20 26-Mar-26 23-Apr-26 70 PIPERACK STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| SSUULLPPHHUURR  RREEMMEELLTTEERR  PPAACCKKAAGGEE                                                                                 |     | 73 12-Sep-25 | 30-Dec-25 | 295 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| SSUULLPPHHUURR  RREEMMEELLTTEERR  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 73 12-Sep-25 | 30-Dec-25 | 295 |     |     |     |     |     |
+HEN30CI1310 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - IFR 30 12-Sep-25 30-Oct-25 270 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - IFR
+HEN30CI1320 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - ICR 3 31-Oct-25 04-Nov-25 310 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - ICR
+HEN30CI1330 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 05-Nov-25 18-Nov-25 310 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1550 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - IFC 15 10-Dec-25 30-Dec-25 295 SULPHUR REMELTER PACKAGE FOUNDATION CALCULATION REPORT - IFC
+| SSUULLPPHHUURR  RREEMMEELLTTEERR  PPAACCKKAAGGEE  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 63 26-Sep-25 | 30-Dec-25 | 255 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1280 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFR 20 26-Sep-25 30-Oct-25 270 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1290 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 31-Oct-25 04-Nov-25 270 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1300 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Commen1ts0 05-Nov-25 18-Nov-25 270 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1540 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 10-Dec-25 30-Dec-25 255 SULPHUR REMELTER PACKAGE FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSHHEELLTTEERR                                                                                 |     | 117 04-Aug-25 | 21-Jan-26 | 131 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSHHEELLTTEERR  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 92 18-Aug-25  | 30-Dec-25 | 131 |     |     |     |     |     |
+HEN30CI1100 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - IFR 30 18-Aug-25 26-Sep-25 161 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - IFR
+HEN30CI1110 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - ICR 3 29-Sep-25 09-Oct-25 165 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - ICR
+HEN30CI1120 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - Receive COMPANY Comments 10 10-Oct-25 22-Oct-25 165 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1480 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - IFC 15 10-Dec-25 30-Dec-25 131 SULFUR GRANULATOR SHELTER FOUNDATION CALCULATION REPORT - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSHHEELLTTEERR  SSTTRRUUCCTTUURREE  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  22 |     | 117 04-Aug-25 | 21-Jan-26 | 131 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1130 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - IFR 60 04-Aug-25 31-Oct-25 160 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - IFR
+HEN30CI1140 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - ICR 3 03-Nov-25 05-Nov-25 160 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - ICR
+HEN30CI1150 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - Receive COMPANY Comments 10 06-Nov-25 19-Nov-25 160 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - Receive COMPANY Comments
+HEN30CI1490 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - IFC 15 31-Dec-25 21-Jan-26 131 SULFUR GRANULATOR SHELTER STRUCTURE CALCULATION REPORT - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSHHEELLTTEERR  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 82 01-Sep-25 | 30-Dec-25 | 131 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1040 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS- IFR 20 01-Sep-25 26-Sep-25 161 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS- IFR
+HEN30CI1050 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - ICR 3 29-Sep-25 09-Oct-25 165 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - ICR
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 7 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+HEN30CI1060 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Commen1ts0 10-Oct-25 22-Oct-25 165 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1460 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - IFC 15 10-Dec-25 30-Dec-25 131 SULFUR GRANULATOR SHELTER FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTOORR  SSHHEELLTTEERR  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  22 |     | 77 29-Sep-25 | 21-Jan-26 | 131 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1070 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 20 29-Sep-25 31-Oct-25 161 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1080 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR 2 03-Nov-25 04-Nov-25 161 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - ICR
+HEN30CI1090 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY C1o0m0m5e-Nnotsv-25 18-Nov-25 161 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - Receive COMPANY Comments
+HEN30CI1470 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 15 31-Dec-25 21-Jan-26 131 SULFUR GRANULATOR SHELTER STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+|     |     | 78 26-Jan-26 | 26-May-26 | 200 |     |     |     |     |     |
+| --- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  MMIISSCC..
+| SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  MMIISSCC..  FFOOUUNNDDAATTIIOONN  CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33 |     | 58 09-Feb-26 | 12-May-26 | 210 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1010 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFR 35 09-Feb-26 03-Apr-26 200 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFR
+HEN30CI1620 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFI 3 07-Apr-26 09-Apr-26 215 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFI
+HEN30CI1630 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFC 15 17-Apr-26 12-May-26 210 SULFUR GRANULATION MISC. FOUNDATION CALCULATION REPORT - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL    CCAALLCCUULLAATTIIOONN  RREEPPOORRTT  --  CCllaassss  33 |     | 78 26-Jan-26 | 26-May-26 | 200 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1030 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR 55 26-Jan-26 20-Apr-26 200 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFR
+HEN30CI1660 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI 3 21-Apr-26 23-Apr-26 205 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFI
+HEN30CI1670 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC 15 06-May-26 26-May-26 200 SULFUR GRANULATION MISC. STRUCTURAL STEEL  CALCULATION REPORT - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  MMIISSCC..  FFOOUUNNDDAATTIIOONN  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 48 02-Mar-26 | 12-May-26 | 210 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1000 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR 25 02-Mar-26 03-Apr-26 200 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1600 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI 3 07-Apr-26 09-Apr-26 210 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFI
+HEN30CI1610 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC 20 10-Apr-26 12-May-26 210 SULFUR GRANULATION MISC. FOUNDATION PLANS, SECTIONS & DETAILS - IFC
+| SSUULLFFUURR  GGRRAANNUULLAATTIIOONN  MMIISSCC..  SSTTRRUUCCTTUURRAALL  SSTTEEEELL  PPLLAANNSS,,  SSEECCTTIIOONNSS  &&  DDEETTAAIILLSS  --  CCllaassss  33 |     | 48 16-Mar-26 | 26-May-26 | 200 |     |     |     |     |     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+HEN30CI1020 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR 25 16-Mar-26 20-Apr-26 200 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFR
+HEN30CI1640 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI 3 21-Apr-26 23-Apr-26 200 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFI
+HEN30CI1650 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC 20 24-Apr-26 26-May-26 200 SULFUR GRANULATION MISC. STRUCTURAL STEEL PLANS, SECTIONS & DETAILS - IFC
+| CCoonnssttrruuccttiioonn  &&  PPrree--  CCoommmmiissssiioonniinngg |     | 737 15-Jan-26 | 21-Jan-28 | 82  |     |     |     |     |     |
+| ------------------------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCoonnssttrruuccttiioonn                                           |     | 737 15-Jan-26 | 21-Jan-28 | 82  |     |     |     |     |     |
+| IISSBBLL                                                           |     | 737 15-Jan-26 | 21-Jan-28 | 82  |     |     |     |     |     |
+| AArreeaa  1100  --  CCoommmmoonn  &&  UUttiilliittiieess           |     | 669 24-Mar-26 | 21-Jan-28 | 82  |     |     |     |     |     |
+| CCoommmmoonn  WWoorrkkss                                           |     | 82 23-Sep-27  | 21-Jan-28 | 51  |     |     |     |     |     |
+| CCoommmmoonn  CCiivviill//FFiinniisshhiinngg  WWoorrkkss           |     | 82 23-Sep-27  | 21-Jan-28 | 51  |     |     |     |     |     |
+| RRooaadd  wwoorrkkss                                               |     | 80 27-Sep-27  | 21-Jan-28 | 51  |     |     |     |     |     |
+CON-10-1479 E1 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e5) 27-Sep-27 22-Oct-27 51 E1 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1482 E2 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e0) 25-Oct-27 05-Nov-27 51 E2 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1484 E3 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e0) 08-Nov-27 19-Nov-27 51 E3 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1485 E4 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage5) 22-Nov-27 26-Nov-27 51 E4 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1487 N1 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e0) 29-Nov-27 10-Dec-27 51 N1 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1488 N2 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e0) 13-Dec-27 24-Dec-27 51 N2 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1489 N3 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainag1e0) 27-Dec-27 07-Jan-28 51 N3 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1490 N4 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage5) 10-Jan-28 14-Jan-28 51 N4 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+CON-10-1491 N5 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage5) 17-Jan-28 21-Jan-28 51 N5 Road (Inc surface layer, base layer and sub-base layer, functional layer, shoulder, curb stone, pavement drainage)
+| PPaavviinngg  wwoorrkkss |     | 60 23-Sep-27 | 22-Dec-27 | 32  |     |     |     |     |     |
+| ------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1477 10 Area Paving Works 60 23-Sep-27 22-Dec-27 32 10 Area Paving Works
+| LLaannddssccaappiinngg//FFiinniisshhiinngg  wwoorrkkss |     | 75 30-Sep-27 | 19-Jan-28 | 53  |     |     |     |     |     |
+| ------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1478 20 Area Landscaping/Finishing Works 20 30-Sep-27 03-Nov-27 108 20 Area Landscaping/Finishing Works
+CON-10-1480 30 Area Landscaping/Finishing Works 20 17-Nov-27 14-Dec-27 79 30 Area Landscaping/Finishing Works
+CON-10-1483 10 Area Landscaping/Finishing Works 20 23-Dec-27 19-Jan-28 53 10 Area Landscaping/Finishing Works
+| UUttiilliittiieess  PPaacckkaaggee                 |     | 158 24-Mar-26 | 28-Sep-26 | 288 |     |     |     |     |     |
+| -------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| BBiioocciiddee  IInnjjeeccttiioonn  PPaacckkaaggee |     | 30 05-May-26  | 10-Jun-26 | 163 |     |     |     |     |     |
+| CCiivviill                                         |     | 30 05-May-26  | 10-Jun-26 | 163 |     |     |     |     |     |
+CON-10-1063 Foundation Excavation - Biocide Injection Package 5 05-May-26 11-May-26 163 Foundation Excavation - Biocide Injection Package
+CON-10-1076 Foundation Execution-Base - Biocide Injection Package 10 11-May-26 21-May-26 163 Foundation Execution-Base - Biocide Injection Package
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 8 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+CON-10-1089 Foundation Execution-Pedestals - Biocide Injection Package 10 22-May-26 04-Jun-26 163 Foundation Execution-Pedestals - Biocide Injection Package
+CON-10-1096 Foundation Backfilling - Biocide Injection Package 5 05-Jun-26 10-Jun-26 163 Foundation Backfilling - Biocide Injection Package
+| PPAA&&IIAA  CCoommpprreessssoorr  PPaacckkaaggee |     | 30 11-Jun-26 | 16-Jul-26 | 332 |     |     |     |     |     |
+| ------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                       |     | 30 11-Jun-26 | 16-Jul-26 | 332 |     |     |     |     |     |
+CON-10-1105 Foundation Excavation - PA&IA Compressor Package 5 11-Jun-26 17-Jun-26 163 Foundation Excavation - PA&IA Compressor Package
+CON-10-1117 Foundation Execution-Base - PA&IA Compressor Package 10 18-Jun-26 29-Jun-26 163 Foundation Execution-Base - PA&IA Compressor Package
+CON-10-1128 Foundation Execution-Pedestals - PA&IA Compressor Package 10 30-Jun-26 10-Jul-26 163 Foundation Execution-Pedestals - PA&IA Compressor Package
+CON-10-1131 Foundation Backfilling - PA&IA Compressor Package 5 11-Jul-26 16-Jul-26 332 Foundation Backfilling - PA&IA Compressor Package
+| PPrroocceessss  WWaatteerr  TTrreeaattmmeenntt  PPaacckkaaggee |     | 103 24-Mar-26 | 24-Jul-26 | 328 |     |     |     |     |     |
+| -------------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                                     |     | 103 24-Mar-26 | 24-Jul-26 | 328 |     |     |     |     |     |
+| PPrroocceessss  WWaatteerr  TTrreeaattmmeenntt  PPaacckkaaggee |     | 30 13-May-26  | 19-Jun-26 | 273 |     |     |     |     |     |
+CON-10-1070 Foundation Excavation - Process Water Treatment Package 5 13-May-26 18-May-26 273 Foundation Excavation - Process Water Treatment Package
+CON-10-1082 Foundation Execution-Base - Process Water Treatment Package 10 19-May-26 01-Jun-26 273 Foundation Execution-Base - Process Water Treatment Package
+CON-10-1100 Foundation Execution-Pedestals  - Process Water Treatment Package 10 02-Jun-26 12-Jun-26 273 Foundation Execution-Pedestals  - Process Water Treatment Package
+CON-10-1108 Foundation Backfilling  - Process Water Treatment Package 5 13-Jun-26 19-Jun-26 273 Foundation Backfilling  - Process Water Treatment Package
+| PPrroocceessss  WWaatteerr  SSttoorraaggee  TTaannkk |     | 47 24-Mar-26 | 16-May-26 | 364 |     |     |     |     |     |
+| ---------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1048 Foundation Excavation - Process Water Storage Tank 7 24-Mar-26 31-Mar-26 364 Foundation Excavation - Process Water Storage Tank
+CON-10-1058 Foundation Execution-Base - Process Water Storage Tank 15 01-Apr-26 17-Apr-26 364 Foundation Execution-Base - Process Water Storage Tank
+CON-10-1073 Foundation Execution-Pedestals  - Process Water Storage Tank 15 18-Apr-26 05-May-26 364 Foundation Execution-Pedestals  - Process Water Storage Tank
+CON-10-1085 Foundation Backfilling  - Process Water Storage Tank 10 06-May-26 16-May-26 364 Foundation Backfilling  - Process Water Storage Tank
+| PPrroocceessss  WWaatteerr  TTrreeaattmmeenntt  PPuummppss |     | 30 20-Jun-26 | 24-Jul-26 | 328 |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1113 Foundation Excavation - Consendate Recovery Pump 5 20-Jun-26 25-Jun-26 273 Foundation Excavation - Consendate Recovery Pump
+CON-10-1121 Foundation Execution-Base - Consendate Recovery Pump 10 26-Jun-26 07-Jul-26 273 Foundation Execution-Base - Consendate Recovery Pump
+CON-10-1133 Foundation Execution-Pedestals  - Consendate Recovery Pump 10 08-Jul-26 18-Jul-26 273 Foundation Execution-Pedestals  - Consendate Recovery Pump
+CON-10-1141 Foundation Backfilling  - Consendate Recovery Pump 5 20-Jul-26 24-Jul-26 328 Foundation Backfilling  - Consendate Recovery Pump
+| SStteeaamm  PPrreessssuurree  RReedduuccttiioonn  PPaacckkaaggee |     | 30 13-May-26 | 19-Jun-26 | 358 |     |     |     |     |     |
+| ---------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                                       |     | 30 13-May-26 | 19-Jun-26 | 358 |     |     |     |     |     |
+CON-10-1068 Foundation Excavation - Steam Reduction Package 5 13-May-26 18-May-26 303 Foundation Excavation - Steam Reduction Package
+CON-10-1080 Foundation Execution-Base - Steam Reduction Package 10 19-May-26 01-Jun-26 303 Foundation Execution-Base - Steam Reduction Package
+CON-10-1098 Foundation Execution-Pedestals  - Steam Reduction Package 10 02-Jun-26 12-Jun-26 303 Foundation Execution-Pedestals  - Steam Reduction Package
+CON-10-1106 Foundation Backfilling  - Steam Reduction Package 5 13-Jun-26 19-Jun-26 358 Foundation Backfilling  - Steam Reduction Package
+| SSaanniittaarryy  SSeewweerr  TTrreeaattmmeenntt  PPaacckkaaggee |     | 30 08-Apr-26 | 12-May-26 | 241 |     |     |     |     |     |
+| ---------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                                       |     | 30 08-Apr-26 | 12-May-26 | 241 |     |     |     |     |     |
+CON-10-1047 Foundation Excavation - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump 5 08-Apr-26 13-Apr-26 216 Foundation Excavation - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump
+CON-10-1054 Foundation Execution-Base - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump 10 14-Apr-26 24-Apr-26 216 Foundation Execution-Base - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump
+CON-10-1060 Foundation Execution-Pedestals - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump 10 25-Apr-26 06-May-26 216 Foundation Execution-Pedestals - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump
+CON-10-1065 Foundation Backfilling - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump 5 07-May-26 12-May-26 241 Foundation Backfilling - Sanirary Sewer Treatment Package/Sanirary Sewer Lifting Pump
+| PPoottaabbeell  WWaatteerr  SSyysstteemm               |     | 83 13-May-26 | 20-Aug-26 | 305 |     |     |     |     |     |
+| ------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                             |     | 83 13-May-26 | 20-Aug-26 | 305 |     |     |     |     |     |
+| SSooddiiuumm  HHyyppoocchhlloorriittee  PPaacckkaaggee |     | 28 13-May-26 | 17-Jun-26 | 250 |     |     |     |     |     |
+CON-10-1071 Foundation Excavation - Sodium Hypochlorite Package 5 13-May-26 18-May-26 250 Foundation Excavation - Sodium Hypochlorite Package
+CON-10-1083 Foundation Execution-Base - Sodium Hypochlorite Package 10 19-May-26 01-Jun-26 250 Foundation Execution-Base - Sodium Hypochlorite Package
+CON-10-1094 Foundation Execution-Pedestals  -Sodium Hypochlorite Package 8 02-Jun-26 10-Jun-26 250 Foundation Execution-Pedestals  -Sodium Hypochlorite Package
+CON-10-1104 Foundation Backfilling  - Sodium Hypochlorite Package 5 11-Jun-26 17-Jun-26 250 Foundation Backfilling  - Sodium Hypochlorite Package
+| PPoottaabbllee  WWaatteerr  TTaannkk |     | 28 18-Jun-26 | 20-Jul-26 | 250 |     |     |     |     |     |
+| ------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1112 Foundation Excavation - Potabal Water Tank 5 18-Jun-26 23-Jun-26 250 Foundation Excavation - Potabal Water Tank
+CON-10-1120 Foundation Execution-Base - Potabal Water Tank 10 24-Jun-26 04-Jul-26 250 Foundation Execution-Base - Potabal Water Tank
+CON-10-1129 Foundation Execution-Pedestals  -Potabal Water Tank 8 06-Jul-26 14-Jul-26 250 Foundation Execution-Pedestals  -Potabal Water Tank
+CON-10-1134 Foundation Backfilling  - Potabal Water Tank 5 15-Jul-26 20-Jul-26 250 Foundation Backfilling  - Potabal Water Tank
+| PPoottaabbllee  WWaatteerr  PPuummppss |     | 27 21-Jul-26 | 20-Aug-26 | 305 |     |     |     |     |     |
+| -------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1143 Foundation Excavation - Potabal Water Pump 5 21-Jul-26 25-Jul-26 250 Foundation Excavation - Potabal Water Pump
+|                |                         |              |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------ | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 9 of 13 |     |     |           |           |          |         |             |
+|                |                         |              |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |              |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+CON-10-1155 Foundation Execution-Base - Potabal Water Pump 10 27-Jul-26 06-Aug-26 250 Foundation Execution-Base - Potabal Water Pump
+CON-10-1164 Foundation Execution-Pedestals  -Potabal Water Pump 7 07-Aug-26 14-Aug-26 250 Foundation Execution-Pedestals  -Potabal Water Pump
+CON-10-1174 Foundation Backfilling  - Potabal Water Pump 5 15-Aug-26 20-Aug-26 305 Foundation Backfilling  - Potabal Water Pump
+| CCoonnddeennssaattee  PPoolliisshhiinngg  PPaacckkaaggee |     | 62 24-Mar-26 | 05-Jun-26 | 384 |     |     |     |     |     |
+| -------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                               |     | 62 24-Mar-26 | 05-Jun-26 | 384 |     |     |     |     |     |
+| CCoonnddeennssaattee  PPoolliisshhiinngg  PPaacckkaaggee |     | 30 24-Mar-26 | 27-Apr-26 | 195 |     |     |     |     |     |
+CON-10-1049 Foundation Excavation - Condensate Polishing Package 5 24-Mar-26 28-Mar-26 195 Foundation Excavation - Condensate Polishing Package
+CON-10-1056 Foundation Execution-Base - Condensate Polishing Package 12 30-Mar-26 11-Apr-26 195 Foundation Execution-Base - Condensate Polishing Package
+CON-10-1062 Foundation Execution-Pedestals  - Condensate Polishing Package 8 13-Apr-26 21-Apr-26 195 Foundation Execution-Pedestals  - Condensate Polishing Package
+CON-10-1067 Foundation Backfilling  - Condensate Polishing Package 5 22-Apr-26 27-Apr-26 195 Foundation Backfilling  - Condensate Polishing Package
+| CCoonnddeennssaattee  PPooiilliisshhiinngg  CCoooolleerr |     | 28 13-Apr-26 | 14-May-26 | 247 |     |     |     |     |     |
+| -------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1061 Foundation Excavation - Condensate Cooler 5 13-Apr-26 17-Apr-26 247 Foundation Excavation - Condensate Cooler
+CON-10-1072 Foundation Execution-Base - Condensate Cooler 10 18-Apr-26 29-Apr-26 247 Foundation Execution-Base - Condensate Cooler
+CON-10-1079 Foundation Execution-Pedestals  - Condensate Cooler 8 30-Apr-26 08-May-26 247 Foundation Execution-Pedestals  - Condensate Cooler
+CON-10-1088 Foundation Backfilling  - Condensate Cooler 5 09-May-26 14-May-26 247 Foundation Backfilling  - Condensate Cooler
+| CCoonnddeennssaattee  PPoolliisshhiinngg  PPaacckkaaggee  PPuummppss |     | 28 28-Apr-26 | 01-Jun-26 | 388 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1074 Foundation Excavation - Consendate Recovery Pump 5 28-Apr-26 02-May-26 199 Foundation Excavation - Consendate Recovery Pump
+CON-10-1087 Foundation Execution-Base - Consendate Recovery Pump 10 04-May-26 14-May-26 199 Foundation Execution-Base - Consendate Recovery Pump
+CON-10-1102 Foundation Execution-Pedestals  - Consendate Recovery Pump 8 15-May-26 23-May-26 199 Foundation Execution-Pedestals  - Consendate Recovery Pump
+CON-10-1111 Foundation Backfilling  - Consendate Recovery Pump 5 25-May-26 01-Jun-26 388 Foundation Backfilling  - Consendate Recovery Pump
+| CCoonnddeennssaattee  PPoolliisshhiinngg  PPaacckkaaggee  VVeesssseell//CCoonnddeennsseerr |     | 32 28-Apr-26 | 05-Jun-26 | 384 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1075 Foundation Excavation - Consendate/Revovery Vessel/Revovery Vessel Condenser 5 28-Apr-26 02-May-26 195 Foundation Excavation - Consendate/Revovery Vessel/Revovery Vessel Condenser
+CON-10-1092 Foundation Execution-Base - Consendate//Revovery Vessel/Revovery Vessel Condenser 12 04-May-26 16-May-26 195 Foundation Execution-Base - Consendate//Revovery Vessel/Revovery Vessel Condenser
+CON-10-1109 Foundation Execution-Pedestals - Consendate/Revovery Vessel/Revovery Vessel Condenser 10 18-May-26 28-May-26 195 Foundation Execution-Pedestals - Consendate/Revovery Vessel/Revovery Vessel Condenser
+CON-10-1115 Foundation Execution-Backfill - Consendate/Revovery Vessel/Revovery Vessel Condenser 5 01-Jun-26 05-Jun-26 384 Foundation Execution-Backfill - Consendate/Revovery Vessel/Revovery Vessel Condenser
+| WWaasshh  DDoowwnn  WWaassttee  WWaatteerr  PPaacckkaaggee |     | 145 08-Apr-26 | 28-Sep-26 | 208 |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                                 |     | 145 08-Apr-26 | 28-Sep-26 | 208 |     |     |     |     |     |
+CON-10-1046 Foundation Excavation - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cle5an0i8n-gA Fpirlt-e2r6 13-Apr-26 208 Foundation Excavation - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cleaning Filter
+CON-10-1053 Foundation Execution-Base - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Do1w0n C14le-aAnpirn-2g6 Filter 24-Apr-26 208 Foundation Execution-Base - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cleaning Filter
+CON-10-1059 Foundation Execution-Ped-Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Dow1n0 Cle2a5n-Ainpgr- F2i6lter 06-May-26 208 Foundation Execution-Ped-Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cleaning Filter
+CON-10-1064 Foundation Backfilling - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cle5an0in7g- MFialteyr-26 12-May-26 208 Foundation Backfilling - Wash Down Waste Water Circ & Transfer Pump&Wash Down Utility Pump&Wash Down Cleaning Filter
+| CCaauussttiicc  IInnjjeeccttiioonn  PPaacckkaaggee//SSttoorraaggee  TTaannkk//PPuummpp |     | 30 13-May-26 | 19-Jun-26 | 208 |     |     |     |     |     |
+| -------------------------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1069 Foundation Excavation-Caustic Injection Package/Caustic Metering Pump and Storage tank 5 13-May-26 18-May-26 208 Foundation Excavation-Caustic Injection Package/Caustic Metering Pump and Storage tank
+CON-10-1081 Foundation Execution-Base-Caustic Injection Package/Caustic Metering Pump and Storage tank/ 10 19-May-26 01-Jun-26 208 Foundation Execution-Base-Caustic Injection Package/Caustic Metering Pump and Storage tank/
+CON-10-1099 Foundation Execution-Pedestals -Caustic Injection Package/Caustic Metering Pump and Storage tank 10 02-Jun-26 12-Jun-26 208 Foundation Execution-Pedestals -Caustic Injection Package/Caustic Metering Pump and Storage tank
+CON-10-1107 Foundation Backfilling-Caustic Injection Package/Caustic Metering Pump and Storage tank 5 13-Jun-26 19-Jun-26 208 Foundation Backfilling-Caustic Injection Package/Caustic Metering Pump and Storage tank
+| RReetteennttiioonn  PPoonndd |     | 85 20-Jun-26 | 28-Sep-26 | 208 |     |     |     |     |     |
+| ---------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1140 Foundation Excavation - Retention Pond 30 20-Jun-26 24-Jul-26 208 Foundation Excavation - Retention Pond
+Foundation Concrate works（LC/Rebar/Formal/bouling/Quing/Formal Remove)- Retention Pond Foundation Concrate works（LC/Rebar/Formal/bouling/Quing/Formal Remove)- Retention Pond
+| CON-10-1201 |     | 40 25-Jul-26 | 10-Sep-26 | 208 |     |     |     |     |     |
+| ----------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1211 Foundation Backfilling - Retention Pond 15 11-Sep-26 28-Sep-26 208 Foundation Backfilling - Retention Pond
+| EEvvaappoorraattiioonn  PPoonndd |     | 150 03-Aug-26 | 27-Jan-27 | 54  |     |     |     |     |     |
+| -------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+|                                  |     | 150 03-Aug-26 | 27-Jan-27 | 54  |     |     |     |     |     |
+CCiivviill  WWoorrkkss
+CON-10-1162 Foundation Excavation 10 03-Aug-26 13-Aug-26 54 Foundation Excavation
+Foundation Concrate works（LC/Rebar/Formal/bouling/Quing/Formal Remove)) Foundation Concrate works（LC/Rebar/Formal/bouling/Quing/Formal Remove))
+| CON-10-1345 |     | 130 14-Aug-26 | 15-Jan-27 | 54  |     |     |     |     |     |
+| ----------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+CON-10-1356 Foundation Backfilling 10 16-Jan-27 27-Jan-27 54 Foundation Backfilling
+| AArreeaa  2200  --  LLiiqquuiidd  SSuullpphhuurr  HHaannddlliinngg |     | 621 17-Jan-26 | 29-Sep-27 | 135 |     |     |     |     |     |
+| ------------------------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| AArreeaa  2200  --  PPaavviinngg  wwoorrkk                         |     | 60 22-Jul-27  | 29-Sep-27 | 116 |     |     |     |     |     |
+CON-10-1474 20 Area Paving Works 60 22-Jul-27 29-Sep-27 116 20 Area Paving Works
+| LLiiqquuiidd  SSuullpphhuurr  TTaannkkss |                         | 306 17-Jan-26 | 30-Jan-27 | 266 |           |           |          |         |             |
+| ---------------------------------------- | ----------------------- | ------------- | --------- | --- | --------- | --------- | -------- | ------- | ----------- |
+| TTaannkk  CC  ((TTKK00000033))           |                         | 306 17-Jan-26 | 30-Jan-27 | 266 |           |           |          |         |             |
+| CCiivviill                               |                         | 306 17-Jan-26 | 30-Jan-27 | 266 |           |           |          |         |             |
+|                                          |                         |               |           |     | Date      |           | Revision | Checked | Approved    |
+| Actual Work                              | Critical Remaining Work | Page 10 of 13 |           |     |           |           |          |         |             |
+|                                          |                         |               |           |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work                           | Milestone               |               |           |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+| TTaannkk  FFoouunnddaattiioonnss |     | 100 17-Jan-26 | 28-May-26 | 129 |     |     |     |     |     |
+| -------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+CON-20-1008 Pile Cap Works/Preparation Works for Tank Foundation(TK-0003) 10 17-Jan-26 28-Jan-26 129 Pile Cap Works/Preparation Works for Tank Foundation(TK-0003)
+CON-20-1014 Tank Foundation Execution-Base (TK-0003) 45 29-Jan-26 06-Apr-26 129 Tank Foundation Execution-Base (TK-0003)
+CON-20-1020 Tank Foundation Execution-Pedestals (TK-0003) 25 06-Apr-26 05-May-26 129 Tank Foundation Execution-Pedestals (TK-0003)
+CON-20-1022 Tank Foundation Backfilling (TK-0003) 20 05-May-26 28-May-26 129 Tank Foundation Backfilling (TK-0003)
+| RReettaaiinniinngg  WWaallllss |     | 20 15-Dec-26 | 07-Jan-27 | 241 |     |     |     |     |     |
+| ------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-20-1059 Concrete Bund Walls Execution (TK-0003) 20 15-Dec-26 07-Jan-27 241 Concrete Bund Walls Execution (TK-0003)
+|     |     | 20 07-Jan-27 | 30-Jan-27 | 266 |     |     |     |     |     |
+| --- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CCoonnccrreettee  SSllaabb
+CON-20-1060 Concrete Grade Slab/Paving/Civil Finishing Works(TK-0003) 20 07-Jan-27 30-Jan-27 266 Concrete Grade Slab/Paving/Civil Finishing Works(TK-0003)
+| LLiiqquuiidd  SSuullpphhuurr  TTrraannssffeerr  PPuummppss                                 |     | 100 19-Feb-26 | 03-Jul-26 | 316 |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| LLiiqquuiidd  SSuullpphhuurr  TTrraannssffeerr  PPuummppss  ((PP--00000011AA//BB//CC//SS)) |     | 100 19-Feb-26 | 03-Jul-26 | 316 |     |     |     |     |     |
+| CCiivviill                                                                                 |     | 100 19-Feb-26 | 03-Jul-26 | 316 |     |     |     |     |     |
+CON-20-1017 Foundation Excavation - P-0001A/B/C/S 10 19-Feb-26 11-Mar-26 197 Foundation Excavation - P-0001A/B/C/S
+CON-20-1024 Foundation Execution-Base - P-0001A/B/C/S 45 11-Mar-26 08-May-26 197 Foundation Execution-Base - P-0001A/B/C/S
+CON-20-1026 Foundation Execution-Pedestals - P-0001A/B/C/S 25 08-May-26 09-Jun-26 316 Foundation Execution-Pedestals - P-0001A/B/C/S
+CON-20-1027 Foundation Backfilling- P-0001A/B/C/S 20 09-Jun-26 03-Jul-26 316 Foundation Backfilling- P-0001A/B/C/S
+| AArreeaa  3300  --  SSuullpphhuurr  GGrraannuullaattiioonn |     | 671 15-Jan-26 | 16-Nov-27 | 87  |     |     |     |     |     |
+| ---------------------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| AArreeaa  3300  --  PPaavviinngg  wwoorrkk                 |     | 60 13-Aug-27  | 16-Nov-27 | 58  |     |     |     |     |     |
+CON-10-1476 30 Area Paving Works 60 13-Aug-27 16-Nov-27 58 30 Area Paving Works
+| GGrraannuullaattoorrss |     | 210 15-Jan-26 | 06-Oct-26 | 282 |     |     |     |     |     |
+| ---------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill             |     | 210 15-Jan-26 | 06-Oct-26 | 282 |     |     |     |     |     |
+CON-30-1002 Pile Cap Works/Preparation Works for Foundation - Granulators 20 15-Jan-26 06-Feb-26 139 Pile Cap Works/Preparation Works for Foundation - Granulators
+CON-30-1012 Trench works - Granulators 45 07-Feb-26 15-Apr-26 427 Trench works - Granulators
+CON-30-1114 Drain Channel works - Granulators 30 15-Jul-26 19-Aug-26 282 Drain Channel works - Granulators
+CON-30-1121 Backfilling - Granulators 20 19-Aug-26 12-Sep-26 282 Backfilling - Granulators
+CON-30-1124 Area Paving works - Granulators 20 12-Sep-26 06-Oct-26 282 Area Paving works - Granulators
+| SSuullpphhuurr  GGrraannuullaattoorr  ((33000033--GGRR--00000011AA)) |     | 48 04-May-26 | 01-Jul-26 | 363 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-30-1003 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001A) 6 04-May-26 11-May-26 79 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001A)
+CON-30-1006 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001A6) 11-May-26 16-May-26 79 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001A)
+CON-30-1009 Foundation for Granulator Support -Base (GR-0001A) 6 18-May-26 23-May-26 79 Foundation for Granulator Support -Base (GR-0001A)
+CON-30-1013 Foundation for Granulator Support -Column (GR-0001A) 6 25-May-26 02-Jun-26 79 Foundation for Granulator Support -Column (GR-0001A)
+CON-30-1014 Foundation for Main Sturcture -Base (GR-0001A) 6 25-May-26 02-Jun-26 363 Foundation for Main Sturcture -Base (GR-0001A)
+CON-30-1019 Foundation for Main Sturcture -Column (GR-0001A) 6 03-Jun-26 09-Jun-26 363 Foundation for Main Sturcture -Column (GR-0001A)
+CON-30-1022 Foundation for Shelter -Base (GR-0001A) 6 10-Jun-26 17-Jun-26 363 Foundation for Shelter -Base (GR-0001A)
+CON-30-1023 Foundation for shelter -Column (GR-0001A) 6 18-Jun-26 24-Jun-26 363 Foundation for shelter -Column (GR-0001A)
+CON-30-1026 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001A) 6 25-Jun-26 01-Jul-26 363 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001A)
+| SSuullpphhuurr  GGrraannuullaattoorr  ((33000033--GGRR--00000011BB)) |     | 48 07-Feb-26 | 18-Apr-26 | 424 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-30-1004 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001B) 6 07-Feb-26 13-Feb-26 244 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001B)
+CON-30-1007 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001B6) 14-Feb-26 23-Feb-26 244 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001B)
+CON-30-1010 Foundation for Granulator Support -Base (GR-0001B) 6 24-Feb-26 06-Mar-26 244 Foundation for Granulator Support -Base (GR-0001B)
+CON-30-1015 Foundation for Granulator Support -Column (GR-0001B) 6 07-Mar-26 18-Mar-26 244 Foundation for Granulator Support -Column (GR-0001B)
+CON-30-1016 Foundation for Main Sturcture -Base (GR-0001B) 6 07-Mar-26 18-Mar-26 424 Foundation for Main Sturcture -Base (GR-0001B)
+CON-30-1020 Foundation for Main Sturcture -Column (GR-0001B) 6 19-Mar-26 28-Mar-26 424 Foundation for Main Sturcture -Column (GR-0001B)
+CON-30-1024 Foundation for Shelter -Base (GR-0001B) 6 28-Mar-26 04-Apr-26 424 Foundation for Shelter -Base (GR-0001B)
+CON-30-1027 Foundation for shelter -Column (GR-0001B) 6 04-Apr-26 11-Apr-26 424 Foundation for shelter -Column (GR-0001B)
+CON-30-1030 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001B) 6 11-Apr-26 18-Apr-26 424 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001B)
+| SSuullpphhuurr  GGrraannuullaattoorr  ((33000033--GGRR--00000011CC)) |     | 48 07-Feb-26 | 18-Apr-26 | 220 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-30-1005 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001C) 6 07-Feb-26 13-Feb-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001C)
+CON-30-1008 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001C6) 14-Feb-26 23-Feb-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001C)
+CON-30-1011 Foundation for Granulator Support -Base (GR-0001C) 6 24-Feb-26 06-Mar-26 147 Foundation for Granulator Support -Base (GR-0001C)
+CON-30-1017 Foundation for Granulator Support -Column (GR-0001C) 6 07-Mar-26 18-Mar-26 244 Foundation for Granulator Support -Column (GR-0001C)
+|                |                         |               |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------- | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 11 of 13 |     |     |           |           |          |         |             |
+|                |                         |               |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |               |     |     |           |           |          |         |             |
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+CON-30-1018 Foundation for Main Sturcture -Base (GR-0001C) 6 07-Mar-26 18-Mar-26 147 Foundation for Main Sturcture -Base (GR-0001C)
+CON-30-1021 Foundation for Main Sturcture -Column (GR-0001C) 6 19-Mar-26 28-Mar-26 147 Foundation for Main Sturcture -Column (GR-0001C)
+CON-30-1025 Foundation for Shelter -Base (GR-0001C) 6 28-Mar-26 04-Apr-26 147 Foundation for Shelter -Base (GR-0001C)
+CON-30-1028 Foundation for shelter -Column (GR-0001C) 6 04-Apr-26 11-Apr-26 147 Foundation for shelter -Column (GR-0001C)
+CON-30-1029 Miscellaneous Foundation (Support for Ladder.....) (GR-0001C) 6 11-Apr-26 18-Apr-26 147 Miscellaneous Foundation (Support for Ladder.....) (GR-0001C)
+SSuullpphhuurr GGrraannuullaattoorr ((33000033--GGRR--00000011DD)) 48 18-Apr-26 17-Jun-26 376
+CON-30-1034 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001D) 6 18-Apr-26 25-Apr-26 236 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001D)
+CON-30-1040 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001D6) 25-Apr-26 02-May-26 236 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001D)
+CON-30-1043 Foundation for Granulator Support -Base (GR-0001D) 6 02-May-26 09-May-26 236 Foundation for Granulator Support -Base (GR-0001D)
+CON-30-1047 Foundation for Granulator Support -Column (GR-0001D) 6 09-May-26 16-May-26 236 Foundation for Granulator Support -Column (GR-0001D)
+CON-30-1048 Foundation for Main Sturcture -Base (GR-0001D) 6 09-May-26 16-May-26 376 Foundation for Main Sturcture -Base (GR-0001D)
+CON-30-1053 Foundation for Main Sturcture -Column (GR-0001D) 6 16-May-26 23-May-26 376 Foundation for Main Sturcture -Column (GR-0001D)
+CON-30-1056 Foundation for Shelter -Base (GR-0001D) 6 23-May-26 02-Jun-26 376 Foundation for Shelter -Base (GR-0001D)
+CON-30-1059 Foundation for shelter -Column (GR-0001D) 6 02-Jun-26 09-Jun-26 376 Foundation for shelter -Column (GR-0001D)
+CON-30-1064 Miscellaneous Foundation (Support for Ladder.....) (GR-0001D) 6 09-Jun-26 17-Jun-26 376 Miscellaneous Foundation (Support for Ladder.....) (GR-0001D)
+SSuullpphhuurr GGrraannuullaattoorr ((33000033--GGRR--00000011EE)) 48 18-Apr-26 17-Jun-26 376
+CON-30-1035 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001E) 6 18-Apr-26 25-Apr-26 236 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001E)
+CON-30-1041 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001E6) 25-Apr-26 02-May-26 236 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001E)
+CON-30-1044 Foundation for Granulator Support -Base (GR-0001E) 6 02-May-26 09-May-26 236 Foundation for Granulator Support -Base (GR-0001E)
+CON-30-1049 Foundation for Granulator Support -Column (GR-0001E) 6 09-May-26 16-May-26 236 Foundation for Granulator Support -Column (GR-0001E)
+CON-30-1050 Foundation for Main Sturcture -Base (GR-0001E) 6 09-May-26 16-May-26 376 Foundation for Main Sturcture -Base (GR-0001E)
+CON-30-1054 Foundation for Main Sturcture -Column (GR-0001E) 6 16-May-26 23-May-26 376 Foundation for Main Sturcture -Column (GR-0001E)
+CON-30-1057 Foundation for Shelter -Base (GR-0001E) 6 23-May-26 02-Jun-26 376 Foundation for Shelter -Base (GR-0001E)
+CON-30-1060 Foundation for shelter -Column (GR-0001E) 6 02-Jun-26 09-Jun-26 376 Foundation for shelter -Column (GR-0001E)
+CON-30-1065 Miscellaneous Foundation (Support for Ladder.....) (GR-0001E) 6 09-Jun-26 17-Jun-26 376 Miscellaneous Foundation (Support for Ladder.....) (GR-0001E)
+SSuullpphhuurr GGrraannuullaattoorr ((33000033--GGRR--00000011FF)) 48 18-Apr-26 17-Jun-26 212
+CON-30-1036 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001F) 6 18-Apr-26 25-Apr-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001F)
+CON-30-1042 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001F6) 25-Apr-26 02-May-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001F)
+CON-30-1045 Foundation for Granulator Support -Base (GR-0001F) 6 02-May-26 09-May-26 147 Foundation for Granulator Support -Base (GR-0001F)
+CON-30-1051 Foundation for Granulator Support -Column (GR-0001F) 6 09-May-26 16-May-26 236 Foundation for Granulator Support -Column (GR-0001F)
+CON-30-1052 Foundation for Main Sturcture -Base (GR-0001F) 6 09-May-26 16-May-26 147 Foundation for Main Sturcture -Base (GR-0001F)
+CON-30-1055 Foundation for Main Sturcture -Column (GR-0001F) 6 16-May-26 23-May-26 147 Foundation for Main Sturcture -Column (GR-0001F)
+CON-30-1058 Foundation for Shelter -Base (GR-0001F) 6 23-May-26 02-Jun-26 147 Foundation for Shelter -Base (GR-0001F)
+CON-30-1061 Foundation for shelter -Column (GR-0001F) 6 02-Jun-26 09-Jun-26 147 Foundation for shelter -Column (GR-0001F)
+CON-30-1063 Miscellaneous Foundation (Support for Ladder.....) (GR-0001F) 6 09-Jun-26 17-Jun-26 147 Miscellaneous Foundation (Support for Ladder.....) (GR-0001F)
+SSuullpphhuurr GGrraannuullaattoorr ((33000033--GGRR--00000011GG)) 48 17-Jun-26 12-Aug-26 328
+CON-30-1069 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001G) 6 17-Jun-26 24-Jun-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001G)
+CON-30-1076 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001G6)24-Jun-26 01-Jul-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001G)
+CON-30-1081 Foundation for Granulator Support -Base (GR-0001G) 6 01-Jul-26 08-Jul-26 216 Foundation for Granulator Support -Base (GR-0001G)
+CON-30-1085 Foundation for Granulator Support -Column (GR-0001G) 6 08-Jul-26 15-Jul-26 216 Foundation for Granulator Support -Column (GR-0001G)
+CON-30-1086 Foundation for Main Sturcture -Base (GR-0001G) 6 08-Jul-26 15-Jul-26 328 Foundation for Main Sturcture -Base (GR-0001G)
+CON-30-1093 Foundation for Main Sturcture -Column (GR-0001G) 6 15-Jul-26 22-Jul-26 328 Foundation for Main Sturcture -Column (GR-0001G)
+CON-30-1097 Foundation for Shelter -Base (GR-0001G) 6 22-Jul-26 29-Jul-26 328 Foundation for Shelter -Base (GR-0001G)
+CON-30-1101 Foundation for shelter -Column (GR-0001G) 6 29-Jul-26 05-Aug-26 328 Foundation for shelter -Column (GR-0001G)
+CON-30-1105 Miscellaneous Foundation (Support for Ladder.....) (GR-0001G) 6 05-Aug-26 12-Aug-26 328 Miscellaneous Foundation (Support for Ladder.....) (GR-0001G)
+SSuullpphhuurr GGrraannuullaattoorr ((33000033--GGRR--00000011HH)) 48 17-Jun-26 12-Aug-26 328
+CON-30-1070 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001H) 6 17-Jun-26 24-Jun-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001H)
+CON-30-1077 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001H6) 24-Jun-26 01-Jul-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001H)
+CON-30-1082 Foundation for Granulator Support -Base (GR-0001H) 6 01-Jul-26 08-Jul-26 216 Foundation for Granulator Support -Base (GR-0001H)
+CON-30-1087 Foundation for Granulator Support -Column (GR-0001H) 6 08-Jul-26 15-Jul-26 216 Foundation for Granulator Support -Column (GR-0001H)
+CON-30-1088 Foundation for Main Sturcture -Base (GR-0001H) 6 08-Jul-26 15-Jul-26 328 Foundation for Main Sturcture -Base (GR-0001H)
+Date Revision Checked Approved
+Actual Work Critical Remaining Work Page 12 of 13
+19-May-25 Revison A Nie Wei Fengguoling
+Remaining Work Milestone
+
+ADNOC GAS EPC WORKS FOR RSGP AT RSHT 2 FOR H&G
+Package 2
+Activity ID Activity Name Original Start Finish Total FloatF M A M J J A S O N D J F M A M J J A S O N D J F M A M J J A S O N D J F MA
+Duration
+CON-30-1094 Foundation for Main Sturcture -Column (GR-0001H) 6 15-Jul-26 22-Jul-26 328 Foundation for Main Sturcture -Column (GR-0001H)
+CON-30-1098 Foundation for Shelter -Base (GR-0001H) 6 22-Jul-26 29-Jul-26 328 Foundation for Shelter -Base (GR-0001H)
+CON-30-1102 Foundation for shelter -Column (GR-0001H) 6 29-Jul-26 05-Aug-26 328 Foundation for shelter -Column (GR-0001H)
+CON-30-1106 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001H) 6 05-Aug-26 12-Aug-26 328 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001H)
+| SSuullpphhuurr  GGrraannuullaattoorr  ((33000033--GGRR--00000011II)) |     | 48 17-Jun-26 | 12-Aug-26 | 328 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-30-1071 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001I) 6 17-Jun-26 24-Jun-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001I)
+CON-30-1078 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001I)6 24-Jun-26 01-Jul-26 216 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001I)
+CON-30-1083 Foundation for Granulator Support -Base (GR-0001I) 6 01-Jul-26 08-Jul-26 216 Foundation for Granulator Support -Base (GR-0001I)
+CON-30-1089 Foundation for Granulator Support -Column (GR-0001I) 6 08-Jul-26 15-Jul-26 216 Foundation for Granulator Support -Column (GR-0001I)
+CON-30-1090 Foundation for Main Sturcture -Base (GR-0001I) 6 08-Jul-26 15-Jul-26 328 Foundation for Main Sturcture -Base (GR-0001I)
+CON-30-1095 Foundation for Main Sturcture -Column (GR-0001I) 6 15-Jul-26 22-Jul-26 328 Foundation for Main Sturcture -Column (GR-0001I)
+CON-30-1099 Foundation for Shelter -Base (GR-0001I) 6 22-Jul-26 29-Jul-26 328 Foundation for Shelter -Base (GR-0001I)
+CON-30-1103 Foundation for shelter -Column (GR-0001I) 6 29-Jul-26 05-Aug-26 328 Foundation for shelter -Column (GR-0001I)
+CON-30-1107 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001I) 6 05-Aug-26 12-Aug-26 328 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001I)
+| SSuullpphhuurr  GGrraannuullaattoorr  ((33000033--GGRR--00000011JJ)) |     | 48 17-Jun-26 | 12-Aug-26 | 328 |     |     |     |     |     |
+| -------------------------------------------------------------------- | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+CON-30-1072 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001J) 6 17-Jun-26 24-Jun-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Base (GR-0001J)
+CON-30-1079 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001J6 24-Jun-26 01-Jul-26 147 Foundation for Accessory Equipment(Remelter Tank/Scrubber/Scrubber Discharge Skid/Filter-Pedestals (GR-0001J
+CON-30-1084 Foundation for Granulator -Base (GR-0001J) 6 01-Jul-26 08-Jul-26 147 Foundation for Granulator -Base (GR-0001J)
+CON-30-1091 Foundation for Granulator -Column (GR-0001J) 6 08-Jul-26 15-Jul-26 147 Foundation for Granulator -Column (GR-0001J)
+CON-30-1092 Foundation for Main Sturcture -Base (GR-0001J) 6 08-Jul-26 15-Jul-26 282 Foundation for Main Sturcture -Base (GR-0001J)
+CON-30-1096 Foundation for Main Sturcture -Column (GR-0001J) 6 15-Jul-26 22-Jul-26 328 Foundation for Main Sturcture -Column (GR-0001J)
+CON-30-1100 Foundation for Shelter -Base (GR-0001J) 6 22-Jul-26 29-Jul-26 328 Foundation for Shelter -Base (GR-0001J)
+CON-30-1104 Foundation for shelter -Column (GR-0001J) 6 29-Jul-26 05-Aug-26 328 Foundation for shelter -Column (GR-0001J)
+CON-30-1108 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001J) 6 05-Aug-26 12-Aug-26 328 Miscellaneous Foundation (Support for Ladder.....)  (GR-0001J)
+| PPiippeerraacckkss                             |     | 130 24-Apr-26 | 26-Sep-26 | 96  |     |     |     |     |     |
+| ---------------------------------------------- | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| PPRR--EEaasstt  ttoo  WWeesstt  SSeeccttiioonn |     | 110 24-Apr-26 | 03-Sep-26 | 116 |     |     |     |     |     |
+| CCiivviill                                     |     | 110 24-Apr-26 | 03-Sep-26 | 116 |     |     |     |     |     |
+CON-30-1046 Foundation Excavation - PR-East to West Section 20 24-Apr-26 16-May-26 86 Foundation Excavation - PR-East to West Section
+CON-30-1113 Foundation Execution-Base - PR-East to West Section 60 18-May-26 29-Jul-26 86 Foundation Execution-Base - PR-East to West Section
+CON-30-1125 Foundation Execution-Pedestals - PR-East to West Section 60 12-Jun-26 21-Aug-26 86 Foundation Execution-Pedestals - PR-East to West Section
+CON-30-1135 Foundation Backfilling  - PR-East to West Section 10 22-Aug-26 03-Sep-26 116 Foundation Backfilling  - PR-East to West Section
+| PPRR--NNootthh  ttoo  SSoouutthh  SSeeccttiioonn |     | 110 18-May-26 | 26-Sep-26 | 96  |     |     |     |     |     |
+| ------------------------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                       |     | 110 18-May-26 | 26-Sep-26 | 96  |     |     |     |     |     |
+CON-30-1062 Foundation Excavation - PR-Noth to South Section 20 18-May-26 11-Jun-26 96 Foundation Excavation - PR-Noth to South Section
+CON-30-1120 Foundation Execution-Base  - PR-Noth to South Section 40 12-Jun-26 29-Jul-26 96 Foundation Execution-Base  - PR-Noth to South Section
+CON-30-1134 Foundation Execution-Pedestals  - PR-Noth to South Section 40 30-Jul-26 15-Sep-26 96 Foundation Execution-Pedestals  - PR-Noth to South Section
+CON-30-1141 Foundation Backfilling  - PR-Noth to South Section 10 16-Sep-26 26-Sep-26 96 Foundation Backfilling  - PR-Noth to South Section
+| PPRR--LLiiqquuiidd  SSuullhhuurr  TTaannkkss  ttoo  GGrraannuullaattoorrss  SSeeccttiioonn |     | 90 12-Jun-26 | 26-Sep-26 | 96  |     |     |     |     |     |
+| ------------------------------------------------------------------------------------------ | --- | ------------ | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                                                                                 |     | 90 12-Jun-26 | 26-Sep-26 | 96  |     |     |     |     |     |
+CON-30-1080 Foundation Excavation -PR-Liquid Sulhur Tanks to Granulators Section 20 12-Jun-26 06-Jul-26 96 Foundation Excavation -PR-Liquid Sulhur Tanks to Granulators Section
+CON-30-1123 Foundation Execution-Base -PR-Liquid Sulhur Tanks to Granulators Section 40 07-Jul-26 21-Aug-26 96 Foundation Execution-Base -PR-Liquid Sulhur Tanks to Granulators Section
+CON-30-1138 Foundation Execution-Pedestals -PR-Liquid Sulhur Tanks to Granulators Section 40 30-Jul-26 15-Sep-26 96 Foundation Execution-Pedestals -PR-Liquid Sulhur Tanks to Granulators Section
+CON-30-1142 Foundation Backfilling - Piperack -PR-Liquid Sulhur Tanks to Granulators Section 10 16-Sep-26 26-Sep-26 96 Foundation Backfilling - Piperack -PR-Liquid Sulhur Tanks to Granulators Section
+| SSuullppuurr  RReemmeelltteerr |     | 110 30-Jul-26 | 08-Dec-26 | 174 |     |     |     |     |     |
+| ------------------------------ | --- | ------------- | --------- | --- | --- | --- | --- | --- | --- |
+| CCiivviill                     |     | 110 30-Jul-26 | 08-Dec-26 | 174 |     |     |     |     |     |
+CON-30-1119 Foundation Excavation - Sulpur Remelter 20 30-Jul-26 21-Aug-26 144 Foundation Excavation - Sulpur Remelter
+CON-30-1122 Foundation Execution-Base - Sulpur Remelter 40 22-Aug-26 08-Oct-26 144 Foundation Execution-Base - Sulpur Remelter
+CON-30-1129 Foundation Execution-Pedestals - Sulpur Remelter 40 09-Oct-26 24-Nov-26 144 Foundation Execution-Pedestals - Sulpur Remelter
+CON-30-1133 Foundation Backfilling - Sulpur Remelter 10 25-Nov-26 08-Dec-26 174 Foundation Backfilling - Sulpur Remelter
+|                |                         |               |     |     | Date      |           | Revision | Checked | Approved    |
+| -------------- | ----------------------- | ------------- | --- | --- | --------- | --------- | -------- | ------- | ----------- |
+| Actual Work    | Critical Remaining Work | Page 13 of 13 |     |     |           |           |          |         |             |
+|                |                         |               |     |     | 19-May-25 | Revison A |          | Nie Wei | Fengguoling |
+| Remaining Work | Milestone               |               |     |     |           |           |          |         |             |

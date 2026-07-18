@@ -1,0 +1,1808 @@
+{
+  "nodes": {
+    "10.1": {
+      "type": "contract",
+      "label": "CCECC - Civil Pkg II",
+      "vendor": "CCECC",
+      "discipline": "Civil",
+      "package": "Pkg II",
+      "ref": "WISON24108C25006",
+      "framework": "CIVIL",
+      "parent": "EPC-ADNOC-RSGP",
+      "value": 149832038.65
+    },
+    "10.1-EXH-Attachment-1": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 1",
+      "title": "Communication Procedures",
+      "relevance": "medium",
+      "topics": [
+        "communication"
+      ]
+    },
+    "10.1-EXH-Attachment-2": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 2",
+      "title": "Change Management",
+      "relevance": "critical",
+      "topics": [
+        "change order",
+        "variation",
+        "EOT"
+      ]
+    },
+    "10.1-EXH-Attachment-3": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 3",
+      "title": "HSE Requirements",
+      "relevance": "low",
+      "topics": [
+        "hse"
+      ]
+    },
+    "10.1-EXH-Attachment-4": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 4",
+      "title": "Quality Management",
+      "relevance": "low",
+      "topics": [
+        "quality"
+      ]
+    },
+    "10.1-EXH-Attachment-5": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 5",
+      "title": "Scope of Work",
+      "relevance": "critical",
+      "topics": [
+        "scope",
+        "schedule",
+        "key personnel",
+        "delay ld",
+        "kp ld"
+      ]
+    },
+    "10.1-EXH-Attachment-6": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 6",
+      "title": "Commercials",
+      "relevance": "critical",
+      "topics": [
+        "boq",
+        "rates",
+        "payment",
+        "bond format"
+      ]
+    },
+    "10.1-EXH-Attachment-7": {
+      "type": "exhibit",
+      "label": "10.1 Attachment 7",
+      "title": "Owner's Special Requirements",
+      "relevance": "medium",
+      "topics": [
+        "owner requirements",
+        "back-to-back"
+      ]
+    },
+    "10.2": {
+      "type": "contract",
+      "label": "TCC - Civil Pkg I & III",
+      "vendor": "TCC",
+      "discipline": "Civil",
+      "package": "Pkg I & III",
+      "ref": "WISON24108C25007",
+      "framework": "CIVIL",
+      "parent": "EPC-ADNOC-RSGP",
+      "value": 162119509.74
+    },
+    "10.2-EXH-Attachment-1": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 1",
+      "title": "Communication Procedures",
+      "relevance": "medium",
+      "topics": [
+        "communication"
+      ]
+    },
+    "10.2-EXH-Attachment-2": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 2",
+      "title": "Change Management",
+      "relevance": "critical",
+      "topics": [
+        "change order",
+        "variation",
+        "EOT"
+      ]
+    },
+    "10.2-EXH-Attachment-3": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 3",
+      "title": "HSE Requirements",
+      "relevance": "low",
+      "topics": [
+        "hse"
+      ]
+    },
+    "10.2-EXH-Attachment-4": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 4",
+      "title": "Quality Management",
+      "relevance": "low",
+      "topics": [
+        "quality"
+      ]
+    },
+    "10.2-EXH-Attachment-5": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 5",
+      "title": "Scope of Work",
+      "relevance": "critical",
+      "topics": [
+        "scope",
+        "schedule",
+        "key personnel",
+        "delay ld",
+        "kp ld"
+      ]
+    },
+    "10.2-EXH-Attachment-6": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 6",
+      "title": "Commercials",
+      "relevance": "critical",
+      "topics": [
+        "boq",
+        "rates",
+        "payment",
+        "bond format"
+      ]
+    },
+    "10.2-EXH-Attachment-7": {
+      "type": "exhibit",
+      "label": "10.2 Attachment 7",
+      "title": "Owner's Special Requirements",
+      "relevance": "medium",
+      "topics": [
+        "owner requirements",
+        "back-to-back"
+      ]
+    },
+    "12.1": {
+      "type": "contract",
+      "label": "CCECC - MEI Pkg I",
+      "vendor": "CCECC",
+      "discipline": "MEI",
+      "package": "Pkg I",
+      "ref": "WISON24108C26005",
+      "framework": "MEI",
+      "parent": "EPC-ADNOC-RSGP",
+      "value": 160891988.19
+    },
+    "12.1-EXH-Exh-A": {
+      "type": "exhibit",
+      "label": "12.1 Exh A",
+      "title": "Work Scope - Schedule",
+      "relevance": "critical",
+      "topics": [
+        "scope",
+        "schedule",
+        "milestones"
+      ]
+    },
+    "12.1-EXH-Exh-B": {
+      "type": "exhibit",
+      "label": "12.1 Exh B",
+      "title": "Method of Measurement",
+      "relevance": "critical",
+      "topics": [
+        "measurement",
+        "boq",
+        "rates"
+      ]
+    },
+    "12.1-EXH-Exh-D": {
+      "type": "exhibit",
+      "label": "12.1 Exh D",
+      "title": "Subcontract Price",
+      "relevance": "critical",
+      "topics": [
+        "boq",
+        "rates"
+      ]
+    },
+    "12.1-EXH-Exh-E": {
+      "type": "exhibit",
+      "label": "12.1 Exh E",
+      "title": "Quality Requirements",
+      "relevance": "medium",
+      "topics": [
+        "quality",
+        "kp ld"
+      ]
+    },
+    "12.1-EXH-Exh-F": {
+      "type": "exhibit",
+      "label": "12.1 Exh F",
+      "title": "Administrative Procedure",
+      "relevance": "medium",
+      "topics": [
+        "communication",
+        "reporting"
+      ]
+    },
+    "12.1-EXH-Exh-G": {
+      "type": "exhibit",
+      "label": "12.1 Exh G",
+      "title": "(Not Applicable)",
+      "relevance": "archive",
+      "topics": []
+    },
+    "12.1-EXH-Exh-H": {
+      "type": "exhibit",
+      "label": "12.1 Exh H",
+      "title": "HSE Requirements",
+      "relevance": "low",
+      "topics": [
+        "hse"
+      ]
+    },
+    "12.1-EXH-Exh-I": {
+      "type": "exhibit",
+      "label": "12.1 Exh I",
+      "title": "(Not Applicable)",
+      "relevance": "archive",
+      "topics": []
+    },
+    "12.1-EXH-Exh-J": {
+      "type": "exhibit",
+      "label": "12.1 Exh J",
+      "title": "Scheduling and Reporting",
+      "relevance": "high",
+      "topics": [
+        "schedule",
+        "reporting"
+      ]
+    },
+    "12.1-EXH-Exh-K": {
+      "type": "exhibit",
+      "label": "12.1 Exh K",
+      "title": "Owner's Special Requirements",
+      "relevance": "medium",
+      "topics": [
+        "owner requirements",
+        "back-to-back",
+        "icv",
+        "insurance"
+      ]
+    },
+    "12.1-EXH-ExhC": {
+      "type": "exhibit",
+      "label": "12.1 Exhibit C",
+      "contract": "12.1"
+    },
+    "12.1-EXH-ExhD": {
+      "type": "exhibit",
+      "label": "12.1 Exhibit D",
+      "contract": "12.1"
+    },
+    "12.1-EXH-ExhE": {
+      "type": "exhibit",
+      "label": "12.1 Exhibit E",
+      "contract": "12.1"
+    },
+    "ADVANCE-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 Advance Payment",
+      "pct": 10,
+      "currency": "AED",
+      "category": "advance_payment"
+    },
+    "ADVANCE-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 Advance Payment",
+      "pct": 10,
+      "currency": "AED",
+      "category": "advance_payment"
+    },
+    "ADVANCE-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 Advance Payment",
+      "pct": 10,
+      "currency": "AED",
+      "category": "advance_payment"
+    },
+    "AMDT-12.1-01": {
+      "type": "amendment",
+      "label": "Amdt 01 — Tripartite Fabricator Framework",
+      "date": "2026-07",
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "CIVIL-Attachment-5": {
+      "type": "clause",
+      "label": "Attachment 5",
+      "topic": "scope",
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-10-7": {
+      "type": "clause",
+      "label": "Sub-Clause 10.7",
+      "topic": "LD",
+      "library_link": null,
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-21-2": {
+      "type": "clause",
+      "label": "Article 21.2",
+      "topic": "Termination",
+      "library_link": null,
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-4-2-4": {
+      "type": "clause",
+      "label": "Sub-Clause 4.2.4",
+      "topic": "LD",
+      "library_link": "data/clause-library/Key-Personnel-LD.md",
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-4-3-3": {
+      "type": "clause",
+      "label": "Sub-Clause 4.3.3",
+      "topic": "Personnel",
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-4-3-6": {
+      "type": "clause",
+      "label": "Sub-Clause 4.3.6",
+      "topic": "Personnel",
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "CIVIL-COC-4-3-7": {
+      "type": "clause",
+      "label": "Sub-Clause 4.3.7",
+      "topic": "Personnel",
+      "library_link": "data/clause-library/Key-Personnel.md",
+      "contract": "10.1",
+      "framework": "CIVIL"
+    },
+    "EPC-18.4(e)": {
+      "type": "clause",
+      "label": "EPC Delay LD",
+      "framework": "EPC"
+    },
+    "EPC-ADNOC-RSGP": {
+      "type": "contract",
+      "label": "ADNOC RSGP EPC Agreement",
+      "vendor": null,
+      "discipline": null,
+      "package": null,
+      "ref": "6000066707",
+      "framework": "UNKNOWN",
+      "parent": null,
+      "value": null
+    },
+    "EPC-LD-KP": {
+      "type": "clause",
+      "label": "EPC KP LD",
+      "framework": "EPC"
+    },
+    "FRAMEWORK-CIVIL": {
+      "type": "framework",
+      "label": "Civil Framework (COC 29 sections + FOA 1-3)"
+    },
+    "FRAMEWORK-MEI": {
+      "type": "framework",
+      "label": "MEI Framework (GCS 1.0-50.0 + SCS 1-7 + Agrmt 1-13)"
+    },
+    "ISSUE-PM-缺位-—-Material-Breach": {
+      "type": "issue",
+      "label": "PM 缺位 — Material Breach",
+      "status": "open",
+      "cost_impact": "AED 10,000/day from 2026-06-24",
+      "deadline": "2026-07-16"
+    },
+    "ISSUE-里程碑-No.2-逾期-—-Delay-LD-保留": {
+      "type": "issue",
+      "label": "里程碑 No.2 逾期 — Delay LD 保留",
+      "status": "open",
+      "cost_impact": "AED 160,892/day; accrued ~AED 3.86M (Pkg1) + ~AED 6.11M (Pkg3)",
+      "deadline": "2026-07-16"
+    },
+    "KO-Delay-LD": {
+      "type": "clause_library",
+      "label": "Delay LD"
+    },
+    "KO-Key-Personnel": {
+      "type": "clause_library",
+      "label": "Key Personnel"
+    },
+    "KO-Key-Personnel-LD": {
+      "type": "clause_library",
+      "label": "Key Personnel LD"
+    },
+    "KO-Payment": {
+      "type": "clause_library",
+      "label": "Payment"
+    },
+    "LD-DELAY-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 Delay LD",
+      "per_day": 149832.04,
+      "cap_pct": 10,
+      "cap_amount": 14983203.87,
+      "currency": "AED",
+      "category": "liquidated_damages"
+    },
+    "LD-DELAY-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 Delay LD",
+      "per_day": 162119.51,
+      "cap_pct": 10,
+      "cap_amount": 16211950.97,
+      "currency": "AED",
+      "category": "liquidated_damages"
+    },
+    "LD-DELAY-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 Delay LD",
+      "per_day": 160891.99,
+      "cap_pct": 10,
+      "cap_amount": 16089198.82,
+      "currency": "AED",
+      "category": "liquidated_damages"
+    },
+    "LD-KP-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 KP LD",
+      "per_day": 10000,
+      "count": 7,
+      "currency": "AED",
+      "category": "key_personnel_ld"
+    },
+    "LD-KP-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 KP LD",
+      "per_day": 10000,
+      "count": 7,
+      "currency": "AED",
+      "category": "key_personnel_ld"
+    },
+    "LD-KP-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 KP LD",
+      "per_day": 10000,
+      "count": 7,
+      "currency": "AED",
+      "category": "key_personnel_ld"
+    },
+    "MEI-Exhibit-A-2": {
+      "type": "clause",
+      "label": "Exhibit A.2",
+      "topic": "schedule",
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-GCS-1": {
+      "type": "clause",
+      "label": "MEI-GCS-1",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-1-1": {
+      "type": "clause",
+      "label": "MEI-GCS-1-1",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-17": {
+      "type": "clause",
+      "label": "MEI-GCS-17",
+      "framework": "MEI"
+    },
+    "MEI-GCS-3": {
+      "type": "clause",
+      "label": "MEI-GCS-3",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-3-": {
+      "type": "clause",
+      "label": "MEI-GCS-3-",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-3-2": {
+      "type": "clause",
+      "label": "MEI-GCS-3-2",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-4": {
+      "type": "clause",
+      "label": "MEI-GCS-4",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-4-1": {
+      "type": "clause",
+      "label": "MEI-GCS-4-1",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-4-2": {
+      "type": "clause",
+      "label": "MEI-GCS-4-2",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-4-3": {
+      "type": "clause",
+      "label": "MEI-GCS-4-3",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-4-3-": {
+      "type": "clause",
+      "label": "MEI-GCS-4-3-",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-6": {
+      "type": "clause",
+      "label": "MEI-GCS-6",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-6-1": {
+      "type": "clause",
+      "label": "MEI-GCS-6-1",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-6-1-": {
+      "type": "clause",
+      "label": "MEI-GCS-6-1-",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-GCS-8": {
+      "type": "clause",
+      "label": "MEI-GCS-8",
+      "framework": "MEI",
+      "contract": "12.1"
+    },
+    "MEI-SCS-Clause-17": {
+      "type": "clause",
+      "label": "SCS Clause 17",
+      "topic": "ld",
+      "library_link": null,
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-19": {
+      "type": "clause",
+      "label": "SCS Clause 19",
+      "topic": "payment",
+      "library_link": null,
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-27": {
+      "type": "clause",
+      "label": "SCS Clause 27",
+      "topic": "warranty",
+      "library_link": null,
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-28": {
+      "type": "clause",
+      "label": "SCS Clause 28",
+      "topic": "security",
+      "library_link": null,
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-33": {
+      "type": "clause",
+      "label": "SCS Clause 33",
+      "topic": "termination",
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-5-6": {
+      "type": "clause",
+      "label": "SCS Clause 5.6",
+      "topic": "variation",
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "MEI-SCS-Clause-8": {
+      "type": "clause",
+      "label": "SCS Clause 8",
+      "topic": "personnel",
+      "library_link": "data/clause-library/Key-Personnel.md",
+      "contract": "12.1",
+      "framework": "MEI"
+    },
+    "PB-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 Performance Bond",
+      "pct": 10,
+      "currency": "AED",
+      "category": "performance_bond"
+    },
+    "PB-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 Performance Bond",
+      "pct": 10,
+      "currency": "AED",
+      "category": "performance_bond"
+    },
+    "PB-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 Performance Bond",
+      "pct": 10,
+      "currency": "AED",
+      "category": "performance_bond"
+    },
+    "RETENTION-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 Retention",
+      "pct": 10,
+      "currency": "AED",
+      "category": "retention"
+    },
+    "RETENTION-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 Retention",
+      "pct": 10,
+      "currency": "AED",
+      "category": "retention"
+    },
+    "RETENTION-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 Retention",
+      "pct": 10,
+      "currency": "AED",
+      "category": "retention"
+    },
+    "RISK-12.1-变更增额触发": {
+      "type": "risk",
+      "label": "12.1 变更增额触发",
+      "severity": "🟢 Favorable",
+      "contracts": "12.1"
+    },
+    "RISK-12.1-性能-LD-存在": {
+      "type": "risk",
+      "label": "12.1 性能 LD 存在",
+      "severity": "🟡 Medium",
+      "contracts": "12.1"
+    },
+    "RISK-12.1-预付款分期风险": {
+      "type": "risk",
+      "label": "12.1 预付款分期风险",
+      "severity": "🟡 Medium",
+      "contracts": "12.1"
+    },
+    "RISK-Delay-LD-背靠背无法验证": {
+      "type": "risk",
+      "label": "Delay LD 背靠背无法验证",
+      "severity": "🔴 Critical",
+      "contracts": "All"
+    },
+    "RISK-Delay-LD-金额未知": {
+      "type": "risk",
+      "label": "Delay LD 金额未知",
+      "severity": "🟢 Resolved",
+      "contracts": "All 3"
+    },
+    "RISK-EPC-主合同数据缺失": {
+      "type": "risk",
+      "label": "EPC 主合同数据缺失",
+      "severity": "🔴 Critical",
+      "contracts": "All"
+    },
+    "RISK-ICV-目标差异": {
+      "type": "risk",
+      "label": "ICV 目标差异",
+      "severity": "🟡 Medium",
+      "contracts": "12.1 vs 10.1"
+    },
+    "RISK-PM-缺位-Material-Breach": {
+      "type": "risk",
+      "label": "PM 缺位 Material Breach",
+      "severity": "🔴 Active",
+      "contracts": "10.1"
+    },
+    "RISK-保函存续期差异": {
+      "type": "risk",
+      "label": "保函存续期差异",
+      "severity": "🟡 Medium",
+      "contracts": "12.1"
+    },
+    "RISK-保留金释放不对称": {
+      "type": "risk",
+      "label": "保留金释放不对称",
+      "severity": "🔴 High",
+      "contracts": "12.1"
+    },
+    "RISK-管理系统-LD": {
+      "type": "risk",
+      "label": "管理系统 LD",
+      "severity": "🟡 Medium",
+      "contracts": "12.1"
+    },
+    "SLT-5312-WSN-CCE-0019": {
+      "type": "correspondence",
+      "label": "Adjustment to Procurement Scope for Grating Covers",
+      "date": "2026-05-28",
+      "direction": "outgoing",
+      "contract": "10.1"
+    },
+    "SLT-5312-WSN-CCE-0020": {
+      "type": "correspondence",
+      "label": "NOTICE OF MATERIAL BREACH: UNAPPROVED ABSENCE OF PROJECT MANAGER",
+      "date": "2026-07-09",
+      "direction": "outgoing",
+      "contract": "10.1"
+    },
+    "SLT-5312-WSN-CCE-0021": {
+      "type": "correspondence",
+      "label": "NOTICE OF DELAY: KEY MILESTONE 'CONSTRUCTION PREPARATION READY FOR COMMENCEMENT' OVERDUE — RESERVATION OF DELAY LD RIGHTS",
+      "date": "2026-07-09",
+      "direction": "outgoing",
+      "contract": "12.1"
+    },
+    "UNKNOWN-DOC-": {
+      "type": "clause",
+      "label": "",
+      "contract": "保函条款位置",
+      "framework": "UNKNOWN",
+      "library": "KO-Payment"
+    },
+    "UNKNOWN-DOC----------": {
+      "type": "clause",
+      "label": "---------",
+      "contract": "------",
+      "framework": "UNKNOWN",
+      "library": "KO-Delay-LD"
+    },
+    "UNKNOWN-DOC-------------": {
+      "type": "clause",
+      "label": "------------",
+      "contract": "---------",
+      "framework": "UNKNOWN",
+      "library": "KO-Payment"
+    },
+    "UNKNOWN-DOC-FIDIC-Silver-Book": {
+      "type": "clause",
+      "label": "FIDIC Silver Book",
+      "contract": "EPC-ADNOC-RSGP",
+      "framework": "UNKNOWN",
+      "library": "KO-Payment"
+    },
+    "UNKNOWN-DOC-合同形式": {
+      "type": "clause",
+      "label": "合同形式",
+      "contract": "合同",
+      "framework": "UNKNOWN",
+      "library": "KO-Payment"
+    },
+    "UNKNOWN-DOC-条款位置": {
+      "type": "clause",
+      "label": "条款位置",
+      "contract": "合同",
+      "framework": "UNKNOWN",
+      "library": "KO-Delay-LD"
+    },
+    "VALUE-10.1": {
+      "type": "commercial_value",
+      "label": "10.1 Contract Value",
+      "amount": 149832038.65,
+      "currency": "AED",
+      "category": "contract_value"
+    },
+    "VALUE-10.2": {
+      "type": "commercial_value",
+      "label": "10.2 Contract Value",
+      "amount": 162119509.74,
+      "currency": "AED",
+      "category": "contract_value"
+    },
+    "VALUE-12.1": {
+      "type": "commercial_value",
+      "label": "12.1 Contract Value",
+      "amount": 160891988.19,
+      "currency": "AED",
+      "category": "contract_value"
+    }
+  },
+  "edges": [
+    {
+      "source": "10.1",
+      "target": "VALUE-10.1",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "LD-DELAY-10.1",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "LD-KP-10.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "ADVANCE-10.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "RETENTION-10.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "PB-10.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-1",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-2",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-3",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-4",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-5",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-6",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "10.1-EXH-Attachment-7",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-4-2-4",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-4-3-7",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "personnel"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-10-7",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-21-2",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "termination"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "ISSUE-PM-缺位-—-Material-Breach",
+      "type": "has_issue",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "VALUE-10.2",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "10.2",
+      "target": "LD-DELAY-10.2",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "10.2",
+      "target": "LD-KP-10.2",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "ADVANCE-10.2",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "RETENTION-10.2",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "PB-10.2",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-1",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-2",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-3",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-4",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-5",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-6",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "10.2-EXH-Attachment-7",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "10.2",
+      "target": "CIVIL-COC-4-2-4",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "10.2",
+      "target": "CIVIL-COC-10-7",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "VALUE-12.1",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "LD-DELAY-12.1",
+      "type": "has_value",
+      "metadata": {
+        "unit": "AED"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "LD-KP-12.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "ADVANCE-12.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "RETENTION-12.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "PB-12.1",
+      "type": "has_value",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-A",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-B",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-D",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-E",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-F",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-G",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-H",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-I",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-J",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "12.1-EXH-Exh-K",
+      "type": "has_exhibit",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-17",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-19",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "payment"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-28",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "security"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-8",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "personnel"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-27",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "warranty"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "ISSUE-里程碑-No.2-逾期-—-Delay-LD-保留",
+      "type": "has_issue",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0019",
+      "target": "CIVIL-Attachment-5",
+      "type": "references",
+      "metadata": {
+        "topic": "scope"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-Attachment-5",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "scope"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0019",
+      "target": "10.1",
+      "type": "relates_to",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0019",
+      "target": "CCECC",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0019",
+      "target": "WSN",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-4-3-3",
+      "type": "references",
+      "metadata": {
+        "topic": "Personnel"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-4-3-3",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "Personnel"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-4-3-6",
+      "type": "references",
+      "metadata": {
+        "topic": "Personnel"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "CIVIL-COC-4-3-6",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "Personnel"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-4-3-7",
+      "type": "references",
+      "metadata": {
+        "topic": "Personnel"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-4-2-4",
+      "type": "references",
+      "metadata": {
+        "topic": "LD"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-10-7",
+      "type": "references",
+      "metadata": {
+        "topic": "LD"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CIVIL-COC-21-2",
+      "type": "references",
+      "metadata": {
+        "topic": "Termination"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "10.1",
+      "type": "relates_to",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "CCECC",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0020",
+      "target": "WSN",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "MEI-SCS-Clause-17",
+      "type": "references",
+      "metadata": {
+        "topic": "ld"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "MEI-Exhibit-A-2",
+      "type": "references",
+      "metadata": {
+        "topic": "schedule"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-Exhibit-A-2",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "schedule"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "MEI-SCS-Clause-33",
+      "type": "references",
+      "metadata": {
+        "topic": "termination"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-33",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "termination"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "MEI-SCS-Clause-5-6",
+      "type": "references",
+      "metadata": {
+        "topic": "variation"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-SCS-Clause-5-6",
+      "type": "has_clause",
+      "metadata": {
+        "topic": "variation"
+      }
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "12.1",
+      "type": "relates_to",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "CCECC",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "SLT-5312-WSN-CCE-0021",
+      "target": "WSN",
+      "type": "involves",
+      "metadata": {}
+    },
+    {
+      "source": "合同",
+      "target": "UNKNOWN-DOC-条款位置",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Delay-LD"
+      }
+    },
+    {
+      "source": "------",
+      "target": "UNKNOWN-DOC----------",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Delay-LD"
+      }
+    },
+    {
+      "source": "合同",
+      "target": "UNKNOWN-DOC-合同形式",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Payment"
+      }
+    },
+    {
+      "source": "保函条款位置",
+      "target": "UNKNOWN-DOC-",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Payment"
+      }
+    },
+    {
+      "source": "---------",
+      "target": "UNKNOWN-DOC-------------",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Payment"
+      }
+    },
+    {
+      "source": "EPC-ADNOC-RSGP",
+      "target": "UNKNOWN-DOC-FIDIC-Silver-Book",
+      "type": "has_clause",
+      "metadata": {
+        "library": "KO-Payment"
+      }
+    },
+    {
+      "source": "EPC-18.4(e)",
+      "target": "CIVIL-COC-10-7",
+      "type": "flows_down",
+      "metadata": {
+        "topic": "Delay LD",
+        "confidence": "high"
+      }
+    },
+    {
+      "source": "EPC-18.4(e)",
+      "target": "MEI-GCS-17",
+      "type": "flows_down",
+      "metadata": {
+        "topic": "Delay LD",
+        "confidence": "high"
+      }
+    },
+    {
+      "source": "EPC-LD-KP",
+      "target": "CIVIL-COC-4-2-4",
+      "type": "flows_down",
+      "metadata": {
+        "topic": "KP LD",
+        "confidence": "high"
+      }
+    },
+    {
+      "source": "EPC-LD-KP",
+      "target": "MEI-GCS-8",
+      "type": "flows_down",
+      "metadata": {
+        "topic": "KP LD",
+        "confidence": "medium"
+      }
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "12.1",
+      "type": "amends",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "12.1-EXH-ExhD",
+      "type": "affects",
+      "metadata": {
+        "clause": "Exh D"
+      }
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "12.1-EXH-ExhC",
+      "type": "affects",
+      "metadata": {
+        "clause": "Exh C"
+      }
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "12.1-EXH-ExhE",
+      "type": "affects",
+      "metadata": {
+        "clause": "Exh E"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-4-3",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-4-3",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-4-3-",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-4-3-",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-4-2",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-4-2",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-6-1",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-6-1",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-8",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-8",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-3-",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-3-",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-6",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-6",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-1",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-1",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-4-1",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-4-1",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-3-2",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-3-2",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-4",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-4",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-3",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-3",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-6-1-",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-6-1-",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "MEI-GCS-1-1",
+      "type": "has_clause",
+      "metadata": {}
+    },
+    {
+      "source": "AMDT-12.1-01",
+      "target": "MEI-GCS-1-1",
+      "type": "affects",
+      "metadata": {
+        "amended": true
+      }
+    },
+    {
+      "source": "All",
+      "target": "RISK-EPC-主合同数据缺失",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🔴 Critical"
+      }
+    },
+    {
+      "source": "All",
+      "target": "RISK-Delay-LD-背靠背无法验证",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🔴 Critical"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-保留金释放不对称",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🔴 High"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-12.1-预付款分期风险",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🟡 Medium"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-12.1-性能-LD-存在",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🟡 Medium"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-管理系统-LD",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🟡 Medium"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-保函存续期差异",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🟡 Medium"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "RISK-PM-缺位-Material-Breach",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🔴 Active"
+      }
+    },
+    {
+      "source": "12.1",
+      "target": "RISK-12.1-变更增额触发",
+      "type": "exposes_to",
+      "metadata": {
+        "severity": "🟢 Favorable"
+      }
+    },
+    {
+      "source": "10.1",
+      "target": "FRAMEWORK-CIVIL",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "12.1",
+      "target": "FRAMEWORK-MEI",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "合同",
+      "target": "FRAMEWORK-UNKNOWN",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "------",
+      "target": "FRAMEWORK-UNKNOWN",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "保函条款位置",
+      "target": "FRAMEWORK-UNKNOWN",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "---------",
+      "target": "FRAMEWORK-UNKNOWN",
+      "type": "uses_framework",
+      "metadata": {}
+    },
+    {
+      "source": "EPC-ADNOC-RSGP",
+      "target": "FRAMEWORK-UNKNOWN",
+      "type": "uses_framework",
+      "metadata": {}
+    }
+  ]
+}

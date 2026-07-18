@@ -1,0 +1,129 @@
+# Source: Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5 .xlsx
+# Sheet: Package-007
+"# Rows: 60, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I,,,,,,,,,,,,,,,,,,,,,,"REV. C, DATE: 30/DEC/2025",
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK,
+,,,,,,,Polishing,UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,,
+,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,
+PK-0007,1032-ME-0001,CONDENSATE POLISHING PACKAGE,"Capacity：15t/h
+Package including as below:",Contractor,Package,1,1,,,,,,,,,,,,,,,Refer to Vendor Document as attached,
+1,1032-F-0001A/S,Pre-filter ,"Pre-filter 
+Size: DN200×1200(T/F) mm
+Material: 316L/8.18mm 
+Filter Media: 5μm, 
+ASME U",Contractor,set,2,2,,,269.30976,538.61952,11860.4018304,23720.8036608,,0,2087.54848186353,4175.09696372706,1699.75294411765,3399.5058882353,15647.7032563812,31295.4065127624,,
+2,1032-F-0002A/S,Activated Carbon Filter,"Activated Carbon Filter
+Size: DN1400(ID)×3000(T/T) mm
+Material: SA516 Gr70/12mm
+Internals: Sieve Tube, SS316L 
+Filter Media: Activated Carbon 
+(φ0.6-2.5mm,H=1.5m,V=2.31m3) 
++Graval (φ1-32mm, H=500mm + 
+Head, V=1.17m3) 
+ASME U",Contractor,set,2,2,,,432.53616,865.07232,19048.8924864,38097.7849728,,0,3427.51482393412,6855.02964786824,2357.56806176471,4715.13612352942,24833.9753720988,49667.9507441977,,
+3,1032-F-0003A/S,MB Pre-filter,"MB Pre-filter
+Size: DN200×1200(T/F) mm
+Material: 316L/8.18mm 
+Filter Media: 5μm, 
+ASME U",Contractor,set,2,2,,,269.30976,538.61952,11860.4018304,23720.8036608,,0,2087.54848186353,4175.09696372706,1699.75294411765,3399.5058882353,15647.7032563812,31295.4065127624,,
+4,1032-F-0004A/S,Mix Bed,"Mix Bed
+Size: DN800(ID)×3000(T/T) mm
+Material: SA516 Gr70/10mm 
+Internals: SS316L 
+Resin: Cation Resin (H=500mm, 
+V=0.25m3) + Anion Resin 
+(H=1000mm, V=0.5m3) 
+ASME U",Contractor,set,2,2,,,162.035,324.07,7136.0214,14272.0428,,0,1426.53472088235,2853.0694417647,1604.81544117647,3209.63088235294,10167.3715620588,20334.7431241176,,
+5,1032-TK-0001,Polished Water Tank,"Polished Water Tank
+Size: DN6600(ID)×6357mm (T/F)
+Material: SA516 
+Gr.70/6mm+Lining",Contractor,set,1,1,,,5098.272,5098.272,224527.89888,224527.89888,,0,56492.039888,56492.039888,49328.9503382353,49328.9503382353,330348.889106235,330348.889106235,,252.10746
+6,1032-TK-0003,Acid Metering Tank,"Acid Metering Tank
+Size: DN1000(ID)×1500mm (T/F)
+Volume: 1m3 
+Material: SA516 
+Gr70/6mm+Rubber 
+Agitator: 0.75kw",Contractor,set,1,1,,,273.93184,273.93184,12063.9582336,12063.9582336,,0,2347.05686571294,2347.05686571294,1705.17590882353,1705.17590882353,16116.1910081365,16116.1910081365,,
+7,1032-TK-0004,Caustic Metering Tank,"Caustic Metering Tank
+Size: DN1000(ID)×1500mm (T/F)
+Volume: 1m3 
+Material: SA516 
+Gr70/6mm+Rubber 
+Agitator: 0.75kw",Contractor,set,1,1,,,273.93184,273.93184,12063.9582336,12063.9582336,,0,2347.05686571294,2347.05686571294,1705.17590882353,1705.17590882353,16116.1910081365,16116.1910081365,,
+8,1032-TK-0005,Acid Storage Tank,"Acid Storage Tank
+Size: DN2600(ID)×4500(T/T) mm
+Material: SA516 Gr70/10mm",Contractor,set,1,1,,,205.804,205.804,9063.60816,9063.60816,,0,2412.84184541176,2412.84184541176,1706.05077205882,1706.05077205882,13182.5007774706,13182.5007774706,,
+9,1032-TK-0006,Caustic Storage Tank,"Caustic Storage Tank
+Size: DN2600(ID)×4500(T/T) mm
+Material: SA516 Gr70/10mm
+Heater:30KW",Contractor,set,1,1,,,205.804,205.804,9063.60816,9063.60816,,0,2412.84184541176,2412.84184541176,1706.05077205882,1706.05077205882,13182.5007774706,13182.5007774706,,
+10,1032-P-0003A/S,ACF Backwash Pump,"ACF Backwash Pump
+Q=50m3/h H=20m, P=5.5kw, SS316, IP 65",Contractor,set,2,2,,,336.076,672.152,14800.78704,29601.57408,,0,3977.10352752941,7954.20705505882,1214.68904411765,2429.3780882353,19992.5796116471,39985.1592232941,,
+11,1032-P-0001A/S,Polished Water Pump,"Polished Water Pump
+ISO5199 or ASME B73.1 
+Q=17m3/h H=230m, P=22kw, 
+SS316, IP 65",Contractor,set,2,2,,,203.596,407.192,8966.36784,17932.73568,,0,2221.07501929412,4442.15003858824,860.709448529412,1721.41889705882,12048.1523078235,24096.3046156471,,
+12,1032-P-0002A/S,Waste Water Pump,"Waste Water Pump
+ISO5199 or ASME B73.1 
+Q=15m3/h H=30m, P=2.2kw, 
+SS316, IP 65",Contractor,set,2,2,,,203.596,407.192,8966.36784,17932.73568,,0,2221.07501929412,4442.15003858824,860.709448529412,1721.41889705882,12048.1523078235,24096.3046156471,,
+13,1032-P-0004A/S,Acid Metering Pump,"Acid Metering Pump
+API675, Q=400L/h H=7.0barg, 
+P=1.1kw, PVDF, IP 65",Contractor,set,2,2,,,203.596,407.192,8966.36784,17932.73568,,0,2221.07501929412,4442.15003858824,860.709448529412,1721.41889705882,12048.1523078235,24096.3046156471,,
+14,1032-P-0005A/S,Caustic Metering Pump,"Caustic Metering Pump
+API675, Q=400L/h H=7.0barg, 
+P=1.1kw, SS316, IP 65",Contractor,set,2,2,,,203.596,407.192,8966.36784,17932.73568,,0,2221.07501929412,4442.15003858824,860.709448529412,1721.41889705882,12048.1523078235,24096.3046156471,,
+15,1032-P-0006A/S,Acid Unloading Pump,"Acid Unloading Pump
+Q=20m3/h H=15m, PVDF, IP 65",Contractor,set,2,2,,,334.098,668.196,14713.67592,29427.35184,,0,4979.93616552941,9959.87233105882,1237.62654411765,2475.2530882353,20931.2386296471,41862.4772592941,,
+16,1032-P-0007A/S,Caustic Unloading Pump,"Caustic Unloading Pump
+Q=20m3/h H=15m, 316L, IP 65",Contractor,set,2,2,,,334.098,668.196,14713.67592,29427.35184,,0,4979.93616552941,9959.87233105882,1237.62654411765,2475.2530882353,20931.2386296471,41862.4772592941,,
+17,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",Contractor,Lot,1,1,,,10131.46596,10131.46596,446189.7608784,446189.7608784,,0,102041.409808428,102041.409808428,37937.5017371324,37937.5017371324,586168.67242396,586168.67242396,Refer to Vendor Document as attached,
+,,,Package Equipment 007 TOTAL,,,,,,,,22092.903,,972971.44812,,0,,231754.092007294,,123078.244072427,,1327803.78419972,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

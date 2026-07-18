@@ -1,0 +1,70 @@
+# Source: Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5 .xlsx
+# Sheet: A.1-INDIRECTS BREAKDOWN
+"# Rows: 58, Cols: 4"
+
+,,,
+,,,
+,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,"REV. C, DATE: 30/DEC/2025"
+,"LUMP SUM FOR INDIRECT COSTS, OVERHEAD AND PROFIT FOR MECHANICAL ELECTRICAL AND INSTALLATION WORKS",,
+SN,DESCRIPTION,Unit,TOTAL COST
+,,,
+I,INDIRECT COST:,,
+,,,
+A,FINANCIAL COST,,
+A01,Performance and Guarantee Bonds costs and Finance costs (in accordance to contractual conditions).,Lump Sum,286200
+A02,Insurances costs.,Lump Sum,1272000
+A03,"Licenses, taxes and official permits.",Lump Sum,2098594.84564942
+,TOTAL FINANCIAL COST,,3656794.84564942
+,,,
+B,MOBILIZATION AND DEMOBILIZATION COST,,
+B01,"Mobilization and settlement of all needed means, construction equipment,  transport to WORKSITE, preparation for use of means and equipment.",Lump Sum,256900
+B02,"Demobilization after the completion of the WORK and with the previous approval of the CONTRACTOR, dismantle and transport to their original location all his means, construction equipment.",Lump Sum,256900
+B03,Cleaning and clearance to restore Subcontractor area/s to its original state.,Lump Sum,344466.37904
+,TOTAL MOBILIZATION AND DEMOBILIZATION COST,,858266.37904
+,,,
+C,TEMPORARY CONSTRUCTION FACILITIES COST,,
+C01,"SUBCONTRACTOR TEMPORARY WORKSITE FACILITIES.
+Mobilization, construction, running cost, operation and maintenance, and demobilization at the finalization of SUBCONTRACTOR Temporary Facilities on SITE, including (but not limited to) offices, first aid facilities, workshops, warehouses, dressing rooms, prayer rooms, toilets, canteen, resting shelters, urbanization, etc., and others required as per specification or applicable laws. Networks, telecom, drainage, power supply, water supply and disposal, firefighting system, drinking water, renting, insurances, etc.",Lump Sum,6452597.5808
+C02,"SUBCONTRACTOR TEMPORARY CAMP
+Mobilization, construction, running cost, operation and maintenance, and demobilization at the finalization of SUBCONTRACTOR Site Temporary Camp including (but not limited to) dormitories, common buildings, sport facilities, urbanization, etc., and others required as per specification or applicable laws. Networks, telecom, drainage, power supply, water supply and disposal, firefighting system, renting, insurances, medical service, catering,etc.",Lump Sum,included in direct
+C03,"FIRST AID SERVICE
+Medical services (doctor, nurse, ambulance, driver, first aiders, medical consumables, etc.)
+Include mobilization, demobilization, travels, transport, accommodation, catering, cleaning, social insurances, etc.",Lump Sum,436730
+,TOTAL TEMPORARY CONSTRUCTION FACILITIES COST,,6889327.5808
+,,,
+D,RUNNING COST,,
+D01,Security expenses,Lump Sum,577804.8
+D02,Cleaning cost (including dumping fees of domestic wastes),Lump Sum,748680
+D03,"Cranes, forklifts, trucks, and in general any mean, resource and equipment neccesary to manage workshop and lay down area, if any.",Lump Sum,1211834
+D04,"Any other required services (e.g. pest control, etc.)",Lump Sum,
+,TOTAL RUNNING COST,,2538318.8
+,,,
+E,INDIRECT PERSONNEL COST,,
+E01,"SITE MANAGEMENT AND INDIRECT LABOUR
+Management, administration personnel, construction supervisors,HSE personnel, QA/QC personnel, inspectors, material management, clerks, drivers, etc., that SUBCONTRACTOR might need to perform and complete the WORK and fulfil all SUBCONTRACTOR obligations under the SUBCONTRACT.
+Include mobilization, demobilization, travels, block visas,transport, accommodation, catering, cleaning, social insurances, etc.",Lump Sum,28766303.5148198
+,TOTAL INDIRECT PERSONNEL COST,,28766303.5148198
+,,,
+F,OTHER INDIRECT COST,,
+F01,Other Indirect Cost Item – This shall cover any additional indirect costs not specifically itemized elsewhere（Full site supervision and guidance from the manufacturer for GRE pipe fabrication and installation）Consider one person 1000USD/Day,Lump Sum,447740
+,TOTAL OTHER INDIRECT COST,,447740
+,,,
+,SUBTOTAL INDIRECT COST,,43156751.1203092
+,,,
+II,OVERHEAD AND PROFIT COST:,,
+,,,
+G,HEAD OFFICE SUPPORT,,
+G01,"- Head Office works to support the Project.
+- Administration expenses (incl. permits, block visas, etc.).
+- General Expenses related to the perform of the WORK that might be necessary to the correct perform of the WORK and the fulfillment of the SUBCONTRACTOR responsibilities included in the SUBCONTRACT.",Lump Sum,3180000
+,TOTAL HEAD OFFICE SUPPORT,,3180000
+,,,
+H,PROFIT,,
+H01,- Profit,Lump Sum,4770000
+,TOTAL PROFIT,,4770000
+,,,
+,SUBTOTAL OVERHEAD AND PROFIT COST,,7950000
+,,,
+,"TOTAL - LUMP SUM FOR INDIRECT COSTS, OVERHEAD AND PROFIT FOR SUBCONTRACT WORKS",,51106751.1203092

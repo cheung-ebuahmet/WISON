@@ -1,0 +1,220 @@
+﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Sulfur Granulator Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,,,CODE:24108-25100-,,,
+SUBCONTRACT:CIVIL AND BLDG WORKS PACKAGE II,,,,,,,,,,,,,,,,,,,,,,,,,REV.B DATE:2025/12/2,,,
+Item,Category,Description,Reference,Unit,"Qty.
+",QUANTITIES BY WBS,,,,,,,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST TOTAL
+F",,Remarks,,,
+,,,,,,"UNIT 10 
+General",UNIT 10 Substation,"UNIT 10 
+Operations Building",UNIT 20,UNIT 30,UNIT 40 General,"UNIT 40 
+SSB",U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,,,,
+,,,,,Q,,,,,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,,,,
+NO.1,,Demolition and Modification,,,,,,,,,,,,,,,,,,,,,,,,,,
+1.1,Demolition and Modification,"Demolition of reinforced concrete for foundations, slabs, footings, channels, culberts, well points,pit,culvert, manholes and/or equipment supports(includeing: off-site removal of materials)",,M3,10,10,,,,,,,564.945138888889,5649.45138888889,610.14075,6101.4075,1.88736111111111,18.8736111111111,0.150988888888889,1.50988888888889,0,0,612.178703703704,6121.78703703704,,,,
+1.2,Demolition and Modification,"Demolition of non-reinforced concrete for foundations, slabs, footings, channels, culberts, well points,pit,culvert, manholes and/or equipment supports(includeing: off-site removal of materials)",,M3,15,15,,,,,,,564.945138888889,8474.17708333333,610.14075,9152.11125,1.88736111111111,28.3104166666667,0.150988888888889,2.26483333333333,0,0,612.178703703704,9182.68055555555,,,,
+1.3,Demolition and Modification,Demolition and/or Disassembly of existing Catch Basins or Manholes,,EA,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.4,Demolition and Modification,Demolition of pile (L=1.5m),,EA,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.5,Demolition and Modification,"Demolition and/or Disassembly of Existing Buildings, incluided demolition of foundations and all underground installaltion inside of its battery limits",,M3,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.6,Demolition and Modification,"Openings execution, by chipping hammer or pneumatic hammer means, any size, properly finished.",,M3,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.7,Demolition and Modification,"Openings execution, by drilling machine means, any depth, properly finished.",,ea,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.8,Demolition and Modification,Demolition and/or Disassembly of elements of Heavy Steel Structures (above 90 kg/m),,T,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.9,Demolition and Modification,"Demolition and/or Disassembly of elements of Steel Structures (above 25 kg/m, up to 90 Kg/m)",,T,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.10,Demolition and Modification,Demolition and/or Disassembly of elements of Light Steel Structures (up to 25 kg/m),,T,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.11,Demolition and Modification,"Demolition and/or Disassembly of  Ancillary Steel Structures elements, such as Gratings, Chequered Plates, Handrails, Ladders…",,T,0,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+1.11,Demolition and Modification,"Fence Demolition,including foundation","=DISPIMG(""ID_BE1E4C91A5E4411C93D0214A511C9D7D"",1)",M,1350,1350,,,,,,,49.4726388888889,66788.0625,53.43045,72131.1075,0,0,0,0,0,0,53.4306481481482,72131.375,,,,
+1.12,Demolition and Modification,Demoliton of lighting poles,,EA,20,20,,,,,,,140.4375,2808.75,151.6725,3033.45,223.714212962963,4474.28425925926,17.897137037037,357.942740740741,336.7504,6735.008,730.032268518519,14600.6453703704,,,,
+1.13,Demolition and Modification,Demoliton of CCTV poles,,M,15,15,,,,,,,140.4375,2106.5625,151.6725,2275.0875,223.714212962963,3355.71319444444,17.897137037037,268.457055555556,336.7504,5051.256,730.032268518519,10950.4840277778,,,,
+1.14,Demolition and Modification,Demoliton of  cables,,M,500,500,,,,,,,1.54060185185185,770.300925925926,1.66385,831.925,12.1365740740741,6068.28703703704,0.970925925925926,485.462962962963,17.70315,8851.575,32.4764814814815,16238.2407407407,,,,
+1.15,Demolition and Modification,Slope Demolition,"=DISPIMG(""ID_BE1E4C91A5E4411C93D0214A511C9D7D"",1)",M2,1200,1200,,,,,,,71.5711111111111,85885.3333333333,77.2968,92756.16,0,0,0,0,0,0,77.2975925925926,92757.1111111111,,,,
+1.16,Demolition and Modification,Tree transplantation and relocation works to Client-designated location,"=DISPIMG(""ID_BAE81171457A41AB9DBB698751CDC704"",1)",EA,10,10,,,,,,,471.102175925926,4711.02175925926,508.79035,5087.9035,236.465046296296,2364.65046296296,18.9172037037037,189.172037037037,295.21835,2952.1835,1059.38421296296,10593.8421296296,,,,
+1.17,Demolition and Modification,"Road Demolition(includes asphalt materials and sub-base/base course materials, among other related contents, and off-site removal of materials)","=DISPIMG(""ID_C7D38E6248EF4D28A73614F13CE83ACC"",1)",M2,321,321,,,,,,,0.643981481481481,206.718055555556,0.6955,223.2555,7.65347222222222,2456.76458333333,0.612277777777778,196.541166666667,6.99245,2244.57645,15.9558796296296,5121.83736111111,,,,
+1.18,Demolition and Modification,"Paving Demolition(Include Concrete and Base course/Sub-case materail, among other related contents, and off-site removal of materials)","=DISPIMG(""ID_A63D1C7284C44D1EBE343921987500C4"",1)",M2,130,130,,,,,,,0.643981481481481,83.7175925925926,0.6955,90.415,7.65347222222222,994.951388888889,0.612277777777778,79.5961111111111,6.99245,909.0185,15.9558796296296,2074.26435185185,,,,
+1.19,Demolition and Modification,Demolition and/or Disassembly of Existing Concrete Ditch(includeing: off-site removal of materials),,M3,80,80,,,,,,,564.945138888889,45195.6111111111,610.14075,48811.26,1.88736111111111,150.988888888889,0.150988888888889,12.0791111111111,0,0,612.178703703704,48974.2962962963,,,,
+1.20,Demolition and Modification,"Reinstatement of Concrete Ditch after Demolition and/or Disassembly as per project specification and requirement(Including but not limited to: reinforced concrete restoration, road sub-base restoration, restoration of E.J, C.J, and I.J, etc. All requirements shall comply with the project specifications )",,M3,80,80,,,,,,,360.302685185185,28824.2148148148,389.1269,31130.152,3055.00356481481,244400.285185185,244.400285185185,19552.0228148148,0,0,3688.53273148148,295082.618518519,,,,
+1.21,Demolition and Modification,Demolition and/or Disassembly of Existing Earth Ditch(Including removal of materials inside the ditch and off-site disposal of waste).,,M3,60,60,,,,,,,98.9452777777778,5936.71666666667,106.8609,6411.654,0,0,0,0,0,0,106.861296296296,6411.67777777778,,,,
+1.22,Demolition and Modification,"Reinstatement of  Earth Ditch after Demolition and/or Disassembly  as per project specification and requirement(Including but not limited to possible internal HDPE, geotextile, and gravel cover, etc.)",,M3,60,60,,,,,,,91.2521759259259,5475.13055555556,98.55235,5913.141,186.947824074074,11216.8694444444,14.9558259259259,897.349555555556,1.07535,64.521,301.531944444444,18091.9166666667,,,,
+2,,Earth Work,,,,,,,,,,,,,,,,,,,,,,,,,,
+2.1,Earth Work,"EXCAVATION BY EQUIPMENT up to 2m(Slope or Shoring is included in the sub contractor's scope,Subgrade is also included,Minor rock breaking works are also included.)","AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,38804,38804,,,,,,,1.82791666666667,70930.4783333333,1.97415,76604.9166,7.08726,275014.03704,1.72705925925926,67016.8074962963,19.7201,765218.7604,30.5085692592593,1183854.5215363,,,,
+2.2,Earth Work,"EXCAVATION BY EQUIPMENT 2m to 4m(Slope or Shoring is included in the sub contractor's scope,Subgrade is also included,Minor rock breaking works are also included.)","AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,29172,29172,,,,,,,2.77407407407407,80925.2888888889,2.996,87399.312,22.9901388888889,670668.331666667,1.83921111111111,53653.4665333333,33.5338,978248.0136,61.3615277777778,1790038.48833333,,,,
+2.3,Earth Work,EXCAVATION BY HAND,,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.4,Earth Work,"EXCAVATION BY EQUIPMENT up to 2m
+(WITHOUT SHORING AS NEEDED)",,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.5,Earth Work,"EXCAVATION BY EQUIPMENT 2m to 4m
+(WITHOUT SHORING AS NEEDED)",,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.6,Earth Work,"BACKFILL - GENERAL BACKFILL 
+As per AGES-SP-01-005(Including all testing and corresponding construction works.)","AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,67892,67892,,,,,,,12.488287037037,847854.783518519,13.48735,915683.1662,42.93375,2914858.155,3.4347,233188.6524,3.21535,218296.5422,63.0705555555556,4281986.15777778,,,,
+2.7,Earth Work,"BACKFILL - STRUCTURAL BACKFILL
+As per AGES-SP-01-005(Including all testing and corresponding construction works.)","AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,24000,24000,,,,,,,12.488287037037,299718.888888889,13.48735,323696.4,110.502268518519,2652054.44444444,8.84018148148148,212164.355555556,3.21535,77168.4,136.048518518519,3265164.44444444,,,,
+2.8,Earth Work,BACKFILL - EXCAVATION BACKFILL（RE-USE）(Including all testing and corresponding construction works.),"AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,33680,33680,,,,,,,12.488287037037,420605.507407407,13.48735,454253.948,12.4189351851852,418269.737037037,0.993514814814815,33461.578962963,3.21535,108292.988,30.1185185185185,1014391.7037037,,,,
+2.9,Earth Work,BACKFILL - CLEAN SAND,,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.1,Earth Work,BACKFILL - CRUSHED STONE,,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.11,Earth Work,"DISPOSAL OF SOIL 
+(OUTSIDE OF CICPA) ","AGES-SP-01-006  Site Preparation, Earthworks and Bund Construction Specification",M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.12,Earth Work,DISPOSAL OF SOIL（POLLUTED SOIL）,,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+2.13,Earth Work,50MM THK ANTI CORROSIVE LAYER CONSISTING OF COARSE SAND MIXED WITH ASPHALT.,,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+NO.3,,Concrete,,,,,,,,,,,,,,,,,,,,,,,,,,
+3.1,Concrete,CONCRETE - Minor Volume Concrete (V<0.3m3) (fc'=35N/mm²),,M3,50,50,,,,,,,1289.90481481481,64495.2407407407,1393.0972,69654.86,832.623472222222,41631.1736111111,66.6098777777778,3330.49388888889,1.78155,89.0775,2294.10972222222,114705.486111111,,,,
+3.2,Concrete,CONCRETE - DUCTBANKS (fc'=20N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.3,Concrete,CONCRETE - EQUIPMENT FOUNDATION (fc'=35N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.4,Concrete,CONCRETE - MAT FOUNDATION (fc'=35N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.5,Concrete,CONCRETE - ISOLATED FOUNDATION (fc'=35N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.6,Concrete,"CONCRETE - ELEVATION CONCRERE-BM, COL, WALL (fc'=35N/mm²)",,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.7,Concrete,CONCRETE - PAVING AND SLAB ON GRADE (fc'=30N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.8,Concrete,CONCRETE - BASINS AND WATER RETAINING STRUCTURES (fc'=35N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.9,Concrete,"CONCRETE - PRECAST CONCRETE(FDN, COL, BM, TRENCH CONCRETE COVER) (fc'=35N/mm²) ",,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.1,Concrete,"CONCRETE - PRECAST CONCRETE(WALL PANELS, SLAB) (fc'=28N/mm²)",,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.11,Concrete,CONCRETE - FIREPROOFING (fc'=30N/mm²),,M3,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.12,Rebar,"REBAR - DEFORMED REINFORCING BARS ASTM A615/A615M GRADE 60  (fy'=414N/mm²)
+REBAR - STIRRUPS AND TIES ASTM A1035",,T,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+3.13,Rebar,REBAR - PLAIN STEEL BARS ASTM A615/A615M GRADE 40  (fy'=280N/mm²),,T,5,5,,,,,,,934.877824074074,4674.38912037037,1009.66805,5048.34025,3376.82092592593,16884.1046296296,270.145674074074,1350.72837037037,47.27795,236.38975,4703.91319444445,23519.5659722222,,,,
+3.14,Rebar,"REBAR - WELDED GALVANIZED WIRE MESH ASTM A1064 - 4.5X4.5/150X150 OR SIMILAR (6MM DIA@150 SPACING BOTH WAYS)
+",,T,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+NO.4,,Road,,,,,,,,,,,,,,,,,,,,,,,,,,
+4.1,Road1,"Asphalt road （Heavy Duty ）
+50 mm thk. Bituminous concrete wearing course;                                                        80 mm thk. Bituminous concrete binder course;                                                       250mm thk.aggregate base course; 
+250mm thk.aggregate subbase; 
+Geotextile membrane;
+Prepared subgrade",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,34144,34144,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+4.1.1,,50 mm thk. Bituminous concrete wearing course;,,M3,1707.2,1707.2,0,0,0,0,0,0,118.888888888889,202967.111111111,128.4,219204.48,1225.83361111111,2092743.14088889,98.0666888888889,167419.451271111,201.06905,343265.08216,1653.36796296296,2822629.78637037,,,,
+4.1.2,,80 mm thk. Bituminous concrete binder course;,,M3,2731.52,2731.52,0,0,0,0,0,0,92.8819444444444,253708.888888889,100.3125,274005.6,1128.07226851852,3081351.9629037,90.2457814814815,246508.157032296,146.8682,401173.425664,1465.49875,4003039.1456,,,,
+4.1.3,,250mm thk.aggregate base course;,,M3,8536,8536,0,0,0,0,0,0,10.4077314814815,88840.3959259259,11.24035,95947.6276,275.138611111111,2348583.18444444,22.0110888888889,187886.654755556,34.69475,296154.386,343.083611111111,2928561.70444444,,,,
+4.1.4,,250mm thk.aggregate subbase;,,M3,8536,8536,0,0,0,0,0,0,10.4077314814815,88840.3959259259,11.24035,95947.6276,275.138611111111,2348583.18444444,22.0110888888889,187886.654755556,34.69475,296154.386,343.083611111111,2928561.70444444,,,,
+4.1.5,,Geotextile membrane;,,M2,34144,34144,0,0,0,0,0,0,7.16305555555556,244575.368888889,7.7361,264141.3984,7.02435185185185,239839.46962963,0.561948148148148,19187.1575703704,0,0,15.3218055555556,523147.728888889,,,,
+4.1.6,,Prepared subgrade,,M2,34144,34144,0,0,0,0,0,0,0.520138888888889,17759.6222222222,0.56175,19180.392,3.11092592592593,106219.454814815,0.248874074074074,8497.55638518519,2.354,80374.976,6.27138888888889,214130.302222222,,,,
+4.2,Road2,"Asphalt road （Light Duty ）
+50 mm thk. Bituminous concrete wearing course;                                                        50 mm thk. Bituminous concrete binder course;                                                       250mm thk.aggregate base course; 
+150mm thk.aggregate subbase; 
+Geotextile membrane;
+Prepared subgrade",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,1414,1414,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+4.2.1,,50 mm thk. Bituminous concrete wearing course;,,M3,70.7,70.7,0,0,0,0,0,0,118.888888888889,8405.44444444444,128.4,9077.88,1225.83361111111,86666.4363055556,98.0666888888889,6933.31490444444,201.06905,14215.581835,1653.36796296296,116893.114981481,,,,
+4.2.2,,50 mm thk. Bituminous concrete binder course;,,M3,113.12,113.12,0,0,0,0,0,0,92.8819444444444,10506.8055555556,100.3125,11347.35,1128.07226851852,127607.535014815,90.2457814814815,10208.6028011852,146.8682,16613.730784,1465.4937962963,165776.658237037,,,,
+4.2.3,,250mm thk.aggregate base course;,,M3,353.5,353.5,0,0,0,0,0,0,10.4077314814815,3679.1330787037,11.24035,3973.463725,275.138611111111,97261.4990277778,22.0110888888889,7780.91992222222,34.69475,12264.594125,343.083611111111,121280.056527778,,,,
+4.2.4,,150mm thk.aggregate subbase;,,M3,212.1,212.1,0,0,0,0,0,0,10.4077314814815,2207.47984722222,11.24035,2384.078235,275.138611111111,58356.8994166667,22.0110888888889,4668.55195333333,34.69475,7358.756475,343.083611111111,72768.0339166667,,,,
+4.2.5,,Geotextile membrane;,,M2,1414,1414,0,0,0,0,0,0,7.16305555555556,10128.5605555556,7.7361,10938.8454,7.02435185185185,9932.43351851852,0.561948148148148,794.594681481482,0,0,15.3218055555556,21665.0330555556,,,,
+4.2.6,,Prepared subgrade,,M2,1414,1414,0,0,0,0,0,0,0.520138888888889,735.476388888889,0.56175,794.3145,3.11092592592593,4398.84925925926,0.248874074074074,351.907940740741,2.354,3328.556,6.27138888888889,8867.74388888889,,,,
+4.3,Road3,"Heavy Duty road
+250 mm THK C35 concrete slab with two layer welded wire mesh 200 x 200;8 mm dia;
+250 micron Polyethylene sheet;
+250mm THK crushed aggregate subbase course;
+Compacted Subgrade(CBR ≥20%)(E.J / I.J / C.J are all included)",,M2,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+4.3.1,,250 mm THK C35 concrete slab ,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.3.2,,with two layer welded wire mesh 200 x 200；8 mm dia;,,T,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.3.3,,250 micron Polyethylene sheet;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.3.4,,250mm THK crushed aggregate subbase course;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.3.5,,Compacted Subgrade(CBR ≥20%),,M2,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.4,Road4,"Light Duty road
+150 mm THK concrete slab with welded wire mesh 200 x 200;8 mm dia;
+Polyethylene sheet with 20 Dia punched holes at 300 mm C/C;
+150mm THK crushed aggregate base;
+Compacted Subgrade(CBR ≥20%),(E.J / I.J / C.J are all included)",,M2,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+4.4.1,,150 mm THK concrete slab ,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.4.2,,wire mesh 200 x 200;8 mm dia;,,T,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.4.3,,Polyethylene sheet with 20 Dia punched holes at 300 mm C/C;,,M2,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.4.4,,150mm THK crushed aggregate base;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.4.5,,Compacted Subgrade(CBR ≥20%),,M2,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+4.5,Road5,Other type road,,M2,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+NO.5,,Paving,,,,,,,,,,,,,,,,,,,,,,,,,,
+5.1,Paving1,"Asphalt paving
+50 mm thk. Asphalt concrete wearing course;                                                        50 mm thk. Asphalt concrete bearing course;                                                       250mm thk.aggregate base course; 
+Compacted Subgrade(min 70 CBR );
+250mm thk.aggregate subbase course; Compacted Subgrade(min 70 CBR );
+Select fill subgrade compacted （min CBR20）,max dry density thk 200mm",,M2,0,,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+5.1.1,,50 mm thk. Asphalt concrete wearing course;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.1.2,,50 mm thk. Asphalt concrete bearing course;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.1.3,,250mm thk.aggregate base course;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.1.4,,Compacted Subgrade(min 70 CBR );,,M2,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.1.5,,250mm thk.aggregate subbase course;,,M3,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.1.6,,"Compacted Subgrade(min 70 CBR );
+Select fill subgrade compacted （min CBR20）,max dry density thk 200mm",,M2,0,0,0,0,0,0,0,0,,0,,0,,0,,0,,0,,0,,,,
+5.2,Paving2,"Heavy Duty Paving
+200 mm THK concrete grade 30F with two layers  wire mesh A252;
+0.25 THK Polyethylene membrane;
+250mm THK coarse granular subbase;
+compacted subgrade,(E.J / I.J / C.J are all included)",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,20255,20255,,,,,,,,0,,0,,0,,0,,0,,0,,,,
+5.2.1,,200 mm THK concrete grade 30F,,M3,4051,4051,0,0,0,0,0,0,479.994074074074,1944455.99407407,518.3936,2100012.4736,538.735092592593,2182415.86009259,43.0988074074074,174593.268807407,0,0,1100.2275,4457021.6025,,,,
+5.2.2,,with two layers  wire mesh A252;,,T,200.018125,200.018125,,,,,,,396.296296296296,79266.4421296296,428,85607.7575,3759.61837962963,751991.819009057,300.76947037037,60159.3455207245,66.93385,13387.9831760312,4555.32189814815,911146.944839034,,,,
+5.2.3,,0.25 THK Polyethylene membrane;,,M2,20255,20255,0,0,0,0,0,0,1.03037037037037,20870.1518518519,1.1128,22539.764,2.02111111111111,40937.6055555556,0.161688888888889,3275.00844444444,0,0,3.29421296296296,66724.2835648148,,,,
+5.2.4,,250mm THK coarse granular subbase;,,M3,5063.75,5063.75,0,0,0,0,0,0,10.3780092592593,52551.6443865741,11.20825,56755.7759375,229.500138888889,1162131.32829861,18.3600111111111,92970.5062638889,24.4709,123914.519875,283.540092592593,1435776.14386574,,,,
+5.2.5,,compacted subgrade,,M2,20255,20255,0,0,0,0,0,0,0.520138888888889,10535.4131944444,0.56175,11378.24625,3.11092592592593,63011.8046296296,0.248874074074074,5040.94437037037,2.354,47680.27,6.27138888888889,127026.981944444,,,,
+5.3,Paving3,"Light Duty Paving
+150 mm THK concrete grade 30F with one layers  wire mesh A252;
+0.25 THK Polyethylene membrane;
+150mm THK coarse granular subbase;
+compacted subgrade,(E.J / I.J / C.J are all included)",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,1280,1280,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+5.3.1,,150 mm THK concrete grade 30F ,,M3,256,256,0,0,0,0,0,0,479.994074074074,122878.482962963,518.3936,132708.7616,538.735092592593,137916.183703704,43.0988074074074,11033.2946962963,0,0,1100.2275,281658.24,,,,
+5.3.2,,with one layers  wire mesh A252;,,T,12.64,12.64,,,,,,,396.296296296296,5009.18518518519,428,5409.92,3759.61837962963,47521.5763185185,300.76947037037,3801.72610548148,66.93385,846.043864,4555.32189814815,57579.2687925926,,,,
+5.3.3,,0.25 THK Polyethylene membrane;,,M2,1280,1280,0,0,0,0,0,0,1.03037037037037,1318.87407407407,1.1128,1424.384,2.02111111111111,2587.02222222222,0.161688888888889,206.961777777778,0,0,3.29421296296296,4216.59259259259,,,,
+5.3.4,,150mm THK coarse granular subbase;,,M3,320,320,0,0,0,0,0,0,10.3780092592593,3320.96296296296,11.20825,3586.64,229.500138888889,73440.0444444444,18.3600111111111,5875.20355555556,24.4709,7830.688,283.540092592593,90732.8296296296,,,,
+5.3.5,,compacted subgrade,,M2,1280,1280,0,0,0,0,0,0,0.520138888888889,665.777777777778,0.56175,719.04,3.11092592592593,3981.98518518518,0.248874074074074,318.558814814815,2.354,3013.12,6.27138888888889,8027.37777777778,,,,
+5.4,Paving4,"GRAVEL PAVING
+150mm crushed rock or gravel size:Min.10mm Max.50mm;
+Compacted subgrade.",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,41626.5,41626.5,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+5.4.1,,150mm crushed rock or gravel size:Min.10mm Max.50mm;,,M3,6243.975,6243.975,0,0,0,0,0,0,10.3780092592593,64800.0303645833,11.20825,69984.03279375,229.500138888889,1432993.12971875,18.3600111111111,114639.4503775,24.4709,152795.6878275,283.540092592593,1770417.24964583,,,,
+5.4.2,,Compacted subgrade.,,M2,41626.5,41626.5,0,0,0,0,0,0,0.520138888888889,21651.5614583333,0.56175,23383.686375,3.11092592592593,129496.958055556,0.248874074074074,10359.7566444444,2.354,97988.781,6.27138888888889,261055.969583333,,,,
+5.5,Paving5,"Other type Paving
+Walkway(with concrete curb wall on each side of walkway)
+60mm THK interlocking concrete blocks;
+50mm THK laying course sand;
+150mm THK sub-base granular material;
+Compacted subgrade
+
+",AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M2,267.5,267.5,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+5.5.1,,Walkway(with concrete curb wall on each side of walkway),,M2,267.5,267.5,0,0,0,0,0,0,94.3531944444444,25239.4795138889,101.90145,27258.637875,217.026712962963,58054.6457175926,17.362137037037,4644.37165740741,0.7597,203.21975,337.054953703704,90162.2001157407,,,,
+5.5.2,,60mm THK interlocking concrete blocks;,,M3,16.05,16.05,0,0,0,0,0,0,355.636296296296,5707.96255555555,384.0872,6164.59956,463.181203703704,7434.05831944444,37.0544962962963,594.724665555556,7.70935,123.7350675,892.033240740741,14317.1335138889,,,,
+5.5.3,,50mm THK laying course sand;,,M3,13.375,13.375,0,0,0,0,0,0,30.2423611111111,404.491579861111,32.66175,436.85090625,137.7625,1842.5734375,11.021,147.405875,39.9966,534.954525,221.440462962963,2961.76619212963,,,,
+5.5.4,,150mm THK sub-base granular material;,,M3,40.125,40.125,0,0,0,0,0,0,10.3780092592593,416.417621527778,11.20825,449.73103125,229.500138888889,9208.69307291667,18.3600111111111,736.695445833333,24.4709,981.8948625,283.540092592593,11377.0462152778,,,,
+5.5.5,,Compacted subgrade,,M2,267.5,267.5,0,0,0,0,0,0,0.520138888888889,139.137152777778,0.56175,150.268125,3.11092592592593,832.172685185185,0.248874074074074,66.5738148148148,2.354,629.695,6.27138888888889,1677.59652777778,,,,
+5.6,Paving6,"PAVING COLOR CONCRETE
+COLOUR (RED OXIDE FOR UNDERGROUND ELECTRICAL AND GREEN OXIDE FOR UNDERGROUND INSTRUMENTCABLES) IN DUCT BANKS, TRENCH COVERS, SLABS AND PAVING ABOVE UNDERGROUND CABLES SHALL BE INACCORDANCE WITH BS EN 12878 OR ASTM C 979 / C979.
+refer to AGES-SP-01-001;AGES-STD-01-101",,M3,200,200,,,,,,,479.98912037037,95997.8240740741,518.38825,103677.65,517.330138888889,103466.027777778,41.3864111111111,8277.28222222222,0,0,1077.10361111111,215420.722222222,,,,
+NO.6,,Fence,,,,,,,,,,,,,,,,,,,,,,,,,,
+6.1,Fence,"Fence  high: 2.5m    type:type-1B(AGES-SP-01-022)
+camera line;
+security lighting line",AGES-SP-01-022 Fence and Gate,M,1480,1480,,,,,,,33.7693981481481,49978.7092592593,36.47095,53977.006,297.484768518518,440277.457407407,23.7987814814815,35222.1965925926,0,0,357.756481481482,529479.592592593,,,,
+NO.7,,Gate,,,,,,,,,,,,,,,,,,,,,,,,,,
+7.1,Gate,"Gate (EMERGENCY EXIT GATE)
+high:2.5m,width:1m",AGES-SP-01-022 Fence and Gate,EA,15,15,,,,,,,2806.53569444444,42098.0354166667,3031.05855,45465.87825,2781.80680555556,41727.1020833333,222.544544444444,3338.16816666667,0,0,6035.40930555555,90531.1395833333,,,,
+NO.8,,Greening,,,,,,,,,,,,,,,,,,,,,,,,,,
+8.1,Greening,Grass(turfing),AGES-SP-01-029 Landscaping,M2,280,280,,,,,,,26.9035648148148,7532.99814814815,29.05585,8135.638,142.106898148148,39789.9314814815,11.3685518518519,3183.19451851852,0,0,182.534074074074,51109.5407407407,,,,
+NO.9,,Ditch,,,,,,,,,,,,,,,,,,,,,,,,,,
+9.1,Concrete Lined Ditch,"width:1m,depth:1m,thickness:150mm  Painting system with Protection System",AGES-SP-01-00 Drainage Systems - Design and Construction Specification,M,2979.6,2979.6,,,,,,,99.292037037037,295850.553555556,107.2354,319518.59784,1240.32939814815,3695685.47472223,123.226351851852,367165.237977778,42.3399,126155.96604,1513.12986111111,4508521.73416666,,,,
+9.2,"Steel grating plate
+SUPPLY BY WISON,INSPECTION AND INSTALLATAION BY SUBCONTRACTOR",Heavy duty steel grating plate HGD,AGES-SP-01-00 Drainage Systems - Design and Construction Specification,M,2979.6,2979.6,,,,,,,7.11847222222222,21210.1998333333,7.68795,22907.01582,3.88865740740741,11586.6436111111,0.311092592592593,926.931488888889,5.3393,15908.97828,17.2240277777778,51320.7131666667,,,,
+9.3,Angle Steel,Embed angled steel on both sides of ditch to provide structural support for the grating cover,,T,32.000904,32.000904,,,,,,,3558.13638888889,113863.58099974,3842.7873,122972.667479719,5931.60939814815,189816.862915637,474.528751851852,15185.3490332509,2682.811,85852.377261144,12931.7376388889,413827.29473527,,,,
+9.4,Concrete slope protection,"100 THK concret liner with fibre reinforcemnt;
+welded wire fabric min A193(200 x 200;7 mm dia)",,M2,202.8,202.8,,,,,,,61.6191203703704,12496.3576111111,66.54865,13496.06622,121.57875,24656.1705,9.7263,1972.49364,33.16465,6725.79102,231.015972222222,46850.0391666667,,,,
+NO.10,,Others,,,,,,,,,,,,,,,,,,,,,,,,,,
+10.1,Others,ROAD SIGNS,AGES-SP-01-005  Roads and Paving - Design and Construction Specification,SET,150,150,,,,,,,290.579305555556,43586.8958333333,313.82565,47073.8475,553.110740740741,82966.6111111111,44.2488592592593,6637.32888888889,0,0,911.184259259259,136677.638888889,,,,
+10.2,Others,ROAD MARKING,AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M,11460,11460,,,,,,,4.32145272705097,49523.8482520041,4.66716894521505,53485.7561121645,19.2151897681535,220206.07474304,1.53721518145228,17616.4859794432,4.58228220736453,52512.9540963976,30.0010256239674,343811.753650667,,,,
+10.3,Others,CRASH BARRIER,AGES-SP-01-005  Roads and Paving - Design and Construction Specification,M,305,305,,,,,,,10.4424074074074,3184.93425925926,11.2778,3439.729,706.02662037037,215338.119212963,56.4821296296296,17227.049537037,9.5765,2920.8325,783.368796296296,238927.48287037,,,,
+10.4,Other,CAR SEHLTER(5.5*10.5M),,SET,6,6,,,,,,,0,0,0,0,24768.5185185185,148611.111111111,1981.48148148148,11888.8888888889,0,0,26750,160500,,,,
+,,SUBTOTAL-PLOT PLAN (Green）,,,,,,,,,,,,6079030.97410706,,6565353.45203564,,29186379.0587133,,2451436.40923016,,4385269.27708807,,42588171.0364858,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,  ,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

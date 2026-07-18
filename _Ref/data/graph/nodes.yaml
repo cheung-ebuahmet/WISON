@@ -1,0 +1,693 @@
+'10.1':
+  discipline: Civil
+  framework: CIVIL
+  label: CCECC - Civil Pkg II
+  package: Pkg II
+  parent: EPC-ADNOC-RSGP
+  ref: WISON24108C25006
+  type: contract
+  value: 149832038.65
+  vendor: CCECC
+10.1-EXH-Attachment-1:
+  label: 10.1 Attachment 1
+  relevance: medium
+  title: Communication Procedures
+  topics:
+  - communication
+  type: exhibit
+10.1-EXH-Attachment-2:
+  label: 10.1 Attachment 2
+  relevance: critical
+  title: Change Management
+  topics:
+  - change order
+  - variation
+  - EOT
+  type: exhibit
+10.1-EXH-Attachment-3:
+  label: 10.1 Attachment 3
+  relevance: low
+  title: HSE Requirements
+  topics:
+  - hse
+  type: exhibit
+10.1-EXH-Attachment-4:
+  label: 10.1 Attachment 4
+  relevance: low
+  title: Quality Management
+  topics:
+  - quality
+  type: exhibit
+10.1-EXH-Attachment-5:
+  label: 10.1 Attachment 5
+  relevance: critical
+  title: Scope of Work
+  topics:
+  - scope
+  - schedule
+  - key personnel
+  - delay ld
+  - kp ld
+  type: exhibit
+10.1-EXH-Attachment-6:
+  label: 10.1 Attachment 6
+  relevance: critical
+  title: Commercials
+  topics:
+  - boq
+  - rates
+  - payment
+  - bond format
+  type: exhibit
+10.1-EXH-Attachment-7:
+  label: 10.1 Attachment 7
+  relevance: medium
+  title: Owner's Special Requirements
+  topics:
+  - owner requirements
+  - back-to-back
+  type: exhibit
+'10.2':
+  discipline: Civil
+  framework: CIVIL
+  label: TCC - Civil Pkg I & III
+  package: Pkg I & III
+  parent: EPC-ADNOC-RSGP
+  ref: WISON24108C25007
+  type: contract
+  value: 162119509.74
+  vendor: TCC
+10.2-EXH-Attachment-1:
+  label: 10.2 Attachment 1
+  relevance: medium
+  title: Communication Procedures
+  topics:
+  - communication
+  type: exhibit
+10.2-EXH-Attachment-2:
+  label: 10.2 Attachment 2
+  relevance: critical
+  title: Change Management
+  topics:
+  - change order
+  - variation
+  - EOT
+  type: exhibit
+10.2-EXH-Attachment-3:
+  label: 10.2 Attachment 3
+  relevance: low
+  title: HSE Requirements
+  topics:
+  - hse
+  type: exhibit
+10.2-EXH-Attachment-4:
+  label: 10.2 Attachment 4
+  relevance: low
+  title: Quality Management
+  topics:
+  - quality
+  type: exhibit
+10.2-EXH-Attachment-5:
+  label: 10.2 Attachment 5
+  relevance: critical
+  title: Scope of Work
+  topics:
+  - scope
+  - schedule
+  - key personnel
+  - delay ld
+  - kp ld
+  type: exhibit
+10.2-EXH-Attachment-6:
+  label: 10.2 Attachment 6
+  relevance: critical
+  title: Commercials
+  topics:
+  - boq
+  - rates
+  - payment
+  - bond format
+  type: exhibit
+10.2-EXH-Attachment-7:
+  label: 10.2 Attachment 7
+  relevance: medium
+  title: Owner's Special Requirements
+  topics:
+  - owner requirements
+  - back-to-back
+  type: exhibit
+'12.1':
+  discipline: MEI
+  framework: MEI
+  label: CCECC - MEI Pkg I
+  package: Pkg I
+  parent: EPC-ADNOC-RSGP
+  ref: WISON24108C26005
+  type: contract
+  value: 160891988.19
+  vendor: CCECC
+12.1-EXH-Exh-A:
+  label: 12.1 Exh A
+  relevance: critical
+  title: Work Scope - Schedule
+  topics:
+  - scope
+  - schedule
+  - milestones
+  type: exhibit
+12.1-EXH-Exh-B:
+  label: 12.1 Exh B
+  relevance: critical
+  title: Method of Measurement
+  topics:
+  - measurement
+  - boq
+  - rates
+  type: exhibit
+12.1-EXH-Exh-D:
+  label: 12.1 Exh D
+  relevance: critical
+  title: Subcontract Price
+  topics:
+  - boq
+  - rates
+  type: exhibit
+12.1-EXH-Exh-E:
+  label: 12.1 Exh E
+  relevance: medium
+  title: Quality Requirements
+  topics:
+  - quality
+  - kp ld
+  type: exhibit
+12.1-EXH-Exh-F:
+  label: 12.1 Exh F
+  relevance: medium
+  title: Administrative Procedure
+  topics:
+  - communication
+  - reporting
+  type: exhibit
+12.1-EXH-Exh-G:
+  label: 12.1 Exh G
+  relevance: archive
+  title: (Not Applicable)
+  topics: []
+  type: exhibit
+12.1-EXH-Exh-H:
+  label: 12.1 Exh H
+  relevance: low
+  title: HSE Requirements
+  topics:
+  - hse
+  type: exhibit
+12.1-EXH-Exh-I:
+  label: 12.1 Exh I
+  relevance: archive
+  title: (Not Applicable)
+  topics: []
+  type: exhibit
+12.1-EXH-Exh-J:
+  label: 12.1 Exh J
+  relevance: high
+  title: Scheduling and Reporting
+  topics:
+  - schedule
+  - reporting
+  type: exhibit
+12.1-EXH-Exh-K:
+  label: 12.1 Exh K
+  relevance: medium
+  title: Owner's Special Requirements
+  topics:
+  - owner requirements
+  - back-to-back
+  - icv
+  - insurance
+  type: exhibit
+12.1-EXH-ExhC:
+  contract: '12.1'
+  label: 12.1 Exhibit C
+  type: exhibit
+12.1-EXH-ExhD:
+  contract: '12.1'
+  label: 12.1 Exhibit D
+  type: exhibit
+12.1-EXH-ExhE:
+  contract: '12.1'
+  label: 12.1 Exhibit E
+  type: exhibit
+ADVANCE-10.1:
+  category: advance_payment
+  currency: AED
+  label: 10.1 Advance Payment
+  pct: 10
+  type: commercial_value
+ADVANCE-10.2:
+  category: advance_payment
+  currency: AED
+  label: 10.2 Advance Payment
+  pct: 10
+  type: commercial_value
+ADVANCE-12.1:
+  category: advance_payment
+  currency: AED
+  label: 12.1 Advance Payment
+  pct: 10
+  type: commercial_value
+AMDT-12.1-01:
+  contract: '12.1'
+  date: 2026-07
+  framework: MEI
+  label: Amdt 01 — Tripartite Fabricator Framework
+  type: amendment
+CIVIL-Attachment-5:
+  contract: '10.1'
+  framework: CIVIL
+  label: Attachment 5
+  topic: scope
+  type: clause
+CIVIL-COC-10-7:
+  contract: '10.1'
+  framework: CIVIL
+  label: Sub-Clause 10.7
+  library_link: null
+  topic: LD
+  type: clause
+CIVIL-COC-21-2:
+  contract: '10.1'
+  framework: CIVIL
+  label: Article 21.2
+  library_link: null
+  topic: Termination
+  type: clause
+CIVIL-COC-4-2-4:
+  contract: '10.1'
+  framework: CIVIL
+  label: Sub-Clause 4.2.4
+  library_link: data/clause-library/Key-Personnel-LD.md
+  topic: LD
+  type: clause
+CIVIL-COC-4-3-3:
+  contract: '10.1'
+  framework: CIVIL
+  label: Sub-Clause 4.3.3
+  topic: Personnel
+  type: clause
+CIVIL-COC-4-3-6:
+  contract: '10.1'
+  framework: CIVIL
+  label: Sub-Clause 4.3.6
+  topic: Personnel
+  type: clause
+CIVIL-COC-4-3-7:
+  contract: '10.1'
+  framework: CIVIL
+  label: Sub-Clause 4.3.7
+  library_link: data/clause-library/Key-Personnel.md
+  topic: Personnel
+  type: clause
+EPC-18.4(e):
+  framework: EPC
+  label: EPC Delay LD
+  type: clause
+EPC-ADNOC-RSGP:
+  discipline: null
+  framework: UNKNOWN
+  label: ADNOC RSGP EPC Agreement
+  package: null
+  parent: null
+  ref: '6000066707'
+  type: contract
+  value: null
+  vendor: null
+EPC-LD-KP:
+  framework: EPC
+  label: EPC KP LD
+  type: clause
+FRAMEWORK-CIVIL:
+  label: Civil Framework (COC 29 sections + FOA 1-3)
+  type: framework
+FRAMEWORK-MEI:
+  label: MEI Framework (GCS 1.0-50.0 + SCS 1-7 + Agrmt 1-13)
+  type: framework
+ISSUE-PM-缺位-—-Material-Breach:
+  cost_impact: AED 10,000/day from 2026-06-24
+  deadline: '2026-07-16'
+  label: PM 缺位 — Material Breach
+  status: open
+  type: issue
+ISSUE-里程碑-No.2-逾期-—-Delay-LD-保留:
+  cost_impact: AED 160,892/day; accrued ~AED 3.86M (Pkg1) + ~AED 6.11M (Pkg3)
+  deadline: '2026-07-16'
+  label: 里程碑 No.2 逾期 — Delay LD 保留
+  status: open
+  type: issue
+KO-Delay-LD:
+  label: Delay LD
+  type: clause_library
+KO-Key-Personnel:
+  label: Key Personnel
+  type: clause_library
+KO-Key-Personnel-LD:
+  label: Key Personnel LD
+  type: clause_library
+KO-Payment:
+  label: Payment
+  type: clause_library
+LD-DELAY-10.1:
+  cap_amount: 14983203.87
+  cap_pct: 10
+  category: liquidated_damages
+  currency: AED
+  label: 10.1 Delay LD
+  per_day: 149832.04
+  type: commercial_value
+LD-DELAY-10.2:
+  cap_amount: 16211950.97
+  cap_pct: 10
+  category: liquidated_damages
+  currency: AED
+  label: 10.2 Delay LD
+  per_day: 162119.51
+  type: commercial_value
+LD-DELAY-12.1:
+  cap_amount: 16089198.82
+  cap_pct: 10
+  category: liquidated_damages
+  currency: AED
+  label: 12.1 Delay LD
+  per_day: 160891.99
+  type: commercial_value
+LD-KP-10.1:
+  category: key_personnel_ld
+  count: 7
+  currency: AED
+  label: 10.1 KP LD
+  per_day: 10000
+  type: commercial_value
+LD-KP-10.2:
+  category: key_personnel_ld
+  count: 7
+  currency: AED
+  label: 10.2 KP LD
+  per_day: 10000
+  type: commercial_value
+LD-KP-12.1:
+  category: key_personnel_ld
+  count: 7
+  currency: AED
+  label: 12.1 KP LD
+  per_day: 10000
+  type: commercial_value
+MEI-Exhibit-A-2:
+  contract: '12.1'
+  framework: MEI
+  label: Exhibit A.2
+  topic: schedule
+  type: clause
+MEI-GCS-1:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-1
+  type: clause
+MEI-GCS-1-1:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-1-1
+  type: clause
+MEI-GCS-17:
+  framework: MEI
+  label: MEI-GCS-17
+  type: clause
+MEI-GCS-3:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-3
+  type: clause
+MEI-GCS-3-:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-3-
+  type: clause
+MEI-GCS-3-2:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-3-2
+  type: clause
+MEI-GCS-4:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-4
+  type: clause
+MEI-GCS-4-1:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-4-1
+  type: clause
+MEI-GCS-4-2:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-4-2
+  type: clause
+MEI-GCS-4-3:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-4-3
+  type: clause
+MEI-GCS-4-3-:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-4-3-
+  type: clause
+MEI-GCS-6:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-6
+  type: clause
+MEI-GCS-6-1:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-6-1
+  type: clause
+MEI-GCS-6-1-:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-6-1-
+  type: clause
+MEI-GCS-8:
+  contract: '12.1'
+  framework: MEI
+  label: MEI-GCS-8
+  type: clause
+MEI-SCS-Clause-17:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 17
+  library_link: null
+  topic: ld
+  type: clause
+MEI-SCS-Clause-19:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 19
+  library_link: null
+  topic: payment
+  type: clause
+MEI-SCS-Clause-27:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 27
+  library_link: null
+  topic: warranty
+  type: clause
+MEI-SCS-Clause-28:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 28
+  library_link: null
+  topic: security
+  type: clause
+MEI-SCS-Clause-33:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 33
+  topic: termination
+  type: clause
+MEI-SCS-Clause-5-6:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 5.6
+  topic: variation
+  type: clause
+MEI-SCS-Clause-8:
+  contract: '12.1'
+  framework: MEI
+  label: SCS Clause 8
+  library_link: data/clause-library/Key-Personnel.md
+  topic: personnel
+  type: clause
+PB-10.1:
+  category: performance_bond
+  currency: AED
+  label: 10.1 Performance Bond
+  pct: 10
+  type: commercial_value
+PB-10.2:
+  category: performance_bond
+  currency: AED
+  label: 10.2 Performance Bond
+  pct: 10
+  type: commercial_value
+PB-12.1:
+  category: performance_bond
+  currency: AED
+  label: 12.1 Performance Bond
+  pct: 10
+  type: commercial_value
+RETENTION-10.1:
+  category: retention
+  currency: AED
+  label: 10.1 Retention
+  pct: 10
+  type: commercial_value
+RETENTION-10.2:
+  category: retention
+  currency: AED
+  label: 10.2 Retention
+  pct: 10
+  type: commercial_value
+RETENTION-12.1:
+  category: retention
+  currency: AED
+  label: 12.1 Retention
+  pct: 10
+  type: commercial_value
+RISK-12.1-变更增额触发:
+  contracts: '12.1'
+  label: 12.1 变更增额触发
+  severity: 🟢 Favorable
+  type: risk
+RISK-12.1-性能-LD-存在:
+  contracts: '12.1'
+  label: 12.1 性能 LD 存在
+  severity: 🟡 Medium
+  type: risk
+RISK-12.1-预付款分期风险:
+  contracts: '12.1'
+  label: 12.1 预付款分期风险
+  severity: 🟡 Medium
+  type: risk
+RISK-Delay-LD-背靠背无法验证:
+  contracts: All
+  label: Delay LD 背靠背无法验证
+  severity: 🔴 Critical
+  type: risk
+RISK-Delay-LD-金额未知:
+  contracts: All 3
+  label: Delay LD 金额未知
+  severity: 🟢 Resolved
+  type: risk
+RISK-EPC-主合同数据缺失:
+  contracts: All
+  label: EPC 主合同数据缺失
+  severity: 🔴 Critical
+  type: risk
+RISK-ICV-目标差异:
+  contracts: 12.1 vs 10.1
+  label: ICV 目标差异
+  severity: 🟡 Medium
+  type: risk
+RISK-PM-缺位-Material-Breach:
+  contracts: '10.1'
+  label: PM 缺位 Material Breach
+  severity: 🔴 Active
+  type: risk
+RISK-保函存续期差异:
+  contracts: '12.1'
+  label: 保函存续期差异
+  severity: 🟡 Medium
+  type: risk
+RISK-保留金释放不对称:
+  contracts: '12.1'
+  label: 保留金释放不对称
+  severity: 🔴 High
+  type: risk
+RISK-管理系统-LD:
+  contracts: '12.1'
+  label: 管理系统 LD
+  severity: 🟡 Medium
+  type: risk
+SLT-5312-WSN-CCE-0019:
+  contract: '10.1'
+  date: '2026-05-28'
+  direction: outgoing
+  label: Adjustment to Procurement Scope for Grating Covers
+  type: correspondence
+SLT-5312-WSN-CCE-0020:
+  contract: '10.1'
+  date: '2026-07-09'
+  direction: outgoing
+  label: 'NOTICE OF MATERIAL BREACH: UNAPPROVED ABSENCE OF PROJECT MANAGER'
+  type: correspondence
+SLT-5312-WSN-CCE-0021:
+  contract: '12.1'
+  date: '2026-07-09'
+  direction: outgoing
+  label: 'NOTICE OF DELAY: KEY MILESTONE ''CONSTRUCTION PREPARATION READY FOR COMMENCEMENT''
+    OVERDUE — RESERVATION OF DELAY LD RIGHTS'
+  type: correspondence
+UNKNOWN-DOC-:
+  contract: 保函条款位置
+  framework: UNKNOWN
+  label: ''
+  library: KO-Payment
+  type: clause
+UNKNOWN-DOC----------:
+  contract: '------'
+  framework: UNKNOWN
+  label: '---------'
+  library: KO-Delay-LD
+  type: clause
+UNKNOWN-DOC-------------:
+  contract: '---------'
+  framework: UNKNOWN
+  label: '------------'
+  library: KO-Payment
+  type: clause
+UNKNOWN-DOC-FIDIC-Silver-Book:
+  contract: EPC-ADNOC-RSGP
+  framework: UNKNOWN
+  label: FIDIC Silver Book
+  library: KO-Payment
+  type: clause
+UNKNOWN-DOC-合同形式:
+  contract: 合同
+  framework: UNKNOWN
+  label: 合同形式
+  library: KO-Payment
+  type: clause
+UNKNOWN-DOC-条款位置:
+  contract: 合同
+  framework: UNKNOWN
+  label: 条款位置
+  library: KO-Delay-LD
+  type: clause
+VALUE-10.1:
+  amount: 149832038.65
+  category: contract_value
+  currency: AED
+  label: 10.1 Contract Value
+  type: commercial_value
+VALUE-10.2:
+  amount: 162119509.74
+  category: contract_value
+  currency: AED
+  label: 10.2 Contract Value
+  type: commercial_value
+VALUE-12.1:
+  amount: 160891988.19
+  category: contract_value
+  currency: AED
+  label: 12.1 Contract Value
+  type: commercial_value

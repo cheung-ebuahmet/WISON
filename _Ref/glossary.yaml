@@ -1,0 +1,14 @@
+# ==============================================================================
+# SPECIAL-PURPOSE EPC ALIAS MAPPER & PROJECT TRANSLATION MATRIX
+# ==============================================================================
+project_identity_mappings:
+  official_contract_code: "SGP"
+  legacy_owner_typo_alias: "RSGP"
+  description: "Sulphur Granulation Plant for Hail & Ghasha Development Project"
+
+area_tag_spacing_variants:
+  official_standard: "RSHT - 2"
+  ocr_raw_variant_1: "RSHT-2"
+  ocr_raw_variant_2: "RSHT 2"
+  ocr_raw_variant_3: "RSHT2"
+  application_rule: "Enforce official_standard across all self-produced index and risk tracking files."

@@ -1,0 +1,844 @@
+Conversion Report
+============================================================
+Converted: 825
+Skipped: 3
+Failed: 10
+
+--- FAILED ---
+  08 Med. Svc. Agr\Contract\WisonEngineering_MedicalServiceAgreement-FN-20250922_RPM-REV -SIGNED with Proposal.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part I FOA_LOA_CF_COC\LOA_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Contractor Onboarding Guidelines.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 03_HSE Assurance Program\HSE Performance Contract.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Contractor Onboarding Guidelines.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 03_HSE Assurance Program\HSE PERFORMANCE CONTRACT.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Att 01_BOQ - Civil - BLDG Pkg I_Rev.A_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Att 02_BOQ - Civil - BLDG Pkg III_Rev.A_Signed.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\Contractor Onboarding Guidelines.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 03_HSE ASSURANCE PROGRAM\HSE PERFORMANCE CONTRACT.pdf
+
+--- CONVERTED ---
+  08 Med. Svc. Agr\Contract\Wison Engineering_Medical Service Agreement-FN-20250902_RPM_WisonR2.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part I FOA_LOA_CF_COC\FOA - COC_Draft.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0009_0 Project Document Control Procedure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0010_0 DOCUMENT NUMBERING PROCEDURE.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0012_0 Vendor Documentation Control Procedure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DC Procedure\docweb_help.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DC Procedure\docweb_help_en.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Guideline - Subcontractors Document Management.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\PR-5312-1000-PM-0010_Document Numbering Procedure_2025-06-18.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Subcon PM Doc Template - General.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Subcon PM Doc Template - ITP.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 01_Subcontractor Template - ITP.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 02_Subcontractor Template - General.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 04_MOM Template.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 2 - Change Management\Change Management Procedure.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 2 - Change Management\Change Management Procedure_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADNOC Group Medical Fitness Guidelines for Contractors_2023-04-01.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADNOC Unified Vehicle Inspection Guidelines.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADR-002_Updated HSE Requirements.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADR-003_Asset Integrity.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0001 Project HSE Plan Rev 0.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0002 Emergency Response Plan Rev 0.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0003 Construction HSE Plan Rev 0.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0004 Permit to Work Procedure Rev 0.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0005 Construction Enviroment Management Plan Rev_A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0006 Construction Waste Management Plan Rev_A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0007 Transportation Management Plan Rev_B.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0008 Welfare Management Plan Rev_B.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 02_ADNOC HSEWM Min Requirements in Contracts\ADNOC HSEWM Min Requirements in Contracts.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 03_HSE Assurance Program\Contractor HSE Assurance Program.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 04_Pre-Mob - Pre-Execution Audit Checklists\Camp Welfare Audit Register_2025.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 04_Pre-Mob - Pre-Execution Audit Checklists\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 05_ADNOC Approved Training Providers\ADNOC Approved Training Providers_2025-10_V3.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att 00_HSE Requirements - Main Body.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST01_V1 CM&ER Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST02_V1 Oil Spill Res.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST03_V1 Fire &Rescue Ope.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST01_V1 Envir Impact Asmnt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST02_V1 PPC.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST03_V1-Energy Mgmt Sys.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST04_V1 Waste Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST05_V1 Env. Perf Montrng.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST06_V1 Biodiversity Assmnt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST07_V1 Air Dispersion Modlg.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST02_V1 HSEMS Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST03_V1 Cri Roles&Comp.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST04_V1 Incident Invest Report.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST06_V1 Project HSE Plan Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST07_V1 HSE Design Philosophy.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST08_V1 HSE Perf Monitor&Report.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST09_V1 HSE Audit&Assurance.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST11_V1 Life Saving Rules.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST01_V1 Occup Health Framework.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST02_V1 OH Hazard Manual.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST03_V1 OHRM.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST04_V1 Case Mgmt&Rehab.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST05_V1 Health Screening&Surveil.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST06_V1 Food and Water Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST07_V1 Contr Welfare Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST08_V1 Physical Health Hazards.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST09_V1 Chemical Hazards.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST10_V1 Biological Hazards.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST11_V1 Ergono Hazards Stds.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST12_V1 Indoor Air Quality Stds.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST01_V2 Work Mgmt Sys Fram.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2 Permit To Work Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-01-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-02-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-03-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-04-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-05-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-06-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-07-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-08-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-09-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-10-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-11-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-12-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-13-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-14-FM_V3.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2 Job Saf Analy Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-01-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-02-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-02-FM_V1_Fillable.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-03-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2 Energy Iso Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-01-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-02-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-03-FM_V2.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST05_V2 Temp Defeat Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST05_V2-01-FM_V3.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST06-V2-01-FM_V1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST06_V2 Simul Oper Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST07_V1 Compre Gas Cyl.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST08_V1 Confined Space.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST09_V1 Electrical Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST10_V1 High Pres Water Jetng.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST11_V1 Cont Eq Hzrd Areas.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST12_V1 Explosives.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST13_V1 Hazard Substances.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST14_V1 Cutting Weld&Allied Pro.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST15_V1 Excavation.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST16_V1 Scaffolding.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST17_V1 Manual Handling.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST18_V1 Spray Paint.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST19_V1 Lifting&Hoistg Oper.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST20_V1 PPE.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST21_V1 Management of H2S.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST22_V1 Working at Height.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST23_V1-Diving Opern Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST24_V1 Marine Opern Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST25_V1 Road Trans Oper Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST26_V1 Air Trans Oper Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST27_V1 Hazard Comnctn.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST28_V1 Office Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST29_V1 HSECES Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST30_V1 Tech MOC Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST31_V1 DGS Mgmt Std.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST01_V1 HSE Risk Mgmt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST02_V1 HSEIA.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST03_V1 HAZID ENVID OHID.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST04_V1 H&O study.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST05_V1 Safety Integrity Levels.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST06_V1 Cont accidt Hazards.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST07_V1 EERA.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST08_V1 ESSA.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST09_V1 Fire ExploRiskAssmnt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST10_V1-Quantitative Risk Assmnt.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST11_V1 Project HSE Review.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST12_V1 Pre Start-up Safety.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST13_V1 Inherently Safer Design.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST14_V1 CFD Dispersion&Explos.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\01_HSE Policy.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\02_HSE-MAN-003.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\03_HSE-ST-029.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\04_HSE-GU-019.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\05_HSE-ST-009.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\06_HSE-ST-007.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\07_GS-MAN-003.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\08_IA_HSECES-GU-016.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\09_HSE-ST-071.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\10_HSE-ST-001.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\11_HSE-ST-023.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\12_HSE-ST-017.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\13_HSE-ST-018.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\14_HSE-ST-016-A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\14_HSE-ST-016-B.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\15_HSE-ST-008.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\16_HSE-ST-002.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\17_TE-ST-002.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\18_HSE-GU-055.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\19-AHQ-HSE-HPG-GID-006-R01-20.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\1-Tech Guidance for TOR.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\2-Tech Guidance for EIA.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\3-EAD Approved Agencies.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-D\HSE Bid Eval Questnre.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 3 - HSE requirements\HSE Requirements_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-GL-13-001_Contractors QAQC Requirement.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-SP-07-007_Welding - NDE.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-SP-13-002_Procurement Inspection - Certification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Management Requirements\Exh B.10_Quality Requirement.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Management Requirements\WISON_Contractors QAQC Requirement.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Requirements for Subcontractors.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 4 - Quality Management\Quality Requirements for Subcontractors_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 01_Planning - Scheduling Procedure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 02_Work Breakdown Structure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 03_Work Schedule - Civil Pkg II.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 04_Basis of Construction - Pre-Commissioning Progress Measurement.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 05_Project Calendar.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 06_Project Reporting Procedure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 07_Progress Measurement Procedure.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 01_Scope of Work - Civil Pkg II.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 01_Scope of Work - Civil Pkg II_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 02_Responsibility Matrix.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 02_Responsibility Matrix_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 03_Schedule - Reporting Requirement.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 03_Schedule - Reporting Requirement_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 04_Delay LD - Civil Pkg II.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 04_Delay LD - Civil Pkg II_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 05_Key Personnel - LD.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 5 - Scope of Work\Att 05_Key Personnel - LD_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Att 01_BOQ - Civil - BLDG Pkg II_Rev.B_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Att 02_Bank Bond Format - ADNOC.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\01_General - Subcontractor Pricing Instructions_Rev.A.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\01_General - Subcontractor Pricing Instructions_Rev.A_Signed.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A1-A2-Site Preparation-Piling_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A3-A4-A5-Earth Work-Masonry Structure-Steel Structure_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A6-Architecture_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A7-Utilities_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\03.B-Piping_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 6 - Commercials\Exhibit B Measurement Method\10.J-Demolition_Rev.A.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-001_Concrete Supply and Construction Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-002_Structural Steel Supply, Fabrication and Erection Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-003_Structural Design Basis - Onshore Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-004_Anchor Bolts and Grouting Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-005_Roads and Paving - Design and Construction Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-006_Site Preparation, Earthworks and Bund Construction Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-007_Drainage Systems - Design and Construction Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-008_Piling Design, Construction and Testing.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-009_Civil Construction Materials Sampling and Testing Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-012_Concrete Repair.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-013_Architectural Design Basis.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-014_Architectural Finishes and Furnishing.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-015_Architectural Specialities - Metal, Wood and Plastics.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-016_Doors and Windows.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-017_Masonry Wall and Thermal & Moisture Protestion.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-018_Plumbing.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-019_Prefabricated Metal Buildings.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-020_Passive Fire Protection for Onshore Facilities - Material and Installation.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-022_Fence and Gate.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-001_Cathodic Protection Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-004_Painting and Coating Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-009_Galvanizing.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-012_Chemical Treatment and Corrosion Monitoring System Specification.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-ST Draw\AGES STD Drawings - Consolidated - Civil_AR.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\02_Compliance - Ethics Code\ADNOC Group Code of Conduct - Employee_2022_EN.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\02_Compliance - Ethics Code\ADNOC Group Supplier Code of Business Ethics_EN.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\03_ICV Requirements\ADNOC ICV Implementation Guideline_Rev.3.1.pdf
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\04_Insurance Requirements\Insurance Requirements.docx
+  10.1 CCECC - Civil Pkg II\Contract\Part II Attachments\Attachment 7 - Owner's Special Requirements &Reference\05_Subcontracting\Exh B.16_Selection of Subcontractors and Vendors.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part I FOA_LOA_CF_COC\LOA_Civil Pkg I - III_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part I FOA_LOA_CF_COC\WISON24108C25007_Agrmt - FOA - COC_Draft.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0009_0 Project Document Control Procedure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0010_0 DOCUMENT NUMBERING PROCEDURE.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\PR-5312-1000-PM-0012_0 Vendor Documentation Control Procedure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\WISON DC Portal Operation manual.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\docweb_help.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DC Procedure\docweb_help_en.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Guideline - Subcontractors Document Management.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\PR-5312-1000-PM-0010_Document Numbering Procedure_2025-06-18.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Subcon PM Doc Template - General.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Subcon PM Doc Template - ITP.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 01_Subcontractor Template - ITP.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 02_Subcontractor Template - General.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 1 - Communication Procedures\DCC requirements\Subcontract Template\App 04_MOM Template.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 2 - Change Management\Change Management Procedure.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 2 - Change Management\Change Management Procedure_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADNOC Group Medical Fitness Guidelines for Contractors_2023-04-01.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADNOC Unified Vehicle Inspection Guidelines.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADR-002_Updated HSE Requirements.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\ADR-003_Asset Integrity.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0001 Project HSE Plan Rev 0.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0002 Emergency Response Plan Rev 0.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0003 Construction HSE Plan Rev 0.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0004 Permit to Work Procedure Rev 0.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0005 Construction Enviroment Management Plan Rev_A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0006 Construction Waste Management Plan Rev_A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0007 Transportation Management Plan Rev_B.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 01_Contractor Management Procedures\PR-5312-1000-SA-0008 Welfare Management Plan Rev_B.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 02_ADNOC HSEWM Min Requirements in Contracts\ADNOC HSEWM Min Requirements in Contracts.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 03_HSE Assurance Program\CONTRACTOR HSE ASSURANCE PROGRAM.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 04_Pre-Mob - Pre-Execution Audit Checklists\Camp Welfare Audit Register_2025.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 04_Pre-Mob - Pre-Execution Audit Checklists\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\App 05_ADNOC Approved Training Providers\ADNOC Approved Training Providers October 2025 V3.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att 00_HSE Requirements - Main Body.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST01_V1 CM&ER Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST02_V1 Oil Spill Res.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-CE-ST03_V1 Fire &Rescue Ope.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST01_V1 Envir Impact Asmnt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST02_V1 PPC.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST03_V1-Energy Mgmt Sys.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST04_V1 Waste Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST05_V1 Env. Perf Montrng.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST06_V1 Biodiversity Assmnt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-EN-ST07_V1 Air Dispersion Modlg.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST02_V1 HSEMS Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST03_V1 Cri Roles&Comp.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST04_V1 Incident Invest Report.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST06_V1 Project HSE Plan Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST07_V1 HSE Design Philosophy.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST08_V1 HSE Perf Monitor&Report.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST09_V1 HSE Audit&Assurance.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-GA-ST11_V1 Life Saving Rules.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST01_V1 Occup Health Framework.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST02_V1 OH Hazard Manual.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST03_V1 OHRM.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST04_V1 Case Mgmt&Rehab.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST05_V1 Health Screening&Surveil.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST06_V1 Food and Water Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST07_V1 Contr Welfare Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST08_V1 Physical Health Hazards.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST09_V1 Chemical Hazards.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST10_V1 Biological Hazards.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST11_V1 Ergono Hazards Stds.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OH-ST12_V1 Indoor Air Quality Stds.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST01_V2 Work Mgmt Sys Fram.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2 Permit To Work Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-01-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-02-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-03-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-04-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-05-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-06-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-07-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-08-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-09-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-10-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-11-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-12-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-13-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST02_V2-14-FM_V3.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2 Job Saf Analy Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-01-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-02-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-02-FM_V1_Fillable.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST03_V2-03-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2 Energy Iso Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-01-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-02-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST04_V2-03-FM_V2.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST05_V2 Temp Defeat Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST05_V2-01-FM_V3.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST06-V2-01-FM_V1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST06_V2 Simul Oper Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST07_V1 Compre Gas Cyl.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST08_V1 Confined Space.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST09_V1 Electrical Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST10_V1 High Pres Water Jetng.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST11_V1 Cont Eq Hzrd Areas.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST12_V1 Explosives.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST13_V1 Hazard Substances.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST14_V1 Cutting Weld&Allied Pro.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST15_V1 Excavation.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST16_V1 Scaffolding.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST17_V1 Manual Handling.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST18_V1 Spray Paint.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST19_V1 Lifting&Hoistg Oper.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST20_V1 PPE.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST21_V1 Management of H2S.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST22_V1 Working at Height.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST23_V1-Diving Opern Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST24_V1 Marine Opern Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST25_V1 Road Trans Oper Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST26_V1 Air Trans Oper Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST27_V1 Hazard Comnctn.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST28_V1 Office Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST29_V1 HSECES Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST30_V1 Tech MOC Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-OS-ST31_V1 DGS Mgmt Std.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST01_V1 HSE Risk Mgmt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST02_V1 HSEIA.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST03_V1 HAZID ENVID OHID.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST04_V1 H&O study.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST05_V1 Safety Integrity Levels.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST06_V1 Cont accidt Hazards.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST07_V1 EERA.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST08_V1 ESSA.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST09_V1 Fire ExploRiskAssmnt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST10_V1-Quantitative Risk Assmnt.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST11_V1 Project HSE Review.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST12_V1 Pre Start-up Safety.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST13_V1 Inherently Safer Design.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-A\HSE-RM-ST14_V1 CFD Dispersion&Explos.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\01_HSE Policy.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\02_HSE-MAN-003.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\03_HSE-ST-029.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\04_HSE-GU-019.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\05_HSE-ST-009.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\06_HSE-ST-007.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\07_GS-MAN-003.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\08_IA_HSECES-GU-016.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\09_HSE-ST-071.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\10_HSE-ST-001.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\11_HSE-ST-023.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\12_HSE-ST-017.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\13_HSE-ST-018.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\14_HSE-ST-016-A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\14_HSE-ST-016-B.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\15_HSE-ST-008.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\16_HSE-ST-002.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\17_TE-ST-002.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\18_HSE-GU-055.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-B\19-AHQ-HSE-HPG-GID-006-R01-20.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\1-Tech Guidance for TOR.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\2-Tech Guidance for EIA.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-C\3-EAD Approved Agencies.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements Attachments\Att A-D_HSE Standards\ATTACH-D\HSE Bid Eval Questnre.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 3 - HSE requirements\HSE Requirements_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-GL-13-001_Contractors QAQC Requirement.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-SP-07-007_Welding - NDE.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Management Requirements\AGES-SP-13-002_Procurement Inspection - Certification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Management Requirements\Exh B.10_Quality Requirement.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Management Requirements\WISON_Contractors QAQC Requirement.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Requirements for Subcontractors.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 4 - Quality Management\Quality Requirements for Subcontractors_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 01_Planning - Scheduling Procedure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 02_Work Breakdown Structure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 03_Work Schedule - Civil Pkg II.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 04_Basis of Construction - Pre-Commissioning Progress Measurement.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 05_Project Calendar.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 06_Project Reporting Procedure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\03_Schedule - Reporting\Annexes_Schedule - Reporting\ATT 07_Progress Measurement Procedure.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 01_Scope of Work - Civil Pkg I.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 01_Scope of Work - Civil Pkg I_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 02_Scope of Work - Civil Pkg III.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 02_Scope of Work - Civil Pkg III_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 03_Responsibility Matrix.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 03_Responsibility Matrix_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 04_Schedule - Reporting Requirement.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 04_Schedule - Reporting Requirement_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 05_Delay LD - Civil Pkg I.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 05_Delay LD - Civil Pkg I_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 06_Delay LD - Civil Pkg III.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 06_Delay LD - Civil Pkg III_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 07_Key Personnel - LD.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 5 - Scope of Work\Att 07_Key Personnel - LD_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Att 01.1_BOQ Addendum - Civil - BLDG Pkg I_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Att 03_Bank Bond Format - ADNOC.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\01_General - Subcontractor Pricing Instructions_Rev.A.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\01_General - Subcontractor Pricing Instructions_Rev.A_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A1-A2-Site Preparation-Piling_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A3-A4-A5-Earth Work-Masonry Structure-Steel Structure_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A6-Architecture_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\02.A-A7-Utilities_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\03.B-Piping_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 6 - Commercials\Exhibit B Measurement Method\10.J-Demolition_Rev.A.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-001_Concrete Supply and Construction Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-002_Structural Steel Supply, Fabrication and Erection Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-003_Structural Design Basis - Onshore Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-004_Anchor Bolts and Grouting Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-005_Roads and Paving - Design and Construction Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-006_Site Preparation, Earthworks and Bund Construction Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-007_Drainage Systems - Design and Construction Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-008_Piling Design, Construction and Testing.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-009_Civil Construction Materials Sampling and Testing Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-012_ Concrete Repair.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-013_Architectural Design Basis.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-014_Architectural Finishes and Furnishing.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-015_Architechtural Architectural Specialities - Metal, Wood and Plastics.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-016_Doors and Windows.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-017_Masonry Wall and Thermal & Moisture Protestion.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-018_Plumbing.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-019_Prefabricated Metal Buildings.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-020_Passive Fire Protection for Onshore Facilities - Material and Installation.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-01-022_Fence and Gate.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-001_Cathodic Protection Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-004_Painting and Coating Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-009_Galvanizing.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-Reference\AGES-SP-07-012_Chemical Treatment and Corrosion Monitoring System Specification.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\01_Company Codes - Standard Drawings\AGES-ST Draw\AGES STD Drawings - Consolidated - Civil_AR.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\02_Compliance - Ethics Code\ADNOC Group Code of Conduct - Employee_2022_EN.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\02_Compliance - Ethics Code\ADNOC Group Supplier Code of Business Ethics_EN.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\03_ICV Requirements\ADNOC ICV Implementation Guideline_Rev.3.1.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\03_ICV Requirements\ICV Improvement Plan - Civil Pkg III_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\03_ICV Requirements\ICV Improvement Plan - Civil Pkg I_Signed.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\04_Insurance Requirements\Insurance Requirements.docx
+  10.2 TCC - Civil Pkg I_III\Contract\Part II Atchments\Attachment 7 - Owner's Special Requirements &Reference\05_Subcontracting\Exh B.16_Selection of Subcontractors and Vendors.pdf
+  10.2 TCC - Civil Pkg I_III\Contract\WISON24108C25007_SubCon Civil Pkg I_III.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh A_Work Scope - Schedule\A 1.1 Scope of Work-Rev.0.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh A_Work Scope - Schedule\A 1.2 SOW Responsibility Matrix-Rev.0.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh A_Work Scope - Schedule\A 2 Work Schedule_（MEI Package 1）.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh A_Work Scope - Schedule\A 2 Work Schedule_（MEI Package 3）.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\01.General-Subcontractor Pricing Instructions_Rev.B.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\02.A-A3&A4&A5-Earth Work&Masonry Structure&Steel Structure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\02.A-A6-Architecture.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\02.A-A7-Utilities.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\03.B-Piping.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\04.C-Equipment.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\05.D-Electical.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\06.E - TELE.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\07.F-Instrument.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\08.G-HAVC.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\09.I-Anti-Corrossion and Insulation.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\09. H-Firefighting.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\10.J-Demolition.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\11.K-NDT.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\12.M-Chemical Cleaning.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\13.N-Commissionning and Start up.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh B_Method of Measurement\15.O-Tie in.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh D_Subcontract Price\Exhibit D 0 General-Subcontractor Pricing Instructions.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh D_Subcontract Price\Exhibit D 1 Contract Price.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-GL-13-001 Contractors QAQC Requirement.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-GL-13-002 Positive Material Identification of Equipment and Piping.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-SP-07-007 Welding and Non Destructive Examination (NDE).pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-SP-07-011 Preservation & Export Packing Specification.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-SP-13-002 Procurement Inspection and Certification Requirement in Projects.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\AGES-SP-13-003 Traceability of Shop & Field  Piping Materials.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\Appendix - Key Personnel & Liquidated Damages.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\EXHIBIT-B.10 Quality Requirement.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\Exhibit E QUALITY REQUIREMENTS FOR SUBCONTRACTORS.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\PR-5312-1000-QA-0001_0 PQP.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh E_Quality Requirements\PR-5312-1000-QA-0006_A Field Inspection Procedure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\Bank Bond Format with Schedules.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\Exhibit F Administrative Procedure.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\Guideline for Subcontractor's Document Management_20250618.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\PR-5312-1000-PM-0010_0 Document Numbering Procedure_20250618.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\SUBCON Project Management Doc Template-General.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\SUBCON Project Management Doc Template-ITP.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh F_Administrative Procedure\Template - Bid Security.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh G_(NA)\Exhibit G.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\ADNOC HSEWM Min Reqts in Contracts-27.04.2023.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\Exhibit H HSE Requirements.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\1 HSE Requirements.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-CE-ST01_V1 CM&ER Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-CE-ST02_V1 Oil Spill Res.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-CE-ST03_V1 Fire &Rescue Ope.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST01_V1 Envir Impact Asmnt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST02_V1 PPC.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST03_V1-Energy Mgmt Sys.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST04_V1 Waste Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST05_V1 Env. Perf Montrng.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST06_V1 Biodiversity Assmnt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-EN-ST07_V1 Air Dispersion Modlg.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST02_V1 HSEMS Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST03_V1 Cri Roles&Comp.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST04_V1 Incident Invest Report.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST06_V1 Project HSE Plan Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST07_V1 HSE Design Philosophy.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST08_V1 HSE Perf Monitor&Report.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST09_V1 HSE Audit&Assurance.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-GA-ST11_V1 Life Saving Rules.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST01_V1 Occup Health Framework.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST02_V1 OH Hazard Manual.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST03_V1 OHRM.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST04_V1 Case Mgmt&Rehab.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST05_V1 Health Screening&Surveil.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST06_V1 Food and Water Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST07_V1 Contr Welfare Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST08_V1 Physical Health Hazards.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST09_V1 Chemical Hazards.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST10_V1 Biological Hazards.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST11_V1 Ergono Hazards Stds.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OH-ST12_V1 Indoor Air Quality Stds.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST01_V2 Work Mgmt Sys Fram.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2 Permit To Work Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-01-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-02-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-03-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-04-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-05-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-06-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-07-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-08-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-09-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-10-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-11-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-12-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-13-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST02_V2-14-FM_V3.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST03_V2 Job Saf Analy Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST03_V2-01-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST03_V2-02-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST03_V2-02-FM_V1_Fillable.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST03_V2-03-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST04_V2 Energy Iso Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST04_V2-01-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST04_V2-02-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST04_V2-03-FM_V2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST05_V2 Temp Defeat Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST05_V2-01-FM_V3.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST06-V2-01-FM_V1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST06_V2 Simul Oper Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST07_V1 Compre Gas Cyl.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST08_V1 Confined Space.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST09_V1 Electrical Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST10_V1 High Pres Water Jetng.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST11_V1 Cont Eq Hzrd Areas.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST12_V1 Explosives.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST13_V1 Hazard Substances.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST14_V1 Cutting Weld&Allied Pro.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST15_V1 Excavation.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST16_V1 Scaffolding.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST17_V1 Manual Handling.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST18_V1 Spray Paint.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST19_V1 Lifting&Hoistg Oper.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST20_V1 PPE.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST21_V1 Management of H2S.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST22_V1 Working at Height.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST23_V1-Diving Opern Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST24_V1 Marine Opern Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST25_V1 Road Trans Oper Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST26_V1 Air Trans Oper Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST27_V1 Hazard Comnctn.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST28_V1 Office Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST29_V1 HSECES Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST30_V1 Tech MOC Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-OS-ST31_V1 DGS Mgmt Std.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST01_V1 HSE Risk Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST02_V1 HSEIA.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST03_V1 HAZID ENVID OHID.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST04_V1 H&O study.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST05_V1 Safety Integrity Levels.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST06_V1 Cont accidt Hazards.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST07_V1 EERA.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST08_V1 ESSA.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST09_V1 Fire ExploRiskAssmnt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST10_V1-Quantitative Risk Assmnt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST11_V1 Project HSE Review.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST12_V1 Pre Start-up Safety.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST13_V1 Inherently Safer Design.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_A\HSE-RM-ST14_V1 CFD Dispersion&Explos.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\01_HSE Policy.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\02_HSE-MAN-003.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\03_HSE-ST-029.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\04_HSE-GU-019.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\05_HSE-ST-009.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\06_HSE-ST-007.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\07_GS-MAN-003.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\08_IA_HSECES-GU-016.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\09_HSE-ST-071.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\10_HSE-ST-001.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\11_HSE-ST-023.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\12_HSE-ST-017.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\13_HSE-ST-018.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\14_HSE-ST-016-A.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\14_HSE-ST-016-B.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\15_HSE-ST-008.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\16_HSE-ST-002.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\17_TE-ST-002.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\18_HSE-GU-055.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_B\19-AHQ-HSE-HPG-GID-006-R01-20.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_C\1-Tech Guidance for TOR.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_C\2-Tech Guidance for EIA.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_C\3-EAD Approved Agencies.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2 HSE requirements Attachments\Att_D\HSE Bid Eval Questnre.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\2025 Camp Welfare Audit Register.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\3 ADR002 - Updated HSE Requirements.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\4 ADR003 - Asset Integrity.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\5 ADNOC Group Medical Fitness Guidelines for Contractors-1 APR 2023.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\ADNOC Unified Vehicle Inspection Guidelines.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0001 Project HSE Plan Rev 0.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0002 Emergency Response Plan Rev 0.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0003 Construction HSE Plan Rev 0.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0004 Permit to Work Procedure Rev 0.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0005 Construction Enviroment Management Plan Rev_A.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0006 Construction Waste Management Plan Rev_A.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0007 Transportation Management Plan Rev_B.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 01_Contractor Management Procedure\PR-5312-1000-SA-0008 Welfare Management Plan Rev_B.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 02_ADNOC HSEWM Min Reqts in Contracts\ADNOC HSEWM Min Reqts in Contracts.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 03_HSE ASSURANCE PROGRAM\CONTRACTOR HSE ASSURANCE PROGRAM.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 04_Pre Mobilization Audit and Pre-Execution Audit Checklist\HSE-GA-ST05_V1 Contractor HSE Mgmt.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\HSE Requirements\App 05_ADNOC Approved Training Providers\ADNOC Approved Training Providers October 2025 V3.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh H_HSE Requirements\Notice of Replacement of ADNOC HSEWM Requirements - MEI Package I.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh I_(NA)\Exhibit I (NA).docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT1-Planning and Scheduling Procedure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT2-Work Breakdown Structure (WBS).pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT4-Basis of Construction & Pre-Commissioning Progress Measurement.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT5-Project Calendar.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT6-Project Reporting Procedure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exh J_Annexes\ATT7-Progress Measurement Procedure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh J_Scheduling and Reporting -R1\Exhibit J Scheduling and Reporting 251112.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 01_Compliance and ethics code\2022 ADNOC Group Code of Conduct Employee- En.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 01_Compliance and ethics code\Supplier Code of Ethics En.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 02_ICV requirements\ADNOC ICV  Implementation Guideline - Rev.3.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 03_Insurance Requirements\1. Insurance Requirements.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-PR-043 Projects Asset Information Handover Procedure.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-PR-050 As-Built Procedure  Rev-0 Final.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-PR-063  Numbering of Engineering Drawings  Procedure Rev-0 Final.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-PR-064 Procedure of Tagging of Assets Rev-0 Final.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-ST-005 Engineering Data Deliverable Standard.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Annexure 10F-4 Attachemnts\TE-ST-006  SmartPlant Data Deliverable Standards-Signed.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-A.08_ Rev.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-A.10 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-A.11-Rev.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-A.17 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.01 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.03 Rev_1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.05 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.07-Rev.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.11.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.12-Rev.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.13 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.14.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.15.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.16.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.17.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.18 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.19-Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.20 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.21_Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.22 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.23 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.24.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.25 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.26 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.27 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.35.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.36.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.37.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.38.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.39_Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.4.10.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.4.7.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.4.8.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.4.9.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.4.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.40.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.41.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.42.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.43.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.44.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.45.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.46.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.47.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.48 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.49.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.50-Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.51.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.52-Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.53- Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.54-Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.55-Rev.2.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.56.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\EXHIBIT-B.57 Rev 1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Exh K_Owner's Special Requirements - Reference\Att 10_ANNEXURE-10 Project Execution Requirements\Exhibit-B.10-Rev.1.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\Plot Plan and MEI Package Divison.pdf
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part II_Exhibits\TCF_Placeholder_Page.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\Agrmt - GCS - SCS.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\LOA\Att 01_Sub-Pkg\ATTACHMENT 1 Work Schedule_（MEI Package 1）20260404.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\LOA\Att 01_Sub-Pkg\ATTACHMENT 2 No+Deviation+Declaration(MEI)+Package 1.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\LOA\Att 03_Sub-Pkg\ATTACHMENT 1 Work Schedule_（MEI Package 3）.doc
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\LOA\Att 03_Sub-Pkg\ATTACHMENT 2 No+Deviation+Declaration(MEI)+Package 3.docx
+  12.1 CCECC - MEI Pkg I\Contract\01_Subcon\Part I_Agrmt - LOA - GCS - SCS\LOA\Main Body.docx
+  12.1 CCECC - MEI Pkg I\Contract\02_Amdt 01\Amdt 01_MEI Pkg I (Revised) - BACKUP 20260714.docx
+  12.1 CCECC - MEI Pkg I\Contract\02_Amdt 01\Amdt 01_MEI Pkg I (Revised) .docx
+  12.1 CCECC - MEI Pkg I\Contract\02_Amdt 01\Amdt 01_MEI Pkg I (Revised) .pdf
+  12.2 TCC - MEI Pkg II\Contract\(a) Subcontract Agreement.doc
+  12.2 TCC - MEI Pkg II\Contract\(b) Technical Clarification Form.pdf
+  12.2 TCC - MEI Pkg II\Contract\(c) Post-Bid Commercial Clarification Form.pdf
+  12.2 TCC - MEI Pkg II\Contract\(d) Letter of Award (LOA) for Package 2 Of MEI Installation Works.pdf
+  12.2 TCC - MEI Pkg II\Contract\(d) Special Conditions of Subcontract.doc
+  12.2 TCC - MEI Pkg II\Contract\(d-1)I CV Improvement Plan 20260213-signed.pdf
+  12.2 TCC - MEI Pkg II\Contract\(e) Special Conditions of Subcontract.doc
+  12.2 TCC - MEI Pkg II\Contract\(f) General Conditions of Subcontract.doc
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 1.1 Scope of Work-Rev.0.doc
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 1.1 Scope of Work-Rev.0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 1.2 SOW Responsibility Matrix-Rev.0 2025-11-04.doc
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 1.2 SOW Responsibility Matrix-Rev.0 2025-11-04.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 2 Work Schedule_（MEI Package 2)0108.doc
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\A 2 Work Schedule_（MEI Package 2)0108.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit A Work Scope & Schedule\Plot Plan and MEI Package Divison.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\01. General-Subcontractor Pricing Instructions_Rev.B.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\02.A-A3&A4&A5-Earth Work&Masonry Structure&Steel Structure_Rev.A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\02.A-A6-Architecture_Rev.A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\02.A-A7-Utilities_Rev.A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\03.B-Piping_Rev.A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\04.C-Equipment.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\05.D-Electical.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\06.E - TELE.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\07.F-Instrument.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\08.G-HAVC.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\09.I-Anti-Corrossion and Insulation.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\09. H-Firefighting.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\10.J-Demolition_Rev.A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\11.K-NDT.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\12.M-Chemical Cleaning MM.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\13.N-Commissionning and Start up.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\15.O-Tie in.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit B Method of Measurement\16.Material Allowance Ratio 【合并后删除】.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\DW-5312-1012-A0-EU-6012_R0_20251031.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\Stacker-Reclaimer\DW-5312-4043-SR-0001-502_B Stacker Reclaimer GA drawing.PDF
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-001_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-200_B.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-300_A.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-507_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-508_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-509_1.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-510_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-511_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-512_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-513_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-514_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-515_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit C Technical Spec & Drawing\granulator\DW-5312-PO25194-516_0.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit D Subcontract Price\Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit D Subcontract Price\Exhibit D 1 Contract Price.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit D Subcontract Price\Exhibit D 1 Contract Price.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit D Subcontract Price\Exhibit D 2 General-Subcontractor Pricing Instructions.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Appendix - Key Personnel & Liquidated Damages.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Appendix - Key Personnel & Liquidated Damages.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-GL-13-001 Contractors QAQC Requirement.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-GL-13-002 Positive Material Identification of Equipment and Piping.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-SP-07-007 Welding and Non Destructive Examination (NDE).pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-SP-07-011 Preservation & Export Packing Specification.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-SP-13-002 Procurement Inspection and Certification Requirement in Projects.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\AGES-SP-13-003 Traceability of Shop & Field  Piping Materials.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\EXHIBIT-B.10 Quality Requirement.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\PR-5312-1000-QA-0001_0 PQP.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E Attachments\PR-5312-1000-QA-0006_A Field Inspection Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E QUALITY REQUIREMENTS FOR SUBCONTRACTORS.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit E Quality Requirements\Exhibit E QUALITY REQUIREMENTS FOR SUBCONTRACTORS.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\Bank Bond Format with Schedules.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\DC Procedure\PR-5312-1000-PM-0009 Project Document Control Procedure\PR-5312-1000-PM-0009_0 Project Document Control Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\DC Procedure\PR-5312-1000-PM-0010 Document Numbering Procedure\PR-5312-1000-PM-0010_0 DOCUMENT NUMBERING PROCEDURE.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\DC Procedure\PR-5312-1000-PM-0012 Vendor Documentation Control Procedure\PR-5312-1000-PM-0012_0 Vendor Documentation Control Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\DC Procedure\WISON DC Portal Operation manual\docweb_help.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\DC Procedure\WISON DC Portal Operation manual\docweb_help_en.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\Guideline for Subcontractor's Document Management_20250618.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\PR-5312-1000-PM-0010_0 Document Numbering Procedure_20250618.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\SUBCON Project Management Doc Template-General.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\SUBCON Project Management Doc Template-ITP.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\Subcontract Template\Appendix -1 Subcontractor Template for ITP Doc.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\Subcontract Template\Appendix -2 Subcontractor Template for General Doc.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\DCC requirements\Subcontract Template\Appendix -4 MOM Template.DOCX
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\Exhibit F Administrative Procedure.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit F Administrative Procedure\Exhibit F Administrative Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit G Mechanical Completion\Exhibit G Mechanical Completion.doc
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit G Mechanical Completion\Exhibit G Mechanical Completion.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit H HSE Requirements\Exhibit H HSE Requirements.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit H HSE Requirements\Exhibit H HSE Requirements.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit I (NA)\Exhibit I (NA).docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT1-Planning and Scheduling Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT2-Work Breakdown Structure (WBS).pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT4-Basis of Construction & Pre-Commissioning Progress Measurement.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT5-Project Calendar.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT6-Project Reporting Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Annexes\ATT7-Progress Measurement Procedure.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Scheduling and Reporting 251112.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit J Scheduling and Reporting\Exhibit J Scheduling and Reporting 251112.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\1. Compliance and ethics code\2022 ADNOC Group Code of Conduct Employee- En.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\1. Compliance and ethics code\Supplier Code of Ethics En.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\2. ICV requirements\ADNOC ICV  Implementation Guideline - Rev.3.1.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\2. ICV requirements\ICV Improvement Plan.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\3. Insurance Requirements\1. Insurance Requirements.docx
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\4. Subcontracting\EXHIBIT-B.16.pdf
+  12.2 TCC - MEI Pkg II\Contract\(g) Exhibits of Subcontract\Exhibit K Owner's Special Requirements & Reference\6. Exhibit B.38.pdf
+  12.2 TCC - MEI Pkg II\Contract\Contractual Terms Non-Deviation and Execution Undertaking Declaration（MEI）.pdf
+  12.2 TCC - MEI Pkg II\Contract\小签合同\1. Subcontract Agreement.doc
+  12.2 TCC - MEI Pkg II\Contract\小签合同\2. Special Conditions of Subcontract.doc
+  12.2 TCC - MEI Pkg II\Contract\小签合同\3. General Conditions of Subcontract.doc

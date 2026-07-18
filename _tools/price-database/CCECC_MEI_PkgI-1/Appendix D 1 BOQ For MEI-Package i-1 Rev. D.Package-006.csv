@@ -1,0 +1,83 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Package-006
+"# Rows: 49, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 40 
+General
+",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+PK-0006-Green,4015-DC-0001,DUST COLLECTION SYSTEM,"Capacity:~10,000m3/hr All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ800X16000mm 
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.
+","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,14,14,,0,,0,,0,,0,,0,0,0,
+PK-0006-Green,4015-DC-0002,DUST COLLECTION SYSTEM,"Capacity:~20,000m3/hr
+ All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ1000X25000mm 
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,23,23,,0,,0,,0,,0,,0,0,0,
+PK-0006-Green,4015-DC-0004,DUST COLLECTION SYSTEM,"Capacity:~40,000m3/hr
+All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ1400X17100mm.
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,32,32,,0,,0,,0,,0,,0,0,0,
+PK-0006-Brown,4015-DC-0003,DUST COLLECTION SYSTEM,"Capacity：~20,000m3/hr
+ All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ1000X30300mm 
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,23,23,,0,,0,,0,,0,,0,0,0,
+PK-0006-Brown,4015-DC-0005,DUST COLLECTION SYSTEM,"Capacity：~40,000m3/hr
+ All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ1400X24000mm
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,32,32,,0,,0,,0,,0,,0,0,0,
+PK-0006-Brown,4015-DC-0006,DUST COLLECTION SYSTEM,"Capacity：~40,000m3/hr
+ All Equipment shall be in Knock down Condition in containers. Subcontractor shall do the ground assembly under the supervision of AIMS/IEW Engineer as discussed in the minutes of Meeting dated 28/10/2025. Hence please note considering the limitations of transportation it can not be supplied in One Skid.
+stack (Dia.*H): ~φ1400X28000mm
+Package includes: Suction Hood, Suction Duct, Venturi Scrubber, ID fan, stack, Recirculation pump station, Re-circulation tank, Clarifier, Screw  conveyor, Sludge bin, Dosing Tank, Piping, Valves, Instruments, Motors, VFD's, MCC Panel, Cables, Cable Trays etc.","FRP & CS+FRP lining for Screw Conveyor & Sludge Bin, ID Fan Casing with CS+FRP",Contractor,Package,1,1,32,32,,0,,0,,0,,0,,0,0,0,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",,Contractor,Lot,1,,,,,0,,0,,0,,0,,0,0,0,Refer to Vendor Document as attached
+,,,Package Equipment 006 TOTAL,,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

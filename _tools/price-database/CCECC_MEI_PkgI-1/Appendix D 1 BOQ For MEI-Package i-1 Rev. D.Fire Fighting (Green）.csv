@@ -1,0 +1,139 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Fire Fighting (Green）
+"# Rows: 112, Cols: 23"
+
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+No.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,Material,"Material
+Supply by","SIZE
+(NPS)",SCH / Rating,Joint Type,UNIT,Qty.,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+Firefighting,,,,,,,,,,,,,,,,,,,,,,
+FF-01,,Connection Joints,,,,,,,,,,,,,,,,,,,,
+FF-01-01,CARBON STEEL,"CS,1,CL 3000,Thread",CS,Contractor,1,CL 3000,Thread,Dia-Inch,2245.5,,0,,0,,0,,0,,0,0,0,
+FF-01-02,CARBON STEEL,"CS,1,CL 800,Thread",CS,Contractor,1,CL 800,Thread,Dia-Inch,1.5,,0,,0,,0,,0,,0,0,0,
+FF-01-03,CARBON STEEL,"CS,3,CL 150,Thread",CS,Contractor,3,CL 150,Thread,Dia-Inch,27.38,,0,,0,,0,,0,,0,0,0,
+FF-01-04,CARBON STEEL,"CS,3,CL 800,Thread",CS,Contractor,3,CL 800,Thread,Dia-Inch,508.5,,0,,0,,0,,0,,0,0,0,
+FF-01-05,CARBON STEEL,"CS,4,S-40,Butt Weld",CS,Contractor,4,S-40,Butt Weld,Dia-Inch,3540,,0,,0,,0,,0,,0,0,0,
+FF-01-06,CARBON STEEL,"CS,4,CL 3000,Thread",CS,Contractor,4,CL 3000,Thread,Dia-Inch,347.46,,0,,0,,0,,0,,0,0,0,
+FF-01-07,CARBON STEEL,"CS,4,S-80,Butt Weld",CS,Contractor,4,S-80,Butt Weld,Dia-Inch,90,,0,,0,,0,,0,,0,0,0,
+FF-01-08,CARBON STEEL,"CS,4,CL 3000,Butt Weld",CS,Contractor,4,CL 3000,Butt Weld,Dia-Inch,347.46,,0,,0,,0,,0,,0,0,0,
+FF-01-09,CARBON STEEL,"CS,4,CL 800,Thread",CS,Contractor,4,CL 800,Thread,Dia-Inch,120,,0,,0,,0,,0,,0,0,0,
+FF-01-10,CARBON STEEL,"CS,6,S-40,Butt Weld",CS,Contractor,6,S-40,Butt Weld,Dia-Inch,4875,,0,,0,,0,,0,,0,0,0,
+FF-01-11,CARBON STEEL,"CS,6,S-80,Butt Weld",CS,Contractor,6,S-80,Butt Weld,Dia-Inch,49.5,,0,,0,,0,,0,,0,0,0,
+FF-01-12,CARBON STEEL,"CS,6,CL 3000,Thread",CS,Contractor,6,CL 3000,Thread,Dia-Inch,487.13,,0,,0,,0,,0,,0,0,0,
+FF-01-13,CARBON STEEL,"CS,6,CL 3000,Butt Weld",CS,Contractor,6,CL 3000,Butt Weld,Dia-Inch,487.13,,0,,0,,0,,0,,0,0,0,
+FF-01-14,CARBON STEEL,"CS,6,CL 800,Thread",CS,Contractor,6,CL 800,Thread,Dia-Inch,81,,0,,0,,0,,0,,0,0,0,
+FF-01-15,CARBON STEEL,"CS,8,S-20,Butt Weld",CS,Contractor,8,S-20,Butt Weld,Dia-Inch,1009.8,,0,,0,,0,,0,,0,0,0,
+FF-01-16,CARBON STEEL,"CS,8,CL 3000,Thread",CS,Contractor,8,CL 3000,Thread,Dia-Inch,175.5,,0,,0,,0,,0,,0,0,0,
+FF-01-17,CARBON STEEL,"CS,8,CL 3000,Butt Weld",CS,Contractor,8,CL 3000,Butt Weld,Dia-Inch,175.5,,0,,0,,0,,0,,0,0,0,
+FF-01-18,CARBON STEEL,"CS,10,S-20,Butt Weld",CS,Contractor,10,S-20,Butt Weld,Dia-Inch,7352.5,,0,,0,,0,,0,,0,0,0,
+FF-01-19,CARBON STEEL,"CS,10,CL 3000,Thread",CS,Contractor,10,CL 3000,Thread,Dia-Inch,945,,0,,0,,0,,0,,0,0,0,
+FF-01-20,CARBON STEEL,"CS,10,CL 3000,Butt Weld",CS,Contractor,10,CL 3000,Butt Weld,Dia-Inch,945,,0,,0,,0,,0,,0,0,0,
+FF-01-21,CARBON STEEL,"CS,10,CL 800,Thread",CS,Contractor,10,CL 800,Thread,Dia-Inch,240,,0,,0,,0,,0,,0,0,0,
+FF-01-22,CARBON STEEL,"CS+Galv,1,S-80,Thread",CS+Galv,Contractor,1,S-80,Thread,Dia-Inch,703.88,,0,,0,,0,,0,,0,0,0,
+FF-01-23,CARBON STEEL,"CS+Galv,1.5,S-80,Thread",CS+Galv,Contractor,1.5,S-80,Thread,Dia-Inch,1.13,,0,,0,,0,,0,,0,0,0,
+FF-01-24,CARBON STEEL,"CS+Galv,2,S-80,Thread",CS+Galv,Contractor,2,S-80,Thread,Dia-Inch,1.5,,0,,0,,0,,0,,0,0,0,
+FF-01-25,CARBON STEEL,"CS+Galv,3,S-80,Thread",CS+Galv,Contractor,3,S-80,Thread,Dia-Inch,15.94,,0,,0,,0,,0,,0,0,0,
+FF-01-26,CARBON STEEL,"CS+Galv,3,CL 150,Thread",CS+Galv,Contractor,3,CL 150,Thread,Dia-Inch,9,,0,,0,,0,,0,,0,0,0,
+FF-01-27,CARBON STEEL,"CS+Galv,3,CL 3000,Thread",CS+Galv,Contractor,3,CL 3000,Thread,Dia-Inch,306,,0,,0,,0,,0,,0,0,0,
+FF-01-28,CARBON STEEL,"CS+Galv,4,S-40,Butt Weld",CS+Galv,Contractor,4,S-40,Butt Weld,Dia-Inch,3749.7,,0,,0,,0,,0,,0,0,0,
+FF-01-29,CARBON STEEL,"CS+Galv,4,S-80S,Butt Weld",CS+Galv,Contractor,4,S-80S,Butt Weld,Dia-Inch,3,,0,,0,,0,,0,,0,0,0,
+FF-01-30,CARBON STEEL,"CS+Galv,6,S-40,Butt Weld",CS+Galv,Contractor,6,S-40,Butt Weld,Dia-Inch,1443.23,,0,,0,,0,,0,,0,0,0,
+FF-01-31,CARBON STEEL,"CS+Galv,8,S-20,Butt Weld",CS+Galv,Contractor,8,S-20,Butt Weld,Dia-Inch,390.9,,0,,0,,0,,0,,0,0,0,
+FF-01-32,CARBON STEEL,"CS+Galv,10,S-20,Butt Weld",CS+Galv,Contractor,10,S-20,Butt Weld,Dia-Inch,2573.75,,0,,0,,0,,0,,0,0,0,
+FF-01-33,CARBON STEEL,"CS+FBE,3,S-40,Butt Weld",CS+FBE,Contractor,3,S-40,Butt Weld,Dia-Inch,56.25,,0,,0,,0,,0,,0,0,0,
+FF-01-34,CARBON STEEL,"CS+FBE,4,S-40,Butt Weld",CS+FBE,Contractor,4,S-40,Butt Weld,Dia-Inch,976.15,,0,,0,,0,,0,,0,0,0,
+FF-01-35,CARBON STEEL,"CS+FBE,6,S-40,Butt Weld",CS+FBE,Contractor,6,S-40,Butt Weld,Dia-Inch,202.5,,0,,0,,0,,0,,0,0,0,
+FF-01-36,CARBON STEEL,"CS+FBE,8,S-20,Butt Weld",CS+FBE,Contractor,8,S-20,Butt Weld,Dia-Inch,611.9,,0,,0,,0,,0,,0,0,0,
+FF-01-37,CARBON STEEL,"CS+FBE,8,S-40,Butt Weld",CS+FBE,Contractor,8,S-40,Butt Weld,Dia-Inch,99,,0,,0,,0,,0,,0,0,0,
+FF-01-38,CARBON STEEL,"CS+FBE,10,S-20,Butt Weld",CS+FBE,Contractor,10,S-20,Butt Weld,Dia-Inch,490.25,,0,,0,,0,,0,,0,0,0,
+FF-01-39,CARBON STEEL,"CS+FBE,12,S-20,Butt Weld",CS+FBE,Contractor,12,S-20,Butt Weld,Dia-Inch,1061.1,,0,,0,,0,,0,,0,0,0,
+FF-02,,VALVE,,,,,,,,,,,,,,,,,,,,
+FF-02-01-0001,VALVE,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,FF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM B148 C95800 ,Trim:BRONZE ,STD Port,ASME B16.5",CS,Contractor,3,CL 150,FLGD,ea,4,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0002,VALVE,"Butterfly Vlv ,API 609 Cat A ,CL 150 ,FF ,Gear operator ,ASTM A216 WCB,Lined with Chloroprene Rubber or EPDM ,Trim:BRONZE ,ASME B16.5 ,Concentric,LUG Type",CS,Contractor,4,CL 150,FLGD,ea,41,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0003,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A216 WCB ,Trim:316/RPTFE ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,4,CL 150,FLGD,ea,15,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0004,VALVE,"Butterfly Vlv ,API 609 Cat A ,CL 150 ,FF ,Gear operator ,ASTM A216 WCB,Lined with Chloroprene Rubber or EPDM ,Trim:BRONZE ,ASME B16.5 ,Concentric,LUG Type",CS,Contractor,6,CL 150,FLGD,ea,16,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0005,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A216 WCB ,Trim:316/RPTFE ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,6,CL 150,FLGD,ea,8,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0006,VALVE,"Butterfly Vlv ,API 609 Cat A ,CL 150 ,FF ,Gear operator ,ASTM A216 WCB,Lined with Chloroprene Rubber or EPDM ,Trim:BRONZE ,ASME B16.5 ,Concentric,LUG Type",CS,Contractor,8,CL 150,FLGD,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0007,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A216 WCB ,Trim:316/RPTFE ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,8,CL 150,FLGD,ea,1,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0008,VALVE,"Butterfly Vlv ,API 609 Cat A ,CL 150 ,FF ,Gear operator ,ASTM A216 WCB,Lined with Chloroprene Rubber or EPDM ,Trim:BRONZE ,ASME B16.5 ,Concentric,LUG Type",CS,Contractor,10,CL 150,FLGD,ea,9,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0009,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A216 WCB ,Trim:316/RPTFE ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,10,CL 150,FLGD,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0010,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,10,CL 150,FLGD,ea,6,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0011,VALVE,"Butterfly Vlv ,API 609 Cat A ,CL 150 ,FF ,Gear operator ,ASTM A216 WCB,Lined with Chloroprene Rubber or EPDM ,Trim:BRONZE ,ASME B16.5 ,Concentric,LUG Type",CS,Contractor,12,CL 150,FLGD,ea,1,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0012,VALVE,"Butterfly Vlv ,API 609 Cat B ,CL 150 ,RF ,Gear operator ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5 ,Double-offset,Wafer Lug type",CS,Contractor,12,CL 150,FLGD,ea,2,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0013,ALARM CHECK VALVE,"i. An Alarm Check Valve Complete with Trim Kits & Retarding Device.   
+ii. A Water Motor Alarm Gong.
+iii. An Electric Alarm Pressure Switch.
+iv. Pressure Gauges with a Control Valve (Gauge Cock) Having Drain Arrangement (Upstream & Downstream) 
+v. 2"" Main Drain Valve
+vi. 20 mm Bypass Line (Upstream to Downstream of ACV)
+vii. Inspector's Test Connection
+viii. Isolation Valves",CS,Contractor,4,,FLGD,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0014,ALARM CHECK VALVE,"i. An Alarm Check Valve Complete with Trim Kits & Retarding Device.   
+ii. A Water Motor Alarm Gong.
+iii. An Electric Alarm Pressure Switch.
+iv. Pressure Gauges with a Control Valve (Gauge Cock) Having Drain Arrangement (Upstream & Downstream) 
+v. 2"" Main Drain Valve
+vi. 20 mm Bypass Line (Upstream to Downstream of ACV)
+vii. Inspector's Test Connection
+viii. Isolation Valves",CS,Contractor,3,,FLGD,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0015,DELUGE VALVE,"4""Deluge Valve with trim connections, local & control room remote operated, UL/FM,UL listed and FM approved.",CS,Contractor,4,,FLGD,ea,15,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0016,DELUGE VALVE,"6""Deluge Valve with trim connections, local & control room remote operated, UL/FM,UL listed and FM approved.",CS,Contractor,6,,FLGD,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0017,DELUGE VALVE,"10""Deluge Valve with trim connections, local & control room remote operated, UL/FM,UL listed and FM approved.",CS,Contractor,10,,FLGD,ea,12,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0018,Automatic Reducing Valve,Automatic Reducing Valve,CS,Contractor,1,,,ea,1,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0019,Pressure gauge,Pressure gauge,CS,Contractor,1,,,ea,1,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0020,AIR RELEASE VALVE,AIR RELEASE VALVE,CS,Contractor,4,,FLGD,ea,15,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0021,AIR RELEASE VALVE,AIR RELEASE VALVE,CS,Contractor,6,,FLGD,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0022,AIR RELEASE VALVE,AIR RELEASE VALVE,CS,Contractor,10,,FLGD,ea,12,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0023,DRAIN VALVE,DRAIN VALVE,CS,Contractor,4,,FLGD,ea,15,,0,,0,,0,,0,,0,0,0,
+FF-02-01-0024,DRAIN VALVE,DRAIN VALVE,CS,Contractor,6,,FLGD,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-03,,Special Item,,,,,,,,,,,,,,,,,,,,
+FF-03-01-0001,Y-STRAINER,Y-STRAINER,CS,Contractor,4,,,ea,7,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0002,T-STRAINER,T-STRAINER,CS,Contractor,8,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0003,T-STRAINER,T-STRAINER,CS,Contractor,12,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0005,SPRAY NOZZLE,"1/2"" 120°Medium Velocity, Full Cone, Open-type Spray Nozzles with External Deflectors",CS,Contractor,0.5,,,ea,3928,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0006,UPRIGHT SPRINKLER,"1/2"" Quick Response, 68°C, 155°F Red Bulb",CS,Contractor,0.5,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0007,PENDENT SPRINKLER,"1/2"" Quick Response, 68°C, 155°F Red Bulb",CS,Contractor,0.5,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-03-01-0009,COUPLING,"CL 3000, FORGED",CS,Contractor,1x1/2,CL 3000,,ea,3928,,0,,0,,0,,0,,0,0,0,
+FF-04,,FIRE FIGHTING FACILITIES,,,,,,,,,,,,,,,,,,,,
+FF-04-0001,HYDRANT,"2 Way Pillar Hydrant, 6"", including THRUST/ ANCHOR BLOCK &  BARRIER POST & CONCRETE PROTECTION  refer to ACES-SP-01-005 APPENDIX-A1 DWG 8；AGES-STD-01-017；AGES-STD-01-016",,Contractor,6,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0002,HYDRANT,"4 Way Pillar Hydrant, 6""including THRUST/ ANCHOR BLOCK &  BARRIER POST & CONCRETE PROTECTION  refer to ACES-SP-01-005 APPENDIX-A1 DWG 8；AGES-STD-01-017；AGES-STD-01-016",,Contractor,6,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0003,HYDRANT,"4 Way Pillar Hydrant with Fire Monitor,8""including THRUST/ ANCHOR BLOCK &  BARRIER POST & CONCRETE PROTECTION  refer to ACES-SP-01-005 APPENDIX-A1 DWG 8；AGES-STD-01-017；AGES-STD-01-016",,Contractor,8,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0004,REMOTE CONTROL MONITOR,"Remote Control Panel or Joystick, 6""including THRUST/ ANCHOR BLOCK  refer toAGES-STD-01-016",,Contractor,6,,,set,9,,0,,0,,0,,0,,0,0,0,
+FF-04-0005,GROUND MONITOR,"Manual Operated, include Butterfly Valve, 6""，including THRUST/ ANCHOR BLOCK  refer to AGES-STD-01-016",,Contractor,6,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0006,HOSE BOX,"4 Pieces 2 ½ Inches (65 mm) Fire Hoses, Length 30 m with 2 ½ Inch BS 336 Instantaneous Male and Female Couplings, 2 Pieces Water Branch Pipes, 2 Pieces Coupling Spanners, 2 Pieces Collecting and/or Dividing Breechings",,Contractor,,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0007,INDUSTRIAL HOSE REEL,"1-1/2 inch Non-Collapsable, 30m hose, 1-1/2"" NPT, Pressure Reducing, Adjustable Straight Stream/Fog Nozzle with Shutoff Valve",,Contractor,,,,set,19,,0,,0,,0,,0,,0,0,0,
+FF-04-0008,FIRE HOSE CABINET (FHC),"65 mm Landing Valve, 25 mm Diameter Outlet Valve,30m hose reel, 5kg CO2 and 6kg Dry Chemical Portable Extinguishers, 25mm Pressure Reducing Valve, 25mm Lock Shield Valve",,Contractor,,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0009,BREECHING INLET,"Two 65mm, (2-way) direct coupling type fitting for sprinkler riser",,Contractor,,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0010,BREECHING INLET,"Four 65mm, (4-way) direct coupling type fitting for wet riser",,Contractor,,,,ea,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0011,EXTINGUISHER,PORTABLE DRY CHEMICAL EXTINGUISHER (6kg) - ABC，with Hanger of Brackets,,Contractor,,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0012,EXTINGUISHER,"PORTABLE DRY CHEMICAL EXTINGUISHER (9kg) - ABC, with Reinforced Fiberglass Boxes",,Contractor,,,,set,239,,0,,0,,0,,0,,0,0,0,
+FF-04-0013,EXTINGUISHER,"PORTABLE CO2 EXTINGUISHER (5kg) - BC, with Hanger of Brackets",,Contractor,,,,set,0,,0,,0,,0,,0,,0,0,0,
+FF-04-0014,EXTINGUISHER,"WHEELED DRY CHEMICAL EXTINGUISHER (50kg) - ABC, with Heavy-duty Wrappers",,Contractor,,,,set,3,,0,,0,,0,,0,,0,0,0,
+FF-04-0015,DELUGE VALVE PROTECT BOX,DELUGE VALVE PROTECT BOX,,Contractor,,,,ea,12,,0,,0,,0,,0,,0,0,0,
+FF-05,,MISCELLANEOUS,,,,,,,,,,,,,,,,,,,,
+FF-05-0001,PIPE SUPPORT,CS Support,,Subcontractor,,,,Ton,10.12,,0,,0,,0,,0,,0,0,0,
+FF-05-0002,CS+GALV PIPING Painting and Coating,"PIPELINE PAINTING, Refer to AGES-SP-07-004",,Subcontractor,,,,m2,1086.65,,0,,0,,0,,0,,0,0,0,
+FF-05-0003,CS+FBE PIPING Painting and Coating,"PIPELINE PAINTING, Refer to AGES-SP-07-004",,Subcontractor,,,,m2,27.3,,0,,0,,0,,0,,0,0,0,
+FF-05-0004,PIPING SUPPORT Painting and Coating,"PIPELINE PAINTING, Refer to AGES-SP-07-004",,Subcontractor,,,,m2,222.79,,0,,0,,0,,0,,0,0,0,
+,,Fire Fighting (Green）TOTAL,,,,,,,,,0,,0,,0,,0,,0,,0,
+NOTES:,,,,,,,,,,,,,,,,,,,,,,
+1,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,,,,
+1.1,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,,,,
+1.2,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,,,,
+1.3,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,,,,
+2,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,,,,
+3,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,,,,

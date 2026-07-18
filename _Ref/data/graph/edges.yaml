@@ -1,0 +1,630 @@
+- metadata:
+    unit: AED
+  source: '10.1'
+  target: VALUE-10.1
+  type: has_value
+- metadata:
+    unit: AED
+  source: '10.1'
+  target: LD-DELAY-10.1
+  type: has_value
+- metadata: {}
+  source: '10.1'
+  target: LD-KP-10.1
+  type: has_value
+- metadata: {}
+  source: '10.1'
+  target: ADVANCE-10.1
+  type: has_value
+- metadata: {}
+  source: '10.1'
+  target: RETENTION-10.1
+  type: has_value
+- metadata: {}
+  source: '10.1'
+  target: PB-10.1
+  type: has_value
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-1
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-2
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-3
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-4
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-5
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-6
+  type: has_exhibit
+- metadata: {}
+  source: '10.1'
+  target: 10.1-EXH-Attachment-7
+  type: has_exhibit
+- metadata:
+    topic: ld
+  source: '10.1'
+  target: CIVIL-COC-4-2-4
+  type: has_clause
+- metadata:
+    topic: personnel
+  source: '10.1'
+  target: CIVIL-COC-4-3-7
+  type: has_clause
+- metadata:
+    topic: ld
+  source: '10.1'
+  target: CIVIL-COC-10-7
+  type: has_clause
+- metadata:
+    topic: termination
+  source: '10.1'
+  target: CIVIL-COC-21-2
+  type: has_clause
+- metadata: {}
+  source: '10.1'
+  target: ISSUE-PM-缺位-—-Material-Breach
+  type: has_issue
+- metadata:
+    unit: AED
+  source: '10.2'
+  target: VALUE-10.2
+  type: has_value
+- metadata:
+    unit: AED
+  source: '10.2'
+  target: LD-DELAY-10.2
+  type: has_value
+- metadata: {}
+  source: '10.2'
+  target: LD-KP-10.2
+  type: has_value
+- metadata: {}
+  source: '10.2'
+  target: ADVANCE-10.2
+  type: has_value
+- metadata: {}
+  source: '10.2'
+  target: RETENTION-10.2
+  type: has_value
+- metadata: {}
+  source: '10.2'
+  target: PB-10.2
+  type: has_value
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-1
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-2
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-3
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-4
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-5
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-6
+  type: has_exhibit
+- metadata: {}
+  source: '10.2'
+  target: 10.2-EXH-Attachment-7
+  type: has_exhibit
+- metadata:
+    topic: ld
+  source: '10.2'
+  target: CIVIL-COC-4-2-4
+  type: has_clause
+- metadata:
+    topic: ld
+  source: '10.2'
+  target: CIVIL-COC-10-7
+  type: has_clause
+- metadata:
+    unit: AED
+  source: '12.1'
+  target: VALUE-12.1
+  type: has_value
+- metadata:
+    unit: AED
+  source: '12.1'
+  target: LD-DELAY-12.1
+  type: has_value
+- metadata: {}
+  source: '12.1'
+  target: LD-KP-12.1
+  type: has_value
+- metadata: {}
+  source: '12.1'
+  target: ADVANCE-12.1
+  type: has_value
+- metadata: {}
+  source: '12.1'
+  target: RETENTION-12.1
+  type: has_value
+- metadata: {}
+  source: '12.1'
+  target: PB-12.1
+  type: has_value
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-A
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-B
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-D
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-E
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-F
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-G
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-H
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-I
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-J
+  type: has_exhibit
+- metadata: {}
+  source: '12.1'
+  target: 12.1-EXH-Exh-K
+  type: has_exhibit
+- metadata:
+    topic: ld
+  source: '12.1'
+  target: MEI-SCS-Clause-17
+  type: has_clause
+- metadata:
+    topic: payment
+  source: '12.1'
+  target: MEI-SCS-Clause-19
+  type: has_clause
+- metadata:
+    topic: security
+  source: '12.1'
+  target: MEI-SCS-Clause-28
+  type: has_clause
+- metadata:
+    topic: personnel
+  source: '12.1'
+  target: MEI-SCS-Clause-8
+  type: has_clause
+- metadata:
+    topic: warranty
+  source: '12.1'
+  target: MEI-SCS-Clause-27
+  type: has_clause
+- metadata: {}
+  source: '12.1'
+  target: ISSUE-里程碑-No.2-逾期-—-Delay-LD-保留
+  type: has_issue
+- metadata:
+    topic: scope
+  source: SLT-5312-WSN-CCE-0019
+  target: CIVIL-Attachment-5
+  type: references
+- metadata:
+    topic: scope
+  source: '10.1'
+  target: CIVIL-Attachment-5
+  type: has_clause
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0019
+  target: '10.1'
+  type: relates_to
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0019
+  target: CCECC
+  type: involves
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0019
+  target: WSN
+  type: involves
+- metadata:
+    topic: Personnel
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-4-3-3
+  type: references
+- metadata:
+    topic: Personnel
+  source: '10.1'
+  target: CIVIL-COC-4-3-3
+  type: has_clause
+- metadata:
+    topic: Personnel
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-4-3-6
+  type: references
+- metadata:
+    topic: Personnel
+  source: '10.1'
+  target: CIVIL-COC-4-3-6
+  type: has_clause
+- metadata:
+    topic: Personnel
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-4-3-7
+  type: references
+- metadata:
+    topic: LD
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-4-2-4
+  type: references
+- metadata:
+    topic: LD
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-10-7
+  type: references
+- metadata:
+    topic: Termination
+  source: SLT-5312-WSN-CCE-0020
+  target: CIVIL-COC-21-2
+  type: references
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0020
+  target: '10.1'
+  type: relates_to
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0020
+  target: CCECC
+  type: involves
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0020
+  target: WSN
+  type: involves
+- metadata:
+    topic: ld
+  source: SLT-5312-WSN-CCE-0021
+  target: MEI-SCS-Clause-17
+  type: references
+- metadata:
+    topic: schedule
+  source: SLT-5312-WSN-CCE-0021
+  target: MEI-Exhibit-A-2
+  type: references
+- metadata:
+    topic: schedule
+  source: '12.1'
+  target: MEI-Exhibit-A-2
+  type: has_clause
+- metadata:
+    topic: termination
+  source: SLT-5312-WSN-CCE-0021
+  target: MEI-SCS-Clause-33
+  type: references
+- metadata:
+    topic: termination
+  source: '12.1'
+  target: MEI-SCS-Clause-33
+  type: has_clause
+- metadata:
+    topic: variation
+  source: SLT-5312-WSN-CCE-0021
+  target: MEI-SCS-Clause-5-6
+  type: references
+- metadata:
+    topic: variation
+  source: '12.1'
+  target: MEI-SCS-Clause-5-6
+  type: has_clause
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0021
+  target: '12.1'
+  type: relates_to
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0021
+  target: CCECC
+  type: involves
+- metadata: {}
+  source: SLT-5312-WSN-CCE-0021
+  target: WSN
+  type: involves
+- metadata:
+    library: KO-Delay-LD
+  source: 合同
+  target: UNKNOWN-DOC-条款位置
+  type: has_clause
+- metadata:
+    library: KO-Delay-LD
+  source: '------'
+  target: UNKNOWN-DOC----------
+  type: has_clause
+- metadata:
+    library: KO-Payment
+  source: 合同
+  target: UNKNOWN-DOC-合同形式
+  type: has_clause
+- metadata:
+    library: KO-Payment
+  source: 保函条款位置
+  target: UNKNOWN-DOC-
+  type: has_clause
+- metadata:
+    library: KO-Payment
+  source: '---------'
+  target: UNKNOWN-DOC-------------
+  type: has_clause
+- metadata:
+    library: KO-Payment
+  source: EPC-ADNOC-RSGP
+  target: UNKNOWN-DOC-FIDIC-Silver-Book
+  type: has_clause
+- metadata:
+    confidence: high
+    topic: Delay LD
+  source: EPC-18.4(e)
+  target: CIVIL-COC-10-7
+  type: flows_down
+- metadata:
+    confidence: high
+    topic: Delay LD
+  source: EPC-18.4(e)
+  target: MEI-GCS-17
+  type: flows_down
+- metadata:
+    confidence: high
+    topic: KP LD
+  source: EPC-LD-KP
+  target: CIVIL-COC-4-2-4
+  type: flows_down
+- metadata:
+    confidence: medium
+    topic: KP LD
+  source: EPC-LD-KP
+  target: MEI-GCS-8
+  type: flows_down
+- metadata: {}
+  source: AMDT-12.1-01
+  target: '12.1'
+  type: amends
+- metadata:
+    clause: Exh D
+  source: AMDT-12.1-01
+  target: 12.1-EXH-ExhD
+  type: affects
+- metadata:
+    clause: Exh C
+  source: AMDT-12.1-01
+  target: 12.1-EXH-ExhC
+  type: affects
+- metadata:
+    clause: Exh E
+  source: AMDT-12.1-01
+  target: 12.1-EXH-ExhE
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-4-3
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-4-3
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-4-3-
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-4-3-
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-4-2
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-4-2
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-6-1
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-6-1
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-8
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-8
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-3-
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-3-
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-6
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-6
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-1
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-1
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-4-1
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-4-1
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-3-2
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-3-2
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-4
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-4
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-3
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-3
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-6-1-
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-6-1-
+  type: affects
+- metadata: {}
+  source: '12.1'
+  target: MEI-GCS-1-1
+  type: has_clause
+- metadata:
+    amended: true
+  source: AMDT-12.1-01
+  target: MEI-GCS-1-1
+  type: affects
+- metadata:
+    severity: 🔴 Critical
+  source: All
+  target: RISK-EPC-主合同数据缺失
+  type: exposes_to
+- metadata:
+    severity: 🔴 Critical
+  source: All
+  target: RISK-Delay-LD-背靠背无法验证
+  type: exposes_to
+- metadata:
+    severity: 🔴 High
+  source: '12.1'
+  target: RISK-保留金释放不对称
+  type: exposes_to
+- metadata:
+    severity: 🟡 Medium
+  source: '12.1'
+  target: RISK-12.1-预付款分期风险
+  type: exposes_to
+- metadata:
+    severity: 🟡 Medium
+  source: '12.1'
+  target: RISK-12.1-性能-LD-存在
+  type: exposes_to
+- metadata:
+    severity: 🟡 Medium
+  source: '12.1'
+  target: RISK-管理系统-LD
+  type: exposes_to
+- metadata:
+    severity: 🟡 Medium
+  source: '12.1'
+  target: RISK-保函存续期差异
+  type: exposes_to
+- metadata:
+    severity: 🔴 Active
+  source: '10.1'
+  target: RISK-PM-缺位-Material-Breach
+  type: exposes_to
+- metadata:
+    severity: 🟢 Favorable
+  source: '12.1'
+  target: RISK-12.1-变更增额触发
+  type: exposes_to
+- metadata: {}
+  source: '10.1'
+  target: FRAMEWORK-CIVIL
+  type: uses_framework
+- metadata: {}
+  source: '12.1'
+  target: FRAMEWORK-MEI
+  type: uses_framework
+- metadata: {}
+  source: 合同
+  target: FRAMEWORK-UNKNOWN
+  type: uses_framework
+- metadata: {}
+  source: '------'
+  target: FRAMEWORK-UNKNOWN
+  type: uses_framework
+- metadata: {}
+  source: 保函条款位置
+  target: FRAMEWORK-UNKNOWN
+  type: uses_framework
+- metadata: {}
+  source: '---------'
+  target: FRAMEWORK-UNKNOWN
+  type: uses_framework
+- metadata: {}
+  source: EPC-ADNOC-RSGP
+  target: FRAMEWORK-UNKNOWN
+  type: uses_framework

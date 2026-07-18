@@ -1,0 +1,955 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Instrumentation(Green）
+"# Rows: 231, Cols: 27"
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+No.,TAG NO.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,,,,,,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,UNIT 30,"UNIT 40 
+SSB","UNIT 40 
+General",Day Vessel,Other to specify,Other to specify,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+IN-01,,,Control system,,,,,,,,,,,,,,,,,,,,,,,
+IN-01-01,,DCS," I/O quantity:  AI:396,  AI (IS):401,AIr:5, AIr (IS):421,AI（E）:24,AOr : 431,AOr (IS):36, DI(IS):2302, DI(E):112, DOR:506, DO:661 (20% spare included) 
+Hardware,software,configuration, logic programming, interface with existing control system, and  existing control system modification/upgrade, associated information management system  etc. to be included.",,Contractor,Point,2118,,,2118,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0001,,,Power Distribution Panel，800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0002,,DCS,DCS system cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0003,,DCS,DCS safety barrier 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0004,,DCS,DCS relay cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0005,,DCS,DCS Terminal cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0006,,,LAN & SCS Cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0007,,,Network Cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0008,,DCS,DCS operation station,,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0009,,DCS,DCS engineering station,,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-01-0010,,DCS,"DCS console furniture, 1000Wx1200(800)Dx750H",,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-02,,ESD," I/O quantity:  AIR:35, AIr (IS):46,AOR (IS):25,DIR:484,DI(E):265,DOR:109 (20% spare included) 
+Hardware, software, configuration, logic programming, interface with existing control system, and  existing control system modification/upgrade, associated information management system  etc. to be included.",,Contractor,Point,386,,,386,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-02-0001,,ESD,ESD Cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-02-0002,,ESD,"ESD engineering station, ",,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-02-0003,,ESD,"ESD console furniture, 1000Wx1200(800)Dx750H",,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-02-0004,,ESD,ESD auxilliary panel,,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-03,,FGS," IO quantity:  AIR:460,DIR:370,DOR:460 (20% spare included) 
+Hardware, software, configuration, logic programming, interface with existing control system, and  existing control system modification/upgrade, associated information management system  etc. to be included.",,Contractor,Point,620,,,620,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-03-0001,,FGS,FGS Cabinet 800Wx800Dx2100H(mm),,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-03-0002,,FGS,"FGS engineering station, ",,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-03-0003,,FGS,"FGS console furniture, 1000Wx1200(800)Dx750H",,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-03-0004,,FGS,FGS auxilliary panel,,,pcs,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-01-04,,TGS," IO quantity:  AIR:40 (20% spare included) 
+Hardware ,software,configuration, logic programming, associated information management system  etc. to be included.",,Contractor,Point,16,,,16,,,,,0,,0,,0,,0,,0,0,0,
+,,,,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02,,,Instrumentation,,,,,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-01,,,Analyzers House,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0001,,Gas Detector,"Detector (SO2) :
+- Operating Principle:  Be solid state/ electrochemical cell type with electrodes.
+- Measuring Range:  0-20 ppm
+- Calibrated Gas : MFR.STD - Wiring System: 3-wire
+- Accuracy : ±2% 
+- Repeatability: ±2% of LFL
+- LED Display : Tri-Colour LED (Normal, Fault,Alarm)
+- Output : 4-20 mA with HART Protocol, with SIL II certification;
+- House material:316SS
+- Operating Voltage : 24VDC - Ingress Protection : IP66
+- Response Time : T90 < 15 sec,  ExdIICT4, IEC Certificate,
+with alarm light. with Sunshade, 2"" stand pipe mounting.",,Contractor,ea,104,60,0,10,34,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0002,,Horn & Beacon,"Local sound and light alarm, ExdIIBT4, IP65, 24VDC, ≥110dB, IEC Certificate, 2"" standpipe mounting.",,Contractor,ea,19,10,0,5,4,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0003,,Gas Detector,"Infra Red Absorption Method:
+- Operating Principle:Infra Red Absorption Method
+- Measuring Range:  TBD
+- Calibrated Gas : MFR.STD - Wiring System: 3-wire
+- Accuracy : ±2% 
+- Repeatability: ±2% of LFL
+- LED Display : Tri-Colour LED (Normal, Fault,Alarm)
+- Output : 4-20 mA with HART Protocol
+- House material:316SS
+- Operating Voltage : 24VDC - Ingress Protection : IP66
+- Response Time : T90 < 15 sec,  ExdIICT4, IEC Certificate,
+with alarm light. with Sunshade, 2"" stand pipe mounting.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0004,,Gas Detector,"Detector (H2S) :
+- Operating Principle: Solid state/ electrochemical cell type with electrodes
+- Measuring Range:   0-50 ppm
+- Calibrated Gas : MFR.STD - Wiring System: 3-wire
+- Accuracy : ±2% 
+- Repeatability: ±2% of LFL
+- LED Display : Tri-Colour LED (Normal, Fault,Alarm)
+- Output : 4-20 mA with HART Protocol, with SIL II certification;
+- House material:316SS
+- Operating Voltage : 24VDC - Ingress Protection : IP66
+- Response Time : T90 < 15 sec,  ExdIICT4, IEC Certificate,
+with alarm light. with Sunshade, 2"" stand pipe mounting.",,Contractor,ea,16,10,0,0,6,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0005,,Analyzers,"pH Analyzer, PG 13.5 thread,  Shaft material: Glass, Range: 2~12 pH, Accuracy: No error using ISM sensor, Type: Remote, Power Supply: 24VDC/Loop-powered, Output Signal: 4-20mA+HART/Digitial Outputx2, IP66,  Ex ib [ia Ga] IIC T4 Gb, with Vendor special cable 3m, Mounted in aluminium die cast enclosure",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0006,,Analyzers,"CL Analyzer, PG 13.5 thread,  Shaft material: Glass, Range: TBD, Accuracy: No error using ISM sensor, Type: Remote, Power Supply: 24VDC/Loop-powered, Output Signal: 4-20mA+HART/Digitial Outputx2, IP66,  Ex ib [ia Ga] IIC T4 Gb, with Vendor special cable 3m, Mounted in aluminium die cast enclosure",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0007,,Analyzers,"COND , Accuracy: No error using ISM sensor, Type: Remote, Power Supply: 24VDC/Loop-powered, Output Signal: 4-20mA+HART/Digitial Outputx2, IP66,  Ex ib [ia Ga] IIC T4 Gb, with Vendor special cable 3m, Mounted in aluminium die cast enclosure",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02,,,Analyzers,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0001,,Analyzers," Moisture Monitors, wall mounting type, 5 streams, 1 sensor each stream with sample system, with indicating amplifier unit with front panel display, programming keyboard, and multi-channel capability, Exd, 4~20mA
+(122-AE-008A ,122-AE-008B,123-AE-001,123-AE-002,123-AE-006)",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0002,,Analyzers,"Moisture Monitors, wall mounting type, 1 streams, 1 sensor with sample system,  with indicating amplifier unit with front panel display, programming keyboard, and multi-channel capability, Exd, 4~20mA",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-02-0003,,Analyzers," Moisture Monitors, wall mounting type, 1 streams, 1 sensor with sample system,  with indicating amplifier unit with front panel display, programming keyboard, and multi-channel capability, Exd, 4~20mA",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03,,,Valves,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0001,,Control valve,"Globe（Single seat globe);  
+Flange：3"" ASME CL300 RF; 
+Body Material ：ASTM A351-CF8M;  
+Trim Material:SS316+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FO,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0002,,Control valve,"Globe（Single seat globe);  
+Flange：6"" ASME CL300 RF; 
+Body Material ：ASTM A351-CF8M;  
+Trim Material:SS316+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-002,,Control valve,"Control Valve // Body_Type:Plug; Size:3""; Rating:150# RF; Body_Material:A216 GR. WCB; Plug Material:API Trim #8; Actuator_Type:SPRING & DIAPHRAGM;Leakage:Class IV; Positioner:Digital Smart ; Signal:4-20mA+HART.",,Contractor,ea,1,,,0,1,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0003,,Control valve,"Globe（Single seat globe);  
+Flange：2"" ASME CL300 RF; 
+Body Material ：ASTM A351-CF8M;  
+Trim Material:SS316+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FO,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0004,,Control valve,"Globe（Single seat globe);  
+Flange：2"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FO,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0005,,Control valve,"Globe（Double seat globe);  
+Flange：12"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI VI(TSO);
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;
+PROXIMITY SWITCHES ,IP65,ELECTRIAL CONNECTION: ISO M20",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0006,,Control valve,"Globe（Double seat globe);  
+Flange：16"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI VI(TSO);
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;
+PROXIMITY SWITCHES - 1NOS.(TAG NO.: 1032-PZSO -0013),IP65,ELECTRIAL CONNECTION:ISO M20",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0007,,Control valve,"Globe（Double seat globe);  
+Flange：10"" ASME CL900 RF; 
+Body Material ：ASTM A217 WC6;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;
+PROXIMITY SWITCHES - 1NOS.IP65,ELECTRIAL CONNECTION: ISO M20",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0008,,Control valve,"Globe（Single seat globe);  
+Flange：3"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0009,,Control valve,"Globe（Single seat globe);  
+Flange：2"" ASME CL300 RF; 
+Body Material ：ASTM A351-CF8M;  
+Trim Material:SS316+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FO,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0010,,Control valve,"Globe（Single seat globe);  
+Flange：3"" ASME CL300 RF; 
+Body Material ：ASTM A351-CF8M;  
+Trim Material:SS316+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0011,,Control valve,"Rotary Eccentric Plug(Valve is Jacketed type);  
+Flange：6"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FO,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0012,,Control valve,"Rotary Eccentric Plug(Valve is Jacketed type);  
+Flange：10"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,Contractor,ea,3,,,0,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0013,,Control valve,"Globe（Double seat globe);  
+Flange：6"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ANSI IV;
+Actuator: Pneumatic, FC,
+with Smart Positioner, Exia,IP66,4-20mA+HART;
+Fire Safe:API607;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0014,,On-Off Vlave,"Ball; 
+Flange：1-1/2"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                             
+Trim Material ：13Cr+HF                                                                                                                                   
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:1.5s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0015,,On-Off Vlave,"Ball; 
+Flange：2"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                               
+Trim Material ：13Cr+HF                                                                                                                                 
+Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:2s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0016,,On-Off Vlave,"Ball; 
+Flange：3"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                               
+Trim Material ：13Cr+HF                                                                                                                                 
+Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0017,,On-Off Vlave,"Ball; 
+Flange：3"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                              
+Trim Material ：13Cr+HF                                                                                                                                   
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0018,,On-Off Vlave,"Ball; 
+Flange：3"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                              
+Trim Material ：13Cr+HF                                                                                                                                 
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0019,,On-Off Vlave,"Ball; 
+Flange：3"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;
+Trim Material ：13Cr+HF
+Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with one solenoid valve(24 VDC,3/2 WAY) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0020,,On-Off Vlave,"Ball; 
+Flange：3"" ASME CL300 RF;                    
+Body Material：ASTM A351-CF8M;                                                               
+Trim Material ：SS316+HF                                                                                                                                    
+Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0021,,On-Off Vlave,"STEAM JACKETED BALL; 
+Flange：10"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ISO5208 Rate A;
+Actuator: Pneumatic;FC, Maximum Closing Time:8s
+with two solenoid valve（Ex'd'，3/2 WAY，24VDC） and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0022,,On-Off Vlave,"Ball; 
+Flange：10"" ASME CL900 RF;                    
+Body Material：ASTM A217  WC6;
+Trim Material ：13Cr+HF
+Shutoff Class: ISO5208 Rate A;
+Actuator: Pneumatic;FC, Maximum Closing Time:10s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0023,,On-Off Vlave,"Ball; 
+Flange：14"" ASME CL300 RF;                    
+Body Material：ASTM A216 GR WCB;                                                               
+Trim Material ：13Cr+HF                                                                                                                                   
+Shutoff Class: ISO5208 Rate A;
+Actuator: Pneumatic;FC, Maximum Closing Time:14s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0024,,On-Off Vlave,"Ball; 
+Flange：16"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF;
+Shutoff Class: ISO5208 Rate A;
+Actuator: Pneumatic;FC, Maximum Closing Time: HOLD
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0025,,On-Off Vlave,"STEAM JACKETED PLUG VALVE ;  
+Flange：10"" ASME CL300 RF;                    
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;                                                                                                                                 Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:8s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0026,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：10"" ASME CL300 RF;                    
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;                                                                                                                                 Shutoff Class: ANSI V;
+Actuator: Pneumatic;FC, Maximum Closing Time:8s
+with one solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0027,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：10"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:8s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0028,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：16"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr PTFE LINED;
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:12s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II   certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0029,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：16"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:12s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0030,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：20"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:16s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0031,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：4"" ASME CL300 RF; 
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;
+Shutoff Class: ISO5208 Rate CC;
+Actuator: Pneumatic;FC, Maximum Closing Time:3s
+with two solenoid valve(Ex'd'，3/2 WAY，24VDC) and two limit switches and one partial stroke test  Positioner and one  pressure transmitter
+Explosion proof: IEC Ex ""ia""; IP65;
+with SIL II certification ;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0032-1,,On-Off Vlave,"On-Off Valve // Body_Type:STEAM JACKETED PLUG VALVE; Size:6""X4""; Rating:300# RF; Body_Material:A216 GR. WCB; Plug Material:API Trim #8; Actuator_Type:SPRING & DIAPHRAGM; Fire Protection:As per API 6FA / BS EN ISO 10497;PST device:required;Proximity Limit_Switches_Qty:2 NOS; Enclosure Protection:Required As per IEC 60529; Valve Tightness:API 598.",,Contractor,ea,5,,,,5,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0032-2,,"2020-XV-0117,0122,0111",On-Off Vlave,,Contractor,ea,3,,,0,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0032-3,,On-Off Vlave,"On-Off Valve // Body_Type:STEAM JACKETED PLUG VALVE; Size:6""X4""; Rating:300# RF; Body_Material:A216 GR. WCB; Plug Material:API Trim #8; Actuator_Type:SPRING & DIAPHRAGM; Fire Protection:As per API 6FA / BS EN ISO 10497;PST device:required;Proximity Limit_Switches_Qty:2 NOS; Enclosure Protection:Required As per IEC 60529; Valve Tightness:API 598.",,Contractor,ea,4,,,,4,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0032-4,,On-Off Vlave,"On-Off Valve // Body_Type:STEAM JACKETED PLUG VALVE; Size:6""X4""; Rating:300# RF; Body_Material:A216 GR. WCB; Plug Material:API Trim #8; Actuator_Type:SPRING & DIAPHRAGM; Fire Protection:As per API 6FA / BS EN ISO 10497;PST device:required;Proximity Limit_Switches_Qty:2 NOS; Enclosure Protection:Required As per IEC 60529; Valve Tightness:API 598.",,Contractor,ea,4,,,,4,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0033,,On-Off Vlave,"STEAM JACKETED PLUG VALVE;  
+Flange：6"" ASME CL300 RF;                    
+Body Material ：ASTM A216 GR WCB;  
+Trim Material:13Cr+HF PTFE LINED;                                                                                                                                 Shutoff Class: ANSI V;
+Actuator: Pneumatic;FO, Maximum Closing Time:4s
+with one solenoid valve(IECEx'd'，3/2 WAY，24VDC) and two limit switches
+Explosion proof: IEC Ex ""ia""; IP65;
+Fire Safe:API607 ;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-03-0034,,Sov,"
+Screw：G3/4"" ASME CL300 RF;                    
+Body Material ：ASTM A216 GR WCB;                                                                                                                                
+ Shutoff Class: ANSI V;
+Explosion proof: IEC Ex'd';
+IP65 as minimum
+
+
+",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+,,,,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-04,,,Desuperheater,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-04-0001,,Desuperheater,"Desuperheater Skid：Including control valves, manual valves, check valves, strainers and pipes, sunshade, etc. 
+Steam Side：IHP/HP Steam,Steam Side Inlet line size:10"" (DG1A1L-FH-H) , Steam Side Outlet line size:12"" (DG1A1L-FH-H), Water Side: 2"" (BC1A3B-FH-H).
+Steam side: CL900 RF, material: 1 1/4 Cr - 1/2 Mo P11;
+Water side: CL300 RF, material: CS
+The Actuator of control valve shall be Pneumatic,FC, and shall be supplied with Smart Positioner,IECEx iaIIC T4,IP66,4-20mA+HART;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-04-0002,,Desuperheater,"Desuperheater Skid：Including control valves, manual valves, check valves, strainers and pipes, sunshade, etc. 
+Steam Side：MP Steam,Steam Side Inlet line size:10"" (BC1A1B-FH-H) , Steam Side Outlet line size:14"" (AC1A1B-FH-H), Water Side: 1"" (BC1A3B-FH-H).
+Steam side: CL300 RF, material: CS;
+Water side: CL300 RF, material: CS
+The Actuator of control valve shall be Pneumatic,FC, and shall be supplied with Smart Positioner,IECEx iaIIC T4,IP66,4-20mA+HART;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05,,,Flow Instrument,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0001,,Flow Instrument,"Steam Jacketed Coriolis;
+Fluid name: SULPLUR;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:16""x12"" ASME B16.5 300CL RF; 
+Remote Transmitter with 2'' bracket pipe installation; 
+with LCDer and Sunshade
+4-20mA+HART output;
+IEC Ex ia IIC T4, IP65        ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0002,,Flow Instrument,"Steam Jacketed Coriolis;
+Fluid name: SULPLUR;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:10""x8""ASME B16.5 150CL RF; 
+Remote Transmitter with 2'' bracket pipe installation; 
+with LCDer and Sunshade
+4-20mA+HART output;
+IEC Ex ia IIC T4, IP65                                      ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0003,,Flow Instrument,"Steam Jacketed Coriolis;
+Fluid name: SULPLUR;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:16""x12""ASME B16.5 150CL RF; 
+Remote Transmitter with 2'' bracket pipe installation; 
+with LCDer and Sunshade
+4-20mA+HART output;
+IEC Ex ia IIB T3, IP65                                      ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0004,,Flow Instrument,"Steam Jacketed Coriolis;
+Fluid name: SULPLUR;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:10""x8""ASME B16.5 150CL RF; 
+Remote Transmitter with 2'' bracket pipe installation; 
+with LCDer and Sunshade
+4-20mA+HART output;
+IEC Ex ia IIC T4, IP65                                      ",,Contractor,ea,3,,,,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0004,,Flow Instrument,"Metal Tube Rotameter;
+Fluid name: POTABLE WATER;
+Measuring Element Material: 316SS;
+Body Material: 316SS;
+Flange:2""ASME B16.5 HOLD CL RF; 
+IP65                                                              ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0005,,Flow Instrument,"Metal Tube Rotameter;
+Fluid name: NITROGEN;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:1/2''ASME B16.5 CL150 RF
+IP65
+Rotameter is used for purge and inlet pressure gauge, filter, and inlet regulator, inlet ball valve, outlet pressure gauge need to be provided as a set and installed centrally on the 316LSS bracket.                                                              ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0006,,Flow Instrument,"Metal Tube Rotameter;
+Fluid name: NITROGEN;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:1/2''ASME B16.5 CL150 RF
+IP65
+Rotameter is used for purge and inlet pressure gauge, filter, and inlet regulator, inlet ball valve, outlet pressure gauge need to be provided as a set and installed centrally on the 316LSS bracket.                                                          ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0007,,Flow Instrument,"Metal Tube Rotameter;
+Fluid name: NITROGEN;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:1/2''ASME B16.5 CL150 RF
+IP65
+Rotameter is used for purge and inlet pressure gauge, filter, and inlet regulator, inlet ball valve, outlet pressure gauge need to be provided as a set and installed centrally on the 316LSS bracket.                                                        ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0008,,Flow Instrument,"Metal Tube Rotameter;
+Fluid name: NITROGEN;
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:1''ASME B16.5 CL150 RF
+IP65
+Rotameter is used for purge and inlet pressure gauge, filter, and inlet regulator, inlet ball valve, outlet pressure gauge need to be provided as a set and installed centrally on the 316LSS bracket. ",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0009,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: PROCESS WATER;
+Orifice Plate Material: ASTM A182 GR F316/316L;
+Orifice Flanges Material: ASTM A182 GR F316/316L;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: GRAPHITE, SS316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B7, ASTM A194 GR. 2H
+Flange:6"" ASME B16.5 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0010,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: NITROGEN;
+Orifice Plate Material: ASTM A105N;
+Orifice Flanges Material: ASTM A105N;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: GRAPHITE, SS316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B7, ASTM A194 GR. 2H
+Flange:3"" ASME B16.5 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0011,,Flow Instrument,"Standard Orifice Plate;
+Fluid name:HIGH PRESSURE STEAM;
+Orifice Plate Material: ASTM A182 GR. F11 CL2;
+Orifice Flanges Material: ASTM A182 GR. F11 CL2;
+Gasket Material: SP. WINDING + INNER RING: SS 347, FILLER: MICA &GRAPHITE, SS 316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B16 ASTM A194 GR. 7
+Flange:10"" ASME B16.5 900CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0012,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: LP STEAM CONDENSATE;
+Orifice Plate Material: ASTM A105N;
+Orifice Flanges Material: ASTM A105N;
+Gasket Material:SP. WINDING + INNER RING: SS316, FILLER: 
+GRAPHITE, CS OUTER RING
+Bolts Material:STUD: ASTM A193 GR. B16, ASTM A194 GR. 7
+Flange:3"" ASME B16.5 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0013,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: MEDIUM PRESSURE STEAM;
+Orifice Plate Material: ASTM A105N;
+Orifice Flanges Material: 3ASTM A105N;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: 
+GRAPHITE, CS OUTER RING
+Bolts Material: STUD: ASTM A193 GR. 
+B16, ASTM A194 GR. 7
+Flange:14"" ASME B5.36 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0014,,Flow Instrument,"Integral orifice meters; 
+Fluid name:LOW PRESSURE STEAM CONDENSATE;
+Orifice Plate Material: 316SS;
+Orifice Flanges Material: 316SS;
+Flange:1-1/2"" ASME B16.36 300CL RF;
+Orifice Flanges shall be socket welded to the upstream and 
+downstream piping sections, which shall be supplied with the meter.                                                  ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0015,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: LP CONDENSATE;
+Orifice Plate Material: ASTM A105N;
+Orifice Flanges Material: ASTM A105N;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: 
+GRAPHITE, CS OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B16, ASTM A194 GR. 7
+Flange:3"" ASME B16.5 300CL RF;                                                        ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0016,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: WASH DWON WATER;
+Orifice Plate Material: ASTM A182 GR F316/316L;
+Orifice Flanges Material: ASTM A182 GR F316/316L;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: GRAPHITE, SS316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B7, ASTM A194 GR. 2H
+Flange:3"" ASME B16.5 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0017,,Flow Instrument,"Standard Orifice Plate;
+Fluid name: UTILITY WATER;
+Orifice Plate Material: ASTM A182 GR F316/316L;
+Orifice Flanges Material: ASTM A182 GR F316/316L;
+Gasket Material: SP. WINDING + INNER RING: SS316, FILLER: GRAPHITE, SS316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B7, ASTM A194 GR. 2H
+Flange:3"" ASME B16.5 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0018,FITs,Flow Instrument,"Differential Pressure Transmitter integrated LCD display
+with 2'' bracket pipe installation and Sunshade
+4-20mA+HART output;
+Element Material: 316LSS;
+Housing Material: 316LSS;
+Process Connection: 1/2'' NPT;
+Manifold Connection Size: ½'' NPT;
+Electrical Connection: 2 x ISO M20
+with 5-valve manifold
+IEC Ex ia IIB T3, IP65;",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0019,,Flow Instrument,"Restriction Orifice;
+Fluid name: IHP/HP STEAM;
+Orifice Material: ASTM A182 GR. F11 CL2;
+Flange Size :2"" 900CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0020,FOs,Flow Instrument,"Restriction Orifice;
+Fluid name: LP STEAM;
+Orifice Material: 316SS;
+Flange Size :3"" 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0021,,Flow Instrument,"Restriction Orifice;
+Fluid name: LP STEAM;
+Orifice Material: 316SS;
+Flange Size :2"" 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0022,,Flow Instrument,"Steam Jacketed Restriction Orifice;
+Fluid name: SULPHUR;
+Orifice Material: 316SS;
+Flange Size :6""x4"" 300CL RF;                                                     ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0003,,Restriction orifice,"Orifice type:restriction orifice;Material:316 St. St. as minimum;Size: 3"";Rating:300#;Facing:RF;
+ ",,Contractor,ea,6,,,,6,,,,0,,0,,0,,0,,0,0,0,
+IN-02-05-0004,,Restriction orifice,"Orifice type:restriction orifice;Material:316 St. St. as minimum;Size: 2"";Rating:300#;Facing:RF;
+ ",,Contractor,ea,2,,,,2,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06,,,Level Instrument,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0001,,Level Instrument,"Magnetic level gauge, 
+Scale:0~1500mm(HOLD);
+Flange: 2"" ASME CL300 RF;
+For float, flanges and chamber:316SS;IP65; ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0002,LITs,Level Instrument,"Level Transmitter-Bubbler Type,
+Pressure Transmitter, IEC Ex iaIICT4, IP65, 4-20mA.DC+HART, with LCD and remote Local  indicator; Range:HOLD
+Accuray:±0.2% of span;（for 0°C ~87°C service condition）;
+with 2'' bracket pipe installation and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0003,,Level Instrument,"Level Transmitter-Radar Type,
+IECEx iaIIC T4, 4-20mA.DC+HART, 316SS,IP65;  DN100 300LB RF
+Accuray:±0.1% of span;  Range:HOLD
+Electrical connection: 2 x ISO M20; Power supply:24VDC loop powered
+with integrated LCD display and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0004,,Level Instrument,"Level Transmitter-Radar Type,
+IECEx iaIIC T4, 4-20mA.DC+HART, 316SS, IP65; DN100 300LB
+Accuray:±0.1% of span; Range:HOLD
+with SIL III certification;
+Electrical connection: 2 x ISO M20; Power supply:24VDC loop powered
+with LCD and remote Local  indicator; with Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0005,,Level Instrument,"Level Transmitter ,
+(LEVEL TRANSMITTER - DP)PRESSURE TRANSMITTER,
+with Local LCD indicator（for 0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.2% of span;
+Electrical connection: 2 x ISO M20; Power supply:24VDC loop powered
+with 316SS integral  5-way manifold, 
+IECEx iaIIC T4, IP65
+with 2'' bracket pipe installation and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0001,,Level Instrument,"Level Transmitter-Bubbler Type,
+Pressure Transmitter, IEC Ex iaIICT4, IP65, 4-20mA.DC+HART, with LCD and remote Local  indicator; Range:HOLD
+Accuray:±0.2% of span;（for 0°C ~87°C service condition）;
+with 2'' bracket pipe installation and Sunshade",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0002,,Level Instrument,"Transmitter:Radar Level Transmitter;Horn Antenna,6""-300#,Electrical connection:M20x1.5;Power supply:24VDC loop powered;Output signal:4-20mA/HART7;Enclosure Protection:IP 65 as per IEC 60529;Integral  Indicator:Yes;Accuracy:0.1% of span.",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0003,,Level Instrument,"Transmitter:Radar Level Transmitter;Horn Antenna,6""-300#,Electrical connection:M20x1.5;Power supply:24VDC loop powered;Output signal:4-20mA/HART7;Enclosure Protection:IP 65 as per IEC 60529;Integral  Indicator:Yes;Accuracy:0.1% of span. With HOT DIPPED GALVANISED sunshade.",,Contractor,ea,3,,,,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0004,,Level Instrument,"Transmitter:Radar Level Transmitter;Horn Antenna,6""-300#,Electrical connection:M20x1.5;Power supply:24VDC loop powered;Output signal:4-20mA/HART7;Enclosure Protection:IP 65 as per IEC 60529;Integral  Indicator:Yes;Accuracy:0.1% of span. With HOT DIPPED GALVANISED sunshade.",,Contractor,ea,3,,,,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0005,,Level Instrument,"Transmitter:Radar Level Transmitter;Horn Antenna,6""-300#,Electrical connection:M20x1.5;Power supply:24VDC loop powered;Output signal:4-20mA/HART7;Enclosure Protection:IP 65 as per IEC 60529;Integral  Indicator:Yes;Accuracy:0.1% of span. With HOT DIPPED GALVANISED sunshade.",,Contractor,ea,3,,,,3,,,,0,,0,,0,,0,,0,0,0,
+IN-02-06-0006,,Level Instrument,"Local indicator:Ex_Certification:FM/UL; 
+   Ex_Class:Class 1, Div 2, GR B,C,D T3; 
+   Enclosure Protection:NEMA4X",,Contractor,ea,10,,,,10,,,,0,,0,,0,,0,,0,0,0,
+IN-02-07,,,Pressure Instrument,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0001
+",PITs,Pressure Instrument,"PRESSURE TRANSMITTER, 
+with Local LCD indicator（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of span; Range:HOLD
+with 316SS integral 2-valve integral manifold.
+IECEx iaIIC T4, IP65
+Electrical connection: 2 x ISO M20; Power supply:24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+with 2'' bracket pipe installation and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0002
+",,Pressure Instrument,"PRESSURE TRANSMITTER with diaphragm seal
+with Local LCD indicator（for   -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of span; Range:HOLD
+IECEx iaIIC T4, IP65, 2” Flanged Connection,
+with capillary,Capillary Length 5m，
+Power supply:24VDC loop powered
+Electrical connection: 2 x ISO M20;
+with 2'' bracket pipe installation and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0003
+",,Pressure Instrument,"Differential Pressure Transmitter integrated LCD display (for  -0°C ~87  service condition), 
+IECEx iaIIC T4, IP65, 4-20mA.DC+HART, 316SS, 2” Flanged Connection,
+with capillary,Capillary Length 5m×2，Power supply:24VDC loop powered;
+Electrical connection: 2 x ISO M20;
+with 2'' bracket pipe installation and Sunshade",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0004
+","PGs
+",Pressure Instrument,"Pressure Gauge, Dial 100mm, 316SS Case, IP65, With 2 valve manifold and Gauge Adapter， Accuracy: ± 1.0% of full scale，Range:hold,  NPT Connection with  Solid front & blow out protection",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0005
+",,Pressure Instrument,"Pressure Gauge with Dial 100mm, 316SS Case, IP65, With 2 valve manifold and Gauge Adapter， Accuracy: ± 1.0% of full scale，Range:hold, NPT Connection with  Solid front & blow out protection,
+with pipe siphon",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0006
+","PGs
+",Pressure Instrument,"Pressure Gaugewith Diaphragm seal , Dial 100mm, 316SS Case, IP65, With 2 valve manifold and Gauge Adapter，Accuracy: ± 1.0% of full scale，Range:hold, 2” Flanged Connection, with  Solid front & blow out protection",,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0007
+",,Pressure Instrument,"Pressure Gauge, Dial 100mm, 316SS Case, IP65,  With 2 valve manifold and Gauge Adapter， Accuracy: ± 1.0% of full scale，Range:hold, 2” Flanged Connection",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0001
+",,Pressure Instrument,"Transmitter:Diaphragm seal type,316SS,3-300#,Electronic smart;Electrical connection:2 X ISO M20;Power supply:24VDC loop powered;Output signal:4-20mA/HART;Enclosure Protection:As per IEC 60529;Integral  Indicator:Yes;Housing Material:Aluminum alloy with polyurethane paint. With HOT DIPPED GALVANISED sunshade.",,Contractor,ea,5,,,,5,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0002
+",,Pressure Instrument,"Differential Pressure Transmitter integrated LCD display (for  -0°C ~87  service condition), 
+IECEx iaIIC T4, IP65, 4-20mA.DC+HART, 316SS, 2” Flanged Connection,
+with capillary,Capillary Length 5m×2，Power supply:24VDC loop powered;
+Electrical connection: 2 x ISO M20;
+with 2'' bracket pipe installation and Sunshade",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+"IN-02-07-0003
+","PGs
+",Pressure Instrument,"Gauge type:Diaphragm seal type;3""-300#,Inc. 825 or Hastelloy 276,Capillary Length 5m,Over Range Protection:1.3, Accuracy: ± 0.5% .",,Contractor,ea,13,,,,13,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08,,,Temperature Instrument,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0001,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:1½” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 150mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0002,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:1½” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 200mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0003,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:1½” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 350mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0004,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:1½” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 400mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0005,,Temperature Instrument,"Temperature Gauge, Thermowell material:SS316 as minimum;Pipe or Equip Connection:1½” 300# RF;Insertion U Length:200mm.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0006,,Temperature Instrument,"Temperature Gauge, Thermowell material:SS316 as minimum;Pipe or Equip Connection:1½” 900# RF;Insertion U Length:200mm.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-09,PCVs,Pressure Regulator,"Pressure regulator, process connection:1/4"" FNPT, body materials: MFR standard, rating: 17.2 bar, output set pressure: 1.4 bar, with S.S. 4"" outlet gauge (range: 0~4 barg)",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0001,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:3” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 3400mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,Contractor,ea,9,,,,9,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0002,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:3” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 1600mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,Contractor,ea,2,,,,2,,,,0,,0,,0,,0,,0,0,0,
+IN-02-08-0003,TE/TITs,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Process Connection:3” 300# RF; 
+Element connection:1/2"" NPT(F); 
+Construction Type:Drilled, Solid Barstock;Insertion 
+Insert Length: 500mm;
+With Temperature Transmitter integrated with LCD（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of full range;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X ISO M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.
+With Sunshade.",,Contractor,ea,1,,,,1,,,,0,,0,,0,,0,,0,0,0,
+IN-03,,,Instrument Material,,,,,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01,,,Cable,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0001,DCS-IS,Cable,"1x2x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. 
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,Contractor,lm,2000,,,,2000,,,,0,,0,,0,,0,,0,0,0,DCS
+IN-03-01-0002,DCS-NIS,Cable,"1x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Black.",,Contractor,lm,600,400,0,0,200,,,,0,,0,,0,,0,,0,0,0,DCS
+IN-03-01-0003,DCS-IS,Cable,"10x2x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,1000,,,,,,,,0,,0,,0,,0,,0,0,0,NEW ITEM
+IN-03-01-0003-1,,Cable,"10x2x1.0 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.  Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,Contractor,lm,22680,2280,0,20400,0,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0004,DCS,Cable,"20x2x1.0 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue for IS cables and Black for NIS cables.",,Contractor,lm,7720,1520,0,4400,1800,,,,0,,0,,0,,0,,0,0,0,DCS
+IN-03-01-0005,DCS-NIS,Cable,"10x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Black.",,Contractor,lm,12600,700,3200,7200,1500,,,,0,,0,,0,,0,,0,0,0,DCS
+IN-03-01-0006,ESD-IS,Cable,"1x2x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0006-1,,Cable,"1x3x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Red.",,Contractor,lm,6800,3000,0,2800,1000,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0007,ESD-IS,Cable,"1x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0008,ESD-NIS,Cable,"1x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Black.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0009,ESD-IS,Cable,"10x2x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0009-1,,Cable,"10x3x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Red.",,Contractor,lm,5900,3800,0,0,2100,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0010,ESD-IS,Cable,"20x2x1.0 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.  Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0011,ESD-NIS,Cable,"10x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Black.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,SIS
+IN-03-01-0012,FGS-NIS,Cable,"1x3x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Red.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,FGS
+IN-03-01-0013,FGS-NIS,Cable,"10x3x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Red.",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,FGS
+IN-03-01-0014,,Cable,INSTRUMENT CABLES & ACCESSORIES    1x6 sq.mm grounding cable,,Contractor,lm,210,0,0,60,150,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0015,,Cable,INSTRUMENT CABLES & ACCESSORIES    1x25 sq.mm grounding cable,,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0016,,Cable,INSTRUMENT CABLES & ACCESSORIES    1x70 sq.mm grounding cable,,Contractor,lm,50,0,0,0,50,,,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0017,,FO Cable,24 core single-mode fiber cable,,Contractor,lm,5200,,5200,,0,0,2000,,0,,0,,0,,0,,0,0,0,
+IN-03-01-0018,,,"Earthing Bar, Copper",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02,,,Cable Tray,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0001,,Cable Tray,"Cable Ladder with ventilation type Cover, L=6m, 600×150, Galvanized LTCS, GRP (Glass reinforced polyester).",,Contractor,lm,300,300,0,0,0,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0002,,Cable Tray,"Cable Ladder with ventilation type Cover, L=6m, 300×150, Galvanized LTCS, GRP (Glass reinforced polyester).",,Contractor,lm,1830,300,600,690,240,,,,0,,0,,0,,0,,0,0,0,
+,,Cable Tray,"Cable Tray with ventilation type Cover, L=6m, 200×100, Galvanized LTCS, GRP (Glass reinforced polyester).",,Contractor,lm,96,,,,,,,,0,,0,,0,,0,,0,0,0,NEW ITEM
+,,Cable Tray,"Cable Tray with ventilation type Cover, L=3m, 100×50, Galvanized LTCS, GRP (Glass reinforced polyester).",,Contractor,lm,200,,,,,,,,0,,0,,0,,0,,0,0,0,NEW ITEM
+IN-03-02-0003,,Cable Ladder External,"Cable Ladder External Riser, 300(W)X150(H) 300mm (R), GRP ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0004,,Cable Ladder External,"Cable Ladder External Riser, 600(W)X150(H) 300mm (R), GRP",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0005,,Cable Ladder Internal,"Cable Ladder Internal Riser, 300(W)X150(H) 300mm (R), GRP ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0006,,Cable Ladder Internal,"Cable Ladder Internal Riser, 600(W)X150(H) 300mm (R), GRP ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0007,,Cable Ladder Elbow,"Cable Ladder Elbow 90°, 300(W)X150(H) 300mm (R), GRP ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-02-0008,,Cable Ladder Elbow,"Cable Ladder Elbow 90°, 600(W)X150(H) 300mm (R), GRP ",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03,,,JUNCTION BOX AND GLAND,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0001,,JUNCTION BOX AND GLAND,"Instrument Junction Box (IS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 37 Terminals, SS316L;
+with one M40 x1.5(F) and 10 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs, Marine Grade Brass.",,Contractor,ea,7,2,0,0,5,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0002,,JUNCTION BOX AND GLAND,"Instrument Junction Box (IS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 73 Terminals, SS316L;
+with one M50 x1.5(F) and 20 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs, Marine Grade Brass.",,Contractor,ea,7,,,,7,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0003,SOV,JUNCTION BOX AND GLAND,"Instrument Junction Box (NIS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 37 Terminals, SS316L;
+with one M40 x1.5(F) and 10 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs, Marine Grade Brass.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0004,POWER,JUNCTION BOX AND GLAND,"Instrument Junction Box (NIS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 49 Terminals, SS316L;
+with one M40 x1.5(F) and 10 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs, Marine Grade Brass.",,Contractor,ea,17,10,0,0,7,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0005,FGS,JUNCTION BOX AND GLAND,"Instrument Junction Box (NIS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 73 Terminals, SS316L;
+with one M40 x1.5(F) and 10 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs, Marine Grade Brass.",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-03-0006,, GLAND,"Ex d/Ex e,IP66,Cable Gland  For Steel Wire Armor Cable,M20x1.5(m), Brass Nickel-plated, w/PVC Shroud",,Contractor,ea,260,100,0,0,160,,,,0,,0,,0,,0,,0,0,0,
+IN-03-04,,,Pipe & Tube,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-04-0001, ,Pipe & Tube,"12mm OD x1.5mm WT, ASTM A269 Gr.TP316SS",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-04-0002, ,Pipe & Tube,"6mm OD x1.5mm WT, ASTM A269 Gr.TP316SS",,,lm,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-04-0003,,Other,"PIPE 2"", ASTM A53 Gr.B Sch80 (SUPPORT FOR Instrument)",,Subcontractor,kg,2311.32,1122,0,67.32,1122,,,,0,,0,,0,,0,,0,0,0,
+IN-03-04-0004,,Pipe & Tube,"PVC, 150mm OD",,Contractor,lm,324,150,120,24,30,,,,0,,0,,0,,0,,0,0,0,
+,,Pipe & Tube,"PIPE 6"", PVC, Sch80",,Contractor,lm,150,,,,,,,,0,,0,,0,,0,,0,0,0,NEW ITEM
+IN-03-05,,,Other,,,,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0001,,Other,"STEEL CHANNEL (SUPPORT FOR JUNCTION BOX and CABINETS), 100 x 50 x 7.5t, HOT DIPPED GALVANISED",,Subcontractor,kg,12285,1260,4200,2625,4200,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0002,,Other,"STEEL ANGLE (SUPPORT FOR HOOK-UP TUBE), 50 x 50 x 5t, HOT DIPPED GALVANISED",,Subcontractor,kg,1344,840,252,0,252,,,,0,,0,,0,,0,,0,0,0,
+,,Other,"10MM THK. MOUNTING PLATE, HOT DIPPED GALVANISED",,Subcontractor,kg,300,,,,,,,,0,,0,,0,,0,,0,0,0,NEW ITEM
+IN-03-05-0003,,Other,"6-way Air Manifold, with 1pc DN25 Inlet and 6pcs outlet, with 1/2"" NPT isolation valves and drain valve, 316SS",,Contractor,ea,4,,,,4,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0004,,Other,"10-way Air Manifold, with 1pc 1"" Inlet and 10pcs outlet, with 1/2"" NPT isolation valves and drain valve, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0005,,Other,"SUN SHADE,  HOT DIPPED GALVANISED, 500mm x 400mm",,Contractor,ea,50,,,,50,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0006,,Other,"MALE CONNECTOR - DOUBLE COMPRESSION FITTING
+1/2"" NPT x 6mm OD, 316SS",,Contractor,ea,,,,,,,,,0,,0,,0,,0,,0,0,0,CONNECTOR shall be deemed included in the Pipe & Tube work
+IN-03-05-0007,,Other,"MALE CONNECTOR - DOUBLE COMPRESSION FITTING
+1/2"" NPT x 12mm OD, 316SS",,Contractor,ea,,,,,,,,,0,,0,,0,,0,,0,0,0,CONNECTOR shall be deemed included in the Pipe & Tube work
+IN-03-05-0008,,Other,"MALE CONNECTOR - DOUBLE COMPRESSION FITTING
+1/4"" NPT x 6mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0009,,Other,"FLANGE CONNECTOR
+2'' FLANGED X 1/2” NPT(F), 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0010,,Other,"PLUG - DOUBLE COMPRESSION FITTING
+1/2"" NPT, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0011,,Other,"CAP - DOUBLE COMPRESSION FITTING
+12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0012,,Other,"CAP - DOUBLE COMPRESSION FITTING 
+6mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0013,,Other,"FLANGE CONNECTOR
+1/2'' NPT HOLE IN 2'' BLIND FLANGED X 12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0014,,Other,"UNION - DOUBLE COMPRESSION FITTING 
+12mm OD , 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0015,,Other,"FLANGE CONNECTOR
+3/4” FLANGED X 1/2” NPT(F), 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0016,,Other,"UNION EQUAL TEE - DOUBLE COMPRESSION FITTING
+12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0017,,Other,"MALE C0NNECTOR NPT X TUBE
+1/2"" NPT(M) X 12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0018,,Other,"CONDENSATE POT WITH VENT VALVE, BODY 3‘’ - 1/2"" PORTS, 316H SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0019,,Other,"FLANGE ADAPTER - DOUBLE COMPRESSION FITTING
+3/4"" NPT x 12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0020,,Other,"BALL VALVE - DOUBLE COMPRESSION TYPE - 1/2"" NPT (F), 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0021,,Other,"BALL VALVE( IAS)  1/2"" NPT (F), 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0022,,Other,"UNION - TUBE
+12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0023,,Other,"CAP
+12mm OD, 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+IN-03-05-0024,,Other,"3"" NIPPLE
+1/2” NPT(M), 316SS",,,ea,0,,,,,,,,0,,0,,0,,0,,0,0,0,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,Instrumentation(Green）TOTAL,,,,,,,,,,,,0,,0,,0,,0,,0,,0,
+NOTES:,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,,,,,,,
+1.1,,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,,,,,,,
+1.2,,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,,,,,,,
+1.3,,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,,,,,,,
+2,,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,,,,,,,
+3,,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,,,,,,,

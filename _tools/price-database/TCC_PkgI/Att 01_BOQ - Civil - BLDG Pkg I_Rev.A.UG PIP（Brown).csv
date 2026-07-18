@@ -1,0 +1,38 @@
+# Source: Att 01_BOQ - Civil - BLDG Pkg I_Rev.A.xlsx
+# Sheet: UG PIP（Brown)
+"# Rows: 26, Cols: 21"
+
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,UG PIP（Brown),,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Sulfur Granulator Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,CODE:24108-25100-
+SUBCONTRACT:CIVIL AND BLDG WORKS PACKAGE I,,,,,,,,,,,,,,,,,,,,
+Item,Category,Description,size,MATERIAL,Unit,"Qty.
+",WBS,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST TOTAL
+F",,Remarks
+,,,,,,,UNIT 50,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,Q,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+NO.1,,Sleeve,,,,,,,,,,,,,,,,,,
+1.1,Sleeve,"8"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent","8"" ",CS,M,,,,0,,0,,0,,0,,0,,0,
+1.2,Sleeve,"10"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent","10""",CS,M,,,,0,,0,,0,,0,,0,,0,
+1.3,Sleeve,"12"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent","12""",CS,M,,,,0,,0,,0,,0,,0,,0,
+1.4,Sleeve,"14"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent including casing pipe, end seal, cathode protection, casing spacer","14""",CS,M,,7,15.9155990957046,0,551.873398643557,0,628.631833603552,0,66.9683503258123,0,76.9720588235294,0,1324.44564139645,0,
+1.5,Sleeve,"16"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent including casing pipe, end seal, cathode protection, casing spacer","16""",CS,M,,1,19.0404420999749,0,660.22732981663,0,767.048182089673,0,77.7236642433914,0,91.4110294117647,0,1596.41020556146,0,
+1.6,Sleeve,"20"" carbon steel, material of pipe shall confirm to API 5L-B or equivalent","20""",CS,M,,,,0,,0,,0,,0,,0,,0,
+NO.2,,Civil Part,,,,,,,,,,,,,,,,,,
+2.1,VALVE PIT,"2100x2100x2000 concrete valve pit, see AGES-STD-01-011",,,EA,,18,136,0,4715.8,0,14725,0,233.874823529412,0,3349.41176470588,0,23024.0865882353,0,
+2.2,concrete sump,3400x3400x3000 concrete sump,,,EA,,5,264,0,9154.2,0,27925,0,494.407529411765,0,7471.76470588235,0,45045.3722352941,0,
+2.3,concrete sump,3000x1500x3000 concrete sump,,,EA,,18,168,0,5825.4,0,18025,0,299.008,0,4380,0,28529.408,0,
+2.4,Excavation,Excavation by mechanical equipment (in any type of GROUND and any depth) & trimming & compaction of cut area to 95% proctor density or as per project requirements,,,M3,,7628.4,1.04,0,36.062,0,0,0,1.23116647058824,0,32.9251470588235,0,70.2183135294117,0,
+2.5,Excavation,Excavation by hand (in any type of GROUND and any depth) & trimming & compaction of cut area to 95% proctor density or as per project requirements ,,,M3,,3814.2,10.6,0,367.555,0,0,0,7.86102647058824,0,19.2698529411765,0,394.685879411765,0,
+2.7,Clean sand filling,Clean sand filling using washed clean sand including compaction of each layer,,,M3,,270,2.4,0,83.22,0,68.75,0,2.20116470588235,0,5.20661764705882,0,159.377782352941,0,
+2.8,Backfilling,Backfilling using selected materials from excavated soil including compaction of each layer. to 95% proctor density or as per project requirements and specifications.,,,M3,,6786,2.4,0,83.22,0,0,0,2.20116470588235,0,21.6316176470588,0,107.052782352941,0,
+2.9,Disposal,"DISPOSAL OF SOIL 
+(OUTSIDE OF CICPA) ",,,M3,,4386.6,0.096,0,3.3288,0,0,0,10.9628995294118,0,20.6654411764706,0,34.9571407058824,0,
+,,SUBTOTAL-UG PIPING WORKS (Brown),,,,,,,0,,0,,0,,0,,0,,0,

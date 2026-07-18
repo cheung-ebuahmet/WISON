@@ -1,0 +1,243 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-3 Rev. D.xlsx
+# Sheet: Package-003
+"# Rows: 190, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-1,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026",
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK,
+,,,,,,,"UNIT 40 
+SSB",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,,
+,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,
+PK-0003,4043-SR-0001AB,Portal Stacker Reclaimer,,,Packages,2,2,,,,,,,,,,,,,,,Refer to Vendor Document as attached,
+,4043-SR-0001A,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,1,"Portal, components",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Part 1,Contractor,ea,1,1,136,136,,0,,0,,0,,0,,0,0,0,,
+,,,Part 2,Contractor,ea,1,1,53,53,,0,,0,,0,,0,,0,0,0,,
+,,,Fixed side,Contractor,ea,1,1,20,20,,0,,0,,0,,0,,0,0,0,,
+,,,Pendulum side,Contractor,ea,1,1,15,15,,0,,0,,0,,0,,0,0,0,,
+,,,Fixed side beam,Contractor,ea,1,1,34,34,,0,,0,,0,,0,,0,0,0,,
+,,,Smaller parts,Contractor,ea,1,1,80.266,80.266,,0,,0,,0,,0,,0,0,0,,
+,,,Portal Secondary Structure,Contractor,ea,1,1,79.434,79.434,,0,,0,,0,,0,,0,0,0,,
+,,,Scraper Boom Hoists Rope System,Contractor,ea,1,1,49.97,49.97,,0,,0,,0,,0,,0,0,0,,
+,,,Anti-grab Device,Contractor,ea,1,1,0.112,0.112,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,2,"Main Boom (north/south), weights only for one boom",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Drive unit,Contractor,ea,1,1,10.58,10.58,,0,,0,,0,,0,,0,0,0,,
+,,,"Chain
+t=215,9 x 91758",Contractor,ea,2,2,8.891,17.782,,0,,0,,0,,0,,0,0,0,,
+,,,Take-up Device Arrangement,Contractor,ea,1,1,1.6565,1.6565,,0,,0,,0,,0,,0,0,0,,
+,,,Drive shaft Arrangement,Contractor,ea,1,1,9.195,9.195,,0,,0,,0,,0,,0,0,0,,
+,,,Bearing Portal side,Contractor,ea,1,1,1.982,1.982,,0,,0,,0,,0,,0,0,0,,
+,,,Steel structure ,Contractor,ea,1,1,45.129,45.129,,0,,0,,0,,0,,0,0,0,,
+,,,"Blade 2600 x 650
+",Contractor,ea,85,85,0.2423,20.5955,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,3,"Auxiliary Boom (north/south), weights only for one boom",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Drive unit,Contractor,ea,2,2,2.072,4.144,,0,,0,,0,,0,,0,0,0,,
+,,,"Chain
+t=202,8 x 38532",Contractor,ea,2,2,2.984,5.968,,0,,0,,0,,0,,0,0,0,,
+,,,Tension Station,Contractor,ea,1,1,0.8619,0.8619,,0,,0,,0,,0,,0,0,0,,
+,,,Drive shaft Arrangement,Contractor,ea,1,1,2.385,2.385,,0,,0,,0,,0,,0,0,0,,
+,,,Steel structure ,Contractor,ea,1,1,18.4,18.4,,0,,0,,0,,0,,0,0,0,,
+,,,"Blade 1800 x 430
+",Contractor,ea,38,38,0.122,4.636,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,4,Trafo room ,Contractor,ea,1,1,9.5,9.5,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,5,E-House,Contractor,ea,1,1,55,55,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,6,Tripper Car Conveyor - Head Part 1,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Head Part 2,Contractor,ea,1,1,1,1,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 1,Contractor,ea,1,1,4.5,4.5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 2,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 2,Contractor,ea,1,1,6.7,6.7,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 3,Contractor,ea,1,1,4,4,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 3,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 4,Contractor,ea,1,1,4,4,,0,,0,,0,,0,,0,0,0,,
+,,,Chute arrangement and smaller parts,Contractor,ea,1,1,36.139,36.139,,0,,0,,0,,0,,0,0,0,,
+,,,"Discharge pulley BW2200, D=1024",Contractor,ea,1,1,3.679,3.679,,0,,0,,0,,0,,0,0,0,,
+,,,"Bend pulley BW2200, D=824",Contractor,ea,2,2,2.777,5.554,,0,,0,,0,,0,,0,0,0,,
+,,,Rollers D=159x800,Contractor,ea,2,2,0.0268,0.0536,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,32,32,0.06898,2.20736,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,11,11,0.07198,0.79178,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,3,3,0.06498,0.19494,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.07113,0.14226,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.06113,0.12226,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.108,0.216,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159x800x25",Contractor,ea,1,1,0.0875,0.0875,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159/173x800x25",Contractor,ea,2,2,0.08826,0.17652,,0,,0,,0,,0,,0,0,0,,
+,,,"Training Idler station 
+2200/2/0° 159x1250x25",Contractor,ea,1,1,0.11614,0.11614,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159/173x800x25",Contractor,ea,1,1,0.08488,0.08488,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/15° 159x800x25",Contractor,ea,1,1,0.0613,0.0613,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/27° 159x800x25",Contractor,ea,1,1,0.066,0.066,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/37° 159x800x25",Contractor,ea,1,1,0.0692,0.0692,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,1,1,0.0715,0.0715,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,1,1,0.1916,0.1916,,0,,0,,0,,0,,0,0,0,,
+,,,"Hold down pulley BW2200, D=1200",Contractor,ea,1,1,1.0597,1.0597,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,7,"Travel units (in different bogie compilations, with buffers and drive units)",Contractor,ea,1,1,68,68,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,8,E-chain,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,9,Instruments as per instrument list,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,10,Instrument cables as per instrument and cable list,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,11,electrical,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,cable,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,cable tray,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,4043-SR-0001B,SR,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,1,"Portal, components",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Part 1,Contractor,ea,1,1,136,136,,0,,0,,0,,0,,0,0,0,,
+,,,Part 2,Contractor,ea,1,1,53,53,,0,,0,,0,,0,,0,0,0,,
+,,,Fixed side,Contractor,ea,1,1,20,20,,0,,0,,0,,0,,0,0,0,,
+,,,Pendulum side,Contractor,ea,1,1,15,15,,0,,0,,0,,0,,0,0,0,,
+,,,Fixed side beam,Contractor,ea,1,1,34,34,,0,,0,,0,,0,,0,0,0,,
+,,,Smaller parts,Contractor,ea,1,1,80.266,80.266,,0,,0,,0,,0,,0,0,0,,
+,,,Portal Secondary Structure,Contractor,ea,1,1,79.434,79.434,,0,,0,,0,,0,,0,0,0,,
+,,,Scraper Boom Hoists Rope System,Contractor,ea,1,1,49.97,49.97,,0,,0,,0,,0,,0,0,0,,
+,,,Anti-grab Device,Contractor,ea,1,1,0.112,0.112,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,2,"Main Boom (north/south), weights only for one boom",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Drive unit,Contractor,ea,1,1,10.58,10.58,,0,,0,,0,,0,,0,0,0,,
+,,,"Chain
+t=215,9 x 91758",Contractor,ea,2,2,8.891,17.782,,0,,0,,0,,0,,0,0,0,,
+,,,Take-up Device Arrangement,Contractor,ea,1,1,1.6565,1.6565,,0,,0,,0,,0,,0,0,0,,
+,,,Drive shaft Arrangement,Contractor,ea,1,1,9.195,9.195,,0,,0,,0,,0,,0,0,0,,
+,,,Bearing Portal side,Contractor,ea,1,1,1.982,1.982,,0,,0,,0,,0,,0,0,0,,
+,,,Steel structure ,Contractor,ea,1,1,45.129,45.129,,0,,0,,0,,0,,0,0,0,,
+,,,"Blade 2600 x 650
+",Contractor,ea,85,85,0.2423,20.5955,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,3,"Auxiliary Boom (north/south), weights only for one boom",,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,Drive unit,Contractor,ea,2,2,2.072,4.144,,0,,0,,0,,0,,0,0,0,,
+,,,"Chain
+t=202,8 x 38532",Contractor,ea,2,2,2.984,5.968,,0,,0,,0,,0,,0,0,0,,
+,,,Tension Station,Contractor,ea,1,1,0.8619,0.8619,,0,,0,,0,,0,,0,0,0,,
+,,,Drive shaft Arrangement,Contractor,ea,1,1,2.385,2.385,,0,,0,,0,,0,,0,0,0,,
+,,,Steel structure ,Contractor,ea,1,1,18.4,18.4,,0,,0,,0,,0,,0,0,0,,
+,,,"Blade 1800 x 430
+",Contractor,ea,38,38,0.122,4.636,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,4,Trafo room ,Contractor,ea,1,1,9.5,9.5,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,5,E-House,Contractor,ea,1,1,55,55,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,6,Tripper Car Conveyor - Head Part 1,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Head Part 2,Contractor,ea,1,1,1,1,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 1,Contractor,ea,1,1,4.5,4.5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 2,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 2,Contractor,ea,1,1,6.7,6.7,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Portal 3,Contractor,ea,1,1,4,4,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 3,Contractor,ea,1,1,5,5,,0,,0,,0,,0,,0,0,0,,
+,,,Tripper Car Conveyor - Part 4,Contractor,ea,1,1,4,4,,0,,0,,0,,0,,0,0,0,,
+,,,Chute arrangement and smaller parts,Contractor,ea,1,1,36.139,36.139,,0,,0,,0,,0,,0,0,0,,
+,,,"Discharge pulley BW2200, D=1024",Contractor,ea,1,1,3.679,3.679,,0,,0,,0,,0,,0,0,0,,
+,,,"Bend pulley BW2200, D=824",Contractor,ea,2,2,2.777,5.554,,0,,0,,0,,0,,0,0,0,,
+,,,Rollers D=159x800,Contractor,ea,2,2,0.0268,0.0536,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,32,32,0.06898,2.20736,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,11,11,0.07198,0.79178,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,3,3,0.06498,0.19494,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.07113,0.14226,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.06113,0.12226,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,2,2,0.108,0.216,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159x800x25",Contractor,ea,1,1,0.0875,0.0875,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159/173x800x25",Contractor,ea,2,2,0.08826,0.17652,,0,,0,,0,,0,,0,0,0,,
+,,,"Training Idler station 
+2200/2/0° 159x1250x25",Contractor,ea,1,1,0.11614,0.11614,,0,,0,,0,,0,,0,0,0,,
+,,,"Return Idler station 
+2200/2/0° 159/173x800x25",Contractor,ea,1,1,0.08488,0.08488,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/15° 159x800x25",Contractor,ea,1,1,0.0613,0.0613,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/27° 159x800x25",Contractor,ea,1,1,0.066,0.066,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/37° 159x800x25",Contractor,ea,1,1,0.0692,0.0692,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,1,1,0.0715,0.0715,,0,,0,,0,,0,,0,0,0,,
+,,,"Idler station 
+2200/3/45° 159x800x25",Contractor,ea,1,1,0.1916,0.1916,,0,,0,,0,,0,,0,0,0,,
+,,,"Hold down pulley BW2200, D=1200",Contractor,ea,1,1,1.0597,1.0597,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,7,"Travel units (in different bogie compilations, with buffers and drive units)",Contractor,ea,1,1,68,68,,0,,0,,0,,0,,0,0,0,,
+,,,,,,,,,,,0,,0,,0,,0,,0,0,0,,
+,,8,E-chain,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,9,Instruments as per instrument list,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,10,Instrument cables as per instrument and cable list,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,,,,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,11,electrical,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,cable,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,cable tray,Contractor,Lot,1,1,,,,0,,0,,0,,0,,0,0,0,,
+,,,Package Equipment 003 TOTAL,,,,,,,,0,,0,,0,,0,,0,,0,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,177 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+# Sheet: Rotary Equipment（Green）
+"# Rows: 44, Cols: 26"
+
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-2,,,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,,,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,UNIT 30,"UNIT 40 
+SSB","Day 
+Vessel",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+RE-01,,,Chemical Injection Package,,,,,,,,,,,,,,,,,,,,,,
+RE-01-0001,1027-ME-0001,Sodium Hypochlorite Injection Package,"This package include one tank with agitator, two diaphragm pumps and piping, vavles, fittings, mounting plates with anchor bolts with the skid.  
+Pump capacity:4L/h, 
+discharge pressure:0.027MPag
+Tank capacity:1.5m3
+Matrrial:GRP",GRP,Contractor,ea,0,,,,2,2,,0,,0,,0,,0,,0,0,0,
+RE-01-0002,1047-ME-0002,Caustic Injection Package,"This package include one tank with agitator, three diaphragm pumps and piping, vavles, fittings, mounting plates with anchor bolts with the skid.  
+Pump capacity:100L/h, 
+discharge pressure:0.02MPag
+Tank capacity:1.0m3
+Matrrial:316L",316L,Contractor,ea,0,,,,2,2,,0,,0,,0,,0,,0,0,0,
+RE-02,,,Pump,,,,,,,,,,,,,,,,,,,,,,
+RE-02-0001,1023-P-0002A/S,PROCESS WATER PUMPS,"Centrifugal Pump (OH1 type)
+Rated Capacity(m3/h): 84
+Rated Suction Pressure:0Bar(G)
+Rated Discharge Pressure:7.2Bar(G)
+Diff. Head(m): 63.8
+Motor Power (kW): 30
+Material: 316L
+Anchor bolt material:CS
+Baseplate material:CS",316L,Contractor,ea,0,,,,1,2,,0,,0,,0,,0,,0,0,0,
+RE-02-0002,1027-P-0001A/B/S,POTABLE WATER PUMPS,"Centrifugal Pump (OH1 type)
+Rated Capacity(m3/h): 28
+Rated Suction Pressure:0.1Bar(G)
+Rated Discharge Pressure:8.4Bar(G)
+Diff. Head(m): 76.1
+Motor Power (kW): 15
+Material: 316L
+Anchor bolt material:CS
+Baseplate material:CS",316L,Contractor,ea,0,,,,1,3,,0,,0,,0,,0,,0,0,0,
+RE-02-0003,1032-P-0001A/S,CONDENSATE RECOVERY PUMPS,"Centrifugal Pump (OH2 type)
+Rated Capacity(m3/h): 15
+Rated Suction Pressure:0.468Bar(G)
+Rated Discharge Pressure:7.2Bar(G)
+Diff. Head(m): 71.5
+Motor Power (kW): 11
+Material: CS
+Anchor bolt material:CS
+Baseplate material:CS",CS,Contractor,ea,0,,,,1,2,,0,,0,,0,,0,,0,0,0,
+RE-02-0004,1046-P-0001A/S,SANITARY SEWER LIFTING PUMPS,"Centrifugal Pump (Sumbersible type)
+Rated Capacity(m3/h): 8.6
+Diff. Head(m): 35.3
+Motor Power (kW): 5.5
+Material: CS",CS,Contractor,ea,0,,,,0.5,1,,0,,0,,0,,0,,0,0,0,
+RE-02-0005,1047-P-0001A/S,CIRCULATION AND TRANSFER PUMPS,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h): 33
+Rated Suction Pressure:0.031Bar(G)
+Rated Discharge Pressure:2.09Bar(G)
+Diff. Head(m): 18.2
+Motor Power (kW): 7.5
+Material: 316L",316L,Contractor,ea,0,,,,2,4,,0,,0,,0,,0,,0,0,0,
+RE-02-0006,1047-P-0002A/S,WASH DOWN RECYCLE PUMPS,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h): 33
+Rated Suction Pressure:0.031Bar(G)
+Rated Discharge Pressure:2.09Bar(G)
+Diff. Head(m): 87.4
+Motor Power (kW): 22
+Material: 316L",316L,Contractor,ea,0,,,,2,4,,0,,0,,0,,0,,0,0,0,
+RE-02-0007,2020-P-0001A/B/C/S,LIQUID SULPHUR TRANSFER PUMP,"Centrifugal Pump (OH2 type)
+Rated Capacity(m3/h): 152
+Rated Suction Pressure:1.068Bar(G)
+Rated Discharge Pressure:9.633Bar(G)
+Diff. Head(m): 48
+Motor Power (kW): 90
+Material: 316L
+Anchor bolt material:CS
+Baseplate material:CS",316L,Contractor,ea,0,,,,3.2,12.8,,0,,0,,0,,0,,0,0,0,
+RE-02-0008,2020-P-0003A/B/C/S,GRANULATOR FEED PUMPS,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h):33.78
+Rated Suction Pressure:0.123Bar(G)
+Rated Discharge Pressure:24.7Bar(G)
+Diff. Head(m): 141
+Motor Power (kW): 90
+Material: 316L",316L,Contractor,ea,4,,,4,2,8,,0,,0,,0,,0,,0,0,0,
+RE-02-0009,2020-P-0004A/B/C/S,GRANULATOR FEED PUMPS,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h):33.78
+Rated Suction Pressure:0.123Bar(G)
+Rated Discharge Pressure:24.7Bar(G)
+Diff. Head(m): 141
+Motor Power (kW): 90
+Material: 316L",316L,Contractor,ea,4,,,4,2,8,,0,,0,,0,,0,,0,0,0,
+RE-02-0010,2020-P-0005A/B/C/D/S,GRANULATOR FEED PUMPS,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h):33.78
+Rated Suction Pressure:0.123Bar(G)
+Rated Discharge Pressure:24.7Bar(G)
+Diff. Head(m): 141
+Motor Power (kW): 90
+Material: 316L",316L,Contractor,ea,5,,,5,2,10,,0,,0,,0,,0,,0,0,0,
+RE-02-0011,2000-P-0002,SULPHUR DRAIN PIT PUMP,"Centrifugal Pump (VS4 type)
+Rated Capacity(m3/h):26
+Rated Suction Pressure:0.048Bar(G)
+Rated Discharge Pressure:4.8Bar(G)
+Diff. Head(m): 27.3
+Motor Power (kW): 15
+Material: 316L",316L,Contractor,ea,0,,,,1,1,,0,,0,,0,,0,,0,0,0,
+RE-03,,,Lifts/Hoists/Elevators/Bridge Crane,,,,,,,,,,,,,,,,,,,,,,
+RE-03-0001,1027-HO-0001,"Hoist For Potable Water
+PumpS","Type: Manual Hoist
+Capacity (t): 1",CS,Contractor,SET,0,,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0002,1047-HO-0001,"Hoist For Circulation And
+Transfer Pumps","Type: Electric Driven
+Capacity (t): 2
+Lifting Height:5m,travel diatance:5m
+Motor Power(kW): 5
+Electric Area Classification: Safe",CS,Contractor,SET,0,,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0003,1047-HO-0002,"Hoist For Wash Down Recycle
+Pumps","Type: Electric Driven
+Capacity (t): 2
+Lifting Height:5m;travel diatance:5m
+Motor Power(kW): 5
+Electric Area Classification: Safe",CS,Contractor,SET,0,,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0004,3033-HO-0001,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0005,3033-HO-0002,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0006,3033-HO-0003,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0007,3033-HO-0004,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0008,3033-HO-0005,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0009,3033-HO-0006,ELECTRICAL HOIST,"Type: Electric Driven
+Capacity (t): 1
+Lifting Height:8m;travel diatance:5m
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,0.5,0.5,,0,,0,,0,,0,,0,0,0,
+RE-03-0010,3033-L-0001,Davit,"Type: Electric Driven
+Capacity (t): 3t
+Lifting Height:9.6m;
+Motor Power(kW): 3
+Electric Area Classification: Zone 21",CS,Contractor,SET,1,1,,,2,2,,0,,0,,0,,0,,0,0,0,
+RE-04,,,Other,,,,,,,,,,,,,,,,,,,,,,
+RE-04-0001,,Lube Oil,ISO VG32 or VG46,,Contractor,L,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,Rotary Equipment（Green）TOTAL,,,,,,,,,,,0,,0,,0,,0,,0,,0,
+NOTES:,,,,,,,,,,,,,,,,,,,,,,,,,
+1,,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,,,,,,
+1.1,,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,,,,,,
+1.2,,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,,,,,,
+1.3,,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,,,,,,
+2,,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,,,,,,
+3,,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,,,,,,

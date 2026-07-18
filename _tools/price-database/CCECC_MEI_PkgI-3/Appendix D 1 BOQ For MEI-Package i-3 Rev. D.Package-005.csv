@@ -1,0 +1,312 @@
+# Source: Appendix D 1 BOQ For MEI-Package i-3 Rev. D.xlsx
+# Sheet: Package-005
+"# Rows: 84, Cols: 24"
+
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package I-1,,,,,,,,,,,,,,,,,,,,,,,"REV. D, DATE: 05/Mar/2026"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 40 
+General",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+PK-0005-Green,4015-CV-0001A,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+L=214960mm
+Power:75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,160,160,,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 3 (TBC) skids with size L13000*W6360*H2200 and weight 4t each"
+PK-0005-Green,4015-CV-0001B,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+L=218460mm
+Power:75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,160,160,,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 3 (TBC) skids with size L13000*W6360*H2200 and weight 4t each"
+PK-0005-Green,4015-CV-0002A,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+Total Length=132630mm
+Power:75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,140,140,,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 7 (TBC) skids with size L13000*W6880*H2200 and weight 4t each"
+PK-0005-Green,4015-CV-0002B,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+Total Length=135010mm
+Power:75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,140,140,,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 7 (TBC) skids with size L13000*W6880*H2200 and weight 4t each"
+PK-0005-Green,4015-CV-0003A,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=476500mm
+Power:450kw","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,760,760,,0,,0,,0,,0,,0,0,0,"Bridege structure and belt conveyor structure shall be skid mounted, total 4 (TBC) skids with size L13000*W6800*H2800 and weight 5t each"
+PK-0005-Green,4015-CV-0003B,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=477004mm
+Power:450kw","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,760,760,,0,,0,,0,,0,,0,0,0,"Bridege structure and belt conveyor structure shall be skid mounted, total 4 (TBC) skids with size L13000*W6800*H2800 and weight 5t each"
+PK-0005-Green,4015-CV-0004A,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=333500mm
+Length (Green)= 132000mm
+Power:450kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within green area: 87t
+(total wight of CV-0004A: 220t)
+","weight within green area: 87t
+(total wight of CV-0004A: 220t)
+",,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 7 (TBC) skids with size L13000*W7400*H2800 and weight 5t each"
+PK-0005-Green,4015-CV-0004B,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=332150mm
+Length (Green)= 132000mm
+Power:450kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within green area: 87t
+(total wight of CV-0004B: 220t)
+","weight within green area: 87t
+(total wight of CV-0004B: 220t)
+",,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 7(TBC) skids with size L13000*W7400*H2800 and weight 5t each"
+PK-0005-Green,4015-CV-0006,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+Total Length=328400mm
+Length (Green)=69000mm
+Power:75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within green area: 34t
+(total wight of CV-0006: 160t)","weight within green area: 34t
+(total wight of CV-0006: 160t)",,,,,,,,,,,,,"Bridege structure and belt conveyor structure shall be skid mounted, total 4(TBC) skids with size L13000*W3980*H2200 and weight 4t each"
+PK-0005-Green,4015-SC-0001A,Electric Belt Scale,"Adaptation bandwidth:1000mm
+Capacity: 600t/h
+Weighing precision:+/- 0.25% 
+Belt speed:V=2.5m/s
+Roll angle:45°
+Power:0.5 kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.2,0.2,,,,,,,,,,,,,
+PK-0005-Green,4015-SC-0001B,Eletronic Belt Scale,"Adaptation bandwidth:1000mm
+Capacity: 600t/h
+Weighing precision:+/- 0.25% 
+Belt speed:V=2.5m/s
+Roll angle:45°
+Power:0.5 kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.2,0.2,,,,,,,,,,,,,
+PK-0005-Green,4015-SC-0002A,Eletronic Belt Scale,"Adaptation bandwidth: 1000mm
+Capacity: 600t/h
+Weighing precision: +/- 0.25% 
+Belt speed: V=2.5m/s
+Roll angle: 45°
+Power: 0.5 kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.2,0.2,,,,,,,,,,,,,
+PK-0005-Green,4015-SC-0002B,Eletronic Belt Scale,"Adaptation bandwidth: 1000mm
+Capacity: 600t/h
+Weighing precision: +/- 0.25% 
+Belt speed: V=2.5m/s
+Roll angle: 45°
+Power: 0.5 kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.2,0.2,,,,,,,,,,,,,
+PK-0005-Green,4015-SC-0003A,Eletronic Belt Scale,"Adaptation bandwidth: 2200mm
+Weighing range: 4000t/h
+Weighing precision: +/- 0.25%  
+Belt speed: V=2.54 m/s
+Roll angle: 45°
+Power: 3kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.3,0.3,,0,,0,,0,,0,,0,0,0,
+PK-0005-Green,4015-SC-0003B,Eletronic Belt Scale,"Adaptation bandwidth: 2200mm
+Weighing range: 4000t/h
+Weighing precision: +/- 0.25%  
+Belt speed: V=2.54 m/s
+Roll angle: 45°
+Power: 3kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.3,0.3,,0,,0,,0,,0,,0,0,0,
+PK-0005-Green,4015-MS-0001A,Magnetic Separator,"Applicable conveying bandwidth: 1000mm
+Rated hanging height:TBD
+Magnetic field strength:TBD
+Excitation power:TBD
+Drive motor power:30 kw 
+Blower power:TBD
+Length:3000mm",MOC: CS,Contractor,EA,1,1,11.5,11.5,,,,,,,,,,,,,
+PK-0005-Green,4015-MS-0001B,Magnetic Separator,"Applicable conveying bandwidth: 1000mm
+Rated hanging heigh: TBD
+Magnetic field strength: TBD
+Excitation power: TBD
+Drive motor power: 30 kw 
+Blower power:TBD
+Length: 3000mm",MOC: CS,Contractor,EA,1,1,11.5,11.5,,,,,,,,,,,,,
+PK-0005-Green,4015-MS-0002A,Magnetic Separator,"Applicable conveying bandwidth: 2200mm
+Rated hanging height:TBD
+Magnetic field strength: TBD
+Excitation power: TBD
+Drive motor power: 30 kw 
+Blower power: TBD
+Length: 3700mm
+",MOC: CS,Contractor,EA,1,1,7,7,,0,,0,,0,,0,,0,0,0,
+PK-0005-Green,4015-MS-0002B,Magnetic Separator,"Applicable conveying bandwidth: 2200mm
+Rated hanging height:TBD
+Magnetic field strength: TBD
+Excitation power: TBD
+Drive motor power: 30 kw 
+Blower power: TBD
+Length: 3700mm
+",MOC: CS,Contractor,EA,1,1,7,7,,0,,0,,0,,0,,0,0,0,
+PK-0005-Green,4015-DV-0001A,Diverter Gate,"Capacity:600t/h
+Inlet size:TBD
+Outlet size:TBD
+Power:3kw (continuous)","Gate material:316 L
+Bypass material:316 L
+Reinforcements Type/Material:L100/S275JR ",Contractor,EA,1,1,0.6,0.6,,,,,,,,,,,,,
+PK-0005-Green,4015-DV-0001B,Diverter Gate,"Capacity: 600t/h
+Inlet size: TBD
+Outlet size: TBD
+Power:3kw (continuous)","Gate material:316 L
+Bypass material:316 L
+Reinforcements Type/Material:L100/S275JR ",Contractor,EA,1,1,0.6,0.6,,,,,,,,,,,,,
+PK-0005-Green,4015-TT-0011,Transfer Tower,"W= 9500 mm
+L= 9500 mm
+H= 10342mm
+Qty. of floor & roof: 2","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,42,42,,,,,,,,,,,,,
+PK-0005-Green,4015-TT-0012,Transfer Tower,"W=  15500mm
+L= 16000mm
+H= 21752mm
+Qty. of floor & roof: 4","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,346,346,,,,,,,,,,,,,
+PK-0005-Green,4015-TT-0014,Transfer Tower,"W=15000 mm
+L=15000  mm
+H= 13000mm
+Qty. of floor & roof: 2","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,126,126,,0,,0,,0,,0,,0,0,0,
+PK-0005-Brown,4015-CV-0004A,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=333000mm
+Length (Brown)=201500mm
+Power：450kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within brown area: 133t
+(total wight of CV-0004A: 220t)","weight within brown area: 133t
+(total wight of CV-0004A: 220t)",,,,,,,,,,,,,
+PK-0005-Brown,4015-CV-0004B,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=332150mm
+Length (Brown)=200150mm
+Power：450kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within brown area: 133t
+(total wight of CV-0004B: 220t)","weight within brown area: 133t
+(total wight of CV-0004B: 220t)",,,,,,,,,,,,,
+PK-0005-Brown,4015-CV-0005A,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h 
+Total Length=296300mm
+Power：450KW","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,350,350,,,,,,,,,,,,,
+PK-0005-Brown,4015-CV-0005B,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h  
+Total Length=294000mm
+Power：450KW","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,350,350,,,,,,,,,,,,,
+PK-0005-Brown,4015-CV-0006,Belt Conveyor,"DTⅡBelt Conveyor
+B=1000mm  V=2.54m/s  Q=600t/h 
+Total Length=328400mm
+Length (Brown)=259400mm
+Power：75kw ","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,"weight within brown area: 126t
+(total wight of CV-0006: 160t)","weight within brown area: 126t
+(total wight of CV-0006: 160t)",,,,,,,,,,,,,
+PK-0005-Brown,6010-CV-2100,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h
+Total Length= TBD
+(60000mm shlal be for modification within RSGP scope)
+Power：","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,70,70,,,,,,,,,,,,,
+PK-0005-Brown,6010-CV-2200,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h
+Total Length= TBD
+(60000mm shlal be for modification within RSGP scope)
+Power：","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,70,70,,,,,,,,,,,,,
+PK-0005-Brown,6015-CV-1300,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h
+Total Length= TBD
+(Additional idlers to be added to existing belt conveyor under the discharge point)
+Power：","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,1,1,,,,,,,,,,,,,
+PK-0005-Brown,6015-CV-1400,Belt Conveyor,"DTⅡBelt Conveyor
+B=2200mm  V=2.54m/s  Q=4000t/h
+Total Length= TBD
+(Additional idlers to be added to existing belt conveyor under the discharge point)
+Power：","structure: Q355
+wetted parts: SS316L",Contractor,EA,1,1,1,1,,,,,,,,,,,,,
+PK-0005-Brown,4015-SC-0004A,Eletronic Belt Scale,"Adaptation bandwidth：2200mm
+Weighing range：4000t/h
+Weighing precision：+/- 0.25%  
+Belt speed：V=2.54 m/s
+Roll angle:45°
+Power:3kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.3,0.3,,0,,0,,0,,0,,0,0,0,
+PK-0005-Brown,4015-SC-0004B,Eletronic Belt Scale,"Adaptation bandwidth：2200mm
+Weighing range：4000t/h
+Weighing precision：+/- 0.25%  
+Belt speed：V=2.54 m/s
+Roll angle:45°
+Power:3kw ",construction material:Tubular carbon steel,Contractor,EA,1,1,0.3,0.3,,0,,0,,0,,0,,0,0,0,
+PK-0005-Brown,4015-DV-0002A,Diverter Gate,"Capacity: 4000t/h
+Inlet size: TBD
+Outlet size: TBD
+Power： 3Kw (continuous)","Gate material: 316 L
+Bypass material:316 L
+Reinforcements Type/Material:L100/S275JR ",Contractor,EA,1,1,0.6,0.6,,,,,,,,,,,,,
+PK-0005-Brown,4015-DV-0002B,Diverter Gate,"Capacity: 4000t/h
+Inlet size: TBD
+Outlet size: TBD
+Power： 3Kw (continuous)","Gate material: 316 L
+Bypass material:316 L
+Reinforcements Type/Material:L100/S275JR ",Contractor,EA,1,1,0.6,0.6,,,,,,,,,,,,,
+PK-0005-Brown,4015-DV-0003,Diverter Gate,"Capacity: 600t/h
+Inlet size: TBD
+Outlet size: TBD
+Power: 3Kw (continuous)","Gate material: 316 L
+Bypass material:316 L
+Reinforcements Type/Material:L100/S275JR ",Contractor,EA,1,1,0.6,0.6,,,,,,,,,,,,,
+PK-0005-Brown,4015-TT-0013,Transfer Tower,"W= 10000mm
+L=  13500mm
+H= 15427mm
+Qty. of floor & roof: 3","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,132,132,,,,,,,,,,,,,
+PK-0005-Brown,4015-TT-0015,Transfer Tower,"W= 14700mm
+L=  19700mm
+H= 14462mm
+Qty. of floor & roof: 2","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,185,185,,,,,,,,,,,,,
+PK-0005-Brown,4015-TT-0016,Transfer Tower,"W=17700mm
+L= 22600 mm
+H=18900 mm
+Qty. of floor & roof: 3","structure: CS
+Roofing: trapezoidal sheet metal",Contractor,EA,1,1,469,469,,,,,,,,,,,,,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",,Contractor,Lot,1,,,,,0,,0,,0,,0,,0,0,0,Refer to Vendor Document as attached
+,,,Package Equipment 005 TOTAL,,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
