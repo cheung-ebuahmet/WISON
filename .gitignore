@@ -37,3 +37,4 @@
 *.pyc
 __pycache__/
 ~$*
+_tools/pipeline-guidebook/raw_boqs/
