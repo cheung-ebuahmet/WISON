@@ -1,0 +1,40 @@
+correspondence:
+  id: "SLT-5312-WSN-CCC-0006"
+  type: notice
+  direction: outgoing
+  date: "2026-07-01"                # Approximate — needs verification
+  ref_number: "SLT-5312-WSN-CCC-0006"
+  subject: "NOTICE OF DEFAULT — MEI Pkg I"
+  summary: >
+    Wison 致 CCECC: MEI Pkg I 违约通知 (NOTICE DEF = Notice of Default)。
+    高严重性 — DEF 通知通常为终止前最后警示。具体违约事项待 OCR 提取确认。
+  language: "EN"
+
+  related:
+    contract: "12.1"
+    clauses:
+      - clause_ref: "SCS Clause 17"
+        topic: "LD"
+      - clause_ref: "SCS Clause 19"
+        topic: "Payment"
+    entities:
+      companies: ["WSN", "CCECC"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: true
+    deadline: null
+    status: open                       # DEF notice — active issue
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/SLT-5312-WSN-CCC-0006_NOTICE DEF MEI Pkg I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  completeness:
+    metadata: 70
+    reviewed: 30                      # Needs urgent full review
+    clause_mapped: 20
+    actioned: 0

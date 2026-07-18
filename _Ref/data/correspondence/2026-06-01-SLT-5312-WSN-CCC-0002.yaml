@@ -1,0 +1,35 @@
+correspondence:
+  id: "SLT-5312-WSN-CCC-0002"
+  type: letter
+  direction: outgoing
+  date: "2026-06-01"                # Approximate
+  ref_number: "SLT-5312-WSN-CCC-0002"
+  subject: "PFI AG Piping Supports — MEI Pkg I"
+  summary: >
+    Wison 致 CCECC (CCC 前缀): 关于 PFI (Piping Fabrication & Installation) Aboveground Piping Supports — MEI Pkg I 的通知。
+  language: "EN"
+
+  related:
+    contract: "12.1"
+    clauses: []
+    entities:
+      companies: ["WSN", "CCECC"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: true
+    deadline: null
+    status: pending
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/SLT-5312-WSN-CCC-0002_PFI AG Piping Supports MEI Pkg I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 0

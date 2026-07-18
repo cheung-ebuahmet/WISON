@@ -1,0 +1,41 @@
+correspondence:
+  id: "SLT-5312-CCE-WSN-0047"
+  type: letter
+  direction: incoming
+  date: "2026-07-17"
+  ref_number: "SLT-5312-CCE-WSN-0047"
+  subject: "REPLY: Response to Notice of Material Breach — PM Absence (SLT-5312-WSN-CCE-0020)"
+  summary: >
+    CCECC 对 Wison CCE-0020 催告函的正式回复。回应项目经理缺位指控及 KP LD 计收通知。
+    具体回复内容待 OCR 提取 — 当前仅有扫描件 (RICOH IM C4500, scanned 2026-07-17)。
+  language: "CN/EN"
+
+  related:
+    contract: "10.1"
+    clauses: []
+    entities:
+      companies: ["CCECC", "WSN"]
+      people: ["Zhiming Chen"]
+      packages: ["Civil Pkg II"]
+
+  action:
+    required: false
+    deadline: null
+    status: received
+    escalated_to: null
+
+  trigger_event: "Response to Wison Notice CCE-0020 (PM Absence — Material Breach)."
+
+  evidence:
+    source_file: "Subcon_Payments/10.1 CCECC - Civil Pkg II/Corres/SLT-5312-CCE-WSN-0047_Reply-Notice-PM-Absence_ocred.pdf.pdf"
+    ocr_file: null                   # Scanned PDF — OCR not yet readable; needs re-OCR or manual extraction
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-WSN-CCE-0020"
+
+  completeness:
+    metadata: 80
+    reviewed: 30                    # Pending OCR extraction
+    clause_mapped: 0
+    actioned: 100                   # Received from CCECC

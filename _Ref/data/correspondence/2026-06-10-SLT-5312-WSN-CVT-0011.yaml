@@ -1,0 +1,35 @@
+correspondence:
+  id: "SLT-5312-WSN-CVT-0011"
+  type: notice
+  direction: outgoing
+  date: "2026-06-10"                # Approximate
+  ref_number: "SLT-5312-WSN-CVT-0011"
+  subject: "HSE Shortfall and Mitigation via MCA"
+  summary: >
+    Wison 致 TCC: HSE 人员/措施不足，要求通过 MCA (Mitigation and Corrective Action) 补救。
+  language: "EN"
+
+  related:
+    contract: "10.2"
+    clauses: []
+    entities:
+      companies: ["WSN", "TCC"]
+      people: []
+      packages: ["Civil Pkg I", "Civil Pkg III"]
+
+  action:
+    required: true
+    deadline: null
+    status: pending
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/10.2 TCC - Civil Pkg I_III/Corres/SLT-5312-WSN-CVT-0011_HSE Shortfall and Mitig via MCA.pdf"
+    ocr_file: null
+    attachments: []
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 0

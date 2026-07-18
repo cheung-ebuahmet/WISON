@@ -1,0 +1,38 @@
+correspondence:
+  id: "SLT-5312-WSN-CCC-0004"
+  type: letter
+  direction: outgoing
+  date: "2026-06-10"                # Approximate
+  ref_number: "SLT-5312-WSN-CCC-0004"
+  subject: "Clarification of PFI AG Piping Supports — MEI Pkg I"
+  summary: >
+    Wison 致 CCECC: 对 CCC-0002 的跟进澄清 (CLAR = Clarification)，关于 PFI Aboveground Piping Supports。
+  language: "EN"
+
+  related:
+    contract: "12.1"
+    clauses: []
+    entities:
+      companies: ["WSN", "CCECC"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: false
+    deadline: null
+    status: closed
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/SLT-5312-WSN-CCC-0004_CLAR of PFI AG Piping Supports MEI Pkg I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-WSN-CCC-0002"
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 100

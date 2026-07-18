@@ -1,0 +1,39 @@
+correspondence:
+  id: "SLT-5312-WSN-CC3-0001"
+  type: letter
+  direction: outgoing
+  date: "2026-04-25"                # Approximate — earliest in sequence
+  ref_number: "SLT-5312-WSN-CC3-0001"
+  subject: "PFI AG Supports — MEI Pkg II"
+  summary: >
+    Wison 致 TCC (中化三建/CC3): 关于 PFI Aboveground Supports — MEI Pkg II 的首发函。
+    12.2 合同启动阶段通知。
+  language: "EN"
+
+  related:
+    contract: "12.2"
+    clauses: []
+    entities:
+      companies: ["WSN", "TCC"]
+      people: []
+      packages: ["MEI Pkg II"]
+
+  action:
+    required: true
+    deadline: null
+    status: closed
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.2 TCC - MEI Pkg II/Corres/SLT-5312-WSN-CC3-0001_ PFI AG SUPP MEI-I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-CC3-WSN-0001"
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 100

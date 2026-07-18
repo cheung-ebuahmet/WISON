@@ -1,0 +1,35 @@
+correspondence:
+  id: "SLT-5312-WSN-CC3-0004"
+  type: notice
+  direction: outgoing
+  date: "2026-06-20"                # Approximate
+  ref_number: "SLT-5312-WSN-CC3-0004"
+  subject: "Shortage of QC Manpower"
+  summary: >
+    Wison 致 TCC (中化三建/CC3): 质量检查人员不足的通知。
+  language: "EN"
+
+  related:
+    contract: "10.2"
+    clauses: []
+    entities:
+      companies: ["WSN", "TCC"]
+      people: []
+      packages: ["Civil Pkg I", "Civil Pkg III"]
+
+  action:
+    required: true
+    deadline: null                  # Pending content review
+    status: pending
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/10.2 TCC - Civil Pkg I_III/Corres/SLT-5312-WSN-CC3-0004_Shortage-of-QC-manpower.pdf"
+    ocr_file: null
+    attachments: []
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 0

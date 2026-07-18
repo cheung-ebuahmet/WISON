@@ -115,14 +115,23 @@ contract:
     key_personnel:
       per_day: 10000
       count: 7
+      note: >
+        ⚠️ CONTRACT SIGNED WITHOUT KP NAMES — Appendix KP table in Exh E has all 7 positions
+        listed but ALL Name cells are BLANK in both the signed DOCX and the OCR. This is NOT
+        a data extraction failure — the contract itself was executed without filling in personnel names.
+        (Verified 2026-07-18: extracted DOCX table cells, all empty.)
+        This is a contract risk — KP LD enforcement may be challenged if personnel never formally named.
+        CCECC should be requested to formally nominate KP candidates per the Appendix procedure
+        (Section 2: KP shall be mobilized within 30 days of LOA with CV submission).
+        Compare: 10.1 (all 7 named), 12.2 (all 8 named).
       positions:
-        - {position: "Project Manager", name: null, ld_per_day: 10000}
-        - {position: "Construction Manager", name: null, ld_per_day: 10000}
-        - {position: "Control Manager", name: null, ld_per_day: 10000}
-        - {position: "Contract Manager/Commercial Manager", name: null, ld_per_day: 10000}
-        - {position: "HSE Manager", name: null, ld_per_day: 10000}
-        - {position: "Quality Manager", name: null, ld_per_day: 10000}
-        - {position: "Procurement Manager", name: null, ld_per_day: 10000}
+        - {position: "Project Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "Construction Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "Control Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "Contract Manager/Commercial Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "HSE Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "Quality Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
+        - {position: "Procurement Manager", name: null, ld_per_day: 10000, note: "NOT FILLED IN SIGNED CONTRACT"}
     performance:
       applicable: true
       per_day: null

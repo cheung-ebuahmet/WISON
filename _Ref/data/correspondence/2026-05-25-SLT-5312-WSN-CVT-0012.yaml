@@ -1,0 +1,38 @@
+correspondence:
+  id: "SLT-5312-WSN-CVT-0012"
+  type: letter
+  direction: outgoing
+  date: "2026-05-25"                # Approximate — similar to CCE-0019 date for 10.1
+  ref_number: "SLT-5312-WSN-CVT-0012"
+  subject: "Grating Covers Re-scope"
+  summary: >
+    Wison 致 TCC: 格栅盖板范围重新划分（类似 CCE-0019 对 CCECC 的同主题函）。
+  language: "EN"
+
+  related:
+    contract: "10.2"
+    clauses: []
+    entities:
+      companies: ["WSN", "TCC"]
+      people: []
+      packages: ["Civil Pkg I", "Civil Pkg III"]
+
+  action:
+    required: false
+    deadline: null
+    status: closed
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/10.2 TCC - Civil Pkg I_III/Corres/SLT-5312-WSN-CVT-0012_Grating Covers Re-scope_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-TCC-WSN-0024"
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 100

@@ -159,8 +159,8 @@ python _tools/query_graph.py --search "Delay LD"              # 关键词搜索
 | 5 | ~~99 LONGTAIDI 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
 | 6 | ~~12.2 TCC MEI II 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
 | 7 | ~~EPC 主合同商业数据提取~~ ✅ 已完成 2026-07-18 (USD 686.2M + LD schedule) |
-| 8 | 补填 12.1 的 7 个 KP 姓名（从 OCR 合同附件提取） |
-| 9 | 12 封未跟踪信函建 correspondence YAML |
+| 8 | ~~补填 12.1 的 7 个 KP 姓名~~ ⚠️ 合同中姓名栏为空白 — 见 YAML note |
+| 9 | ~~12 封未跟踪信函建 correspondence YAML~~ ✅ 已完成 2026-07-18 (12封新录入) |
 | 10 | 所有 YAML 商业数字加 source 注释（10.1/10.2/12.1 尚缺） |
 | 11 | 补全 9 条条款 ko: 链接 |
 | 6 | MEI 包 Exhibit D → 价格 CSV 提取（唯一缺失的价格数据源） |

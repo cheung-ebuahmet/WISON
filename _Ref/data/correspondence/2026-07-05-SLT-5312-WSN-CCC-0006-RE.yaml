@@ -1,0 +1,39 @@
+correspondence:
+  id: "SLT-5312-WSN-CCC-0006-RE"
+  type: letter
+  direction: outgoing
+  date: "2026-07-05"                # Approximate — follow-up to CCC-0006
+  ref_number: "SLT-5312-WSN-CCC-0006_RE"
+  subject: "RE: NOTICE OF DEFAULT — MEI Pkg I"
+  summary: >
+    Wison 致 CCECC: 跟进 CCC-0006 违约通知的回复/补充 (RE = Regarding/Reply)。
+    可能是对 CCECC 回复的再回应，或对原通知的补充说明。
+  language: "EN"
+
+  related:
+    contract: "12.1"
+    clauses: []
+    entities:
+      companies: ["WSN", "CCECC"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: false
+    deadline: null
+    status: open
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/SLT-5312-WSN-CCC-0006_RE NOTICE DEF MEI Pkg I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-WSN-CCC-0006"
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 0

@@ -1,0 +1,35 @@
+correspondence:
+  id: "SLT-5312-WSN-CCC-0003"
+  type: notice
+  direction: outgoing
+  date: "2026-06-05"                # Approximate
+  ref_number: "SLT-5312-WSN-CCC-0003"
+  subject: "Significant Delay in Mobilization of MEI Pkg I"
+  summary: >
+    Wison 致 CCECC: MEI Pkg I 动员进度严重滞后通知 (Significant Delay/SD in Mobilization)。
+  language: "EN"
+
+  related:
+    contract: "12.1"
+    clauses: []
+    entities:
+      companies: ["WSN", "CCECC"]
+      people: []
+      packages: ["MEI Pkg I"]
+
+  action:
+    required: true
+    deadline: null
+    status: open                       # Mobilization delay likely ongoing
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/SLT-5312-WSN-CCC-0003_SD in Mob of MEI Pkg I_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  completeness:
+    metadata: 70
+    reviewed: 20
+    clause_mapped: 0
+    actioned: 0

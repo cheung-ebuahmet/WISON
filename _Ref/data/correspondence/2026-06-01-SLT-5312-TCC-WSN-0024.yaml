@@ -1,0 +1,39 @@
+correspondence:
+  id: "SLT-5312-TCC-WSN-0024"
+  type: letter
+  direction: incoming
+  date: "2026-06-01"                # Approximate — needs OCR verification
+  ref_number: "SLT-5312-TCC-WSN-0024"
+  subject: "Response to Grating Covers Re-scope"
+  summary: >
+    TCC (中化三建) 对 Grating Covers 重新划分范围问题的回复函。
+    对应 Wison 发出的 CVT-0012 关于格栅盖板范围变更函。
+  language: "EN"
+
+  related:
+    contract: "10.2"
+    clauses: []
+    entities:
+      companies: ["TCC", "WSN"]
+      people: []
+      packages: ["Civil Pkg I", "Civil Pkg III"]
+
+  action:
+    required: false
+    deadline: null
+    status: closed                   # Responded
+    escalated_to: null
+
+  evidence:
+    source_file: "Subcon_Payments/10.2 TCC - Civil Pkg I_III/Corres/SLT-5312-TCC-WSN-0024_Respond to Grating Covers Re-scope_ocred.pdf"
+    ocr_file: null
+    attachments: []
+
+  linked_correspondence:
+    - "SLT-5312-WSN-CVT-0012"
+
+  completeness:
+    metadata: 70
+    reviewed: 20                    # Pending content review
+    clause_mapped: 0
+    actioned: 100
