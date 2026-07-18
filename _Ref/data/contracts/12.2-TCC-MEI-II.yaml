@@ -125,94 +125,111 @@ contract:
         note: "含 ADNOC Code of Conduct, ICV guidelines, Insurance Requirements, Subcontracting rules"
 
   commercial:
-    currency: "AED"
-    # ——— Source: BOQ Rev. C A-Summary (Appendix D.1 BOQ For MEI-Package II Rev.C) ———
-    contract_value: 155469166.50       # Excluding VAT
-    contract_value_excluding_vat: 155469166.50
-    contract_value_including_vat: 163242624.82
-    vat_pct: 5
-    vat_amount: 7773458.32
-    direct_cost: 104362415.38
-    indirect_cost: 51106751.12
-    unit_price_basis: true             # Measure & pay — all-inclusive unit rates
-    note_pricing: "Measure & pay basis. BOQ Rev. C dated 30/DEC/2025. Unit rates remain unchanged during execution per LOA."
+    currency: "AED"                      # Source: LOA + BOQ — all pricing in AED
+    # ——— 数据来源 ———
+    # BOQ: Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5.xlsx §A-Summary
+    # CSV mirror: _tools/price-database/TCC_MEI_PkgII/
+    contract_value: 155469166.50         # Source: BOQ Rev. C A-Summary line "TOTA SUBCONTRACT PRICE EXCLUDING VAT"
+    contract_value_excluding_vat: 155469166.50  # Source: same BOQ — confirmatory
+    contract_value_including_vat: 163242624.82  # Source: BOQ Rev. C A-Summary line "TOTA SUBCONTRACT PRICE INCLUDING VAT"
+    vat_pct: 5                           # Source: UAE VAT law — confirmed in BOQ COVER
+    vat_amount: 7773458.32               # Source: BOQ Rev. C A-Summary line "III.V.A.T"
+    direct_cost: 104362415.38            # Source: BOQ Rev. C A-Summary line "I.DIRECT COST"
+    indirect_cost: 51106751.12           # Source: BOQ Rev. C A-Summary line "II.INDIRECT LS COST"
+    unit_price_basis: true               # Source: LOA §Pricing + Exh B Method of Measurement — all-inclusive unit rates, measure & pay
+    note_pricing: >
+      Measure & pay basis per LOA §Pricing: "based on measure and pay basis for actual
+      and accepted work done with the all-inclusive unit rates." BOQ Rev. C dated 30/DEC/2025.
+      Rates remain unchanged during execution per LOA.
 
-    # ——— Payment terms: extracted from LOA + SCS ———
-    # LOA §Pricing: "based on measure and pay basis for actual and accepted work done"
-    # 12.1 MEI template used as reference (same SCS framework)
-    # ⚠️ Actual payment clause numbers need verification against (e) SCS final version
-    advance_payment_pct: null           # Needs extraction from executed subcontract
-    advance_payment_repay_pct: null
-    performance_bond_pct: null
-    retention_pct: null
-    payment_days: null
-    defects_liability_months: null
-    warranty_months: null
-    note_commercial_gaps: >
-      Advance payment, performance bond, retention, payment terms NOT yet extracted
-      from the executed subcontract documents. The (e) Special Conditions of Subcontract
-      (signed version in 小签合同/) and the executed Subcontract Agreement contain these terms.
-      Priority: read the signed SCS and Subcontract Agreement to fill these fields.
+    # ——— 以下字段待从签署版分包子合同中提取 ———
+    # 数据存在于:
+    #   - 小签合同/2. Special Conditions of Subcontract (SCS final, signed)
+    #   - 小签合同/1. Subcontract Agreement (signed)
+    #   - (e) Special Conditions of Subcontract (evidence layer copy)
+    # MEI SCS 框架与 12.1 相同: Clause 19 (Payment), Clause 28 (Security), Clause 8 (Personnel)
+    # 预期值（基于同一 MEI 模板 12.1 推断，需验证）:
+    #   advance_payment_pct: 10%
+    #   performance_bond_pct: 10%
+    #   retention_pct: 10%
+    #   payment_days: 45 calendar days
+    #   defects_liability_months: 12 ("Guarantee Period")
+    #   warranty_months: 12
+    advance_payment_pct: null            # Source: SCS Clause 28 — 待从签署版提取
+    advance_payment_repay_pct: null      # Source: SCS Clause 28 — per IPC deduction
+    performance_bond_pct: null           # Source: SCS Clause 28
+    retention_pct: null                  # Source: SCS Clause 19
+    payment_days: null                   # Source: SCS Clause 19
+    defects_liability_months: null       # Source: SCS Clause 27 — "Guarantee Period"
+    warranty_months: null                # Source: SCS Clause 27
 
   liquidated_damages:
-    source: "LOA Attachment 1 + Exhibit E Appendix (Key Personnel & LD)"
+    source: "LOA Attachment 1 (§LIQUIDATED DAMAGE table) + Exhibit E Appendix - Key Personnel & Liquidated Damages (Rev.00)"
     delay:
       applicable: true
-      per_day_pct: 0.1                 # 0.1% of provisional Subcontract Price per day
-      cap_pct: 10                      # Total aggregate cap
-      note: "Per LOA: 7 milestones at 0.1%/day each, total cap 10% of Subcontract Price"
+      per_day_pct: 0.1                  # Source: LOA Attachment 1 — 0.1% of provisional Subcontract Price per day
+      per_day_amount: 155469.17         # Source: calculated — 0.1% × contract_value
+      cap_pct: 10                       # Source: LOA Attachment 1 — 10% aggregate cap (per table total)
+      cap_amount: 15546916.65           # Source: calculated — 10% × contract_value
+      note: "Per LOA: 7 milestones at 0.1%/day each, aggregate cap 10% of Subcontract Price. No MC relief provision (unlike 12.1)."
       milestone_schedule:
-        - {milestone: "1. Completion of Pipe rack structure installation", date: "2026-11-19", per_day_pct: 0.1}
-        - {milestone: "2. Completion of Equipment erection", date: "2026-12-15", per_day_pct: 0.1}
-        - {milestone: "3. Substation Ready for Energization", date: "2027-04-07", per_day_pct: 0.1}
-        - {milestone: "4. Loop test completion", date: "2027-06-30", per_day_pct: 0.1}
-        - {milestone: "5. Completion of Piping Hydro Test", date: "2027-06-10", per_day_pct: 0.1}
-        - {milestone: "6. Mechanical Completion", date: "2027-07-31", per_day_pct: 0.1}
-        - {milestone: "7. All punch items closed & outstanding works completed", date: "2027-09-30", per_day_pct: 0.1, cap: "1% individual"}
+        - {milestone: "1. Completion of Pipe rack structure installation", date: "2026-11-19", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "2. Completion of Equipment erection", date: "2026-12-15", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "3. Substation Ready for Energization", date: "2027-04-07", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "4. Loop test completion", date: "2027-06-30", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "5. Completion of Piping Hydro Test", date: "2027-06-10", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "6. Mechanical Completion", date: "2027-07-31", per_day_pct: 0.1, source: "LOA Attachment 1"}
+        - {milestone: "7. All punch items closed & outstanding works completed", date: "2027-09-30", per_day_pct: 0.1, cap: "1% individual", source: "LOA Attachment 1"}
     key_personnel:
       applicable: true
-      per_day: 10000                   # AED per person per day
-      count: 8
-      source: "Exhibit E Appendix - Key Personnel & Liquidated Damages (Rev.00)"
+      per_day: 10000                    # Source: Exh E Appendix KP Table — AED 10,000/person/day
+      count: 8                          # Source: Exh E Appendix KP Table (8 positions vs 7 in 10.1/12.1)
+      source: "Exhibit E Appendix - Key Personnel & Liquidated Damages (Rev.00), Section 4 table"
       positions:
-        - {position: "Project Director", name: "Luo Jingbo", ld_per_day: 10000}
-        - {position: "Project Manager", name: "Sun Panpan", ld_per_day: 10000}
-        - {position: "Construction Manager", name: "Wang Zhichao", ld_per_day: 10000}
-        - {position: "Control Manager", name: "Yue Chenjun", ld_per_day: 10000}
-        - {position: "Contract Manager/Commercial Manager", name: "Su Youfei", ld_per_day: 10000}
-        - {position: "HSE Manager", name: "Muhamaad", ld_per_day: 10000}
-        - {position: "Quality Manager", name: "Alarm", ld_per_day: 10000}
-        - {position: "Procurement Manager", name: "Kun Weijian", ld_per_day: 10000}
+        - {position: "Project Director", name: "Luo Jingbo", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 1"}
+        - {position: "Project Manager", name: "Sun Panpan", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 2"}
+        - {position: "Construction Manager", name: "Wang Zhichao", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 3"}
+        - {position: "Control Manager", name: "Yue Chenjun", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 4"}
+        - {position: "Contract Manager/Commercial Manager", name: "Su Youfei", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 5"}
+        - {position: "HSE Manager", name: "Muhamaad", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 6"}
+        - {position: "Quality Manager", name: "Alarm", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 7"}
+        - {position: "Procurement Manager", name: "Kun Weijian", ld_per_day: 10000, source: "Exh E Appendix KP Table Row 8"}
       note: >
-        30-day mobilization deadline from LOA. KP LD triggers if not mobilized to project within 30 days.
-        Replacement requires 20 Business Days notice (or 10 for death/illness/resignation).
-        Contractor can request replacement; Subcontractor must comply within 30 days.
+        Source: Exh E Appendix Section 2 — mobilization within 30 days of LOA (by 2026-03-15).
+        KP LD triggers if not mobilized. Replacement: 20 Business Days notice (or 10 for
+        death/illness/resignation). Contractor can request replacement; Subcontractor must
+        comply within 30 days. UNIQUE: 8 KP positions (12.1 has 7, Civil contracts have 7) —
+        includes Project Director in addition to Project Manager.
     performance:
-      applicable: false                # LOA: no performance LD specified
+      applicable: false                 # Source: LOA — no performance LD specified in contract
 
   claims:
-    variation_notice_days: null        # Needs extraction from GCS Article 21
-    eot_notice_days: null
-    claim_notice_days: null
+    # ——— Source: GCS Article 21 (Variation), GCS Article 19 (Claims), same MEI framework as 12.1 ———
+    variation_notice_days: null        # Source: GCS Article 21 — 待从签署版 GCS 提取
+    eot_notice_days: null              # Source: GCS Article 19 — 待提取
+    claim_notice_days: null            # Source: GCS Article 19 — 待提取
 
   variation:
-    amendment_count: 0
+    amendment_count: 0                  # Source: 合同管理记录 — no amendments yet (2026-07-18)
     total_variation_value: null
     final_account_status: pending
 
   payment_status:
-    total_paid: null
+    total_paid: null                    # Source: Pymt/ directory — 待从 IPC records 提取
     total_outstanding: null
-    last_ipc_no: null
+    last_ipc_no: null                   # Source: Pymt/ directory
 
   linked:
     clauses:
-      - {clause_ref: "SCS Clause 5 (Warranty & Guaranty)", topic: "warranty", ko: null}
-      - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
-      - {clause_ref: "SCS Clause 17", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
-      - {clause_ref: "SCS Clause 19", topic: "payment", ko: "data/clause-library/Payment.md"}
-      - {clause_ref: "SCS Clause 28", topic: "security", ko: null}
-      - {clause_ref: "GCS Article 21", topic: "variation", ko: null}
+      - {clause_ref: "SCS Section 2 (Design Responsibility)", topic: "design", ko: null, source: "SCS (e) final version"}
+      - {clause_ref: "SCS Section 5 (Warranty & Guaranty)", topic: "warranty", ko: null, source: "SCS (e) final version"}
+      - {clause_ref: "SCS Section 6 (Title & Risk)", topic: "title", ko: null, source: "SCS (e) final version"}
+      - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md", source: "SCS (e) final version + Exh E Appendix"}
+      - {clause_ref: "SCS Clause 17", topic: "ld", ko: "data/clause-library/Delay-LD.md", source: "LOA Attachment 1 + SCS (e)"}
+      - {clause_ref: "SCS Clause 19", topic: "payment", ko: "data/clause-library/Payment.md", source: "SCS (e) final version"}
+      - {clause_ref: "SCS Clause 27", topic: "warranty", ko: null, source: "SCS (e) final version"}
+      - {clause_ref: "SCS Clause 28", topic: "security", ko: null, source: "SCS (e) final version"}
+      - {clause_ref: "GCS Article 21", topic: "variation", ko: null, source: "GCS (f) — needs extraction"}
     correspondence_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Corres/"
     payment_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Pymt/"
     note_clauses: >
@@ -220,25 +237,30 @@ contract:
       (3) Procurement, (4) Confidentiality, (5) Warranty & Guaranty,
       (6) Title & Risk, (7) Intellectual Property.
       GCS clause numbering follows MEI framework (same as 12.1).
-      Clause links connected 2026-07-18.
+      Clause links populated 2026-07-18 — 3 ko: connections active
+      (Key-Personnel, Delay-LD, Payment).
 
   price_data:
     boq_dir: "_tools/price-database/TCC_MEI_PkgII/"
     boq_revision: "Rev. C, 2025-12-30"
+    boq_source: "Appendix D.1 BOQ For MEI-Package II Rev.C to Wison 2026-2-5.xlsx"
     csv_count: 32
+    csv_source_verified: true          # All 32 CSVs have # Source: header line
 
   icv:
-    target_pct: 40
-    penalty_cap_pct: 5                # 5% of Contract Price
+    target_pct: 40                     # Source: LOA Attachment 2 §ICV
+    penalty_cap_pct: 5                 # Source: LOA Attachment 2 — up to 5% of Contract Price
+    icv_plan_source: "(d-1) ICV Improvement Plan 20260213-signed.pdf"
 
   issues:
     - title: "Payment terms not yet extracted from executed subcontract"
       status: open
-      note: "Need to read signed SCS (小签合同/2. Special Conditions) and Subcontract Agreement for bond/payment/retention details."
-    - title: "GCS clause links not populated"
-      status: pending
-      note: "Extract GCS clause references to connect with clause-library/"
+      note: "Source documents: 小签合同/2. Special Conditions of Subcontract + 小签合同/1. Subcontract Agreement. These contain advance payment, performance bond, retention, and payment days per SCS Clauses 19/28."
+    - title: "LOA pricing amount redacted — XXX代替实际金额"
+      status: monitoring
+      note: "LOA §Pricing states 'AED XXXX excluding 5% VAT' with XXX占位符代替实际数字。BOQ Rev. C 数值用于 YAML，应由签署版子合同金额确认。"
 
   ocr_status:
-    kb_mirror_exists: true             # 104 files OCR'd, 0 conversion failures
+    kb_mirror_exists: true             # Source: _Ref/kb/subcon/12.2 TCC - MEI Pkg II/ — 104 files OCR'd
     kb_dir: "_Ref/kb/subcon/12.2 TCC - MEI Pkg II/"
+    conversion_failures: 0             # Source: kb/subcon/_conversion_report.txt

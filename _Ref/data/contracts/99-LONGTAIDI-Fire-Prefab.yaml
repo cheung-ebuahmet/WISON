@@ -14,6 +14,7 @@ contract:
   inquiry_date: "2026-06-30"
   note_contract_form: "SCS (Special Conditions of Subcontract) — MEI framework; unique Exh L (GTC of Purchase)"
   note_tripartite: >
+    Source: 策划方案 §2.2 标段划分.
     Tripartite arrangement: Wison supplies raw materials to LONGTAIDI in China;
     LONGTAIDI performs shop fabrication (NDE + hydrotest + coating) on FOB basis;
     Wison handles international shipping to UAE site;
@@ -21,24 +22,25 @@ contract:
     LONGTAIDI was selected by CCECC as their prefabrication unit, requiring a direct contract with Wison
     for customs/import-export purposes. Actual settlement pricing negotiated between CCECC and LONGTAIDI.
   note_fob: >
+    Source: 策划方案 §6 物流海关 + Exh L GTC of Purchase.
     FOB (Free on Board) delivery: LONGTAIDI delivers to Wison-designated Chinese port.
     Wison handles international ocean freight + UAE inland transport.
     Pipe spools are flange-connection design — only fit-up at site, no field welding of 3"+ pipe.
 
   scope:
     description: "Fire-fighting Piping (3-inch and above) Prefabrication Works on FOB Basis"
-    pipe_diameter_min: "3 inch (DN80)"
-    connection_type: "Flanged (法兰连接)"
+    pipe_diameter_min: "3 inch (DN80)"   # Source: §1.3 招标详情 + Exh A SOW
+    connection_type: "Flanged (法兰连接)" # Source: §3.1 招标范围
 
     # ——— 工程量 ———
     # 唯一权威数据源：策划方案 §1.3 招标工程量表 — 6.7万当量
     # 策划方案正文另有两个粗略估数（5.3万吋 / 1.26万米），但精度不可靠；
     # BOQ (Exh D) 明细仅 40,000 吋，同为 Inquiry 阶段估量。
     # 结论：三字段统一取 SOW 表格的 6.7万当量，BOQ 定稿/合同签订后回溯修正。
-    equivalent_units: 67000              # 6.7万当量 — 策划方案 §1.3 表格（唯一权威值）
+    equivalent_units: 67000              # Source: 策划方案 §1.3 招标工程量表 "管道专业消防管线预制 | 当量 | 6.7万"
     welding_qty_dia_inch: 67000          # 统一取 6.7万（原 §3.1 粗估 5.3万吋，废弃）
     linear_meters: 67000                 # 统一取 6.7万（原 §1.3 粗估 1.26万米，废弃）
-    pct_of_total_pipe_welding: 15        # 15% of project total pipe welding
+    pct_of_total_pipe_welding: 15        # Source: 策划方案 §1.3 "占比管道焊接总量15%"
     scope_includes:
       - "Shop fabrication of 3-inch+ firefighting pipe spools"
       - "NDE (Non-Destructive Examination)"
@@ -57,157 +59,203 @@ contract:
       - "3-inch and below threaded connections (done at site)"
       - "International ocean freight (by Wison)"
       - "UAE inland transport (by Wison)"
-    plant_units: ["30", "40"]
+    plant_units: ["30", "40"]            # Source: 策划方案 §2.2 标段划分
 
   structure:
     loa:
-      exists: false                    # tender stage — not issued
+      exists: false                    # tender stage — LOA not yet issued
+      note: "Contract not yet awarded. Part 0 Instructions to Tenderers in effect."
     part_0:
       exists: true
-      source_dir: "Part 0 Instructions to Tenderers/"
+      source_dir: "Subcon_Payments/99 LONGTAIDI fob/Part 0 Instructions to Tenderers/"
       summary: "Tender instructions for firefighting pipe prefabrication"
     part_i:
       exists: true
-      source_dir: "Part I Subcontract Agreement/"
+      source_dir: "Subcon_Payments/99 LONGTAIDI fob/Part I Subcontract Agreement/"
       components: ["Subcontract Agreement", "Special Conditions (SCS)", "General Conditions of Subcontract (GCS)"]
-      note: "Agreement+Spectial Conditions 留空 (blank) — tender stage templates"
+      note: "Agreement + Special Conditions 留空 (blank) — tender stage templates. SCS follows MEI framework (same as 12.1/12.2)."
     part_ii:
       exists: true
-      source_dir: "Part II Exhibits of Subcontract Agreement/"
+      source_dir: "Subcon_Payments/99 LONGTAIDI fob/Part II Exhibits of Subcontract Agreement/"
     exhibits:
       - exhibit_ref: "Exh A"
         title: "Work Scope & Schedule"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit A Work Scope & Schedule/"
         commercial_relevance: {level: critical, reason: ["scope", "schedule"]}
         primary_topics: ["scope", "schedule", "milestones", "responsibility matrix"]
-        note: "含 SOW Responsibility Matrix — 消防管线预制分工表"
+        note: "含 SOW Responsibility Matrix (A1.2) + Work Schedule (A2) — 消防管线预制分工表"
       - exhibit_ref: "Exh B"
         title: "Method of Measurement"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit B Method of Measurement/"
         commercial_relevance: {level: critical, reason: ["payment", "variation"]}
         primary_topics: ["measurement", "boq", "rates"]
       - exhibit_ref: "Exh C"
         title: "Technical Specification & Drawing"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit C Technical Spec & Drawing/"
         commercial_relevance: {level: medium, reason: ["technical"]}
         primary_topics: ["technical spec", "drawings", "standards"]
       - exhibit_ref: "Exh D"
         title: "Subcontract Price"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit D Subcontract Price/"
         commercial_relevance: {level: critical, reason: ["payment", "variation"]}
         primary_topics: ["boq", "rates", "price list"]
-        note: "BOQ Rev. A Issue for Inquiry — Unit price basis (USD)"
+        note: "BOQ Rev. A (Issue for Inquiry, 2026-06-30). Unit price basis (USD). All unit rates = 0 (awaiting bidder). Prices TBD."
       - exhibit_ref: "Exh E"
         title: "Quality Requirements"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit E Quality Requirements/"
         commercial_relevance: {level: medium, reason: ["quality"]}
         primary_topics: ["quality", "AGES compliance"]
       - exhibit_ref: "Exh F"
         title: "Administrative Procedure"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit F Administrative Procedure/"
         commercial_relevance: {level: medium, reason: ["administrative"]}
         primary_topics: ["communication", "reporting", "invoicing"]
       - exhibit_ref: "Exh G"
         title: "(Not Applicable)"
         exists: false
+        source: null
         commercial_relevance: {level: archive, reason: []}
       - exhibit_ref: "Exh H"
         title: "HSE Requirement"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit H HSE Requirement/"
         commercial_relevance: {level: low, reason: ["hse"]}
         primary_topics: ["hse"]
       - exhibit_ref: "Exh I"
         title: "(Not Applicable)"
         exists: false
+        source: null
         commercial_relevance: {level: archive, reason: []}
       - exhibit_ref: "Exh J"
         title: "Scheduling and Reporting"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit J Scheduling and Reporting/"
         commercial_relevance: {level: high, reason: ["schedule"]}
         primary_topics: ["schedule", "reporting", "progress"]
       - exhibit_ref: "Exh K"
         title: "Owner's Special Requirements & Reference"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit K Owner's Special Requirements & Reference/"
         commercial_relevance: {level: medium, reason: ["back-to-back"]}
         primary_topics: ["owner requirements", "back-to-back", "reference docs"]
       - exhibit_ref: "Exh L"
         title: "General Terms and Conditions of Purchase"
         exists: true
+        source: "Part II Exhibits of Subcontract Agreement/Exhibit L-General Terms and Conditions of Purchase/"
         commercial_relevance: {level: critical, reason: ["payment", "variation"]}
         primary_topics: ["purchase terms", "payment", "delivery", "title", "risk"]
         note: "UNIQUE to LONGTAIDI — not present in any other subcon contract. Reflects procurement/purchase nature of this FOB arrangement."
 
   commercial:
-    currency: "USD"
-    contract_value: null               # tender stage — not yet priced
-    provisional_sum: null
-    unit_price_basis: true             # BOQ-based unit rates
-    advance_payment_pct: null
-    advance_payment_repay_pct: null
-    performance_bond_pct: null
-    retention_pct: null
-    defects_liability_months: null
-    warranty_months: null
-    payment_days: null
+    currency: "USD"                      # Source: BOQ COVER "All prices are in US Dollar"
+    contract_value: null                 # tender stage — Source after award: Exh D Subcontract Price (Appendix D.1 BOQ)
+    provisional_sum: null                # tender stage — Source: Exh D
+    unit_price_basis: true               # Source: BOQ COVER — "All-inclusive, V.A.T. excluded"; Exh B Method of Measurement
+    advance_payment_pct: null            # tender stage — Source after award: Part I SCS (same MEI framework)
+    advance_payment_repay_pct: null      # tender stage — Source: SCS Clause 28
+    performance_bond_pct: null           # tender stage — Source: SCS Clause 28
+    retention_pct: null                  # tender stage — Source: SCS Clause 19
+    defects_liability_months: null       # tender stage — Source: SCS Clause 27
+    warranty_months: null                # tender stage — Source: SCS Clause 27
+    payment_days: null                   # tender stage — Source: SCS Clause 19
     note_material_supply: >
-      Contractor (Wison) supplies raw materials to LONGTAIDI's China facility.
+      Source: 策划方案 §5 — Contractor (Wison) supplies raw materials to LONGTAIDI's China facility.
       LONGTAIDI processes under 来料加工 (processing trade) customs regime.
       This is a labor + services contract, not a material supply contract.
     note_payment_flow: >
-      Wison pays LONGTAIDI directly (required for customs/import-export and FX).
+      Source: 策划方案 §4 — Wison pays LONGTAIDI directly (required for customs/import-export and FX).
       Actual pricing settled between CCECC and LONGTAIDI — Wison facilitates payment.
       CCECC's MEI Pkg I contract scope is correspondingly reduced (descope of prefab works).
 
   liquidated_damages:
     delay:
-      applicable: null                 # tender stage — TBD
-      per_day: null
+      applicable: null                 # tender stage — Source after award: Exh J Scheduling & Reporting + SCS Clause 17
+      per_day: null                    # Source: 合同中延误违约金条款
       per_day_pct: null
       cap_pct: null
     key_personnel:
-      applicable: null
-      per_day: null
+      applicable: null                 # tender stage — Source after award: Exh E Quality Requirements (Appendix KP & LD)
+      per_day: null                    # 预期 AED 10,000/day (同 MEI 模板)
     performance:
-      applicable: null
+      applicable: null                 # tender stage — Source: Exh A Work Schedule (performance guarantees)
 
   claims:
-    variation_notice_days: null        # tender stage — TBD
-    eot_notice_days: null
-    claim_notice_days: null
+    variation_notice_days: null        # tender stage — Source after award: GCS Article 21 (Variation)
+    eot_notice_days: null              # Source: GCS Article 19 (Claims) — 预期 10 working days (同 12.1 MEI)
+    claim_notice_days: null            # Source: GCS Article 19 — 预期 5 working days (同 12.1 MEI)
+    note: "MEI SCS/GCS 框架与 12.1/12.2 相同，签约后 CLAIMS 值应可直接复用"
 
   variation:
-    amendment_count: 0
-    final_account_status: not_applicable  # not yet awarded
+    amendment_count: 0                  # Source: tender — no amendments
+    total_variation_value: null
+    final_account_status: not_applicable # Source: tender — contract not yet awarded
 
   payment_status:
-    total_paid: null
+    total_paid: null                    # Source after award: Pymt/ directory IPC records
     last_ipc_no: null
 
   linked:
-    clauses: []                        # to be populated after contract award
+    clauses:                            # MEI SCS framework — clause references from the tender templates
+      # ⚠️ All clauses are EXPECTED (tender template mirrors 12.1/12.2 MEI structure).
+      #    ko: links will activate when contract is awarded and specific clause wording confirmed.
+      - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md", status: "expected", note: "MEI SCS template — 待签约确认"}
+      - {clause_ref: "SCS Clause 17", topic: "ld", ko: "data/clause-library/Delay-LD.md", status: "expected", note: "MEI SCS template"}
+      - {clause_ref: "SCS Clause 19", topic: "payment", ko: "data/clause-library/Payment.md", status: "expected", note: "MEI SCS template"}
+      - {clause_ref: "SCS Clause 27", topic: "warranty", ko: null, status: "expected", note: "MEI SCS template — Warranty"}
+      - {clause_ref: "SCS Clause 28", topic: "security", ko: null, status: "expected", note: "MEI SCS template — Securities/Bonds"}
+      - {clause_ref: "GCS Article 21", topic: "variation", ko: null, status: "expected", note: "MEI GCS template — Variation"}
+      - {clause_ref: "Exh L (GTC of Purchase)", topic: "payment", ko: null, status: "to-verify", note: "UNIQUE to 99 — purchase/procurement terms overlay. May override/补充 SCS payment terms"}
     correspondence_dir: "Subcon_Payments/99 LONGTAIDI fob/"
     payment_dir: "Subcon_Payments/99 LONGTAIDI fob/"
     related_contracts:
-      - {id: "12.1", name: "CCECC - MEI Pkg I", relationship: "CCECC selected LONGTAIDI; prefab scope descoped from 12.1; payment pass-through via Wison"}
+      - {id: "12.1", name: "CCECC - MEI Pkg I", relationship: "CCECC selected LONGTAIDI; prefab scope descoped from 12.1; payment pass-through via Wison", source: "策划方案 §2.2"}
 
   price_data:
     boq_dir: "_tools/price-database/LONGTAIDI/"
     boq_revision: "Rev. A, 2026-06-30"
+    boq_source: "Appendix D.1 BOQ For Firefighting Pipe Prefabrication Rev.A.xlsx"
     csv_count: 5
+    csv_source_verified: true            # All 5 CSVs have # Source: header line
     csv_files:
       - "A-Summary.csv"
       - "COVER.csv"
       - "FF Piping Prefab Works.csv"
       - "Equipment Rates.csv"
       - "Labor Rates.csv"
+    note_boq_quality: >
+      BOQ Rev. A Issue for Inquiry — all unit prices are 0 (awaiting bidder).
+      FF Piping Prefab Works sheet shows 40,000 dia-inch CS only vs 67,000 equivalent units
+      in planning doc. Planning doc 6.7万当量 is the broader SOW estimate including NDE/
+      hydrotest/coating equivalent effort. CSV data is raw inquiry-stage placeholder.
 
   planning_doc:
     exists: true
-    source_file: "000 RSGP硫磺造粒项目消防管线预制分包策划方案 2026-07-06.docx"
+    source_file: "Subcon_Payments/99 LONGTAIDI fob/000 RSGP硫磺造粒项目消防管线预制分包策划方案 2026-07-06.docx"
+    date: "2026-07-06"
     summary: "Wison internal planning proposal explaining the tripartite arrangement, scope split, and rationale for separate tender"
+    key_sections:
+      - {section: "§1.3 招标详情", content: "工程量 6.7万当量 + 背景说明 (1.26万米 / 5.3万吋)"}
+      - {section: "§2.2 标段划分", content: "解释为何独立招标 (CCECC 无外贸加工资质)"}
+      - {section: "§3 招标范围", content: "3\"+消防管预制, 5.3万吋焊接量"}
+      - {section: "§4 代为付款安排", content: "付款按合同协议执行"}
+      - {section: "§5 承包商供货材料", content: "来料加工模式, Wison 供料"}
+      - {section: "§6 物流海关", content: "FOB 中国港口, Wison 负责国际海运"}
 
-  issues: []
+  issues:
+    - title: "Tender stage — all commercial/LD/claims fields pending award"
+      status: monitoring
+      note: "合同未授予，所有 null 值为正常状态。中标后需从签署合同 (Part I + Part II) 提取全部商业数据。"
+    - title: "BOQ 仅 40,000 吋 vs 策划方案 6.7万当量 — 口径不一致"
+      status: monitoring
+      note: "BOQ 明细 (Exh D) 中 CS 焊接量仅 40,000 dia-inch，而策划方案 SOW 表格列 6.7万当量。两者口径不同：当量含 NDE/试压/防腐/包装的等效工作量。定标后应以中标 BOQ 最终报价为准。"
 
   ocr_status:
-    kb_mirror_exists: false             # OCR not yet run for LONGTAIDI — kb/subcon/99 LONGTAIDI fob/ does not exist
+    kb_mirror_exists: false              # kb/subcon/99 LONGTAIDI fob/ does not exist
     priority: "After contract award — currently tender stage, low urgency"
+    source_dir: "Subcon_Payments/99 LONGTAIDI fob/"
