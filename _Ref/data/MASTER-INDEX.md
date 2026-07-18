@@ -21,8 +21,9 @@ _Ref/                                    ← 商业合同知识层（仅商业�
 │   │   ├── 10.1-CCECC-Civil-II.yaml     ← ✅ 95% 完整
 │   │   ├── 10.2-TCC-Civil-I-III.yaml    ← ✅ 95% 完整
 │   │   ├── 12.1-CCECC-MEI-I.yaml        ← ✅ 90% 完整
+│   │   ├── 12.2-TCC-MEI-II.yaml          ← 🆕 70% (商业数据已提取，payment条款待补充)
 │   │   ├── 99-LONGTAIDI-Fire-Prefab.yaml ← 🆕 50% (tender stage)
-│   │   └── EPC-ADNOC-RSGP.yaml          ← ⚠️ 25%
+│   │   └── EPC-ADNOC-RSGP.yaml          ← ✅ 75% (商业数据+LD已提取)
 │   ├── clause-library/                  ← 商业条款知识对象（规则层）
 │   │   ├── Key-Personnel.md             ← ✅
 │   │   ├── Key-Personnel-LD.md          ← ✅
@@ -62,9 +63,9 @@ _Ref/                                    ← 商业合同知识层（仅商业�
 | 10.1 CCECC Civil II | AED 149.8M | AED 10,000 | ⭐ critical | 60% |
 | 10.2 TCC Civil I/III | *(待)* | *(待)* | ⭐ critical | 35% |
 | 12.1 CCECC MEI I | *(待)* | AED 10,000 | ⭐ critical | 35% |
-| 12.2 TCC MEI II | 🔴 | 🔴 | ⭐ critical | 0% |
+| 12.2 TCC MEI II | AED 155.5M | AED 10,000 | ⭐ critical | 70% |
 | 99 LONGTAIDI Fire Prefab | *(tender)* | *(tender)* | ⭐ high (pre-award) | 50% |
-| EPC-ADNOC-RSGP | *(待)* | — | ⭐ critical | 25% |
+| EPC-ADNOC-RSGP | USD 686.2M | — | ⭐ critical | 75% |
 
 > **Schema v2.0 — LOCKED** ✅ 3/3 合同验证通过（10.1 Attachment 体系 / 10.2 Atchments 体系 / 12.1 Exh A-K 体系）
 > 建模原则: `_Ref/Modeling-Principles.md`
@@ -156,6 +157,12 @@ python _tools/query_graph.py --search "Delay LD"              # 关键词搜索
 | 3 | 补建 5 个 ⭐⭐⭐⭐⭐ 条款 KO |
 | 4 | 函件库：录入 10.1 Corres 目录下现有函件 |
 | 5 | ~~99 LONGTAIDI 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
+| 6 | ~~12.2 TCC MEI II 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
+| 7 | ~~EPC 主合同商业数据提取~~ ✅ 已完成 2026-07-18 (USD 686.2M + LD schedule) |
+| 8 | 补填 12.1 的 7 个 KP 姓名（从 OCR 合同附件提取） |
+| 9 | 12 封未跟踪信函建 correspondence YAML |
+| 10 | 所有 YAML 商业数字加 source 注释（10.1/10.2/12.1 尚缺） |
+| 11 | 补全 9 条条款 ko: 链接 |
 | 6 | MEI 包 Exhibit D → 价格 CSV 提取（唯一缺失的价格数据源） |
 | 7 | 建 Decision Log（参考 [[amdt-drafting-conventions]] 模式） |
 

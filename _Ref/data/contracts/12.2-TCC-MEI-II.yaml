@@ -1,0 +1,238 @@
+contract:
+  id: "12.2"
+  name: "TCC - MEI Pkg II"
+  type: subcontract
+  status: active
+  vendor: "TCC"
+  vendor_full: "China National Chemical Engineering Third Construction Co., Ltd. (中化三建)"
+  vendor_licence: "CN-2725379; 101-2021-100045024"
+  vendor_address: "ADDAX TOWER, OFFICE 4805, CITY OF LIGHTS, REEM ISLAND, Abu Dhabi"
+  discipline: "MEI"
+  package: "Pkg II"
+  contract_ref: "WISON24108C26003"
+  loa_ref: "24108-CC0401-25002-LOA-13"
+  parent_contract: "EPC-ADNOC-RSGP"
+  execution_date: "2026-02-13"        # LOA date = Effective Date
+  commencement_date: "2026-02-13"
+  revision: "Rev. C (30/DEC/2025)"
+  note_contract_form: "SCS (Special Conditions of Subcontract) — MEI framework. Measure & pay basis with all-inclusive unit rates."
+  note_loa: >
+    LOA signed 13 Feb 2026 by Mr. Feng Guoling (Wison) and Mr. Chen Haizhu (TCC).
+    Pricing based on BOQ Rev. C (30 Dec 2025). Until formal subcontract signed within 30 days,
+    LOA + tender clarifications govern.
+  note_icv: >
+    ICV target 40%, penalty up to 5% of Contract Price. ICV Improvement Plan signed 2026-02-13.
+
+  scope:
+    description: "Mechanical, Electrical, and Instrumentation (MEI) Installation Works — Package II"
+    source: "LOA + Exhibit A Work Scope & Schedule"
+    discipline_breakdown:
+      - "Steel Structural (Green + Brown)"
+      - "Package Equipment"
+      - "Static & Rotary Equipment"
+      - "UG Piping (Green + Brown)"
+      - "Piping (Green + Brown)"
+      - "Fire Fighting (Green + Brown)"
+      - "NDT (Green + Brown)"
+      - "Electrical (Green + Brown)"
+      - "Instrumentation (Green + Brown)"
+      - "Telecom (Green + Brown)"
+      - "HVAC (Green + Brown)"
+      - "Miscellaneous"
+
+  structure:
+    loa:
+      exists: true
+      source_file: "(d) Letter of Award (LOA) for Package 2 Of MEI Installation Works.pdf"
+      date: "2026-02-13"
+      note: "LOA includes LD schedule, ICV commitment, and no-deviation declaration"
+    part_i:
+      exists: true
+      source_dir: "Contract/"
+      components:
+        - "(a) Subcontract Agreement"
+        - "(b) Technical Clarification Form"
+        - "(c) Post-Bid Commercial Clarification Form"
+        - "(d) LOA"
+        - "(d) Special Conditions of Subcontract (template)"
+        - "(e) Special Conditions of Subcontract (final)"
+        - "(f) General Conditions of Subcontract"
+      note: "Signed version (小签合同) also present in separate subfolder"
+    part_ii:
+      exists: true
+      source_dir: "(g) Exhibits of Subcontract/"
+    exhibits:
+      - exhibit_ref: "Exh A"
+        title: "Work Scope & Schedule"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["scope", "schedule", "milestones"]}
+        primary_topics: ["scope", "schedule", "responsibility matrix", "KP"]
+        note: "含 SOW Responsibility Matrix + Work Schedule + Plot Plan"
+      - exhibit_ref: "Exh B"
+        title: "Method of Measurement"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["measurement", "boq", "rates"]
+        note: "15 sub-documents covering all disciplines (Earthwork through Tie-in)"
+      - exhibit_ref: "Exh C"
+        title: "Technical Specification & Drawing"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["technical"]}
+        primary_topics: ["technical spec", "drawings"]
+        note: "含 Granulator + Stacker-Reclaimer IFC drawings"
+      - exhibit_ref: "Exh D"
+        title: "Subcontract Price"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["boq", "rates", "contract price"]
+        note: "BOQ Rev. C (30 Dec 2025). Unit rates — measure & pay basis."
+      - exhibit_ref: "Exh E"
+        title: "Quality Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["quality", "kp ld"]}
+        primary_topics: ["quality", "kp ld", "AGES compliance"]
+        note: "含 Appendix: Key Personnel & Liquidated Damages (8 KP positions, AED 10,000/day each)"
+      - exhibit_ref: "Exh F"
+        title: "Administrative Procedure"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["administrative"]}
+        primary_topics: ["communication", "reporting", "bank bond format", "document control"]
+      - exhibit_ref: "Exh G"
+        title: "Mechanical Completion"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["completion"]}
+        primary_topics: ["mechanical completion", "handover", "punch list"]
+      - exhibit_ref: "Exh H"
+        title: "HSE Requirements"
+        exists: true
+        commercial_relevance: {level: low, reason: ["hse"]}
+        primary_topics: ["hse"]
+      - exhibit_ref: "Exh I"
+        title: "(Not Applicable)"
+        exists: false
+        commercial_relevance: {level: archive, reason: []}
+      - exhibit_ref: "Exh J"
+        title: "Scheduling and Reporting"
+        exists: true
+        commercial_relevance: {level: high, reason: ["schedule"]}
+        primary_topics: ["schedule", "reporting", "progress"]
+        note: "含 WBS, Planning & Scheduling Procedure, Progress Measurement, Reporting templates"
+      - exhibit_ref: "Exh K"
+        title: "Owner's Special Requirements & Reference"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["back-to-back"]}
+        primary_topics: ["owner requirements", "back-to-back", "compliance", "ICV", "insurance"]
+        note: "含 ADNOC Code of Conduct, ICV guidelines, Insurance Requirements, Subcontracting rules"
+
+  commercial:
+    currency: "AED"
+    # ——— Source: BOQ Rev. C A-Summary (Appendix D.1 BOQ For MEI-Package II Rev.C) ———
+    contract_value: 155469166.50       # Excluding VAT
+    contract_value_excluding_vat: 155469166.50
+    contract_value_including_vat: 163242624.82
+    vat_pct: 5
+    vat_amount: 7773458.32
+    direct_cost: 104362415.38
+    indirect_cost: 51106751.12
+    unit_price_basis: true             # Measure & pay — all-inclusive unit rates
+    note_pricing: "Measure & pay basis. BOQ Rev. C dated 30/DEC/2025. Unit rates remain unchanged during execution per LOA."
+
+    # ——— Payment terms: extracted from LOA + SCS ———
+    # LOA §Pricing: "based on measure and pay basis for actual and accepted work done"
+    # 12.1 MEI template used as reference (same SCS framework)
+    # ⚠️ Actual payment clause numbers need verification against (e) SCS final version
+    advance_payment_pct: null           # Needs extraction from executed subcontract
+    advance_payment_repay_pct: null
+    performance_bond_pct: null
+    retention_pct: null
+    payment_days: null
+    defects_liability_months: null
+    warranty_months: null
+    note_commercial_gaps: >
+      Advance payment, performance bond, retention, payment terms NOT yet extracted
+      from the executed subcontract documents. The (e) Special Conditions of Subcontract
+      (signed version in 小签合同/) and the executed Subcontract Agreement contain these terms.
+      Priority: read the signed SCS and Subcontract Agreement to fill these fields.
+
+  liquidated_damages:
+    source: "LOA Attachment 1 + Exhibit E Appendix (Key Personnel & LD)"
+    delay:
+      applicable: true
+      per_day_pct: 0.1                 # 0.1% of provisional Subcontract Price per day
+      cap_pct: 10                      # Total aggregate cap
+      note: "Per LOA: 7 milestones at 0.1%/day each, total cap 10% of Subcontract Price"
+      milestone_schedule:
+        - {milestone: "1. Completion of Pipe rack structure installation", date: "2026-11-19", per_day_pct: 0.1}
+        - {milestone: "2. Completion of Equipment erection", date: "2026-12-15", per_day_pct: 0.1}
+        - {milestone: "3. Substation Ready for Energization", date: "2027-04-07", per_day_pct: 0.1}
+        - {milestone: "4. Loop test completion", date: "2027-06-30", per_day_pct: 0.1}
+        - {milestone: "5. Completion of Piping Hydro Test", date: "2027-06-10", per_day_pct: 0.1}
+        - {milestone: "6. Mechanical Completion", date: "2027-07-31", per_day_pct: 0.1}
+        - {milestone: "7. All punch items closed & outstanding works completed", date: "2027-09-30", per_day_pct: 0.1, cap: "1% individual"}
+    key_personnel:
+      applicable: true
+      per_day: 10000                   # AED per person per day
+      count: 8
+      source: "Exhibit E Appendix - Key Personnel & Liquidated Damages (Rev.00)"
+      positions:
+        - {position: "Project Director", name: "Luo Jingbo", ld_per_day: 10000}
+        - {position: "Project Manager", name: "Sun Panpan", ld_per_day: 10000}
+        - {position: "Construction Manager", name: "Wang Zhichao", ld_per_day: 10000}
+        - {position: "Control Manager", name: "Yue Chenjun", ld_per_day: 10000}
+        - {position: "Contract Manager/Commercial Manager", name: "Su Youfei", ld_per_day: 10000}
+        - {position: "HSE Manager", name: "Muhamaad", ld_per_day: 10000}
+        - {position: "Quality Manager", name: "Alarm", ld_per_day: 10000}
+        - {position: "Procurement Manager", name: "Kun Weijian", ld_per_day: 10000}
+      note: >
+        30-day mobilization deadline from LOA. KP LD triggers if not mobilized to project within 30 days.
+        Replacement requires 20 Business Days notice (or 10 for death/illness/resignation).
+        Contractor can request replacement; Subcontractor must comply within 30 days.
+    performance:
+      applicable: false                # LOA: no performance LD specified
+
+  claims:
+    variation_notice_days: null        # Needs extraction from GCS Article 21
+    eot_notice_days: null
+    claim_notice_days: null
+
+  variation:
+    amendment_count: 0
+    total_variation_value: null
+    final_account_status: pending
+
+  payment_status:
+    total_paid: null
+    total_outstanding: null
+    last_ipc_no: null
+
+  linked:
+    clauses: []
+    correspondence_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Corres/"
+    payment_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Pymt/"
+    note_clauses: >
+      SCS has 7 sections: (1) Definitions, (2) Design Responsibility,
+      (3) Procurement, (4) Confidentiality, (5) Warranty & Guaranty,
+      (6) Title & Risk, (7) Intellectual Property.
+      GCS clause numbering follows MEI framework (same as 12.1).
+      Clause links to be populated after GCS extraction.
+
+  price_data:
+    boq_dir: "_tools/price-database/TCC_MEI_PkgII/"
+    boq_revision: "Rev. C, 2025-12-30"
+    csv_count: 32
+
+  icv:
+    target_pct: 40
+    penalty_cap_pct: 5                # 5% of Contract Price
+
+  issues:
+    - title: "Payment terms not yet extracted from executed subcontract"
+      status: open
+      note: "Need to read signed SCS (小签合同/2. Special Conditions) and Subcontract Agreement for bond/payment/retention details."
+    - title: "GCS clause links not populated"
+      status: pending
+      note: "Extract GCS clause references to connect with clause-library/"
+
+  ocr_status:
+    kb_mirror_exists: true             # 104 files OCR'd, 0 conversion failures
+    kb_dir: "_Ref/kb/subcon/12.2 TCC - MEI Pkg II/"

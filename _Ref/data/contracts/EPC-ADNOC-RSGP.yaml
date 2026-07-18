@@ -3,67 +3,107 @@ contract:
   name: "ADNOC RSGP EPC Agreement"
   type: EPC
   status: active
-  vendor: null                  # Wison is Contractor
-  discipline: null              # All disciplines
-  package: null                 # Entire project
-  contract_ref: "6000066707"
-  parent_contract: null         # Top of hierarchy
-  execution_date: null          # 待提取
+  vendor: null                        # Wison is Contractor to ADNOC
+  discipline: null                     # All disciplines
+  package: null                       # Entire project
+  contract_ref: "4700025948"
+  agreement_no: "4700025948"
+  project_no: "1005312"
+  parent_contract: null               # Top of hierarchy
+  execution_date: "2025-02-14"        # Effective Date (Priced Draft FOA)
+  commencement_date: "2025-02-13"     # Commencement Date (Priced Draft FOA)
   revision: "FIDIC Silver Book (ADNOC-CICV-505A v6)"
   risk_level: high
 
+  parties:
+    company: "ADNOC GAS OPERATIONS AND MARKETING – L.L.C."
+    company_rep: "Mr. Jasem Al Hosani, Vice President/A"
+    contractor: "WISON ENERGY ENGINEERING (HONG KONG) LIMITED – ABU DHABI"
+    contractor_rep: "Mr. Feng Guoling, Project Manager"
+    contractor_licence: "CN-1432877"
+
+  # ——— 数据来源：FOA_Priced_Draft_ocred.pdf (Main_Contract/) ———
+  # 这是一个"已标价草案"(Priced Draft)，非最终签署版。
+  # 最终签署版 FOA 以 [●] 占位替代了实际金额（业主要求保密）。
+  # 以下数据从 Priced Draft 提取，应视作权威参考值。
+  # 当获取到 ADNOC 确认的最终商务数据时回溯修正。
+
   commercial:
-    currency: "AED"
-    contract_value: null        # 待从 EPC Agreement 提取
-    provisional_sum: null
-    advance_payment_pct: null
-    performance_bond_pct: null
-    retention_pct: null
-    defects_liability_months: null
-    warranty_months: null
+    currency: "USD"
+    contract_value: 686205286.00       # Source: FOA Priced Draft §INITIAL AGREEMENT PRICE
+    contract_value_breakdown:
+      lump_sum: 682754729.00
+      provisional_sum: 3450557.00      # REIMBURSABLE ITEMS
+    optional_items: 13770337.00        # Excluded from Initial Price
+    note_pricing: "Lump Sum + Provisional Sum; Optional Items excluded"
 
-    advance_payment_guarantee:
-      required: null
-      amount: null
-      expiry_condition: null
+    advance_payment_pct: 10            # Source: FOA Priced Draft §ADVANCE PAYMENT
+    advance_payment_amount: 68620528.60
+    advance_payment_note: "YES — USD 68,620,528.60"
 
-    performance_bond:
-      required: null
-      amount: null
-      expiry_condition: null
+    performance_bond_pct: 10           # Source: FOA Priced Draft §PERFORMANCE BANK GUARANTEE
+    performance_bond_amount: 68620528.60
 
-    retention:
-      release_upon_completion_pct: null
-      release_upon_final_pct: null
+    parent_company_guarantee: true     # Required for Overseas Branch
+
+    retention_pct: null                # Not explicitly stated in FOA — needs GTC extraction
+    retention_release_conditions: null
+
+    warranty_months: 12                # Source: FOA Priced Draft §Expiry of WARRANTY PERIOD
+    warranty_note: "From Provisional Acceptance Certificate date"
+
+    defects_liability_months: 12       # Same as Warranty Period
 
   liquidated_damages:
+    source: "FOA Priced Draft + ANX 05 Exh A.09 (Signed)"
     delay:
-      per_day: null             # 待从 ANX 05 Exh A.09 提取
-      cap_pct: null
-      cap_amount: null
-      trigger: null
-
+      per_day_pct: null                # Varies by milestone (see schedule below)
+      cap_pct: 10                      # Source: FOA Priced Draft §Overall maximum amount
+      cap_amount: 68620528.60          # 10% of Agreement Price
+      note: "15 milestones with individual daily rates and caps. See milestone_schedule below."
+    milestone_schedule:
+      # Format: milestone, month_from_CD, per_day_pct, cap_pct
+      - {milestone: "A.9.1.1 P.O for Material Handling Equipment", month: 5, per_day_pct: 0.01167, cap_pct: 0.35}
+      - {milestone: "A.9.1.2 P.O for Stacker Reclaimer", month: 5, per_day_pct: 0.01167, cap_pct: 0.35}
+      - {milestone: "A.9.1.3 P.O for Sulphur Remelter Package", month: 6, per_day_pct: 0.01167, cap_pct: 0.35}
+      - {milestone: "A.9.1.4 P.O for Transfer Pumps", month: 5, per_day_pct: 0.01167, cap_pct: 0.35}
+      - {milestone: "A.9.1.5 Sub Station Complete", month: 27, per_day_pct: 0.02, cap_pct: 0.6}
+      - {milestone: "A.9.1.6 Linear Storage Building", month: 31, per_day_pct: 0.025, cap_pct: 0.75}
+      - {milestone: "A.9.1.7 Liquid Sulphur Tanks & Pumps", month: 31, per_day_pct: 0.025, cap_pct: 0.75}
+      - {milestone: "A.9.1.8 Interface with Existing Area", month: 30, per_day_pct: 0.01667, cap_pct: 0.5}
+      - {milestone: "A.9.1.9 Stacker/Reclaimer Complete", month: 32, per_day_pct: 0.03333, cap_pct: 1.0}
+      - {milestone: "A.9.1.10 Granulators Complete", month: 32, per_day_pct: 0.03333, cap_pct: 1.0}
+      - {milestone: "A.9.1.11 Conveyors Complete", month: 33, per_day_pct: 0.03333, cap_pct: 1.0}
+      - {milestone: "A.9.1.12 Linear Storage Commissioning", month: 34, per_day_pct: 0.03333, cap_pct: 1.0}
+      - {milestone: "RFC of all Project Facilities", month: 34, per_day_pct: 0.025, cap_pct: 0.75}
+      - {milestone: "RFSU of all Project Facilities", month: 35, per_day_pct: 0.025, cap_pct: 0.75}
+      - {milestone: "PROVISIONAL ACCEPTANCE (PAC)", month: 38, per_day_pct: 0.01667, cap_pct: 0.5}
     key_personnel:
-      per_day: null             # EPC 层可能不设 Key Personnel LD
+      per_day: null                   # EPC layer: no KP LD specified
       count: null
       positions: []
-      trigger: null
-
+      note: "EPC does not impose Key Personnel LD on Contractor (Wison). KP LD flows down to subcontractors only."
     performance:
       applicable: true
-      per_day: null             # 待从 ANX 05 Exh A.09 + ANX 10 Exh A.11 提取
+      per_day: null                   # Performance Guarantees in ANX 10 Exh A.11 — not yet extracted
       cap_pct: null
+    total_liability_cap_pct: 100      # Source: FOA Priced Draft §Total liability cap
 
   payment_terms:
-    milestone_based: null
-    monthly_ipc: null
-    payment_days: null
-    invoicing_format: null
+    invoicing_currency: "USD"
+    frequency: "Monthly"
+    payment_days: null                # Needs extraction from GTC Article 23
+    invoicing_note: "Submit detailed monthly invoices with supporting documentation per AGREEMENT requirements"
+    advance_payment_repay_pct: null   # Needs extraction from GTC
 
   insurance:
-    required_types: null        # ANX 07
-    contractor_provides: null
-    subcontractor_provides: null
+    source: "ANX 07 Insurance Requirements + FOA"
+    additional_requirements: "None"   # FOA Priced Draft: no additional beyond Articles 42.1-42.15
+
+  icv:
+    source: "ANX 13 ICV Improvement Plan"
+    penalty_per_national: "AED 20,000 per National per month"  # from GTC
+    penalty_grace_period_months: 3
 
   documents:
     part_i_dir: "01_EPC Agrmt/"
@@ -71,29 +111,35 @@ contract:
     attachment_count: 14
     amendment_dirs: []
     key_files:
+      - path: "FOA_Priced_Draft_ocred.pdf"
+        description: "EPC FOA Priced Draft (8pp) — SOURCE OF COMMERCIAL DATA. Actual numbers filled in."
+      - path: "FOA_Unpriced_Signed_ocred.pdf"
+        description: "EPC FOA Signed (199pp) — [●] placeholders replace actual values"
       - path: "FOA - ANX 1-13 CoverPages_Bilingual_ocred.pdf"
-        description: "EPC Form of Agreement + Annexures 1-13 (Bilingual, 199pp)"
+        description: "EPC Bilingual Template (199pp) — structural reference"
       - path: "ANX 05_Pricing Schedule/ANX05_Exh A.09_Liquidated Damages - Bonus Provisions_Signed_ocred.pdf"
-        description: "LD & Bonus Provisions"
+        description: "LD & Bonus Provisions (8pp, Signed)"
       - path: "ANX 05_Pricing Schedule/ANX05_Exh A.07_Pricing Invoicing - Variation Rates.docx"
-        description: "Pricing & Variation Rates"
+        description: "Pricing, Invoicing & Variation Rates (Signed)"
+      - path: "ANX 08_Securities - Forms/ANX08_8-B_Performance Bank Guarantee_Signed.pdf"
+        description: "Performance Bank Guarantee Form (3pp)"
+      - path: "ANX 08_Securities - Forms/ANX08_8-C_Advance Payment Bank Guarantee_Signed.pdf"
+        description: "Advance Payment Guarantee Form (3pp)"
       - path: "ANX 10_Execution Requirements/ANX10_Exh A.11_Performance Guarantees_Signed_ocred.pdf"
-        description: "Performance Guarantees"
-      - path: "ANX 12_HSE Requirements/"
-        description: "HSE Standards (200+ files)"
+        description: "Performance Guarantees (12pp)"
 
   linked:
-    ocr_markdown: "kb/FOA - ANX 1-13 CoverPages_Bilingual.md"
-    clauses: []
+    ocr_markdown: "kb/FOA_Priced_Draft.md"
+    clauses: []                       # Still to be populated — needs GTC clause extraction
     wiki_pages:
       - page: "EPC-Contract-Structure"
-        path: "wiki/EPC-Contract-Structure.md"
+        path: "wiki/Contracts/EPC-Contract-Structure.md"
       - page: "Liquidated-Damages"
         path: "wiki/Liquidated-Damages.md"
       - page: "Performance-Guarantee"
         path: "wiki/Performance-Guarantee.md"
-    correspondence_dir: "Main_Contract/Corres/"
-    payment_dir: "Main_Contract/Pymt/"
+    correspondence_dir: null
+    payment_dir: null
 
   variation:
     amendment_count: 0
@@ -101,6 +147,17 @@ contract:
     final_account_status: null
 
   payment_status:
-    total_paid: null
+    total_paid: null                  # Needs extraction from project commercial data
     total_outstanding: null
     last_ipc_no: null
+
+  issues:
+    - title: "EPC 商业数据来源为 Priced Draft，非签署版"
+      status: monitoring
+      note: "签署版 FOA 将实际金额替换为 [●] 占位符。当前数据来自价格草案。需确认签署版中的最终金额是否与草案一致。"
+    - title: "Optional Items USD 13.77M 未激活"
+      status: monitoring
+      note: "Optional Items 排除在初始合同额之外。如需执行，需 Change Order 激活。"
+    - title: "Performance Guarantees (ANX 10 Exh A.11) 未提取"
+      status: pending
+      note: "ANX 10 Exh A.11 Performance Guarantees 中包含工艺性能担保参数（如硫磺造粒产能等），尚未结构化。"
