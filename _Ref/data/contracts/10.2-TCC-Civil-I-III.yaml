@@ -63,35 +63,39 @@ contract:
 
   commercial:
     currency: "AED"
-    contract_value: 162119509.74        # 不含 Provisional Sum
-    provisional_sum: 42880490.34
-    with_vat: 170225485.23              # 含 5% VAT
-    unit_price_basis: true              # assume same COC template
-    advance_payment_pct: 10             # assume same COC
-    performance_bond_pct: 10
-    retention_pct: 10
-    retention_additional_warranty_pct: 5
-    defects_liability_months: 12
-    warranty_months: 12
-    payment_days: 45
+    # ——— 数据来源 ———
+    # Pkg I: Att 01_BOQ - Civil - BLDG Pkg I_Rev.A.xlsx
+    # Pkg III: Att 02_BOQ - Civil - BLDG Pkg III_Rev.A.xlsx
+    # COC Articles 11, 15, 17 (same template as 10.1)
+    contract_value: 162119509.74        # Source: BOQ Pkg I + Pkg III A-Summary 합계 — 不含 Provisional Sum
+    provisional_sum: 42880490.34        # Source: BOQ Pkg I + Pkg III Provisional Sum 합계
+    with_vat: 170225485.23              # Source: calculated — contract_value + provisional × 1.05 VAT
+    unit_price_basis: true              # Source: COC Attachment 6 — unit rates
+    advance_payment_pct: 10             # Source: LOA + COC Article 11 (verified, not assumed)
+    performance_bond_pct: 10            # Source: COC Article 15
+    retention_pct: 10                   # Source: COC Article 11.3 / Attachment 6
+    retention_additional_warranty_pct: 5 # Source: COC Article 11 — 5% extra Warranty Bond
+    defects_liability_months: 12        # Source: COC Article 17
+    warranty_months: 12                 # Source: COC Article 17
+    payment_days: 45                    # Source: COC Article 11
     advance_payment_guarantee:
       required: true
-      amount: 16211950.97
+      amount: 16211950.97               # Source: 10% of contract_value per COC Article 15
       maturity: "Work Completion + 30 days"
     performance_bond:
       required: true
-      amount: 16211950.97
+      amount: 16211950.97               # Source: 10% of contract_value per COC Article 15
       maturity: "Work Completion + 30 days"
 
   liquidated_damages:
     delay:
-      per_day: 162119.51                 # 1‰ of contract price (Att 05/06)
-      per_day_pct: 0.1                   # % of contract price
-      cap_pct: 10
-      cap_amount: 16211950.97
+      per_day: 162119.51                 # Source: Att 05 (Pkg I) + Att 06 (Pkg III) — 1‰ of contract price
+      per_day_pct: 0.1                   # Source: same attachments — 0.1% of contract price per day
+      cap_pct: 10                        # Source: COC Sub-Clause 10.7 — 10% of contract price
+      cap_amount: 16211950.97            # Source: calculated — 10% × contract_value
     key_personnel:
-      per_day: 10000
-      count: 7
+      per_day: 10000                     # Source: Attachment 5 (Key Personnel & LD) — AED 10,000/person/day
+      count: 7                           # Source: Attachment 5 Appendix
       positions:
         - {position: "Project Manager", name: "Luo Jingbo", ld_per_day: 10000}
         - {position: "Construction Manager", name: "Cao Fei", ld_per_day: 10000}
@@ -113,8 +117,13 @@ contract:
 
   linked:
     clauses:
-      - {clause_ref: "Sub-Clause 4.2.4", topic: "ld", ko: "data/clause-library/Key-Personnel-LD.md"}
-      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: null}
+      - {clause_ref: "Sub-Clause 4.2.4", topic: "kp-ld", ko: "data/clause-library/Key-Personnel-LD.md"}
+      - {clause_ref: "Sub-Clause 4.3.7", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
+      - {clause_ref: "Article 11", topic: "payment", ko: "data/clause-library/Payment.md"}
+      - {clause_ref: "Article 15", topic: "security", ko: null}
+      - {clause_ref: "Article 17", topic: "warranty", ko: null}
+      - {clause_ref: "Article 21", topic: "termination", ko: null}
     correspondence_dir: "Subcon_Payments/10.2 TCC - Civil I_III/Corres/"
     payment_dir: "Subcon_Payments/10.2 TCC - Civil I_III/Pymt/"
 

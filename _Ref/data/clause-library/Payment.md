@@ -20,7 +20,8 @@
 | 10.1 CCECC Civil II | COC | Article 11, Attachment 6 | Article 15 |
 | 10.2 TCC Civil I/III | COC | Article 11, Attachment 6 | Article 15 |
 | 12.1 CCECC MEI I | SCS | Clause 19, Exh D | Clause 28 |
-| EPC-ADNOC-RSGP | FIDIC Silver Book | *(待)* | *(待)* |
+| 12.2 TCC MEI II | SCS | Clause 19, Exh D | Clause 28 |
+| EPC-ADNOC-RSGP | FIDIC Silver Book | GTC Article 23 | GTC Article 30 |
 
 ---
 
@@ -86,16 +87,16 @@
 
 ## Cross-Contract Comparison
 
-| Item | 10.1 Civil II | 10.2 Civil I/III | 12.1 MEI I |
-|------|:---:|:---:|:---:|
-| Advance % | 10% | 10% | 10% |
-| Installments | 1 | 1 | **2** |
-| Payment Days | 45 | 45 | 45 |
-| Retention % | 10%+5% | 10%+5% | 10% |
-| Retention Release | WC | WC | **PA+guarantee** |
-| DLP | 12m | 12m | 12m |
-| SM System LD | — | — | AED 10,000 |
-| ICV Target | 46% | — | **60%** |
+| Item | 10.1 Civil II | 10.2 Civil I/III | 12.1 MEI I | 12.2 MEI II |
+|------|:---:|:---:|:---:|:---:|
+| Advance % | 10% | 10% | 10% | *(待)* |
+| Installments | 1 | 1 | **2** | *(待)* |
+| Payment Days | 45 | 45 | 45 | *(待)* |
+| Retention % | 10%+5% | 10%+5% | 10% | *(待)* |
+| Retention Release | WC | WC | **PA+guarantee** | *(待)* |
+| DLP | 12m | 12m | 12m | *(待)* |
+| SM System LD | — | — | AED 10,000 | *(待)* |
+| ICV Target | 46% | — | **60%** | 40% |
 
 ---
 

@@ -130,7 +130,16 @@ contract:
 
   linked:
     ocr_markdown: "kb/FOA_Priced_Draft.md"
-    clauses: []                       # Still to be populated — needs GTC clause extraction
+    clauses:
+      - {clause_ref: "GTC Article 18.4(e)", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
+      - {clause_ref: "GTC Article 23 (Payment)", topic: "payment", ko: "data/clause-library/Payment.md"}
+      - {clause_ref: "GTC Article 24.4(a)(b) (CVR Time-bar)", topic: "claim", ko: "data/clause-library/RULE-001_CVR_TimeBar.md"}
+      - {clause_ref: "GTC Article 23.1 (Payment Precondition)", topic: "payment", ko: "data/clause-library/RULE-004_Payment_Precondition.md"}
+      - {clause_ref: "GTC Article 17 (Warranty)", topic: "warranty", ko: "data/clause-library/RULE-003_Warranty_Gap.md"}
+      - {clause_ref: "ANX 05 Exh A.09 (LD Schedule)", topic: "ld", ko: "data/clause-library/RULE-002_LD_FlowDown.md"}
+      - {clause_ref: "GTC Article 30 (Securities)", topic: "security", ko: null}
+      - {clause_ref: "GTC Article 42 (Insurance)", topic: "insurance", ko: null}
+      - {clause_ref: "GTC Article 47 (Dispute Resolution)", topic: "dispute", ko: null}
     wiki_pages:
       - page: "EPC-Contract-Structure"
         path: "wiki/Contracts/EPC-Contract-Structure.md"

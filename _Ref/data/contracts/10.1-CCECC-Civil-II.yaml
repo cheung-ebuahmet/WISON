@@ -66,38 +66,38 @@ contract:
 
   commercial:
     currency: "AED"
-    contract_value: 149832038.65
-    provisional_sum: 10850170.06
-    unit_price_basis: true
-    advance_payment_pct: 10
-    advance_payment_repay_pct: 10       # per IPC deduction
-    performance_bond_pct: 10
-    retention_pct: 10                   # 7.5% interim + 2.5% accumulated, 100% release at Work Completion
-    retention_additional_warranty_pct: 5   # 5% extra as Warranty Bond / Defects Liability Retention
-    defects_liability_months: 12
-    warranty_months: 12
-    warranty_extended_months: 18         # Additional Warranty Period upon rectification
-    payment_days: 45                     # from receipt of correct invoice
+    contract_value: 149832038.65         # Source: Att 01_BOQ - Civil - BLDG Pkg II.xlsx §A-Summary
+    provisional_sum: 10850170.06         # Source: Att 01_BOQ - Civil - BLDG Pkg II.xlsx §Provisional Sum
+    unit_price_basis: true               # Source: COC — measure & pay with unit rates
+    advance_payment_pct: 10              # Source: COC Article 11 / LOA §Advance Payment
+    advance_payment_repay_pct: 10        # Source: COC Article 11 — per IPC deduction
+    performance_bond_pct: 10             # Source: COC Article 15 / LOA §Performance Bond
+    retention_pct: 10                    # Source: COC Article 11.3 / Attachment 6 — 7.5% interim + 2.5% accumulated, 100% release at Work Completion
+    retention_additional_warranty_pct: 5 # Source: COC Article 11 — 5% extra as Warranty Bond / Defects Liability Retention
+    defects_liability_months: 12         # Source: COC Article 17
+    warranty_months: 12                  # Source: COC Article 17
+    warranty_extended_months: 18         # Source: COC Article 17 — Additional Warranty Period upon rectification
+    payment_days: 45                     # Source: COC Article 11 — from receipt of correct invoice
     advance_payment_guarantee:
       required: true
-      amount: 14983203.87               # 10% of contract price
+      amount: 14983203.87               # Source: 10% of contract price per COC Article 15
       maturity: "Work Completion + 30 days"
     performance_bond:
       required: true
-      amount: 14983203.87               # 10% of contract price
+      amount: 14983203.87               # Source: 10% of contract price per COC Article 15
       maturity: "Work Completion + 30 days"
-      increase_on_change_pct: 5          # if COs exceed 5% of original price
+      increase_on_change_pct: 5          # Source: COC Article 15 — if COs exceed 5% of original price
 
   liquidated_damages:
     delay:
-      per_day: 149832.04                 # 1‰ of contract price (Att 04_Delay LD - Civil Pkg II)
-      per_day_pct: 0.1                   # % of contract price
-      cap_pct: 10
-      cap_amount: 14983203.87
-      trigger: "Key Milestones missed"
+      per_day: 149832.04                 # Source: Att 04_Delay LD - Civil Pkg II — 1‰ of contract price
+      per_day_pct: 0.1                   # Source: same attachment — 0.1% of contract price per day
+      cap_pct: 10                        # Source: Att 04_Delay LD — 10% of contract price
+      cap_amount: 14983203.87            # Source: calculated — 10% × contract_value
+      trigger: "Key Milestones missed"   # Source: COC Sub-Clause 10.7
     key_personnel:
-      per_day: 10000
-      count: 7
+      per_day: 10000                     # Source: Attachment 5 (Key Personnel & LD) — AED 10,000/person/day
+      count: 7                           # Source: Attachment 5 Appendix
       positions:
         - {position: "Project Manager", name: "Zhiming Chen", ld_per_day: 10000}
         - {position: "Construction Manager", name: "Li Jianhu", ld_per_day: 10000}
@@ -121,9 +121,14 @@ contract:
 
   linked:
     clauses:
-      - {clause_ref: "Sub-Clause 4.2.4", topic: "ld", ko: "data/clause-library/Key-Personnel-LD.md"}
+      - {clause_ref: "Sub-Clause 4.2.4", topic: "kp-ld", ko: "data/clause-library/Key-Personnel-LD.md"}
+      - {clause_ref: "Sub-Clause 4.3.3", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "Sub-Clause 4.3.6", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
       - {clause_ref: "Sub-Clause 4.3.7", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
-      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: null}
+      - {clause_ref: "Sub-Clause 10.7", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
+      - {clause_ref: "Article 11", topic: "payment", ko: "data/clause-library/Payment.md"}
+      - {clause_ref: "Article 15", topic: "security", ko: null}
+      - {clause_ref: "Article 17", topic: "warranty", ko: null}
       - {clause_ref: "Article 21.2", topic: "termination", ko: null}
     correspondence_dir: "Subcon_Payments/10.1 CCECC - Civil II/Corres/"
     payment_dir: "Subcon_Payments/10.1 CCECC - Civil II/Pymt/"

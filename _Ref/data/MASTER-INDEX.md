@@ -60,9 +60,9 @@ _Ref/                                    ← 商业合同知识层（仅商业�
 
 | 合同 | 金额 | KP LD | 商业价值 | 成熟度 |
 |------|------|:---:|:---:|:---:|
-| 10.1 CCECC Civil II | AED 149.8M | AED 10,000 | ⭐ critical | 60% |
-| 10.2 TCC Civil I/III | *(待)* | *(待)* | ⭐ critical | 35% |
-| 12.1 CCECC MEI I | *(待)* | AED 10,000 | ⭐ critical | 35% |
+| 10.1 CCECC Civil II | AED 149.8M | AED 10,000 | ⭐ critical | 95% |
+| 10.2 TCC Civil I/III | AED 162.1M | AED 10,000 | ⭐ critical | 95% |
+| 12.1 CCECC MEI I | AED 160.9M | AED 10,000 | ⭐ critical | 95% |
 | 12.2 TCC MEI II | AED 155.5M | AED 10,000 | ⭐ critical | 70% |
 | 99 LONGTAIDI Fire Prefab | *(tender)* | *(tender)* | ⭐ high (pre-award) | 50% |
 | EPC-ADNOC-RSGP | USD 686.2M | — | ⭐ critical | 75% |
@@ -78,7 +78,7 @@ _Ref/                                    ← 商业合同知识层（仅商业�
 |:---:|------|:---:|
 | ⭐⭐⭐⭐⭐ | Payment | ✅ |
 | ⭐⭐⭐⭐⭐ | Variation | ⚠️ 待建 |
-| ⭐⭐⭐⭐⭐ | Delay / LD | ✅ KP-LD, ⚠️ Delay-LD |
+| ⭐⭐⭐⭐⭐ | Delay / LD | ✅ KP-LD, ✅ Delay-LD |
 | ⭐⭐⭐⭐⭐ | EOT | ⚠️ 待建 |
 | ⭐⭐⭐⭐⭐ | Claims / Notice | ⚠️ 待建 |
 | ⭐⭐⭐⭐ | Termination | ⚠️ 待建 |
@@ -111,6 +111,8 @@ _Ref/                                    ← 商业合同知识层（仅商业�
 |---|------|------|:---:|------|
 | 1 | 10.1 | 项目经理缺位 (Material Breach) | open | AED 10,000/day |
 | 2 | 12.1 | Milestone No.2 逾期 — Delay LD 保留 | open | AED 160,892/day |
+| 3 | 12.1 | **CCC-0006 NOTICE OF DEFAULT** | **open** | **待提取** |
+| 4 | 12.1 | KP 姓名栏全部为空（合同签署时未填） | open | AED 70,000/day (7人) |
 | — | — | *(后续新问题追加此处)* | | |
 
 ---
@@ -152,19 +154,18 @@ python _tools/query_graph.py --search "Delay LD"              # 关键词搜索
 
 | # | 动作 |
 |---|------|
-| 1 | 10.1 样板验证通过后，批量迁移 10.2 / 12.1 / EPC |
-| 2 | 建 issue-schema.yaml |
-| 3 | 补建 5 个 ⭐⭐⭐⭐⭐ 条款 KO |
-| 4 | 函件库：录入 10.1 Corres 目录下现有函件 |
-| 5 | ~~99 LONGTAIDI 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
-| 6 | ~~12.2 TCC MEI II 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
-| 7 | ~~EPC 主合同商业数据提取~~ ✅ 已完成 2026-07-18 (USD 686.2M + LD schedule) |
-| 8 | ~~补填 12.1 的 7 个 KP 姓名~~ ⚠️ 合同中姓名栏为空白 — 见 YAML note |
-| 9 | ~~12 封未跟踪信函建 correspondence YAML~~ ✅ 已完成 2026-07-18 (12封新录入) |
-| 10 | 所有 YAML 商业数字加 source 注释（10.1/10.2/12.1 尚缺） |
-| 11 | 补全 9 条条款 ko: 链接 |
-| 6 | MEI 包 Exhibit D → 价格 CSV 提取（唯一缺失的价格数据源） |
-| 7 | 建 Decision Log（参考 [[amdt-drafting-conventions]] 模式） |
+| 1 | ~~建 issue-schema.yaml~~ (deferred — use YAML `issues:` blocks instead) |
+| 2 | 补建 5 个 ⭐⭐⭐⭐⭐ 条款 KO (Variation, EOT, Claims, Termination, Security) |
+| 3 | ~~99 LONGTAIDI 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
+| 4 | ~~12.2 TCC MEI II 合同 YAML 新建~~ ✅ 已完成 2026-07-18 |
+| 5 | ~~EPC 主合同商业数据提取~~ ✅ 已完成 2026-07-18 |
+| 6 | ~~12.1 KP 姓名补填~~ ⚠️ 合同中姓名栏为空白 — 见 YAML note |
+| 7 | ~~12 封未跟踪信函建 correspondence YAML~~ ✅ 已完成 2026-07-18 |
+| 8 | ~~所有 YAML 商业数字加 source 注释~~ ✅ 已完成 2026-07-18 |
+| 9 | ~~补全 12 条条款 ko: 链接~~ ✅ 已完成 2026-07-18 |
+| 10 | 知识图谱重建（纳入 12.2 + LONGTAIDI + 修复腐败节点） |
+| 11 | price-database/_manifest.json 补充 4 个缺失子目录 |
+| 12 | CCECC_PkgII CSV 补 `# Source:` 行 |
 
 ---
 

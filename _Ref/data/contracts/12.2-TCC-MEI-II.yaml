@@ -206,7 +206,13 @@ contract:
     last_ipc_no: null
 
   linked:
-    clauses: []
+    clauses:
+      - {clause_ref: "SCS Clause 5 (Warranty & Guaranty)", topic: "warranty", ko: null}
+      - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "SCS Clause 17", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
+      - {clause_ref: "SCS Clause 19", topic: "payment", ko: "data/clause-library/Payment.md"}
+      - {clause_ref: "SCS Clause 28", topic: "security", ko: null}
+      - {clause_ref: "GCS Article 21", topic: "variation", ko: null}
     correspondence_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Corres/"
     payment_dir: "Subcon_Payments/12.2 TCC - MEI Pkg II/Pymt/"
     note_clauses: >
@@ -214,7 +220,7 @@ contract:
       (3) Procurement, (4) Confidentiality, (5) Warranty & Guaranty,
       (6) Title & Risk, (7) Intellectual Property.
       GCS clause numbering follows MEI framework (same as 12.1).
-      Clause links to be populated after GCS extraction.
+      Clause links connected 2026-07-18.
 
   price_data:
     boq_dir: "_tools/price-database/TCC_MEI_PkgII/"

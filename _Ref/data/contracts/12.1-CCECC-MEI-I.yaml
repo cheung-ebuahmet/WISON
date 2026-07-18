@@ -78,40 +78,44 @@ contract:
 
   commercial:
     currency: "AED"
-    contract_value: 160891988.19
-    provisional_sum: 42677500.00
-    with_vat: 168936587.60
-    vat_pct: 5
-    unit_price_basis: false      # MEI: lump sum + unit rates for direct price
-    advance_payment_pct: 10
-    advance_payment_installments: 2     # 50% on APG+PB receipt, 50% on mobilization
-    advance_payment_days: 30            # within 30 days of invoice+conditions
-    advance_payment_repay_pct: 10
-    performance_bond_pct: 10
-    performance_bond_expiry: "45 days after last Guarantee Period"  # differs from Civil (Work Completion+30d)
-    performance_bond_increase_pct: 10   # increase if CO/Amdt > 10% of original price
-    retention_pct: 10                   # withheld from each IPC
-    retention_release: "Provisional Acceptance + unconditional bank guarantee"  # differs from Civil
-    retention_early_release_pct: "0.5-1% if qualified CDCE submitted within 45 days of IFC"
-    icv_target_pct: 60
-    icv_penalty_pct: 5
-    payment_days: 45                    # calendar days
-    payment_invoice_cutoff: "5th of following month"
-    payment_system: "Contractor SM system (mandatory)"
-    procurement_assistance_fee_pct: 5
-    defects_liability_months: 12        # "Guarantee Period" from Provisional Acceptance
-    warranty_months: 12
+    # ——— 数据来源 ———
+    # Pkg I-1: Appendix D 1 BOQ For MEI-Package i-1 Rev. D.xlsx
+    # Pkg I-3: Appendix D 1 BOQ For MEI-Package i-3 Rev. D.xlsx
+    # SCS Clauses 19 (Payment), 28 (Security), 8 (Personnel)
+    contract_value: 160891988.19         # Source: BOQ MEI Pkg I-1 + I-3 A-Summary 합계
+    provisional_sum: 42677500.00         # Source: same BOQ — Provisional Sum
+    with_vat: 168936587.60               # Source: calculated — contract_value × 1.05 VAT
+    vat_pct: 5                           # Source: UAE VAT law
+    unit_price_basis: false              # Source: SCS Clause 19 / Exh D — MEI: lump sum + unit rates for direct price
+    advance_payment_pct: 10              # Source: SCS Clause 28 / LOA
+    advance_payment_installments: 2      # Source: SCS Clause 28 — 50% on APG+PB receipt, 50% on mobilization
+    advance_payment_days: 30             # Source: SCS Clause 28 — within 30 days of invoice+conditions
+    advance_payment_repay_pct: 10        # Source: SCS Clause 28 — per IPC deduction
+    performance_bond_pct: 10             # Source: SCS Clause 28
+    performance_bond_expiry: "45 days after last Guarantee Period"  # Source: SCS Clause 28 — differs from Civil (Work Completion+30d)
+    performance_bond_increase_pct: 10    # Source: SCS Clause 28 — increase if CO/Amdt > 10% of original price
+    retention_pct: 10                    # Source: SCS Clause 19 — withheld from each IPC
+    retention_release: "Provisional Acceptance + unconditional bank guarantee"  # Source: SCS Clause 19 — differs from Civil
+    retention_early_release_pct: "0.5-1% if qualified CDCE submitted within 45 days of IFC"  # Source: SCS Clause 19
+    icv_target_pct: 60                   # Source: Exh K / ICV Improvement Plan
+    icv_penalty_pct: 5                   # Source: Exh K
+    payment_days: 45                     # Source: SCS Clause 19 — calendar days
+    payment_invoice_cutoff: "5th of following month"  # Source: SCS Clause 19
+    payment_system: "Contractor SM system (mandatory)"  # Source: SCS Clause 8
+    procurement_assistance_fee_pct: 5    # Source: SCS Clause 19
+    defects_liability_months: 12         # Source: SCS Clause 27 — "Guarantee Period" from Provisional Acceptance
+    warranty_months: 12                  # Source: SCS Clause 27
 
   liquidated_damages:
     management_system:
       per_failure: 10000               # unique to 12.1: non-use of SM system
       trigger: "Failure to use Management Systems after written instruction"
     delay:
-      per_day: 160891.99                # 1‰ of contract price (per A 2 Work Schedule)
-      per_day_pct: 0.1                  # % of contract price
-      cap_pct: 10
-      cap_amount: 16089198.82
-      mechanical_completion_relief: true  # if MC on time, prior Delay LD refunded
+      per_day: 160891.99                 # Source: Exh A §A 2 Work Schedule — 1‰ of contract price
+      per_day_pct: 0.1                   # Source: Exh A §A 2 Work Schedule — 0.1% per day
+      cap_pct: 10                        # Source: SCS Clause 17 — 10% aggregate cap
+      cap_amount: 16089198.82            # Source: calculated — 10% × contract_value
+      mechanical_completion_relief: true  # Source: SCS Clause 17 — if MC on time, prior Delay LD refunded (12.1 unique)
     key_personnel:
       per_day: 10000
       count: 7
@@ -156,11 +160,11 @@ contract:
 
   linked:
     clauses:
-      - {clause_ref: "SCS Clause 17", topic: "ld", ko: null}
-      - {clause_ref: "SCS Clause 19", topic: "payment", ko: null}
-      - {clause_ref: "SCS Clause 28", topic: "security", ko: null}
       - {clause_ref: "SCS Clause 8", topic: "personnel", ko: "data/clause-library/Key-Personnel.md"}
+      - {clause_ref: "SCS Clause 17", topic: "ld", ko: "data/clause-library/Delay-LD.md"}
+      - {clause_ref: "SCS Clause 19", topic: "payment", ko: "data/clause-library/Payment.md"}
       - {clause_ref: "SCS Clause 27", topic: "warranty", ko: null}
+      - {clause_ref: "SCS Clause 28", topic: "security", ko: null}
     correspondence_dir: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Corres/"
     payment_dir: "Subcon_Payments/12.1 CCECC - MEI Pkg I/Pymt/"
 

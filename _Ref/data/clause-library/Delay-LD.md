@@ -17,25 +17,31 @@
 
 | 合同 | 条款位置 | LD 依据 |
 |------|---------|--------|
-| EPC-ADNOC | Article 18.4(e), A7 Schedule | ANX 05 Exh A.09 |
+| EPC-ADNOC | GTC Article 18.4(e), A7 Schedule | ANX 05 Exh A.09 (15 milestones, 0.01167%-0.03333%/day) |
 | 10.1 CCECC Civil II | Sub-Clause 10.7 | Att 04_Delay LD |
 | 10.2 TCC Civil I/III | Sub-Clause 10.7 | Att 05 (Pkg I) + Att 06 (Pkg III) |
 | 12.1 CCECC MEI I | SCS Clause 17 | Exh A_Work Schedule |
+| 12.2 TCC MEI II | SCS Clause 17 / LOA | LOA Attachment 1 (7 milestones, 0.1%/day each) |
 
 ---
 
 ## Rates
 
-| 合同 | LD/天 | LD 费率 | 合同价 (AED) | 上限 (AED) | 上限 % |
-|------|------:|:---:|----------:|----------:|:---:|
-| EPC-ADNOC | *(待)* | *(待)* | *(待)* | *(待)* | 10% |
+| 合同 | LD/天 | LD 费率 | 合同价 | 上限 | 上限 % |
+|------|------:|:---:|------:|------:|:---:|
+| EPC-ADNOC | Varies (0.012%-0.033%/day) | Per milestone | USD 686.2M | USD 68.6M | 10% |
 | **10.1 CCECC** | **AED 149,832** | 1‰ | 149,832,039 | 14,983,204 | 10% |
 | **10.2 TCC** | **AED 162,120** | 1‰ | 162,119,510 | 16,211,951 | 10% |
 | **12.1 CCECC** | **AED 160,892** | 1‰ | 160,891,988 | 16,089,199 | 10% |
+| **12.2 TCC** | **AED 155,469** | 1‰ | 155,469,167 | 15,546,917 | 10% |
 
-> **注意:** 三份分包合同统一使用 **1‰ (千分之一)** 费率。金额绝对值因合同价不同略有差异。
+> **三份分包合同统一使用 1‰ (千分之一) 费率**。EPC 主合同使用按里程碑分档的每日百分比费率（0.01167%-0.03333%/天不等），总额上限均为 10%。
 >
-> **EPC 端数据缺失** — 无法验证 1‰ 费率是否完全背靠背 ADNOC 主合同 LD 费率。
+> **12.1 独有 MC Relief 减免机制**：若最终 Mechanical Completion 按期完成，此前扣除的中期 Delay LD 全额退还。
+>
+> **12.2 Delay LD** 按 LOA 附件的 7 个里程碑分别触发，不设中间退还机制。
+>
+> **EPC 数据已提取 (2026-07-18)** — 来自 FOA_Priced_Draft_ocred.pdf。15 个里程碑含具体费率。背靠背匹配现在可执行。
 
 ---
 
@@ -105,13 +111,16 @@
 
 | 维度 | EPC-ADNOC | Subcontracts | Gap |
 |------|:---:|:---:|:---:|
-| LD/天 | *(待)* | 1‰ | 🔴 无法验证 |
+| LD/天 | 0.012%-0.033%/day (按里程碑) | 1‰ 统一费率 | 🟡 结构不同，需按里程碑映射 |
 | LD Cap | 10% | 10% | ✅ 一致 |
-| Notice 要求 | *(待)* | Serve notice | 🔴 待确认 |
-| MC Relief | *(待)* | 12.1 ✅ | 🔴 待确认 |
-| LD 独立于其他赔偿 | *(待)* | ✅ | 🔴 待确认 |
+| Notice 要求 | GTC Article 18.4(e) | 10.1/10.2: serve notice; 12.1/12.2: IPC deduction | 🟡 程序不同 |
+| MC Relief | 否 | 12.1 ✅ / 其他 否 | 🟡 12.1 更优惠 |
+| LD 独立于其他赔偿 | GTC Article 18.4(e) | ✅ All subcons | ✅ 一致 |
 
-> **最大风险:** 若 EPC 端 Delay LD > 1‰，Contractor 自留差额。若 EPC 端 Delay LD < 1‰，Contractor 有净收益——但目前无法判断。
+> **更新 (2026-07-18):** EPC 数据已提取。EPC 使用粗细分档的里程碑 LD（PO 阶段 0.012%→施工阶段 0.02-0.025%→完工阶段 0.033%），
+> 而分包合同统一使用简化的 1‰ (0.1%)。分包费率整体高于 EPC（1‰ vs 0.012%-0.033%），
+> 形成有利的 LD 净差（flow-down margin）。但这意味着 EPC 端发生延误时，
+> 分包合同端的 LD 罚款远高于主合同端——需要确保背靠背归因。
 
 ---
 
