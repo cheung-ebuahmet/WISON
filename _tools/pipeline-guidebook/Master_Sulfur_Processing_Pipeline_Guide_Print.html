@@ -295,19 +295,17 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
     .card-body{display:block!important}
 }
 
-/* ═══════════════════════════════════════════════════════════════════════
-   PRINT OPTIMISATION
-   ═══════════════════════════════════════════════════════════════════════ */
 @media print {
     .corp-header { position: static; }
     .sidebar { display: none; }
     .body-wrap { display: block; }
-    .main { max-height: none; overflow: visible; padding: 16px 20px; }
+    .main { max-height: none; overflow: visible; padding: 14px 18px; }
     .card-body { display: block !important; }
-    .card { break-inside: avoid; }
-    .bp-wrap { break-inside: avoid; }
-    body { font-size: 11px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .card { break-inside: avoid; page-break-inside: avoid; }
+    .bp-wrap { break-inside: avoid; page-break-inside: avoid; }
+    body { font-size: 10px; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
     .card-hd { cursor: default; }
+    .corp-status .status-dot { animation: none; }
 }
 
 </style>
@@ -423,16 +421,16 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
         <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Inter',sans-serif">
             <defs>
                 <linearGradient id="gfGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#047857"/><stop offset="100%" stop-color="#065F46"/></linearGradient>
-                <pattern id="bfHatch" width="10" height="10" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#7C2D12"/><line x1="0" y1="0" x2="0" y2="10" stroke="#FBBF24" stroke-width="3" stroke-opacity="0.25"/></pattern>
+                <pattern id="bfHatch" width="10" height="10" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#7C2D12"/><line x1="0" y1="0" x2="0" y2="10" stroke="#FBBF24" stroke-width="3" stroke-opacity="0.22"/></pattern>
                 <marker id="arr" markerWidth="8" markerHeight="5" refX="8" refY="2.5" orient="auto"><polygon points="0 0, 8 2.5, 0 5" fill="#475569"/></marker>
                 <marker id="arrW" markerWidth="8" markerHeight="5" refX="8" refY="2.5" orient="auto"><polygon points="0 0, 8 2.5, 0 5" fill="#F97316"/></marker>
-                <filter id="sh"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.12"/></filter>
+                <filter id="sh"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.06"/></filter>
                 <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#CBD5E1" stroke-width="0.5"/></pattern>
             </defs>
-            <rect width="1200" height="420" fill="#F8FAFC"/>
+            <rect width="1200" height="420" fill="url(#grid)" opacity="0.4"/>
             <!-- Greenfield backdrop -->
             <rect x="20" y="30" width="1140" height="340" rx="8" fill="url(#gfGrad)" opacity="0.06" stroke="#34D399" stroke-width="1.5" stroke-dasharray="6,3"/>
-            <text x="590" y="50" fill="#34D399" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.2" opacity="0.50">GREENFIELD &mdash; NEW CONSTRUCTION</text>
+            <text x="590" y="50" fill="#059669" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.2" opacity="0.44">GREENFIELD &mdash; NEW CONSTRUCTION</text>
             <!-- Brownfield inset -->
             <rect x="970" y="260" width="200" height="110" rx="6" fill="url(#bfHatch)" stroke="#FBBF24" stroke-width="2" stroke-dasharray="4,2"/>
             <text x="1070" y="282" fill="#FBBF24" font-size="9" font-weight="700" text-anchor="middle">BROWNFIELD</text>
@@ -446,7 +444,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <line x1="180" y1="132" x2="220" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
             <!-- Stage 2 -->
             <rect x="230" y="80" width="175" height="105" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#sh)"/>
-            <rect x="230" y="80" width="175" height="22" rx="6" fill="#DC2626" opacity="0.10"/>
+            <rect x="230" y="80" width="175" height="22" rx="6" fill="#DC2626" opacity="0.06"/>
             <text x="317" y="95" fill="#FCA5A5" font-size="9" font-weight="700" text-anchor="middle">STAGE 2 &mdash; MOLTEN STORAGE</text>
             <text x="317" y="117" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">3&#xD7; Liquid Sulfur Tanks</text>
             <text x="317" y="134" fill="#475569" font-size="8" text-anchor="middle">Zone 210 | Unit 20 Base</text>
@@ -456,7 +454,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <line x1="410" y1="132" x2="450" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
             <!-- Stage 3 -->
             <rect x="460" y="75" width="195" height="115" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="2" filter="url(#sh)"/>
-            <rect x="460" y="75" width="195" height="22" rx="6" fill="#DC2626" opacity="0.10"/>
+            <rect x="460" y="75" width="195" height="22" rx="6" fill="#DC2626" opacity="0.06"/>
             <text x="557" y="90" fill="#FCA5A5" font-size="9" font-weight="700" text-anchor="middle">STAGE 3 &mdash; GRANULATION</text>
             <text x="557" y="112" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Rotary Granulator Units</text>
             <text x="557" y="129" fill="#475569" font-size="8" text-anchor="middle">Zone 220 | Unit 30/40/50</text>
@@ -466,15 +464,15 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <line x1="660" y1="132" x2="700" y2="132" stroke="#889BB5" stroke-width="2" marker-end="url(#arr)"/>
             <!-- Stage 4 -->
             <rect x="710" y="70" width="210" height="125" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="2" filter="url(#sh)"/>
-            <rect x="710" y="70" width="210" height="22" rx="6" fill="#2563EB" opacity="0.10"/>
+            <rect x="710" y="70" width="210" height="22" rx="6" fill="#2563EB" opacity="0.06"/>
             <text x="815" y="85" fill="#93C5FD" font-size="9" font-weight="700" text-anchor="middle">STAGE 4 &mdash; SOLID LOGISTICS</text>
             <text x="815" y="107" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Conveyors &amp; Storage Sheds</text>
             <text x="815" y="124" fill="#475569" font-size="8" text-anchor="middle">Zone 230 | Unit 40</text>
             <text x="815" y="139" fill="#93C5FD" font-size="7.5" text-anchor="middle">Belts &bull; Elevators &bull; Trippers &#x2192; 3&#xD7; Sheds</text>
             <rect x="720" y="152" width="90" height="17" rx="3" fill="#2563EB" opacity="0.85"/><text x="765" y="164" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">CP1 &bull; 42,271 M&#xB3;</text>
             <rect x="818" y="152" width="90" height="17" rx="3" fill="#059669" opacity="0.85"/><text x="863" y="164" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MEI-I &bull; DRIVES</text>
-            <rect x="720" y="172" width="90" height="15" rx="3" fill="#7C3AED" opacity="0.75"/><text x="765" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3;</text>
-            <rect x="818" y="172" width="90" height="15" rx="3" fill="#D97706" opacity="0.75"/><text x="863" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-II &bull; HV NET</text>
+            <rect x="720" y="172" width="90" height="15" rx="3" fill="#7C3AED" opacity="0.44"/><text x="765" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3;</text>
+            <rect x="818" y="172" width="90" height="15" rx="3" fill="#D97706" opacity="0.44"/><text x="863" y="183" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-II &bull; HV NET</text>
             <!-- PTW-gated transition -->
             <line x1="925" y1="132" x2="985" y2="132" stroke="#F97316" stroke-width="2.5" marker-end="url(#arrW)" stroke-dasharray="5,3"/>
             <text x="955" y="124" fill="#F97316" font-size="7.5" text-anchor="middle" font-weight="700">&#x26A0; PTW</text><text x="955" y="146" fill="#F97316" font-size="7" text-anchor="middle">GATE</text>
@@ -486,7 +484,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <text x="1077" y="350" fill="#FBBF24" font-size="7.5" text-anchor="middle">&#x1F30D; Global + Borouge 3/4</text>
             <!-- Digital Nervous System -->
             <rect x="45" y="235" width="225" height="115" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.5" filter="url(#sh)"/>
-            <rect x="45" y="235" width="225" height="22" rx="6" fill="#7C3AED" opacity="0.10"/>
+            <rect x="45" y="235" width="225" height="22" rx="6" fill="#7C3AED" opacity="0.06"/>
             <text x="157" y="250" fill="#C4B5FD" font-size="9" font-weight="700" text-anchor="middle">&#x1F9E0; DIGITAL NERVOUS SYSTEM &amp; POWER HUB</text>
             <text x="157" y="269" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Unit 10 Core &bull; MCR &bull; LCRs</text>
             <text x="157" y="287" fill="#475569" font-size="8" text-anchor="middle">Substations &bull; HV PP5 Cable Network</text>
@@ -498,20 +496,20 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <line x1="317" y1="370" x2="317" y2="185" stroke="#7C3AED" stroke-width="1" stroke-dasharray="3,3"/>
             <circle cx="317" cy="185" r="3" fill="#C4B5FD"/>
             <!-- Hotspot callout -->
-            <rect x="410" y="205" width="320" height="44" rx="4" fill="none" stroke="#F97316" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.45"/>
+            <rect x="410" y="205" width="320" height="44" rx="4" fill="none" stroke="#F97316" stroke-width="1.5" stroke-dasharray="4,2" opacity="0.38"/>
             <text x="570" y="220" fill="#F97316" font-size="7.5" font-weight="700" text-anchor="middle">&#x26A0; CP2 Foundation Handover &#x2192; MEI-I Rigging (Stage 3 Critical Path)</text>
             <text x="570" y="236" fill="#FDBA74" font-size="7" text-anchor="middle">28,158 M&#xB3; Slab Cure = Granulator Skid Bolt-Down Gate</text>
             <!-- Legend -->
-            <rect x="970" y="50" width="205" height="150" rx="6" fill="#FFFFFF" stroke="#1A2740" stroke-width="1"/>
-            <text x="1072" y="68" fill="#64748B" font-size="9" font-weight="700" text-anchor="middle">LEGEND</text>
+            <rect x="970" y="50" width="205" height="150" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+            <text x="1072" y="68" fill="#475569" font-size="9" font-weight="700" text-anchor="middle">LEGEND</text>
             <rect x="982" y="78" width="14" height="10" rx="2" fill="url(#gfGrad)"/><text x="1004" y="87" fill="#475569" font-size="7.5">Greenfield Construction</text>
             <rect x="982" y="95" width="14" height="10" rx="2" fill="url(#bfHatch)"/><text x="1004" y="104" fill="#475569" font-size="7.5">Brownfield Tie-Ins</text>
             <line x1="982" y1="116" x2="996" y2="116" stroke="#F97316" stroke-width="2" stroke-dasharray="5,3"/><text x="1004" y="120" fill="#475569" font-size="7.5">PTW-Gated Interface</text>
-            <rect x="982" y="129" width="14" height="8" rx="2" fill="#2563EB" opacity="0.5"/><text x="1004" y="137" fill="#475569" font-size="7">CP1 Blue &bull; Solid Logistics</text>
-            <rect x="982" y="143" width="14" height="8" rx="2" fill="#DC2626" opacity="0.5"/><text x="1004" y="151" fill="#475569" font-size="7">CP2 Red &bull; Storage/Granul.</text>
-            <rect x="982" y="157" width="14" height="8" rx="2" fill="#7C3AED" opacity="0.55"/><text x="1004" y="165" fill="#475569" font-size="7">CP3 Purple &bull; MCR/Blast-Res</text>
-            <rect x="982" y="171" width="14" height="8" rx="2" fill="#059669" opacity="0.5"/><text x="1004" y="179" fill="#475569" font-size="7">MEI-I Green &bull; Mechanical</text>
-            <rect x="982" y="185" width="14" height="8" rx="2" fill="#D97706" opacity="0.5"/><text x="1004" y="193" fill="#475569" font-size="7">MEI-II Amber &bull; E&amp;I/HV</text>
+            <rect x="982" y="129" width="14" height="8" rx="2" fill="#2563EB" opacity="0.65"/><text x="1004" y="137" fill="#475569" font-size="7">CP1 Blue &bull; Solid Logistics</text>
+            <rect x="982" y="143" width="14" height="8" rx="2" fill="#DC2626" opacity="0.65"/><text x="1004" y="151" fill="#475569" font-size="7">CP2 Red &bull; Storage/Granul.</text>
+            <rect x="982" y="157" width="14" height="8" rx="2" fill="#7C3AED" opacity="0.65"/><text x="1004" y="165" fill="#475569" font-size="7">CP3 Purple &bull; MCR/Blast-Res</text>
+            <rect x="982" y="171" width="14" height="8" rx="2" fill="#059669" opacity="0.65"/><text x="1004" y="179" fill="#475569" font-size="7">MEI-I Green &bull; Mechanical</text>
+            <rect x="982" y="185" width="14" height="8" rx="2" fill="#D97706" opacity="0.65"/><text x="1004" y="193" fill="#475569" font-size="7">MEI-II Amber &bull; E&amp;I/HV</text>
         </svg>
     </div>
     <div class="gb-key"><span><i class="gf"></i> Greenfield</span><span><i class="bf"></i> Brownfield</span><span style="color:var(--warn);font-weight:700;">&#x26A0;</span> PTW-Gated</div>
@@ -530,12 +528,12 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
                 <pattern id="cp2f" width="18" height="18" patternUnits="userSpaceOnUse"><rect width="18" height="18" fill="rgba(220,38,38,0.06)"/><circle cx="9" cy="9" r="1" fill="rgba(220,38,38,0.12)"/></pattern>
                 <pattern id="cp3f" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="rgba(124,58,237,0.06)"/><circle cx="8" cy="8" r="1" fill="rgba(124,58,237,0.12)"/></pattern>
                 <!-- Brownfield hatch -->
-                <pattern id="bfm" width="12" height="12" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="rgba(180,83,9,0.10)"/><line x1="0" y1="0" x2="0" y2="12" stroke="#FBBF24" stroke-width="2.5" stroke-opacity="0.18"/></pattern>
+                <pattern id="bfm" width="12" height="12" patternTransform="rotate(-45 0 0)" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="rgba(180,83,9,0.10)"/><line x1="0" y1="0" x2="0" y2="12" stroke="#FBBF24" stroke-width="2.5" stroke-opacity="0.15"/></pattern>
                 <!-- Pipeline route markers -->
                 <marker id="aFlow" markerWidth="9" markerHeight="6" refX="9" refY="3" orient="auto"><polygon points="0 0, 9 3, 0 6" fill="#F59E0B"/></marker>
-                <marker id="aSolid" markerWidth="9" markerHeight="6" refX="9" refY="3" orient="auto"><polygon points="0 0, 9 3, 0 6" fill="#34D399"/></marker>
+                <marker id="aSolid" markerWidth="9" markerHeight="6" refX="9" refY="3" orient="auto"><polygon points="0 0, 9 3, 0 6" fill="#059669"/></marker>
                 <!-- Filters -->
-                <filter id="sh2"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="#000" flood-opacity="0.15"/></filter>
+                <filter id="sh2"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="#000" flood-opacity="0.12"/></filter>
                 <filter id="gW"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
                 <!-- Gold pipeline glow -->
                 <filter id="goldGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
@@ -544,7 +542,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <!-- Dark background -->
             <rect width="1400" height="620" fill="#F8FAFC"/>
             <pattern id="grd2" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M 25 0 L 0 0 0 25" fill="none" stroke="#CBD5E1" stroke-width="0.35"/></pattern>
-            <rect width="1400" height="620" fill="url(#grd2)" opacity="0.3"/>
+            <rect width="1400" height="620" fill="url(#grd2)"/>
 
             <!-- =========================================================
                  SITE BOUNDARY FRAME
@@ -561,7 +559,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <text x="1240" y="69" fill="#FDE68A" font-size="7" text-anchor="middle">Existing ADNOC Lines</text>
 
             <!-- Greenfield label -->
-            <text x="420" y="100" fill="#059669" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2" opacity="0.45">GREENFIELD &mdash; NEW DEVELOPMENT</text>
+            <text x="420" y="100" fill="#059669" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="2" opacity="0.38">GREENFIELD &mdash; NEW DEVELOPMENT</text>
 
             <!-- BF redline annotations -->
             <line x1="1100" y1="240" x2="1370" y2="240" stroke="#FBBF24" stroke-width="2" stroke-dasharray="8,3"/>
@@ -621,7 +619,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
 
             <!-- MEI-I outer bold boundary frame (Green) -->
             <rect x="435" y="175" width="420" height="200" rx="8" fill="none" stroke="#059669" stroke-width="3.5" stroke-dasharray="12,5"/>
-            <text x="645" y="190" fill="#34D399" font-size="8.5" font-weight="700" text-anchor="middle">MEI Package I Boundary (Green)</text>
+            <text x="645" y="190" fill="#059669" font-size="8.5" font-weight="700" text-anchor="middle">MEI Package I Boundary (Green)</text>
 
             <rect x="485" y="205" width="240" height="130" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.5" filter="url(#sh2)"/>
             <text x="605" y="235" fill="#0F172A" font-size="14" font-weight="800" text-anchor="middle">UNIT 30</text>
@@ -653,7 +651,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
 
             <!-- ═══ GOLD → GREEN: Solid conveyor route Unit 30/50 → Unit 40 ═══ -->
             <path d="M 605 205 L 605 148" stroke="#059669" stroke-width="5" marker-end="url(#aSolid)"/>
-            <text x="665" y="180" fill="#34D399" font-size="8" font-weight="700">&#x1F69C; Elevated Conveyor Galleries</text>
+            <text x="665" y="180" fill="#059669" font-size="8" font-weight="700">&#x1F69C; Elevated Conveyor Galleries</text>
             <text x="665" y="194" fill="#6EE7B7" font-size="7">Solid Pellets Northbound</text>
 
             <!-- =========================================================
@@ -664,7 +662,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
 
             <!-- MEI-I frame around Unit 40 -->
             <rect x="380" y="18" width="840" height="170" rx="8" fill="none" stroke="#059669" stroke-width="3.5" stroke-dasharray="12,5"/>
-            <text x="800" y="60" fill="#34D399" font-size="8" font-weight="700" text-anchor="middle">MEI Package I (Green) &mdash; Conveyor Drives, Take-Up Systems, Belt Sensors</text>
+            <text x="800" y="60" fill="#059669" font-size="8" font-weight="700" text-anchor="middle">MEI Package I (Green) &mdash; Conveyor Drives, Take-Up Systems, Belt Sensors</text>
 
             <rect x="460" y="72" width="580" height="90" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="3" filter="url(#sh2)"/>
             <text x="750" y="98" fill="#0F172A" font-size="14" font-weight="800" text-anchor="middle">UNIT 40 &mdash; SOLID LOGISTICS &amp; HANDLING</text>
@@ -673,7 +671,7 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <rect x="475" y="146" width="130" height="12" rx="2" fill="#2563EB" opacity="0.80"/><text x="540" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">CP1 &bull; 42,271 M&#xB3;</text>
             <rect x="612" y="146" width="130" height="12" rx="2" fill="#059669" opacity="0.80"/><text x="677" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-I &bull; Drives/Sensors</text>
             <rect x="749" y="146" width="130" height="12" rx="2" fill="#D97706" opacity="0.80"/><text x="814" y="155" fill="#fff" font-size="6.5" font-weight="700" text-anchor="middle">MEI-II &bull; Power/DCS</text>
-            <rect x="886" y="146" width="130" height="12" rx="2" fill="#7C3AED" opacity="0.55"/><text x="951" y="155" fill="#0F172A" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3; LCR</text>
+            <rect x="886" y="146" width="130" height="12" rx="2" fill="#7C3AED" opacity="0.65"/><text x="951" y="155" fill="#0F172A" font-size="6.5" font-weight="700" text-anchor="middle">CP3 &bull; 8,092 M&#xB3; LCR</text>
 
             <!-- ═══ GREEN SOLID PATH: through Unit 40 → north ═══ -->
             <path d="M 750 72 L 750 40" stroke="#059669" stroke-width="5" marker-end="url(#aSolid)"/>
@@ -696,16 +694,16 @@ body{font-family:var(--font);background:var(--bg-root);color:var(--text);line-he
             <text x="1110" y="96" fill="#FDE68A" font-size="7" text-anchor="middle">ADNOC QRC/IRN Gatekeeper Active</text>
 
             <!-- Power feed arrows from Unit 10 → across site -->
-            <line x1="350" y1="280" x2="480" y2="280" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.25"/>
-            <line x1="480" y1="280" x2="480" y2="400" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.25"/>
-            <line x1="350" y1="310" x2="455" y2="310" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.25"/>
-            <text x="400" y="268" fill="#A78BFA" font-size="7" text-anchor="middle" opacity="0.50">Control / Power Feed</text>
+            <line x1="350" y1="280" x2="480" y2="280" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <line x1="480" y1="280" x2="480" y2="400" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <line x1="350" y1="310" x2="455" y2="310" stroke="#7C3AED" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.4"/>
+            <text x="400" y="268" fill="#A78BFA" font-size="7" text-anchor="middle" opacity="0.44">Control / Power Feed</text>
 
             <!-- =========================================================
                  LEGEND PANEL
                  ========================================================= -->
-            <rect x="950" y="480" width="380" height="126" rx="6" fill="#FFFFFF" stroke="#1A2740" stroke-width="1.5"/>
-            <text x="1140" y="498" fill="#64748B" font-size="9" font-weight="700" text-anchor="middle">PLOT PLAN LEGEND</text>
+            <rect x="950" y="480" width="380" height="126" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+            <text x="1140" y="498" fill="#475569" font-size="9" font-weight="700" text-anchor="middle">PLOT PLAN LEGEND</text>
             <rect x="966" y="506" width="16" height="10" rx="2" fill="url(#cp1f)" stroke="#2563EB" stroke-width="1"/><text x="990" y="515" fill="#475569" font-size="7">CP1 Blue &bull; Solid Logistics (42,271 M&#xB3;)</text>
             <rect x="966" y="522" width="16" height="10" rx="2" fill="url(#cp2f)" stroke="#DC2626" stroke-width="1"/><text x="990" y="531" fill="#475569" font-size="7">CP2 Red &bull; Storage + Granulation (28,158 M&#xB3;)</text>
             <rect x="966" y="538" width="16" height="10" rx="2" fill="url(#cp3f)" stroke="#7C3AED" stroke-width="1"/><text x="990" y="547" fill="#475569" font-size="7">CP3 Purple &bull; MCR/Blast-Res (8,092 M&#xB3;)</text>
