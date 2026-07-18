@@ -43,6 +43,7 @@ D:\Wison\
 | 原则 | 说明 |
 |------|------|
 | **证据层只读** | `Main_Contract/`、`Subcon_Payments/`、`Project_Info/` 不新增 Markdown，不修改原始文件 |
+| **证据层不入 Git** | PDF/DOCX/XLSX 等二进制文件被 .gitignore 排除 — 仅版本化知识层和工具层；证据层靠外部备份保护 |
 | **Claude 仅写入 `_Ref/`** | 所有产出、中间文件、缓存均归入 `_Ref/` 对应子目录 |
 | **YAML 是唯一事实来源** | 合同金额、LD、保函比例等数值只存在 `_Ref/data/contracts/*.yaml`，Wiki 由之编译 |
 | **四层知识链路** | PDF（证据）→ OCR（`kb/`）→ Clause（`clause-library/`）→ Wiki（`wiki/`） |
@@ -62,3 +63,17 @@ D:\Wison\
 | 发信函模板 | `Project_Info/Wison Template/Your-Letter-Number Letter-Title.docx` |
 | 文件命名规则 | `_Ref/_Wison 文件与文件夹命名规则.md` |
 | 运行分析脚本 | `_Tools/` |
+
+---
+
+## 备份策略
+
+| 层级 | 备份方式 | 状态 |
+|------|---------|:---:|
+| **知识层** (`_Ref/`) + **工具层** (`_tools/`) | Git 版本化 (`D:\Wison\.git`) | ✅ |
+| **证据层** (`Main_Contract/`, `Subcon_Payments/`, `Project_Info/`) | Git 排除 — 需外部备份 | ⚠️ |
+
+> 证据层文件（PDF/DOCX/XLSX，~1,458 个文件，约 2GB+）不在 Git 中。
+> 当前依赖磁盘冗余。建议定期同步到外部存储或云备份。
+> `D:\Program Files\Backup\backup-all.ps1` 覆盖应用配置备份，不覆盖项目数据。
+> **如尚未建立证据层备份，建议尽快安排。**

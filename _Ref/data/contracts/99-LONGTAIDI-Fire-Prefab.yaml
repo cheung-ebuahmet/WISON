@@ -1,0 +1,207 @@
+contract:
+  id: "99"
+  name: "LONGTAIDI - Firefighting Pipe Prefabrication"
+  type: subcontract
+  status: tender                       # Issue for Inquiry stage — not yet awarded
+  vendor: "LONGTAIDI"
+  vendor_full: "沧州隆泰迪管道科技有限公司 (Cangzhou Longtaidi Pipeline Technology Co., Ltd.)"
+  discipline: "Firefighting Pipe Prefabrication"
+  package: "Fire Prefab (FOB)"
+  contract_ref: null                   # not yet assigned (tender stage)
+  parent_contract: "EPC-ADNOC-RSGP"
+  execution_date: null
+  revision: "Rev. A (Issue for Inquiry)"
+  inquiry_date: "2026-06-30"
+  note_contract_form: "SCS (Special Conditions of Subcontract) — MEI framework; unique Exh L (GTC of Purchase)"
+  note_tripartite: >
+    Tripartite arrangement: Wison supplies raw materials to LONGTAIDI in China;
+    LONGTAIDI performs shop fabrication (NDE + hydrotest + coating) on FOB basis;
+    Wison handles international shipping to UAE site;
+    CCECC MEI Pkg I is the site installation subcontractor but lacked foreign-trade processing qualifications —
+    LONGTAIDI was selected by CCECC as their prefabrication unit, requiring a direct contract with Wison
+    for customs/import-export purposes. Actual settlement pricing negotiated between CCECC and LONGTAIDI.
+  note_fob: >
+    FOB (Free on Board) delivery: LONGTAIDI delivers to Wison-designated Chinese port.
+    Wison handles international ocean freight + UAE inland transport.
+    Pipe spools are flange-connection design — only fit-up at site, no field welding of 3"+ pipe.
+
+  scope:
+    description: "Fire-fighting Piping (3-inch and above) Prefabrication Works on FOB Basis"
+    pipe_diameter_min: "3 inch (DN80)"
+    connection_type: "Flanged (法兰连接)"
+    welding_qty_dia_inch: 53000         # 5.3万寸径
+    linear_meters: 12600                 # 1.26万米
+    equivalent_units: 67000              # 6.7万当量
+    pct_of_total_pipe_welding: 15        # 15% of project total pipe welding
+    scope_includes:
+      - "Shop fabrication of 3-inch+ firefighting pipe spools"
+      - "NDE (Non-Destructive Examination)"
+      - "Hydrostatic testing"
+      - "Galvanizing (镀锌)"
+      - "FBE anti-corrosion coating (熔结环氧粉末涂层)"
+      - "Container packing per Wison shipping instructions"
+      - "Land transport within China to Wison-designated port"
+      - "Domestic customs clearance (出口报关)"
+      - "Processing trade documentation (来料加工手册备案)"
+      - "Free Trade Zone customs procedures (自贸区清关)"
+    scope_excludes:
+      - "Site installation (by CCECC MEI Pkg I)"
+      - "Pipe support fabrication and installation"
+      - "Field adjustment spools (预留调整段)"
+      - "3-inch and below threaded connections (done at site)"
+      - "International ocean freight (by Wison)"
+      - "UAE inland transport (by Wison)"
+    plant_units: ["30", "40"]
+
+  structure:
+    loa:
+      exists: false                    # tender stage — not issued
+    part_0:
+      exists: true
+      source_dir: "Part 0 Instructions to Tenderers/"
+      summary: "Tender instructions for firefighting pipe prefabrication"
+    part_i:
+      exists: true
+      source_dir: "Part I Subcontract Agreement/"
+      components: ["Subcontract Agreement", "Special Conditions (SCS)", "General Conditions of Subcontract (GCS)"]
+      note: "Agreement+Spectial Conditions 留空 (blank) — tender stage templates"
+    part_ii:
+      exists: true
+      source_dir: "Part II Exhibits of Subcontract Agreement/"
+    exhibits:
+      - exhibit_ref: "Exh A"
+        title: "Work Scope & Schedule"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["scope", "schedule"]}
+        primary_topics: ["scope", "schedule", "milestones", "responsibility matrix"]
+        note: "含 SOW Responsibility Matrix — 消防管线预制分工表"
+      - exhibit_ref: "Exh B"
+        title: "Method of Measurement"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["measurement", "boq", "rates"]
+      - exhibit_ref: "Exh C"
+        title: "Technical Specification & Drawing"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["technical"]}
+        primary_topics: ["technical spec", "drawings", "standards"]
+      - exhibit_ref: "Exh D"
+        title: "Subcontract Price"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["boq", "rates", "price list"]
+        note: "BOQ Rev. A Issue for Inquiry — Unit price basis (USD)"
+      - exhibit_ref: "Exh E"
+        title: "Quality Requirements"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["quality"]}
+        primary_topics: ["quality", "AGES compliance"]
+      - exhibit_ref: "Exh F"
+        title: "Administrative Procedure"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["administrative"]}
+        primary_topics: ["communication", "reporting", "invoicing"]
+      - exhibit_ref: "Exh G"
+        title: "(Not Applicable)"
+        exists: false
+        commercial_relevance: {level: archive, reason: []}
+      - exhibit_ref: "Exh H"
+        title: "HSE Requirement"
+        exists: true
+        commercial_relevance: {level: low, reason: ["hse"]}
+        primary_topics: ["hse"]
+      - exhibit_ref: "Exh I"
+        title: "(Not Applicable)"
+        exists: false
+        commercial_relevance: {level: archive, reason: []}
+      - exhibit_ref: "Exh J"
+        title: "Scheduling and Reporting"
+        exists: true
+        commercial_relevance: {level: high, reason: ["schedule"]}
+        primary_topics: ["schedule", "reporting", "progress"]
+      - exhibit_ref: "Exh K"
+        title: "Owner's Special Requirements & Reference"
+        exists: true
+        commercial_relevance: {level: medium, reason: ["back-to-back"]}
+        primary_topics: ["owner requirements", "back-to-back", "reference docs"]
+      - exhibit_ref: "Exh L"
+        title: "General Terms and Conditions of Purchase"
+        exists: true
+        commercial_relevance: {level: critical, reason: ["payment", "variation"]}
+        primary_topics: ["purchase terms", "payment", "delivery", "title", "risk"]
+        note: "UNIQUE to LONGTAIDI — not present in any other subcon contract. Reflects procurement/purchase nature of this FOB arrangement."
+
+  commercial:
+    currency: "USD"
+    contract_value: null               # tender stage — not yet priced
+    provisional_sum: null
+    unit_price_basis: true             # BOQ-based unit rates
+    advance_payment_pct: null
+    advance_payment_repay_pct: null
+    performance_bond_pct: null
+    retention_pct: null
+    defects_liability_months: null
+    warranty_months: null
+    payment_days: null
+    note_material_supply: >
+      Contractor (Wison) supplies raw materials to LONGTAIDI's China facility.
+      LONGTAIDI processes under 来料加工 (processing trade) customs regime.
+      This is a labor + services contract, not a material supply contract.
+    note_payment_flow: >
+      Wison pays LONGTAIDI directly (required for customs/import-export and FX).
+      Actual pricing settled between CCECC and LONGTAIDI — Wison facilitates payment.
+      CCECC's MEI Pkg I contract scope is correspondingly reduced (descope of prefab works).
+
+  liquidated_damages:
+    delay:
+      applicable: null                 # tender stage — TBD
+      per_day: null
+      per_day_pct: null
+      cap_pct: null
+    key_personnel:
+      applicable: null
+      per_day: null
+    performance:
+      applicable: null
+
+  claims:
+    variation_notice_days: null        # tender stage — TBD
+    eot_notice_days: null
+    claim_notice_days: null
+
+  variation:
+    amendment_count: 0
+    final_account_status: not_applicable  # not yet awarded
+
+  payment_status:
+    total_paid: null
+    last_ipc_no: null
+
+  linked:
+    clauses: []                        # to be populated after contract award
+    correspondence_dir: "Subcon_Payments/99 LONGTAIDI fob/"
+    payment_dir: "Subcon_Payments/99 LONGTAIDI fob/"
+    related_contracts:
+      - {id: "12.1", name: "CCECC - MEI Pkg I", relationship: "CCECC selected LONGTAIDI; prefab scope descoped from 12.1; payment pass-through via Wison"}
+
+  price_data:
+    boq_dir: "_tools/price-database/LONGTAIDI/"
+    boq_revision: "Rev. A, 2026-06-30"
+    csv_count: 5
+    csv_files:
+      - "A-Summary.csv"
+      - "COVER.csv"
+      - "FF Piping Prefab Works.csv"
+      - "Equipment Rates.csv"
+      - "Labor Rates.csv"
+
+  planning_doc:
+    exists: true
+    source_file: "000 RSGP硫磺造粒项目消防管线预制分包策划方案 2026-07-06.docx"
+    summary: "Wison internal planning proposal explaining the tripartite arrangement, scope split, and rationale for separate tender"
+
+  issues: []
+
+  ocr_status:
+    kb_mirror_exists: false             # OCR not yet run for LONGTAIDI — kb/subcon/99 LONGTAIDI fob/ does not exist
+    priority: "After contract award — currently tender stage, low urgency"
