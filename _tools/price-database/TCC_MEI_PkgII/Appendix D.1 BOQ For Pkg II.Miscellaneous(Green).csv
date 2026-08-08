@@ -1,0 +1,43 @@
+﻿# Source: Appendix D.1 BOQ For Pkg II.xlsx
+# Sheet: Miscellaneous(Green)
+"# Rows: 32, Cols: 17"
+
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,,,,,,,,,,,,,,"REV. C, DATE: 30/Dec/2025"
+Item,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+No.,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+A,"Careful dismantle-Metallic Piping for reuse, complete with loading, transportation to approved designated areas, all as required for the Works.",,,,,,,,,,,,,,,
+1.1,"NPS: ≤ 2""",LM,1,2.85166051660517,,125.587129151292,,0,,26.331345843282,,7.78795588235294,,159.706430876927,,RATE ONLY
+1.2,"NPS > 2"" and ≤ 8""",LM,1,8.42258302583026,,370.930556457565,,0,,81.5713717039288,,39.6764779411765,,492.17840610267,,RATE ONLY
+1.3,"NPS > 8"" and ≤ 14""",LM,1,13.789815498155,,607.303474538745,,0,,140.0964976514,,82.8259632352941,,830.225935425439,,RATE ONLY
+1.4,"NPS > 14"" and ≤ 20""",LM,1,20.2773431734317,,893.014193357933,,0,,203.917440768396,,135.763014705882,,1232.69464883221,,RATE ONLY
+B,"Removal and demolition of existing Metallic piping，complete with loading, transportation, and disposal to approved dump areas, all as required for the Works.",,,,,,,,,,,,,,,
+2.1,"NPS: ≤ 2""",LM,1,1.90110701107011,,83.7247527675277,,0,,17.554230562188,,5.19197058823529,,106.470953917951,,RATE ONLY
+2.2,"NPS > 2"" and ≤ 8""",LM,1,5.61505535055351,,247.287037638376,,0,,54.3809144692859,,26.4509852941177,,328.11893740178,,RATE ONLY
+2.3,"NPS > 8"" and ≤ 14""",LM,1,9.19321033210332,,404.86898302583,,0,,93.3976651009334,,55.2173088235294,,553.483956950293,,RATE ONLY
+2.4,"NPS > 14"" and ≤ 20""",LM,1,13.5182287822878,,595.342795571956,,0,,135.944960512264,,90.5086764705883,,821.796432554808,,RATE ONLY
+C,Demolition of Insulation,,,,,,,,,,,,,,,
+3.1,"Removal and dismantling of existing insulation system, comprising insulation layers and all insulation materials (such as cladding, jacketing, insulation boards/blankets, fastening accessories, etc.), complete with loading, transportation, and disposal to approved dump areas, all as required for the Works.",m3,1,52.992,,2333.76768,,0,,298.141473882353,,20.5174588235294,,2652.42661270588,,RATE ONLY
+D,Coating,,,,,,,,,,,,,,,
+4.1,Galvanizing of Steel Structure as per project specification,Ton,1,73.6,,3241.344,,322.559746976923,,334.928517647059,,15.8900205882353,,3914.72228521222,,RATE ONLY
+4.2,Galvanizing of Pipe Support  as per project specification,Ton,1,117.76,,5186.1504,,516.095595163077,,529.409157647059,,15.8900205882353,,6247.54517339837,,RATE ONLY
+4.3,Galvanizing of Piping as per project specification,M2,1,2.944,,129.65376,,12.9023898790769,,23.7594936470588,,15.8900205882353,,182.205664114371,,RATE ONLY
+,SUBTOTAL-Miscellaneous(Brown)  WORKS,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,

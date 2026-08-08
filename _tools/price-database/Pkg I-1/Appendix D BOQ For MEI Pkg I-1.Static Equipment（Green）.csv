@@ -1,0 +1,195 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: Static Equipment（Green）
+"# Rows: 50, Cols: 24"
+
+
+
+
+
+
+
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"Day 
+Vessel",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+SE-01,,,Pressure Vessel
+SE-01-0001,2020-V-0001,Liquid Sulphur Day Vessel,"Size:ID3200X13500(TL-TL),
+Orientation (H or V):H
+Support Type:Saddle
+Capacity:117m3
+Design Pressure:3.6kg/cm2(g)
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Other Special :
+1.With Boot Dimension (Size):OD711.2 x 800length x 4 pieces
+2.U Stamp + NB Registered
+3.Pressure parts certificate:EN 10204-3.2
+4.Internal coating ( DuraPol UHT) shall be applied on the entire vessel surface.
+5.The vessel outer wall shall be provided with Enhanced Contact Area Tube Tracing with Bolt-on Connection.(Circular piped steam tracing coils are not acceptable.)",SA-516 Gr.70N,Contractor,SET,,1,34.5,34.5,,,,,,,,,,,127777.777777778
+SE-01-0002,2020-V-0002,Liquid Sulphur Day Vessel,"Size:ID3200X13500(TL-TL),
+Orientation (H or V):H
+Support Type:Saddle
+Capacity:117m3
+Design Pressure:3.6kg/cm2(g)
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Other Special :
+1.With Boot Dimension (Size):OD711.2 x 800length x 4 pieces
+2.U Stamp + NB Registered
+3.Pressure parts certificate:EN 10204-3.2
+4.Internal coating ( DuraPol UHT) shall be applied on the entire vessel surface.
+5.FEA analysis for external Heat tracing for day vessels
+6.The vessel outer wall shall be provided with Enhanced Contact Area Tube Tracing with Bolt-on Connection.(Circular piped steam tracing coils are not acceptable.)",SA-516 Gr.70N,Contractor,SET,,1,34.5,34.5,,,,,,,,,,,127777.777777778
+SE-01-0003,2020-V-0003,Liquid Sulphur Day Vessel,"Size:ID3200X18000(TL-TL),
+Orientation (H or V):H
+Support Type:Saddle
+Capacity:153m3
+Design Pressure:3.6kg/cm2(g)
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Other Special :
+1.With Boot Dimension (Size):OD711.2 x 800length x 5 pieces
+2.U Stamp + NB Registered
+3.Pressure parts certificate:EN 10204-3.2
+4.Internal coating ( DuraPol UHT) shall be applied on the entire vessel surface.
+5.The vessel outer wall shall be provided with Enhanced Contact Area Tube Tracing with Bolt-on Connection.(Circular piped steam tracing coils are not acceptable.)",SA-516 Gr.70N,Contractor,SET,,1,40,40,,,,,,,,,,,148148.148148148
+SE-01-0004,1032-V-0001,Condensate Recovery Vessel,"Size:ID1300X2500(TL-TL),
+Orientation (H or V):H
+Support Type:Saddle
+Capacity:3.9m3
+Design Pressure:3.5kg/cm2(g) / FV
+Design Temperatrue:203°C
+Code: ASME Section VIII Div.1
+Other Special :
+1.U Stamp + NB Registered
+2.Pressure parts certificate:EN 10204-3.2",SA-516 Gr.70N,Contractor,SET,,,2.5,2.5
+SE-02,,,Filter,,,,,,,,,,,,,,,,,,0
+SE-02-0001,2020-F-0001,Liquid Sulphur Filter,"Size:Supplier to Advise
+Support Type:Legs
+Capacity:Supplier to Advise
+Design Pressure:7kg/cm2(g)/FV
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Capacity:25 m3/h,
+Filtration Efficiency>98%
+Type:Wedge wire basket with self cleaning
+Special notes:
+1.Supplier shall advice if the filter is to be provided with steam jacket or with steam tracing based on the size of filter.
+2.If steam heat tracing is advised by vendor,Enhanced Contact Area Tube Tracing with Bolt-on Connection is required.(Circular piped steam tracing coils are not acceptable.)
+3.U Stamp + NB Registered
+4.Pressure parts certificate:EN 10204-3.2","Main Material:SA-106 Gr.B / SA-516 Gr.70N;
+Filter Element:SS316L",Contractor,SET,,1,Supplier to Advise,,,,,,,,,,,,127777.777777778
+SE-02-0002,2020-F-0002A/S / 2020-F-0003A/S,Liquid Sulphur Filter,"Size:Supplier to Advise
+Support Type:Legs
+Capacity:Supplier to Advise
+Design Pressure:12.6kg/cm2(g)/FV
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Capacity:102m3/h,
+Filtration Efficiency>98%
+Type:Wedge wire basket with self cleaning
+Special notes:
+1.Supplier shall advice if the filter is to be provided with steam jacket or with steam tracing based on the size of filter.
+2.If steam heat tracing is advised by vendor,Enhanced Contact Area Tube Tracing with Bolt-on Connection is required.(Circular piped steam tracing coils are not acceptable.)
+3.U Stamp + NB Registered
+4.Pressure parts certificate:EN 10204-3.2","Main Material:SA-106 Gr.B / SA-516 Gr.70N;
+Filter Element:SS316L",Contractor,SET,,4,Supplier to Advise,,,,,,,,,,,,127777.777777778
+SE-02-0003,2020-F-0004A/S,Liquid Sulphur Filter,"Size:Supplier to Advise
+Support Type:Legs
+Capacity:Supplier to Advise
+Design Pressure:12.6kg/cm2(g)/FV
+Design Temperatrue:175°C
+Code: ASME Section VIII Div.1
+Capacity:136m3/h,
+Filtration Efficiency>98%
+Type:Wedge wire basket with self cleaning
+Special notes:
+1.Supplier shall advice if the filter is to be provided with steam jacket or with steam tracing based on the size of filter.
+2.If steam heat tracing is advised by vendor,Enhanced Contact Area Tube Tracing with Bolt-on Connection is required.(Circular piped steam tracing coils are not acceptable.)
+3.U Stamp + NB Registered
+4.Pressure parts certificate:EN 10204-3.2","Main Material:SA-106 Gr.B / SA-516 Gr.70N;
+Filter Element:SS316L",Contractor,SET,,2,Supplier to Advise,,,,,,,,,,,,127777.777777778
+SE-02-0004,1047-F-0001A/S,Wash Down Water Cleaning Filter,"Size:Supplier to Advise
+Support Type:Legs
+Capacity:Supplier to Advise
+Design Pressure:11.13kg/cm2(g)
+Design Temperatrue:85°C
+Code: ASME Section VIII Div.1
+Capacity:1050kg/h,
+Filtration Efficiency:100%
+Type:Cartridge
+Special notes:
+1.With Quick opening closures.
+2.Cyclic service
+3.U Stamp + NB Registered
+4.Pressure parts certificate:EN 10204-3.2","Main Material:SA-312 TP316L/SA-240 316L;
+Filter Element:SS316L",Contractor,SET,,,Supplier to Advise,,,,,,,,,,,,0
+SE-03,,,Tanks,,,,,,,,,,,,,,,,,,0
+SE-03-0001,1023-TK-0001,Process Water Tank,"Size:ID7500x6500
+Bottom Type:Flat
+Roof Type:Fixed Cone Roof
+Capacity:223m3
+Design Pressure:ATM
+Design Temperatrue:85°C
+Code: API 650
+Special notes:
+1.Material certificate:EN 10204-3.1
+2.With internal CP",SA-516 Gr.60,Contractor,set,,,19,19,,,,,,,,,,,0
+SE-03-0002,1027-TK-0001,Portable Water Tank,"Size:ID6500x5800
+Bottom Type:Flat
+Roof Type:Fixed Cone Roof
+Capacity:148m3
+Design Pressure:ATM
+Design Temperatrue:85°C
+Code: API 650
+Special notes:
+1.Material certificate:EN 10204-3.1
+2.With internal CP",SA-516 Gr.60,Contractor,set,,,13.5,13.5,,,,,,,,,,,0
+SE-06,,,Others,,,,,,,,,,,,,,,,,,0
+SE-06-0001,"1023-TK-0001,1027-TK-0001",Platform and Ladder ,Platform and Ladder,"A-36
+(Hot GALV+A18 painting system)",Contractor,t,,8,,,,,,,,,,,,,6613.75661375661
+SE-06-0002,"1032-V-0001,2020-F-0001",Insulation,Aluminium jacketing t=1mm,"Class A Grade
+1-Type 3105/3003",Contractor,m2,,,,,,,,,,,,,,,0
+SE-06-0003,"2020-V-0001,0002,0003;
+2020-F-0002A/S / 2020-F-0003A/S / 2020-F-0004A/S",Insulation,Aluminium jacketing t=1mm,"Class A Grade
+1-Type 3105/3003",Contractor,m2,,695,,,,,,,,,,,,,84.6560846560847
+SE-06-0004,"2020-V-0001,0002,0003;
+2020-F-0002A/S / 2020-F-0003A/S / 2020-F-0004A/S",Insulation,Insulation material ~100mm,Mineral wool,Contractor,m3,,67,,,,,,,,,,,,,1375.66137566138
+SE-06-0005,1032-V-0001,Insulation,Insulation material ~85mm,Mineral wool,Contractor,m3,,,,,,,,,,,,,,,0
+SE-06-0006,2020-F-0001,Insulation,Insulation material ~100mm,Mineral wool,Contractor,m3,,,,,,,,,,,,,,,0
+SE-06-0007,"1027-TK-0001,1023-TK-0001",Water tank shell&roof external coating,External coating(Coating System A-14),"1st Inorganic Zinc Silicate 75 µm,",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0008,"1027-TK-0001,1023-TK-0001",Water tank shell&roof external coating,External coating(Coating System A-14),"2nd Polyamide Epoxy MIO 100 µm,",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0009,"1027-TK-0001,1023-TK-0001",Water tank shell&roof external coating,External coating(Coating System A-14),3rd Polyamide Epoxy MIO 100 µm,Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0010,"1027-TK-0001,1023-TK-0001",Water tank shell&roof external coating,External coating(Coating System A-14),4th Polyurethane 50 µm,Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0011,"1027-TK-0001,1023-TK-0001",Water tank bottom underside coating,External coating(Coating System A-19),"1st Surface Tolerant HB Glass Flake 
+Epoxy 300 µm",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0012,"1027-TK-0001,1023-TK-0001",Water tank bottom underside coating,External coating(Coating System A-19),"2nd Surface Tolerant HB Glass Flake
+Epoxy",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0013,1023-TK-0001,Process water tank internal coating,Internal coating(Coating System B-6),1st Glass Flake Reinforced Vinyl Ester 750 µm,Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0014,1023-TK-0001,Process water tank internal coating,Internal coating(Coating System B-6),2nd Glass Flake Reinforced Vinyl Ester 750 µm,Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0015,1027-TK-0001,Portable water tank internal coating,Internal coating(Coating System B-7),"1st Solvent Free Epoxy
+ 200 µm",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-06-0016,1027-TK-0001,Portable water tank internal coating,Internal coating(Coating System B-7),"2nd Solvent Free Epoxy
+ 200 µm",Subcontractor,m2,,,,,,,,,,,,,,,0
+SE-07,,,Air Cooler,,,,,,,,,,,,,,,,,,0
+SE-07-0001,1032-E-0001,CONDENSATE RECOVERY VESSEL CONDENSER,"Draft Type: FORCED, Duty(KW):867kW
+
+Code: ASME Section VIII Div. 1, API 661， ""U""Stamp",CS,Contractor,set,,,,,,,,,,,,,,,0
+SE-07-0002,1032-E-0002,CONDENSATE COOLER,"Draft Type: FORCED, Duty(MW):670kW
+
+Code: ASME Section VIII Div. 1, API 661， ""U""Stamp",CS,Contractor,set,,,,,,,,,,,,,,,0
+,,,Static Equipment (Green) TOTAL
+NOTES:
+1,,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings."
+1.1,,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials."
+1.2,,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items."
+1.3,,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc."
+2,,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.
+3,,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order."

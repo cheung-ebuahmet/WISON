@@ -1,0 +1,27 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: NDT(Brown)
+"# Rows: 16, Cols: 19"
+
+
+
+
+
+
+
+Item,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+No.,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+A,NDT WORKS
+1.1,Radiographic Test: measured by film sheet regardless radiation source,sheet,6000,,,,,,,,,,,89.9470899470899
+1.2,UT,Dia-In,240,,,,,,,,,,,58.2010582010582
+1.3,PT,Dia-In,825,,,,,,,,,,,58.2010582010582
+1.4,MT,Dia-In,720,,,,,,,,,,,47.6190476190476
+1.5,PMI,Point,150,,,,,,,,,,,47.6190476190476
+,SUBTOTAL-NDT WORKS

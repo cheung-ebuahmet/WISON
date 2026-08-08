@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "<string>", line 70, in <module>
+  File "encodings\cp1252.py", line 19, in encode
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 58-68: character maps to <undefined>
+08 Med. Svc. Agr: 12 PDFs, 25935.3 MB
+  [8638 KB] 08 Med. Svc. Agr/Contract/WisonEngineering_MedicalServiceAgreement-FN-20250922_RPM-REV -SIGNED with Proposal.pdf
+  [5426 KB] 08 Med. Svc. Agr/Pymt/other#001 RPMINV202600200 + RPMINV202505208 WISON ENERGY.pdf
+  [3458 KB] 08 Med. Svc. Agr/Miscellaneous/RPM/WISON ENGINEERING - REVISED COMMERCIAL PROPOSAL & -RPM.pdf
+  [2557 KB] 08 Med. Svc. Agr/Pymt/IPC001 - 29,565 RPMINV202505643 - WISON - DEC_OT 2025.pdf
+  [960 KB] 08 Med. Svc. Agr/Pymt/IPC002 - 23,184 RPMINV202505642 - WISON - NOV 2025.pdf
+  [836 KB] 08 Med. Svc. Agr/Pymt/IPC003 - 28,980 RPMINV202600419 - WISON - JAN 2026.pdf
+  [792 KB] 08 Med. Svc. Agr/Miscellaneous/ARADHQ202501-Burjeel.pdf
+  [716 KB] 08 Med. Svc. Agr/Pymt/IPC005 - 28,980 RPMINV202601395 - WISON - MAR 2026.pdf
+  [697 KB] 08 Med. Svc. Agr/Pymt/IPC004 - 28,980 RPMINV202600880 - WISON - FEB 2026.pdf
+  [661 KB] 08 Med. Svc. Agr/Pymt/IPC006 - 28,980 RPMINV202602236 - WISON - APR 2026.pdf
+  [594 KB] 08 Med. Svc. Agr/Pymt/IPC008 - 31,458 RPMINV202603321 - WISON  - JUN 2026.pdf
+  [594 KB] 08 Med. Svc. Agr/Pymt/IPC007 - 31,626 RPMINV202602769_RPMINV202602786 - WISON - MAY_OT 2026 (WRONGLY entry name IPC006 ).pdf
+10.1 CCECC - Civil Pkg II: 4 PDFs, 54043.2 MB
+  [53089 KB] 10.1 CCECC - Civil Pkg II/Contract/WISON24108C25006_SubCon Civil Pkg II.pdf
+  [432 KB] 10.1 CCECC - Civil Pkg II/Corres/SLT-5312-WSN-CCE-0019_Grating Covers Re-scope_ocred.pdf.pdf
+  [373 KB] 10.1 CCECC - Civil Pkg II/Corres/SLT-5312-CCE-WSN-0047_Reply-Notice-PM-Absence_ocred.pdf.pdf
+  [148 KB] 10.1 CCECC - Civil Pkg II/Corres/SLT-5312-WSN-CCE-0020_Notice-PM-Absence_ocred.pdf.pdf
+10.2 TCC - Civil Pkg I_III: 31 PDFs, 42364.7 MB
+  [13838 KB] 10.2 TCC - Civil Pkg I_III/Contract/Part II Atchments/Attachment 6 - Commercials/Att 01_BOQ - Civil - BLDG Pkg I_Rev.A_Signed.pdf
+  [11766 KB] 10.2 TCC - Civil Pkg I_III/Contract/Part II Atchments/Attachment 6 - Commercials/Att 02_BOQ - Civil - BLDG Pkg III_Rev.A_Signed.pdf
+  [3898 KB] 10.2 TCC - Civil Pkg I_III/Pymt/IPC 004/CNCEC-CC3-2026-0010-Civil PKG I&III 4th progress payment.pdf

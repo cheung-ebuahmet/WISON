@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSB Steel Structure & Equipment Package — Plot 40 | RSGP RSHT-2</title>
+<style>
+  :root {
+    --blue: #1a3a5c;
+    --gold: #c8960c;
+    --red: #c0392b;
+    --grey: #5a5a5a;
+    --light: #f5f4ef;
+    --white: #ffffff;
+    --table-stripe: #f0ede4;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; color: #222; background: #e8e6df; line-height:1.6; }
+  .page {
+    max-width: 1100px; margin: 40px auto; background: var(--white);
+    box-shadow: 0 4px 24px rgba(0,0,0,.12); padding: 60px 70px;
+    page-break-after: always; position: relative;
+  }
+  .page.cover { text-align: center; padding-top: 120px; padding-bottom: 100px; }
+  .page.cover .badge {
+    display: inline-block; background: var(--blue); color: #fff;
+    padding: 8px 28px; border-radius: 4px; font-size: 13px;
+    letter-spacing: 3px; text-transform: uppercase; margin-bottom: 40px;
+  }
+  .page.cover h1 { font-size: 38px; color: var(--blue); font-weight: 700; margin-bottom: 12px; }
+  .page.cover .sub { font-size: 20px; color: var(--gold); font-weight: 500; margin-bottom: 30px; }
+  .page.cover .meta { font-size: 14px; color: var(--grey); margin-top: 50px; line-height:2; }
+  .page.cover .line { width: 80px; height: 3px; background: var(--gold); margin: 30px auto; }
+
+  h2 { font-size: 26px; color: var(--blue); border-bottom: 2px solid var(--gold); padding-bottom: 10px; margin-bottom: 24px; }
+  h3 { font-size: 18px; color: var(--blue); margin: 24px 0 12px; }
+  h4 { font-size: 15px; color: var(--grey); text-transform: uppercase; letter-spacing: 1px; margin: 20px 0 8px; }
+
+  .kpi-row { display: flex; gap: 20px; margin: 24px 0; flex-wrap: wrap; }
+  .kpi {
+    flex: 1; min-width: 180px; background: var(--light);
+    border-left: 4px solid var(--blue); padding: 16px 20px; border-radius: 4px;
+  }
+  .kpi .num { font-size: 28px; font-weight: 700; color: var(--blue); }
+  .kpi .label { font-size: 13px; color: var(--grey); margin-top: 4px; }
+  .kpi.gold { border-left-color: var(--gold); }
+  .kpi.gold .num { color: var(--gold); }
+  .kpi.red { border-left-color: var(--red); }
+  .kpi.red .num { color: var(--red); }
+
+  table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
+  th { background: var(--blue); color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; font-size:13px; }
+  td { padding: 8px 14px; border-bottom: 1px solid #ddd; }
+  tr:nth-child(even) td { background: var(--table-stripe); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .scope-box { border: 1px solid #ccc; border-radius: 6px; padding: 20px 24px; margin: 16px 0; }
+  .scope-box.in { border-left: 5px solid #27ae60; background: #f0faf4; }
+  .scope-box.out { border-left: 5px solid #e74c3c; background: #fef5f4; }
+  .scope-box h4 { margin-top:0; }
+
+  .seq-grid { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; margin: 20px 0; text-align: center; font-size: 13px; }
+  .seq-cell { padding: 10px 4px; border-radius: 4px; font-weight: 600; }
+  .seq-cell.main { background: var(--blue); color: #fff; }
+  .seq-cell.temp { background: var(--gold); color: #fff; }
+  .seq-cell.park { background: #ddd; color: #666; }
+
+  .timeline { display: flex; margin: 16px 0; font-size: 12px; }
+  .timeline .bar { height: 32px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 600; border-radius: 3px; margin-right: 2px; }
+  .timeline .bar.ssb { background: var(--blue); }
+
+  ul { margin: 8px 0 16px 20px; }
+  li { margin-bottom: 4px; }
+
+  .page-num { position: absolute; bottom: 30px; right: 70px; font-size: 12px; color: #aaa; }
+  .footer-strip { margin-top: 30px; padding-top: 14px; border-top: 1px solid #ddd; font-size: 11px; color: #999; display: flex; justify-content: space-between; }
+
+  .note { background: #fffbe6; border: 1px solid #f0e68c; padding: 12px 18px; border-radius: 4px; font-size: 13px; margin: 16px 0; }
+  .note strong { color: var(--gold); }
+
+  .flow-arrow { display: flex; align-items: center; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+  .flow-step { background: var(--blue); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+  .flow-conn { color: var(--gold); font-weight: 700; font-size: 18px; }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; padding: 40px 50px; max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ====== PAGE 1 : COVER ====== -->
+<div class="page cover">
+  <div class="badge">Subcontract Inquiry — Confidential</div>
+  <h1>SSB Steel Structure &amp;<br>Equipment Package Installation</h1>
+  <div class="sub">Plot 40 — Sulphur Storage Building + Stacker/Reclaimers + Conveyors</div>
+  <div class="line"></div>
+  <div class="meta">
+    <strong>Project:</strong> EPC Works of Ruwais Sulfur Granulation Plant for ADNOC GAS<br>
+    <strong>Project Code:</strong> RSHT-2 (RSGP) &nbsp;|&nbsp; <strong>Location:</strong> Ruwais Industrial Area, Abu Dhabi, UAE<br>
+    <strong>Document Date:</strong> 21 July 2026 &nbsp;|&nbsp; <strong>BOQ Revision:</strong> Rev. D<br>
+    <strong>Wison Engineering (Hong Kong) Limited</strong>
+  </div>
+</div>
+
+<!-- ====== PAGE 2 : PROJECT CONTEXT ====== -->
+<div class="page">
+  <h2>1. Project Context — Where Is Plot 40?</h2>
+
+  <h3>The Big Picture: RSGP at RSHT-2</h3>
+  <p>The Ruwais Sulfur Granulation Plant is a <strong>9,900 TPD liquid sulfur receiving, granulation, storage, and export facility</strong> in the Ruwais Downstream Sulfur Complex. The SSB (Sulphur Storage Building) is the core solid-logistics structure — a massive arched space-frame shed housing the stacker/reclaimers and conveyor systems.</p>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="num">9,900</div><div class="label">TPD Sulfur Capacity</div></div>
+    <div class="kpi gold"><div class="num">320m × 88.75m</div><div class="label">SSB Footprint</div></div>
+    <div class="kpi"><div class="num">51.71m</div><div class="label">SSB Apex Height</div></div>
+    <div class="kpi red"><div class="num">~2,800 T</div><div class="label">Total Structural Steel</div></div>
+  </div>
+
+  <h3>Site Layout — 5-Unit Complex</h3>
+  <table>
+    <tr><th>Unit</th><th>Function</th><th>Key Structures</th><th>Package Split</th></tr>
+    <tr><td>Unit 10</td><td>Sulfur Handling / Filtration</td><td>Feed Intake Substation, Front-End Civil</td><td>CP1 + MEI-I</td></tr>
+    <tr><td>Unit 20</td><td>Molten Sulfur Storage</td><td>3× Liquid Sulfur Tanks, Ring Walls</td><td>CP2 + MEI-II</td></tr>
+    <tr><td><strong>Unit 30</strong></td><td><strong>Sulphur Granulation</strong></td><td><strong>Rotary Granulators, SSB Drum Shells</strong></td><td>CP2 + MEI-I + MEI-II</td></tr>
+    <tr><td><strong>Unit 40</strong></td><td><strong>Solid Logistics Corridor</strong></td><td><strong>Outfeed Conveyors, Stacker Assembly Tracks, SSB</strong></td><td>CP1 + MEI-I + MEI-II + CP3</td></tr>
+    <tr><td>Unit 50</td><td>Utilities &amp; Infrastructure</td><td>Cooling Water, HV Power PP5, DCS, IA/Firewater</td><td>MEI-II + CP3</td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Key:</strong> The SSB spans Unit 30 (granulation feed end) and Unit 40 (storage/dispatch end). This package covers <strong>Plot 40</strong> — the SSB structure itself plus all equipment within the Plot 40 boundary (see Appendix 1 — Scope Split Plan).
+  </div>
+
+  <h3>Original Contract Structure</h3>
+  <p>The MEI scope for Units 30/40/50 was originally awarded under <strong>MEI Package I (CCECC)</strong>. This SSB Steel Structure + Equipment Package is being <strong>carved out</strong> from that existing MEI contract and tendered separately to a specialized steel structure &amp; heavy equipment installation subcontractor.</p>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">2 / 10</div>
+</div>
+
+<!-- ====== PAGE 3 : SCOPE CARVE-OUT ====== -->
+<div class="page">
+  <h2>2. Scope Carve-Out — What's Being Split from MEI</h2>
+
+  <div class="kpi-row">
+    <div class="kpi red"><div class="num">MEI Pkg I</div><div class="label">Original CCECC Contract</div></div>
+    <div class="kpi" style="text-align:center; display:flex; align-items:center; justify-content:center; background:transparent; border:none; min-width:60px; flex:0.3;">
+      <div style="font-size:32px; color:var(--gold);">→</div>
+    </div>
+    <div class="kpi"><div class="num">SSB Pkg</div><div class="label">Carved-Out Scope (This Tender)</div></div>
+    <div class="kpi" style="text-align:center; display:flex; align-items:center; justify-content:center; background:transparent; border:none; min-width:60px; flex:0.3;">
+      <div style="font-size:32px; color:var(--grey);">+</div>
+    </div>
+    <div class="kpi" style="border-left-color:#888;"><div class="num" style="color:#888;">MEI Residual</div><div class="label">Remaining MEI-I Scope</div></div>
+  </div>
+
+  <div class="scope-box in">
+    <h4>✅ INCLUDED in This Package</h4>
+    <ul>
+      <li><strong>All steel structure works</strong> within Plot 40 red-line boundary — space frame, structural steel, cladding, roofing, doors, ventilators</li>
+      <li><strong>Package equipment installation</strong> — 2× Portal Stacker Reclaimers (4043-SR-0001A/B), Belt Conveyors (CV-0003A/B), Transfer Tower, Magnetic Separators, Belt Scales</li>
+      <li><strong>All construction means &amp; methods</strong> — scaffolding, temporary works, heavy lifting, sliding system operation</li>
+      <li><strong>Indirect costs</strong> — mobilization, camp, temporary facilities, site management, HSE, QA/QC</li>
+      <li><strong>Touch-up painting &amp; galvanizing repair</strong></li>
+      <li><strong>Pre-commissioning assistance</strong> (manpower, tools, consumables)</li>
+    </ul>
+  </div>
+
+  <div class="scope-box out">
+    <h4>❌ EXCLUDED from This Package</h4>
+    <ul>
+      <li><strong>Instrumentation &amp; Telecom works</strong> (remains with MEI contractor)</li>
+      <li><strong>Electrical works</strong> (cable tray, cabling, terminations — MEI scope)</li>
+      <li><strong>E&I calibration, loop checks, DCS integration</strong></li>
+      <li><strong>Civil/foundation works</strong> (completed or ongoing under Civil Packages CP1/CP2)</li>
+      <li><strong>Piping works</strong> (MEI scope)</li>
+      <li><strong>Fireproofing material supply</strong> (Contractor-supplied; Subcontractor installs)</li>
+      <li><strong>Permanent equipment supply</strong> — all major equipment &amp; steel materials are <em>Contractor-free-issue</em></li>
+    </ul>
+  </div>
+
+  <div class="note">
+    <strong>Material Supply Model:</strong> Contractor (Wison) supplies all permanent materials — prefabricated steel, equipment, anchor bolts, grating, cladding, doors, painting materials. Subcontractor supplies all consumables, tools, temporary works materials, scaffolding, welding consumables, and grouting.
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">3 / 10</div>
+</div>
+
+<!-- ====== PAGE 4 : THE SSB STRUCTURE ====== -->
+<div class="page">
+  <h2>3. The SSB Structure — Sulphur Storage Building</h2>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="num">320m</div><div class="label">Total Length</div></div>
+    <div class="kpi gold"><div class="num">88.75m</div><div class="label">Arch Truss Span</div></div>
+    <div class="kpi"><div class="num">51.71m</div><div class="label">Height (to apex)</div></div>
+    <div class="kpi red"><div class="num">8</div><div class="label">Modules</div></div>
+  </div>
+
+  <h3>Structural System</h3>
+  <ul>
+    <li><strong>Type:</strong> Arched steel truss space frame — bolted spherical joint system</li>
+    <li><strong>Nodes:</strong> Bolted spherical nodes (high-strength bolts Grade 8.8S/10.9S), 45# steel</li>
+    <li><strong>Members:</strong> Tubes Ø60×3.5 to Ø219×10, all Q355B steel</li>
+    <li><strong>Bearings:</strong> Spherical steel bearings on concrete foundations at elevation +12.05m</li>
+    <li><strong>Truss spacing:</strong> 2.635m centers (standard), gable wall trusses at ends</li>
+    <li><strong>Heaviest single lift:</strong> 15.9 tons (ground-assembled section)</li>
+    <li><strong>Vendor:</strong> Jinggong Industrial Building System Group Co., Ltd. (PRC)</li>
+  </ul>
+
+  <h3>Steel Structure BOQ — Major Items</h3>
+  <table>
+    <tr><th>Item</th><th>Description</th><th class="num">Qty</th><th>Unit</th></tr>
+    <tr><td>SS-02-0002</td><td>Space Frame Main Members — Q355B tubes</td><td class="num">935</td><td>Ton</td></tr>
+    <tr><td>SS-02-0005</td><td>Roof Purlins &amp; Connection Fittings — Q355</td><td class="num">408</td><td>Ton</td></tr>
+    <tr><td>SS-02-0003</td><td>Bolted Spherical Nodes &amp; Cone-End Accessories — 45# Steel</td><td class="num">300</td><td>Ton</td></tr>
+    <tr><td>SS-02-0001</td><td>Supports &amp; Embedded Parts — Q355B</td><td class="num">143</td><td>Ton</td></tr>
+    <tr><td>SS-02-0006</td><td>Wall Purlins &amp; Connection Fittings — Q355</td><td class="num">85</td><td>Ton</td></tr>
+    <tr><td>SS-02-0007</td><td>H-Shaped Steel Beams &amp; Columns (50~150 kg/m)</td><td class="num">39</td><td>Ton</td></tr>
+    <tr style="background:#fffbe6;"><td colspan="2"><strong>Space Frame Subtotal</strong></td><td class="num"><strong>1,910</strong></td><td><strong>Ton</strong></td></tr>
+    <tr><td>SS-01-0002</td><td>Medium Structural Sections (10-50 kg/m) — Q355B</td><td class="num">325</td><td>Ton</td></tr>
+    <tr><td>SS-01-0005</td><td>Monorail of Stacker/Reclaimer</td><td class="num">206</td><td>Ton</td></tr>
+    <tr><td>SS-01-0003</td><td>Heavy Sections (50~150 kg/m) — Q355B + Welded</td><td class="num">130</td><td>Ton</td></tr>
+    <tr><td>SS-01-0006</td><td>Ladders, Cages, Stairs — HDG, S275JR/ASTM A36</td><td class="num">140</td><td>Ton</td></tr>
+    <tr><td>SS-01-0007</td><td>Handrails — HDG, ASTM A53/A500 Gr.B</td><td class="num">86</td><td>Ton</td></tr>
+    <tr><td>SS-01-0008</td><td>Welded Grating — ASTM A36/A1011 galvanized</td><td class="num">55.79</td><td>Ton</td></tr>
+    <tr style="background:#fffbe6;"><td colspan="2"><strong>General Structural Steel Subtotal</strong></td><td class="num"><strong>~948</strong></td><td><strong>Ton</strong></td></tr>
+  </table>
+
+  <h3>Cladding &amp; Envelope</h3>
+  <table>
+    <tr><th>Item</th><th>Description</th><th class="num">Qty</th><th>Unit</th></tr>
+    <tr><td>SS-02-0008</td><td>Al-Mg-Mn Alloy Roof Panels — 0.9mm, PVDF, ARC65</td><td class="num">33,924</td><td>m²</td></tr>
+    <tr><td>SS-02-0009</td><td>Translucent Panels — 1.5mm, FRP</td><td class="num">8,481</td><td>m²</td></tr>
+    <tr><td>SS-02-0010</td><td>Wall Cladding Panels — 0.9mm, PVDF, ARC65</td><td class="num">6,271.5</td><td>m²</td></tr>
+    <tr><td>SS-02-0016</td><td>Explosion Venting Roof Area — cables, washers, sleeves</td><td class="num">2,208</td><td>m²</td></tr>
+    <tr><td>SS-02-0011</td><td>Color Steel Sheet Flashing — 0.9mm, PVDF</td><td class="num">1,078.5</td><td>m</td></tr>
+    <tr><td>SS-02-0012</td><td>Rolling Shutter Doors</td><td class="num">159.3</td><td>m²</td></tr>
+    <tr><td>SS-02-0013</td><td>Ridge Ventilator</td><td class="num">147</td><td>m²</td></tr>
+    <tr><td>SS-02-0014</td><td>Steel Gutter &amp; Brackets — Q345B HDG</td><td class="num">710</td><td>m</td></tr>
+    <tr><td>SS-02-0015</td><td>Rainwater Downpipe — Ø150 pre-coated galv. steel</td><td class="num">1,306.8</td><td>m</td></tr>
+  </table>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">4 / 10</div>
+</div>
+
+<!-- ====== PAGE 5 : EQUIPMENT PACKAGE ====== -->
+<div class="page">
+  <h2>4. Equipment Package — What Gets Installed Inside the SSB</h2>
+
+  <div class="kpi-row">
+    <div class="kpi red"><div class="num">2</div><div class="label">Portal Stacker Reclaimers</div></div>
+    <div class="kpi"><div class="num">2</div><div class="label">Belt Conveyors (B=2200mm)</div></div>
+    <div class="kpi gold"><div class="num">1,520 T</div><div class="label">Conveyor Total Weight</div></div>
+    <div class="kpi"><div class="num">1</div><div class="label">Transfer Tower (126T)</div></div>
+  </div>
+
+  <h3>PK-0003: Portal Stacker Reclaimer (2 identical units — S/R-A &amp; S/R-B)</h3>
+  <table>
+    <tr><th>Component</th><th>Key Parts</th><th class="num">Total Weight</th></tr>
+    <tr><td>Portal</td><td>Part 1 (136T), Part 2 (53T), Fixed side (20T), Pendulum side (15T), Beam (34T), Secondary Structure (79.4T), Boom Hoist Rope System (50T)</td><td class="num">~468 T</td></tr>
+    <tr><td>Main Boom</td><td>Drive unit (10.6T), Chain (×2, 8.9T), Steel structure (45.1T), Blades (×85)</td><td class="num">~100 T</td></tr>
+    <tr><td>Auxiliary Boom</td><td>Drive units (×2), Chain (×2), Steel structure (18.4T), Blades (×38)</td><td class="num">~34 T</td></tr>
+    <tr><td>E-House</td><td>Electrical house container</td><td class="num">55 T</td></tr>
+    <tr><td>Tripper Car Conveyor</td><td>5 parts, head/tail pulleys, 52 idler stations, chutes</td><td class="num">~84 T</td></tr>
+    <tr><td>Travel Units</td><td>Bogie assemblies with buffers &amp; drive units</td><td class="num">68 T</td></tr>
+    <tr><td>Trafo Room</td><td>Transformer room</td><td class="num">9.5 T</td></tr>
+    <tr><td colspan="2">E-Chain, Instruments, Cables, Cable Trays</td><td>Lot</td></tr>
+  </table>
+
+  <h3>PK-0005: Belt Conveyor System</h3>
+  <table>
+    <tr><th>Tag No.</th><th>Description</th><th class="num">Weight</th><th>Notes</th></tr>
+    <tr><td>4015-CV-0003A</td><td>DTII Belt Conveyor B=2200, V=2.54m/s, Q=4,000t/h, L=476.5m, 450kW</td><td class="num">760 T</td><td>4 skids, 13m×6.8m×2.8m</td></tr>
+    <tr><td>4015-CV-0003B</td><td>As above, L=477.0m</td><td class="num">760 T</td><td>4 skids</td></tr>
+    <tr><td>4015-TT-0014</td><td>Transfer Tower 15m×15m×13m, 2 floors + roof</td><td class="num">126 T</td><td>CS structure</td></tr>
+    <tr><td>4015-MS-0002A/B</td><td>Magnetic Separators B=2200mm, 30kW (×2)</td><td class="num">14 T</td><td>CS</td></tr>
+    <tr><td>4015-SC-0003A/B</td><td>Electronic Belt Scales ±0.25% precision (×2 Green + ×2 Brown)</td><td class="num">1.2 T</td><td></td></tr>
+    <tr><td>—</td><td>All other E&amp;I aux. facilities, internal piping, steel structure</td><td>1 Lot</td><td></td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Heavy Lifting:</strong> S/R portal erection requires 1× 650-ton crawler crane + 1× 400-ton mobile crane + 1× 100-ton mobile crane working in tandem. Ground bearing verification and crane path preparation are in Subcontractor scope. <strong>All heavy lifting is Subcontractor responsibility.</strong>
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">5 / 10</div>
+</div>
+
+<!-- ====== PAGE 6 : CONSTRUCTION METHODOLOGY ====== -->
+<div class="page">
+  <h2>5. Construction Methodology — Hydraulic Synchronous Cumulative Sliding</h2>
+
+  <h3>Why Sliding?</h3>
+  <p>The SSB (320m long) is assembled in <strong>8 modules</strong> on a central scaffold platform, then slid longitudinally into final positions. This method avoids the need for full-length scaffolding and allows the Stacker/Reclaimer lifts to happen concurrently in the cleared end zones.</p>
+
+  <h3>Assembly &amp; Sliding Sequence</h3>
+  <div class="seq-grid">
+    <div style="grid-column:1;">Step</div>
+    <div>M1</div><div>M2</div><div>M3</div><div>M4</div><div>M5</div><div>M6</div><div>M7</div><div>M8</div>
+    <div style="grid-column:1;">1st Slide</div>
+    <div class="seq-cell main">1</div><div class="seq-cell main">2</div><div class="seq-cell main">8</div><div class="seq-cell main">7</div><div class="seq-cell park">—</div><div class="seq-cell park">—</div><div class="seq-cell park">—</div><div class="seq-cell park">—</div>
+    <div style="grid-column:1;">Parked At →</div>
+    <div class="seq-cell temp">→M3</div><div class="seq-cell temp">→M4</div><div class="seq-cell temp">→M7</div><div class="seq-cell temp">→M6</div><div style="font-size:10px;color:#999;">Scaffold Platform (25m wide)</div><div></div><div></div><div></div>
+    <div style="grid-column:1;">Remaining</div>
+    <div class="seq-cell park">—</div><div class="seq-cell park">—</div><div class="seq-cell main">3</div><div class="seq-cell main">4</div><div class="seq-cell main">6</div><div class="seq-cell main">5</div><div class="seq-cell park">—</div><div class="seq-cell park">—</div>
+    <div style="grid-column:1;">2nd Slide</div>
+    <div class="seq-cell temp">Final</div><div class="seq-cell temp">Final</div><div></div><div></div><div></div><div></div><div class="seq-cell temp">Final</div><div class="seq-cell temp">Final</div>
+  </div>
+
+  <h3>Key Construction Steps</h3>
+  <div class="flow-arrow">
+    <div class="flow-step">1. Build Scaffold Platform</div><div class="flow-conn">→</div>
+    <div class="flow-step">2. Assemble 1st Half Module</div><div class="flow-conn">→</div>
+    <div class="flow-step">3. Slide 20m</div><div class="flow-conn">→</div>
+    <div class="flow-step">4. Assemble 2nd Half</div><div class="flow-conn">→</div>
+    <div class="flow-step">5. Slide to Position</div><div class="flow-conn">→</div>
+    <div class="flow-step">6. Cladding &amp; Gable</div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="num">25m</div><div class="label">Scaffold Platform Width</div></div>
+    <div class="kpi gold"><div class="num">20m</div><div class="label">First Half Slide Distance</div></div>
+    <div class="kpi"><div class="num">15.9 T</div><div class="label">Max Single Lift Weight</div></div>
+    <div class="kpi red"><div class="num">2</div><div class="label">150T Crawler Cranes</div></div>
+  </div>
+
+  <h3>S/R Portal Lift — Concurrent Operation</h3>
+  <ul>
+    <li>S/R portal sections shifted into position through the <strong>SSB gable access opening</strong> (foundation held open)</li>
+    <li>Portal sections fitted-up and welded into a single unit on the ground between travel units</li>
+    <li><strong>Tandem lift:</strong> 650T crawler + 400T mobile + 100T mobile — portal rotated to vertical, lifted ~0.5m above head beam, lowered onto bearings</li>
+    <li>Modules 1, 2, 8, 7 <strong>temporarily parked</strong> in adjacent bays to keep S/R lift zones clear</li>
+    <li>After S/R lifts complete → 2nd sliding of M1/2 (after S/R-B) and M8/7 (after S/R-A) to final positions</li>
+  </ul>
+
+  <h3>Sliding System Details</h3>
+  <ul>
+    <li>Computer-controlled synchronized hydraulic push system (YS-PP-11 pump source)</li>
+    <li>Sliding jack machines and fixing cables: <strong>Contractor-supplied</strong></li>
+    <li>Sliding structure installation &amp; operation: <strong>Subcontractor scope</strong></li>
+    <li>Sliding rods replaced with permanent rods after base plate welding</li>
+    <li>Temporary cable fixing at outer nodes over retaining wall during slide-out</li>
+    <li>Non-sliding column base plates at slightly lower elevation; stiffener plates cut &amp; re-welded post-slide</li>
+    <li>Spanwise synchronization tolerance: L/1000, max 30mm</li>
+  </ul>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">6 / 10</div>
+</div>
+
+<!-- ====== PAGE 7 : SCHEDULE ====== -->
+<div class="page">
+  <h2>6. Schedule &amp; Key Milestones</h2>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="num">7 Aug 2026</div><div class="label">Installation Start</div></div>
+    <div class="kpi gold"><div class="num">15 Apr 2027</div><div class="label">Target Completion</div></div>
+    <div class="kpi"><div class="num">~8</div><div class="label">Months Duration</div></div>
+  </div>
+
+  <h3>Material Delivery Schedule</h3>
+  <table>
+    <tr><th>Item</th><th>Delivery Date</th><th>Status</th></tr>
+    <tr><td>Sliding track material</td><td>Already at site</td><td style="color:#27ae60;">✓ Delivered</td></tr>
+    <tr><td>1st batch base plates</td><td>25 July 2026</td><td style="color:#c8960c;">Imminent</td></tr>
+    <tr><td>Balance base plates</td><td>Dispatched from China 11 July</td><td style="color:#27ae60;">✓ In Transit</td></tr>
+    <tr><td>Unit-1 frame material</td><td>2 August 2026</td><td style="color:#c8960c;">Pending</td></tr>
+    <tr><td>All frame material</td><td>30 September 2026</td><td>—</td></tr>
+  </table>
+
+  <h3>Civil Prerequisites</h3>
+  <table>
+    <tr><th>Foundation</th><th>Status</th></tr>
+    <tr><td>Unit 5/8 civil foundation</td><td style="color:#27ae60;">✓ Completed</td></tr>
+    <tr><td>Remaining foundations</td><td style="color:#c8960c;">Ongoing — released to SSB sliding track / lateral stop installation area-wise</td></tr>
+    <tr><td>Retaining wall (10m height section)</td><td style="color:#27ae60;">✓ Completed</td></tr>
+    <tr><td>Retaining wall (5m height section)</td><td style="color:#27ae60;">✓ Completed</td></tr>
+    <tr><td>Foundation (5m height section)</td><td style="color:#27ae60;">✓ Completed</td></tr>
+  </table>
+
+  <h3>Labour &amp; Equipment Requirements</h3>
+  <table>
+    <tr><th>Resource</th><th>Quantity</th><th>Notes</th></tr>
+    <tr><td>Erection workers</td><td>Up to 40</td><td>Steel erectors, riggers, welders</td></tr>
+    <tr><td>Painters</td><td>12</td><td>Touch-up &amp; finishing</td></tr>
+    <tr><td>General workers</td><td>12</td><td></td></tr>
+    <tr><td>Supervisors / Gaugers</td><td>As required</td><td>Survey, QA/QC, HSE</td></tr>
+    <tr><td>150T Crawler Cranes</td><td>2</td><td>Module lifting</td></tr>
+    <tr><td>50T Truck Cranes</td><td>2</td><td>STC500E5 or equivalent</td></tr>
+    <tr><td>25T Truck Cranes</td><td>2</td><td>Material handling</td></tr>
+    <tr><td>38m Straight-Arm Machines</td><td>4</td><td>Elevated work platforms</td></tr>
+    <tr><td>DC Welders</td><td>10</td><td></td></tr>
+    <tr><td>CO₂ Welders</td><td>30</td><td></td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Working Hours:</strong> 10 hours/day, 6 days/week (Saturday–Thursday). All labor and equipment rates quoted on this basis. Overtime, night shifts, and Friday working by separate agreement.
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">7 / 10</div>
+</div>
+
+<!-- ====== PAGE 8 : SCOPE BOUNDARY — RESPONSIBILITY SPLIT ====== -->
+<div class="page">
+  <h2>7. Responsibility Split — Who Does What</h2>
+
+  <h3>Steel Structure Work</h3>
+  <table>
+    <tr><th>Activity</th><th style="text-align:center;">Contractor<br>(Wison)</th><th style="text-align:center;">Subcontractor<br>(This Pkg)</th></tr>
+    <tr><td>Engineering &amp; detailed design</td><td style="text-align:center;">✓</td><td></td></tr>
+    <tr><td>Erection documentation / method statements / ITP</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Prefabricated steel supply (primed)</td><td style="text-align:center;">✓</td><td></td></tr>
+    <tr><td>Inland transport to site (Contractor portion)</td><td style="text-align:center;">✓</td><td></td></tr>
+    <tr><td>Unloading at site / laydown</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Material receipt inspection, damage repair</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Setting-out, benchmarks, alignment control</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Foundation check (location/elevation/dim)</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Anchor bolt adjustment, protection, grouting</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Pre-assembly &amp; erection of steel structure</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Alignment, bolt torque, inspection</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Welding (WPS/PQR, welder qualification, execution, NDE)</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Cladding, grating, handrail, ladder, accessories</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Rolling shutter doors, ridge ventilators</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Scaffolding (supply, erection, maintenance, dismantling)</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Touch-up painting of site damage</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>As-built mark-up drawings</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Welding consumables, tools, temp materials</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Punch clearance</td><td></td><td style="text-align:center;">✓</td></tr>
+  </table>
+
+  <h3>Equipment Installation Work</h3>
+  <table>
+    <tr><th>Activity</th><th style="text-align:center;">Contractor<br>(Wison)</th><th style="text-align:center;">Subcontractor<br>(This Pkg)</th></tr>
+    <tr><td>Permanent equipment supply</td><td style="text-align:center;">✓</td><td></td></tr>
+    <tr><td>Installation method statements / ITP</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Heavy lifting (all cranes, rigging, ground prep)</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Pre-assembly, skid assembly</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Foundation check, chipping, mortar pads, liner plates</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Grouting (non-shrink &amp; epoxy)</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Alignment (cold &amp; hot), bolt torque</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Lube/seal oil filling, flushing</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Mechanical running test, solo run, vibration test</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Internal cleaning, box-up</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Vendor-supplied E&amp;I installation</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Preservation during construction</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Pre-commissioning manpower assist</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>Punch list &amp; PSSR closing</td><td></td><td style="text-align:center;">✓</td></tr>
+    <tr><td>All tools, consumables, temp. materials</td><td></td><td style="text-align:center;">✓</td></tr>
+  </table>
+
+  <div class="note">
+    <strong>E&amp;I Boundary Clarification:</strong> Subcontractor installs <strong>vendor-supplied E&amp;I materials only</strong> (those arriving as part of the package equipment — e.g., stacker/reclaimer onboard instruments, conveyor belt scale instruments). All <strong>field E&amp;I works</strong> (cable trays, field cabling, terminations, loop checks, DCS integration, instrument calibration) remain with the MEI contractor. Subcontractor provides pre-commissioning manpower assist only.
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">8 / 10</div>
+</div>
+
+<!-- ====== PAGE 9 : COMMERCIAL STRUCTURE ====== -->
+<div class="page">
+  <h2>8. Commercial Structure — BOQ &amp; Pricing</h2>
+
+  <h3>BOQ Document Structure (10 Sheets, Rev. D)</h3>
+  <table>
+    <tr><th>Sheet</th><th>Content</th><th>Pricing Basis</th></tr>
+    <tr><td>1. Cover</td><td>Project info, revision history, general notes</td><td>—</td></tr>
+    <tr><td>2. A-Summary</td><td>Grand summary: Direct + Indirect + VAT</td><td>Lump Sum / Unit Rate</td></tr>
+    <tr><td>3. A.1-Indirects</td><td>Indirect cost breakdown (financial, mob/demob, TCF, running, personnel, OH&amp;P)</td><td>Lump Sum</td></tr>
+    <tr><td>4. Steel Structural</td><td>SS-01 (general) + SS-02 (space frame) detailed BOQ</td><td>Unit Rate (per Ton / m² / m)</td></tr>
+    <tr><td>5. Package Summary</td><td>PK-0003 + PK-0005 summary</td><td>Lump Sum (not splittable)</td></tr>
+    <tr><td>6. Package-003</td><td>Stacker Reclaimer detailed component breakdown (×2 units)</td><td>Lump Sum</td></tr>
+    <tr><td>7. Package-005</td><td>Belt Conveyor system detailed equipment list</td><td>Unit Rate / Lump Sum</td></tr>
+    <tr><td>8. Miscellaneous</td><td>Galvanizing of steel structure (rate-only item)</td><td>Unit Rate (per Ton)</td></tr>
+    <tr><td>9. Labor Rates</td><td>All-inclusive labor rates by trade (A–O categories)</td><td>Day Rate (10hr)</td></tr>
+    <tr><td>10. Equipment Rates</td><td>All-inclusive equipment rates (~121 equipment types)</td><td>Monthly / Daily / Stand-by</td></tr>
+  </table>
+
+  <h3>Pricing Principles</h3>
+  <div class="kpi-row">
+    <div class="kpi"><div class="num">AED</div><div class="label">Currency (1 USD = 3.6725 AED)</div></div>
+    <div class="kpi gold"><div class="num">Excl.</div><div class="label">VAT Excluded</div></div>
+    <div class="kpi"><div class="num">All-In</div><div class="label">Unit prices all-inclusive</div></div>
+  </div>
+
+  <ul>
+    <li><strong>Unit rates are "all-inclusive":</strong> labor, materials (Subcontractor-supplied), construction equipment, tools, consumables, temporary works, scaffolding, site management, QA/QC, HSE, insurance, risk, overhead &amp; profit</li>
+    <li><strong>Indirect costs:</strong> Priced as a separate Lump Sum covering mobilization, camp, TCF, running costs, indirect personnel, head office support, and profit</li>
+    <li><strong>Package equipment:</strong> PK-0003 (Stacker Reclaimers) is fixed lump sum, not to be split after confirmation</li>
+    <li><strong>Labor rates:</strong> Day-work rates for additional/modification work outside original scope — 5% markup on Subcontractor-supplied materials</li>
+    <li><strong>Method of Measurement:</strong> Per Exhibit B (A5 — Steel Structure, C5 — Package Equipment)</li>
+    <li><strong>No addition/deletion or reordering</strong> of BOQ items allowed</li>
+  </ul>
+
+  <div class="note">
+    <strong>Pricing Template Note:</strong> The BOQ Excel file is currently a <strong>pricing template</strong> — all rate/cost fields are blank (zero-filled). The subcontractor is to fill in their unit rates, labor rates, equipment rates, and indirect cost lump sum. The BOQ is designed so that quantities × unit rates auto-sum to the total subcontract price.
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">9 / 10</div>
+</div>
+
+<!-- ====== PAGE 10 : KEY POINTS & NEXT STEPS ====== -->
+<div class="page">
+  <h2>9. Key Points for the Subcontractor</h2>
+
+  <h3>Why This Package Matters</h3>
+  <ul>
+    <li><strong>Specialized scope:</strong> The SSB space frame + sliding methodology is a niche skill set — this isn't general MEI work. It requires experience with large-span space frame structures, hydraulic synchronized sliding, and tandem heavy lifting.</li>
+    <li><strong>Clean interface:</strong> The carve-out is designed with a clear boundary — steel structure + equipment only, no E&amp;I field works. Material supply is predominantly Contractor free-issue, minimizing subcontractor procurement risk.</li>
+    <li><strong>Schedule critical:</strong> The SSB is on the critical path for the entire RSGP facility. Any delay directly impacts granulation start-up and first sulfur export.</li>
+  </ul>
+
+  <h3>Risk Factors to Consider in Pricing</h3>
+  <ul>
+    <li><strong>Site congestion:</strong> Plot 40 is the most congested spatial corridor (4 packages: CP1 + MEI-I + MEI-II + CP3). Coordinate with adjacent contractors for crane paths, laydown, and access.</li>
+    <li><strong>High ambient temperature:</strong> Ruwais summer conditions (40–50°C) require bolt torque coefficient recalibration and heat-stress management</li>
+    <li><strong>Wind constraints:</strong> Normal ops ≤10 m/s, suspend high work at 10–15 m/s, full shutdown >15 m/s. Plan for wind downtime in schedule.</li>
+    <li><strong>S/R concurrent operations:</strong> Modules 1/2/8/7 must be double-handled (temporary park → 2nd slide). Price this double handling.</li>
+    <li><strong>Heavy crane mobilization:</strong> 650T crawler crane logistics in Ruwais require advance planning (ground bearing, access roads, assembly area)</li>
+    <li><strong>Scaffold design liability:</strong> Method statement &amp; calculation for the 25m-wide assembly scaffold must be certified by an approved Third Party Inspector (TPI)</li>
+  </ul>
+
+  <h3>Reference Documents (Included in Tender Package)</h3>
+  <table>
+    <tr><th>#</th><th>Document</th><th>File</th></tr>
+    <tr><td>1</td><td>BOQ — Price List (Rev. D)</td><td>BOQ For Steel Structure&amp;Package (40).xlsx</td></tr>
+    <tr><td>2</td><td>SOW Responsibility Matrix</td><td>A 1.2 SOW Responsibility Matrix-Rev.0.pdf</td></tr>
+    <tr><td>3</td><td>Scope Split Plan — Plot 40</td><td>Appendix 1 Scope split plan 40.jpg</td></tr>
+    <tr><td>4</td><td>MoM — Steel Structure (A5)</td><td>02.A5 Structure&amp;Steel Structure.pdf</td></tr>
+    <tr><td>5</td><td>MoM — Architecture/Rolling Shutter (A6)</td><td>02.A-A6-Architecture-Rolling Shutter Door.pdf</td></tr>
+    <tr><td>6</td><td>MoM — Package Equipment (C5)</td><td>04.C-Equipment-C5 Package Equipment.pdf</td></tr>
+    <tr><td>7</td><td>SSB Installation Sequence &amp; Procedure (224pp)</td><td>PR-5312-4041-SSB-0001-012_B.pdf</td></tr>
+    <tr><td>8</td><td>Construction Strategy Presentation</td><td>Construction Strategy of SSB work 0710.pptx</td></tr>
+    <tr><td>9</td><td>Non-Disclosure Agreement</td><td>Non Disclosure Agreement for signing and stamp.docx</td></tr>
+  </table>
+
+  <div class="note" style="margin-top:24px;">
+    <strong>Next Step:</strong> Review the BOQ, SOW matrix, and scope split plan. Sign and return the NDA. Submit pricing in the BOQ template (Rev. D) with all unit rates, lump sums, labor rates, and equipment rates completed. All prices in AED, VAT excluded.
+  </div>
+
+  <div class="footer-strip"><span>Wison Engineering — RSGP RSHT-2</span><span>Confidential</span></div>
+  <div class="page-num">10 / 10</div>
+</div>
+
+</body>
+</html>

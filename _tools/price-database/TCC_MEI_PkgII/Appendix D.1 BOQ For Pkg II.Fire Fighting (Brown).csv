@@ -1,0 +1,81 @@
+﻿# Source: Appendix D.1 BOQ For Pkg II.xlsx
+# Sheet: Fire Fighting (Brown)
+"# Rows: 65, Cols: 25"
+
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,,,,,,,,,,,,,,,,,,,,,,"REV. C, DATE: 30/DEC/2025"
+No.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,Material,"Material
+Supply by","SIZE
+(NPS)",SCH / Rating,Joint Type,Material Supplied By,UNIT,Qty.,"UNIT 50
+General","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,,,,Q,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+Water Supply & Drainage,,,,,,,,,,,,,,,,,,,,,,,,
+WSD-01,,Connection Joints,,,,,,,,,,,,,,,,,,,,,,
+WSD-01-01,STAINLESS STEEL,"SS,0.75,S-80S,Butt Weld",SS,Contractor,0.75,S-80S,Butt Weld,,Dia-Inch,0.857142857142857,0.857142857142857,8.39302813206,7.19402411319428,369.628958935922,316.824821945076,0,0,84.9730228921494,72.8340196218423,35.2429054624787,30.2082046821246,489.84488729055,419.867046249043,
+WSD-01-02,STAINLESS STEEL,"SS,1,S-80S,Butt Weld",SS,Contractor,1,S-80S,Butt Weld,,Dia-Inch,4.28571428571429,4.28571428571429,8.97004881613913,38.443066354882,395.040949862767,1693.032642269,0,0,90.8149182159847,389.206792354221,37.6658552130241,161.425093770103,523.521723291776,2243.66452839333,
+WSD-01-03,STAINLESS STEEL,"SS,3,S-80S,Butt Weld",SS,Contractor,3,S-80S,Butt Weld,,Dia-Inch,210,210,12.1908733618172,2560.08340598161,536.886062854427,112746.07319943,0,0,123.423315750847,25918.8963076779,51.1903201842503,10749.9672386926,711.499698789524,149414.9367458,
+WSD-01-04,STAINLESS STEEL,"SS,0.75,CL150,Fillet Weld",SS,Contractor,0.75,CL150,Fillet Weld,,Dia-Inch,7.5,7.5,7.553725318854,56.652939891405,332.66606304233,2494.99547281747,0,0,76.4757206029344,573.567904522008,31.7186149162308,237.889611871731,440.860398561495,3306.45298921121,
+WSD-01-05,STAINLESS STEEL,"SS,1,CL150,Fillet Weld",SS,Contractor,1,CL150,Fillet Weld,,Dia-Inch,6,6,7.553725318854,45.322351913124,332.66606304233,1995.99637825398,0,0,76.4757206029344,458.854323617606,31.7186149162308,190.311689497385,440.860398561495,2645.16239136897,
+WSD-01-06,STAINLESS STEEL,"SS,2,CL150,Butt Weld",SS,Contractor,2,CL150,Butt Weld,,Dia-Inch,4,4,8.39302813206,33.57211252824,369.628958935922,1478.51583574369,0,0,84.9730228921494,339.892091568598,35.2429054624787,140.971621849915,489.84488729055,1959.3795491622,
+WSD-01-07,STAINLESS STEEL,"SS,3,CL150,Butt Weld",SS,Contractor,3,CL150,Butt Weld,,Dia-Inch,54,54,8.39302813206,453.22351913124,369.628958935922,19959.9637825398,0,0,84.9730228921494,4588.54323617607,35.2429054624787,1903.11689497385,489.84488729055,26451.6239136897,
+WSD-01-08,STAINLESS STEEL,"SS,1,CL 3000,Fillet Weld",SS,Contractor,1,CL 3000,Fillet Weld,,Dia-Inch,10,10,7.553725318854,75.53725318854,332.66606304233,3326.6606304233,0,0,76.4757206029344,764.757206029344,31.7186149162308,317.186149162308,440.860398561495,4408.60398561495,
+WSD-01-09,STAINLESS STEEL,"SS,3,S-10S,Butt Weld",SS,Contractor,3,S-10S,Butt Weld,,Dia-Inch,117,117,8.39302813206,981.98429145102,369.628958935922,43246.5881955029,0,0,84.9730228921494,9941.84367838148,35.2429054624787,4123.41993911001,489.84488729055,57311.8518129944,
+WSD-01-10,STAINLESS STEEL,"SS,3,CL 3000,Fillet Weld",SS,Contractor,3,CL 3000,Fillet Weld,,Dia-Inch,11.25,11.25,7.553725318854,84.9794098371075,332.66606304233,3742.49320922621,0,0,76.4757206029344,860.351856783012,31.7186149162308,356.834417807596,440.860398561495,4959.67948381682,
+WSD-02,,UPVC Pipe,,,,,,,,,,0,,,,,,,,,,,,
+UP-01-02-0001,UPVC Pipe,"UPVC Pipe , 6”,BS EN 1401-1",UPVC,Subcontractor,6,,Adhesive,,m,323,323,5.49963099630996,1776.38081180812,242.203749077491,78231.8109520296,44.5257352941176,14381.8125,72.3937094204472,23383.1681428044,2.73630882352941,883.827749999999,361.859502615585,116880.619344834,
+WSD-03,,VALVE,,,,,,,,,,0,,,,,,,,,,,,
+WSD-03-0001,Check valve,"3”,Check valve ,API 594 ,CL 150 ,RF ,Dual-Plate Double-flanged ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12)",SS,Contractor,3,CL150,FLGD,,ea,2,2,10.76544,21.53088,474.1099776,948.2199552,0,0,113.293431934118,226.586863868236,5.82558529411765,11.6511705882353,593.228994828236,1186.45798965647,
+WSD-03-0002,Gate Vlv,"0.75”,Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,ASTM A182 F316 ,Trim:316/STL(Trim No.12) ,STD Port,ASME B16.5",SS,Contractor,0.75,CL150,FLGD,,ea,6,6,4.608576,27.651456,202.96168704,1217.77012224,0,0,58.4614648207059,350.768788924235,4.05977558823529,24.3586535294117,265.482927448941,1592.89756469365,
+WSD-03-0003,Gate Vlv,"1”,Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,ASTM A182 F316 ,Trim:316/STL(Trim No.12) ,STD Port,ASME B16.5",SS,Contractor,1,CL150,FLGD,,ea,2,2,5.12064,10.24128,225.5129856,451.0259712,0,0,64.9571831341176,129.914366268235,4.51086176470588,9.02172352941176,294.981030498823,589.962060997647,
+WSD-03-0004,Gate Vlv,"3”,Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5",SS,Contractor,3,CL150,FLGD,,ea,2,2,10.76544,21.53088,474.1099776,948.2199552,0,0,113.293431934118,226.586863868236,5.82558529411765,11.6511705882353,593.228994828236,1186.45798965647,
+WSD-04,,MISCELLANEOUS,,,,,,,,,,0,,,,,,,,,,,,
+WSD-04-0001,PIPE SUPPORT, CS,,Subcontractor,,,,,Ton,1,1,570.24,570.24,25113.3696,25113.3696,3400.14705882353,3400.14705882353,4400.40426352941,4400.40426352941,1240.08220588235,1240.08220588235,34154.0031282353,34154.0031282353,
+WSD-04-0002,SURFACE PREPARATION AS NEAR-WHITE METAL BLAST CLEANING, EQUIVALENT TO SA 2 1/2 OF SWEDISH STANDARD SIS,,Subcontractor,,,,,m2,126,126,1.44,181.44,63.4176,7990.6176,0,0,13.8976423529412,1751.10293647059,8.90514705882353,1122.04852941176,86.2203894117647,10863.7690658824,
+WSD-04-0003,PIPELINE PAINTING,"PIPELINE PAINTING, Refer to AGES-SP-07-004
+",,Subcontractor,,,,,m2,126,126,2.88,362.88,126.8352,15981.2352,22.7436472475962,2865.69955319712,21.3188141176471,2686.17057882353,8.51008235294118,1072.27037647059,179.407743718184,22605.3757084912,
+,,Fire Fighting (Brown) TOTAL,,,,,,,,,,,7308.88768219848,,321883.413524021,,20647.6591120206,,77063.4502212889,,22586.2424414176,,442180.765298748,
+NOTES:,,,,,,,,,,,,,,,,,,,,,,,,
+1,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,,,,,,
+1.1,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,,,,,,
+1.2,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,,,,,,
+1.3,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,,,,,,
+2,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,,,,,,
+3,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,,,,,,
+4,,"C/S includes C/S, C/S Sour, LTCS etc.
+S/S includes 304, 304L, 316, 316L.",,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,

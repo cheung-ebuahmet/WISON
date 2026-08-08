@@ -1,0 +1,93 @@
+﻿# Source: Appendix D.1 BOQ For Pkg II.xlsx
+# Sheet: Pkg II-010
+"# Rows: 59, Cols: 23"
+
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,0
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,,,,,,,,,,,,,,,,,,,,"REV. C, DATE: 30/DEC/2025"
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",规格参数,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,SANITARY SEWER TREATMENT,UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,
+PK-0009,1047-ME-0001,SANITARY SEWER TREATMENT ,"
+SANITARY SEWER TREATMENT PACKAGE NOMINAL CAPACITY :3.4m3/ hr",Contractor,Package,1,1,,,,,,,,,,,,,,,"Refer to  post-bid commercial clarification Form MEI,THIS package is cancelled."
+1,1047-TK-0101,Flow Equalization Basin,"V=22m3, 
+Material: CS+High Thickness Epoxy",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+2,1047-P-0101A/B,Equalization Tank Lift Pumps,"Q=3.36m3/h, H=10m, P=1.5kW,
+Material: Body Cast Iron,
+Impeller Cast Iron, MF’D",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+3,1047-TK-0102A/B,AerationTank,"HRT=13h, V=22.4m3,
+Material: CS+High Thickness Epoxy
+Wall thickness:8mm",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+4,1047-TK-0103A/B,Primary Settling Tank,"Material: CS+High Thickness Epoxy
+Wall thickness:8mm",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+5,1047-TK-0104A/B,Secondary Settling Tank,"Material: CS+High Thickness Epoxy
+Wall thickness:8mm",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+6,1047-TK-0107,Chlorination Tank,"HRT=0.5h, V=10m3,
+Material: CS+High Thickness Epoxy
+Wall thickness:8mm",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+7,1047-TK-0105,Sludge Storage Tank,"HRT=15d, V=10m3，
+Material: CS+High Thickness Epoxy
+Wall thickness:8mm",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+8,1047-BL-0101A/B,Biological Train Blowers,"Q=3.36m3/min, P=3m, N=5.5kW, 
+Cast Iron, Manufacturer's standard",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+9,1047-ME-0103,NaClO Dosing Package,"Dosing Tank: V=1000L, φ1000mm×1400mm, GRP 1 set
+Mixer: P=0.37kW, SS316, 1 set
+Dosing Pump: Q=1L/h, P=0.05MPa, 2 sets, Head: PVDF; Diaphragm: PTFE",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+10,1047-ME-0104,Carbon Source Dosing Package,"Dosing Tank: V=1000L, φ1000mm×1400mm, SS316+PE 1 set
+Mixer: P=0.37kW, SS316, 1 set
+Dosing Pump: Q=10L/h, P=0.05MPa, 2 sets, Head: 316L; Diaphragm: PTFE",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+11,,Sludge Pump,"Screw pump, Q=0.5m3/h, H=60m, P=1.1kW, SS316",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+12,1047-ME-0102,Screw De-watering device,"Q=0.5m3/h, Screw:0.18kW, Mixer:0.18kW,SS316
+With local control panel (Including functions for start, stop, manual/auto switching, speed regulation, torque protection, fault alarm, as well as an ammeter.)",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+13,,Dry sludge container,Q=1m3,Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+14,1047-ME-0101,Flocculant Preparaing and Dosing Package,"Dosing Tank: V=1000L, SS316L, 1 set
+Mixer: P=0.37kW, SS316, 1 set
+Dosing Pump: Q=30L/h, P=0.7MPag, 2 sets, Head: SS316L; Diaphragm: PTFE",Contractor,set,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+15,1047-P-0106A/B,Drain pit pump,"Submersible pump, Q=3.36m3/h, H=10m, P=1.5kW, Material: Body Cast Iron, Impeller Cast Iron, MF’D",Contractor,set,2,2,,,0,0,0,0,,0,0,0,0,0,0,0,
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",Contractor,Lot,1,1,,,0,0,0,0,,0,0,0,0,0,0,0,
+,,,,,,,,,,,0,,0,,0,,0,,0,,0,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,

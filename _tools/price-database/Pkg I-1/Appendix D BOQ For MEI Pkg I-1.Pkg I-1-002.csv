@@ -1,0 +1,124 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: Pkg I-1-002
+"# Rows: 59, Cols: 24"
+
+
+
+
+
+
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,UNIT 30,UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+PK-0002,3033-GR-0101~1001,Granulator Package,"Process Water Tank （Tag No.3033-TK-0101~1001)
+Size(Ф*H mm): Ф1355*1360
+Capacity: 1.13m3
+Design: 3.43 Bar g @ 87 ℃",316L,Contractor,Package,10,10,See notes,See notes,,,,,,,,,,,12148.1481481481,,Process water skid weight is 1.4 ton each one.
+,,,"Process Water Pump （Tag No.3033-P-0101~1001 A/S)
+Capacity: 2.52 m3/h
+Head: 193 m
+Motor Power Rating: 4.6 kw @ 54 ℃",316,Contractor,EA,20,20,See notes,See notes,,,,,,,,,,,,,Including in Process water skid.
+,,,"Process Water Supply Filter （Tag No.3033-F-0102~1002 A/S)
+Dimension(L*W mm): 710*270
+Capacity: 2.52 m3/h
+Design: 11.7 Bar g @ 87 ℃",316L,Contractor,EA,20,20,See notes,See notes,,,,,,,,,,,,,Including in Process water skid.
+,,,"Process Water Discharge Filter （Tag No.3033-F-0103~1003 A/S)
+Dimension(L*W mm): 710*270
+Capacity: 2.52 m3/h
+Design: 25 Bar g @ 87 ℃",316L,Contractor,EA,20,20,See notes,See notes,,,,,,,,,,,,,Including in Process water skid.
+,,,"Inline Sulphur Filter （Tag No.3033-F-0101~1001)
+Dimension(Ф*L mm): Ф194*1500
+Capacity: 32.3 m3/h
+Design: 25.59 Bar g @ 170 ℃",SHELL SA-106B / 316L,Contractor,EA,10,10,0.1,1,,,,,,,,,,,1851.85185185185
+,,,"Granulator Drum （Tag No.3033-GD-0101~1001)
+Size(Ф*H mm): Ф2310*8560
+Capacity: 1276 TPD
+Design: 0 Bar g @ 99 ℃
+Drum Drive Motor Rating with VFD: 39 kw @54 ℃",AL 6061-T6,Contractor,EA,10,10,18.15,181.5,,,,,,,,,,,96031.746031746
+,,,"Drum Discharge Conveyor（Tag No.3033-CV-0101~1001)
+Size(W*H mm): 762*20310
+Capacity: 1672 TPD
+Motor Rating: 4.8 kw @54 ℃
+Belt Speed: 0.53 m/s",Aluminum/ Neoprene/ UC152x152x30/ PFC150x90x24,Contractor,EA,10,10,26,260,,,,,,,,,,,137566.137566138
+,,,"Fines Recycle Conveyor（Tag No.3033-CV-0102~1002)
+Size(W*H mm): 610*31874
+Capacity: 1210 TPD
+Motor Rating: 4.8 kw @54 ℃
+Belt Speed: 0.53 m/s",Aluminum/ Neoprene/ UC152x152x30/ PFC150x90x24,Contractor,EA,10,10,16,160,,,,,,,,,,,110052.91005291
+,,,"Diverter Gate（Tag No.3033-DV-0101~1001)
+Capacity: 1276 TPD",316L,Contractor,EA,10,10,0.3,3,,,,,,,,,,,3835.97883597884
+,,,"Vibrating Screen（Tag No.3033-SE-0101~1001)
+Size(W*H mm): 2032*5533
+Capacity: 70 TPH
+Motor Rating: 6.5 kw @54 ℃", Polyester Synthetic Screen Cloth/ 316L / CS,Contractor,EA,10,10,3.4,34,,,,,,,,,,,17989.417989418
+,,,"Exhaust Fan （Tag No.3033-FA-0101~1001)
+Capacity: 13355 Nm3/h
+Differential Pressure: 0.0635 Bar
+Motor Power Rating With VFD: 73 kw @ 54 ℃",2205 / 316L,Contractor,EA,10,10,4.697,46.97,,,,,,,,,,,24851.8518518519
+,,,"Wet Scrubber （Tag No.3033-X-0101~1001)
+Size(Ф*H mm): Ф1220*3243
+Capacity: 13355 Nm3/h
+Sulphur Emission: 50mg/Nm3",316L / Glass-Fibre Reinforced Plastic,Contractor,EA,10,10,1.7,17,,,,,,,,,,,8994.708994709
+,,,"Sludge Extraction Auger（Tag No.3033-CV-0103~1003)
+Size(Ф*H mm): Ф147*4948
+Capacity: 50 kg/h
+Motor Rating: 0.48 kw @54 ℃
+Auger Speed: 0.93 rpm",316L,Contractor,EA,10,10,See notes,See notes,,,,,,,,,,,9523.80952380952,,Scrubber skid weight is 1.8 ton for each one.
+,,,"Scrubber Water Setting Tank （Tag No.3033-TK-0102~1002)
+Size(L*W*H mm): 3788*1400*1825
+Capacity: 3.24m3
+Design: 3.43 Bar g @ 96 ℃",316 / Glass-Fibre Reinforced Plastic,Contractor,EA,10,10,See notes,See notes,,,,,,,,,,,14021.164021164,,Including in Scrubber skid
+,,,"Wet Scrubber Recycle Pump （Tag No.3033-P-0102~1002 A/S)
+Capacity: 13.86 m3/h
+Differential Pressure: 1.897 Bar
+Motor Power Rating With VFD: 13.9 kw @ 54 ℃",CD4MCuN Duplex A744 & A351 / 316,Contractor,EA,20,20,See notes,See notes,,,,,,,,,,,5423.28042328042,,Including in Scrubber skid
+,,,"Sample Cooler （Tag No.3033-E-0101~1001)
+Flow rate: Tube: 0.06~0.12 m3/h
+                   Shell:1.14~2.28 m3/h
+Design Pressure: Tube: 9.8 bar g
+                                 Shell:9.8 bar g",SS,Contractor,EA,10,10,0.2,2,,,,,,,,,,,5423.28042328042
+,,,"All other equipment, E&I auxilary facilities, internal piping, painting, insulation,steel structure etc.",,Contractor,Lot,1,,,,,,,,,,,,,,2666666.66666667,,Refer to Vendor Document as attached
+,,,Pkg I-1 Equipment 002 TOTAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

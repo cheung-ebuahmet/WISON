@@ -1,0 +1,70 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: A.1-INDIRECTS BREAKDOWN
+"# Rows: 58, Cols: 4"
+
+
+
+
+
+
+,"LUMP SUM FOR INDIRECT COSTS, OVERHEAD AND PROFIT FOR MECHANICAL ELECTRICAL AND INSTALLATION WORKS"
+SN,DESCRIPTION,Unit,TOTAL COST
+
+I,INDIRECT COST:
+
+A,FINANCIAL COST
+A01,Performance and Guarantee Bonds costs and Finance costs (in accordance to contractual conditions).,Lump Sum,321600
+A02,Insurances costs.,Lump Sum,603000
+A03,"Licenses, taxes and official permits.",Lump Sum,536000
+
+
+B,MOBILIZATION AND DEMOBILIZATION COST
+B01,"Mobilization and settlement of all needed means, construction equipment,  transport to WORKSITE, preparation for use of means and equipment.",Lump Sum,670000
+B02,"Demobilization after the completion of the WORK and with the previous approval of the CONTRACTOR, dismantle and transport to their original location all his means, construction equipment.",Lump Sum,670000
+B03,Cleaning and clearance to restore Subcontractor area/s to its original state.,Lump Sum,804000
+
+
+C,TEMPORARY CONSTRUCTION FACILITIES COST
+C01,"SUBCONTRACTOR TEMPORARY WORKSITE FACILITIES.
+Mobilization, construction, running cost, operation and maintenance, and demobilization at the finalization of SUBCONTRACTOR Temporary Facilities on SITE, including (but not limited to) offices, first aid facilities, workshops, warehouses, dressing rooms, prayer rooms, toilets, canteen, resting shelters, urbanization, etc., and others required as per specification or applicable laws. Networks, telecom, drainage, power supply, water supply and disposal, firefighting system, drinking water, renting, insurances, etc.",Lump Sum,1125600
+C02,"SUBCONTRACTOR CAMP
+Mobilization, construction, running cost, operation and maintenance, and demobilization at the finalization of SUBCONTRACTOR Site Temporary Camp including (but not limited to) dormitories, common buildings, sport facilities, urbanization, etc., and others required as per specification or applicable laws. Networks, telecom, drainage, power supply, water supply and disposal, firefighting system, renting, insurances, medical service, catering,etc.",Lump Sum,2680000
+C03,"FIRST AID SERVICE
+Medical services (doctor, nurse, ambulance, driver, first aiders, medical consumables, etc.)
+Include mobilization, demobilization, travels, transport, accommodation, catering, cleaning, social insurances, etc.",Lump Sum,268000
+
+
+D,RUNNING COST
+D01,Security expenses,Lump Sum,201000
+D02,Cleaning cost (including dumping fees of domestic wastes),Lump Sum,335000
+D03,"Cranes, forklifts, trucks, and in general any mean, resource and equipment neccesary to manage workshop and lay down area, if any.",Lump Sum,201000
+D04,"Any other required services (e.g. pest control, etc.)",Lump Sum,201000
+
+
+E,INDIRECT PERSONNEL COST
+E01,"SITE MANAGEMENT AND INDIRECT LABOUR
+Management, administration personnel, construction supervisors,HSE personnel, QA/QC personnel, inspectors, material management, clerks, drivers, etc., that SUBCONTRACTOR might need to perform and complete the WORK and fulfil all SUBCONTRACTOR obligations under the SUBCONTRACT.
+Include mobilization, demobilization, travels, block visas,transport, accommodation, catering, cleaning, social insurances, etc.",Lump Sum,8040000
+
+
+F,OTHER INDIRECT COST
+F01,Other Indirect Cost Item – This shall cover any additional indirect costs not specifically itemized elsewhere,Lump Sum,1206000
+
+
+,SUBTOTAL INDIRECT COST
+
+II,OVERHEAD AND PROFIT COST:
+
+G,HEAD OFFICE SUPPORT
+G01,"- Head Office works to support the Project.
+- Administration expenses (incl. permits, block visas, etc.).
+- General Expenses related to the perform of the WORK that might be necessary to the correct perform of the WORK and the fulfillment of the SUBCONTRACTOR responsibilities included in the SUBCONTRACT.",Lump Sum
+
+
+H,PROFIT
+H01,- Profit,Lump Sum
+
+
+,SUBTOTAL OVERHEAD AND PROFIT COST
+
+,"TOTAL - LUMP SUM FOR INDIRECT COSTS, OVERHEAD AND PROFIT FOR SUBCONTRACT WORKS"

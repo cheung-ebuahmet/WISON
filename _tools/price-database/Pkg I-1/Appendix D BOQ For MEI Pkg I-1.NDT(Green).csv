@@ -1,0 +1,47 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: NDT(Green) 
+"# Rows: 36, Cols: 19"
+
+
+
+
+
+
+
+
+Item,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+No.,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+A,NDT WORKS
+1.1,Radiographic Test: measured by film sheet regardless radiation source,sheet,15360,,,,,,,,,,,89.9470899470899
+1.2,UT,Dia-In,480,,,,,,,,,,,58.2010582010582
+1.3,PT,Dia-In,1500,,,,,,,,,,,58.2010582010582
+1.4,MT,Dia-In,1320,,,,,,,,,,,47.6190476190476
+1.5,PMI,Point,210,,,,,,,,,,,47.6190476190476
+B,"Pressure testing, flushing, drying and packaging of Valves",,,,,,,,,,,,,0
+2.1,NPS up to 2-1/2'',ea,17,,,,,,,,,,,126.984126984127
+2.2,NPS from 3'' to 4'',ea,11,,,,,,,,,,,253.968253968254
+2.3,NPS from 5'' to 9'',ea,19,,,,,,,,,,,1164.02116402116
+2.4,NPS from 10'' to 12'',ea,13,,,,,,,,,,,1375.66137566138
+2.5,NPS from 14'' to 18'',ea,10,,,,,,,,,,,2116.40211640212
+2.6,NPS from 20'' to 28'',ea,2,,,,,,,,,,,2645.50264550265
+C,Testing and calibriation of Pressure Safety Valve,,,,,,,,,,,,,0
+3.1,NPS up to 2-1/2'',ea,9,,,,,,,,,,,105.820105820106
+3.2,NPS from 3'' to 4'',ea,13,,,,,,,,,,,211.640211640212
+3.3,NPS from 5'' to 9'',ea,14,,,,,,,,,,,1005.29100529101
+3.4,NPS from 10'' to 12'',ea,12,,,,,,,,,,,1164.02116402116
+3.5,NPS from 14'' to 18'',ea,6,,,,,,,,,,,1904.7619047619
+3.6,NPS from 20'' to 28'',ea,1,,,,,,,,,,,2222.22222222222
+,SUBTOTAL-NDT WORKS
+
+
+
+
+

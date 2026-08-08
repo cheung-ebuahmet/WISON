@@ -1,0 +1,42 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: HVAC (Brown)
+"# Rows: 21, Cols: 22"
+
+
+
+
+
+
+
+No.,TAG NO.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,MATERIAL,Material Supplied By,UNIT,Qty.,Quantity,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 50 
+MCR",U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,,,,,Q,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+HVAC-01,,,Equipment
+HVAC-01-001,6052-FCU-0001A/B/C & 6052-ODU-0001A/B/C,Split (DX Type) AC Unit,"Installation:Wall mounted
+Total Cooling Cap.: 4.5kW,
+Cooling Medium: Direct Expansion,
+Refrigerant: R-134a, R-407C, R-410A, or equivalent
+Power Supply: ***kW~415V/3P/50H or 240V/1P/50H, 
+MAX. AMB. Design TEMP.: DB 55℃,
+Including Condensate pipe with insulation & refrigerant pipe with insulation
+have an Emirates Energy Efficiency energy efficiency rating of 4 or 5 star in accordance Emirates Authority for Standardization and Metrology requirements.",,Contractor,SET,3,3,,,,,,,,,,,2380.95238095238
+,,UPVC pipe ,"UPVC pipe as per ASTM D1785 specification
+Size:∅40",UPVC,Contractor,lm,,,,,,,,,,,,,,,UPVC pipe  shall be deemed included in the Pipe & Tube work
+,,closed cell elastomeric pipe,"closed cell elastomeric pipe section and built in vapor 
+ barrier, having thermal conductivity of 0.036 W/m-K at 0°C and class ‘1’ resistant to flame spread as per BS 476, Part 7.",Elastomeric,Contractor,m3,,,,,,,,,,,,,,,Closed cell elastomeric pipe  shall be deemed included in the Pipe & Tube work
+,,,HVAC (Brown) TOTAL
+NOTES:
+1,,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings."
+1.1,,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials."
+1.2,,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items."
+1.3,,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc."
+2,,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.
+3,,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order."

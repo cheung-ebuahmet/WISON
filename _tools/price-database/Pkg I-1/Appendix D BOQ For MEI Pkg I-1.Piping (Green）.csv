@@ -1,0 +1,267 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: Piping (Green）
+"# Rows: 251, Cols: 26"
+
+
+
+
+
+
+
+No.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,Material,"Material
+Supply by","SIZE
+(NPS)",SCH / Rating,Joint Type,UNIT,Qty.,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,,,,,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+
+AP-01,,Connection Joints
+AP-01-1,CARBON STEEL,,CS,Contractor,0.5,S-XXS,Butt Weld,Dia-Inch,128.21,,,,,,,,,,,195.238095238095
+AP-01-2,CARBON STEEL,,CS,Contractor,0.75,S-80,Butt Weld,Dia-Inch,202.48,,,,,,,,,,,195.238095238095,,Jacket quantity deducted
+AP-01-3,CARBON STEEL,,CS,Contractor,0.75,S-160,Butt Weld,Dia-Inch,298.5,,,,,,,,,,,214.285714285714
+AP-01-4,CARBON STEEL,,CS,Contractor,0.75,S-80,Fillet Weld,Dia-Inch,1.5,,,,,,,,,,,195.238095238095
+AP-01-5,CARBON STEEL,,CS,Contractor,0.75,S-160,Fillet Weld,Dia-Inch,1.5,,,,,,,,,,,214.285714285714
+AP-01-6,CARBON STEEL,,CS,Contractor,0.75,CL800,Fillet Weld,Dia-Inch,3,,,,,,,,,,,214.285714285714
+AP-01-7,CARBON STEEL,,CS,Contractor,0.75,CL 3000,Fillet Weld,Dia-Inch,81,,,,,,,,,,,230.15873015873
+AP-01-8,CARBON STEEL,,CS,Contractor,0.75,/,Fillet Weld,Dia-Inch,3,,,,,,,,,,,177.777777777778
+AP-01-9,CARBON STEEL,,CS,Contractor,1,S-80,Butt Weld,Dia-Inch,652.51,,,,,,,,,,,195.238095238095
+AP-01-10,CARBON STEEL,,CS,Contractor,1,S-160,Butt Weld,Dia-Inch,256.41,,,,,,,,,,,214.285714285714
+AP-01-11,CARBON STEEL,,CS,Contractor,1,S-80,Fillet Weld,Dia-Inch,2,,,,,,,,,,,195.238095238095
+AP-01-12,CARBON STEEL,,CS,Contractor,1,CL 3000,Fillet Weld,Dia-Inch,175.5,,,,,,,,,,,230.15873015873
+AP-01-13,CARBON STEEL,,CS,Contractor,1,CL800,Fillet Weld,Dia-Inch,22,,,,,,,,,,,214.285714285714
+AP-01-14,CARBON STEEL,,CS,Contractor,1,S-120,Fillet Weld,Dia-Inch,4,,,,,,,,,,,214.285714285714
+AP-01-15,CARBON STEEL,,CS,Contractor,1.5,S-80,Butt Weld,Dia-Inch,31.71,,,,,,,,,,,195.238095238095,,Jacket quantity deducted
+AP-01-16,CARBON STEEL,,CS,Contractor,1.5,S-160,Butt Weld,Dia-Inch,1.5,,,,,,,,,,,214.285714285714
+AP-01-17,CARBON STEEL,,CS,Contractor,1.5,CL800,Fillet Weld,Dia-Inch,24,,,,,,,,,,,214.285714285714
+AP-01-18,CARBON STEEL,,CS,Contractor,1.5,CL 3000,Fillet Weld,Dia-Inch,156,,,,,,,,,,,230.15873015873
+AP-01-19,CARBON STEEL,,CS,Contractor,2,S-80,Butt Weld,Dia-Inch,1162.93,,,,,,,,,,,195.238095238095,,Jacket quantity deducted
+AP-01-20,CARBON STEEL,,CS,Contractor,2,S-160,Butt Weld,Dia-Inch,864.67,,,,,,,,,,,214.285714285714,,Jacket quantity deducted
+AP-01-21,CARBON STEEL,,CS,Contractor,2,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,214.285714285714,,Jacket quantity deducted
+AP-01-22,CARBON STEEL,,CS,Contractor,2,CL300,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-23,CARBON STEEL,,CS,Contractor,3,S-40,Butt Weld,Dia-Inch,2663.31,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-24,CARBON STEEL,,CS,Contractor,3,S-80,Butt Weld,Dia-Inch,232.23,,,,,,,,,,,195.238095238095,,Jacket quantity deducted
+AP-01-25,CARBON STEEL,,CS,Contractor,3,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-26,CARBON STEEL,,CS,Contractor,3,CL300,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-27,CARBON STEEL,,CS,Contractor,4,S-40,Butt Weld,Dia-Inch,696.82,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-28,CARBON STEEL,,CS,Contractor,4,S-80,Butt Weld,Dia-Inch,2477.13,,,,,,,,,,,195.238095238095,,Jacket quantity deducted
+AP-01-29,CARBON STEEL,,CS,Contractor,4,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-30,CARBON STEEL,,CS,Contractor,4,CL300,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-31,CARBON STEEL,,CS,Contractor,6,S-40,Butt Weld,Dia-Inch,1859.93,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-32,CARBON STEEL,,CS,Contractor,6,S-80,Butt Weld,Dia-Inch,78,,,,,,,,,,,195.238095238095
+AP-01-33,CARBON STEEL,,CS,Contractor,6,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-34,CARBON STEEL,,CS,Contractor,6,CL300,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-35,CARBON STEEL,,CS,Contractor,8,S-20,Butt Weld,Dia-Inch,83.9,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-36,CARBON STEEL,,CS,Contractor,8,S-30,Butt Weld,Dia-Inch,1879.53,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-37,CARBON STEEL,,CS,Contractor,8,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-38,CARBON STEEL,,CS,Contractor,10,S-20,Butt Weld,Dia-Inch,883.94,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-39,CARBON STEEL,,CS,Contractor,10,S-30,Butt Weld,Dia-Inch,256.67,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-40,CARBON STEEL,,CS,Contractor,10,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-41,CARBON STEEL,,CS,Contractor,12,S-20,Butt Weld,Dia-Inch,228.94,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-42,CARBON STEEL,,CS,Contractor,12,S-30,Butt Weld,Dia-Inch,38.46,,,,,,,,,,,177.777777777778
+AP-01-43,CARBON STEEL,,CS,Contractor,12,S-STD,Butt Weld,Dia-Inch,12,,,,,,,,,,,177.777777777778
+AP-01-44,CARBON STEEL,,CS,Contractor,12,S-80,Butt Weld,Dia-Inch,12,,,,,,,,,,,195.238095238095
+AP-01-45,CARBON STEEL,,CS,Contractor,12,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-46,CARBON STEEL,,CS,Contractor,14,S-20,Butt Weld,Dia-Inch,126,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-47,CARBON STEEL,,CS,Contractor,14,S-30,Butt Weld,Dia-Inch,14,,,,,,,,,,,177.777777777778
+AP-01-48,CARBON STEEL,,CS,Contractor,16,S-20,Butt Weld,Dia-Inch,51.28,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-49,CARBON STEEL,,CS,Contractor,16,CL150,Fillet Weld,Dia-Inch,,,,,,,,,,,,177.777777777778,,Jacket quantity deducted
+AP-01-50,CARBON STEEL,,CS,Contractor,20,S-20,Butt Weld,Dia-Inch,40,,,,,,,,,,,177.777777777778
+AP-01-51,CARBON STEEL,,CS,Contractor,20,S-40,Butt Weld,Dia-Inch,20,,,,,,,,,,,177.777777777778
+AP-01-52,ALLOY STEEL,,AS,Contractor,0.5,S-XXS,Butt Weld,Dia-Inch,32.05,,,,,,,,,,,214.285714285714
+AP-01-53,ALLOY STEEL,,AS,Contractor,0.75,S-160,Butt Weld,Dia-Inch,48.08,,,,,,,,,,,214.285714285714
+AP-01-54,ALLOY STEEL,,AS,Contractor,1,S-160,Butt Weld,Dia-Inch,64.1,,,,,,,,,,,214.285714285714
+AP-01-55,ALLOY STEEL,,AS,Contractor,1.5,S-160,Butt Weld,Dia-Inch,96.15,,,,,,,,,,,214.285714285714
+AP-01-56,ALLOY STEEL,,AS,Contractor,2,S-160,Butt Weld,Dia-Inch,2,,,,,,,,,,,214.285714285714
+AP-01-57,ALLOY STEEL,,AS,Contractor,6,S-120,Butt Weld,Dia-Inch,6,,,,,,,,,,,214.285714285714
+AP-01-58,ALLOY STEEL,,AS,Contractor,10,S-120,Butt Weld,Dia-Inch,10,,,,,,,,,,,214.285714285714
+AP-01-59,ALLOY STEEL,,AS,Contractor,14,S-120,Butt Weld,Dia-Inch,14,,,,,,,,,,,214.285714285714
+AP-01-60,STAINLESS STEEL,,SS,Contractor,0.75,S-80S,Butt Weld,Dia-Inch,48.17,,,,,,,,,,,209.52380952381
+AP-01-61,STAINLESS STEEL,,SS,Contractor,0.75,S-80S,Fillet Weld,Dia-Inch,3,,,,,,,,,,,209.52380952381
+AP-01-62,STAINLESS STEEL,,SS,Contractor,0.75,CL 3000,Fillet Weld,Dia-Inch,7.5,,,,,,,,,,,247.619047619048
+AP-01-63,STAINLESS STEEL,,SS,Contractor,1,S-80S,Butt Weld,Dia-Inch,525.64,,,,,,,,,,,209.52380952381
+AP-01-64,STAINLESS STEEL,,SS,Contractor,1,S-80S,Fillet Weld,Dia-Inch,690,,,,,,,,,,,209.52380952381
+AP-01-65,STAINLESS STEEL,,SS,Contractor,1,CL 3000,Fillet Weld,Dia-Inch,590,,,,,,,,,,,247.619047619048
+AP-01-66,STAINLESS STEEL,,SS,Contractor,1.5,S-80S,Butt Weld,Dia-Inch,119.46,,,,,,,,,,,209.52380952381
+AP-01-67,STAINLESS STEEL,,SS,Contractor,2,S-10S,Butt Weld,Dia-Inch,25.64,,,,,,,,,,,190.47619047619
+AP-01-68,STAINLESS STEEL,,SS,Contractor,2,S-40S,Butt Weld,Dia-Inch,383.13,,,,,,,,,,,190.47619047619
+AP-01-69,STAINLESS STEEL,,SS,Contractor,3,S-10S,Butt Weld,Dia-Inch,2638.85,,,,,,,,,,,190.47619047619
+AP-01-70,STAINLESS STEEL,,SS,Contractor,4,S-10S,Butt Weld,Dia-Inch,1687.38,,,,,,,,,,,190.47619047619
+AP-01-A,,"Jacketed Pipe Installation.Quantity shown is only for outer jacket pipe,core pipe quantity will not be measured seperately.
+Hydrotest related to Site weld for adjusment spools  will not be measured seperately.",,,,,,,,,,,,,,,,,,0
+AP-01-A-1,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-20",CS,Contractor,8,S-20,FLGD,LM,24.9,,,,,,,,,,,150.793650793651,,Updated quantity for jacket pipe
+AP-01-A-2,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-20",CS,Contractor,10,S-20,FLGD,LM,178.25,,,,,,,,,,,222.222222222222,,Updated quantity for jacket pipe
+AP-01-A-3,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-20",CS,Contractor,12,S-20,FLGD,LM,47.33,,,,,,,,,,,261.904761904762,,Updated quantity for jacket pipe
+AP-01-A-4,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-20",CS,Contractor,16,S-20,FLGD,LM,513.56,,,,,,,,,,,317.460317460317,,Updated quantity for jacket pipe
+AP-01-A-5,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-20",CS,Contractor,20,S-20,FLGD,LM,78.25,,,,,,,,,,,420.634920634921,,Updated quantity for jacket pipe
+AP-01-A-6,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-40",CS,Contractor,3,S-40,FLGD,LM,132.97,,,,,,,,,,,71.4285714285714,,Updated quantity for jacket pipe
+AP-01-A-7,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-40",CS,Contractor,4,S-40,FLGD,LM,177.89,,,,,,,,,,,103.174603174603,,Updated quantity for jacket pipe
+AP-01-A-8,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-40",CS,Contractor,6,S-40,FLGD,LM,359.8,,,,,,,,,,,136.507936507937,,Updated quantity for jacket pipe
+AP-01-A-9,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-80",CS,Contractor,0.75,S-80,FLGD,LM,0.06,,,,,,,,,,,47.6190476190476,,Updated quantity for jacket pipe
+AP-01-A-10,Jacketed Pipe,"Pipe ,ASME B36.10M ,BE ,A106 Gr.B ,SMLS ,S-80",CS,Contractor,4,S-80,FLGD,LM,2.98,,,,,,,,,,,178.571428571429,,Updated quantity for jacket pipe
+AP-01-A-11,Jacketed Pipe Adjustment Joint,"CS welding joints for jacket pipe adjustment for site installation, irrespective of NPS size ,location and schedule",CS,Contractor,ALL,ALL,Butt/Fillet,Dia-Inch,100,,,,,,,,,,,555.555555555556,,Updated quantity for jacket pipe
+AP-02,,Valves,,,,,,,,,,,,,,,,,,0
+AP-02-01,,Gate valve,,,,,,,,,,,,,,,,,,0
+AP-02-01-0001,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,16,CL150,FLGD,PCS,,,,,,,,,,,,2380.95238095238
+AP-02-01-0002,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,2,CL150,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-01-0003,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,2,CL150,FLGD,PCS,49,,,,,,,,,,,158.730158730159
+AP-02-01-0004,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,12,CL150,FLGD,PCS,,,,,,,,,,,,1746.03174603175
+AP-02-01-0005,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,10,CL300,FLGD,PCS,,,,,,,,,,,,1428.57142857143
+AP-02-01-0006,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,12,CL300,FLGD,PCS,,,,,,,,,,,,1746.03174603175
+AP-02-01-0007,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,20,CL300,FLGD,PCS,,,,,,,,,,,,3174.60317460317
+AP-02-01-0008,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,2,CL300,FLGD,PCS,1,,,,,,,,,,,158.730158730159
+AP-02-01-0009,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,A105N ,Trim:13Cr+HF",CS,Contractor,0.75,CL150,FLGD,PCS,,,,,,,,,,,,63.4920634920635
+AP-02-01-0010,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 300 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,A105N ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,0.75,CL300,FLGD,PCS,,,,,,,,,,,,63.4920634920635
+AP-02-01-0011,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,A105N ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,0.75,CL150,FLGD,PCS,,,,,,,,,,,,63.4920634920635
+AP-02-01-0012,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 300 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,A105N ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,1,CL300,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-01-0013,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,3,CL150,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-02-01-0014,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,STD Port,ASME B16.5",CS,Contractor,6,CL150,FLGD,PCS,,,,,,,,,,,,476.190476190476
+AP-02-01-0015,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,3,CL300,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-02-01-0016,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,6,CL150,FLGD,PCS,,,,,,,,,,,,476.190476190476
+AP-02-01-0017,Gate valve,"CL.800, SW TO B16.11,SOLID WEDGE, STD RT, OS & Y, BOLTED ONNET,HANDWHEEL API 602 +ASME B16.34 BODY: ASTM A105N TRIM: 13Cr +HF",CS,Contractor,0.75,CL800,FLGD,PCS,,,,,,,,,,,,63.4920634920635
+AP-02-01-0018,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,20,CL150,FLGD,PCS,,,,,,,,,,,,3174.60317460317
+AP-02-01-0019,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,4,CL150,FLGD,PCS,,,,,,,,,,,,317.460317460317
+AP-02-01-0020,Gate valve,"CL.800, SW TO B16.11,SOLID WEDGE, STD RT, OS & Y, BOLTED ONNET,HANDWHEEL API 602 +ASME B16.34 BODY: ASTM A105N TRIM: 13Cr +HF",CS,Contractor,1,CL800,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-01-0021,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,ASTM A182 F316 ,Trim:316/STL(Trim No.12) ,STD Port,ASME B16.5",SS,Contractor,0.75,CL150,FLGD,PCS,6,,,,,,,,,,,63.4920634920635
+AP-02-01-0022,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,3,CL150,FLGD,PCS,17,,,,,,,,,,,253.968253968254
+AP-02-01-0023,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5",SS,Contractor,2,CL150,FLGD,PCS,20,,,,,,,,,,,158.730158730159
+AP-02-01-0024,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5",SS,Contractor,3,CL150,FLGD,PCS,1,,,,,,,,,,,253.968253968254
+AP-02-01-0025,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 300 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,4,CL300,FLGD,PCS,1,,,,,,,,,,,317.460317460317
+AP-02-01-0026,Gate valve,"Gate Vlv ,ASME B16.34/ API 600 ,CL 150 ,RF ,BB,OS&Y,FlexWedge ,Handwheel ,ASTM A351 CF8M ,Trim:316/STL(Trim No.12) ,ASME B16.5",SS,Contractor,1.5,CL150,FLGD,PCS,18,,,,,,,,,,,103.174603174603
+AP-02-01-0027,Gate valve,"Gate Vlv ,API 602/ASME B16.34 ,CL 150 ,RF ,BB,OS&Y,SolidWedge ,Handwheel ,ASTM A182 F316 ,Trim:316/STL(Trim No.12) ,STD Port,ASME B16.5",SS,Contractor,1,CL150,FLGD,PCS,230,,,,,,,,,,,79.3650793650794
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-02,,Globe valve,,,,,0,,,,,,,,,,,,,0
+AP-02-02-0001,Globe valve,"Globe Vlv ,ASME B16.34/ API 623 ,CL 300 ,RF ,BB,OS&Y,Y PATN ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,2,CL300,FLGD,PCS,,,,,,,,,,,,158.730158730159
+AP-02-02-0002,Globe valve,"Globe Vlv ,ASME B16.34/ API 623 ,CL 300 ,RF ,BB,OS&Y ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,SWIVEL PLUG DISC,ASME B16.5",CS,Contractor,2,CL300,FLGD,PCS,,,,,,,,,,,,158.730158730159
+AP-02-02-0003,Globe valve,"Globe Vlv ,API 602/ASME B16.34 ,CL 300 ,RF ,BB,OS&Y,Swivel Plug Disc ,Handwheel ,A105N ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,1,CL300,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-02-0004,Globe valve,"Globe Vlv ,ASME B16.34/ API 623 ,CL 150 ,RF ,BB,OS&Y,Y PATN ,Handwheel ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8) ,ASME B16.5",CS,Contractor,4,CL150,FLGD,PCS,,,,,,,,,,,,317.460317460317
+AP-02-02-0005,Globe valve,"CL.800, SW TO B16.11, SWIVEL PLUG DISC, Y-PATTERN,BOLTED BONNET,HANDWHEEL API 602 + ASME B16.34 BODY: ASTM A105N TRIM: 13Cr +HF",CS,Contractor,1,CL800,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-03,,Check valve,,,,,0,,,,,,,,,,,,,0
+AP-02-03-0001,Check valve,"Swing Check Valve ,API 6D ,CL 300 ,RF ,BC,Swing ,ASTM A216 WCB ,Trim:13Cr/STL(Trim No.8)",CS,Contractor,3,CL300,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-02-03-0002,Check valve,"CL.150, FLGD TO B16.5, SPRING LOADED LIFT
+CHECK, BOLTED COVER BS1868 + ASME B16.34 BODY: ASTM A105N TRIM:13Cr+HF",CS,Contractor,1,CL150,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-04,,Plug valve,,,,,0,,,,,,,,,,,,,0
+AP-02-04-0001,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,20X16,CL150,FLGD,PCS,,,,,,,,,,,,3174.60317460317
+AP-02-04-0002,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,16X12,CL150,FLGD,PCS,,,,,,,,,,,,2380.95238095238
+AP-02-04-0003,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,12X10,CL150,FLGD,PCS,,,,,,,,,,,,1746.03174603175
+AP-02-04-0004,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,10X8,CL150,FLGD,PCS,,,,,,,,,,,,1428.57142857143
+AP-02-04-0005,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,8X6,CL150,FLGD,PCS,,,,,,,,,,,,952.380952380952
+AP-02-04-0006,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,6X4,CL150,FLGD,PCS,,,,,,,,,,,,476.190476190476
+AP-02-04-0007,Plug valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,4X3,CL150,FLGD,PCS,,,,,,,,,,,,317.460317460317
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-05,,Ball valve,,,,,0,,,,,,,,,,,,,0
+AP-02-05-0001,Ball valve,"Ball Vlv ,API 6D ,CL 150 ,RF ,FP,FLB ,Lever ,A105N ,Trim:316/STL(Trim No.12) ,ASME B16.5",CS,Contractor,0.5,CL150,FLGD,PCS,,,,,,,,,,,,47.6190476190476
+AP-02-05-0002,Ball valve,"CL.150, FLGD TO B16.5, FULL BORE, FLOATING BALL, LEVER API 6D BODY: ASTM A105N TRIM: SS316 SEAT: RPTFE",CS,Contractor,1,CL150,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-05-0003,Ball valve,"CL.150, FLGD TO B16.5, FULL BORE, FLOATING BALL, LEVER API 6D BODY: ASTM A105N TRIM: SS316 SEAT: RPTFE",CS,Contractor,0.5,CL150,FLGD,PCS,,,,,,,,,,,,47.6190476190476
+AP-02-05-0004,Ball valve,"Ball Vlv ,API 6D ,CL 150 ,RF ,FP,FLB ,Lever ,ASTM A182 F316 ,Trim:316/RTFE ,ASME B16.5",SS,Contractor,0.75,CL150,FLGD,PCS,1,,,,,,,,,,,63.4920634920635
+AP-02-05-0005,Ball valve,"Ball Vlv ,API 6D ,CL 150 ,RF ,FP,FLB ,Lever ,ASTM A351 CF8M ,Trim:316/RTFE ,ASME B16.5",SS,Contractor,2,CL150,FLGD,PCS,22,,,,,,,,,,,158.730158730159
+AP-02-05-0006,Ball valve,"Ball Vlv ,CL 150 ,RF ,ASTM A216 WCB ,ASME B16.5(AC1A1B-FA)",CS,Contractor,2,CL150,FLGD,PCS,20,,,,,,,,,,,158.730158730159
+AP-02-05-0007,Ball valve,"Ball Vlv ,API 6D ,CL 150 ,RF ,FP,FLB ,Lever ,ASTM A105N ,Trim:316/RTFE ,ASME B16.5",CS,Contractor,1,CL150,FLGD,PCS,65,,,,,,,,,,,79.3650793650794
+AP-02-05-0008,Ball valve,"Ball Vlv ,API 6D ,CL 150 ,RF ,FP,FLB ,Lever ,ASTM A351 CF8M ,Trim:316/RTFE ,ASME B16.5",SS,Contractor,1,CL150,FLGD,PCS,35,,,,,,,,,,,79.3650793650794
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-06,,Steam trap,,,,,0,,,,,,,,,,,,,0
+AP-02-06-0001,Steam trap,STEAM TRAP CL1500 A335 P11,AS,Contractor,1,CL1500,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-06-0002,Steam trap,STEAM TRAP CL300 A106 Gr.B,CS,Contractor,1,CL300,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-06-0003,Steam trap,STEAM TRAP CL300 A106 Gr.B,CS,Contractor,1,CL300,FLGD,PCS,,,,,,,,,,,,79.3650793650794
+AP-02-06-0004,Steam trap,"STEAM TRAP CL 150，ASTM A 105,1""",CS,Contractor,1,CL150,FLGD,PCS,340,,,,,,,,,,,79.3650793650794
+AP-02-06-0005,Steam trap,"STEAM TRAP CL 150，ASTM A 105,2""",CS,Contractor,2,CL150,FLGD,PCS,,,,,,,,,,,,158.730158730159
+,,,,,,,0,,,,,,,,,,,,,0
+AP-02-07,,Jacketed Plug Valve,,,,CL150,0,,,,,,,,,,,,,0
+AP-02-07-0001,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,2×0.5,CL150,FLGD,PCS,38,,,,,,,,,,,158.730158730159
+AP-02-07-0002,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,3×0.5,CL150,FLGD,PCS,20,,,,,,,,,,,253.968253968254
+AP-02-07-0003,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,4×0.75,CL150,FLGD,PCS,4,,,,,,,,,,,317.460317460317
+AP-02-07-0004,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,6×0.75,CL150,FLGD,PCS,3,,,,,,,,,,,476.190476190476
+AP-02-07-0005,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,8×1,CL150,FLGD,PCS,30,,,,,,,,,,,952.380952380952
+AP-02-07-0006,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 300 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,2×0.5,CL300,FLGD,PCS,41,,,,,,,,,,,158.730158730159
+AP-02-07-0007,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 300 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,3×0.5,CL300,FLGD,PCS,9,,,,,,,,,,,253.968253968254
+AP-02-07-0008,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 300 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,4×0.75,CL300,FLGD,PCS,11,,,,,,,,,,,317.460317460317
+AP-02-07-0009,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 150 ,RF ,BB,TPP,NLUB ,Wrench ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,3X2,CL150,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-02-07-0010,Jacketed Plug Valve,"CL.300, OVERSIZED FLGD TO B16.5, JACKETED PLUG VALVE, TAPER PLUG, PTFE SLEEVE, TWO FLANGE CONNECTIONS, LEVER / GEAR OPERATED API 599  BODY: ASTM A216 GR WCB TRIM: 13Cr SLEEVE: PTFE LINED",CS,Contractor,16X12,CL300,FLGD,PCS,,,,,,,,,,,,2380.95238095238
+AP-02-07-0011,Jacketed Plug Valve,"CL.300, OVERSIZED FLGD TO B16.5, JACKETED PLUG VALVE, TAPER PLUG, PTFE SLEEVE, TWO FLANGE CONNECTIONS, LEVER / GEAR OPERATED API 599  BODY: ASTM A216 GR WCB TRIM: 13Cr SLEEVE: PTFE LINED",CS,Contractor,3X2,CL300,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-02-07-0012,Jacketed Plug Valve,"Jacketed Plug Valve ,API 599 ,CL 300 ,RF ,BB,TPP,NLUB ,Gear operator ,ASTM A216 WCB ,Trim:13Cr/PTFE",CS,Contractor,12×1.5,CL300,FLGD,PCS,,,,,,,,,,,,1746.03174603175
+,,,,,,,0,,,,,,,,,,,,,0
+AP-03,,Safety Valves,,,,,0,,,,,,,,,,,,,0
+AP-03-0001,Safety Valves,"Conventional,10""X14"",#300X#150,LCB",CS,Contractor,"10""X14""",CL300,FLGD,PCS,,,,,,,,,,,,1428.57142857143
+AP-03-0002,Safety Valves,"Conventional,12""X16"",#150X#150,LCB",CS,Contractor,"12""X16""",CL150,FLGD,PCS,,,,,,,,,,,,2380.95238095238
+AP-03-0003,Safety Valves,"Conventional,2""X3"",#150X#150,LCB",CS,Contractor,"2""X3""",CL150,FLGD,PCS,,,,,,,,,,,,253.968253968254
+AP-03-0004,Safety Valves,"Conventional,1.5""X3"",#150X#150,LCB",CS,Contractor,"1.5""X3""",CL150,FLGD,PCS,,,,,,,,,,,,253.968253968254
+,,,,,,,0,,,,,,,,,,,,,0
+AP-04,,Special items,,,,,0,,,,,,,,,,,,,0
+AP-04-01,,Strainer,,,,,0,,,,,,,,,,,,,0
+AP-04-01-0001,Strainer,"LTCS,RF,CL150,Y-Type Strainer,4""",CS,Contractor,,CL150,FLGD,PCS,,,,,,,,,,,,0
+AP-04-01-0002,Strainer,"LTCS,RF,CL150,T-Type Strainer",CS,Contractor,16X12,CL150,FLGD,PCS,,,,,,,,,,,,0
+,,,,,,,0,,,,,,,,,,,,,0
+AP-04-02,,Silencer,,,,,0,,,,,,,,,,,,,0
+AP-04-02-0001,Silencer,"14"",A335 P11,CL900",AS,Contractor,,CL900,FLGD,PCS,,,,,,,,,,,,0
+AP-04-02-0002,Silencer,"16"",A106 Gr.B, CL300",CS,Contractor,,CL3000,FLGD,PCS,,,,,,,,,,,,0
+,,,,,,,,,,,,,,,,,,,,0
+AP-04-03,,Eyewash station,,,,,,,,,,,,,,,,,,0
+AP-04-03-0001,Eyewash station,Eyewash station（include cooler）,,Contractor,,,,pcs,18,,,,,,,,,,,5079.36507936508
+,,,,,,,,,,,,,,,,,,,,0
+AP-04-X1,Sampler for Sulphur,,,,,,,,,,,,,,,,,,,0
+AP-04-X1-0001,Sampler for Sulphur,,,Contractor,,,,pcs,,,,,,,,,,,,0
+,,,,,,,,,,,,,,,,,,,,0
+AP-04-X2,,,,,,,,,,,,,,,,,,,,0
+AP-04-X2-0001,Rupture disc,,,Contractor,"2""X3""",,,pcs,2,,,,,,,,,,,1428.57142857143
+AP-04-X2-0002,Rupture disc,,,Contractor,"1.5""X3""",,,pcs,2,,,,,,,,,,,1269.84126984127
+,,,,,,,,,,,,,,,,,,,,0
+AP-04-04,,QUICK COUPLING,,,,,,,,,,,,,,,,,,0
+AP-04-04-0001,QUICK COUPLING,QUICK COUPLING(AS1A0A-FA),,Contractor,1,,,pcs,227,,,,,,,,,,,420.634920634921
+AP-04-04-0002,QUICK COUPLING,QUICK COUPLING(AC1A1B-FA),,Contractor,1,,,pcs,33,,,,,,,,,,,420.634920634921
+AP-04-04-0003,UTILITY STATION HOSE FOR STEAM,,,Contractor,1,,,pcs,33,,,,,,,,,,,206.349206349206
+AP-04-04-0004,UTILITY STATION HOSE FOR NITROGIN,,,Contractor,1,,,pcs,33,,,,,,,,,,,206.349206349206
+AP-04-04-0005,UTILITY STATIONHOSE FOR AIR,,,Contractor,1,,,pcs,33,,,,,,,,,,,206.349206349206
+AP-04-04-0006,UTILITY STATION HOSE FOR WATER,,,Contractor,1,,,pcs,227,,,,,,,,,,,206.349206349206
+,,,,,,,,,,,,,,,,,,,,0
+AP-05,,PIPING SUPPORT,,,,,,,,,,,,,,,,,,0
+AP-05-0001,CARBON STEELS,CARBON STEELS,,Subcontractor,,,,t,60,,,,,3703.7037037037,,,,,,11640.2116402116
+AP-05-0002,STAINLESS STEELS,STAINLESS STEELS,,Subcontractor,,,,t,1,,,,,23280.4232804233,,,,,,33597.8835978836
+AP-05-0003,CARBON PLATE,CARBON PLATE,,Subcontractor,,,,t,9,,,,,3703.7037037037,,,,,,11640.2116402116
+AP-05-0004,ALLOY STEELS,ALLOY STEELS,,Subcontractor,,,,t,12,,,,,6878.30687830688,,,,,,16402.1164021164
+AP-05-0005,Prefabricated Supports,Prefabricated Supports,,Contractor,,,,t,10,,,,,,,,,,,11640.2116402116
+AP-06,,SPECIAL SUPPORTS,,,,,,,,,,,,,,,,,,0
+AP-06-0001,Spring Hangers,"(F=50000N,Displacemrnt=30mm)",,Contractor,,,,SET,10,,,,,,,,,,,1587.30158730159
+AP-06-0002,Spring Hangers,"(F=20000N,Displacemrnt=30mm)",,Contractor,,,,SET,73,,,,,,,,,,,1587.30158730159
+AP-06-0003,Constant Spring Hanger,"(F=80000N,Displacemrnt=100mm)",,Contractor,,,,SET,,,,,,,,,,,,1587.30158730159
+,,,,,,,,,,,,,,,,,,,,0
+AP-07,,INSULATION,,,,,,,,,,,,,,,,,,0
+AP-07-0001,MINERAL WOOL,MINERAL WOOL,,Subcontractor,,,,m3,183,,,,,1269.84126984127,,,,,,2222.22222222222
+AP-07-0002,Aluminium Cladding,0.6mm,,Subcontractor,,,,m2,5500,,,,,37.037037037037,,,,,,76.7195767195767
+,,,,,,,,,,,,,,,,,,,,0
+AP-08,,PAINTING,,,,,,,,,,,,,,,,,,0
+AP-08-0001,PAINTING,1st Phenolic Epoxy 150 µm ,,Subcontractor,,,,m2,2800,,,,,31.7460317460317,,,,,,71.4285714285714
+AP-08-0002,PAINTING,2nd Phenolic Epoxy 150 µm ,,Subcontractor,,,,m2,2800,,,,,31.7460317460317,,,,,,71.4285714285714
+AP-08-0003,PAINTING,1st Inert Multi Polymeric Matrix  150 µm ,,Subcontractor,,,,m2,,,,,,,,,,,,76.7195767195767
+AP-08-0004,PAINTING,2nd Inert Multi Polymeric Matrix  150 µm ,,Subcontractor,,,,m2,,,,,,,,,,,,76.7195767195767
+AP-08-0005,PAINTING,1st Polyamide Epoxy MIO  125 µm ,,Subcontractor,,,,m2,,,,,,,,,,,,71.4285714285714
+AP-08-0006,PAINTING,2nd Polyamide Epoxy MIO  125 µm ,,Subcontractor,,,,m2,,,,,,,,,,,,71.4285714285714
+AP-08-0007,PAINTING,3rd Polyurethane  40 µm ,,Subcontractor,,,,m2,,,,,,,,,,,,76.7195767195767
+AP-08-0008,PAINTING,1st Inorganic Zinc Silicate 75 µm ,,Subcontractor,,,,m2,970,,,,,31.7460317460317,,,,,,71.4285714285714
+AP-08-0009,PAINTING,2nd Polyamide Epoxy MIO  100 µm ,,Subcontractor,,,,m2,970,,,,,37.037037037037,,,,,,76.7195767195767
+AP-08-0010,PAINTING,3rd Polyamide Epoxy MIO  100 µm ,,Subcontractor,,,,m2,970,,,,,37.037037037037,,,,,,76.7195767195767
+AP-08-0011,PAINTING,4th Polyurethane 50 µm ,,Subcontractor,,,,m2,970,,,,,37.037037037037,,,,,,76.7195767195767
+AP-08-0012,PAINTING,1st Phenolic Epoxy  125 µm,,Subcontractor,,,,m2,2650,,,,,31.7460317460317,,,,,,71.4285714285714
+AP-08-0013,PAINTING,2nd Phenolic Epoxy  125 µm,,Subcontractor,,,,m2,2650,,,,,31.7460317460317,,,,,,71.4285714285714
+AP-08-0014,PAINTING,3rd Polyurethane  40 µm ,,Subcontractor,,,,m2,2650,,,,,37.037037037037,,,,,,76.7195767195767
+,,,,,,,,,,,,,,,,,,,,0
+AP-09,,Surface preparation,,,,,,,,,,,,,,,,,,0
+AP-09-0001,Surface preparation,Sa2.5 as per project spec and requirements,,Subcontractor,,,,m2,4308,,,,,105.820105820106,,,,,,193.121693121693
+
+
+,,Piping (Green）TOTAL
+NOTES:
+1,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings."
+1.1,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials."
+1.2,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items."
+1.3,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc."
+2,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.
+3,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order."
+4,,"C/S includes C/S, C/S Sour, LTCS etc.
+S/S includes 304, 304L, 316, 316L."

@@ -1,0 +1,29 @@
+﻿# Source: Att 01_BOQ - Civil - BLDG Pkg I.xlsx
+# Sheet: CMS (Green）
+"# Rows: 13, Cols: 19"
+# Internal revision: Rev.A
+
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,CMS (Green）,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Sulfur Granulator Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,CODE:24108-25100-,
+SUBCONTRACT:CIVIL AND BLDG WORKS PACKAGE I,,,,,,,,,,,,,,,,,,
+Item,Category,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST TOTAL
+F",,Remarks,
+,,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,,
+,,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,,
+NO.1,,Corrosion Monitoring System,,,,,,,,,,,,,,,,
+1.1,"CMS for Non-Critical Structure
+Supply by Wison","Corrosion Monitoring System and Provision for Future Cathodic Protection – Non-Critical as per AGES-STD-01-107.
+Installation of Ag/AgCl reference electrodes, including threaded bosses, monitoring connectors, test stations, UPVC conduits, etc., as shown on the above standard drawing.",EA,,21.5,0,745.5125,0,0,0,31.0131911764706,0,48.3088235294118,0,824.834514705882,0,,
+1.2,"CMS for Critical Structure
+Supply by Wison","Corrosion Monitoring System and Provsion for future Cathodic protection-critical structure as per AGES-STD-01-108
+Corrosion monitoring probe installation, including threaded boss, clamps,wire ropes etc., as shown on the above standard drawing.",EA,,25,0,866.875,0,0,0,33.4404411764706,0,48.3088235294118,0,948.624264705882,0,,
+,,SUBTOTAL-CMS WORKS,,,,0,,0,,0,,0,,0,,0,,

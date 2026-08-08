@@ -1,0 +1,43 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-3.xlsx
+# Sheet: Miscellaneous(Green) 
+"# Rows: 32, Cols: 17"
+
+
+
+
+
+
+
+
+Item,Description,Unit,"Qty.
+","MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+No.,,,,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,Q,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+A,"Careful dismantle-Metallic Piping for reuse, complete with loading, transportation to approved designated areas, all as required for the Works."
+1.1,"NPS: ≤ 2""",LM,1,,,,,,,,,,,23.8095238095238,,RATE ONLY
+1.2,"NPS > 2"" and ≤ 8""",LM,1,,,,,,,,,,,104.761904761905,,RATE ONLY
+1.3,"NPS > 8"" and ≤ 14""",LM,1,,,,,,,,,,,200,,RATE ONLY
+1.4,"NPS > 14"" and ≤ 20""",LM,1,,,,,,,,,,,293.650793650794,,RATE ONLY
+B,"Removal and demolition of existing Metallic piping，complete with loading, transportation, and disposal to approved dump areas, all as required for the Works.",,,,,,,,,,,,,0
+2.1,"NPS: ≤ 2""",LM,1,,,,,,,,,,,23.8095238095238,,RATE ONLY
+2.2,"NPS > 2"" and ≤ 8""",LM,1,,,,,,,,,,,104.761904761905,,RATE ONLY
+2.3,"NPS > 8"" and ≤ 14""",LM,1,,,,,,,,,,,200,,RATE ONLY
+2.4,"NPS > 14"" and ≤ 20""",LM,1,,,,,,,,,,,293.650793650794,,RATE ONLY
+C,Demolition of Insulation,,,,,,,,,,,,,0
+3.1,"Removal and dismantling of existing insulation system, comprising insulation layers and all insulation materials (such as cladding, jacketing, insulation boards/blankets, fastening accessories, etc.), complete with loading, transportation, and disposal to approved dump areas, all as required for the Works.",m3,1,,,,,,,,,,,634.920634920635,,RATE ONLY
+D,Coating,,,,,,,,,,,,,0
+4.1,Galvanizing of Steel Structure as per project specification,Ton,1,,,,,,,,,,,5555.55555555556,,RATE ONLY
+4.2,Galvanizing of Pipe Support as per project specification,Ton,1,,,,,,,,,,,5555.55555555556,,RATE ONLY
+4.3,Galvanizing of Piping as per project specification,M2,1,,,,,,,,,,,55.5555555555556,,RATE ONLY
+,SUBTOTAL-Miscellaneous(Green)  WORKS
+
+
+
+
+

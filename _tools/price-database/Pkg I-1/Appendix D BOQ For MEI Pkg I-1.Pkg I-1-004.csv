@@ -1,0 +1,84 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: Pkg I-1-004
+"# Rows: 51, Cols: 24"
+
+
+
+
+
+
+NO.,TAG NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,WBS,WEIGHT(T),,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 40 
+General",UNIT,TOTAL,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout
+,,,,,,,Q,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f
+"General Notes for Package Units:
+Package Units are self-contained, all-in-one units consisting of, but not limited to: Equipment, interconnecting piping, electrical, instrument components, steel structures... already captured under the weight below established. 
+Package Units are fabricated and skid-mounted in one or more sections, with loose items that shall be required to be completed at SITE.
+Package Units are generally installed in a unique location, although some loose items or auxiliary systems may be installed in isolated or dedicated foundations / supporting steel structures.",,,,,,,,,,,,,,,,,,,,,,,Refer to Vendor Document as attached
+,4015-DS-0001,,"- Chemical Storage Tank (2.3m³), 
+- Pumps, control valves, instruments (PIT, FIT, LT), etc.
+- Main Reclaimer Manifolds (w/ pneumatic On/Off valve, pre-wired to JB, Instrument Air connections)
+- Flow Splitting Manifolds for headboxes
+- Nozzle Plate Assemblies (NPAs), and Nozzles (Foaming)
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,1,1,16,16,,,,,,,,,,,61375.6613756614
+,4015-DS-0002,,"- Chemical Storage Tank (2.3m³), 
+- Pumps, control valves, instruments (PIT, FIT, LT), etc.- Flow Splitting Manifolds for headboxes
+- Nozzle Plate Assemblies (NPAs), and Nozzles (Foaming)
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,,1,13,,,,,,,,,,,,39550.2645502646
+,4015-DS-0003,,"- Pumps, control valves, instruments (PIT, FIT, LT), etc.
+- Flow Splitting Manifolds for headboxes
+- Nozzle Plate Assemblies (NPAs), and Nozzles (Hydraulic)
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,,1,11,,,,,,,,,,,,59656.0846560847
+,4015-TK-0015,,"- 25m³ chemical storage tank for (4015-DS-0003)
+- Structural and piping as per design within skid battery limits
+- Chemical unlaoding pumps
+- Level Transmitters",,Contractor,Package,,1,5,,,,,,,,,,,,15211.6402116402
+,Reclaimer Manifolds,,"- Pneumatic On/Off valve, pre-wired to JB, Instrument Air connections
+- Isolation valves, Pressure Gauge, flow indicators
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,,1,1,,,,,,,,,,,,16534.3915343915
+,Flow Splitting Manifolds,,"- Isolation valves, Pressure Gauge, flow indicators
+- Structural and piping as per design within skid and manifold battery limits",,Contractor,Package,,1,0.7,,,,,,,,,,,,11574.0740740741
+,Nozzle Plate Assemblies (NPA),,"- Isolation valves, fittings, flexible hose (1m)
+ - Nozzles",,Contractor,Package,,1,0.01,,,,,,,,,,,,13359.7883597884
+,Spray Bars,,"- Piping, fittings and nozzles",,Contractor,Package,,1,TBC,TBC,,,,,,,,,,,22486.7724867725
+,,,"All other equipment, E&I auxilary facilities, internal piping, steel structure etc. ",,Contractor,Lot,1,,,,,,,,,,,,,,42328.0423280423,,Refer to Vendor Document as attached
+,,,Pkg I-1 Equipment 004 TOTAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

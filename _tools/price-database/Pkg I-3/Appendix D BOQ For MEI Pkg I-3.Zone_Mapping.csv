@@ -1,0 +1,207 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-3.xlsx
+# Sheet: Zone_Mapping（分区）
+"# Rows: 203, Cols: 9"
+
+
+,PK-0001,3035-ME-0001,Sulphur Remelter Package,硫磺重熔装置,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,"Skid, 30T","滑橇, 30吨",,,绿区
+,,,,"滑橇, 30吨",,,绿区
+,,,,"滑橇, 30吨",,,绿区
+,,,,"滑橇, 30吨",,,绿区
+,,,,"滑橇, 30吨",,,绿区
+,,,Separate,分离,,,绿区
+,,,"Skid , Weight 6T",撬块，重量6吨,,,绿区
+,,,,撬块，重量6吨,,,绿区
+,,,"Skid , Weight 8T",撬块，重量8吨,,,绿区
+,,,,撬块，重量8吨,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,,,"liquid sulphur lines, 16 nos, 27 flanges",液硫管线，16根，27个法兰,,,绿区
+,,,,0,,,绿区
+,PK-0002,3033-GR-0101~1001,Granulator Package,造粒机组,,,绿区
+,,,Process water skid weight is 1.4 ton each one.,工艺水撬块重量为每个1.4吨。,,,绿区
+,,,,工艺水撬块重量为每个1.4吨。,,,绿区
+,,,,工艺水撬块重量为每个1.4吨。,,,绿区
+,,,,工艺水撬块重量为每个1.4吨。,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离器,,,绿区
+,,,Separate,分离,,,绿区
+,,,Scrubber skid weight is 1.8 ton for each one.,洗涤器撬块重量为每个1.8吨。,,,绿区
+,,,,洗涤器撬块重量为每个1.8吨。,,,绿区
+,,,,洗涤器撬块重量为每个1.8吨。,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,Separate,分离,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,PK-0003,4043-SR-0001A/B,Portal Stacker Reclaimer,门式堆取料机,,,绿区
+,,,,0,,,绿区
+,,,,0,,,绿区
+,PK-0004,4015-DS-0001,DUST SUPPRESSION SYSTEM,粉尘抑制系统,,,绿区
+,PK-0004,4015-DS-0002,DUST SUPPRESSION SYSTEM,粉尘抑制系统,,,绿区
+,PK-0004,4015-DS-0003（Pump skid）,BIOCIDE INJECTION SYSTEM,杀菌剂注入系统,,,绿区
+,PK-0004,4015-DS-0003（4015-TK-0015 skid）,BIOCIDE INJECTION SYSTEM,杀菌剂注入系统,,,绿区
+,,,,0,,,绿区
+,PK-0005,4015-CV-0001A,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0001B,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0002A,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0002B,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0003A,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0003B,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0004A,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0004B,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-CV-0006,Belt Conveyor,皮带输送机,,,绿区
+,PK-0005,4015-SC-0001A,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0001B,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0002A,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0002B,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0003A,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0003B,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0004A,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-SC-0004B,Electric Belt Scale,电子皮带秤,,,绿区
+,PK-0005,4015-MS-0001A,Magnetic Separator,磁选机,,,绿区
+,PK-0005,4015-MS-0001B,Magnetic Separator,磁选机,,,绿区
+,PK-0005,4015-MS-0002A,Magnetic Separator,磁力分离器,,,绿区
+,PK-0005,4015-MS-0002B,Magnetic Separator,磁力分离器,,,绿区
+,PK-0005,4015-DV-0001A,Diverter Gate,分流闸门,,,绿区
+,PK-0005,4015-DV-0001B,Diverter Gate,分流闸门,,,绿区
+,PK-0005,4042-TT-0011,Transfer Tower,转运塔,,,绿区
+,PK-0005,4042-TT-0012,Transfer Tower,转运塔,,,绿区
+,PK-0005,4042-TT-0014,Transfer Tower,中转塔,,,绿区
+,,,,0,,,绿区
+,PK-0006,4015-DC-0001,DUST COLLECTION SYSTEM,除尘系统,,,绿区
+,,4015-DC-0002,DUST COLLECTION SYSTEM,粉尘收集系统,,,绿区
+,,4015-DC-0004,DUST COLLECTION SYSTEM,粉尘收集系统,,,绿区
+,,,,0,,,绿区
+,PK-0007,1032-ME-0001,CONDENSATE POLISHING PACKAGE,凝结水精处理装置,,,绿区
+,,1032-F-3001A/S,Pre-Filter,预过滤器,,,绿区
+,,1032-F-3002A/S,Activated Carbon Filter,活性炭过滤器,,,绿区
+,,1032-F-3003A/S,Mixed Bed Pre-Filter,混床预过滤器,,,绿区
+,,1032-F-3004A/S,Mixed Bed Ion Exchanger,混床离子交换器,,,绿区
+,,1032-TK-3001-,Polished Condensate Tank,精处理凝结水箱,,,绿区
+,,1032-P-3001A/S,Polished Condensate Pump,抛光冷凝水泵,,,绿区
+,,1032-SU-3001-,Neutralization Sump,中和池,,,绿区
+,,1032-P-3002A/S,Waste Water Pump,废水泵,,,绿区
+,,1032-P-3003A/S,Backwash Pump,反冲洗泵,,,绿区
+,,1032-X-3001-,Caustic Ejector,碱液喷射器,,,绿区
+,,1032-X-3002-,Sulfuric Acid Ejector,硫酸喷射器,,,绿区
+,,1032-TK-3002-,Sulfuric Acid Metering Tank,硫酸计量罐,,,绿区
+,,1032-MX-3001-,Sulfuric Acid Metering Tank Agitator,硫酸计量罐搅拌器,,,绿区
+,,1032-P-3004A/S,Sulfuric Acid Metering Pump,硫酸计量泵,,,绿区
+,,1032-TK-3003-,Caustic Metering Tank,碱液计量罐,,,绿区
+,,1032-MX-3002-,Caustic Metering Tank Agitator,腐蚀性计量罐搅拌器,,,绿区
+,,1032-P-3005A/S,Caustic Metering Pump,腐蚀性计量泵,,,绿区
+,,1032-P-3006A/S,Sulfuric Acid Unloading Pump,硫酸卸料泵,,,绿区
+,,1032-TK-3004-,Sulfuric Acid Storage Tank,硫酸储罐,,,绿区
+,,1032-P-3007A/S,Caustic Unloading Pump,腐蚀性卸料泵,,,绿区
+,,1032-TK-3005-,Caustic Storage Tank,腐蚀性储罐,,,绿区
+,,,Caustic Storage Tank Electric Heat Tracing,腐蚀性储罐电伴热,,,绿区
+,,,Manual Hoist,手动葫芦,,,绿区
+,,,,0,,,绿区
+,PK-0008,1031-ME-0001,AIR COMPRESSOR PACKAGE,空气压缩机机组,,,绿区
+,,1031-C-0001A/S,Air Compressor Package,空气压缩机机组,,,绿区
+,,1031-E-3025,Intercooler,中间冷却器,,,绿区
+,,1031-E-3050,Aftercooler,后冷却器,,,绿区
+,,1031-E-3085,Oil cooler,油冷却器,,,绿区
+,,1031-E-3115,TDcooler,TD冷却器,,,绿区
+,,1031-WS-3030,Water Separator Intercooler,中间冷却器水分离器,,,绿区
+,,1031-WS-3055,Water Separator Aftercooler,后冷却器水分离器,,,绿区
+,,1031-WS-3120,Water Separator TD cooler,TD冷却器水分离器,,,绿区
+,,1031-SI-3010,Inlet Silencer,进口消音器,,,绿区
+,,1031-SI-3020,LP Outlet Silencer,低压出口消音器,,,绿区
+,,1031-SI-3040,HP Outlet Silencer,高压出口消音器,,,绿区
+,,1031-P-3080,Oil Pump,油泵,,,绿区
+,,1031-TK-3075,Oil Tank,油箱,,,绿区
+,,1031-F-3090A,Oil Filter,油过滤器,,,绿区
+,,1031-F-3090B,Oil Filter,油过滤器,,,绿区
+,,M/A,Intercooler,中间冷却器,,,绿区
+,,M/A,Aftercooler,后冷却器,,,绿区
+,,M/A,Oil cooler,油冷却器,,,绿区
+,,M/A,TDcooler,TD冷却器,,,绿区
+,,M/A,Water Separator Intercooler,水分离中间冷却器,,,绿区
+,,M/A,Water Separator Aftercooler,水分离后冷却器,,,绿区
+,,M/A,Water Separator TD cooler,水分离器 TD冷却器,,,绿区
+,,M/A,Inlet Silencer,进气消音器,,,绿区
+,,M/A,LP Outlet Silencer,低压出口消音器,,,绿区
+,,M/A,HP Outlet Silencer,高压出口消音器,,,绿区
+,,M/A,Oil Pump,油泵,,,绿区
+,,M/A,Oil Tank,油箱,,,绿区
+,,M/A,Oil Filter,油过滤器,,,绿区
+,,M/A,Oil Filter,油过滤器,,,绿区
+,,1031-ME-0002A/S,Air Dryer Package,空气干燥器组件,,,绿区
+,,1031-PF-5101,Pre-Filter,预过滤器,,,绿区
+,,1031-PF-5102,Pre-Filter,预过滤器,,,绿区
+,,1031-V-5103,Adsorber Vessel,吸附器容器,,,绿区
+,,1031-V-5104,Adsorber Vessel,吸附器容器,,,绿区
+,,1031-F-5105,After Filter,后过滤器,,,绿区
+,,1031-F-5106,After Filter,后过滤器,,,绿区
+,,M/A,Pre-Filter,预过滤器,,,绿区
+,,M/A,Pre-Filter,预过滤器,,,绿区
+,,M/A,Adsorber Vessel,吸附器容器,,,绿区
+,,M/A,Adsorber Vessel,吸附器容器,,,绿区
+,,M/A,After Filter,后过滤器,,,绿区
+,,M/A,After Filter,后置过滤器,,,绿区
+,,1031-V-0001,Wet Air Receiver,湿空气储罐,,,绿区
+,,1031-V-0002,Instrument Air Receiver,仪表空气储罐,,,绿区
+,,,Related piping material,相关管道材料,,,绿区
+,,,Related Instrument,相关仪表,,,绿区
+,,,Ladders，structure，etc,梯子、结构等,,,绿区
+,PK-0003,4043-SR-0001A,,,,,绿区
+,,4043-SR-0001B,,,,,绿区
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,PK-0005,4015-CV-0004A,Belt Conveyor,,,,棕区
+,PK-0005,4015-CV-0004B,Belt Conveyor,,,,棕区
+,PK-0005,4015-CV-0005A,Belt Conveyor,,,,棕区
+,PK-0005,4015-CV-0005B,Belt Conveyor,,,,棕区
+,PK-0005,4015-CV-0006,Belt Conveyor,,,,棕区
+,PK-0005,6010-CV-2100,Belt Conveyor,,,,棕区
+,PK-0005,6010-CV-2200,Belt Conveyor,,,,棕区
+,PK-0005,6015-CV-1300,Belt Conveyor,,,,棕区
+,PK-0005,6015-CV-1400,Belt Conveyor,,,,棕区
+,PK-0005,4015-DV-0002A,Diverter Gate,,,,棕区
+,PK-0005,4015-DV-0002B,Diverter Gate,,,,棕区
+,PK-0005,4015-DV-0003,Diverter Gate,,,,棕区
+,PK-0005,4042-TT-0013,Transfer Tower,,,,棕区
+,PK-0005,4042-TT-0015,Transfer Tower,,,,棕区
+,PK-0005,4042-TT-0016,Transfer Tower,,,,棕区
+,,,,,,,棕区
+,PK-0006,4015-DC-0003,DUST COLLECTION SYSTEM,,,,棕区
+,PK-0006,4015-DC-0005,DUST COLLECTION SYSTEM,,,,棕区
+,PK-0006,4015-DC-0006,DUST COLLECTION SYSTEM,,,,棕区

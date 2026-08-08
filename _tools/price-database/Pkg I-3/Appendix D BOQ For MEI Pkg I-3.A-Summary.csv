@@ -1,0 +1,23 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-3.xlsx
+# Sheet: A-Summary
+# Rows: 20, Cols: 9
+
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+0.SUBCONTRACT PRICE SUMMARY,,,,,,,,
+
+SN.,DESCRIPTION ,Manhours,SUBTOTAL COST,,,,,
+I.DIRECT COST,,,,
+1,Steel Structural（Green）,,
+2,Pkg I-3 Equipment,,
+3,Piping（Green）,,
+4,Miscellaneous(Green) ,,
+5,Fire Fighting（Green）,,
+6,NDT(Green) ,,
+II.INDIRECT LS COST,,,14341800.00
+
+III.V.A.T,,,
+,,,
+,TOTA SUBCONTRACT PRICE EXCLUDING VAT,,,106628202.893069
+,TOTA SUBCONTRACT PRICE INCLUDING VAT,,,

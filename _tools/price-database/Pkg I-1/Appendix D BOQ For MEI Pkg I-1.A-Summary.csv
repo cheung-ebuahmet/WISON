@@ -1,0 +1,40 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-1.xlsx
+# Sheet: A-Summary
+"# Rows: 36, Cols: 6"
+
+
+
+
+
+
+0.SUBCONTRACT PRICE SUMMARY
+
+SN.,DESCRIPTION ,Manhours,SUBTOTAL COST
+I.DIRECT COST
+1,Steel Structural（Green）
+2,Steel Structural (Brown)
+3,Pkg I-1 Equipment
+4,Static Equipment（Green）
+5,Rotary Equipment（Green）
+6,Rotary Equipment (Brown)
+7,UG PIP （Green）
+8,UG PIP （Brown）
+9,Piping（Green）
+10,Miscellaneous(Green) 
+11,Miscellaneous(Brown) 
+12,Fire Fighting（Green）
+13,Fire Fighting (Brown)
+14,NDT(Green) 
+15,NDT(Brown)
+16,Electrical（Green）
+17,Electrical (Brown)
+18,Instrumentation（Green）
+19,Instrumentation (Brown)
+20,Telecom（Green）
+21,Telecom (Brown)
+22,HVAC (Brown)
+II.INDIRECT LS COST
+
+III.V.A.T
+,TOTA SUBCONTRACT PRICE EXCLUDING VAT
+,TOTA SUBCONTRACT PRICE INCLUDING VAT

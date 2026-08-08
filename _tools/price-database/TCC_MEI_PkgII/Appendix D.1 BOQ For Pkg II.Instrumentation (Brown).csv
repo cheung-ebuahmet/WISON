@@ -1,0 +1,183 @@
+﻿# Source: Appendix D.1 BOQ For Pkg II.xlsx
+# Sheet: Instrumentation  (Brown) 
+"# Rows: 82, Cols: 23"
+
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Ruwais Sulfur Granulation Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,
+SUBCONTRACT: MECHANICAL ELECTRICAL AND INSTALLATION WORKS-Package II,,,,,,,,,,,,,,,,,,,,,,"REV. C, DATE: 30/DEC/2025"
+No.,TAG NO.,"EQUIPMENT/
+MATERIAL",DESCRIPTION,MATERIAL,Material Supplied By,UNIT,Qty.,QUANTITY,,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST
+F",,REMARK
+,,,,,,,,"UNIT 50 
+MCR（RSHT-2）",Polishing,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,
+,,,,,,,Q,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,
+IN-01,,,Control system,,,,,,,,,,,,,,,,,,,
+IN-01-01,,DCS,"IO quantity:      AI (IS):136, AIr (IS):68,AOr (IS):72,DI(IS):3,DO (IS):2, DO (NIS):105  (20% spare included) 
+Hardware ,software,configuration, logic programming, interface with existing control system, and  existing control system modification/upgrade, associated information management system  etc. to be included.",,Contractor,Point,232,232,,9.27504,2151.80928,408.4727616,94765.6806912,,0,46.6545114541177,10823.8466573553,72.6309191176471,16850.3732352941,527.758192171765,122439.900583849,
+IN-01-01-0001,,DCS,"DCS power distribution panel, 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0002,,DCS,"DCS system cabinet of control station, 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0003,,DCS,"DCS marshalling cabinet for control staiton, 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0004,,DCS,"DCS server cabinet, 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0005,,DCS,"DCS network cabinet, 800Wx800Dx2000H (mm)",,,pcs,1,,0,0,0,,0,,0,,0,,0,0,0,Shall be deemed included in the IN-01-01
+IN-01-01-0006,,DCS,"DCS operation station cabinet, 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0007,,DCS,"DCS operation station,",,,pcs,1,,0,0,0,,0,,0,,0,,0,0,0,Shall be deemed included in the IN-01-01
+IN-01-01-0008,,DCS,"FGS operation station, ",,,pcs,1,,0,0,0,,0,,0,,0,,0,0,0,Shall be deemed included in the IN-01-01
+IN-01-01-0009,,DCS,"DCS galaxy server station,",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0010,,DCS,"DCS historian station,",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0011,,DCS,"DCS console furniture,",,,pcs,2,,0,0,0,,0,,0,,0,,0,0,0,Shall be deemed included in the IN-01-01
+IN-01-01-0012,,DCS,"DCS IRP (interface relay panel), 800Wx800Dx2000H (mm)",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0013,,DCS,"DCS A3 monochrome printer,",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-01-0014,,DCS,"DCS A4 color printer,",,,pcs,0,,0,0,0,,0,,0,,0,,0,0,0,
+IN-01-02,,ESD,"IO quantity:     AIr (IS):39, DI (IS):32, DIr (IS):46,DIr (NIS):6, DOr (IS):16,DOr (NIS):70  (20% spare included) 
+Hardware ,software,configuration, logic programming and etc. to be included.",,Contractor,Point,125,125,0,9.27504,1159.38,408.4727616,51059.0952,,0,46.6545114541177,5831.81393176471,72.6309191176471,9078.86488970589,527.758192171765,65969.7740214706,
+IN-02,,,Instrumentation,,,,,,,0,,,,,,,,,,,,
+IN-02-01,,,Analyzers,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-02-0001,,Gas Detector,"  Detector (SO2) :
+- Operating Principle:  Be solid state/ electrochemical cell type with electrodes.
+- Measuring Range:  0-20 ppm
+- Calibrated Gas : MFR.STD - Wiring System: 3-wire
+- Accuracy : ±2% 
+- Repeatability: ±2% of LFL
+- LED Display : Tri-Colour LED (Normal, Fault,Alarm)
+- Output : 4-20 mA with HART Protocol, with SIL II certification;
+- House material:316SS
+- Operating Voltage : 24VDC - Ingress Protection : IP66
+- Response Time : T90 < 15 sec,  ExdIICT4, IEC Certificate,
+with alarm light. with Sunshade, 2"" stand pipe mounting.",,,Set,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-02-0002,,Horn & Beacon,"Local sound and light alarm, ExdIIBT4, IP65, 24VDC, ≥110dB, IEC Certificate, 2"" standpipe mounting.",,,set,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-02,,,Analyzers,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-03,,,Valves,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-03-0001,,Control valve,"Control Valve, Globe, Flange connection, W/Actuator, Air fail position required, W/Positioner and position-transmitter, W/Filter-regulator, Exi, 4-20mA×2 Hart.  [Cold-Resistant(-52°C)]. High temperature type.
+  NPS 2""(Pipeline 3"") CL300 SS316 Body SS316 Trim. With handwheel.",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-04,,,Desuperheater,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-05,,,Flow Instrument,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-05-0001,,Flow Instrument,"Flow element, Orifice, W/Flange and Root valve.
+NPS 10"" CL900 LTCS Flange SS316 Element",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-05-0002,,Flow Instrument,"Flow element, Orifice, W/Flange and Root valve.
+NPS 10"" CL300 LTCS Flange SS316 Element",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-05-0003,,Flow Instrument,"Flowmeter, Vortex, NPS 3"" CL300 RF, SS316, 4~20mA with HART, IEC Ex ""i"", IP65 as minmium",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-05-0004,,Flow Instrument,"Differential Pressure Transmitter with integral LCD display;
+with 2'' bracket pipe installation;
+4-20mA+HART output;
+Element Material: 316LSS;
+Housing Material: 316LSS;
+Process Connection: 1/2'' NPT;
+Manifold Connection Size: ½'' NPT;
+with 5-valve manifold and sunshade
+Ex ia IIB T3, IP65;",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-06,,,Level Instrument,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-07,,,Pressure Instrument,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-07-0001,,Pressure Instrument,"Pressure Gauge with Dial 100mm, 316SS Case, IP65,  W/2 valve manifold， Accuracy: ± 1.0% of full scale，Range:hold,  with  Solid front & blow out protection",,Contractor,ea,3,,3,4.6224,13.8672,203.570496,610.711488,,0,24.0810201882353,72.2430605647059,1.86198529411765,5.58595588235295,229.513501482353,688.540504447059,
+IN-02-07-0002,,Pressure Instrument,"PRESSURE TRANSMITTER, 
+with Local LCD indicator（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of span;
+with 316SS integral 2-valve integral manifold.
+Ex iaIIC T4, IP65
+Electrical connection:M20;Power supply:24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.",,Contractor,ea,3,,3,25.272,75.816,1112.97888,3338.93664,,0,118.735035058824,356.205105176472,49.1402205882353,147.420661764706,1280.85413564706,3842.56240694118,
+IN-02-07-0003,,Pressure Instrument,"Differential Pressure Transmitter with Diaphragm seal（for  -0°C ~87  service condition）, Exia, IP65, 4-20mA.DC+HART, 316SS, 1/2""NPT，2” Flanged Connection,
+with capillary,Capillary Length 5m×2，Power supply:24VDC loop powered",,Contractor,ea,1,,1,32.1984,32.1984,1418.017536,1418.017536,,0,215.169371247059,215.169371247059,58.4366544117647,58.4366544117647,1691.62356165882,1691.62356165882,
+IN-02-08,,,Temperature Instrument,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-02-08-0001,,Temperature Instrument,"RTD, Pt100, 3-Wire; Duplex; Enclosure Protection:IP65 As per IEC 60529; ACCURACY:A;
+Thermowell material:SS316 as minimum; Pipe or Equip Connection:1½” 300# RF; Element connection:1/2"" NPT(F); Construction Type:Drilled, Solid Barstock;Insertion U Length: 400mm;
+With Temperature Transmitter integrated with LCD display（for -0°C ~87 service condition）;
+4-20mA.DC+HART output;
+Accuray:±0.025% of span;
+IEC Ex ia IIC T4, IP65
+Electrical connection: 2 X M20; Power supply: 24VDC loop powered
+Housing Material:Aluminum alloy with polyurethane paint.",,,ea,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03,,,Instrument Material,,,,,,,0,,,,,,,,,,,,
+IN-03-01,,,Cable,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-01-0001,,Cable,"1x2x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. 
+All cables shall be Flame Retardant and comply with IEC 60332-1-1&2 and IEC 60332-3-22, Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,Contractor,lm,1600,,1600,0.288,460.8,12.68352,20293.632,,0,3.51352847058824,5621.64555294118,0.310330882352941,496.529411764706,16.5073793529412,26411.8069647059,
+IN-03-01-0002,,Cable,"10x2x1.0 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.  Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-01-0003,,Cable,"20x2x1.0 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight.  Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-01-0004,,Power Cable,"10x2x2.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Fire Resistant and comply with IEC 60331-21.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Black.",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-01-0005,,Cable,"1x3x1.5 sq.mm. with screen and armoured (SWA), Lead Sheath cables shall be heat, oil, soil & UV resistant; non-hygroscopic and gas & vapor tight. 
+All cables shall be Fire Resistant and comply with IEC 60331-21. Category A as a minimum. 
+Voltage rating: 300V/500V.
+Non-Instrinsically or Instrinsically safe, 7-stand bare-plain anneal copper wire twisted.
+Instrumentation cables used for intrinsic safe applications shall be individually and overall 
+shielded as per IEC 60079-14.
+Outer sheath color shall be Blue.",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-01-0006,,Power Cable,"0.6/1(1) kV Multi-core, Lead sheathed, Copper conductor, XLPE Insulated,PVC Inner Sheath,GSWA, PVC Outer Jacket, 3Cx4",,Contractor,lm,120,120,,0.3744,44.928,16.488576,1978.62912,,0,4.15309289411765,498.371147294118,0.350808823529412,42.0970588235294,20.9924777176471,2519.09732611765,
+IN-03-01-0007,,Cable,INSTRUMENT CABLES & ACCESSORIES    1x70 sq.mm grounding cable,,Contractor,lm,60,60,,0.2736,16.416,12.049344,722.96064,,0,2.93199322352941,175.919593411765,0.377794117647059,22.6676470588235,15.3591313411765,921.547880470588,
+IN-03-01-0008,,Cable,24 core single-mode fiber cable,,Contractor,lm,3120,3120,,0.792,2471.04,34.87968,108824.6016,,0,8.66914447058824,27047.7307482353,0.809558823529412,2525.82352941177,44.3583832941177,138398.155877647,
+IN-03-02,,,Cable Tray,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-02-0001,,Cable Tray,"cable tray ladder type with ventilation type cover, heavy duty type, GRP (Glass reinforced polyester), with 1 pair splic plate and SS304 bolts & nuts.300Wx150H",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-02-0002,,Cable Tray,"cable tray ladder type with ventilation type cover, heavy duty type, GRP (Glass reinforced polyester), with 1 pair splic plate and SS304 bolts & nuts.600Wx150H",,Contractor,lm,50,50,,4.62384,231.192,203.6339136,10181.69568,,0,23.7527443011765,1187.63721505882,5.97724264705882,298.862132352941,233.363900548235,11668.1950274118,
+IN-03-03,,,JUNCTION BOX,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-03-0001,,JUNCTION BOX,"Instrument Junction Box (IS) ,Exe IICT4 / Ex tb IIIB T3, IP65, 73 Terminals,
+with one M50 x1.5(F) and 20 pcs M20 x 1.5(F) Armored Cable Glands/PVC Shroud & Plugs.  SS316L, with sunshade",,Contractor,ea,2,,2,35.352,70.704,1556.90208,3113.80416,,0,192.120355058824,384.240710117648,73.7643014705882,147.528602941176,1822.78673652941,3645.57347305882,
+IN-03-04,,,Pipe & Tube,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-04-0001,,Pipe & Tube,"1/2"" OD x 0.065"" WT, SS ASTM A269 Gr.TP316SS",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-04-0002,,Other,"PIPE 2"", ASTM A53 Gr.B Sch80 (SUPPORT FOR Instrument)",,Subcontractor,kg,60,,,0.8928,53.568,39.318912,2359.13472,9.49882352941177,569.929411764706,4.93574414117647,296.144648470588,1.09290441176471,65.5742647058826,54.8463840823529,3290.78304494118,The unit of measurement is corrected to kg.
+IN-03-04-0003,,Pipe & Tube,"PVC, ϕ160mm",,,lm,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-05,,,Other,,,,0,,,0,0,,0,,0,,0,,0,0,0,
+IN-03-05-0001,,Other,"STEEL CHANNEL (SUPPORT FOR JUNCTION BOX and CABINETS), 100 x 50 x 7.5t, HOT DIPPED GALVANISED",,Subcontractor,kg,840,,,0.6912,580.608,30.440448,25569.97632,7.55588235294118,6346.94117647059,3.85360362352941,3237.0270437647,0.877022058823529,736.698529411764,42.7269560352941,35890.6430696471,
+IN-03-05-0002,,Other,"STEEL ANGLE (SUPPORT FOR HOOK-UP TUBE), 50 x 50 x 5t, HOT DIPPED GALVANISED",,Subcontractor,kg,806,,,0.72,580.32,31.7088,25557.2928,7.55588235294118,6090.04117647059,3.98043882352941,3208.2336917647,0.877022058823529,706.879779411764,44.1221432352941,35562.4474476471,
+IN-02-05-0005,,Flow Instrument,"V-Cone Flow Meter;
+Fluid Name:HIGH PRESSURE STEAM;
+Meter Material: ASTM A182 GR. F11 CL2;
+Body and Flanges Material: ASTM A182 GR. F11 CL2;
+Gasket Material: SP. WINDING + INNER RING: SS 347, FILLER: MICA &GRAPHITE, SS 316 OUTER RING
+Bolts Material: STUD: ASTM A193 GR. B16 ASTM A194 GR. 7
+Flange:10"" ASME B16.5 900CL RF;      ",,Contractor,set,2,,,66.6,133.2,2933.064,5866.128,0,0,368.595370588235,737.19074117647,101.667095588235,203.33419117647,3403.32646617647,6806.65293235294,Updated new item
+IN-02-05-0006,,Flow Instrument,"PD(Positive Displacement) Flowmeter
+Fluid name: Nitrogen
+Measuring Element Material: 316LSS;
+Body Material: 316LSS;
+Flange:3"" ASME B16.5 150CL RF; 
+Remote Transmitter with 2'' bracket pipe installation; 
+with LCD display and Sunshade;
+4-20mA+HART output;
+IEC Ex ia IIC T4, IP65.     ",,Contractor,set,2,,,49.9392,99.8784,2199.322368,4398.644736,0,0,276.396266211765,552.79253242353,76.2469485294118,152.493897058824,2551.96558274118,5103.93116548235,Updated new item
+IN-02-05-0007,,Flow Computer,"High Accuracy Flow Computer:
+Power supply: 240V AC UPS;
+Input: 2 AI inputs for Temperature Transmitter and Pressure Transmitter
+Output: 4~20mA and RS485 for MODBUS protocol
+Panel mounted, located in IES6 Rack Room",,Contractor,set,2,,,34.776,69.552,1531.53504,3063.07008,0,0,178.929856941176,357.859713882352,64.8321691176471,129.664338235294,1775.29706605882,3550.59413211765,Updated new item
+IN-02-05-0008,,Flow Metering Panel,"Panel Size: 800Wx800Dx2100H(mm)
+Including Power distribution, Fiber Converter, Earthing, etc",,Contractor,set,1,,,132.264,132.264,5824.90656,5824.90656,0,0,699.196656,699.196656,308.792720588235,308.792720588235,6832.89593658824,6832.89593658824,Updated new item
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,Instrumentation  (Brown) TOTAL,,,,,,,,8377.54128,,368946.9179712,,13006.9117647059,,61303.2681206495,,31977.6275,,475234.725356555,
+NOTES:,,,,,,,,,,,,,,,,,,,,,,
+1,,,"The unit price shall include, but not limited to labor, environmental protection, material, construction equipment, installation, measures and maintenance (including materials, equipment, apparatus, semi-finished products and finished products, etc.), quality assurance, inspection test, engineering insurance, risk capital, management, overhead and profit, taxes and duties as well as the terms stated in the contract, all expenses as prescribed by the government and policy documents, the various expenses derived from guaranteeing the construction period, quality, civilization construction and acceptance, moreover, all costs and expenses which may be set forth and/or implied all risk and responsibility in Contract agreement, bidding documents and IFC drawings.",,,,,,,,,,,,,,,,,,,
+1.1,,,"""Materials""includes the cost of all equipment and materials should be supplied by Subcontractor for the delivery and erection of equipment and materials that become a permanent part of WORK,and and all transportation, assessments and permit fees related to such equipment and materials.",,,,,,,,,,,,,,,,,,,
+1.2,,,"""Construction"" includes all labor required to complete WORK,all consumables required for temporary construction ,all consumables supplied by Subconstractor but not included in the Materials,all construction supplies and expendables,all construction tools and equipment,all field labor and supervision,and all transportation, assessments and permit fees related to such construction items.",,,,,,,,,,,,,,,,,,,
+1.3,,,"""Indirect Cost"" includes all costs which do not become a final part of the Project, but which are required for the orderly completion of the construction work and may include, but are not limited to, field administration, temporary facilities, subcontractor's fees, insurance, taxes, overhead and profit etc.",,,,,,,,,,,,,,,,,,,
+2,,,Above items of work are not exhaustive. And any work which is not mentioned above but needed for  completeness of the PLANT is deemed to have been included in above itemized activities.,,,,,,,,,,,,,,,,,,,
+3,,,"It should be filled strictly in accordance with the ""Bill of Quantities and Unit Price"", not allowed to add or delete the items, or change the order.",,,,,,,,,,,,,,,,,,,

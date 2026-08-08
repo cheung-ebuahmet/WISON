@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>[PRINT] ADNOC Gas PFD — Stacked Process &amp; Contract Lifecycle Matrix</title>
+  <style>
+    :root {
+      --cp1: #1D4ED8; --cp1-bg: rgba(37,99,235,0.06);
+      --cp2: #DC2626; --cp2-bg: rgba(220,38,38,0.06);
+      --cp3: #6D28D9; --cp3-bg: rgba(124,58,237,0.06);
+      --mei1: #047857; --mei1-bg: rgba(5,150,105,0.06);
+      --mei2: #B45309; --mei2-bg: rgba(217,119,6,0.06);
+      --pipe-gold: #B45309; --pipe-gold-glow: rgba(180,83,9,0.18);
+      --bg-root: #F4F6F8; --bg-card: #FFFFFF; --border: #D1D5DB;
+      --text: #111827; --text-dim: #374151; --text-sub: #6B7280;
+      --accent: #0369A1; --danger: #B91C1C; --warn: #C2410C;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      margin: 0; padding: 20px; background-color: #F4F6F8;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      color: var(--text); overflow-x: hidden;
+    }
+
+    /* ── Header ──────────────────────────────────── */
+    .corp-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 16px; padding: 12px 24px; margin-bottom: 20px;
+      background: linear-gradient(180deg, #0F2B45 0%, #155E75 40%, #FFFFFF 100%);
+      border-bottom: 1px solid var(--border); flex-wrap: wrap;
+    }
+    .corp-brand { display: flex; align-items: center; gap: 14px; }
+    .logo-mark {
+      width: 36px; height: 36px; border-radius: 5px;
+      background: linear-gradient(135deg, #0C4A6E, #155E75, #0D9488);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; font-size: 0.95rem; color: #fff; flex-shrink: 0;
+      box-shadow: 0 0 16px rgba(14,165,233,0.20);
+    }
+    .corp-title .ct { font-size: 0.92rem; font-weight: 800; letter-spacing: .14em; color: #FFFFFF; text-transform: uppercase; }
+    .corp-title .cs { font-size: 0.64rem; font-weight: 600; letter-spacing: .06em; color: #0369A1; }
+
+    .badge-row { display: flex; gap: 6px; flex-wrap: wrap; }
+    .pkg-chip {
+      font-size: 0.6rem; font-weight: 700; padding: 4px 10px; border-radius: 4px;
+      letter-spacing: .04em; text-transform: uppercase; color: #fff; white-space: nowrap;
+    }
+    .pkg-chip.cp1 { background: var(--cp1); }  .pkg-chip.cp2 { background: var(--cp2); }
+    .pkg-chip.cp3 { background: var(--cp3); }  .pkg-chip.mei1 { background: var(--mei1); }
+    .pkg-chip.mei2 { background: var(--mei2); }
+
+    /* ── Vertical Stack Layout ───────────────────── */
+    .master-stack {
+      display: flex; flex-direction: column; gap: 24px;
+      max-width: 1500px; margin: 0 auto;
+    }
+
+    .canvas-deck {
+      background: #FFFFFF; border: 1px solid #D1D5DB;
+      border-radius: 8px; padding: 15px; position: relative; overflow-x: auto;
+    }
+    .canvas-deck svg { width: 100%; height: auto; display: block; min-width: 1100px; }
+
+    .dashboard-deck {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;
+    }
+    @media(max-width: 1100px) { .dashboard-deck { grid-template-columns: 1fr 1fr; } }
+    @media(max-width: 750px) { .dashboard-deck { grid-template-columns: 1fr; } }
+
+    .sec-hd {
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.05em;
+      text-transform: uppercase; color: var(--accent);
+      border-left: 3px solid var(--accent); padding-left: 8px; margin-bottom: 10px;
+    }
+
+    .metric-card {
+      background: #FFFFFF; border: 1px solid #D1D5DB;
+      border-radius: 6px; padding: 14px; font-size: 0.75rem;
+    }
+    .metric-title { font-weight: 700; color: var(--text); margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between; }
+    .metric-body { color: var(--text-dim); line-height: 1.65; }
+
+    .src-badge {
+      display: inline-block; font-size: 0.58rem; font-weight: 700;
+      padding: 2px 6px; border-radius: 3px; margin-top: 8px; font-family: monospace;
+    }
+    .src-badge.contract { background: rgba(217,119,6,0.12); color: var(--mei2); border: 1px solid rgba(217,119,6,0.25); }
+    .src-badge.drawing { background: rgba(37,99,235,0.12); color: var(--accent); border: 1px solid rgba(37,99,235,0.25); }
+    .src-badge.civil { background: rgba(37,99,235,0.12); color: var(--accent); border: 1px solid rgba(37,99,235,0.25); }
+    .src-badge.gate { background: rgba(239,68,68,0.12); color: var(--danger); border: 1px solid rgba(239,68,68,0.25); }
+
+    .val-chip {
+      font-family: monospace; font-size: 0.82rem; font-weight: 800;
+    }
+
+    footer {
+      margin-top: 20px; text-align: center; font-size: 0.6rem; color: #6B7280;
+      border-top: 1px solid var(--border); padding-top: 12px; line-height: 1.6;
+    }
+  
+@media print {
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { font-size: 10px; background: #FFFFFF !important; color: #111827 !important; }
+    .corp-bar { display: none; }
+    .master-stack { gap: 12px; }
+    .canvas-deck { break-inside: avoid; page-break-inside: avoid; border: 1px solid #D1D5DB; }
+    .dashboard-deck { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .metric-card { break-inside: avoid; page-break-inside: avoid; background: #FFFFFF !important; }
+    svg { max-width: 100%; height: auto; }
+    footer { font-size: 8px; }
+}
+</style>
+</head>
+<body>
+
+  <header class="corp-bar">
+    <div class="corp-brand">
+      <div class="logo-mark">AG</div>
+      <div class="corp-title">
+        <div class="ct">ADNOC Gas — Sulfur Pipeline PFD</div>
+        <div class="cs">RSHT-2 (RSGP) · Stacked Process &amp; Contract Lifecycle Matrix</div>
+      </div>
+    </div>
+    <div class="badge-row">
+      <span class="pkg-chip cp1">CP1 TCC</span>
+      <span class="pkg-chip cp2">CP2 CCECC</span>
+      <span class="pkg-chip cp3">CP3 TCC</span>
+      <span class="pkg-chip mei1">MEI-I CCECC</span>
+      <span class="pkg-chip mei2">MEI-II TCC</span>
+    </div>
+  </header>
+
+  <div class="master-stack">
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- TIER 1: WIDESCREEN 2.5D ISOMETRIC PFD CANVAS -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div class="canvas-deck">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 660">
+        <defs>
+          <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+            <path d="M 60 0 L 0 17.32 L 60 34.64 M 0 0 L 60 17.32 L 0 34.64" fill="none" stroke="#9CA3AF" stroke-width="0.5"/>
+          </pattern>
+
+          <linearGradient id="tkSide" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#E5E9EF"/><stop offset="30%" stop-color="#9CA3AF"/>
+            <stop offset="70%" stop-color="#E5E9EF"/><stop offset="100%" stop-color="#F4F6F8"/>
+          </linearGradient>
+          <linearGradient id="tkTop" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#9CA3AF"/><stop offset="100%" stop-color="#E5E9EF"/>
+          </linearGradient>
+          <linearGradient id="drumBody" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#9CA3AF"/><stop offset="50%" stop-color="#9CA3AF"/><stop offset="100%" stop-color="#E5E9EF"/>
+          </linearGradient>
+          <linearGradient id="convBody" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#9CA3AF"/><stop offset="100%" stop-color="#E5E9EF"/>
+          </linearGradient>
+          <linearGradient id="shedRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#9CA3AF"/><stop offset="100%" stop-color="#E5E9EF"/>
+          </linearGradient>
+
+          <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="amberGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="steamGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+
+          <!-- Jacket pipe cross-section specific -->
+          <linearGradient id="sulfurFlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#B45309"/><stop offset="50%" stop-color="#FBBF24"/>
+            <stop offset="100%" stop-color="#B45309"/>
+          </linearGradient>
+
+          <pattern id="cp1H" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="12" height="12" fill="none"/><line x1="6" y1="0" x2="6" y2="12" stroke="#2563EB" stroke-width="0.6" opacity="0.35"/>
+          </pattern>
+          <pattern id="cp2H" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+            <rect width="12" height="12" fill="none"/><line x1="6" y1="0" x2="6" y2="12" stroke="#DC2626" stroke-width="0.6" opacity="0.35"/>
+          </pattern>
+          <pattern id="cp3H" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect width="10" height="10" fill="none"/><circle cx="5" cy="5" r="1" fill="#7C3AED" opacity="0.3"/>
+          </pattern>
+        </defs>
+
+        <rect width="1240" height="660" fill="#F4F6F8"/>
+        <rect width="1240" height="660" fill="url(#isoGrid)" opacity="0.25"/>
+
+        <!-- Title strip -->
+        <rect x="0" y="0" width="1240" height="22" fill="#FFFFFF" opacity="0.9"/>
+        <text x="620" y="15" font-size="9" font-weight="700" fill="#374151" text-anchor="middle" letter-spacing="2">
+          ADNOC GAS RSHT-2 (RSGP) — SULFUR PIPELINE — INTEGRATED CIVIL &amp; MEI PFD — 5-STAGE 2.5D ISOMETRIC
+        </text>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STAGE 1: UPSTREAM INTAKE (UNIT 10) -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="stage1-intake" transform="translate(30, 225)">
+          <rect x="-5" y="5" width="170" height="155" rx="6" fill="url(#cp3H)" stroke="#7C3AED" stroke-width="0.8" stroke-dasharray="4,3"/>
+          <text x="80" y="18" font-size="7.5" font-weight="700" fill="#6D28D9" text-anchor="middle">CP3 — Blast-Resistant (TCC)</text>
+
+          <path d="M -5,80 L 35,60 L 72,80" fill="none" stroke="#38BDF8" stroke-width="4.5" stroke-dasharray="4,2"/>
+          <path d="M -5,80 L 35,60 L 72,80" fill="none" stroke="#F59E0B" stroke-width="1.5" filter="url(#goldGlow)"/>
+          <rect x="32" y="52" width="80" height="48" rx="5" fill="#182032" stroke="#9A3412" stroke-width="1.5"/>
+          <text x="72" y="70" font-size="10" font-weight="700" fill="#B45309" text-anchor="middle">STAGE 1</text>
+          <text x="72" y="84" font-size="8" font-weight="600" fill="#1D4ED8" text-anchor="middle">UNIT 10 INTAKE</text>
+          <text x="72" y="96" font-size="7" fill="#6B7280" text-anchor="middle">~140°C ADNOC Feed</text>
+
+          <rect x="42" y="108" width="60" height="16" rx="3" fill="#FFFFFF" stroke="#7c3aed" stroke-width="1"/>
+          <text x="72" y="119" font-size="7" font-weight="700" fill="#6D28D9" text-anchor="middle">MCR / LCR</text>
+
+          <rect x="18" y="132" width="110" height="14" rx="3" fill="#7C2D12" opacity="0.85"/>
+          <text x="73" y="142" font-size="7" font-weight="700" fill="#B45309" text-anchor="middle">Clause (d) Brownfield</text>
+        </g>
+
+        <path d="M 175,320 L 240,348" fill="none" stroke="#F59E0B" stroke-width="2.5" filter="url(#goldGlow)"/>
+        <polygon points="240,348 230,344 234,351" fill="#B45309"/>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STAGE 2: 3× LIQUID SULFUR STORAGE (UNIT 20) -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="stage2-tanks" transform="translate(215, 225)">
+          <rect x="-8" y="-35" width="265" height="255" rx="6" fill="url(#cp2H)" stroke="#DC2626" stroke-width="0.8" stroke-dasharray="4,3"/>
+          <text x="124.5" y="-20" font-size="7.5" font-weight="700" fill="#B91C1C" text-anchor="middle">CP2 — Ring-Beam Foundations (CCECC)</text>
+
+          <g transform="translate(30, -8)">
+            <rect x="0" y="40" width="72" height="88" fill="#E5E9EF" stroke="#D1D5DB" stroke-width="0.5"/>
+            <ellipse cx="36" cy="40" rx="36" ry="14" fill="url(#tkTop)" stroke="#9CA3AF" stroke-width="0.75"/>
+            <ellipse cx="36" cy="128" rx="36" ry="14" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="0.7"/>
+            <text x="36" y="85" font-size="8.5" font-weight="700" fill="#6B82A8" text-anchor="middle">TK-01</text>
+          </g>
+          <g transform="translate(145, -30)">
+            <rect x="0" y="40" width="72" height="88" fill="#E5E9EF" stroke="#D1D5DB" stroke-width="0.5"/>
+            <ellipse cx="36" cy="40" rx="36" ry="14" fill="url(#tkTop)" stroke="#9CA3AF" stroke-width="0.75"/>
+            <ellipse cx="36" cy="128" rx="36" ry="14" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="0.7"/>
+            <text x="36" y="85" font-size="8.5" font-weight="700" fill="#6B82A8" text-anchor="middle">TK-02</text>
+          </g>
+          <g transform="translate(80, 42)">
+            <rect x="0" y="40" width="88" height="108" fill="#E5E9EF" stroke="#D1D5DB" stroke-width="0.5"/>
+            <ellipse cx="44" cy="40" rx="44" ry="16" fill="url(#tkTop)" stroke="#9CA3AF" stroke-width="0.75"/>
+            <ellipse cx="44" cy="148" rx="44" ry="16" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1"/>
+            <text x="44" y="92" font-size="11" font-weight="800" fill="#111827" text-anchor="middle">STAGE 2</text>
+            <text x="44" y="108" font-size="8.5" font-weight="700" fill="#B45309" text-anchor="middle">UNIT 20 TANKS</text>
+          </g>
+
+          <path d="M 175,5 L 215,-28 L 255,-28" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+          <circle cx="255" cy="-28" r="2.5" fill="#38BDF8"/>
+          <text x="261" y="-25" font-size="7.5" font-family="monospace" fill="#4B5563">Radar + Temp TX [31 CSV]</text>
+
+          <rect x="110" y="180" width="55" height="14" rx="3" fill="#DC2626" opacity="0.85"/>
+          <text x="137.5" y="190" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">CP2</text>
+        </g>
+
+        <path d="M 455,390 L 515,418 L 575,395" fill="none" stroke="#F59E0B" stroke-width="2.5" filter="url(#goldGlow)"/>
+        <polygon points="560,400 551,395 557,402" fill="#B45309"/>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STEAM-JACKETED TRANSFER CORRIDOR -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="jacket-piping">
+          <path d="M 455,410 L 515,448 L 585,415" fill="none" stroke="#38BDF8" stroke-width="6.5" opacity="0.3"/>
+          <path d="M 455,410 L 515,448 L 585,415" fill="none" stroke="#F59E0B" stroke-width="2.5" filter="url(#goldGlow)"/>
+
+          <!-- Anchor ring + leader to cross-section -->
+          <circle cx="530" cy="440" r="6" fill="none" stroke="#38BDF8" stroke-width="1.2" filter="url(#steamGlow)"/>
+          <line x1="530" y1="446" x2="530" y2="510" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3,2"/>
+          <rect x="462" y="458" width="180" height="20" rx="4" fill="#F0F9FF" stroke="#0369A1" stroke-width="0.8"/>
+          <text x="552" y="472" font-size="8" font-weight="700" fill="#38BDF8" text-anchor="middle">
+            STEAM-JACKETED TRANSFER (~140°C)
+          </text>
+        </g>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STAGE 3: ROTARY DRUM GRANULATION (UNIT 30) -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="stage3-granulation" transform="translate(585, 222)">
+          <rect x="-10" y="-10" width="215" height="215" rx="6" fill="url(#cp2H)" stroke="#DC2626" stroke-width="0.8" stroke-dasharray="4,3"/>
+          <text x="97.5" y="4" font-size="7.5" font-weight="700" fill="#B91C1C" text-anchor="middle">CP2 — 28,158 M&sup3; Slab (CCECC)</text>
+
+          <g transform="rotate(-10, 100, 100)">
+            <rect x="35" y="75" width="148" height="62" rx="6" fill="#E5E9EF" stroke="#9CA3AF" stroke-width="1"/>
+            <ellipse cx="35" cy="106" rx="14" ry="30" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1"/>
+            <ellipse cx="183" cy="106" rx="14" ry="30" fill="#F0F0F0" stroke="#9CA3AF" stroke-width="1"/>
+          </g>
+          <text x="105" y="56" font-size="11" font-weight="800" fill="#B45309" text-anchor="middle">STAGE 3</text>
+          <text x="105" y="70" font-size="8.5" font-weight="700" fill="#B45309" text-anchor="middle">GRANULATION</text>
+          <text x="41" y="79" font-size="7" fill="#6B7280" text-anchor="middle">Water-Cooled Steel Belts</text>
+
+          <path d="M 178,105 L 210,78" fill="none" stroke="#facc15" stroke-width="3" filter="url(#amberGlow)"/>
+          <circle cx="216" cy="74" r="2.5" fill="#B45309"/><circle cx="222" cy="70" r="2" fill="#B45309"/>
+
+          <text x="105" y="144" font-size="9" font-weight="800" fill="#B45309" text-anchor="middle">UNIT 30 — PELLETS</text>
+
+          <rect x="18" y="162" width="155" height="14" rx="3" fill="#059669" opacity="0.85"/>
+          <text x="95.5" y="172" font-size="7.5" fill="#fff" font-weight="700" text-anchor="middle">MEI-I: Rigging + Drives (CCECC)</text>
+
+          <rect x="15" y="188" width="70" height="14" rx="3" fill="#DC2626" opacity="0.85"/>
+          <text x="50" y="198" font-size="7" fill="#fff" font-weight="700" text-anchor="middle">CP2</text>
+          <rect x="92" y="188" width="85" height="14" rx="3" fill="#059669" opacity="0.85"/>
+          <text x="134.5" y="198" font-size="7" fill="#fff" font-weight="700" text-anchor="middle">MEI-I</text>
+        </g>
+
+        <path d="M 725,305 L 785,335 L 840,310" fill="none" stroke="#facc15" stroke-width="2.5" filter="url(#amberGlow)"/>
+        <polygon points="825,315 817,308 824,315" fill="#B45309"/>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STAGE 4: SOLID LOGISTICS (UNIT 40) -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="stage4-logistics" transform="translate(780, 405)">
+          <rect x="-5" y="-10" width="290" height="85" rx="6" fill="url(#cp1H)" stroke="#2563EB" stroke-width="0.8" stroke-dasharray="4,3"/>
+          <text x="140" y="3" font-size="7.5" font-weight="700" fill="#1D4ED8" text-anchor="middle">CP1 — 42,271 M&sup3; Solid Logistics (TCC)</text>
+
+          <rect x="10" y="20" width="155" height="24" rx="4" fill="#E5E9EF" stroke="#9CA3AF" stroke-width="0.8"/>
+          <text x="87.5" y="35" font-size="8" font-weight="700" fill="#111827" text-anchor="middle">ENCLOSED BELT CONVEYOR</text>
+          <line x1="40" y1="44" x2="40" y2="54" stroke="#9CA3AF" stroke-width="2"/>
+          <line x1="90" y1="44" x2="90" y2="54" stroke="#9CA3AF" stroke-width="2"/>
+          <line x1="140" y1="44" x2="140" y2="54" stroke="#9CA3AF" stroke-width="2"/>
+
+          <rect x="175" y="14" width="24" height="42" rx="3" fill="#FFFFFF" stroke="#2563eb" stroke-width="1"/>
+          <text x="187" y="38" font-size="6" font-weight="700" fill="#1D4ED8" text-anchor="middle" transform="rotate(90,187,38)">ELEV</text>
+
+          <polygon points="210,58 238,16 260,16 288,58" fill="#E5E9EF" stroke="#9CA3AF" stroke-width="1"/>
+          <text x="249" y="40" font-size="7.5" font-weight="700" fill="#111827" text-anchor="middle">3× SHEDS</text>
+
+          <rect x="105" y="66" width="80" height="12" rx="3" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="0.5"/>
+          <text x="145" y="75" font-size="7" fill="#4B5563" text-anchor="middle">CP1 + MEI-I + MEI-II</text>
+        </g>
+
+        <path d="M 1030,450 L 1070,440" fill="none" stroke="#facc15" stroke-width="2.5" filter="url(#amberGlow)"/>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- STAGE 5: MARITIME DISPATCH (BROWNFIELD) -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="stage5-dispatch" transform="translate(1065, 415)">
+          <rect x="-5" y="-12" width="135" height="85" rx="6" fill="none" stroke="#FBBF24" stroke-width="1.5" stroke-dasharray="6,3"/>
+          <text x="62.5" y="2" font-size="7.5" font-weight="700" fill="#B45309" text-anchor="middle">BROWNFIELD</text>
+
+          <rect x="15" y="12" width="60" height="32" rx="4" fill="#FFFFFF" stroke="#FBBF24" stroke-width="1"/>
+          <text x="45" y="26" font-size="7.5" font-weight="700" fill="#B45309" text-anchor="middle">LOADER</text>
+          <text x="45" y="38" font-size="6.5" fill="#92400E" text-anchor="middle">Terminal</text>
+
+          <path d="M 82,32 Q 92,16 108,16 L 113,32 Z" fill="none" stroke="#64748b" stroke-width="1.2"/>
+          <text x="97.5" y="48" font-size="7" fill="#6B7280" text-anchor="middle">VESSEL</text>
+
+          <text x="62.5" y="62" font-size="10" font-weight="800" fill="#B45309" text-anchor="middle">STAGE 5</text>
+        </g>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- DCS / POWER HUB -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="dcs-hub" transform="translate(30, 120)">
+          <rect x="0" y="0" width="115" height="50" rx="5" fill="#F0F9FF" stroke="#0369A1" stroke-width="1.5" stroke-dasharray="4,2"/>
+          <text x="57.5" y="18" font-size="8.5" font-weight="700" fill="#38BDF8" text-anchor="middle">DCS / POWER HUB</text>
+          <text x="57.5" y="32" font-size="6.5" fill="#4B5563" text-anchor="middle">Unit 10 Core · Swgr/MCC</text>
+          <text x="57.5" y="43" font-size="6.5" fill="#6B7280" text-anchor="middle">MEI-II (TCC): 31 CSV</text>
+
+          <path d="M 57,50 L 57,88" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.6"/>
+          <path d="M 115,25 L 200,138" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.4"/>
+          <path d="M 115,32 L 570,150" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.4"/>
+          <path d="M 115,38 L 765,300" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.4"/>
+          <path d="M 115,44 L 1050,340" fill="none" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="3,2" opacity="0.3"/>
+        </g>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- LEGEND -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="legend" transform="translate(1080, 42)">
+          <rect x="0" y="0" width="145" height="170" rx="5" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="0.8"/>
+          <text x="72.5" y="16" font-size="8" font-weight="700" fill="#6B82A8" text-anchor="middle">LEGEND</text>
+
+          <rect x="8" y="26" width="8" height="8" rx="1" fill="#B45309"/><text x="22" y="34" font-size="6.5" fill="#374151">Liquid S Flow</text>
+          <rect x="8" y="42" width="8" height="8" rx="1" fill="#B45309"/><text x="22" y="50" font-size="6.5" fill="#374151">Solid S Flow</text>
+          <rect x="8" y="58" width="8" height="8" rx="1" fill="#38BDF8"/><text x="22" y="66" font-size="6.5" fill="#374151">Steam Jacket</text>
+          <rect x="8" y="74" width="8" height="8" rx="1" fill="#2563EB" opacity="0.5"/><text x="22" y="82" font-size="6.5" fill="#374151">CP1 Blue — TCC</text>
+          <rect x="8" y="90" width="8" height="8" rx="1" fill="#DC2626" opacity="0.5"/><text x="22" y="98" font-size="6.5" fill="#374151">CP2 Red — CCECC</text>
+          <rect x="8" y="106" width="8" height="8" rx="1" fill="#7C3AED" opacity="0.5"/><text x="22" y="114" font-size="6.5" fill="#374151">CP3 Purple — TCC</text>
+          <rect x="8" y="122" width="8" height="8" rx="1" fill="#059669" opacity="0.6"/><text x="22" y="130" font-size="6.5" fill="#374151">MEI-I Green · CCECC</text>
+          <rect x="8" y="138" width="8" height="8" rx="1" fill="#D97706" opacity="0.6"/><text x="22" y="146" font-size="6.5" fill="#374151">MEI-II Amber · TCC</text>
+          <rect x="8" y="154" width="8" height="8" rx="1" fill="none" stroke="#FBBF24" stroke-width="1"/>
+          <text x="22" y="162" font-size="6.5" fill="#374151">Brownfield (PTW)</text>
+        </g>
+
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <!-- COLLISION NOTES -->
+        <!-- ═══════════════════════════════════════════════════════ -->
+        <g id="critical-notes">
+          <text x="420" y="209" font-size="7" fill="#B91C1C" opacity="0.8" font-weight="700">
+            ● CRITICAL PATH: Tank cure → Granulator rigging (CP2 + MEI-I)
+          </text>
+          <text x="600" y="200" font-size="7" fill="#B91C1C" opacity="0.8" font-weight="700">
+            ● TRIPLE CLASH: CP2 + MEI-I + MEI-II @ Unit 30/50
+          </text>
+        </g>
+
+      
+          <!-- ═══════════════════════════════════════════════════════ -->
+          <!-- JACKET PIPE CROSS-SECTION DETAIL -->
+          <!-- ═══════════════════════════════════════════════════════ -->
+          <g id="jacket-xsection" transform="translate(300, 518)">
+            <rect x="0" y="0" width="640" height="130" rx="6" fill="#F9FAFB" stroke="#D1D5DB" stroke-width="1.2"/>
+            <rect x="0" y="0" width="640" height="18" rx="4" fill="#16283A"/>
+            <text x="12" y="12" font-size="7.5" font-weight="800" fill="#38BDF8">DETAIL: CO-AXIAL STEAM-JACKETED PIPE CROSS-SECTION</text>
+
+            <!-- Co-axial pipe isometric -->
+            <!-- THE CHROME 3D VOLUMETRIC GRADIENT ENGINE: BALANCED SHORTENED CYLINDER MATRIX -->
+<g transform="translate(150, 25)">
+  <defs>
+    <!-- Heavy 3D Metallic Shader for the Outer Jacket Cylinder Body -->
+    <linearGradient id="jacketCylinderGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="25%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="75%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- 3D Shader for the Internal Core Molten Pipe Body -->
+    <linearGradient id="corePipeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="40%" stop-color="#9a3412"/>
+      <stop offset="70%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </linearGradient>
+
+    <!-- Industrial Drop Shadow Filter to Pop Elements Off the Grid -->
+    <filter id="industrialShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="4" dy="6" stdDeviation="3" flood-color="#020617" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- === LAYER 1: SHORTENED 3D TUBE (Spatially Shifted to Center: x=100) === -->
+  <!-- Shortened Outer Jacket Tube Body (Length reduced to 190px for maximum side spacing) -->
+  <rect x="100" y="25" width="190" height="70" fill="url(#jacketCylinderGrad)" stroke="#27374D" stroke-width="0.7" filter="url(#industrialShadow)"/>
+  
+  <!-- The Distant Right End-Cap -->
+  <ellipse cx="290" cy="60" rx="14" ry="35" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="0.8"/>
+  <ellipse cx="290" cy="60" rx="7" ry="16" fill="#0f172a" stroke="#9CA3AF" stroke-width="0.5"/>
+
+  <!-- === LAYER 2: THE STEPPED PROCESS CUTPLANE SHELF === -->
+  <!-- Cutplane Shelf Window: Positioned neatly in the shortened center frame -->
+  <path d="M 150,25 L 240,25 L 240,95 L 150,95 Z" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+  <line x1="150" y1="40" x2="240" y2="40" stroke="#0284C7" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.4"/>
+  <line x1="150" y1="80" x2="240" y2="80" stroke="#0284C7" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- === LAYER 3: THE 3D INNER PRODUCT PIPE CARRIER === -->
+  <rect x="150" y="48" width="90" height="24" fill="url(#corePipeGrad)" stroke="#9a3412" stroke-width="0.5"/>
+  <rect x="150" y="53" width="90" height="14" fill="url(#sulfurFlow)" filter="url(#goldGlow)" opacity="0.95"/>
+
+  <!-- === LAYER 4: THE FOREGROUND HEAD-ON CROSS-SECTION (x=100) === -->
+  <ellipse cx="100" cy="60" rx="18" ry="35" fill="url(#tkTop)" stroke="#38BDF8" stroke-width="1.2" filter="url(#steamGlow)"/>
+  <ellipse cx="100" cy="60" rx="14" ry="28" fill="none" stroke="#0284C7" stroke-width="1" stroke-dasharray="2,2"/>
+  <ellipse cx="100" cy="60" rx="8" ry="16" fill="#F5F5F5" stroke="#64748B" stroke-width="1.2"/>
+  <ellipse cx="100" cy="60" rx="6" ry="12" fill="url(#sulfurFlow)" filter="url(#goldGlow)"/>
+
+  <!-- === LAYER 5: LEFT-SIDE LAYER CALLOUTS ①-④ (text → pointed at section) === -->
+  <g font-size="8.5" fill="#7B93B8">
+    <line x1="33" y1="22" x2="92" y2="29" stroke="#38BDF8" stroke-width="0.7"/>
+    <text x="-79" y="22" font-weight="600" fill="#38BDF8" text-anchor="start">① Outer Shell: CS Jacket</text>
+
+    <line x1="33" y1="44" x2="89" y2="49" stroke="#0284C7" stroke-width="0.7"/>
+    <text x="-79" y="44" font-weight="600" fill="#0284C7" text-anchor="start">② HP Steam Annulus</text>
+
+    <line x1="33" y1="66" x2="92" y2="59" stroke="#94A3B8" stroke-width="0.7"/>
+    <text x="-79" y="66" font-weight="600" fill="#94A3B8" text-anchor="start">③ Inner Product Pipe (316L)</text>
+
+    <line x1="33" y1="88" x2="99" y2="65" stroke="#FBBF24" stroke-width="0.7"/>
+    <text x="-79" y="88" font-weight="700" fill="#B45309" text-anchor="start">④ Molten Sulfur Core</text>
+  </g>
+
+  <!-- === LAYER 6: RIGHT-SIDE COLUMN ANNOTATIONS (MECHANICAL SPECS) === -->
+  <g transform="translate(315, 20)" font-size="7.5" font-weight="700" font-family="'Segoe UI', sans-serif" text-anchor="start">
+    <text x="5" y="15" fill="#94A3B8">▶ CARBON STEEL INSULATION SHIELD</text>
+    <text x="5" y="32" fill="#A8C0DB">▶ ANTI-CRYSTALLIZATION DESIGN</text>
+    <text x="2" y="49" fill="#556885">▶ CRITICAL PROCESS INTERFACE CORRIDOR</text>
+    
+    <!-- Validation Tag Anchor -->
+    <rect x="5" y="62" width="135" height="15" rx="3" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="0.5"/>
+    <text x="12" y="72" font-size="6.5" font-weight="800" fill="#1D4ED8">WISON SPECIFICATION VALIDATED</text>
+  </g>
+
+  <!-- Graphic Cross-Section Connection Arrows -->
+  <path d="M 100,20 L 100,5 M 290,20 L 290,5" stroke="#D1D5DB" stroke-width="0.6" opacity="0.4"/>
+</g>
+
+          </g>
+
+
+          <!-- ═══════════════════════════════════════════════════════ -->
+          <!-- EQUIPMENT PACKAGE TAGS (V1) -->
+          <!-- ═══════════════════════════════════════════════════════ -->
+          <g id="equipment-tags" font-family="'Segoe UI', sans-serif">
+
+            <!-- MEI-I Equipment Packages — Stage 3 area -->
+            <rect x="575" y="32" width="235" height="16" rx="3" fill="#059669" opacity="0.18"/>
+            <text x="692" y="43" font-size="6.5" font-weight="700" fill="#047857" text-anchor="middle">
+              &#x2699; EQPT PKG (MEI-I): Sulphur Remelter · Granulator · Stacker · Conveyor · Dust
+            </text>
+
+            <!-- MEI-II Equipment Packages — near DCS hub -->
+            <rect x="575" y="50" width="235" height="16" rx="3" fill="#D97706" opacity="0.18"/>
+            <text x="692" y="61" font-size="6.5" font-weight="700" fill="#B45309" text-anchor="middle">
+              &#x26A1; EQPT PKG (MEI-II): HV PP5 · DCS Cabinets · Transformers · Switchgear
+            </text>
+
+            <!-- Steel Structural — Stage 2 tanks area -->
+            <rect x="203" y="420" width="120" height="12" rx="2" fill="#6B7280" opacity="0.25"/>
+            <text x="263" y="429" font-size="5.8" font-weight="600" fill="#889BB5" text-anchor="middle">
+              Steel Structural Items
+            </text>
+
+            <!-- Piping & UG Piping — between Stage 2-3 -->
+            <rect x="360" y="400" width="100" height="12" rx="2" fill="#6B7280" opacity="0.25"/>
+            <text x="410" y="409" font-size="5.8" font-weight="600" fill="#889BB5" text-anchor="middle">
+              Piping &amp; UG Piping
+            </text>
+
+            <!-- E&I + Telecom + HVAC — Stage 3-4 area -->
+            <rect x="570" y="86" width="245" height="12" rx="2" fill="#6B7280" opacity="0.25"/>
+            <text x="692" y="95" font-size="5.8" font-weight="600" fill="#889BB5" text-anchor="middle">
+              E&amp;I + Telecom + HVAC Items (780 CSV rows)
+            </text>
+
+            <!-- Electrical Items — near Stage 4 -->
+            <rect x="750" y="395" width="120" height="12" rx="2" fill="#6B7280" opacity="0.25"/>
+            <text x="810" y="404" font-size="5.8" font-weight="600" fill="#889BB5" text-anchor="middle">
+              Electrical Items (234)
+            </text>
+
+            <!-- Fire Fighting & Piping — Stage 5 area -->
+            <rect x="1055" y="400" width="155" height="12" rx="2" fill="#6B7280" opacity="0.25"/>
+            <text x="1132" y="409" font-size="5.8" font-weight="600" fill="#889BB5" text-anchor="middle">
+              Fire Fighting &amp; Piping Items
+            </text>
+
+          </g>
+
+</svg>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <!-- TIER 2: CONTRACT LIFECYCLE DASHBOARD (3-COLUMN) -->
+    <!-- ═══════════════════════════════════════════════════════════ -->
+    <div class="dashboard-deck">
+
+      <!-- Column 1: Process Scope Matrix -->
+      <div>
+        <div class="sec-hd">5-Stage Process Scope</div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--cp3);">Stage 1 · Intake &amp; Power Hub</div>
+          <div class="metric-body">Unit 10 · ADNOC Upstream Feed · ~140°C Molten Entry · MCR/LCR Blast Enclosures
+            <br><span class="src-badge gate">CP3 (TCC) + MEI-II (TCC)</span>
+            <br><span class="src-badge contract">Clause (d) Brownfield PTW</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--cp2);">Stage 2 · Molten Storage</div>
+          <div class="metric-body">Unit 20 · 3× Liquid Sulfur Storage Tanks · Zone 210 · Steam-Jacketed Piping Loops
+            <br><span class="src-badge gate">CP2 (CCECC) + MEI-II (TCC)</span>
+            <br><span class="src-badge drawing">Radar Gauges &amp; Multi-Point Temp TX — 31 CSV</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:#facc15;">Stage 3 · Granulation</div>
+          <div class="metric-body">Unit 30 · Rotary Drum Granulators · Water-Cooled Steel Belts · 28,158 M&sup3; Slab
+            <br><span class="src-badge gate">CP2 (CCECC) + MEI-I (CCECC)</span>
+            <br><span class="src-badge contract">CRITICAL PATH: Slab Cure → Rigging Gate</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--cp1);">Stage 4 · Solid Logistics</div>
+          <div class="metric-body">Unit 40 · Enclosed Belt Conveyors · Bucket Elevators · 3× Space-Frame Sheds · 42,271 M&sup3;
+            <br><span class="src-badge gate">CP1 (TCC) + MEI-I (CCECC) + MEI-II (TCC)</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--warn);">Stage 5 · Maritime Dispatch</div>
+          <div class="metric-body">Ruwais Marine Terminal · Bulk Vessel Loading · Global + Borouge 3/4
+            <br><span class="src-badge gate">BROWNFIELD — Full PTW</span>
+            <br><span class="src-badge contract">Clause (d): PTW Latency = Subcontractor Risk</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Column 2: Contract Commercial Matrix -->
+      <div>
+        <div class="sec-hd">Subcontract Commercial Matrix</div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--cp1);">Civil Sub A · TCC
+            <span class="val-chip" style="color:var(--cp1);">AED 205.0M</span></div>
+          <div class="metric-body">Pkg I: Solid Logistics (162.1M) + Pkg III: MCR/Substation (42.9M) · excl. VAT
+            <br><span class="src-badge civil">BOQ A-Summary (Pkg I + Pkg III)</span>
+            <br><span class="src-badge drawing">（BOQ）42,271 + 8,092 M&sup3;</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--cp2);">Civil Sub B · CCECC
+            <span class="val-chip" style="color:var(--cp2);">AED 149.8M</span></div>
+          <div class="metric-body">Pkg II: Storage + Granulation + UG Piping · excl. VAT
+            <br><span class="src-badge civil">BOQ A-Summary (Pkg II)</span>
+            <br><span class="src-badge drawing">（BOQ）28,158 M&sup3;</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--mei1);">MEI Sub C · CCECC
+            <span class="val-chip" style="color:var(--mei1);">AED 160.9M</span></div>
+          <div class="metric-body">Pkg I-1: Mechanical/Structural/Piping + Pkg I-3: E&amp;I/Telecom/HVAC · excl. VAT
+            <br><span class="src-badge contract">Subcontract Agreement Art.5</span>
+            <br><span class="src-badge drawing">6 Equipment Packages · 46 BOQ Sheets</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:var(--mei2);">MEI Sub D · TCC
+            <span class="val-chip" style="color:var(--mei2);">AED 155.5M</span></div>
+          <div class="metric-body">Pkg II: HV PP5 · DCS/SCADA · Transformers · Switchgear · Telecom · HVAC · excl. VAT
+            <br><span class="src-badge drawing">4 Equipment Packages · 31 BOQ Sheets</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Column 3: Risk & Legal Shield Matrix -->
+      <div>
+        <div class="sec-hd">Risk &amp; Legal Shields</div>
+
+        <div class="metric-card">
+          <div class="metric-title" style="color:#f87171;">Critical Interface Risks</div>
+          <div class="metric-body">
+            <strong style="color:#EF4444;">R2</strong> Stage 3 Slab Cure → Granulator Rigging (CP2 + MEI-I)<br>
+            <strong style="color:#EF4444;">R4</strong> Unit 10 Blast Shell → HV Transformer (CP3 + MEI-II)<br>
+            <strong style="color:#EF4444;">R5</strong> Brownfield Tie-in PTW Latency (CP2 + MEI-II)<br>
+            <strong style="color:#EF4444;">R6</strong> MEI-I ↔ MEI-II Spatial Clash @ Unit 30/50<br>
+            <strong style="color:#EF4444;">R7</strong> QRC/IRN Gate — No QRC = No Payment
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title">Contractual Safeguards</div>
+          <div class="metric-body">
+            <strong>Clause (c)</strong> — MEI Interface Overlap &amp; Coordination<br>
+            &nbsp;&nbsp;分包商无权额外索赔或工期延长<br>
+            <span class="src-badge contract">出处：主合同第12条、第15条</span><br><br>
+            <strong>Clause (d)</strong> — Brownfield PTW Liability Exemption<br>
+            &nbsp;&nbsp;PTW延误、气体超标停工 = 分包商自担<br>
+            <span class="src-badge contract">出处：主合同附件C</span><br><br>
+            <strong>Jacket Piping Route</strong><br>
+            &nbsp;&nbsp;蒸汽夹套管廊协调<br>
+            <span class="src-badge contract">Ref.: JPFW Subcon Agrmt</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-title">Data Lineage</div>
+          <div class="metric-body">
+            <strong>price-database</strong> · 7 dirs · 116 CSV<br>
+            CCECC MEI Pkg I / TCC MEI Pkg II · excl. VAT<br>
+            <strong>Pipeline Guide</strong> · 3 HTML outputs<br>
+            V6 source attributions · Page 7 · Art.12,15 · Exh.C<br>
+            <span class="src-badge drawing">boq_extracted_data.json · 2,111 items</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    ADNOC Gas RSHT-2 (RSGP) · Wison Engineering · Sulfur Processing Pipeline · Stacked PFD ·
+    数据来源：price-database CSV（CCECC MEI Pkg I / TCC MEI Pkg II），不含税 ·
+    Ref.: Clause (c) Art.12,15 · Clause (d) 附件C · 混凝土量 BOQ A-Summary Page 7
+  </footer>
+
+</body>
+</html>

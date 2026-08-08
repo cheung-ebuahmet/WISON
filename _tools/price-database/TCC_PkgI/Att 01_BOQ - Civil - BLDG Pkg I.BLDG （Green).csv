@@ -1,0 +1,425 @@
+﻿# Source: Att 01_BOQ - Civil - BLDG Pkg I.xlsx
+# Sheet: BLDG （Green)
+"# Rows: 211, Cols: 27"
+# Internal revision: Rev.A
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,BLDG （Green),,,,,,,,,,,,,,,,,,,,,,,,
+PROJECT:EPC WORKS of the Sulfur Granulator Plant For ADNOC GAS RSHT-2(RSGP),,,,,,,,,,,,,,,,,,,,,,,,,CODE:24108-25100-,
+SUBCONTRACT:CIVIL AND BLDG WORKS PACKAGE I,,,,,,,,,,,,,,,,,,,,,,,,,REV.A DATE: 05/Sep/2025,
+Item,Category,Description,Unit,"Qty.
+",QUANTITIES BY WBS-BASE SCOPE,,,,,,,,"MANHOURS
+A",,"LABOR COST
+B",,"MATERIAL COST
+C",,"TOOLS& CONSUMABLE
+COST D",,"EQUIPMENT COST
+E",,"DIRECT COST TOTAL
+F",,Remarks,
+,,,,,"UNIT 10 
+Operator 
+Shelter",UNIT 10 Substation,"UNIT 10 
+Operation Building","UNIT 10 
+LCR",UNIT 20,UNIT 30,UNIT 40 General,"UNIT 40 
+SSB",U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,U/Rate,Amout,,
+,,,,Q,,,,,,,,,a,=Q*a,b,=Q*b,c,=Q*c,d,=Q*d,e,=Q*e,f=b+c+d+e,=Q*f,,
+NO.0,,Demolition and Modification,,,,,,,,,,,,,,,,,,,,,,,,
+0.1,Demolition and Modification,Reuse the original antistatic floors,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.2,Demolition and Modification,Reuse the original ceiling,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.3,Demolition and Modification,Repair original  wall (due to the modification work),m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.4,Demolition and Modification,Remove the existing  green field,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.5,Demolition and Modification,Remove the existing floor finish,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.6,Demolition and Modification,Remove the existing wall fininsh,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.7,Demolition and Modification,Remove the existing ceiling,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.8,Demolition and Modification,Remove the existing partition wall,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.9,Demolition and Modification,Remove the existing door of pantry,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.10,Demolition and Modification,Remove facilities in the existing locker room,set,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.11,Demolition and Modification,Remove facilities in the existing pantry,set,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.12,Demolition and Modification,Removal the existing exteiror concrete block and curtain wall,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.13,Demolition and Modification,Add opening(800X400mm) on the existing exteiror concrete block and curtain wall,set,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.14,Demolition and Modification,Add opening(1200X600mm) on the existing exteiror concrete block and curtain wall,set,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+0.15,Demolition and Modification,Repair of damaged curtain walls and support systems,m2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+,,......,,,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.1,,Floor,,,,,,,,,,,,,,,,,,,,,,,,
+1.1,Floor,ground floor: 0.25 thk. polythene sheet,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.2,Floor,100 thk. grade slab,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.3,Floor,150mm thk.grave filling,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.4,Floor,25 thk.non slip granite (1500x1000mm); 20mm cement mortar,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.5,Floor,250mm thk.pebble filling,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.6,Floor,600*600*10mm thk. Non slip vitrified floor tile; 20mm cement mortar,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.7,Floor,acid resistant ceramic tile(300x300mm) 20mm cement mortar,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.8,Floor,"Carpet Tiles with underlay, laid on terrazzo tiles floor,
+included cement screed sub-base, thk. 10 cm, joints and sealing.",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.9,Floor,Chemical resistant non-slip vitrified ceramic floor tiles with chemically resistant tile adhesives and joint grouting.,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.10,Floor,concrete steel trowel finshed with dust proof epoxy paint,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.11,Floor,dust proof epoxy paint; 20mm cement mortar,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.12,Floor,"50mm hardened concrete screed with galvanized wire mesh of 50X50X3.2mm size, covered with high build, solvent free, hard wearing, abrasion & chemical resistant, epoxy resin floor coating system",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.13,Floor,"High quality, heavy duty, antistatic PVC tiles on 5-12mm thick cement based, self-levelling, self-smoothing compound on sub-floor",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.14,Floor,"Marble tiles
+included cement screed sub-base, thk. 10cm, joints and sealing",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.15,Floor,Marble treads and risers including carborundum strips on treads / Terrazzo / moulded rubber treads on stairs and rubber tile on landings,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.16,Floor,non-slip ceramic floor tile(600*600mm);waterproof layer; 20mm cement mortar  ,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.17,Floor,non-slip glazed ceramic floor tile(600*600mm); 20mm cement mortar  ,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.18,Floor,non-slip porcelain stoneware floor tile(600*600mm); 20mm cement mortar  ,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.19,Floor,Non-slip Ceramic tile(600x600mm) ;waterproof layer; 20mm cement mortar,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.20,Floor,Raised access floor with (H=800mm) high pressure laminate,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.21,Floor,Raised access floor with (H=800mm) high pressure laminate,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+1.22,Floor,"Raised modular floor system with 800mm high floor panels finished with 2mm thick factory applied anti-static wearing surface at top and aluminium foil at bottom; concrete floor below to be finished with high build, solvent free, hard wearing, abrasion & chemical resistant, epoxy resin floor coating system",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.2,,Skirting,,,,,,,,,,,,,,,,,,,,,,,,
+2.1,Skirting,100mm high PVC tiles,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.2,Skirting,100mm(H) ceramic tile,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.3,Skirting,100mm(H) porcelain stoneware wall tile,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.4,Skirting,1000mm(H) porcelain marble and follow by high build glazed coating system on plastered surfaces,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.5,Skirting,100mm(H) dust proof epoxy paint,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.5,Skirting,100mm(H) granite,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.6,Skirting,100mm(H) high pressure laminate,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.7,Skirting,100mm(H) high pressure laminate,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.8,Skirting,100mm(H) Marble,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.9,Skirting,100mm(H) vitrified tile,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.10,Skirting,"300*900*6mm thk.Ceramic tile,3100mm(H),beded on a 12mm thk. cement plaster ",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.11,Skirting,"3100mm(H),300*450*6mm thk. ceramic tile",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.12,Skirting,"acid resistant tile,1500mm(H),beded on a 12mm thk. cement plaster ",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+2.13,Skirting,"Chemical  resistant glazed ceramic tile,1500mm(H),beded on a 12mm thk. cement plaster ",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.3,,Wall,,,,,,,,,,,,,,,,,,,,,,,,
+3.1,Wall,100 thk internal concrete block wall ,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.2,Wall,100mm thk. gypsum board system with 50mm thk. PIR insulation,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.3,Wall,150 thk Parapet  RCC wall,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.4,Wall,200 thk internal concrete block wall,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.5,Wall,200 thk internal concrete block wall(2.0h fire rated),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.6,Wall,2.0 hour fire rated glass partion wall with door,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.7,Wall,2.0 hour fire rated gypsum board system with rock wool core,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.8,Wall,200 thk. Concrete masonary unit(CMU block),M2,2440,,,,,,,,2440,3,7320,104.025,253821,106,258640,11.5833823529412,28263.4529411765,6.44117647058823,15716.4705882353,228.049558823529,556440.923529412,,
+3.9,Wall,200 thk. insulated block wall,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.10,Wall,200 thk. insulated block wall/Fire wall,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+3.11,Wall,350mm thk.cavity wall(200mm concrete block+50mm insulation layer+100mm concrete block),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.4,,Painting,,,,,,,,,,,,,,,,,,,,,,,,
+4.1,Painting,"Ext Wall : 
+1. 20mm thk. cement plaster (12 thk. average base coat in cm 1:5 and 8mm thk. finish coat in cm 1:3) 
+2. High-build epoxy textured,weather-resistant coating system on plastered surfaces.",M2,1800,,,,,,,,1800,2.5,4500,86.6875,156037.5,35.72,64296,14.5731617647059,26231.6911764706,1.61029411764706,2898.52941176471,138.590955882353,249463.720588235,,
+4.3,Painting,"Ext Wall : 
+1. 20mm thk. cement plaster (12 thk. average base coat in cm 1:5 and 8mm thk. finish coat in cm 1:3) 
+2. one coat of primer and two coat of acrylic emulsion exterior paint",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+4.4,Painting,"Ext Wall:
+High-build epoxy textured, weather-resistant coating system",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+4.5,Painting,"Int Wall : 
+1. 12mm thk. cement plaster  in cm 1:3
+2. Acrylic copolymer base washable emulsion paint system on plastered surfaces.",M2,1800,,,,,,,,1800,2,3600,69.35,124830,34.901,62821.8,10.6923529411765,19246.2352941177,1.61029411764706,2898.52941176471,116.553647058824,209796.564705882,,
+4.6,Painting,"Int Wall : 
+1. 12mm thk. cement plaster  in cm 1:3
+2. Chemical resistant epoxy paint system on plastered surfaces.",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+4.7,Painting,"Int Wall : 
+1. 12mm thk. cement plaster  in cm 1:3
+2. Plastic acrylic copolymer base washable emulsion paint system on plastered surfaces.",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.5,,Ceiling,,,,,,,,,,,,,,,,,,,,,,,,
+5.1,Ceiling,"70mm thick foil backed XPS insulation board over 1 coat of cold applied bituminous layer,",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.2,Ceiling,600mmx600mm acoustic lay-in ceiling tile(H=3000mm from FFL),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.3,Ceiling,600mmx600mm acoustic lay-in water/moisture resistant ceiling tile(H=3000mm from FFL),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.4,Ceiling,Above ground concrete coating system for concrete surfaces,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.5,Ceiling,"Acoustic Suspended ceiling of aluminium panels 0.7 mm thick, pre-finished, powder coated, including 50mm thick rock wool insulation and acoustic pads above ",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.6,Ceiling,Acrylic copolymer base washable emulsion paint system on  fair faced smooth finished concrete or plastered surfaces,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.7,Ceiling,Chemical Resistant Epoxy paint system on fair faced smooth finished concrete or plastered surfaces,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.8,Ceiling,"Decorative Suspended ceiling of aluminium panels 0.7 mm thick, pre-finished, powder coated, including 50mm thick rock wool insulation and acoustic pads above",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.9,Ceiling,concrete protective coating system for concrete surface above ceiling,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+5.10,Ceiling,Painted on exposed concrete(one coat of primer and two coats of plastic emulsion interior paint,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.6,,Roof,,,,,,,,,,,,,,,,,,,,,,,,
+6.1,Roof,"(1) Top surface coated with approved coating system(sri≥78）
+(2) 70mm thk. mesh reinforced concrete panel a142 wire mesh 
+(3) geotextile separation layer(density 140g/㎡)
+(4) 75 thick polysterene insulation board
+(5) geotextile separation layer(density 140g/㎡)
+(6)1 layer of 4mm thick water proofing membrane reinforced with a core of non-woven polyester fabric weighing 180g/m³ minimum,torch applied for entire area 
+(7)light aggregate concrete screed to 
+1%slope, minimum 50mm thick",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+6.2,Roof,CONCRETE PAVER BLOCK(HVAC UNITS ACCESS WALKWAY),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+6.3,Roof,prepainted profiled metal sheet,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+6.4,Roof,single skin aluminium sheeting (0.9mm thk.),M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+6.5,Roof,"terrace water proofing:
+(1) primer
+(2) 4 mm thk. membrane
+(3) 75 mm thk. rigid polystyrene thermal insulation board
+(4) geotextile membrane
+(5) 35mm thk. gravel of 20mm size",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+6.6,Roof,"terrace water proofing:
+(1) screed to slope with wwf mesh
+(2) 3 mm bituminous sheet
+(3) 75 mm thk. rigid polystyrene thermal insulation
+(4) vapour barrier
+(5) 35mm thk. gravel of 12mm to 15mm average size",M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.7,,Door,,,,,,,,,,,,,,,,,,,,,,,,
+7.1,"Door
+Supply by Wison","SD1: 1050mm (W)  x 2200mm (H)
+Steel single leaf door 
+Fire rated 1.0H
+with 1H fire rated vision panel, panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.2,"Door
+Supply by Wison","SD2:1050mm (W)  x 2200mm (H)
+Steel single leaf door 
+Fire rated 2.0H
+with  2H fire rated vision panel, panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.3,"Door
+Supply by Wison","SD3:1500mm (W)  x 2200mm (H)
+ Steel double leafs door 
+Fire rated 2.0H
+with panic bar and masterkey",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.4,"Door
+Supply by Wison","SD4:2100mm (W)  x 3000mm (H)
+ Steel double leafs door 
+Fire rated 2.0H
+with 2H fire rated vision panel, panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.5,"Door
+Supply by Wison","SD5:3000mm (W)  x 3300mm (H)
+ Steel double leafs door 
+Fire rated 2.0H
+with panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.6,"Door
+Supply by Wison","SD6:  1050mm (W)  x 2200mm (H)
+Steel single leaf door 
+with vision panel, panic bar and master key",SET,16,,,,,,,,16,6.93,110.88,240.29775,3844.764,0,0,79.8264661764706,1277.22345882353,0,0,320.124216176471,5121.98745882353,,
+7.7,"Door
+Supply by Wison","SD7:  2000mm (W)  x 2200mm (H)
+Steel double leaf door 
+Fire rated 1.0H
+with 1H fire rated vision panel, panic bar and master key
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.8,"Door
+Supply by Wison","SD8:   1800mm (W)  x 2500mm (H)
+Steel double leaf door 
+Fire rated 1H
+with 1H fire rated vision panel,  panic bar and master key
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.9,"Door
+Supply by Wison","SD9:   2100mm (W)  x 2700mm (H)
+Steel double leaf door 
+Fire rated 1H
+with 1H fire rated vision panel,  panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.10,"Door
+Supply by Wison","SD10:   4000mm (W)  x 4000mm (H)
+ Steel double leafs door 
+heavy duty and anti-corrision painting",SET,2,,,,,,,,2,38.4,76.8,1331.52,2663.04,0,0,519.622588235294,1039.24517647059,0,0,1851.14258823529,3702.28517647059,,
+7.11,"Door
+Supply by Wison","SD11:  1800mm (W)  x 2500mm (H)
+Steel double leaf door 
+Fire rated 1H
+with 1H fire rated vison panel",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.12,"Door
+Supply by Wison","SD12:  1500mm (W)  x 2200mm (H)
+Steel double leaf door 
+Fire rated 1H
+with 1H fire rated vison panel",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.13,"Door
+Supply by Wison","SD13:  1050mm (W)  x 2200mm (H)
+Steel single leaf door 
+Fire rated 1H
+with 1H fire rated vison panel and panic bar",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.14,"Door
+Supply by Wison","SD14:  2000mm (W)  x 2500mm (H)
+Steel double leaf door 
+Fire rated 1H
+with  1H fire rated vision panle, panic bar and master key
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.15,"Door
+Supply by Wison","SD15:  1500mm (W)  x 2500mm (H)
+Steel double leaf door 
+Fire rated 1H
+with  1H fire rated vision panle, panic bar and master key
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.16,"Door
+Supply by Wison","BD1:   1100mm (W)  x 2300mm (H)
+Steel single leaf door 
+Blast resistan door
+Fire rated 2H
+with blast resistant glazing peepholes,  panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.17,"Door
+Supply by Wison","BD2:   1100mm (W)  x 2300mm (H)
+Steel single leaf door 
+Blast resistan door
+Fire rated 1H
+with blast resistant glazing peepholes and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.18,"Door
+Supply by Wison","BD3:   1800mm (W)  x 2500mm (H)
+Steel double leaf door 
+Blast resistan door
+Fire rated 2H
+with blast resistant glazing peepholes,  panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.19,"Door
+Supply by Wison","BD4:   2100mm (W)  x 2700mm (H)
+Steel double leaf door 
+Blast resistan door
+Fire rated 2H
+with blast resistant glazing peepholes,  panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.20,"Door
+Supply by Wison","BD5:   3000mm (W)  x 3000mm (H)
+Steel double leaf door 
+Blast resistan door
+Fire rated 2H
+with blast resistant glazing peepholes,  panic bar and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.21,"Door
+Supply by Wison","WD1:   1050mm (W)  x 2200mm (H)
+wood single leaf door 
+Fire rated 1H
+with 1H fire rated vision panel",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.22,"Door
+Supply by Wison","WD2:   1050mm (W)  x 2200mm (H)
+wood single leaf door 
+Fire rated 1H
+with louvers
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.23,"Door
+Supply by Wison","WD3:   1050mm (W)  x 2200mm (H)
+wood single leaf door 
+Fire rated 1H
+with 1H fire rated vision panel and master key",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.24,"Door
+Supply by Wison","WD4:   1050mm (W)  x 2200mm (H)
+Wooden single leaf door 
+Fire rated 0.5H
+with louvers",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.25,"Door
+Supply by Wison","WD5:   1050mm (W)  x 2200mm (H)
+Wooden single leaf door 
+Fire rated 0.5H
+with  0.5H fire rated vision panle",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.26,"Door
+Supply by Wison","WD6:   1500mm (W)  x 2200mm (H)
+Wooden double leaf door 
+Fire rated 0.5H",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.27,"Door
+Supply by Wison","RD1:  3600mm (W)  x4800mm (H)
+Electric roller shutter door, motor requires dust explosion-proof",SET,4,,,,,,,,4,36.288,145.152,1258.2864,5033.1456,0,0,339.160404705882,1356.64161882353,250.432941176471,1001.73176470588,1847.87974588235,7391.51898352941,,
+7.28,"Door
+Supply by Wison","RD2:  10000mm (W)  x4800mm (H)
+Electric roller shutter door, motor requires dust explosion-proof",SET,2,,,,,,,,2,72,144,2496.6,4993.2,0,0,533.071764705882,1066.14352941176,695.647058823529,1391.29411764706,3725.31882352941,7450.63764705882,,
+7.29,"Door
+Supply by Wison","D5:   1200mm (W)  x 2500mm (H)
+Steel single leaf  door 
+4 ss butt hinges 100 long
+synthetic enamel paint(access control)  
+hardwares for single door
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.30,"Door
+Supply by Wison","D6:   1000mm (W)  x 2100mm (H)
+Wooden single leaf door 
+laminated wooden flush door with vision panel maintaining privacy angle
+hardwares for single door",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.31,"Door
+Supply by Wison","D6:   2500mm (W)  x 3500mm (H)
+Steel double leafs door 
+2*5 ss butt hinges 100 long
+synthetic enamel paint(DMC)  
+hardwares for double door",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+7.32,"Door
+Supply by Wison","D7:   1200mm (W)  x 2100mm (H)
+Steel single leaf door 
+polyurethane paint
+hardwares for single door",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.8,,Windows,,,,,,,,,,,,,,,,,,,,,,,,
+8.1,"Windows
+Supply by Wison","W1:   1500mm (W)  x 1200mm (H)
+Aluminum glazed windows
+aluminum powder coated 0.018mm thk of approved shade with 6.4mm thk laminated glass",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+8.2,"Windows
+Supply by Wison","W2:   600mm (W)  x 1200mm (H)
+Aluminum glazed windows
+aluminum powder coated 0.018mm thk of approved shade with 6.4mm thk laminated glass",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+8.3,"Windows
+Supply by Wison","V1:   600mm (W)  x 800mm (H)
+Aluminum ventilator
+aluminum powder coated 0.018mm thk of approved shade with 6.4mm thk laminate non transprent glass",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+8.4,"Windows
+Supply by Wison","AW1:   1500mm (W)  x 1500mm (H)
+Aluminum glazed windows
+Glazing shall be coated. Low-E Glass tinted and double glazed with a K-Value (watts/m2.C) of 2.00 or less
+all window are to have aluminium mini-blind shades or similar shading device",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+8.5,"Windows
+Supply by Wison","LW1:   1800mm (W)  x 2700mm (H)
+ Louver （prelacquered galvanized steel louver‬）
+diamond mesh 3.55mm diameter (galvanized steel）",SET,176,,,,,,,,176,10.206,1796.256,353.89305,62285.1768,0,0,105.823569705882,18624.9482682352,0,0,459.716619705882,80910.1250682352,,
+8.6,"Windows
+Supply by Wison","BW1:   1000mm (W)  x 1000mm (H)
+Blast resistant windows
+Fire rated 2H
+Double-glazing units, both panes shall be laminated-type glass
+",SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+NO.9,,Miscellaneous,,,,,,,,,,,,,,,,,,,,,,,,
+9.1,Miscellaneous,50*50*3.15 G.I.removeble chain link fence fixed in RSA 60*60*6 G.I.steel angle frames(2500mm height) with door,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.2,Miscellaneous,50*50*3.15 G.I.removeble chain link fence fixed in RSA 60*60*6 G.I.steel angle frames(2650mm height),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.3,Miscellaneous,50*50*3.15 G.I.removeble chain link fence fixed in RSA 60*60*6 G.I.steel angle frames(2700mm height),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.4,Miscellaneous,aluminium louvered fence with door(2500mm height),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.5,Miscellaneous,bird mesh,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.6,Miscellaneous,chain link fence with door(2200mm height),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.7,Miscellaneous,Toilet with flush tap,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.8,Miscellaneous,coat hook,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.9,Miscellaneous,door latch,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.10,Miscellaneous,Downspout Ø 100mm PVC pipe,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.11,Miscellaneous,Downspout Ø 160mm PVC pipe ,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.12,Miscellaneous,Splash blcok,M,71,,,,,,,,71,1.5,106.5,52.0125,3692.8875,106,7526,7.34830882352941,521.729926470588,51.5294117647059,3658.58823529412,216.890220588235,15399.2056617647,,
+9.13,Miscellaneous,Entrance step:25mm thk. non slip granit,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.14,Miscellaneous,Exterior staircase:reinforced concrete with dust proof epoxy paint (H=5450mm),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.15,Miscellaneous,Exterior staircase:reinforced concrete with dust proof epoxy paint (H=8950mm),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.16,Miscellaneous,Exterior staircase:reinforced concrete with dust proof epoxy paint (H=9750mm),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.17,Miscellaneous,Exterior steps:reinforced concrete with dust proof epoxy paint ,M2,38,,,,,,,,38,2.5,95,86.6875,3294.125,219.55,8342.9,14.3047794117647,543.581617647059,8.85661764705882,336.551470588235,329.398897058824,12517.1580882353,,
+9.18,Miscellaneous,galvanized steel access ladder(4800mm height),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.19,Miscellaneous,grating cover for sump （1300mm(width)X1300mm(length)）,EA,28,,,,,,,,28,3.718,104.104,128.92165,3609.8062,743.6,20820.8,24.8663120588235,696.256737647058,27.9396764705882,782.31094117647,925.327638529412,25909.1738788235,,
+9.20,Miscellaneous,grating cover for trench（380mm(Width)）,M,1060,,,,,,,,1060,0.56,593.6,19.418,20583.08,140,148400,4.64709411764706,4925.91976470588,1.80352941176471,1911.74117647059,165.868623529412,175820.740941176,,
+9.21,Miscellaneous,Embed angled steel on both sides of ditch to provide structural support for the grating cover,T,11.3844,,,,,,,,11.3844,120,1366.128,4161,47370.4884,10000,113844,544.923529411765,6203.6274282353,257.647058823529,2933.15717647058,14963.5705882353,170351.273004706,,
+9.22,Miscellaneous,gutter(3mm thick pre-coated galvanized sheet according to ASTM 123/A123M and A143/143M),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.23,Miscellaneous,hand sink,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.24,Miscellaneous,"handrails(1100mm height, galvanized steel with warning color coating)",M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.25,Miscellaneous,"handrails(1100mm height, Stainless steel)",M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.26,Miscellaneous,Kitchen cabinets (600x1800X750),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.27,Miscellaneous,Kitchen cabinets with the sink(600X3300),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.28,Miscellaneous,Countertop (600x4000X1000),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.29,Miscellaneous,ladder(10250mm height),SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.30,Miscellaneous,Ladder with cage,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.31,Miscellaneous,Ladder with cage,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.32,Miscellaneous,Ladder with cage,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.33,Miscellaneous,Mirror :  Without Frame 1000mm x1000mm,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.34,Miscellaneous,Mirror :  Without Frame 2650mm x1000mm,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.35,Miscellaneous,Mirror :  Without Frame 2850mm x1000mm,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.36,Miscellaneous,paper towel dispensers,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.37,Miscellaneous,passage with dust proof epoxy paint,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.38,Miscellaneous,Solid polymer resin panel  with door for toliet partition ,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.39,Miscellaneous,rain water pipe with gutter,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.40,Miscellaneous,Ramp (concrete),M2,223,,,,,,,,223,4.5,1003.5,156.0375,34796.3625,238.5,53185.5,22.3133088235294,4975.86786764706,14.7610294117647,3291.70955882353,431.611838235294,96249.4399264706,,
+9.41,Miscellaneous,shelf for personal items,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.42,Miscellaneous,sleeve in parapet for downspout outlet,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.43,Miscellaneous,soap dispensers,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.44,Miscellaneous,squatting toilet,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.45,Miscellaneous,sunshad,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.46,Miscellaneous,Sunshad:100 thk. Wide reinforced concrete,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.47,Miscellaneous,toilet tissue dispenser,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.48,Miscellaneous,Marble coutertop for hand sink,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.49,Miscellaneous,urinal,EA,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.50,Miscellaneous,Walkway concrete,M2,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.51,Miscellaneous,Alumininum flashing for roofing expansion joint,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.52,Miscellaneous,SS flashing for exterior wall expasion joint,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.53,Miscellaneous,SS flashing for interior wall and ceiling expansion joint,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.54,Miscellaneous,Alumininum strip for floor expansion joint,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.55,Miscellaneous,Jiont sealant,M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.56,Miscellaneous,Joint filler(depth is 800),M,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.57,Miscellaneous,Gap sealing for penetrations with fire resistant and weather resistant material,SET,1,,,,,,,,1,240,240,8322,8322,4000,4000,1368.96470588235,1368.96470588235,1610.29411764706,1610.29411764706,15301.2588235294,15301.2588235294,,
+9.58,Miscellaneous,"Signs (including exterior and interior signs, detail refer to AGES-SP-01-015 section 10 )",SET,1,,,,,,,,1,100,100,3467.5,3467.5,12000,12000,1312.92647058824,1312.92647058824,1288.23529411765,1288.23529411765,18068.6617647059,18068.6617647059,,
+9.59,Miscellaneous,waste receptacle,SET,0,,,,,,,,,,0,,0,,0,,0,,0,,0,,
+9.60,Miscellaneous," Chasing and reinstatement in block/concrete wall for installation of electrical cables / conduits/pipes, including cutting of slot, temporary removal of finishes, backfilling, rendering, reapplication of finishes, and surface cleaning, to finished level",LM,400,,,,,,,,400,1,400,34.675,13870,30.8,12320,7.22485294117647,2889.94117647059,13.4191176470588,5367.64705882352,86.1189705882353,34447.5882352941,,
+9.61,"Hot and cold water
+supply and building
+service water supply
+piping systems","3"" Polypropylene (Class PP-R PN 20)",M,20,,,,,,,,20,2.41145440844009,48.2290881688018,83.6171816126601,1672.3436322532,204.984,4099.68,14.8028946318542,296.057892637084,4.93823529411765,98.764705882353,308.342311538632,6166.84623077264,,
+9.62,Sanitary drain piping,"4"" UPVC conforming to BS EN1401",M,20,,,,,,,,20,2.98919869379553,59.7839738759106,103.65046470736,2073.0092941472,135.745647058823,2714.91294117646,18.2018111766184,364.036223532368,6.54852941176471,130.970588235294,264.146452354566,5282.92904709132,,
+9.61,"Hot and cold water
+supply and building
+service water supply
+piping systems","2"" Polypropylene (Class PP-R PN 20)",M,15,,,,,,,,15,1.70811353931173,25.621703089676,59.2288369756342,888.432554634513,95.484,1432.26,10.3243542857987,154.86531428698,3.11323529411765,46.6985294117648,168.150426555551,2522.25639833326,,
+9.62,Sanitary drain piping,"2"" UPVC conforming to BS EN1401",M,15,,,,,,,,15,1.70811353931173,25.621703089676,59.2288369756342,888.432554634513,34.3014117647059,514.521176470588,10.3243542857987,154.86531428698,3.11323529411765,46.6985294117648,106.967838320256,1604.51757480385,,
+9.61,"Hot and cold water
+supply and building
+service water supply
+piping systems","1"" Polypropylene (Class PP-R PN 20)",M,15,,,,,,,,15,1.15548857071088,17.3323285606632,40.0665661893998,600.998492840997,23.6691764705882,355.037647058823,7.2272448542341,108.408672813512,1.93235294117647,28.9852941176471,72.8953404553986,1093.43010683098,,
+9.62,Sanitary drain piping,"1"" UPVC conforming to BS EN1401",M,15,,,,,,,,15,1.15548857071088,17.3323285606632,40.0665661893998,600.998492840997,14.4454117647059,216.681176470588,7.2272448542341,108.408672813512,1.93235294117647,28.9852941176471,63.6715757495163,955.073636242744,,
+9.61,"Hot and cold water
+supply and building
+service water supply
+piping systems","1/2"" Polypropylene (Class PP-R PN 20)",M,10,,,,,,,,10,1,10,34.675,346.75,15.0294117647059,150.294117647059,6.25867647058824,62.5867647058824,1.28823529411765,12.8823529411765,57.2513235294118,572.513235294118,,
+9.62,Sanitary drain piping,"1/2"" UPVC conforming to BS EN1401",M,10,,,,,,,,10,1,10,34.675,346.75,14.089,140.89,6.25867647058824,62.5867647058824,1.28823529411765,12.8823529411765,56.3109117647059,563.109117647059,,
+,,SUBTOTAL-BLDG WORKS(Green),,,,,,,,,,,,21915.8411253454,,759931.791021352,,775821.277058824,,121856.212778606,,45493.6579705882,,1703102.93882937,,

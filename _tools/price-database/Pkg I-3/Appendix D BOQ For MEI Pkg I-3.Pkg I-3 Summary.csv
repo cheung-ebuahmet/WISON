@@ -1,0 +1,61 @@
+﻿# Source: Appendix D BOQ For MEI Pkg I-3.xlsx
+# Sheet: Pkg I-3 Summary
+"# Rows: 47, Cols: 19"
+
+
+
+
+
+
+NO.,"EQUIPMENT/
+MATERIAL",Description,MATERIAL,Material Supplied By,UNIT,Qty.,Qty by WBS,,,,"MANHOURS
+A","LABOR COST
+B","MATERIAL COST
+C","TOOLS& CONSUMABLE
+COST D","EQUIPMENT COST
+E","DIRECT COST
+F",REMARK
+,,,,,,,UNIT 30,"UNIT 40 
+SSB","UNIT 40 
+General","Day 
+Vessel",Amout,Amout,Amout,Amout,Amout,Amout
+,,,,,,Q,,,,,=Q*a,=Q*b,=Q*c,=Q*d,=Q*e,=Q*f
+PK-0001,Sulphur Remelter Package,Refer to Pkg I-1-001,Refer to Pkg I-1-001,Contractor,Package,1,1
+PK-0002,Granulator Package,Refer to Pkg I-1-002,Refer to Pkg I-1-002,Contractor,Package,10,10
+PK-0003,Portal Stacker Reclaimer,Refer to Pkg I-3-003,Refer to Pkg I-3-003,Contractor,Package,2,,2
+PK-0004,DUST SUPPRESSION SYSTEM,Refer to Pkg I-1-004,Refer to Pkg I-1-004,Contractor,Package,1,,,1
+PK-0005,Belt Conveyor,Refer to Pkg I-3-005,Refer to Pkg I-3-005,Contractor,Package,1,,,1
+PK-0006,DUST COLLECTION SYSTEM,Refer to Pkg I-1-006,Refer to Pkg I-1-006,Contractor,Package,1,,,1
+,,Pkg I-3 Equipment (Green) TOTAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
