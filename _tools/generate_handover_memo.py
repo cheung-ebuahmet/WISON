@@ -273,7 +273,7 @@ bullet(doc, "Method 2: MarkItDown MCP (preferred for simple docs)")
 bullet(doc, "Method 3: Custom Python pipeline (pymupdf/fitz render → Tesseract OCR)")
 bullet(doc, "No poppler dependency — pymupdf (fitz) for rendering")
 bullet(doc, "Excel/CSV protocol: .xlsx/.xls → one CSV per sheet, same base name, metadata header")
-bullet(doc, "Tools location: D:\\Applications\\ocr-tools\\pdf-toolbox\\ (see README.md)")
+bullet(doc, "Tools location: D:\\Wison\\_tools\\ocr-tools\\pdf-toolbox\\ (see README.md)")
 
 sub_heading(doc, "3.4  PFD Visual Style (Stacked HTML)")
 body(doc, "Final PFD colour scheme: Twilight dark industrial, jacket section panels, 4 material layer leader lines, light print version rules. Ref: pfd-visual-style memory.")
@@ -324,7 +324,7 @@ paths_ref = [
     ["Payment App Template (Word)", r"D:\Wison\Project_Info\Wison Template\Non-Wison Template\Subcontractor_Application_for_Payment_Template.docx"],
     ["Payment App Generators", r"D:\Wison\_tools\generate_payment_application_xlsx.py  (and .py)"],
     ["BOQ Price Database", r"D:\Wison\_tools\price-database\  (135 CSVs, 7 sub-dirs)"],
-    ["OCR Tools", r"D:\Applications\ocr-tools\pdf-toolbox\README.md"],
+    ["OCR Tools", r"D:\Wison\_tools\ocr-tools\pdf-toolbox\README.md"],
     ["Contract Review Rules", r"C:\Users\Admin\.claude\projects\D--Documents-My-Projects\memory\contract-review-rules.md"],
     ["Amendment Conventions", r"C:\Users\Admin\.claude\projects\D--Documents-My-Projects\memory\amdt-drafting-conventions.md"],
     ["MEI Subcontractor Mapping", r"C:\Users\Admin\.claude\projects\D--Documents-My-Projects\memory\mei-subcontractor-mapping.md"],

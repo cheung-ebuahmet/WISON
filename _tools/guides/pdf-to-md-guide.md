@@ -3,9 +3,9 @@
 ## 📍 工具位置
 
 ```
-脚本：D:\Applications\ocr-tools\pdf_to_md.py          ← 统一入口（推荐）
-      D:\Applications\ocr-tools\pdf_to_md_native.py    ← 电子版 PDF
-      D:\Applications\ocr-tools\pdf_to_md_ocr.py       ← 扫描版 PDF
+脚本：D:\Wison\_tools\ocr-tools\pdf_to_md.py          ← 统一入口（推荐）
+      D:\Wison\_tools\ocr-tools\pdf_to_md_native.py    ← 电子版 PDF
+      D:\Wison\_tools\ocr-tools\pdf_to_md_ocr.py       ← 扫描版 PDF
 
 引擎：Python          D:\Program Files\Python310\python.exe
       模型缓存        D:\Documents\My Projects\PaddleOCR\models\
@@ -17,7 +17,7 @@
 ## 🎯 一步到位（推荐）
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "你的文件.pdf"
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md.py "你的文件.pdf"
 ```
 
 自动判断 PDF 类型：电子版→秒级文本提取 / 扫描版→PaddleOCR 识别。
@@ -31,31 +31,31 @@ D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "�
 ### 指定输出位置
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "D:\A\扫描件.pdf" -o "D:\B\结果.md"
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md.py "D:\A\扫描件.pdf" -o "D:\B\结果.md"
 ```
 
 ### 扫描版：更高精度（更慢）
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md_ocr.py "文件.pdf" --dpi 200
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md_ocr.py "文件.pdf" --dpi 200
 ```
 
 ### 扫描版：只处理指定页码范围
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md_ocr.py "文件.pdf" -p 3-15
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md_ocr.py "文件.pdf" -p 3-15
 ```
 
 ### 扫描版：仅英文文档（默认中英）
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md_ocr.py "英文.pdf" --lang en
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md_ocr.py "英文.pdf" --lang en
 ```
 
 ### 强制使用电子版模式
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "文件.pdf" --force-native
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md.py "文件.pdf" --force-native
 ```
 
 ---
@@ -66,7 +66,7 @@ D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "�
 # D:\A\ 下所有 PDF → D:\B\ 下同名 MD
 Get-ChildItem "D:\A\*.pdf" | ForEach-Object {
     $out = "D:\B\" + $_.BaseName + ".md"
-    D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py $_.FullName -o $out
+    D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md.py $_.FullName -o $out
 }
 ```
 
@@ -89,7 +89,7 @@ Claude 会自动调用对应脚本执行。你什么都不用记。
 在 Claude Code 中直接粘贴 PowerShell 命令即可：
 
 ```powershell
-D:\Program Files\Python310\python.exe D:\Applications\ocr-tools\pdf_to_md.py "D:\A\A0.pdf" -o "D:\B\A0.md"
+D:\Program Files\Python310\python.exe D:\Wison\_tools\ocr-tools\pdf_to_md.py "D:\A\A0.pdf" -o "D:\B\A0.md"
 ```
 
 ---

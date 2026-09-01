@@ -8,15 +8,15 @@
 
 | 工具 | 路径 | 用途 |
 |------|------|------|
-| OCR 脚本 | `D:\Applications\pdf_ocr.py` | 扫描 PDF → 文字 / 可搜索 PDF |
-| 使用手册 | `D:\Applications\pdf-toolbox\README.md` | 命令示例、语言包、代码模板 |
+| OCR 脚本 | `D:\Wison\_tools\ocr-tools\pdf_ocr.py` | 扫描 PDF → 文字 / 可搜索 PDF |
+| 使用手册 | `D:\Wison\_tools\ocr-tools\pdf-toolbox\README.md` | 命令示例、语言包、代码模板 |
 | PDF24 Creator | `D:\Program Files\PDF24\pdf24.exe` | GUI 页面合并/删除/旋转/压缩/OCR |
 
 ### OCR 常用命令
 
 ```powershell
 $py = "D:\Program Files\Python310\python.exe"
-$ocr = "D:\Applications\pdf_ocr.py"
+$ocr = "D:\Wison\_tools\ocr-tools\pdf_ocr.py"
 $tess = "D:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # 纯文本
