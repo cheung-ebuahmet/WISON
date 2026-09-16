@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>分包合同责任与成本 · 学习课程（CCECC MEI Pkg I）</title>
+<style>
+  :root{
+    --bg:#f6f4ef; --panel:#ffffff; --ink:#26282b; --muted:#6b7280;
+    --brand:#1a3a5c; --brand2:#24507a; --accent:#b3780a; --accentbg:#fbf3e0;
+    --line:#e3dfd6; --tablehead:#1a3a5c; --tablestripe:#f2f0ea;
+    --warn:#b3372a; --warnbg:#fbeee9; --ok:#1f7a4d; --okbg:#e9f5ee;
+    --codebg:#f0ece2; --notebg:#eef2f6;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Microsoft YaHei","PingFang SC","Segoe UI",system-ui,sans-serif;
+    line-height:1.75; font-size:16px;
+  }
+  .wrap{max-width:980px; margin:0 auto; padding:0 20px 80px;}
+
+  /* 顶部标题 */
+  header.hero{
+    background:linear-gradient(135deg,var(--brand) 0%,var(--brand2) 60%,#2e6595 100%);
+    color:#fff; padding:44px 24px 36px; margin-bottom:28px;
+  }
+  .hero .kicker{font-size:13px; letter-spacing:2px; opacity:.85; text-transform:uppercase}
+  .hero h1{font-size:28px; margin:10px 0 8px; line-height:1.35}
+  .hero .meta{font-size:14px; opacity:.9}
+  .hero .meta code{background:rgba(255,255,255,.16); padding:2px 7px; border-radius:4px; color:#fff}
+
+  /* 目录 */
+  nav.toc{
+    background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:20px 24px; margin-bottom:28px;
+  }
+  nav.toc h2{margin:0 0 12px; font-size:16px; color:var(--brand)}
+  nav.toc ol{margin:0; padding-left:20px; columns:2; column-gap:36px}
+  nav.toc li{margin:5px 0; break-inside:avoid}
+  nav.toc a{color:var(--brand2); text-decoration:none; border-bottom:1px dotted transparent}
+  nav.toc a:hover{color:var(--accent); border-bottom-color:var(--accent)}
+
+  /* 章节 */
+  section.lesson{
+    background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:28px 30px; margin-bottom:24px; position:relative;
+  }
+  section.lesson::before{
+    content:attr(data-num); position:absolute; top:-16px; left:24px;
+    background:var(--brand); color:#fff; font-weight:700; font-size:14px;
+    padding:4px 16px; border-radius:20px; letter-spacing:1px;
+  }
+  section.lesson h2{font-size:22px; margin:10px 0 6px; color:var(--brand); line-height:1.4}
+  section.lesson .sub{color:var(--muted); font-size:14px; margin-bottom:16px}
+  h3{font-size:18px; color:var(--brand2); margin:24px 0 10px; border-left:4px solid var(--accent); padding-left:10px}
+  p{margin:10px 0}
+  ul,ol{margin:8px 0; padding-left:24px}
+  li{margin:5px 0}
+
+  /* 一句话摘要 */
+  .gist{
+    background:var(--accentbg); border-left:4px solid var(--accent);
+    padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0; font-weight:600;
+  }
+  .gist::before{content:"一句话  "; color:var(--accent); font-size:13px; letter-spacing:1px}
+
+  /* 注意块 */
+  .note{
+    background:var(--notebg); border-left:4px solid var(--brand2);
+    padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0;
+  }
+  .note b{color:var(--brand)}
+  .warn{
+    background:var(--warnbg); border-left:4px solid var(--warn);
+    padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0;
+  }
+  .warn b{color:var(--warn)}
+
+  /* 引用条款 */
+  blockquote{
+    margin:12px 0; padding:12px 16px; background:var(--codebg);
+    border-left:3px solid #c8bfae; border-radius:0 6px 6px 0; color:#4a4a4a;
+  }
+  blockquote p{margin:6px 0}
+  blockquote .en{font-family:Georgia,"Times New Roman",serif; color:#5a5a5a}
+  blockquote .zh{color:var(--ink); font-size:15px}
+
+  code{background:var(--codebg); padding:1px 6px; border-radius:4px; font-family:Consolas,"Courier New",monospace; font-size:14px}
+  .term{color:var(--accent); font-weight:600}
+
+  /* 表格 */
+  table{border-collapse:collapse; width:100%; margin:14px 0; font-size:14.5px; background:#fff}
+  th{background:var(--tablehead); color:#fff; padding:9px 11px; text-align:left; font-weight:600; white-space:nowrap}
+  td{padding:8px 11px; border-bottom:1px solid var(--line); vertical-align:top}
+  tr:nth-child(even) td{background:var(--tablestripe)}
+  td.num,th.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .empty{color:var(--warn); font-weight:700; background:var(--warnbg)!important}
+  table caption{caption-side:top; text-align:left; font-weight:700; color:var(--brand); padding:6px 0; font-size:15px}
+
+  /* 瑕疵标签 */
+  .tag{display:inline-block; font-size:12px; padding:2px 9px; border-radius:12px; font-weight:700; letter-spacing:.5px}
+  .tag.conf{background:var(--warn); color:#fff}
+  .tag.chk{background:#8a6d1a; color:#fff}
+  .tag.ok{background:var(--ok); color:#fff}
+
+  .footer{margin-top:36px; color:var(--muted); font-size:13px; text-align:center}
+  a.top{float:right; font-size:13px; color:var(--brand2); text-decoration:none}
+  a.top:hover{color:var(--accent)}
+
+  @media print{
+    body{background:#fff}
+    .wrap{max-width:none}
+    nav.toc{display:none}
+    section.lesson{break-inside:avoid; border:1px solid #ccc}
+    header.hero{background:#1a3a5c}
+  }
+  @media (max-width:640px){
+    nav.toc ol{columns:1}
+    body{font-size:15px}
+    section.lesson{padding:22px 18px}
+    th,td{padding:6px 7px; font-size:13px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="kicker">Wison · Subcontract Knowledge · 学习课程</div>
+  <h1>分包合同责任范围与成本拆解</h1>
+  <div class="meta">
+    项目：EPC Works of the Ruwais Sulfur Granulation Plant for ADNOC GAS <code>RSHT-2 (RSGP)</code><br>
+    分包合同：<code>CCECC - MEI Pkg I</code>（中土 CCECC + 五矿二十三冶联合体）<br>
+    文件依据：Exh A.1/A.2 工作范围与责任矩阵 · Exh D Appendix D BOQ · Exh D.0 计价指令 · Exh B 材料裕量表
+  </div>
+</header>
+
+<div class="wrap">
+
+<nav class="toc">
+  <h2>课程目录</h2>
+  <ol>
+    <li><a href="#l0">第 0 课 · 先建立"地图"：责任与钱各藏在哪</a></li>
+    <li><a href="#l1">第 1 课 · 责任范围（一）：一条"兜底条款"</a></li>
+    <li><a href="#l2">第 2 课 · 责任范围（二）：X / A 记号与谁买料</a></li>
+    <li><a href="#l3">第 3 课 · 成本（一）：BOQ 六个成本要素</a></li>
+    <li><a href="#l4">第 4 课 · 成本（二）：间接费 / 管理费 / 利润</a></li>
+    <li><a href="#l5">第 5 课 · 成本（三）：算量依据——材料裕量</a></li>
+    <li><a href="#l6">第 6 课 · 注意事项：执行期容易踩的坑</a></li>
+    <li><a href="#l7">第 7 课 · 瑕疵清单与下次招标风险</a></li>
+    <li><a href="#app">附录 · 关键文件速查 + 术语速记卡</a></li>
+  </ol>
+</nav>
+
+<!-- ============ 第0课 ============ -->
+<section class="lesson" id="l0" data-num="第 0 课">
+  <h2>先建立"地图"：责任与钱各藏在哪</h2>
+  <div class="sub">学分包责任范围和成本，先分清四份文件各管什么，否则会读串。</div>
+
+  <div class="gist">Scope of Work 说"做什么"，Responsibility Matrix 说"谁做、谁出钱买料"，BOQ 说"干完怎么算钱"。</div>
+
+  <table>
+    <caption>四份文件的分工</caption>
+    <tr><th>文件</th><th>管什么</th><th>对应你的问题</th></tr>
+    <tr><td><code>Exh A.1 Scope of Work</code></td><td>要干什么活（范围）</td><td>责任范围</td></tr>
+    <tr><td><code>Exh A.2 Responsibility Matrix</code></td><td><b>谁</b>干、谁买料、谁卸车</td><td>责任范围（核心）</td></tr>
+    <tr><td><code>Exh D Appendix D BOQ</code></td><td>多少钱、怎么计价</td><td>成本、算量依据</td></tr>
+    <tr><td><code>Exh D.0 Pricing Instructions</code></td><td>计价的总规则 / 兜底条款</td><td>成本 + 注意事项</td></tr>
+    <tr><td><code>Exh B 材料裕量表</code></td><td>材料损耗 / 裕量比例</td><td>算量依据</td></tr>
+  </table>
+
+  <div class="note"><b>记忆抓手：</b>一句话——<code>Scope of Work</code> 说"做什么"，<code>Responsibility Matrix</code> 说"谁做、谁出钱买料"，<code>BOQ</code> 说"干完怎么算钱"。</div>
+</section>
+
+<!-- ============ 第1课 ============ -->
+<section class="lesson" id="l1" data-num="第 1 课">
+  <h2>责任范围（一）：一条"兜底条款"先记住</h2>
+  <div class="sub">责任矩阵里每个专业都反复出现的两句兜底话，是整套合同的责任边界总开关。</div>
+
+  <div class="gist">清单只列"特殊分配"，没列的全甩给分包。</div>
+
+  <p>在责任矩阵里，每个专业（钢结构、管道、设备、电仪、暖通……）都反复出现两句<b>一模一样</b>的兜底话：</p>
+
+  <blockquote>
+    <p class="en">"Any or all necessary materials <b>not mentioned above</b> will be supplied by the <b>Subcontractor</b>."</p>
+    <p class="zh">（没写到的料，一律分包商自己买。）</p>
+  </blockquote>
+  <blockquote>
+    <p class="en">"Any or all necessary work <b>not mentioned above</b> will be done by the <b>Subcontractor</b>."</p>
+    <p class="zh">（没写到的活，一律分包商干。）</p>
+  </blockquote>
+
+  <p>配套还有一句<b>卸车责任</b>（几乎每个专业都有）：</p>
+  <blockquote>
+    <p class="en">"The Subcontractor will be responsible for <b>unloading</b> of the CONTRACTOR-supplied materials/elements delivered to the WORK SITE / SUBCONTRACTOR warehouses / laydown areas <b>inside the PROJECT SITE</b>."</p>
+    <p class="zh">（总包供的料送到现场 / 分包仓库 / 堆放区，<b>卸车是分包的</b>。）</p>
+  </blockquote>
+
+  <div class="note"><b>学习要点：</b>这类"清单 + 兜底"结构是国际分包合同的固定套路。看责任矩阵时，别只盯着"谁打 X"，要看"谁没打 X 但又被兜底条款覆盖"——那才是责任真正落在谁头上的地方。</div>
+</section>
+
+<!-- ============ 第2课 ============ -->
+<section class="lesson" id="l2" data-num="第 2 课">
+  <h2>责任范围（二）：X / A 记号与"谁买料"</h2>
+  <div class="sub">责任矩阵用两个记号标记三个主角之间的分配。</div>
+
+  <div class="gist">永久工程实体料 → 总包买；消耗/临时料 + 所有施工动作 → 分包买、分包干。</div>
+
+  <p>文件开头定义了两个记号：<span class="term">X = Perform（做）</span>，<span class="term">A = Assist（协助）</span>。三个主角：<code>OWNER</code>（业主 ADNOC Gas）、<code>CONTR</code>（总包 = Wison）、<code>SUBCO</code>（分包 = CCECC）。</p>
+
+  <h3>① 谁买"永久材料"——总包买为主</h3>
+  <table>
+    <tr><th>材料类别</th><th>谁买</th><th>示例</th></tr>
+    <tr><td>设备 / 罐 / 管材管件 / 阀门法兰</td><td class="num">CONTR</td><td>设备、罐、管、阀、特殊支架（弹簧支架）、成品钢结构</td></tr>
+    <tr><td>分包自购型钢与辅材</td><td class="num">SUBCO</td><td>管支架型钢原料、保温/油漆、电气小件辅材、测试介质、消耗品</td></tr>
+  </table>
+
+  <h3>② 谁买"消耗 / 临时材料"——分包买</h3>
+  <ul>
+    <li>焊条焊丝、气体、砂轮片、临时支架、试压盲板、冲洗用水用气、脚手架 → <b>全部 SUBCO</b></li>
+  </ul>
+
+  <h3>③ 谁卸车、谁搬运——几乎全是分包</h3>
+  <p>责任矩阵 D 节第 5 项明确：总包供的材料设备送到现场/仓库/堆放区，<b>装卸、从总包仓库搬到分包堆场，全是 SUBCO</b>（打 X）。</p>
+
+  <h3>④ 谁做重件吊装——分包</h3>
+  <ul>
+    <li>"Heavy Lifting will be part of SUBCONTRACTOR's scope"（重吊在分包范围）</li>
+    <li>连"重件运输道路修整、地基承载力第三方检测"也是分包（H 节 4.1–4.4）</li>
+  </ul>
+
+  <h3>⑤ 谁做检验测试——分包，总包只协助</h3>
+  <ul>
+    <li>RT/MT/UT/PT、PWHT、水压试验、化学清洗、PSV 校验 → <b>SUBCO X</b></li>
+    <li>焊工考试 WPQ 的<b>试件材料分包自备</b>（I 节第 5 项专门写了）</li>
+  </ul>
+
+  <div class="gist">记忆抓手：凡是"永久工程实体料"（管、阀、设备、钢结构成品）→ 总包买；凡是"干活用的消耗/临时料 + 所有施工动作"→ 分包买、分包干。唯一例外是少数写明的 "A（协助）" 项。</div>
+</section>
+
+<!-- ============ 第3课 ============ -->
+<section class="lesson" id="l3" data-num="第 3 课">
+  <h2>成本（一）：BOQ 怎么算钱——六个成本要素</h2>
+  <div class="sub">打开 Appendix D BOQ，列头是理解成本的关键。</div>
+
+  <div class="gist">每单位工程量 = 人工 + 材料 + 工器具 + 机械，四要素加总为直接成本。</div>
+
+  <table>
+    <caption>专业明细表列头（如 Piping Green）</caption>
+    <tr><th>列</th><th>含义</th><th>你的关注点</th></tr>
+    <tr><td><code>UNIT</code></td><td>计量单位（Dia-Inch / set / EA / m）</td><td><b>算量依据</b></td></tr>
+    <tr><td><code>Qty</code></td><td>工程量</td><td>估算量</td></tr>
+    <tr><td><code>MANHOURS (A)</code></td><td>工时</td><td>人工</td></tr>
+    <tr><td><code>LABOR COST (B)</code></td><td>人工单价</td><td><b>人工费</b></td></tr>
+    <tr><td><code>MATERIAL COST (C)</code></td><td>材料单价</td><td><b>材料费</b></td></tr>
+    <tr><td><code>TOOLS &amp; CONSUMABLE (D)</code></td><td>工器具 / 消耗品单价</td><td><b>工器具费</b></td></tr>
+    <tr><td><code>EQUIPMENT COST (E)</code></td><td>机械单价</td><td><b>机械费</b></td></tr>
+    <tr><td><code>DIRECT COST (F)</code></td><td>= B+C+D+E 直接成本合计</td><td><b>直接费</b></td></tr>
+  </table>
+
+  <p>公式（表头第 9 行写得很清楚）：<code>F = B + C + D + E</code>，每个 Amount = <code>Qty × 单价</code>。</p>
+
+  <div class="note"><b>成本拆解的核心：</b>这套 BOQ 的报价逻辑是"每单位工程量 = 人工 + 材料 + 工器具 + 机械 四要素加总"。你要评估一个分包报价合不合理，就看这四个单价拆得对不对——这就是"工艺拆分及其报价"的落点。</div>
+
+  <h3>实例（Piping Green 真实数据）</h3>
+  <table>
+    <tr><th>编号</th><th>描述</th><th>单位</th><th>Qty</th><th>直接成本单价</th></tr>
+    <tr><td><code>AP-01-1</code></td><td>碳钢 0.5" S-XXS 对焊</td><td>Dia-Inch</td><td class="num">128.21</td><td class="num">195.24 AED</td></tr>
+    <tr><td><code>AP-01-3</code></td><td>碳钢 0.75" S-160 对焊</td><td>Dia-Inch</td><td class="num">298.50</td><td class="num">214.29 AED</td></tr>
+  </table>
+
+  <blockquote>
+    <p><span class="term">Dia-Inch（焊口英寸）</span>是管道焊接的经典计量单位：<code>管径(英寸) × 焊口数</code>。一个 8 寸管焊一个口 = 8 Dia-Inch。<b>这是管道算量的核心概念，务必记住。</b></p>
+  </blockquote>
+</section>
+
+<!-- ============ 第4课 ============ -->
+<section class="lesson" id="l4" data-num="第 4 课">
+  <h2>成本（二）：间接费 / 管理费 / 利润</h2>
+  <div class="sub">BOQ 里 A.1-INDIRECTS BREAKDOWN 是分包报价的第二大块，全是 Lump Sum（包干价）。</div>
+
+  <div class="gist">间接费里最贵的是现场管理人工（804 万）和营地（268 万）；总部管理费 G 与利润 H 留空是最大疑点。</div>
+
+  <table>
+    <caption>A.1 间接费拆解（金额 AED，Lump Sum）</caption>
+    <tr><th>分类</th><th>内容</th><th class="num">金额(AED)</th></tr>
+    <tr><td>A 财务成本</td><td>保函、保险、许可税</td><td class="num">321,600 / 603,000 / 536,000</td></tr>
+    <tr><td>B 进退场</td><td>动员、退场、清场</td><td class="num">670,000 ×2 + 804,000</td></tr>
+    <tr><td>C 临建</td><td>现场临建、营地、急救</td><td class="num">1,125,600 / 2,680,000 / 268,000</td></tr>
+    <tr><td>D 运营费</td><td>保安、清洁、吊车叉车、其他</td><td class="num">201,000 ×3 + 335,000</td></tr>
+    <tr><td>E 间接人工</td><td>现场管理 / 监督 / QAQC / HSE</td><td class="num"><b>8,040,000</b>（最大单项）</td></tr>
+    <tr><td>F 其他间接</td><td>兜底</td><td class="num">1,206,000</td></tr>
+    <tr><td>G 总部管理费</td><td>总部支持</td><td class="num empty">留空 ⚠️</td></tr>
+    <tr><td>H 利润</td><td>利润</td><td class="num empty">留空 ⚠️</td></tr>
+  </table>
+
+  <div class="warn"><b>重点：</b>G（总部管理费）和 H（利润）两项<b>留空</b>，这是第 7 课瑕疵清单的头号风险。</div>
+
+  <h3>费率表（变更计价 + 点工的依据）</h3>
+  <table>
+    <tr><th>人工费率（AED/hr）</th><th class="num">单价</th><th>机械费率（AED/月）</th><th class="num">单价</th></tr>
+    <tr><td>焊工 API</td><td class="num">90</td><td>40T 平板车</td><td class="num">44,100</td></tr>
+    <tr><td>普通焊工</td><td class="num">72</td><td>17T 平板车</td><td class="num">23,100</td></tr>
+    <tr><td>电工</td><td class="num">81.6</td><td>25 座巴士</td><td class="num">18,900</td></tr>
+    <tr><td>仪表工</td><td class="num">86.4</td><td>120–135T 低板拖车</td><td class="num">88,200</td></tr>
+  </table>
+
+  <div class="note"><b>为什么重要：</b>现场一旦出现"变更 / 点工 / 待工"，就用这些费率算钱。费率表是<b>合同执行期最常用、最容易扯皮的价目表</b>。机械费率分月租 / 日租 / 待机三档（如 40T 平板车日租 2,436、待机 1,218）。</div>
+</section>
+
+<!-- ============ 第5课 ============ -->
+<section class="lesson" id="l5" data-num="第 5 课">
+  <h2>成本（三）：算量依据——材料裕量比例</h2>
+  <div class="sub">Exh B 的 Material Allowance Ratio 是算量（claim 材料量）的官方基准。</div>
+
+  <div class="gist">管径越大裕量越小；金属管件零裕量；这是"算量画像"的官方依据，别凭经验拍脑袋。</div>
+
+  <table>
+    <caption>管子 / 管件 / 阀门 / 垫片 / 螺栓 裕量比例</caption>
+    <tr><th>材料</th><th class="num">DN≤40</th><th class="num">DN50–150</th><th class="num">DN≥200</th></tr>
+    <tr><td>碳钢管</td><td class="num">5%</td><td class="num">4%</td><td class="num">3%</td></tr>
+    <tr><td>合金 / 不锈钢管</td><td class="num">4%</td><td class="num">4%</td><td class="num">3%</td></tr>
+    <tr><td>非金属管</td><td class="num">5%</td><td class="num">4%</td><td class="num">4%</td></tr>
+    <tr><td>金属管件</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+    <tr><td>非金属管件</td><td class="num">2%</td><td class="num">2%</td><td class="num">1%</td></tr>
+    <tr><td>垫片</td><td class="num">4%</td><td class="num">4%</td><td class="num">4%</td></tr>
+    <tr><td>螺栓螺母（&lt;M12 / M12–22 / &gt;M27）</td><td class="num">3%</td><td class="num">3%</td><td class="num">0</td></tr>
+  </table>
+
+  <div class="note"><b>规律：</b>管径越大裕量越小（大管贵、损耗低）；金属管件<b>零裕量</b>（按图精确采购）；非金属有裕量。这是算量的官方依据。</div>
+</section>
+
+<!-- ============ 第6课 ============ -->
+<section class="lesson" id="l6" data-num="第 6 课">
+  <h2>注意事项：执行期容易踩的坑</h2>
+  <div class="sub">结合计价指令 Exh D.0 里的兜底条款，挑最要命的几条。</div>
+
+  <div class="gist">固定单价 + 估算量 + 漏报归零 + 全甩分包，是这套合同的四条铁律。</div>
+
+  <table>
+    <tr><th>条款</th><th>内容</th><th>风险与应对</th></tr>
+    <tr><td><code>1.17</code></td><td>除 Matrix 写明由总包供的，其余全部材料分包自供</td><td>现场最常扯皮"这个料谁买"。签合同前逐项核对 Matrix，别信"口头答应供"</td></tr>
+    <tr><td><code>1.15</code></td><td>工程量是估算，量多量少单价都不变</td><td>分包不能因量差调价，<b>风险全在分包</b></td></tr>
+    <tr><td><code>1.12</code></td><td>单价锁定，不因成本/汇率波动调整</td><td>分包吃定所有涨价风险</td></tr>
+    <tr><td><code>1.7 / 1.20</code></td><td>漏报的项 = 0 元；含零量项也要报价</td><td>投标时每个带 Qty 的项都要报价</td></tr>
+    <tr><td><code>1.32</code></td><td>拆除/废项单价 = 对应安装单价的 30%</td><td>变更计价时这是现成费率依据，别重新谈</td></tr>
+    <tr><td><code>1.16</code></td><td>新单价参照现有类似单价内插</td><td>变更谈判时总包可用此<b>压分包新价</b></td></tr>
+    <tr><td>—</td><td>重吊是分包范围（含道路修整、地基第三方检测）</td><td>分包极易低估，投标要单独盘</td></tr>
+    <tr><td>—</td><td>总包供料到现场，卸车是分包的</td><td>大型设备到场卸车高风险高成本，报价要含</td></tr>
+  </table>
+</section>
+
+<!-- ============ 第7课 ============ -->
+<section class="lesson" id="l7" data-num="第 7 课">
+  <h2>瑕疵清单与下次招标风险</h2>
+  <div class="sub">同事出具的这版 BOQ，招标时的版本并不完美。分"已确认"与"需复核"两类。</div>
+
+  <div class="gist">最严重是管理费+利润留空，其次是四要素单价未拆分，导致变更时无谈判抓手。</div>
+
+  <h3>✅ 已确认的瑕疵</h3>
+  <table>
+    <tr><th style="width:44px">#</th><th>瑕疵</th><th>位置</th><th>风险</th></tr>
+    <tr><td>1</td><td><span class="tag conf">确认</span> G01 总部管理费、H01 利润<b>金额留空</b></td><td>A.1 第 49、53 行</td><td>分包可能"零利润/零管理费"报价后靠变更找补，或漏报导致总价失真</td></tr>
+    <tr><td>2</td><td><span class="tag conf">确认</span> "TOTA" 拼写错误（TOTAL 少 L）</td><td>A-Summary 第 35–36 行</td><td>校核不严，暗示其他数字也可能有错</td></tr>
+    <tr><td>3</td><td><span class="tag conf">确认</span> 间接费金额呈"整齐凑数"规律</td><td>A.1 各 Lump Sum</td><td>268,000 / 536,000 / 804,000 / 1,206,000 / 8,040,000 呈倍数 → 疑似占位值，非逐项真实报价</td></tr>
+    <tr><td>4</td><td><span class="tag conf">确认</span> 四要素单价拆分列疑似未填</td><td>各专业明细 B/C/D/E 列</td><td>数据行只见综合直接成本单价，四要素空 → 变更时无法逐要素调价</td></tr>
+  </table>
+
+  <h3>⚠️ 需你复核（疑似公式未计算）</h3>
+  <table>
+    <tr><th style="width:44px">#</th><th>观察</th><th>怎么复核</th></tr>
+    <tr><td>5</td><td><span class="tag chk">待复核</span> A-Summary 的 Manhours、SUBTOTAL COST 列全空</td><td>Excel 打开看是"公式未刷新"还是"真没填"。若真没填，总价汇总断链</td></tr>
+    <tr><td>6</td><td><span class="tag chk">待复核</span> 明细表 Qty 有值、但 Amount 列空</td><td>看 <code>=Q*a</code> 等公式是否有缓存值</td></tr>
+  </table>
+
+  <h3>📋 下次招标的改进建议（风险应对）</h3>
+  <ol>
+    <li><b>强制四要素单价拆分填报</b>：要求分包对每个 BOQ 项报出 B/C/D/E 四个单价，而非一个综合价，变更、调量、材差才有谈判抓手。</li>
+    <li><b>G/H（管理费+利润）不得留空</b>：设为必填，并与直接费+间接费挂钩核对利润率合理性。</li>
+    <li><b>间接费逐项要求"报价说明"</b>：打破"凑整数占位"，让分包说明每个 Lump Sum 构成（人数 × 工期 × 单价）。</li>
+    <li><b>建立"量-价"对账模板</b>：估算 Qty 与 IFC 图量定期对账（呼应 1.15），提前暴露量差风险。</li>
+    <li><b>拼写/公式校核走查</b>：发布 BOQ 前用脚本跑一遍"空值 + 公式断链 + 拼写"检查。</li>
+    <li><b>把 1.32（拆除=30%）、1.16（新价内插）、费率表写进"变更计价操作卡"</b>，让现场人员知道有哪些现成费率可引用，减少扯皮。</li>
+  </ol>
+</section>
+
+<!-- ============ 附录 ============ -->
+<section class="lesson" id="app" data-num="附录">
+  <h2>关键文件速查 + 术语速记卡</h2>
+
+  <h3>关键文件位置</h3>
+  <table>
+    <tr><th>用途</th><th>路径</th></tr>
+    <tr><td>工作范围</td><td><code>Contract\01_Subcon\Part II_Exhibits\Exh A_Work Scope - Schedule\A 1.1 Scope of Work-Rev.0.docx</code></td></tr>
+    <tr><td>责任矩阵</td><td><code>…\Exh A_Work Scope - Schedule\A 1.2 SOW Responsibility Matrix-Rev.0.docx</code></td></tr>
+    <tr><td>BOQ（Pkg I-1 / I-3）</td><td><code>…\Exh D_Subcontract Price\Appendix D BOQ For MEI Pkg I-1.xlsx / I-3.xlsx</code></td></tr>
+    <tr><td>计价指令</td><td><code>…\Exh D_Subcontract Price\Exhibit D 0 General-Subcontractor Pricing Instructions.pdf</code></td></tr>
+    <tr><td>材料裕量表</td><td><code>…\Exh B_Method of Measurement\16.Material Allowance Ratio.xlsx</code></td></tr>
+  </table>
+
+  <h3>术语速记卡</h3>
+  <table>
+    <tr><th>术语</th><th>含义</th></tr>
+    <tr><td><code>X / A</code></td><td>Perform（做）/ Assist（协助）</td></tr>
+    <tr><td><code>CONTR / SUBCO / OWNER</code></td><td>总包 Wison / 分包 CCECC / 业主 ADNOC Gas</td></tr>
+    <tr><td><span class="term">Dia-Inch</span></td><td>焊口英寸 = 管径(英寸) × 焊口数，管道焊接计量单位</td></tr>
+    <tr><td><span class="term">Green / Brown</span></td><td>绿区（新建）/ 棕区（改造、现有装置）</td></tr>
+    <tr><td><code>Lump Sum (LS)</code></td><td>包干价（间接费全用这个）</td></tr>
+    <tr><td><span class="term">Direct / Indirect</span></td><td>直接费（可计量）/ 间接费（管理、临建、运营）</td></tr>
+    <tr><td><code>NDE / PWHT / PMI</code></td><td>无损检测 / 焊后热处理 / 合金元素快速鉴别</td></tr>
+    <tr><td><code>BOQ / IFC</code></td><td>工程量清单 / 供施工图（Issued for Construction）</td></tr>
+    <tr><td><code>Free Issue</code></td><td>总包免费提供给分包的料（对应"总包供料"）</td></tr>
+    <tr><td><code>Daywork / T&amp;M</code></td><td>点工 / 时料计费（按费率表算）</td></tr>
+  </table>
+</section>
+
+<div class="footer">
+  <p>生成依据：CCECC MEI Pkg I 分包合同 Exhibits（A / B / D）。金额与条款引自原始文件，改动前请以合同正本为准。</p>
+  <p>Wison · Subcontract Knowledge Base</p>
+</div>
+
+</div>
+</body>
+</html>

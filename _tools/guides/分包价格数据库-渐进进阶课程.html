@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>分包价格数据库 · 渐进进阶课程</title>
+<style>
+  :root{
+    --bg:#f6f4ef; --panel:#ffffff; --ink:#26282b; --muted:#6b7280;
+    --brand:#1a3a5c; --brand2:#24507a; --accent:#b3780a; --accentbg:#fbf3e0;
+    --line:#e3dfd6; --tablehead:#1a3a5c; --tablestripe:#f2f0ea;
+    --warn:#b3372a; --warnbg:#fbeee9; --ok:#1f7a4d; --okbg:#e9f5ee;
+    --codebg:#1e2430; --codeink:#d6e0f0; --notebg:#eef2f6;
+    --lvl1:#1f7a4d; --lvl2:#b3780a; --lvl3:#b3372a;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Microsoft YaHei","PingFang SC","Segoe UI",system-ui,sans-serif; line-height:1.75; font-size:16px;}
+  .wrap{max-width:980px; margin:0 auto; padding:0 20px 90px;}
+
+  header.hero{background:linear-gradient(135deg,#14263a 0%,var(--brand) 45%,var(--brand2) 100%);
+    color:#fff; padding:44px 24px 34px; margin-bottom:26px;}
+  .hero .kicker{font-size:13px; letter-spacing:2px; opacity:.85; text-transform:uppercase}
+  .hero h1{font-size:27px; margin:10px 0 8px; line-height:1.35}
+  .hero .meta{font-size:14px; opacity:.9}
+  .hero code{background:rgba(255,255,255,.16); padding:2px 7px; border-radius:4px; color:#fff}
+
+  /* 三阶段总览条 */
+  .roadmap{display:flex; gap:12px; margin:0 0 28px; flex-wrap:wrap}
+  .stage{flex:1; min-width:220px; background:var(--panel); border:1px solid var(--line);
+    border-radius:10px; padding:14px 16px; border-top:4px solid var(--brand)}
+  .stage.s1{border-top-color:var(--lvl1)}
+  .stage.s2{border-top-color:var(--lvl2)}
+  .stage.s3{border-top-color:var(--lvl3)}
+  .stage .t{font-weight:700; margin-bottom:4px}
+  .stage.s1 .t{color:var(--lvl1)}
+  .stage.s2 .t{color:var(--lvl2)}
+  .stage.s3 .t{color:var(--lvl3)}
+  .stage .d{font-size:13px; color:var(--muted)}
+
+  nav.toc{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:20px 24px; margin-bottom:28px}
+  nav.toc h2{margin:0 0 12px; font-size:16px; color:var(--brand)}
+  nav.toc ol{margin:0; padding-left:20px; columns:2; column-gap:36px}
+  nav.toc li{margin:5px 0; break-inside:avoid}
+  nav.toc a{color:var(--brand2); text-decoration:none}
+  nav.toc a:hover{color:var(--accent)}
+
+  section.lesson{background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:28px 30px; margin-bottom:24px; position:relative}
+  section.lesson::before{content:attr(data-num); position:absolute; top:-16px; left:24px;
+    background:var(--brand); color:#fff; font-weight:700; font-size:14px; padding:4px 16px; border-radius:20px}
+  section.lesson.s1::before{background:var(--lvl1)}
+  section.lesson.s2::before{background:var(--lvl2)}
+  section.lesson.s3::before{background:var(--lvl3)}
+  section.lesson h2{font-size:21px; margin:10px 0 6px; color:var(--brand); line-height:1.4}
+  section.lesson .sub{color:var(--muted); font-size:14px; margin-bottom:14px}
+  h3{font-size:18px; color:var(--brand2); margin:24px 0 10px; border-left:4px solid var(--accent); padding-left:10px}
+  p{margin:10px 0}
+  ul,ol{margin:8px 0; padding-left:24px}
+  li{margin:5px 0}
+
+  .gist{background:var(--accentbg); border-left:4px solid var(--accent); padding:12px 16px;
+    border-radius:0 8px 8px 0; margin:14px 0; font-weight:600}
+  .gist::before{content:"一句话  "; color:var(--accent); font-size:13px; letter-spacing:1px}
+  .note{background:var(--notebg); border-left:4px solid var(--brand2); padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0}
+  .note b{color:var(--brand)}
+  .warn{background:var(--warnbg); border-left:4px solid var(--warn); padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0}
+  .warn b{color:var(--warn)}
+  .tip{background:var(--okbg); border-left:4px solid var(--ok); padding:12px 16px; border-radius:0 8px 8px 0; margin:14px 0}
+  .tip b{color:var(--ok)}
+
+  blockquote{margin:12px 0; padding:12px 16px; background:#f0ece2; border-left:3px solid #c8bfae;
+    border-radius:0 6px 6px 0; color:#4a4a4a}
+  blockquote p{margin:6px 0}
+
+  /* 代码块 */
+  pre{background:var(--codebg); color:var(--codeink); padding:16px 18px; border-radius:8px;
+    overflow-x:auto; font-family:Consolas,"Courier New",monospace; font-size:13.5px; line-height:1.6; margin:12px 0}
+  pre .c{color:#7d8a9c}  /* comment */
+  pre .p{color:#e8c07a}  /* prompt */
+  code{background:#f0ece2; padding:1px 6px; border-radius:4px; font-family:Consolas,"Courier New",monospace; font-size:14px}
+  .term{color:var(--accent); font-weight:600}
+  .var{color:var(--ok); font-weight:700}
+
+  table{border-collapse:collapse; width:100%; margin:14px 0; font-size:14.5px; background:#fff}
+  th{background:var(--tablehead); color:#fff; padding:9px 11px; text-align:left; font-weight:600; white-space:nowrap}
+  td{padding:8px 11px; border-bottom:1px solid var(--line); vertical-align:top}
+  tr:nth-child(even) td{background:var(--tablestripe)}
+  td.num,th.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .hl{background:var(--accentbg)!important; font-weight:700; color:var(--accent)}
+  .anom{background:var(--warnbg)!important; font-weight:700; color:var(--warn)}
+  table caption{caption-side:top; text-align:left; font-weight:700; color:var(--brand); padding:6px 0; font-size:15px}
+
+  .tag{display:inline-block; font-size:12px; padding:2px 9px; border-radius:12px; font-weight:700}
+  .tag.lvl1{background:var(--lvl1); color:#fff}
+  .tag.lvl2{background:var(--lvl2); color:#fff}
+  .tag.lvl3{background:var(--lvl3); color:#fff}
+  .tag.conf{background:var(--warn); color:#fff}
+
+  .footer{margin-top:36px; color:var(--muted); font-size:13px; text-align:center}
+  @media print{ body{background:#fff}.wrap{max-width:none} nav.toc,.roadmap{display:none}
+    section.lesson{break-inside:avoid;border:1px solid #ccc} header.hero{background:#1a3a5c} }
+  @media (max-width:640px){ nav.toc ol{columns:1} body{font-size:15px}
+    section.lesson{padding:22px 18px} th,td{padding:6px 7px;font-size:13px} .roadmap{flex-direction:column} }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="kicker">Wison · Subcontract Knowledge Base · 渐进进阶课程</div>
+  <h1>分包价格数据库：从看懂到会用</h1>
+  <div class="meta">
+    数据源：<code>D:\Wison\_tools\price-database\</code>（7 个子目录 · 116 个 CSV）<br>
+    覆盖：TCC / CCECC 土建与 MEI 三包 + LONGTAIDI 消防管道预制，全部分包 BOQ 单价<br>
+    学习路径：<b>认识数据库 → 学会查询 → 学会判断</b>，三阶段由浅入深
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="roadmap">
+  <div class="stage s1"><div class="t">阶段一 · 认识数据库</div><div class="d">第 1–3 课：这是什么、CSV 长什么样、有哪些表类型</div></div>
+  <div class="stage s2"><div class="t">阶段二 · 学会查询</div><div class="d">第 4–6 课：怎么查、怎么读单价、怎么跨分包商对比</div></div>
+  <div class="stage s3"><div class="t">阶段三 · 学会判断</div><div class="d">第 7–9 课：识别异常、核实范围、用到实战</div></div>
+</div>
+
+<nav class="toc">
+  <h2>课程目录</h2>
+  <ol>
+    <li><a href="#l1">第 1 课 · 这个数据库是什么、为什么存在</a></li>
+    <li><a href="#l2">第 2 课 · 一张 CSV 的"六要素"列公式</a></li>
+    <li><a href="#l3">第 3 课 · 四种表类型：汇总 / 间接费 / 定价 / 费率</a></li>
+    <li><a href="#l4">第 4 课 · 用 _query.py 查（list / cat / 关键词）</a></li>
+    <li><a href="#l5">第 5 课 · 读单价的正确姿势：U/Rate 与 f 列陷阱</a></li>
+    <li><a href="#l6">第 6 课 · 跨分包商对比：DUCT BANK 案例</a></li>
+    <li><a href="#l7">第 7 课 · 识别异常：凑整 / 留空 / 倒挂</a></li>
+    <li><a href="#l8">第 8 课 · 比价前先核实"范围定义"</a></li>
+    <li><a href="#l9">第 9 课 · 用到实战：变更计价 / 定价基准 / 谈判</a></li>
+    <li><a href="#app">附录 · 术语卡 + 速查表 + 已知缺口</a></li>
+  </ol>
+</nav>
+
+<!-- ============ 阶段一 ============ -->
+<section class="lesson s1" id="l1" data-num="第 1 课 · 阶段一">
+  <h2>这个数据库是什么、为什么存在</h2>
+  <div class="sub">目标：理解数据库的定位、结构与覆盖范围。</div>
+
+  <div class="gist">这是一个把全部分包 BOQ 单价"集中成 CSV"的查询库——查价比价不用再翻 Excel。</div>
+
+  <h3>它解决什么问题</h3>
+  <p>原始价格表散落在 <code>D:\Wison\Subcon_Payments\</code> 各分包合同目录下，都是 Excel，格式不一。每次想对比两家分包商同一个项的报价，得手动开好几个 Excel 翻表。</p>
+  <p>这个数据库把每个 Excel 的<b>每个工作表</b>转成一个 CSV，集中放在 <code>D:\Wison\_tools\price-database\</code>，配一个 <code>_query.py</code> 查询脚本，做到"一句命令搜全库"。</p>
+
+  <h3>覆盖范围（7 个子目录 = 5 个合同包）</h3>
+  <table>
+    <caption>数据库目录结构</caption>
+    <tr><th>子目录</th><th>分包商</th><th>包</th><th class="num">CSV 数</th></tr>
+    <tr><td><code>TCC_PkgI</code></td><td>TCC</td><td>Civil Pkg I（标段1）</td><td class="num">13</td></tr>
+    <tr><td><code>CCECC_PkgII</code></td><td>CCECC</td><td>Civil Pkg II（标2）</td><td class="num">12</td></tr>
+    <tr><td><code>TCC_PkgIII</code></td><td>TCC</td><td>Civil Pkg III（标3）</td><td class="num">9</td></tr>
+    <tr><td><code>Pkg I-1</code></td><td>CCECC</td><td>MEI Pkg I-1（有价版）</td><td class="num">32</td></tr>
+    <tr><td><code>Pkg I-3</code></td><td>CCECC</td><td>MEI Pkg I-3（有价版）</td><td class="num">14</td></tr>
+    <tr><td><code>TCC_MEI_PkgII</code></td><td>TCC</td><td>MEI Pkg II</td><td class="num">31</td></tr>
+    <tr><td><code>LONGTAIDI</code></td><td>LONGTAIDI</td><td>消防管道预制</td><td class="num">5</td></tr>
+  </table>
+
+  <div class="note"><b>记忆抓手：</b>一共 <b>116 个 CSV</b>，横跨 <b>3 个土建包 + 3 个 MEI 包 + 1 个消防预制包</b>。土建（Civil）和机电安装（MEI）是两类不同性质的价格表，读法略有差异，后面第 3 课会讲。</div>
+</section>
+
+<!-- ============ 第2课 ============ -->
+<section class="lesson s1" id="l2" data-num="第 2 课 · 阶段一">
+  <h2>一张 CSV 的"六要素"列公式</h2>
+  <div class="sub">目标：看懂定价表那串 a/b/c/d/e/f 列到底在算什么。</div>
+
+  <div class="gist">每个可计量项的成本 = 人工(b) + 材料(c) + 工器具(d) + 机械(e)，四要素加总得直接成本 f。</div>
+
+  <p>这是全库最核心、也最容易被搞混的地方。所有定价表（无论土建还是 MEI）都用同一套<b>六列公式</b>，但<b>列号因文件不同而异</b>（所以才有 <code>_column-mapping.md</code> 这份对照表）。</p>
+
+  <table>
+    <caption>通用六列公式（按语义，不按列号）</caption>
+    <tr><th>代码</th><th>含义</th><th>是否计入总价</th><th>说明</th></tr>
+    <tr><td><code>a</code></td><td>Manhours U/Rate（工时单价）</td><td class="anom">❌ 不计入</td><td>参考值，单独列，不参与 f 的求和</td></tr>
+    <tr><td><code>b</code></td><td>Labor Cost U/Rate（人工）</td><td class="hl">✅ 计入</td><td>人工单价</td></tr>
+    <tr><td><code>c</code></td><td>Material Cost U/Rate（材料）</td><td class="hl">✅ 计入</td><td>材料单价</td></tr>
+    <tr><td><code>d</code></td><td>Tools &amp; Consumable U/Rate（工器具）</td><td class="hl">✅ 计入</td><td>工具/消耗品单价</td></tr>
+    <tr><td><code>e</code></td><td>Equipment Cost U/Rate（机械）</td><td class="hl">✅ 计入</td><td>机械单价</td></tr>
+    <tr><td><code>f</code></td><td>DIRECT COST TOTAL U/Rate</td><td class="hl">✅ 合计</td><td><b>f = b + c + d + e</b></td></tr>
+  </table>
+
+  <div class="warn"><b>两个最易犯的错：</b><br>
+  ① <b>a（工时单价）不计入 f</b>——很多人直觉以为 f 包含 a，其实 a 只是给你看"要多少工时"的参考列。<br>
+  ② <b>U/Rate 和 Amount 是两回事</b>——U/Rate 是单价，Amount = Qty × U/Rate 是金额。查单价要看 U/Rate，别拿 Amount 当单价。</div>
+
+  <h3>为什么"列号因文件而异"</h3>
+  <p>因为不同合同包的列数不一样（土建有 WBS 分区列、MEI 有 TAG 号列），导致 a/b/c/d/e/f 落在不同列。举例（土建 CIVIL Green）：</p>
+  <table>
+    <tr><th>内容</th><th class="num">CCECC Pkg II</th><th class="num">TCC Pkg I</th><th class="num">TCC Pkg III</th></tr>
+    <tr><td>Material U/Rate (c)</td><td class="num">C19</td><td class="num">C19</td><td class="num">C18</td></tr>
+    <tr><td>DIRECT COST TOTAL (f)</td><td class="num">C25</td><td class="num">C25</td><td class="num">C24</td></tr>
+  </table>
+  <p>所以<b>别死记列号</b>，要看 <code>_column-mapping.md</code> 或按表头文字定位。</p>
+</section>
+
+<!-- ============ 第3课 ============ -->
+<section class="lesson s1" id="l3" data-num="第 3 课 · 阶段一">
+  <h2>四种表类型：汇总 / 间接费 / 定价 / 费率</h2>
+  <div class="sub">目标：知道每个 CSV 属于哪一类，各有各的读法。</div>
+
+  <div class="gist">看一个 CSV 文件名后缀，就能判断它是"算总价"还是"算单价"还是"算点工"。</div>
+
+  <table>
+    <caption>四类工作表</caption>
+    <tr><th>类型</th><th>典型文件名</th><th>管什么</th><th>读法</th></tr>
+    <tr><td><b>汇总表</b></td><td><code>A-Summary</code></td><td>合同价总额</td><td>看总价结构、各专业小计</td></tr>
+    <tr><td><b>间接费</b></td><td><code>A.1-INDIRECTS BREAKDOWN</code></td><td>包干间接费（管理/临建/营地）</td><td>看 Lump Sum 明细</td></tr>
+    <tr><td><b>定价明细</b></td><td><code>CIVIL</code> / <code>UG PIP</code> / <code>Piping</code> / <code>Electrical</code>…</td><td>各专业可计量单价</td><td>看 f 列单价（本课重点）</td></tr>
+    <tr><td><b>费率表</b></td><td><code>Labor Rates</code> / <code>Equipment Rates</code></td><td>人材机基础费率（点工/变更用）</td><td>看 AED/hr、AED/月</td></tr>
+  </table>
+
+  <h3>土建 vs MEI：两类定价明细的差异</h3>
+  <table>
+    <tr><th>维度</th><th>土建（Civil）</th><th>机电安装（MEI）</th></tr>
+    <tr><td>计量单位</td><td>M3（混凝土）、M2、LM、KG、MT</td><td><span class="term">Dia-Inch</span>（焊口）、set、EA、m</td></tr>
+    <tr><td>典型项</td><td>DUCT BANK、CONCRETE、EXCAVATION、REBAR</td><td>Connection Joints、Pipe、Transformer、Cable</td></tr>
+    <tr><td>特有列</td><td>WBS 分区（UNIT 10/30/40…）</td><td>TAG No.、Material Supplied By</td></tr>
+    <tr><td>额外表</td><td>BLDG（房建，仅 TCC）、PLOT PLAN、CMS</td><td>Pkg 子表（Pkg I-1-001 等设备包）</td></tr>
+  </table>
+
+  <div class="note"><b>关键区别：</b>土建按"体积/面积"计量（M3/M2），MEI 管道按 <span class="term">Dia-Inch（焊口英寸）</span>计量。Dia-Inch = 管径(英寸) × 焊口数，是管道焊接计价的行业标准单位。</div>
+</section>
+
+<!-- ============ 阶段二 ============ -->
+<section class="lesson s2" id="l4" data-num="第 4 课 · 阶段二">
+  <h2>用 _query.py 查：list / cat / 关键词</h2>
+  <div class="sub">目标：掌握三个查询命令，一句命令搜全库。</div>
+
+  <div class="gist">三个命令：--list 看清单，--cat 按分类精确搜，关键词全文搜。</div>
+
+  <h3>命令一：列出所有工作表</h3>
+  <pre><span class="c"># 看库里有哪些表、每个表多少行</span>
+cd D:\Wison\_tools\price-database
+python _query.py --list</pre>
+
+  <h3>命令二：按关键词全文搜索</h3>
+  <pre><span class="c"># 搜所有 CSV 里包含 DUCT BANK 的行</span>
+python _query.py "DUCT BANK"
+
+<span class="c"># 多个关键词 = 同时满足（AND）</span>
+python _query.py "MANHOLE" "CONCRETE"</pre>
+
+  <h3>命令三：按 Category 精确搜</h3>
+  <pre><span class="c"># 只看 Category 列 = MANHOLE 的行（不是全文模糊匹配）</span>
+python _query.py --cat MANHOLE</pre>
+
+  <div class="tip"><b>什么时候用哪个：</b><br>
+  · 想快速定位"这个材料谁家报过价" → 关键词搜（如 <code>"DUCT BANK"</code>）<br>
+  · 想按报价表的分类号精确过滤 → <code>--cat</code><br>
+  · 忘了库里有什么 → <code>--list</code></div>
+
+  <div class="tip"><b>✅ 已修复（2026-09-11）：</b><code>_manifest.json</code> 已重建，现登记全部 <b>7 个目录 · 116 个 CSV</b>，路径全部有效。<code>--list</code> 和关键词搜现在能覆盖 MEI 三包 + 消防预制。<br>
+  <span style="font-size:13px">修复前的问题：manifest 只登记了 3 个土建目录，且其中 20 条路径因命名重整已失效，导致 <code>--list</code> 和关键词搜漏掉 <code>Pkg I-1</code> / <code>Pkg I-3</code> / <code>TCC_MEI_PkgII</code> / <code>LONGTAIDI</code> 约 56 个 CSV。</span></div>
+</section>
+
+<!-- ============ 第5课 ============ -->
+<section class="lesson s2" id="l5" data-num="第 5 课 · 阶段二">
+  <h2>读单价的正确姿势：U/Rate 与 f 列陷阱</h2>
+  <div class="sub">目标：知道"该看哪一列"，避免把金额当单价、把工时价当总价。</div>
+
+  <div class="gist">查一个项的单价，看 f 列的 U/Rate；别用 Amount（金额）当单价，也别漏看 f 是四个要素的合计。</div>
+
+  <p>以土建 <code>CIVIL（Brown）</code> 里 DUCT BANK 一行（CCECC Pkg II）的真实数据为例，逐列拆开看：</p>
+
+  <table>
+    <caption>CCECC CIVIL Brown · DUCT BANK 一行（列已按语义对齐）</caption>
+    <tr><th>列</th><th>值</th><th>解读</th></tr>
+    <tr><td>Description</td><td>CONCRETE - DUCT BANKS (fc'=20N/mm²)</td><td>项名：电缆沟槽混凝土</td></tr>
+    <tr><td>Unit</td><td class="num">M3</td><td>计量单位：立方米</td></tr>
+    <tr><td>Qty</td><td class="num">500</td><td>工程量（估算）</td></tr>
+    <tr><td>Manhours U/Rate (a)</td><td class="num">196.06</td><td>工时参考（<b>不计入 f</b>）</td></tr>
+    <tr><td>Labor U/Rate (b)</td><td class="num">211.74</td><td>人工单价</td></tr>
+    <tr><td>Material U/Rate (c)</td><td class="num hl">2,510.46</td><td>材料单价（大头）</td></tr>
+    <tr><td>Tools U/Rate (d)</td><td class="num">200.84</td><td>工器具单价</td></tr>
+    <tr><td><b>DIRECT COST TOTAL (f)</b></td><td class="num"><b>≈ 2,923</b></td><td>= 211.74 + 2510.46 + 200.84 + 设备</td></tr>
+  </table>
+
+  <p>三个必须记住的读法：</p>
+  <ol>
+    <li><b>看单价 = 看 f 的 U/Rate</b>，不是看 Amount（Amount = Qty × Rate，是总金额）。</li>
+    <li><b>f 里不含 a</b>：工时价只是参考，别把 196.06 也算进总价。</li>
+    <li><b>材料(c)往往是最大头</b>：混凝土类项材料占比通常 &gt;80%，所以比价时重点盯 c 列差异。</li>
+  </ol>
+</section>
+
+<!-- ============ 第6课 ============ -->
+<section class="lesson s2" id="l6" data-num="第 6 课 · 阶段二">
+  <h2>跨分包商对比：DUCT BANK 案例</h2>
+  <div class="sub">目标：用真实数据演示"同项比价"，并看到惊人的价差。</div>
+
+  <div class="gist">同一个 DUCT BANK 混凝土项，CCECC 材料价 2,510 vs TCC 466，差 5.4 倍——价差背后是范围定义不同。</div>
+
+  <p>把库里两家分包商同一个"DUCT BANK 混凝土"项放在一起（这是 README 里点名的经典案例）：</p>
+
+  <table>
+    <caption>DUCT BANK 混凝土 (fc'=20N/mm²) · 单价对比（AED/M3）</caption>
+    <tr><th>分包商</th><th class="num">人工 b</th><th class="num">材料 c</th><th class="num">工器具 d</th><th class="num">直接成本 f</th></tr>
+    <tr><td>CCECC（Civil Pkg II）</td><td class="num">211.7</td><td class="num hl">2,510.5</td><td class="num">200.8</td><td class="num">≈2,923</td></tr>
+    <tr><td>TCC（Civil Pkg I）</td><td class="num">1,054.1</td><td class="num anom">466.4</td><td class="num">159.9</td><td class="num">≈1,680</td></tr>
+    <tr><td><b>倍数</b></td><td class="num">5.0×</td><td class="num">5.4×</td><td class="num">0.8×</td><td class="num">1.7×</td></tr>
+  </table>
+
+  <p>注意一个<b>反直觉的点</b>：两家不是"整体贵/整体便宜"，而是<b>结构完全相反</b>——</p>
+  <ul>
+    <li>CCECC：材料贵（2,510）、人工便宜（212）→ 可能把混凝土、钢筋、模板、着色都算进"材料"了</li>
+    <li>TCC：材料便宜（466）、人工贵（1,054）→ 可能材料只含混凝土拌合物，人工含了模板、浇筑、养护等施工动作</li>
+  </ul>
+
+  <div class="warn"><b>所以比价绝不能只看 f 一个数字</b>。同样的 f≈2,923 vs 1,680，看似 TCC 便宜 42%，但如果 CCECC 的"材料"里包含了 TCC 放在"人工"里的模板工程，那两家的总价差异其实是假的。必须<b>逐要素(b/c/d/e)对齐"范围定义"</b>再比。</div>
+</section>
+
+<!-- ============ 阶段三 ============ -->
+<section class="lesson s3" id="l7" data-num="第 7 课 · 阶段三">
+  <h2>识别异常：凑整 / 留空 / 倒挂</h2>
+  <div class="sub">目标：练一双"扫一眼就发现数据有问题"的眼睛。</div>
+
+  <div class="gist">三类常见异常：金额整齐凑数（占位值）、关键项留空、费率倒挂（工头比工人便宜）。</div>
+
+  <h3>异常一：金额"整齐凑数"（占位值）</h3>
+  <p>间接费表里如果出现 <code>268,000 / 536,000 / 804,000 / 1,206,000 / 8,040,000</code> 这种<b>成倍数、尾数全 0</b> 的数字，往往不是逐项核算的真实报价，而是按某个基数比例摊出来的<b>占位值</b>。真实报价应该尾数参差。</p>
+
+  <h3>异常二：关键项留空</h3>
+  <p>汇总表 / 间接费表里 <code>总部管理费</code>、<code>利润</code> 这类关键行如果<b>金额留空</b>，是重大风险——分包可能"零利润"报价后靠变更找补，或根本漏报。</p>
+
+  <h3>异常三：费率倒挂</h3>
+  <p>正常逻辑里，<b>工头（Foreman）费率应高于工人（Welder）</b>。但实际数据里出现了倒挂：</p>
+  <table>
+    <caption>Foreman vs Welder 费率（AED/hr）</caption>
+    <tr><th>分包商 / 包</th><th class="num">Welder 焊工</th><th class="num">Foreman 工头</th><th>是否正常</th></tr>
+    <tr><td>CCECC MEI Pkg I-1 / I-3</td><td class="num">72</td><td class="num">102</td><td class="hl">✅ 正常（工头&gt;焊工）</td></tr>
+    <tr><td>TCC MEI Pkg II</td><td class="num">95.42</td><td class="num">106.43</td><td class="hl">✅ 正常</td></tr>
+    <tr><td>TCC Civil Pkg I</td><td class="num">73</td><td class="num anom">65.7</td><td class="anom">⚠️ 倒挂</td></tr>
+    <tr><td>TCC Civil Pkg III</td><td class="num">109.5</td><td class="num anom">91.25</td><td class="anom">⚠️ 倒挂</td></tr>
+  </table>
+
+  <div class="note"><b>倒挂意味着什么：</b>可能是报价笔误、列错位、或分包故意把部分成本藏到别处。发现倒挂要回头核实原始 Excel，别直接引用。</div>
+
+  <h3>异常四：焊工费率跨包价差过大</h3>
+  <p>同为"Welder"这个工种，四个包报出了 <code>72 / 73 / 95.42 / 109.5</code> 四种价，最高是最低的 <b>1.5 倍</b>。这可能是：① 不同项目阶段/技能要求；② 不同分包成本结构；③ 报价水分。比价时要问"为什么差这么多"。</p>
+</section>
+
+<!-- ============ 第8课 ============ -->
+<section class="lesson s3" id="l8" data-num="第 8 课 · 阶段三">
+  <h2>比价前先核实"范围定义"</h2>
+  <div class="sub">目标：理解"同项不同价"的根因，避免被表面价差误导。</div>
+
+  <div class="gist">同名的项，两家分包商报的"范围"可能完全不同——比价第一步是确认比的是不是同一个东西。</div>
+
+  <h3>为什么"同名不同价"</h3>
+  <p>以 DUCT BANK 为例，一个"CABLE TRENCH 混凝土"背后可能包含完全不同的工作内容组合：</p>
+  <ul>
+    <li>是否含<b>开挖/回填</b>（excavation/backfill）？</li>
+    <li>是否含<b>模板</b>（formwork）？</li>
+    <li>是否含<b>钢筋</b>（rebar）？</li>
+    <li>是否含<b>着色涂层</b>（红/绿氧化色标）？</li>
+    <li>混凝土是<b>分包自购</b>还是<b>总包供料</b>（free issue）？</li>
+  </ul>
+  <p>每一项"含/不含"都会把价格推高或压低，甚至改变"材料"和"人工"的归属。这解释了第 6 课看到的<b>人工/材料结构倒置</b>。</p>
+
+  <h3>怎么核实范围定义</h3>
+  <ol>
+    <li><b>看 BOQ 项的描述全文</b>（Description 列往往很长，含规范引用如 <code>BS EN 12878</code>）</li>
+    <li><b>对照 Responsibility Matrix</b>（谁供料、谁施工）</li>
+    <li><b>对照 Method of Measurement</b>（怎么计量）</li>
+    <li><b>看 Material Supplied By 列</b>（MEI 表有，标 Contractor 还是 Subcontractor）</li>
+  </ol>
+
+  <div class="tip"><b>经验法则：</b>跨分包商比价时，<b>先比"范围"再比"价"</b>。范围一致才谈得上比价；范围不一致，价格差异没有可比意义。</div>
+</section>
+
+<!-- ============ 第9课 ============ -->
+<section class="lesson s3" id="l9" data-num="第 9 课 · 阶段三">
+  <h2>用到实战：变更计价 / 定价基准 / 谈判</h2>
+  <div class="sub">目标：把数据库从"能查"变成"能赚钱/能省钱"的工具。</div>
+
+  <div class="gist">三个实战用途：变更算新价、新标定价基准、谈判压价抓手。</div>
+
+  <h3>用途一：变更计价（引用现成费率）</h3>
+  <p>现场发生变更、点工、待工时，直接用库里的费率表算钱，而不是临时谈价：</p>
+  <ul>
+    <li><b>Labor Rates</b>：点工按 AED/hr（含加班价）</li>
+    <li><b>Equipment Rates</b>：机械按月租/日租/待机三档</li>
+    <li><b>拆除价</b>：合同约定拆除 = 安装单价的 30%（可查对应安装项 f 列）</li>
+  </ul>
+
+  <h3>用途二：新标定价基准</h3>
+  <p>下次招标定"合理价区间"时，拉出库里<b>同类项的多家历史报价</b>做基准：取中位数、看离散度、识别谁报得离谱高或离谱低。</p>
+
+  <h3>用途三：谈判压价 / 对账抓手</h3>
+  <ul>
+    <li>分包报了个新项价格，你可以<b>用库里其他分包商的同类项压价</b>："同样 DUCT BANK，别人材料才 466，你报 2,510，解释一下范围差在哪。"</li>
+    <li>对账时发现某分包某要素（如材料 c）异常高，可要求对方<b>拆出构成</b>。</li>
+  </ul>
+
+  <div class="note"><b>一句话总结整个数据库的价值：</b>它是你的"分包价格记忆"。有了它，任何比价、定价、谈判都不用凭印象，直接查历史数据说话。</div>
+</section>
+
+<!-- ============ 附录 ============ -->
+<section class="lesson" id="app" data-num="附录">
+  <h2>术语卡 + 速查表 + 已知缺口</h2>
+
+  <h3>术语速记卡</h3>
+  <table>
+    <tr><th>术语</th><th>含义</th></tr>
+    <tr><td><code>U/Rate</code></td><td>单价（Unit Rate），与 Amount（金额=Qty×Rate）相对</td></tr>
+    <tr><td><code>Amount</code></td><td>金额 = 工程量 × 单价</td></tr>
+    <tr><td><code>a / b / c / d / e / f</code></td><td>工时/人工/材料/工器具/机械/直接成本合计</td></tr>
+    <tr><td><span class="term">Dia-Inch</span></td><td>焊口英寸 = 管径(英寸) × 焊口数，管道焊接计量单位</td></tr>
+    <tr><td><code>Green / Brown</code></td><td>绿区（新建）/ 棕区（改造、现有装置）</td></tr>
+    <tr><td><code>Lump Sum (LS)</code></td><td>包干价（间接费用）</td></tr>
+    <tr><td><code>WBS</code></td><td>工作分解结构（UNIT 10/30/40 等分区）</td></tr>
+    <tr><td><code>Free Issue</code></td><td>总包免费供料（对应"总包供料"）</td></tr>
+    <tr><td><code>CMS</code></td><td>施工管理服务（Construction Management Services）</td></tr>
+    <tr><td><code>Provisional Sum</code></td><td>暂列金（仅 CCECC Civil 有）</td></tr>
+  </table>
+
+  <h3>查询速查表</h3>
+  <pre><span class="c"># 列出已登记的工作表</span>
+python _query.py --list
+
+<span class="c"># 全文搜关键词（AND 逻辑）</span>
+python _query.py "DUCT BANK"
+python _query.py "MANHOLE" "CONCRETE"
+
+<span class="c"># 按 Category 精确搜</span>
+python _query.py --cat MANHOLE</pre>
+
+  <h3>缺口与改进建议（含已修复项）</h3>
+  <table>
+    <tr><th>#</th><th>状态</th><th>事项</th><th>影响 / 说明</th><th>处理</th></tr>
+    <tr><td>1</td><td><span class="tag lvl1">已修复</span></td><td><code>_manifest.json</code> 只登记 3 个土建目录 + 20 条路径失效</td><td><code>--list</code> 和关键词搜漏掉 MEI 三包 + 消防预制</td><td>已重建 manifest，覆盖 7 目录 116 CSV，路径全有效</td></tr>
+    <tr><td>2</td><td><span class="tag conf">待处理</span></td><td>列号因文件而异，易读错</td><td>按列号硬读会读错单价</td><td>用 <code>_column-mapping.md</code> 或按表头定位</td></tr>
+    <tr><td>3</td><td><span class="tag conf">待处理</span></td><td>TCC Civil 费率表 Foreman &lt; Welder</td><td>倒挂费率引用会算错点工费</td><td>引用前核实原始 Excel</td></tr>
+  </table>
+</section>
+
+<div class="footer">
+  <p>生成依据：<code>D:\Wison\_tools\price-database\</code> 实际 CSV 数据（含 DUCT BANK、Labor Rates 真实样本）。</p>
+  <p>Wison · Subcontract Knowledge Base</p>
+</div>
+
+</div>
+</body>
+</html>
