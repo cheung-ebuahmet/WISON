@@ -6,7 +6,7 @@
     "rev": "REV.B 2025/12/2",
     "sheet": "A-Summary",
     "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\A-Summary.csv",
-    "rows": 22,
+    "rows": 23,
     "cols": 13
   },
   {
@@ -14,40 +14,10 @@
     "package": "Civil Pkg II (标2)",
     "tag": "CCECC_PkgII",
     "rev": "REV.B 2025/12/2",
-    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "sheet": "A.1-INDIRECTS_BREAKDOWN",
     "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\A.1-INDIRECTS_BREAKDOWN.csv",
-    "rows": 58,
-    "cols": 4
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "PLOT PLAN（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN（Green）.csv",
-    "rows": 158,
-    "cols": 29
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "PLOT PLAN (Brown)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN_(Brown).csv",
-    "rows": 75,
-    "cols": 23
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "CIVIL（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CIVIL（Green）.csv",
-    "rows": 191,
-    "cols": 29
+    "rows": 67,
+    "cols": 28
   },
   {
     "subcon": "CCECC",
@@ -56,7 +26,7 @@
     "rev": "REV.B 2025/12/2",
     "sheet": "CIVIL（Brown)",
     "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CIVIL（Brown).csv",
-    "rows": 118,
+    "rows": 198,
     "cols": 21
   },
   {
@@ -64,39 +34,9 @@
     "package": "Civil Pkg II (标2)",
     "tag": "CCECC_PkgII",
     "rev": "REV.B 2025/12/2",
-    "sheet": "UG PIP （Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP_（Green）.csv",
-    "rows": 29,
-    "cols": 21
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "UG PIP（Brown)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP（Brown).csv",
-    "rows": 26,
-    "cols": 25
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "CMS (Green)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CMS_(Green).csv",
-    "rows": 13,
-    "cols": 18
-  },
-  {
-    "subcon": "CCECC",
-    "package": "Civil Pkg II (标2)",
-    "tag": "CCECC_PkgII",
-    "rev": "REV.B 2025/12/2",
-    "sheet": "Provisional Sum",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Provisional_Sum.csv",
-    "rows": 108,
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CIVIL（Green）.csv",
+    "rows": 311,
     "cols": 29
   },
   {
@@ -104,9 +44,29 @@
     "package": "Civil Pkg II (标2)",
     "tag": "CCECC_PkgII",
     "rev": "REV.B 2025/12/2",
-    "sheet": "Labor Rates",
+    "sheet": "CMS_(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\CMS_(Green).csv",
+    "rows": 25,
+    "cols": 22
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Equipment_Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Equipment_Rates.csv",
+    "rows": 259,
+    "cols": 5
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Labor_Rates",
     "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Labor_Rates.csv",
-    "rows": 98,
+    "rows": 105,
     "cols": 6
   },
   {
@@ -114,10 +74,870 @@
     "package": "Civil Pkg II (标2)",
     "tag": "CCECC_PkgII",
     "rev": "REV.B 2025/12/2",
+    "sheet": "PLOT_PLAN_(Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN_(Brown).csv",
+    "rows": 112,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "PLOT_PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\PLOT_PLAN（Green）.csv",
+    "rows": 221,
+    "cols": 29
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "Provisional_Sum",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Provisional_Sum.csv",
+    "rows": 191,
+    "cols": 29
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "UG_PIP_（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP_（Green）.csv",
+    "rows": 39,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "Civil Pkg II (标2)",
+    "tag": "CCECC_PkgII",
+    "rev": "REV.B 2025/12/2",
+    "sheet": "UG_PIP（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\UG_PIP（Brown).csv",
+    "rows": 35,
+    "cols": 25
+  },
+  {
+    "subcon": "LONGTAIDI",
+    "package": "消防管道预制",
+    "tag": "LONGTAIDI",
+    "rev": "有价版",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\LONGTAIDI\\Appendix D.1 BOQ For Firefighting Pipe Prefabrication.A-Summary.csv",
+    "rows": 19,
+    "cols": 4
+  },
+  {
+    "subcon": "LONGTAIDI",
+    "package": "消防管道预制",
+    "tag": "LONGTAIDI",
+    "rev": "有价版",
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\LONGTAIDI\\Appendix D.1 BOQ For Firefighting Pipe Prefabrication.COVER.csv",
+    "rows": 44,
+    "cols": 9
+  },
+  {
+    "subcon": "LONGTAIDI",
+    "package": "消防管道预制",
+    "tag": "LONGTAIDI",
+    "rev": "有价版",
     "sheet": "Equipment Rates",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\CCECC_PkgII\\Equipment_Rates.csv",
-    "rows": 258,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\LONGTAIDI\\Appendix D.1 BOQ For Firefighting Pipe Prefabrication.Equipment Rates.csv",
+    "rows": 260,
     "cols": 5
+  },
+  {
+    "subcon": "LONGTAIDI",
+    "package": "消防管道预制",
+    "tag": "LONGTAIDI",
+    "rev": "有价版",
+    "sheet": "FF Piping Prefab Works",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\LONGTAIDI\\Appendix D.1 BOQ For Firefighting Pipe Prefabrication.FF Piping Prefab Works.csv",
+    "rows": 38,
+    "cols": 17
+  },
+  {
+    "subcon": "LONGTAIDI",
+    "package": "消防管道预制",
+    "tag": "LONGTAIDI",
+    "rev": "有价版",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\LONGTAIDI\\Appendix D.1 BOQ For Firefighting Pipe Prefabrication.Labor Rates.csv",
+    "rows": 107,
+    "cols": 6
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.A-Summary.csv",
+    "rows": 38,
+    "cols": 4
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.A.1-INDIRECTS BREAKDOWN.csv",
+    "rows": 68,
+    "cols": 28
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.COVER.csv",
+    "rows": 45,
+    "cols": 9
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Electrical  (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Electrical (Brown).csv",
+    "rows": 241,
+    "cols": 24
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Electrical (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Electrical (Green）.csv",
+    "rows": 558,
+    "cols": 26
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Equipment Rates.csv",
+    "rows": 260,
+    "cols": 5
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Fire Fighting (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Fire Fighting (Brown).csv",
+    "rows": 117,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Fire Fighting (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Fire Fighting (Green）.csv",
+    "rows": 137,
+    "cols": 22
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "HVAC (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.HVAC (Brown).csv",
+    "rows": 40,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Instrumentation  (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Instrumentation (Brown).csv",
+    "rows": 161,
+    "cols": 24
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Instrumentation(Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Instrumentation(Green）.csv",
+    "rows": 953,
+    "cols": 28
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Labor Rates.csv",
+    "rows": 107,
+    "cols": 4
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Miscellaneous(Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Miscellaneous(Brown).csv",
+    "rows": 41,
+    "cols": 17
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Miscellaneous(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Miscellaneous(Green).csv",
+    "rows": 41,
+    "cols": 17
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "NDT(Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.NDT(Brown).csv",
+    "rows": 25,
+    "cols": 16
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "NDT(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.NDT(Green).csv",
+    "rows": 45,
+    "cols": 16
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Piping (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Piping (Green）.csv",
+    "rows": 265,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1 Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1 Summary.csv",
+    "rows": 59,
+    "cols": 17
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1-001",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1-001.csv",
+    "rows": 83,
+    "cols": 24
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1-002",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1-002.csv",
+    "rows": 122,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1-004",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1-004.csv",
+    "rows": 82,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1-005",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1-005.csv",
+    "rows": 310,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-1-006",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Pkg I-1-006.csv",
+    "rows": 81,
+    "cols": 37
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Rotary Equipment (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Rotary Equipment (Brown).csv",
+    "rows": 61,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Rotary Equipment（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Rotary Equipment（Green）.csv",
+    "rows": 175,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Static Equipment（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Static Equipment（Green）.csv",
+    "rows": 193,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Steel Structural (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Steel Structural (Brown).csv",
+    "rows": 59,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Steel Structural（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Steel Structural（Green）.csv",
+    "rows": 74,
+    "cols": 19
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Telecom (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Telecom (Brown).csv",
+    "rows": 426,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Telecom(Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.Telecom(Green）.csv",
+    "rows": 492,
+    "cols": 24
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.UG PIP （Green）.csv",
+    "rows": 83,
+    "cols": 22
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-1",
+    "tag": "Pkg I-1",
+    "rev": "有价版 2026-07-18",
+    "sheet": "UG PIP（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-1\\Appendix D BOQ For MEI Pkg I-1.UG PIP（Brown).csv",
+    "rows": 72,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.A-Summary.csv",
+    "rows": 20,
+    "cols": 9
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.A.1-INDIRECTS BREAKDOWN.csv",
+    "rows": 68,
+    "cols": 28
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.COVER.csv",
+    "rows": 45,
+    "cols": 9
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Equipment Rates.csv",
+    "rows": 260,
+    "cols": 5
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Fire Fighting (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Fire Fighting (Green）.csv",
+    "rows": 137,
+    "cols": 22
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Labor Rates.csv",
+    "rows": 107,
+    "cols": 4
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Miscellaneous(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Miscellaneous(Green).csv",
+    "rows": 41,
+    "cols": 17
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "NDT(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.NDT(Green).csv",
+    "rows": 45,
+    "cols": 16
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Piping (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Piping (Green）.csv",
+    "rows": 265,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-3 Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Pkg I-3 Summary.csv",
+    "rows": 59,
+    "cols": 17
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-3-003",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Pkg I-3-003.csv",
+    "rows": 241,
+    "cols": 23
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Pkg I-3-005",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Pkg I-3-005.csv",
+    "rows": 310,
+    "cols": 25
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Steel Structural（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Steel Structural（Green）.csv",
+    "rows": 74,
+    "cols": 21
+  },
+  {
+    "subcon": "CCECC",
+    "package": "MEI Pkg I-3",
+    "tag": "Pkg I-3",
+    "rev": "有价版 2026-07-18",
+    "sheet": "Zone_Mapping（分区）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\Pkg I-3\\Appendix D BOQ For MEI Pkg I-3.Zone_Mapping.csv",
+    "rows": 205,
+    "cols": 8
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "A-Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.A-Summary.csv",
+    "rows": 43,
+    "cols": 4
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "A.1-INDIRECTS BREAKDOWN",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.A.1-INDIRECTS BREAKDOWN.csv",
+    "rows": 68,
+    "cols": 28
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.COVER.csv",
+    "rows": 46,
+    "cols": 9
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Electrical  (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Electrical (Brown).csv",
+    "rows": 238,
+    "cols": 2538
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Electrical (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Electrical (Green）.csv",
+    "rows": 559,
+    "cols": 31
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Equipment Rates.csv",
+    "rows": 260,
+    "cols": 5
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Fire Fighting (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Fire Fighting (Brown).csv",
+    "rows": 79,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Fire Fighting (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Fire Fighting (Green）.csv",
+    "rows": 200,
+    "cols": 34
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "HVAC(Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.HVAC(Green）.csv",
+    "rows": 739,
+    "cols": 2523
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Instrumentation  (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Instrumentation (Brown).csv",
+    "rows": 181,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Instrumentation(Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Instrumentation(Green）.csv",
+    "rows": 948,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Labor Rates.csv",
+    "rows": 106,
+    "cols": 6
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Miscellaneous(Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Miscellaneous(Brown).csv",
+    "rows": 41,
+    "cols": 17
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Miscellaneous(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Miscellaneous(Green).csv",
+    "rows": 41,
+    "cols": 17
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "NDT(Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.NDT(Brown).csv",
+    "rows": 30,
+    "cols": 17
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "NDT(Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.NDT(Green).csv",
+    "rows": 44,
+    "cols": 17
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Piping (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Piping (Brown).csv",
+    "rows": 127,
+    "cols": 39
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Piping (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Piping (Green）.csv",
+    "rows": 284,
+    "cols": 43
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Pkg II Summary",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Pkg II Summary.csv",
+    "rows": 54,
+    "cols": 19
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Pkg II-007",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Pkg II-007.csv",
+    "rows": 127,
+    "cols": 25
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Pkg II-008",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Pkg II-008.csv",
+    "rows": 67,
+    "cols": 24
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Pkg II-009",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Pkg II-009.csv",
+    "rows": 68,
+    "cols": 24
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Pkg II-010",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Pkg II-010.csv",
+    "rows": 91,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Rotary Equipment（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Rotary Equipment（Green）.csv",
+    "rows": 174,
+    "cols": 28
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Static Equipment（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Static Equipment（Green）.csv",
+    "rows": 198,
+    "cols": 28
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Steel Structural (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Steel Structural (Brown).csv",
+    "rows": 59,
+    "cols": 21
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Steel Structural（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Steel Structural（Green）.csv",
+    "rows": 59,
+    "cols": 27
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Telecom (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Telecom (Brown).csv",
+    "rows": 425,
+    "cols": 2545
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "Telecom(Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.Telecom(Green）.csv",
+    "rows": 475,
+    "cols": 2531
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.UG PIP （Green）.csv",
+    "rows": 67,
+    "cols": 23
+  },
+  {
+    "subcon": "TCC",
+    "package": "MEI Pkg II",
+    "tag": "TCC_MEI_PkgII",
+    "rev": "有价版",
+    "sheet": "UG PIP（Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_MEI_PkgII\\Appendix D.1 BOQ For Pkg II.UG PIP（Brown).csv",
+    "rows": 39,
+    "cols": 23
   },
   {
     "subcon": "TCC",
@@ -125,8 +945,8 @@
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
     "sheet": "A-Summary",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\A-Summary.csv",
-    "rows": 26,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.A-Summary.csv",
+    "rows": 28,
     "cols": 8
   },
   {
@@ -135,38 +955,18 @@
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
     "sheet": "A.1-INDIRECTS BREAKDOWN",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\A.1-INDIRECTS_BREAKDOWN.csv",
-    "rows": 58,
-    "cols": 6
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.A.1-INDIRECTS BREAKDOWN.csv",
+    "rows": 68,
+    "cols": 30
   },
   {
     "subcon": "TCC",
     "package": "Civil Pkg I (标段1)",
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
-    "sheet": "PLOT PLAN（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\PLOT_PLAN（Green）.csv",
-    "rows": 104,
-    "cols": 26
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg I (标段1)",
-    "tag": "TCC_PkgI",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "PLOT PLAN (Brown)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\PLOT_PLAN_(Brown).csv",
-    "rows": 137,
-    "cols": 20
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg I (标段1)",
-    "tag": "TCC_PkgI",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "CIVIL（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CIVIL（Green）.csv",
-    "rows": 188,
+    "sheet": "BLDG （Green)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.BLDG （Green).csv",
+    "rows": 422,
     "cols": 27
   },
   {
@@ -175,8 +975,8 @@
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
     "sheet": "CIVIL（Brown)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CIVIL（Brown).csv",
-    "rows": 118,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.CIVIL（Brown).csv",
+    "rows": 199,
     "cols": 20
   },
   {
@@ -184,9 +984,9 @@
     "package": "Civil Pkg I (标段1)",
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
-    "sheet": "BLDG （Green)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\BLDG_（Green).csv",
-    "rows": 211,
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.CIVIL（Green）.csv",
+    "rows": 309,
     "cols": 27
   },
   {
@@ -194,9 +994,69 @@
     "package": "Civil Pkg I (标段1)",
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
+    "sheet": "CMS (Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.CMS (Green）.csv",
+    "rows": 26,
+    "cols": 23
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.COVER.csv",
+    "rows": 49,
+    "cols": 9
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Equipment Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.Equipment Rates.csv",
+    "rows": 260,
+    "cols": 5
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.Labor Rates.csv",
+    "rows": 106,
+    "cols": 4
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN (Brown)",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.PLOT PLAN (Brown).csv",
+    "rows": 202,
+    "cols": 20
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.PLOT PLAN（Green）.csv",
+    "rows": 147,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg I (标段1)",
+    "tag": "TCC_PkgI",
+    "rev": "REV.A 2025/09/05",
     "sheet": "UG PIP （Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\UG_PIP_（Green）.csv",
-    "rows": 29,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.UG PIP （Green）.csv",
+    "rows": 40,
     "cols": 21
   },
   {
@@ -205,39 +1065,9 @@
     "tag": "TCC_PkgI",
     "rev": "REV.A 2025/09/05",
     "sheet": "UG PIP（Brown)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\UG_PIP（Brown).csv",
-    "rows": 26,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Att 01_BOQ - Civil - BLDG Pkg I.UG PIP（Brown).csv",
+    "rows": 36,
     "cols": 21
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg I (标段1)",
-    "tag": "TCC_PkgI",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "CMS (Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\CMS_(Green）.csv",
-    "rows": 13,
-    "cols": 19
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg I (标段1)",
-    "tag": "TCC_PkgI",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "Labor Rates",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Labor_Rates.csv",
-    "rows": 98,
-    "cols": 4
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg I (标段1)",
-    "tag": "TCC_PkgI",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "Equipment Rates",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgI\\Equipment_Rates.csv",
-    "rows": 258,
-    "cols": 5
   },
   {
     "subcon": "TCC",
@@ -245,8 +1075,8 @@
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
     "sheet": "A-Summary",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\A-Summary.csv",
-    "rows": 22,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.A-Summary.csv",
+    "rows": 24,
     "cols": 4
   },
   {
@@ -255,29 +1085,9 @@
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
     "sheet": "A.1-INDIRECTS BREAKDOWN",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\A.1-INDIRECTS_BREAKDOWN.csv",
-    "rows": 58,
-    "cols": 4
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg III (标3)",
-    "tag": "TCC_PkgIII",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "PLOT PLAN（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\PLOT_PLAN（Green）.csv",
-    "rows": 83,
-    "cols": 26
-  },
-  {
-    "subcon": "TCC",
-    "package": "Civil Pkg III (标3)",
-    "tag": "TCC_PkgIII",
-    "rev": "REV.A 2025/09/05",
-    "sheet": "CIVIL（Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\CIVIL（Green）.csv",
-    "rows": 188,
-    "cols": 26
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.A.1-INDIRECTS BREAKDOWN.csv",
+    "rows": 68,
+    "cols": 28
   },
   {
     "subcon": "TCC",
@@ -285,8 +1095,8 @@
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
     "sheet": "BLDG （Green)",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\BLDG_（Green).csv",
-    "rows": 210,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.BLDG （Green).csv",
+    "rows": 420,
     "cols": 25
   },
   {
@@ -294,20 +1104,20 @@
     "package": "Civil Pkg III (标3)",
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
-    "sheet": "UG PIP （Green）",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\UG_PIP_（Green）.csv",
-    "rows": 30,
-    "cols": 21
+    "sheet": "CIVIL（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.CIVIL（Green）.csv",
+    "rows": 308,
+    "cols": 26
   },
   {
     "subcon": "TCC",
     "package": "Civil Pkg III (标3)",
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
-    "sheet": "Labor Rates",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Labor_Rates.csv",
-    "rows": 98,
-    "cols": 6
+    "sheet": "COVER",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.COVER.csv",
+    "rows": 49,
+    "cols": 9
   },
   {
     "subcon": "TCC",
@@ -315,8 +1125,38 @@
     "tag": "TCC_PkgIII",
     "rev": "REV.A 2025/09/05",
     "sheet": "Equipment Rates",
-    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Equipment_Rates.csv",
-    "rows": 258,
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.Equipment Rates.csv",
+    "rows": 260,
     "cols": 5
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "Labor Rates",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.Labor Rates.csv",
+    "rows": 106,
+    "cols": 6
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "PLOT PLAN（Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.PLOT PLAN（Green）.csv",
+    "rows": 126,
+    "cols": 26
+  },
+  {
+    "subcon": "TCC",
+    "package": "Civil Pkg III (标3)",
+    "tag": "TCC_PkgIII",
+    "rev": "REV.A 2025/09/05",
+    "sheet": "UG PIP （Green）",
+    "csv_file": "D:\\Wison\\_tools\\price-database\\TCC_PkgIII\\Att 02_BOQ - Civil - BLDG Pkg III.UG PIP （Green）.csv",
+    "rows": 41,
+    "cols": 21
   }
 ]
