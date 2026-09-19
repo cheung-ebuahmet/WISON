@@ -40,7 +40,7 @@ HTML = """<!DOCTYPE html>
 
 <div class="card">
   <h1>Subcontractor Registration — Document Submission Requirements</h1>
-  <p class="sub">WISON — ADNOC SGP Project · v5.0 (REVISED)</p>
+  <p class="sub">WISON — ADNOC RSGP Project · v5.0 (REVISED)</p>
   <p>To our valued Subcontractor / Supplier:</p>
   <p>Please provide the <b>supporting documents listed below</b>. The registration form itself will be completed by Wison; you only need to prepare and return the documents indicated.</p>
   <p class="warn">⚠️ Documents marked <span class="req">red</span> are <b>mandatory</b> and must not be omitted.</p>

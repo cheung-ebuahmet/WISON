@@ -10,7 +10,7 @@
 
 ### 1.1 项目概况
 
-**总项目**：Hail & Ghasha — Ruwais Sulphur Granulation Plant (SGP) at RSHT - 2  
+**总项目**：Hail & Ghasha — Ruwais Sulphur Granulation Plant (RSGP) at RSHT - 2  
 **业主**：ADNOC GAS OPERATIONS AND MARKETING – L.L.C.  
 **总包商**：WISON ENERGY ENGINEERING (HONG KONG) LIMITED – ABU DHABI  
 **总包合同金额**：~USD 800M+  

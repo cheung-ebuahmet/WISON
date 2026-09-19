@@ -2,8 +2,8 @@
 # SPECIAL-PURPOSE EPC ALIAS MAPPER & PROJECT TRANSLATION MATRIX
 # ==============================================================================
 project_identity_mappings:
-  official_contract_code: "SGP"
-  legacy_owner_typo_alias: "RSGP"
+  official_contract_code: "RSGP"
+  legacy_internal_alias: "SGP"
   description: "Sulphur Granulation Plant for Hail & Ghasha Development Project"
 
 area_tag_spacing_variants:

@@ -88,7 +88,7 @@ info = [
     ("英文名称", "Subcontract Agreement for Fire-Fighting Piping (3-inch and above)\nFabrication Works on FOB Basis"),
     ("合同编号", "WISON24108C26010"),
     ("签约方", "（1）WISON ENERGY ENGINEERING (HONG KONG) LIMITED – ABU DHABI（承包商 / Contractor）\n（2）Cangzhou Longtaidi Pipe Technology Co., Ltd. / 沧州隆泰迪管道科技有限公司（分包商 / Subcontractor）"),
-    ("项目名称", "Sulphur Granulation Plant (SGP) at RSHT - 2 for Hail & Ghasha Project"),
+    ("项目名称", "Sulphur Granulation Plant (RSGP) at RSHT - 2 for Hail & Ghasha Project"),
 ]
 for ri, (label, val) in enumerate(info):
     set_cell(t1.rows[ri].cells[0], label, bold=True)

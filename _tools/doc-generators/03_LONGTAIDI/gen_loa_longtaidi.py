@@ -120,7 +120,7 @@ print("  P0 Date → 28th July, 2026")
 # P2: Project:XXXXXX → Project: full name
 set_para(doc.paragraphs[2], [
     ("Project: ", False, 9, "Times New Roman"),
-    ("Ruwais Sulphur Granulation Plant (SGP) at RSHT - 2 for Hail & Ghasha Project", False, 9, None),
+    ("Ruwais Sulphur Granulation Plant (RSGP) at RSHT - 2 for Hail & Ghasha Project", False, 9, None),
 ], highlight=False)
 # Highlight the project name only
 p2_runs = doc.paragraphs[2]._p.findall(qn('w:r'))
@@ -129,7 +129,7 @@ if len(p2_runs) >= 2:
     if rPr is None:
         rPr = OxmlElement('w:rPr'); p2_runs[1].insert(0, rPr)
     rPr.append(mk_hl())
-print("  P2 Project → SGP at RSHT-2")
+print("  P2 Project → RSGP at RSHT-2")
 
 # P3: From:XXXXXX → Wison full name
 set_para(doc.paragraphs[3], [
@@ -401,7 +401,7 @@ print("  Table 1 — Subcontractor address ✓")
 # ============================================================
 print("\n--- Verification ---")
 checks = [
-    "28th July, 2026", "SGP", "WISON ENERGY ENGINEERING",
+    "28th July, 2026", "RSGP", "WISON ENERGY ENGINEERING",
     "Longtaidi", "Song Yang", "General Manager",
     "976,747.73", "Nine Hundred Seventy-Six",
     "97,674.77", "FOB Basis", "People's Republic of China",

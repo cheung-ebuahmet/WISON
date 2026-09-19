@@ -228,7 +228,7 @@ body(doc, "The following are active/known workstreams that the handover receiver
 contracts_table = [
     ["12.1 CCECC-MEI Pkg I", "Amendment 01 (Amdt 01) — finalised after 15 drafting iterations. Amdt 01 EN alignment done. LOA attachments renamed to Pkg system (body text untouched). Descope financial logic applied."],
     ["12.1 Sub-packages", "PK-3 = Pkg I-3 (北方国际 + 二十三冶). TCC = 三化建 (NOT 中交天航). MEI subcontractor→package mapping documented."],
-    ["SGP / RSHT", "SGP (not RSGP) + RSHT-2 naming convention with spaces. Full name first use, then abbreviation."],
+    ["RSGP / RSHT", "RSGP (not SGP) + RSHT-2 naming convention with spaces. Full name first use, then abbreviation."],
     ["Payment Applications", "Standardised template created (see Section 3 below)."],
     ["BOQ Pricing Database", r"135 CSVs across 7 subdirectories under D:\Wison\_tools\price-database\. All prices/rates/totals are excl. VAT by default. Covers Civil + MEI + fire protection + prefabrication."],
 ]

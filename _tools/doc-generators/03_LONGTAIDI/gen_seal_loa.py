@@ -87,7 +87,7 @@ info = [
     ("LOA 编号", "24108-CC0401-25002-LOA-19"),
     ("LOA 日期", "2026 年 7 月 28 日"),
     ("发函方 / 签约方", "WISON ENERGY ENGINEERING (HONG KONG) LIMITED – ABU DHABI\n（承包商 / Contractor —— 签署发出方）\n\n受函方：\nCangzhou Longtaidi Pipe Technology Co., Ltd.\n沧州隆泰迪管道科技有限公司\n（分包商 / Subcontractor —— 签署接受方）"),
-    ("项目名称", "Sulphur Granulation Plant (SGP) at RSHT-2 for Hail & Ghasha Project"),
+    ("项目名称", "Sulphur Granulation Plant (RSGP) at RSHT-2 for Hail & Ghasha Project"),
 ]
 for ri, (label, val) in enumerate(info):
     set_cell(t1.rows[ri].cells[0], label, bold=True)

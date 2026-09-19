@@ -7,15 +7,12 @@ SCOPE — SELF-PRODUCED LAYER ONLY:
     (Evidence OCR layer _Ref/kb/** is NEVER touched — faithful mirror of source.)
 
 RULES:
-    RSGP            -> SGP          (also fixes 'EPC-ADNOC-RSGP.yaml' link text)
+    SGP             -> RSGP         (official external name; word-boundary, never touches RSGP)
     RSHT-2/RSHT 2/RSHT2 -> 'RSHT - 2'  (official spacing)
 
 USAGE:
     python normalize_naming.py            # DRY RUN — print unified diff, write nothing
     python normalize_naming.py --apply    # hard write to disk (only after diff vetting)
-
-The file rename EPC-ADNOC-RSGP.yaml -> EPC-ADNOC-SGP.yaml is reported but performed
-separately (git-aware) after authorization.
 """
 import os, re, sys, glob, difflib
 
@@ -23,11 +20,13 @@ ROOT = r"D:\Wison"
 DATA = os.path.join(ROOT, "_Ref", "data")
 APPLY = "--apply" in sys.argv
 
+# standalone SGP -> RSGP (word-boundary: leaves 'EPC-ADNOC-RSGP' etc. intact)
+SGP_RE = re.compile(r"(?<![A-Za-z])SGP(?![A-Za-z])")
 # RSHT variants -> "RSHT - 2" (idempotent; won't touch a 2 that is part of a longer number)
 RSHT_RE = re.compile(r"RSHT[ ]*-?[ ]*2(?!\d)")
 
 def normalize(text):
-    text = text.replace("RSGP", "SGP")
+    text = SGP_RE.sub("RSGP", text)
     text = RSHT_RE.sub("RSHT - 2", text)
     return text
 
