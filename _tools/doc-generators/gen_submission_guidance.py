@@ -122,7 +122,7 @@ def main():
         if 'Pre-Qualification' in name:
             pq = os.path.join(base, name)
             break
-    rev = os.path.join(pq, 'ADNOC WISON SGP Pre-Qualification Requirements (REVISED)')
+    rev = os.path.join(pq, 'ADNOC WISON RSGP Pre-Qualification Requirements (REVISED)')
 
     out = os.path.join(rev, '00 - Submission Guidance (REVISED).html')
     with open(out, 'w', encoding='utf-8') as f:

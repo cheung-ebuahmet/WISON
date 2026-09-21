@@ -43,7 +43,7 @@ def resolve_dir():
             break
     if parent is None:
         raise SystemExit('parent dir not found')
-    out = os.path.join(parent, 'ADNOC WISON SGP Pre-Qualification Requirements (REVISED)')
+    out = os.path.join(parent, 'ADNOC WISON RSGP Pre-Qualification Requirements (REVISED)')
     os.makedirs(out, exist_ok=True)
     return out
 
@@ -389,7 +389,7 @@ def build():
 
         row += 1  # gap between modules
 
-    out_path = os.path.join(out_dir, 'ADNOC WISON SGP Subcontractor Registration.xlsx')
+    out_path = os.path.join(out_dir, 'ADNOC WISON RSGP Subcontractor Registration.xlsx')
     wb.save(out_path)
     print('SAVED:', out_path)
     print('MODULES:', [m['id'] for m in MODULES])

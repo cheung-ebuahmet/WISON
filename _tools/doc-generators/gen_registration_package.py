@@ -12,7 +12,7 @@ for name in os.listdir(base):
     if 'Pre-Qualification' in name:
         pq = os.path.join(base, name)
         break
-rev = os.path.join(pq, 'ADNOC WISON SGP Pre-Qualification Requirements (REVISED)')
+rev = os.path.join(pq, 'ADNOC WISON RSGP Pre-Qualification Requirements (REVISED)')
 
 zip_path = os.path.join(rev, 'Subcontractor Registration Package.zip')
 
